@@ -15,6 +15,19 @@ Explanation: 342 + 465 = 807.
 ```
 ## 思路
 
+设立一个表示进位的变量carried，建立一个新链表，
+把输入的两个链表从头往后同时处理，每两个相加，将结果加上carried后的值作为一个新节点到新链表后面。
+
+![2.addTwoNumbers](./assets/2.addTwoNumbers.gif)
+
+(图片来自： https://github.com/MisterBooo/LeetCodeAnimation)
+
+## 关键点解析
+
+1. 链表这种数据结构的特点和使用
+
+2. 用一个carried变量来实现进位的功能，每次相加之后计算carried，并用于下一位的计算
+
 ## 代码
 ```js
 /**
