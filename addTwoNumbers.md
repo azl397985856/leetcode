@@ -30,7 +30,7 @@ Explanation: 342 + 465 = 807.
  * @return {ListNode}
  */
 var addTwoNumbers = function(l1, l2) {
-    var carried = 0; // 用于进位
+  var carried = 0; // 用于进位
   const head = new ListNode();
   const noop = {
     val: 0,
