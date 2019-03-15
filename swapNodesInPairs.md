@@ -13,15 +13,16 @@ Example:
 Given 1->2->3->4, you should return the list as 2->1->4->3.
 ## 思路
 
-设置一个dummy 节点简化操作。  
+设置一个dummy 节点简化操作,dummy next 指向head。  
 
 1. 初始化first为第一个节点
 2. 初始化second为第二个节点
 3. 初始化current为dummy
 4. first.next = second.next
 5. second.next = first
-6. current 移动两格
-7. 重复
+6. current.next = second
+7. current 移动两格
+8. 重复
 
 ![24.swap-nodes-in-pairs](./assets/24.swap-nodes-in-pairs.gif)
 
