@@ -15,20 +15,13 @@ Given 1->2->3->4, you should return the list as 2->1->4->3.
 
 设置一个dummy 节点简化操作。  
 
-设置一个虚拟头结点dummyHead
-
-设置需要交换的两个节点分别为node1、node2，同时设置node2的下一个节点next
-
-在这一轮操作中
-将node2节点的next设置为node1节点
-
-将node1节点的next设置为next节点
-
-将dummyHead节点的next设置为node2
-
-结束本轮操作
-
-接下来的每轮操作都按照上述进行。
+1. 初始化first为第一个节点
+2. 初始化second为第二个节点
+3. 初始化current为dummy
+4. first.next = second.next
+5. second.next = first
+6. current 移动两格
+7. 重复
 
 ![24.swap-nodes-in-pairs](./assets/24.swap-nodes-in-pairs.gif)
 
@@ -84,11 +77,16 @@ var swapPairs = function(head) {
   dummy.next = head;
   let current = dummy;
   while (current.next != null && current.next.next != null) {
+    // 初始化双指针
     const first = current.next;
     const second = current.next.next;
+    
+    // 更新双指针和current指针
     first.next = second.next;
+    second.next = first;
     current.next = second;
-    current.next.next = first;
+
+    // 更新指针
     current = current.next.next;
   }
   return dummy.next;
