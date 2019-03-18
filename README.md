@@ -4,6 +4,7 @@ leetcode题解，记录自己的leecode解题之路。
 ## 传送门
 ### 简单难度
 - [20. Valid Parentheses](https://github.com/azl397985856/leetcode/blob/master/validParentheses.md)
+- [26.remove-duplicates-from-sorted-array](https://github.com/azl397985856/leetcode/blob/master/26.remove-duplicates-from-sorted-array.md)
 ### 中等难度
 - [2. Add Two Numbers](https://github.com/azl397985856/leetcode/blob/master/addTwoNumbers.md)
 - [3. Longest Substring Without Repeating Characters](https://github.com/azl397985856/leetcode/blob/master/longestSubstringWithoutRepeatingCharacters.md)
