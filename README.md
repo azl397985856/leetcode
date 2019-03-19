@@ -11,5 +11,6 @@ leetcode题解，记录自己的leecode解题之路。
 - [5. Longest Palindromic Substring](https://github.com/azl397985856/leetcode/blob/master/longestPalindromicSubstring.md)
 - [19. Remove Nth Node From End of List](https://github.com/azl397985856/leetcode/blob/master/removeNthNodeFromEndofList.md)
 - [24. Swap Nodes In Pairs](https://github.com/azl397985856/leetcode/blob/master/swapNodesInPairs.md)
+- [75.sort-colors.md](https://github.com/azl397985856/leetcode/blob/master/75.sort-colors.md)
 
 ### 高级难度
