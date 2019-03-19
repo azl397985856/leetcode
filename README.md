@@ -12,5 +12,5 @@ leetcode题解，记录自己的leecode解题之路。
 - [19. Remove Nth Node From End of List](https://github.com/azl397985856/leetcode/blob/master/removeNthNodeFromEndofList.md)
 - [24. Swap Nodes In Pairs](https://github.com/azl397985856/leetcode/blob/master/swapNodesInPairs.md)
 - [75.sort-colors.md](https://github.com/azl397985856/leetcode/blob/master/75.sort-colors.md)
-
+- [86.partition-list](./86.partition-list.md)
 ### 高级难度
