@@ -16,4 +16,7 @@ leetcode题解，记录自己的leecode解题之路。
 - [75.sort-colors.md](https://github.com/azl397985856/leetcode/blob/master/75.sort-colors.md)
 - [86.partition-list](./86.partition-list.md)
 - [92.reverse-linked-list-ii](./92.reverse-linked-list-ii.md)
+- [94.binary-tree-inorder-traversal](./94.binary-tree-inorder-traversal.md)
+- [102.binary-tree-level-order-traversal](./102.binary-tree-level-order-traversal.md)
+- [103.binary-tree-zigzag-level-order-traversal](./103.binary-tree-zigzag-level-order-traversal.md)
 ### 高级难度
