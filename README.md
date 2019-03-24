@@ -7,6 +7,7 @@ leetcode题解，记录自己的leecode解题之路。
 - [26.remove-duplicates-from-sorted-array](https://github.com/azl397985856/leetcode/blob/master/26.remove-duplicates-from-sorted-array.md)
 - [206.reverse-linked-list](./206.reverse-linked-list.md)
 - [136.single-number](./136.single-number.md)
+- [167.two-sum-ii-input-array-is-sorted](./167.two-sum-ii-input-array-is-sorted.md)
 
 ### 中等难度
 - [2. Add Two Numbers](https://github.com/azl397985856/leetcode/blob/master/addTwoNumbers.md)
