@@ -6,6 +6,7 @@ leetcode题解，记录自己的leecode解题之路。
 - [20. Valid Parentheses](https://github.com/azl397985856/leetcode/blob/master/validParentheses.md)
 - [26.remove-duplicates-from-sorted-array](https://github.com/azl397985856/leetcode/blob/master/26.remove-duplicates-from-sorted-array.md)
 - [206.reverse-linked-list](./206.reverse-linked-list.md)
+- [136.single-number](./136.single-number.md)
 
 ### 中等难度
 - [2. Add Two Numbers](https://github.com/azl397985856/leetcode/blob/master/addTwoNumbers.md)
@@ -19,4 +20,7 @@ leetcode题解，记录自己的leecode解题之路。
 - [94.binary-tree-inorder-traversal](./94.binary-tree-inorder-traversal.md)
 - [102.binary-tree-level-order-traversal](./102.binary-tree-level-order-traversal.md)
 - [103.binary-tree-zigzag-level-order-traversal](./103.binary-tree-zigzag-level-order-traversal.md)
+- [144.binary-tree-preorder-traversal](./144.binary-tree-preorder-traversal.md)
 ### 高级难度
+
+- [145.binary-tree-postorder-traversal](./145.binary-tree-postorder-traversal.md)
