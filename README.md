@@ -8,6 +8,9 @@ leetcode题解，记录自己的leecode解题之路。
 - [206.reverse-linked-list](./206.reverse-linked-list.md)
 - [136.single-number](./136.single-number.md)
 - [167.two-sum-ii-input-array-is-sorted](./167.two-sum-ii-input-array-is-sorted.md)
+- [203.remove-linked-list-elements](./203.remove-linked-list-elements.md)
+- [219.contains-duplicate-ii](./219.contains-duplicate-ii.md)
+- [283.move-zeroes](./283.move-zeroes.md)
 
 ### 中等难度
 - [2. Add Two Numbers](https://github.com/azl397985856/leetcode/blob/master/addTwoNumbers.md)
@@ -22,6 +25,8 @@ leetcode题解，记录自己的leecode解题之路。
 - [102.binary-tree-level-order-traversal](./102.binary-tree-level-order-traversal.md)
 - [103.binary-tree-zigzag-level-order-traversal](./103.binary-tree-zigzag-level-order-traversal.md)
 - [144.binary-tree-preorder-traversal](./144.binary-tree-preorder-traversal.md)
+- [150.evaluate-reverse-polish-notation](./150.evaluate-reverse-polish-notation.md)
+
 ### 高级难度
 
 - [145.binary-tree-postorder-traversal](./145.binary-tree-postorder-traversal.md)
