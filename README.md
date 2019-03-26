@@ -11,6 +11,7 @@ leetcode题解，记录自己的leecode解题之路。
 - [203.remove-linked-list-elements](./203.remove-linked-list-elements.md)
 - [219.contains-duplicate-ii](./219.contains-duplicate-ii.md)
 - [283.move-zeroes](./283.move-zeroes.md)
+- [349.intersection-of-two-arrays](./349.intersection-of-two-arrays.md)
 
 ### 中等难度
 - [2. Add Two Numbers](https://github.com/azl397985856/leetcode/blob/master/addTwoNumbers.md)
@@ -26,6 +27,9 @@ leetcode题解，记录自己的leecode解题之路。
 - [103.binary-tree-zigzag-level-order-traversal](./103.binary-tree-zigzag-level-order-traversal.md)
 - [144.binary-tree-preorder-traversal](./144.binary-tree-preorder-traversal.md)
 - [150.evaluate-reverse-polish-notation](./150.evaluate-reverse-polish-notation.md)
+- [328.odd-even-linked-list](./328.odd-even-linked-list.md)
+- [445.add-two-numbers-ii](./445.add-two-numbers-ii.md)
+- [877.stone-game](./877.stone-game.md)
 
 ### 高级难度
 
