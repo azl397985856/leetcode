@@ -31,6 +31,6 @@ leetcode题解，记录自己的leecode解题之路。
 - [445.add-two-numbers-ii](./445.add-two-numbers-ii.md)
 - [877.stone-game](./877.stone-game.md)
 
-### 高级难度
-
+### 困难难度
 - [145.binary-tree-postorder-traversal](./145.binary-tree-postorder-traversal.md)
+- [146.lru-cache](./146.lru-cache.md)
