@@ -30,6 +30,7 @@ leetcode题解，记录自己的leecode解题之路。
 - [328.odd-even-linked-list](./328.odd-even-linked-list.md)
 - [445.add-two-numbers-ii](./445.add-two-numbers-ii.md)
 - [877.stone-game](./877.stone-game.md)
+- [279.perfect-squares](./279.perfect-squares.md)
 
 ### 困难难度
 - [145.binary-tree-postorder-traversal](./145.binary-tree-postorder-traversal.md)
