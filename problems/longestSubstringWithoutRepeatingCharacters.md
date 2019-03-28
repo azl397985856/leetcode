@@ -23,7 +23,7 @@ Given "pwwkew", the answer is "wke", with the length of 3. Note that the answer 
 
 （4）维护一个结果res，每次用出现过的窗口大小来更新结果res，最后返回res获取结果。
 
-![3.longestSubstringWithoutRepeatingCharacters](./assets/3.longestSubstringWithoutRepeatingCharacters.gif)
+![3.longestSubstringWithoutRepeatingCharacters](../assets/3.longestSubstringWithoutRepeatingCharacters.gif)
 
 (图片来自： https://github.com/MisterBooo/LeetCodeAnimation)
 

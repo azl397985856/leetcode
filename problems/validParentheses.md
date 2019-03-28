@@ -48,7 +48,7 @@ Output: true
 
 
 
-![20.validParentheses](./assets/20.validParentheses.gif)
+![20.validParentheses](../assets/20.validParentheses.gif)
 
 (图片来自： https://github.com/MisterBooo/LeetCodeAnimation)
 

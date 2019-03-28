@@ -24,7 +24,7 @@ Given 1->2->3->4, you should return the list as 2->1->4->3.
 7. current 移动两格
 8. 重复
 
-![24.swap-nodes-in-pairs](./assets/24.swap-nodes-in-pairs.gif)
+![24.swap-nodes-in-pairs](../assets/24.swap-nodes-in-pairs.gif)
 
 (图片来自： https://github.com/MisterBooo/LeetCodeAnimation)
 

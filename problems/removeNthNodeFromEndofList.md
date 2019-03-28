@@ -35,7 +35,7 @@ Could you do this in one pass?
 
 
 
-![19.removeNthNodeFromEndOfList](./assets/19.removeNthNodeFromEndOfList.gif)
+![19.removeNthNodeFromEndOfList](../assets/19.removeNthNodeFromEndOfList.gif)
 
 (图片来自： https://github.com/MisterBooo/LeetCodeAnimation)
 
