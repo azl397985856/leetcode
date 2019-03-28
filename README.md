@@ -1,8 +1,11 @@
 # 介绍
-leetcode题解，记录自己的leecode解题之路。
+
+leetcode 题解，记录自己的 leecode 解题之路。
 
 ## 传送门
+
 ### 简单难度
+
 - [20. Valid Parentheses](https://github.com/azl397985856/leetcode/blob/master/validParentheses.md)
 - [26.remove-duplicates-from-sorted-array](https://github.com/azl397985856/leetcode/blob/master/26.remove-duplicates-from-sorted-array.md)
 - [206.reverse-linked-list](./206.reverse-linked-list.md)
@@ -14,6 +17,7 @@ leetcode题解，记录自己的leecode解题之路。
 - [349.intersection-of-two-arrays](./349.intersection-of-two-arrays.md)
 
 ### 中等难度
+
 - [2. Add Two Numbers](https://github.com/azl397985856/leetcode/blob/master/addTwoNumbers.md)
 - [3. Longest Substring Without Repeating Characters](https://github.com/azl397985856/leetcode/blob/master/longestSubstringWithoutRepeatingCharacters.md)
 - [5. Longest Palindromic Substring](https://github.com/azl397985856/leetcode/blob/master/longestPalindromicSubstring.md)
@@ -31,7 +35,10 @@ leetcode题解，记录自己的leecode解题之路。
 - [445.add-two-numbers-ii](./445.add-two-numbers-ii.md)
 - [877.stone-game](./877.stone-game.md)
 - [279.perfect-squares](./279.perfect-squares.md)
+- [199.binary-tree-right-side-view](./199.binary-tree-right-side-view.md)
+- [209.minimum-size-subarray-sum](./209.minimum-size-subarray-sum.md)
 
 ### 困难难度
+
 - [145.binary-tree-postorder-traversal](./145.binary-tree-postorder-traversal.md)
 - [146.lru-cache](./146.lru-cache.md)
