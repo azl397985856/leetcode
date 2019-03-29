@@ -32,12 +32,12 @@ leetcode 题解，记录自己的 leecode 解题之路。
 
 #### 中等难度
 
-- [2. Add Two Numbers](https://github.com/azl397985856/leetcode/blob/master/addTwoNumbers.md)
-- [3. Longest Substring Without Repeating Characters](https://github.com/azl397985856/leetcode/blob/master/longestSubstringWithoutRepeatingCharacters.md)
-- [5. Longest Palindromic Substring](https://github.com/azl397985856/leetcode/blob/master/longestPalindromicSubstring.md)
-- [19. Remove Nth Node From End of List](https://github.com/azl397985856/leetcode/blob/master/removeNthNodeFromEndofList.md)
-- [24. Swap Nodes In Pairs](https://github.com/azl397985856/leetcode/blob/master/swapNodesInPairs.md)
-- [75.sort-colors.md](https://github.com/azl397985856/leetcode/blob/master/75.sort-colors.md)
+- [2. Add Two Numbers](./problems/addTwoNumbers.md)
+- [3. Longest Substring Without Repeating Characters](./problems/longestSubstringWithoutRepeatingCharacters.md)
+- [5. Longest Palindromic Substring](./problems/longestPalindromicSubstring.md)
+- [19. Remove Nth Node From End of List](./problems/removeNthNodeFromEndofList.md)
+- [24. Swap Nodes In Pairs](./problems/swapNodesInPairs.md)
+- [75.sort-colors.md](./problems/75.sort-colors.md)
 - [86.partition-list](./problems/86.partition-list.md)
 - [92.reverse-linked-list-ii](./problems/92.reverse-linked-list-ii.md)
 - [94.binary-tree-inorder-traversal](./problems/94.binary-tree-inorder-traversal.md)
