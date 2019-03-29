@@ -59,8 +59,9 @@ leetcode 题解，记录自己的 leecode 解题之路。
 
 ### 数据结构与算法的总结
 
-- [basic-data-structure](./thinkings/basic-data-structure.md)
-- [binary-tree-traversal](./thinkings/binary-tree-traversal.md)
+- [basic-data-structure](./thinkings/basic-data-structure.md)（草稿）
+- [binary-tree-traversal](./thinkings/binary-tree-traversal.md)（草稿）
+- [dynamic-programming](./thinkings/dynamic-programming.md)（草稿）
 
 ### anki 卡片
 
@@ -71,3 +72,7 @@ TODO
 [301.remove-invalid-parentheses]
 
 [609.find-duplicate-file-in-system]
+
+[一个非常简单，但是有效的算法 - 布隆过滤器]
+
+> 从这个算法可以对 tradeoff 有更入的理解。
