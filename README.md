@@ -60,8 +60,8 @@ leetcode 题解，记录自己的 leecode 解题之路。
 ### 数据结构与算法的总结
 
 - [basic-data-structure](./thinkings/basic-data-structure.md)（草稿）
-- [binary-tree-traversal](./thinkings/binary-tree-traversal.md)（草稿）
-- [dynamic-programming](./thinkings/dynamic-programming.md)（草稿）
+- [binary-tree-traversal](./thinkings/binary-tree-traversal.md)
+- [dynamic-programming](./thinkings/dynamic-programming.md)
 
 ### anki 卡片
 
