@@ -29,6 +29,8 @@ leetcode 题解，记录自己的 leecode 解题之路。
 - [219.contains-duplicate-ii](./problems/219.contains-duplicate-ii.md)
 - [283.move-zeroes](./problems/283.move-zeroes.md)
 - [349.intersection-of-two-arrays](./problems/349.intersection-of-two-arrays.md)
+- [190.reverse-bits](./problems/190.reverse-bits.md)
+- [191.number-of-1-bits](./problems/191.number-of-1-bits.md)
 
 #### 中等难度
 
@@ -50,6 +52,7 @@ leetcode 题解，记录自己的 leecode 解题之路。
 - [877.stone-game](./problems/877.stone-game.md)
 - [279.perfect-squares](./problems/279.perfect-squares.md)
 - [199.binary-tree-right-side-view](./problems/199.binary-tree-right-side-view.md)
+- [201.bitwise-and-of-numbers-range](./problems/201.bitwise-and-of-numbers-range.md)
 - [209.minimum-size-subarray-sum](./problems/209.minimum-size-subarray-sum.md)
 
 #### 困难难度
