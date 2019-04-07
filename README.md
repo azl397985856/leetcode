@@ -54,6 +54,7 @@ leetcode 题解，记录自己的 leecode 解题之路。
 - [199.binary-tree-right-side-view](./problems/199.binary-tree-right-side-view.md)
 - [201.bitwise-and-of-numbers-range](./problems/201.bitwise-and-of-numbers-range.md)
 - [209.minimum-size-subarray-sum](./problems/209.minimum-size-subarray-sum.md)
+- [900.rle-iterator](./problems/900.rle-iterator)
 
 #### 困难难度
 
@@ -65,6 +66,7 @@ leetcode 题解，记录自己的 leecode 解题之路。
 - [basic-data-structure](./thinkings/basic-data-structure.md)（草稿）
 - [binary-tree-traversal](./thinkings/binary-tree-traversal.md)
 - [dynamic-programming](./thinkings/dynamic-programming.md)
+- [哈夫曼编码和游程编码](./thinkings/run-length-encode-and-huffman-encode.md)
 
 ### anki 卡片
 
@@ -75,8 +77,6 @@ TODO
 [301.remove-invalid-parentheses]
 
 [609.find-duplicate-file-in-system]
-
-[哈夫曼编码和游程编码]
 
 [React hooks]
 
