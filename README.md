@@ -54,7 +54,7 @@ leetcode 题解，记录自己的 leecode 解题之路。
 - [199.binary-tree-right-side-view](./problems/199.binary-tree-right-side-view.md)
 - [201.bitwise-and-of-numbers-range](./problems/201.bitwise-and-of-numbers-range.md)
 - [209.minimum-size-subarray-sum](./problems/209.minimum-size-subarray-sum.md)
-- [900.rle-iterator](./problems/900.rle-iterator)
+- [900.rle-iterator](./problems/900.rle-iterator.md)
 
 #### 困难难度
 
