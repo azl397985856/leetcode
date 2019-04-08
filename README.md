@@ -76,10 +76,6 @@ TODO
 
 ### 计划
 
-[React hooks]
-
-[React fiber]
-
 [301.remove-invalid-parentheses]
 
 [609.find-duplicate-file-in-system]
