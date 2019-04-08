@@ -67,6 +67,7 @@ leetcode 题解，记录自己的 leecode 解题之路。
 - [binary-tree-traversal](./thinkings/binary-tree-traversal.md)
 - [dynamic-programming](./thinkings/dynamic-programming.md)
 - [哈夫曼编码和游程编码](./thinkings/run-length-encode-and-huffman-encode.md)
+- [布隆过滤器](./thinkings/bloom-filter.md)
 
 ### anki 卡片
 
@@ -82,6 +83,4 @@ TODO
 
 [React fiber]
 
-[一个非常简单，但是有效的算法 - 布隆过滤器]
 
-> 从这个算法可以对 tradeoff 有更入的理解。
