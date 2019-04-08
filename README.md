@@ -65,7 +65,7 @@ leetcode 题解，记录自己的 leecode 解题之路。
 
 - [basic-data-structure](./thinkings/basic-data-structure.md)（草稿）
 - [binary-tree-traversal](./thinkings/binary-tree-traversal.md)
-- [dynamic-programming](./thinkings/dynamic-programming.md)
+- [dynamic-programming](./thinkings/dynamic-programming.md)（草稿）
 - [哈夫曼编码和游程编码](./thinkings/run-length-encode-and-huffman-encode.md)
 - [布隆过滤器](./thinkings/bloom-filter.md)
 
