@@ -93,9 +93,35 @@ React 必须重新实现遍历树的算法，从依赖于`内置堆栈的同步�
 如果我们可以随意中断调用堆栈并手动操作堆栈帧，那不是很好吗？
 这就是 React Fiber 的目的。 `Fiber 是堆栈的重新实现，专门用于 React 组件`。 你可以将单个 Fiber 视为一个`虚拟堆栈帧`。
 
+react fiber 大概是这样的：
+
+```js
+let fiber = {
+  tag: HOST_COMPONENT,
+  type: "div",
+  return: parentFiber,
+  children: childFiber,
+  sibling: null,
+  alternate: currentFiber,
+  stateNode: document.createElement("div"),
+  props: { children: [], className: "foo"},
+  partialState: null,
+  effectTag: PLACEMENT,
+  effects: []
+};
+
+```
+
+从这里可以看出fiber本质上是个对象，使用parent，child，sibling属性去构建fiber树来表示组件的结构树，
+return, children, sibling也都是一个fiber，因此fiber看起来就是一个链表。
+
 想要了解更多的朋友可以看[这个文章](https://github.com/dawn-plex/translate/blob/master/articles/the-how-and-why-on-reacts-usage-of-linked-list-in-fiber-to-walk-the-components-tree.md)
 
 如果可以翻墙， 可以看[英文原文](https://medium.com/react-in-depth/the-how-and-why-on-reacts-usage-of-linked-list-in-fiber-67f1014d0eb7)
+
+[这篇文章](https://engineering.hexacta.com/didact-fiber-incremental-reconciliation-b2fe028dcaec)也是早期讲述fiber架构的优秀文章
+
+我目前也在写关于《从零开发react系列教程》中关于fiber架构的部分，如果你对具体实现感兴趣，欢迎关注。
 ### 非线性结构
 
 ## 树
