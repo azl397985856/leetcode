@@ -101,7 +101,7 @@ let fiber = {
   type: "div",
   return: parentFiber,
   children: childFiber,
-  sibling: null,
+  sibling: childFiber,
   alternate: currentFiber,
   stateNode: document.createElement("div"),
   props: { children: [], className: "foo"},
@@ -114,6 +114,9 @@ let fiber = {
 
 从这里可以看出fiber本质上是个对象，使用parent，child，sibling属性去构建fiber树来表示组件的结构树，
 return, children, sibling也都是一个fiber，因此fiber看起来就是一个链表。
+
+> 细心的朋友可能已经发现了， alternate也是一个fiber， 那么它是用来做什么的呢？
+它其实原理有点像git， 可以用来执行git revert ,git commit等操作，这部分挺有意思，我会在我的《从零开发git》中讲解 
 
 想要了解更多的朋友可以看[这个文章](https://github.com/dawn-plex/translate/blob/master/articles/the-how-and-why-on-reacts-usage-of-linked-list-in-fiber-to-walk-the-components-tree.md)
 
