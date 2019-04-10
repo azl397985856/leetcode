@@ -156,6 +156,7 @@ f(n) = f(n-1) + f(n-2) 就是【状态转移公式】
 ### 相关问题
 
 [硬币找零问题](../problems/322.coin-change.md)
+[硬币找零问题2](../problems/518.coin-change-2.md)
 
 ## 总结
 

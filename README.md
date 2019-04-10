@@ -56,11 +56,13 @@ leetcode 题解，记录自己的 leecode 解题之路。
 - [209.minimum-size-subarray-sum](./problems/209.minimum-size-subarray-sum.md)
 - [900.rle-iterator](./problems/900.rle-iterator.md)
 - [322.coin-change](./problems/322.coin-change.md)
+- [518.coin-change-2](./problems/518.coin-change-2.md)
 
 #### 困难难度
 
 - [145.binary-tree-postorder-traversal](./problems/145.binary-tree-postorder-traversal.md)
 - [146.lru-cache](./problems/146.lru-cache.md)
+- [301.remove-invalid-parentheses](./problems/301.remove-invalid-parentheses.md)
 
 ### 数据结构与算法的总结
 
@@ -77,7 +79,5 @@ TODO
 ### 计划
 
 [301.remove-invalid-parentheses]
-
-[609.find-duplicate-file-in-system]
 
 
