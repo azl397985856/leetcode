@@ -78,6 +78,8 @@ TODO
 
 ### 计划
 
-[301.remove-invalid-parentheses]
+[226.invert-binary-tree]
 
+[494.target-sum]
 
+anki 卡片
