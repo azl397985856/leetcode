@@ -16,6 +16,11 @@ leetcode 题解，记录自己的 leecode 解题之路。
 
 > 只有熟练掌握基础的数据结构与算法，才能对复杂问题迎刃有余
 
+## 食用说明
+
+- 经典题目的解析的目录部分，前面有🆕的代表是最新更新的
+- 将来会在这里更新anki卡片
+
 
 ## 精彩预告
 
@@ -79,6 +84,8 @@ leetcode 题解，记录自己的 leecode 解题之路。
 - [900.rle-iterator](./problems/900.rle-iterator.md)
 - [322.coin-change](./problems/322.coin-change.md)
 - [518.coin-change-2](./problems/518.coin-change-2.md)
+- 🆕 [11.container-with-most-water](./problems/11.container-with-most-water.md)
+- 🆕 [875.koko-eating-bananas](./problems/875.koko-eating-bananas.md)
 
 #### 困难难度
 
