@@ -19,6 +19,7 @@ leetcode 题解，记录自己的 leecode 解题之路。
 ## 食用指南
 
 - 经典题目的解析的目录部分，前面有🆕的代表是最新更新的
+- 对于最近更新的部分， 前面会有 🖊 标注
 - 将来会在这里更新anki卡片
 - 这里有一份leetcode官方账号在知乎上给出的一个《互联网公司最常见的面试算法题有哪些？》的答案，我这里尽量去覆盖回答中的题目和知识点
 原文地址： https://www.zhihu.com/question/24964987/answer/586425979
@@ -111,8 +112,8 @@ leetcode 题解，记录自己的 leecode 解题之路。
 
 ### 数据结构与算法的总结
 
-- [basic-data-structure](./thinkings/basic-data-structure.md)（草稿）
-- [binary-tree-traversal](./thinkings/binary-tree-traversal.md)
+- 🖊 [basic-data-structure](./thinkings/basic-data-structure.md)（草稿）
+- 🖊 [binary-tree-traversal](./thinkings/binary-tree-traversal.md)
 - [dynamic-programming](./thinkings/dynamic-programming.md)
 - [哈夫曼编码和游程编码](./thinkings/run-length-encode-and-huffman-encode.md)
 - [布隆过滤器](./thinkings/bloom-filter.md)
