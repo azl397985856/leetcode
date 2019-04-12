@@ -1,5 +1,7 @@
 # 介绍
 
+![leetcode.jpeg](./assets/leetcode.jpeg)
+
 leetcode 题解，记录自己的 leecode 解题之路。
 
 本仓库目前分为四个部分：
@@ -13,6 +15,26 @@ leetcode 题解，记录自己的 leecode 解题之路。
 - 第四部分是计划， 这里会记录将来要加入到以上三个部分内容
 
 > 只有熟练掌握基础的数据结构与算法，才能对复杂问题迎刃有余
+
+
+## 精彩预告
+
+
+301. remove-invalid-parentheses:
+
+![remove-invalid-parentheses](./assets/problems/301.remove-invalid-parentheses.png)
+
+浏览器中的栈：
+
+![basic-data-structure-call-stack](./assets/thinkings/basic-data-structure-call-stack.png)
+
+huffman 树:
+
+![dynamic-programming-3](./assets/thinkings/dynamic-programming-3.png)
+
+875. koko-eating-bananas:
+
+![koko-eating-bananas](./assets/problems/koko-eating-bananas.png)
 
 ## 传送门
 
