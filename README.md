@@ -16,10 +16,26 @@ leetcode 题解，记录自己的 leecode 解题之路。
 
 > 只有熟练掌握基础的数据结构与算法，才能对复杂问题迎刃有余
 
-## 食用说明
+## 食用指南
 
 - 经典题目的解析的目录部分，前面有🆕的代表是最新更新的
 - 将来会在这里更新anki卡片
+- 这里有一份leetcode官方账号在知乎上给出的一个《互联网公司最常见的面试算法题有哪些？》的答案，我这里尽量去覆盖回答中的题目和知识点
+原文地址： https://www.zhihu.com/question/24964987/answer/586425979
+
+- 这里有一张互联网公司面试中经常考察的问题类型总结的思维导图，我们可以结合图片中的信息分析一下。
+
+![leetcode-zhihu](./assets//leetcode-zhihu.jpg)
+
+(图片来自leetcode)
+
+其中算法，主要是以下几种：
+
+- 基础技巧：分治、二分、贪心
+- 排序算法：快速排序、归并排序、计数排序
+- 搜索算法：回溯、递归、深度优先遍历，广度优先遍历，二叉搜索树等
+- 图论：最短路径、最小生成树
+- 动态规划：背包问题、最长子序列
 
 
 ## 精彩预告
@@ -110,5 +126,19 @@ TODO
 [226.invert-binary-tree]
 
 [494.target-sum]
+
+[88.merge-sorted-array]
+
+[139.word-break]
+
+[169.majority-element]
+
+[240.search-a-2-d-matrix-ii]
+
+[416.partition-equal-subset-sum]
+
+[609.find-duplicate-file-in-system]
+
+[887.super-egg-drop]
 
 anki 卡片
