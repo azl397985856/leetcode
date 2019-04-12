@@ -65,14 +65,46 @@ hook2就是persistForm这个。
 关于React hooks 的本质研究，更多请查看[React hooks: not magic, just arrays](https://medium.com/@ryardley/react-hooks-not-magic-just-arrays-cd4f1857236e)
 ### 队列
 
-message queue
+队列作为一种最常见的数据结构同样有着非常广泛的应用， 比如消息队列
+
+> "队列"这个名称,可类比为现实生活中排队（不插队的那种）
+
+在计算机科学中, 一个 队列(queue) 是一种特殊类型的抽象数据类型或集合。集合中的实体按顺序保存。
+
+队列基本操作有两种: 
+
+- 向队列的后端位置添加实体，称为入队
+- 从队列的前端位置移除实体，称为出队。
+
+队列中元素先进先出 FIFO (first in, first out)的示意：
+
+![basic-data-structure-queue](../assets/thinkings/basic-data-structure-queue.svg)
+
+(图片来自 https://github.com/trekhleb/javascript-algorithms/blob/master/src/data-structures/queue/README.zh-CN.md)
+
 
 ### 栈
+在计算机科学中, 一个 栈(stack) 是一种抽象数据类型,用作表示元素的集合,具有两种主要操作:
 
-call stack, view stack
+push, 添加元素到栈的顶端(末尾);
+pop, 移除栈最顶端(末尾)的元素.
+以上两种操作可以简单概括为“后进先出(LIFO = last in, first out)”。
 
-其实浏览器的执行栈就是一个基本的栈结构，从数据结构上说，它就是一个栈。
+此外,应有一个 peek 操作用于访问栈当前顶端(末尾)的元素。（只返回不弹出）
+
+> "栈"这个名称,可类比于一组物体的堆叠(一摞书,一摞盘子之类的)。
+
+栈的 push 和 pop 操作的示意:
+
+![basic-data-structure-stack](../assets/thinkings/basic-data-structure-stack.png)
+
+(图片来自 https://github.com/trekhleb/javascript-algorithms/blob/master/src/data-structures/stack/README.zh-CN.md)
+
+
+栈在很多地方都有着应用，比如大家熟悉的浏览器就有很多栈，其实浏览器的执行栈就是一个基本的栈结构，从数据结构上说，它就是一个栈。
 这也就解释了，我们用递归的解法和用循环+栈的解法本质上是差不多。
+
+
 
 比如如下JS代码：
 
@@ -101,6 +133,12 @@ foo();
 > 社区中有很多“执行上下文中的scope指的是执行栈中父级声明的变量”说法，这是完全错误的， JS是词法作用域，scope指的是函数定义时候的父级，和执行没关系
 
 ### 链表
+
+链表是一种最基本数据结构，熟练掌握链表的结构和常见操作是基础中的基础。
+
+![basic-data-structure-link-list](../assets/thinkings/basic-data-structure-link-list.svg)
+
+(图片来自： https://github.com/trekhleb/javascript-algorithms/tree/master/src/algorithms/linked-list/traversal)
 
 #### React Fiber
 

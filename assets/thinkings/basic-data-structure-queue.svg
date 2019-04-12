@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 15.1.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg version="1.1"
+	 id="svg1430" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:svg="http://www.w3.org/2000/svg" xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd" xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape" inkscape:output_extension="org.inkscape.output.svg.inkscape" sodipodi:version="0.32" inkscape:version="0.46" sodipodi:docname="Data_queue.svg" sodipodi:docbase="/home/ubuuser"
+	 xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="405px" height="265px"
+	 viewBox="-30.228 18 405 265" enable-background="new -30.228 18 405 265" xml:space="preserve">
+<defs>
+	
+	
+		<inkscape:perspective  id="perspective2424" inkscape:vp_z="391.25 : 140.625 : 1" inkscape:vp_y="0 : 1000 : 0" inkscape:vp_x="0 : 140.625 : 1" sodipodi:type="inkscape:persp3d" inkscape:persp3d-origin="195.625 : 93.75 : 1">
+		</inkscape:perspective>
+</defs>
+<sodipodi:namedview  id="base" showgrid="false" inkscape:cx="167.43414" inkscape:zoom="2" borderopacity="1.0" bordercolor="#666666" pagecolor="#ffffff" inkscape:cy="160" inkscape:window-y="0" inkscape:window-x="0" inkscape:window-height="878" inkscape:window-width="1279" inkscape:current-layer="layer1" inkscape:document-units="px" inkscape:pageshadow="2" inkscape:pageopacity="0.0">
+	</sodipodi:namedview>
+<rect id="node0" x="59" y="140.791" inkscape:label="#node1" transform="matrix(0.0043 1 -1 0.0043 256.347 51.1258)" fill="#0000FF" fill-opacity="0.75" stroke="#000000" width="87" height="27">
+</rect>
+<path id="path1446" sodipodi:arg2="0.33857128" sodipodi:arg1="-0.70862627" sodipodi:r2="4.6097722" sodipodi:r1="9.2195444" sodipodi:cy="278.36218" sodipodi:cx="353" sodipodi:sides="3" sodipodi:type="star" inkscape:randomized="0" inkscape:rounded="0" inkscape:flatsided="true" stroke="#000000" d="
+	M337.901,168.491l1.166,17.183l-10.081-13.992L337.901,168.491z"/>
+<text transform="matrix(1 0 0 1 265.8555 145.0156)" font-family="'LucidaSans'" font-size="24">Dequeue</text>
+<text transform="matrix(1 0 0 1 -24.2949 177.082)" font-family="'LucidaSans'" font-size="24">Enqueue</text>
+<path id="path2432" fill="none" stroke="#000000" stroke-width="0.7364" d="M71.158,152.233L71.158,152.233
+	c-53.529-8.592-44.894-37.519-44.894-37.519"/>
+<path id="path3204" fill="none" stroke="#000000" stroke-width="0.7313" d="M335.443,173.213L335.443,173.213
+	c-20.215-26.812-75.887-21.474-75.887-21.474"/>
+<rect id="rect2481" x="94" y="140.791" inkscape:label="#node1" transform="matrix(0.0043 1 -1 0.0043 291.1959 16.1261)" fill="#0000FF" fill-opacity="0.75" stroke="#000000" width="87" height="27">
+</rect>
+<rect id="rect2483" x="129" y="140.791" inkscape:label="#node1" transform="matrix(0.0043 1 -1 0.0043 326.0458 -18.8727)" fill="#0000FF" fill-opacity="0.75" stroke="#000000" width="87" height="27">
+</rect>
+<rect id="rect2485" x="164" y="140.791" inkscape:label="#node1" transform="matrix(0.0043 1 -1 0.0043 360.895 -53.8723)" fill="#0000FF" fill-opacity="0.75" stroke="#000000" width="87" height="27">
+</rect>
+<rect id="rect2487" x="199" y="140.791" inkscape:label="#node1" transform="matrix(0.0043 1 -1 0.0043 395.7441 -88.872)" fill="#0000FF" fill-opacity="0.75" stroke="#000000" width="87" height="27">
+</rect>
+<path id="path2489" sodipodi:arg2="0.33857128" sodipodi:arg1="-0.70862627" sodipodi:r2="4.6097722" sodipodi:r1="9.2195444" sodipodi:cy="278.36218" sodipodi:cx="353" sodipodi:sides="3" sodipodi:type="star" inkscape:randomized="0" inkscape:rounded="0" inkscape:flatsided="true" stroke="#000000" d="
+	M65.739,147.016l16.555,4.748l-16.588,4.721L65.739,147.016z"/>
+<rect id="rect2491" x="-16" y="52.75" inkscape:label="#node1" transform="matrix(0.0043 1 -1 0.0043 93.6309 38.4646)" fill="#0000FF" fill-opacity="0.75" stroke="#000000" width="87" height="27">
+</rect>
+<rect id="rect2493" x="299" y="221.25" inkscape:label="#node1" transform="matrix(0.0043 1 -1 0.0043 575.772 -108.7582)" fill="#0000FF" fill-opacity="0.75" stroke="#000000" width="87.001" height="27">
+</rect>
+<text transform="matrix(1 0 0 1 88.8125 101.5)" font-family="'LucidaSans'" font-size="20">Back</text>
+<text transform="matrix(1 0 0 1 205.1035 101.5)" font-family="'LucidaSans'" font-size="20">Front</text>
+</svg>

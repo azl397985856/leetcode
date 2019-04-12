@@ -12,6 +12,12 @@ DFS 和 BFS 都有着自己的应用，比如 leetcode 301 号问题和 609 号�
 
 DFS 都可以使用栈来简化操作，并且其实树本身是一种递归的数据结构，因此递归和栈对于 DFS 来说是两个关键点。
 
+DFS 图解：
+
+![binary-tree-traversal-dfs](../assets/thinkings/binary-tree-traversal-dfs.gif)
+
+(图片来自 https://github.com/trekhleb/javascript-algorithms/tree/master/src/algorithms/tree/depth-first-search)
+
 BFS 的关键点在于如何记录每一层次是否遍历完成， 我们可以用一个标识位来表式当前层的结束。
 
 下面我们依次讲解：
@@ -65,6 +71,10 @@ BFS 的关键点在于如何记录每一层次是否遍历完成， 我们可以
 ## 层次遍历
 
 层次遍历的关键点在于如何记录每一层次是否遍历完成， 我们可以用一个标识位来表式当前层的结束。
+
+![binary-tree-traversal-bfs](../assets/thinkings/binary-tree-traversal-bfs.gif)
+
+(图片来自 https://github.com/trekhleb/javascript-algorithms/tree/master/src/algorithms/tree/breadth-first-search)
 
 具体做法：
 
