@@ -28,7 +28,7 @@ leetcode 题解，记录自己的 leecode 解题之路。
 
 ![basic-data-structure-call-stack](./assets/thinkings/basic-data-structure-call-stack.png)
 
-huffman 树:
+再看动态规划:
 
 ![dynamic-programming-3](./assets/thinkings/dynamic-programming-3.png)
 
