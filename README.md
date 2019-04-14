@@ -18,7 +18,7 @@ leetcode 题解，记录自己的 leecode 解题之路。
 
 ## 食用指南
 
-- 经典题目的解析的目录部分，前面有🆕的代表是最新更新的
+- 对于最近添加的部分， 前面会有 🆕 标注
 - 对于最近更新的部分， 前面会有 🖊 标注
 - 将来会在这里更新anki卡片
 - 这里有一份leetcode官方账号在知乎上给出的一个《互联网公司最常见的面试算法题有哪些？》的答案，我这里尽量去覆盖回答中的题目和知识点
@@ -66,21 +66,25 @@ leetcode 题解，记录自己的 leecode 解题之路。
 
 - [20. Valid Parentheses](./problems/validParentheses.md)
 - [26.remove-duplicates-from-sorted-array](./problems/26.remove-duplicates-from-sorted-array.md)
-- [206.reverse-linked-list](./problems/206.reverse-linked-list.md)
 - [136.single-number](./problems/136.single-number.md)
 - [167.two-sum-ii-input-array-is-sorted](./problems/167.two-sum-ii-input-array-is-sorted.md)
-- [203.remove-linked-list-elements](./problems/203.remove-linked-list-elements.md)
-- [219.contains-duplicate-ii](./problems/219.contains-duplicate-ii.md)
-- [283.move-zeroes](./problems/283.move-zeroes.md)
-- [349.intersection-of-two-arrays](./problems/349.intersection-of-two-arrays.md)
+- 🆕 [169.majority-element](./problems/169.majority-element.md)
 - [190.reverse-bits](./problems/190.reverse-bits.md)
 - [191.number-of-1-bits](./problems/191.number-of-1-bits.md)
+- [203.remove-linked-list-elements](./problems/203.remove-linked-list-elements.md)
+- [206.reverse-linked-list](./problems/206.reverse-linked-list.md)
+- [219.contains-duplicate-ii](./problems/219.contains-duplicate-ii.md)
+- 🆕 [226.invert-binary-tree](./problems/226.invert-binary-tree.md)
+- [283.move-zeroes](./problems/283.move-zeroes.md)
+- [349.intersection-of-two-arrays](./problems/349.intersection-of-two-arrays.md)
+
 
 #### 中等难度
 
 - [2. Add Two Numbers](./problems/addTwoNumbers.md)
 - [3. Longest Substring Without Repeating Characters](./problems/longestSubstringWithoutRepeatingCharacters.md)
 - [5. Longest Palindromic Substring](./problems/longestPalindromicSubstring.md)
+- 🆕 [11.container-with-most-water](./problems/11.container-with-most-water.md)
 - [19. Remove Nth Node From End of List](./problems/removeNthNodeFromEndofList.md)
 - [24. Swap Nodes In Pairs](./problems/swapNodesInPairs.md)
 - [75.sort-colors.md](./problems/75.sort-colors.md)
@@ -91,18 +95,19 @@ leetcode 题解，记录自己的 leecode 解题之路。
 - [103.binary-tree-zigzag-level-order-traversal](./problems/103.binary-tree-zigzag-level-order-traversal.md)
 - [144.binary-tree-preorder-traversal](./problems/144.binary-tree-preorder-traversal.md)
 - [150.evaluate-reverse-polish-notation](./problems/150.evaluate-reverse-polish-notation.md)
-- [328.odd-even-linked-list](./problems/328.odd-even-linked-list.md)
-- [445.add-two-numbers-ii](./problems/445.add-two-numbers-ii.md)
-- [877.stone-game](./problems/877.stone-game.md)
-- [279.perfect-squares](./problems/279.perfect-squares.md)
 - [199.binary-tree-right-side-view](./problems/199.binary-tree-right-side-view.md)
 - [201.bitwise-and-of-numbers-range](./problems/201.bitwise-and-of-numbers-range.md)
 - [209.minimum-size-subarray-sum](./problems/209.minimum-size-subarray-sum.md)
-- [900.rle-iterator](./problems/900.rle-iterator.md)
+- 🆕 [240.search-a-2-d-matrix-ii](./problems/240.search-a-2-d-matrix-ii.md)
+- [279.perfect-squares](./problems/279.perfect-squares.md)
 - [322.coin-change](./problems/322.coin-change.md)
+- [328.odd-even-linked-list](./problems/328.odd-even-linked-list.md)
+- [445.add-two-numbers-ii](./problems/445.add-two-numbers-ii.md)
 - [518.coin-change-2](./problems/518.coin-change-2.md)
-- 🆕 [11.container-with-most-water](./problems/11.container-with-most-water.md)
 - 🆕 [875.koko-eating-bananas](./problems/875.koko-eating-bananas.md)
+- [877.stone-game](./problems/877.stone-game.md)
+- 🆕 [887.super-egg-drop](./problems/887.super-egg-drop.md)
+- [900.rle-iterator](./problems/900.rle-iterator.md)
 
 #### 困难难度
 
@@ -124,22 +129,14 @@ TODO
 
 ### 计划
 
-[226.invert-binary-tree]
-
 [494.target-sum]
 
 [88.merge-sorted-array]
 
 [139.word-break]
 
-[169.majority-element]
-
-[240.search-a-2-d-matrix-ii]
-
 [416.partition-equal-subset-sum]
 
 [609.find-duplicate-file-in-system]
-
-[887.super-egg-drop]
 
 anki 卡片
