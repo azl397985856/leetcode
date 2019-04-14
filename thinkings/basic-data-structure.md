@@ -63,6 +63,9 @@ hook2就是persistForm这个。
 那么问题是key1，key2，key3，key4怎么取呢？
 
 关于React hooks 的本质研究，更多请查看[React hooks: not magic, just arrays](https://medium.com/@ryardley/react-hooks-not-magic-just-arrays-cd4f1857236e)
+
+React 将`如何确保组件内部hooks保存的状态之间的对应关系`这个工作交给了 
+开发人员去保证，即你必须保证HOOKS的顺序严格一致，具体可以看React 官网关于 Hooks Rule 部分。
 ### 队列
 
 队列作为一种最常见的数据结构同样有着非常广泛的应用， 比如消息队列
@@ -218,5 +221,7 @@ database engine
 #### AVL
 
 #### 红黑树
+
+### 字典树(前缀树)
 
 ## 图
