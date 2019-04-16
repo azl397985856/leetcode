@@ -38,6 +38,17 @@ leetcode 题解，记录自己的 leecode 解题之路。
 - 图论：最短路径、最小生成树
 - 动态规划：背包问题、最长子序列
 
+数据结构，主要有如下几种：
+
+- 数组与链表：单 / 双向链表
+- 栈与队列
+- 哈希表
+- 堆：最大堆 ／ 最小堆
+- 树与图：最近公共祖先、并查集
+- 字符串：前缀树（字典树） ／ 后缀树
+
+
+
 
 ## 精彩预告
 
@@ -129,14 +140,20 @@ TODO
 
 ### 计划
 
-[494.target-sum]
+- [494.target-sum]
 
-[88.merge-sorted-array]
+- [609.find-duplicate-file-in-system]
 
-[139.word-break]
+- anki 卡片
 
-[416.partition-equal-subset-sum]
+## 交流群
 
-[609.find-duplicate-file-in-system]
+现在还是初级阶段，需要大家的意见和反馈，为了减少沟通成本，我组建了交流群。大家可以扫码进入
 
-anki 卡片
+![qq-group-chat](./assets/qq-group-chat.png)
+
+(qq 群)
+
+![wechat-group-chat](./assets/wechat-group-chat.png)
+
+(微信群， 由于微信的限制，只可以七天之内才能加入)
