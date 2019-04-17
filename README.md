@@ -2,7 +2,7 @@
 
 ![leetcode.jpeg](./assets/leetcode.jpeg)
 
-leetcode 题解，记录自己的 leecode 解题之路。
+leetcode 题解，记录自己的 leetcode 解题之路。
 
 本仓库目前分为四个部分：
 
@@ -139,7 +139,7 @@ leetcode 题解，记录自己的 leecode 解题之路。
 
 Anki主要分为两个部分:一部分是关键点到题目的映射，另一部分是题目到思路，关键点，代码的映射。
 
-全部卡片都在[anki-card](./assets/anki/leecode.apkg)
+全部卡片都在[anki-card](./assets/anki/leetcode.apkg)
 
 使用方法：
 
