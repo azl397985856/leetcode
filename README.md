@@ -77,6 +77,7 @@ leetcode 题解，记录自己的 leecode 解题之路。
 
 - [20. Valid Parentheses](./problems/validParentheses.md)
 - [26.remove-duplicates-from-sorted-array](./problems/26.remove-duplicates-from-sorted-array.md)
+- 🆕 [88.merge-sorted-array](./problems/88.merge-sorted-array.md)
 - [136.single-number](./problems/136.single-number.md)
 - [167.two-sum-ii-input-array-is-sorted](./problems/167.two-sum-ii-input-array-is-sorted.md)
 - 🆕 [169.majority-element](./problems/169.majority-element.md)
@@ -95,7 +96,7 @@ leetcode 题解，记录自己的 leecode 解题之路。
 - [2. Add Two Numbers](./problems/addTwoNumbers.md)
 - [3. Longest Substring Without Repeating Characters](./problems/longestSubstringWithoutRepeatingCharacters.md)
 - [5. Longest Palindromic Substring](./problems/longestPalindromicSubstring.md)
-- 🆕 [11.container-with-most-water](./problems/11.container-with-most-water.md)
+- [11.container-with-most-water](./problems/11.container-with-most-water.md)
 - [19. Remove Nth Node From End of List](./problems/removeNthNodeFromEndofList.md)
 - [24. Swap Nodes In Pairs](./problems/swapNodesInPairs.md)
 - [75.sort-colors.md](./problems/75.sort-colors.md)
@@ -115,7 +116,7 @@ leetcode 题解，记录自己的 leecode 解题之路。
 - [328.odd-even-linked-list](./problems/328.odd-even-linked-list.md)
 - [445.add-two-numbers-ii](./problems/445.add-two-numbers-ii.md)
 - [518.coin-change-2](./problems/518.coin-change-2.md)
-- 🆕 [875.koko-eating-bananas](./problems/875.koko-eating-bananas.md)
+- [875.koko-eating-bananas](./problems/875.koko-eating-bananas.md)
 - [877.stone-game](./problems/877.stone-game.md)
 - 🆕 [887.super-egg-drop](./problems/887.super-egg-drop.md)
 - [900.rle-iterator](./problems/900.rle-iterator.md)
@@ -129,14 +130,22 @@ leetcode 题解，记录自己的 leecode 解题之路。
 ### 数据结构与算法的总结
 
 - 🖊 [basic-data-structure](./thinkings/basic-data-structure.md)（草稿）
-- 🖊 [binary-tree-traversal](./thinkings/binary-tree-traversal.md)
+- [binary-tree-traversal](./thinkings/binary-tree-traversal.md)
 - [dynamic-programming](./thinkings/dynamic-programming.md)
 - [哈夫曼编码和游程编码](./thinkings/run-length-encode-and-huffman-encode.md)
 - [布隆过滤器](./thinkings/bloom-filter.md)
 
 ### anki 卡片
 
-TODO
+Anki主要分为两个部分:一部分是关键点到题目的映射，另一部分是题目到思路，关键点，代码的映射。
+
+全部卡片都在[anki-card](./assets/anki/leecode.apkg)
+
+使用方法：
+
+anki - 文件 - 导入 - 下拉格式选择“打包的 anki集合”，然后选中你下载好的文件，确定即可。
+
+更多关于anki使用方法的请查看[anki官网](https://apps.ankiweb.net/)
 
 ### 计划
 
@@ -144,7 +153,7 @@ TODO
 
 - [609.find-duplicate-file-in-system]
 
-- anki 卡片
+- anki 卡片 完善
 
 ## 交流群
 
