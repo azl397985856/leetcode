@@ -86,7 +86,7 @@ leetcode 题解，记录自己的 leetcode 解题之路。
 - [203.remove-linked-list-elements](./problems/203.remove-linked-list-elements.md)
 - [206.reverse-linked-list](./problems/206.reverse-linked-list.md)
 - [219.contains-duplicate-ii](./problems/219.contains-duplicate-ii.md)
-- 🆕 [226.invert-binary-tree](./problems/226.invert-binary-tree.md)
+- [226.invert-binary-tree](./problems/226.invert-binary-tree.md)
 - [283.move-zeroes](./problems/283.move-zeroes.md)
 - [349.intersection-of-two-arrays](./problems/349.intersection-of-two-arrays.md)
 
@@ -95,7 +95,6 @@ leetcode 题解，记录自己的 leetcode 解题之路。
 
 - [2. Add Two Numbers](./problems/addTwoNumbers.md)
 - [3. Longest Substring Without Repeating Characters](./problems/longestSubstringWithoutRepeatingCharacters.md)
-- [5. Longest Palindromic Substring](./problems/longestPalindromicSubstring.md)
 - [11.container-with-most-water](./problems/11.container-with-most-water.md)
 - [19. Remove Nth Node From End of List](./problems/removeNthNodeFromEndofList.md)
 - [24. Swap Nodes In Pairs](./problems/swapNodesInPairs.md)
@@ -105,6 +104,7 @@ leetcode 题解，记录自己的 leetcode 解题之路。
 - [94.binary-tree-inorder-traversal](./problems/94.binary-tree-inorder-traversal.md)
 - [102.binary-tree-level-order-traversal](./problems/102.binary-tree-level-order-traversal.md)
 - [103.binary-tree-zigzag-level-order-traversal](./problems/103.binary-tree-zigzag-level-order-traversal.md)
+- 🆕 [139.word-break](./problems/139.word-breakmd)
 - [144.binary-tree-preorder-traversal](./problems/144.binary-tree-preorder-traversal.md)
 - [150.evaluate-reverse-polish-notation](./problems/150.evaluate-reverse-polish-notation.md)
 - [199.binary-tree-right-side-view](./problems/199.binary-tree-right-side-view.md)
@@ -114,6 +114,7 @@ leetcode 题解，记录自己的 leetcode 解题之路。
 - [279.perfect-squares](./problems/279.perfect-squares.md)
 - [322.coin-change](./problems/322.coin-change.md)
 - [328.odd-even-linked-list](./problems/328.odd-even-linked-list.md)
+- 🆕 [416.partition-equal-subset-sum](./problems/416.partition-equal-subset-sum.md)
 - [445.add-two-numbers-ii](./problems/445.add-two-numbers-ii.md)
 - [518.coin-change-2](./problems/518.coin-change-2.md)
 - [875.koko-eating-bananas](./problems/875.koko-eating-bananas.md)
@@ -125,6 +126,7 @@ leetcode 题解，记录自己的 leetcode 解题之路。
 
 - [145.binary-tree-postorder-traversal](./problems/145.binary-tree-postorder-traversal.md)
 - [146.lru-cache](./problems/146.lru-cache.md)
+- 🆕 [295.find-median-from-data-stream.md](./problems/295.find-median-from-data-stream.md)
 - [301.remove-invalid-parentheses](./problems/301.remove-invalid-parentheses.md)
 
 ### 数据结构与算法的总结
