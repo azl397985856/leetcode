@@ -53,9 +53,9 @@ leetcode 题解，记录自己的 leetcode 解题之路。
 ## 精彩预告
 
 
-301. remove-invalid-parentheses:
+42.trapping-rain-water-1(雨水收集问题):
 
-![remove-invalid-parentheses](./assets/problems/301.remove-invalid-parentheses.png)
+![42.trapping-rain-water](./assets/problems/42.trapping-rain-water-1.png)
 
 浏览器中的栈：
 
@@ -98,6 +98,7 @@ leetcode 题解，记录自己的 leetcode 解题之路。
 - [11.container-with-most-water](./problems/11.container-with-most-water.md)
 - [19. Remove Nth Node From End of List](./problems/removeNthNodeFromEndofList.md)
 - [24. Swap Nodes In Pairs](./problems/swapNodesInPairs.md)
+- [55.jump-game.md](./problems/55.jump-game.md.md)
 - [75.sort-colors.md](./problems/75.sort-colors.md)
 - [86.partition-list](./problems/86.partition-list.md)
 - [92.reverse-linked-list-ii](./problems/92.reverse-linked-list-ii.md)
@@ -109,6 +110,7 @@ leetcode 题解，记录自己的 leetcode 解题之路。
 - [150.evaluate-reverse-polish-notation](./problems/150.evaluate-reverse-polish-notation.md)
 - [199.binary-tree-right-side-view](./problems/199.binary-tree-right-side-view.md)
 - [201.bitwise-and-of-numbers-range](./problems/201.bitwise-and-of-numbers-range.md)
+- [208.implement-trie-prefix-tree](./problems/208.implement-trie-prefix-tree.md)
 - [209.minimum-size-subarray-sum](./problems/209.minimum-size-subarray-sum.md)
 - 🆕 [240.search-a-2-d-matrix-ii](./problems/240.search-a-2-d-matrix-ii.md)
 - [279.perfect-squares](./problems/279.perfect-squares.md)
@@ -123,7 +125,8 @@ leetcode 题解，记录自己的 leetcode 解题之路。
 - [900.rle-iterator](./problems/900.rle-iterator.md)
 
 #### 困难难度
-
+- [42.trapping-rain-water](./problems/42.trapping-rain-water.md)
+- [128.longest-consecutive-sequence](./problems/128.longest-consecutive-sequence.md)
 - [145.binary-tree-postorder-traversal](./problems/145.binary-tree-postorder-traversal.md)
 - [146.lru-cache](./problems/146.lru-cache.md)
 - 🆕 [295.find-median-from-data-stream.md](./problems/295.find-median-from-data-stream.md)
@@ -151,9 +154,13 @@ anki - 文件 - 导入 - 下拉格式选择“打包的 anki集合”，然后�
 
 ### 计划
 
-- [494.target-sum]
+- [494.target-sum](./todo/494.target-sum.js)
 
-- [609.find-duplicate-file-in-system]
+- [609.find-duplicate-file-in-system](./todo/609.find-duplicate-file-in-system.js)
+
+- [10.regular-expression-matching](./todo/10.regular-expression-matching.js)
+
+- [365.water-and-jug-problem](./todo/365.water-and-jug-problem.js)
 
 - anki 卡片 完善
 
@@ -165,6 +172,6 @@ anki - 文件 - 导入 - 下拉格式选择“打包的 anki集合”，然后�
 
 (qq 群)
 
-![wechat-group-chat](./assets/wechat-group-chat.png)
+![wechat-group-chat](./assets/wechat-group-chat.jpg)
 
 (微信群， 由于微信的限制，只可以七天之内才能加入)
