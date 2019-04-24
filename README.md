@@ -118,9 +118,9 @@ leetcode 题解，记录自己的 leetcode 解题之路。
 - [199.binary-tree-right-side-view](./problems/199.binary-tree-right-side-view.md)
 - [201.bitwise-and-of-numbers-range](./problems/201.bitwise-and-of-numbers-range.md)
 - 🆕 [208.implement-trie-prefix-tree](./problems/208.implement-trie-prefix-tree.md)
-- [209.minimum-size-subarray-sum](./problems/209.minimum-size-subarray-sum.md)
+- 🖊 [209.minimum-size-subarray-sum](./problems/209.minimum-size-subarray-sum.md)
 - [240.search-a-2-d-matrix-ii](./problems/240.search-a-2-d-matrix-ii.md)
-- [279.perfect-squares](./problems/279.perfect-squares.md)
+- 🖊 [279.perfect-squares](./problems/279.perfect-squares.md)
 - [322.coin-change](./problems/322.coin-change.md)
 - [328.odd-even-linked-list](./problems/328.odd-even-linked-list.md)
 - [416.partition-equal-subset-sum](./problems/416.partition-equal-subset-sum.md)
@@ -169,9 +169,9 @@ anki - 文件 - 导入 - 下拉格式选择“打包的 anki集合”，然后�
 
 - [365.water-and-jug-problem](./todo/365.water-and-jug-problem.js)
 
-- anki 卡片 完善
+- [anki 卡片 完善](./assets/anki/)
 
-- 字符串类问题汇总
+- [字符串类问题汇总](./todo/str/)
 
 ## 交流群
 
