@@ -61,9 +61,9 @@ leetcode 题解，记录自己的 leetcode 解题之路。
 
 ![basic-data-structure-call-stack](./assets/thinkings/basic-data-structure-call-stack.png)
 
-再看动态规划:
+回溯法解题:
 
-![dynamic-programming-3](./assets/thinkings/dynamic-programming-3.png)
+![backtrack](./assets/problems/backtrack.png)
 
 875. koko-eating-bananas:
 
@@ -98,10 +98,16 @@ leetcode 题解，记录自己的 leetcode 解题之路。
 - [11.container-with-most-water](./problems/11.container-with-most-water.md)
 - [19. Remove Nth Node From End of List](./problems/removeNthNodeFromEndofList.md)
 - [24. Swap Nodes In Pairs](./problems/swapNodesInPairs.md)
-- 🆕 [55.jump-game.md](./problems/55.jump-game.md)
+- 🆕 [39.combination-sum](./problems/39.combination-sum.md)
+- 🆕 [40.combination-sum-ii](./problems/40.combination-sum-ii.md)
+- 🆕 [46.permutations](./problems/46.permutations.md)
+- 🆕 [47.permutations-ii](./problems/47.permutations-ii.md)
+- 🆕 [55.jump-game](./problems/55.jump-game.md)
 - 🆕 [62.unique-paths](./problems/62.unique-paths.md)
-- [75.sort-colors.md](./problems/75.sort-colors.md)
+- [75.sort-colors](./problems/75.sort-colors.md)
+- 🆕 [78.subsets](./problems/78.subsets.md)
 - [86.partition-list](./problems/86.partition-list.md)
+- 🆕 [90.subsets-ii](./problems/90.subsets-ii.md)
 - [92.reverse-linked-list-ii](./problems/92.reverse-linked-list-ii.md)
 - [94.binary-tree-inorder-traversal](./problems/94.binary-tree-inorder-traversal.md)
 - [102.binary-tree-level-order-traversal](./problems/102.binary-tree-level-order-traversal.md)
@@ -164,6 +170,8 @@ anki - 文件 - 导入 - 下拉格式选择“打包的 anki集合”，然后�
 - [365.water-and-jug-problem](./todo/365.water-and-jug-problem.js)
 
 - anki 卡片 完善
+
+- 字符串类问题汇总
 
 ## 交流群
 
