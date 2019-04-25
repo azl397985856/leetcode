@@ -136,6 +136,7 @@ leetcode 题解，记录自己的 leetcode 解题之路。
 - 🆕 [128.longest-consecutive-sequence](./problems/128.longest-consecutive-sequence.md)
 - [145.binary-tree-postorder-traversal](./problems/145.binary-tree-postorder-traversal.md)
 - [146.lru-cache](./problems/146.lru-cache.md)
+- 🆕 [239.sliding-window-maximum](./problems/239.sliding-window-maximum.md)
 - 🆕 [295.find-median-from-data-stream.md](./problems/295.find-median-from-data-stream.md)
 - [301.remove-invalid-parentheses](./problems/301.remove-invalid-parentheses.md)
 
