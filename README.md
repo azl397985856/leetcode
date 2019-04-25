@@ -75,7 +75,7 @@ leetcode 题解，记录自己的 leetcode 解题之路。
 
 #### 简单难度
 
-- [20. Valid Parentheses](./problems/validParentheses.md)
+- [20. Valid Parentheses](./problems/20.validParentheses.md)
 - [26.remove-duplicates-from-sorted-array](./problems/26.remove-duplicates-from-sorted-array.md)
 - 🆕 [88.merge-sorted-array](./problems/88.merge-sorted-array.md)
 - [136.single-number](./problems/136.single-number.md)
@@ -93,11 +93,11 @@ leetcode 题解，记录自己的 leetcode 解题之路。
 
 #### 中等难度
 
-- [2. Add Two Numbers](./problems/addTwoNumbers.md)
-- [3. Longest Substring Without Repeating Characters](./problems/longestSubstringWithoutRepeatingCharacters.md)
+- [2. Add Two Numbers](./problems/2.addTwoNumbers.md)
+- [3. Longest Substring Without Repeating Characters](./problems/3.longestSubstringWithoutRepeatingCharacters.md)
 - [11.container-with-most-water](./problems/11.container-with-most-water.md)
-- [19. Remove Nth Node From End of List](./problems/removeNthNodeFromEndofList.md)
-- [24. Swap Nodes In Pairs](./problems/swapNodesInPairs.md)
+- [19. Remove Nth Node From End of List](./problems/19.removeNthNodeFromEndofList.md)
+- [24. Swap Nodes In Pairs](./problems/24.swapNodesInPairs.md)
 - 🆕 [39.combination-sum](./problems/39.combination-sum.md)
 - 🆕 [40.combination-sum-ii](./problems/40.combination-sum-ii.md)
 - 🆕 [46.permutations](./problems/46.permutations.md)
@@ -159,6 +159,13 @@ Anki主要分为两个部分:一部分是关键点到题目的映射，另一部
 anki - 文件 - 导入 - 下拉格式选择“打包的 anki集合”，然后选中你下载好的文件，确定即可。
 
 更多关于anki使用方法的请查看[anki官网](https://apps.ankiweb.net/)
+
+目前已更新卡片一览（仅列举正面）：
+
+- 二分法解决问题的关键点是什么，相关问题有哪些
+- 如何用栈的特点来简化操作， 涉及到的题目有哪些？
+- 双指针问题的思路以及相关题目有哪些？
+- 滑动窗口问题的思路以及相关题目有哪些？
 
 ### 计划
 
