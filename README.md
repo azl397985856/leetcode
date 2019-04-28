@@ -75,7 +75,7 @@ leetcode 题解，记录自己的 leetcode 解题之路。
 
 #### 简单难度
 
-- 🖊 [[20. Valid Parentheses](./problems/20.validParentheses.md)
+- 🖊 [20. Valid Parentheses](./problems/20.validParentheses.md)
 - [26.remove-duplicates-from-sorted-array](./problems/26.remove-duplicates-from-sorted-array.md)
 - 🆕 [88.merge-sorted-array](./problems/88.merge-sorted-array.md)
 - [136.single-number](./problems/136.single-number.md)
@@ -114,7 +114,7 @@ leetcode 题解，记录自己的 leetcode 解题之路。
 - [103.binary-tree-zigzag-level-order-traversal](./problems/103.binary-tree-zigzag-level-order-traversal.md)
 - [139.word-break](./problems/139.word-breakmd)
 - [144.binary-tree-preorder-traversal](./problems/144.binary-tree-preorder-traversal.md)
-- 🖊 [[150.evaluate-reverse-polish-notation](./problems/150.evaluate-reverse-polish-notation.md)
+- 🖊 [150.evaluate-reverse-polish-notation](./problems/150.evaluate-reverse-polish-notation.md)
 - [199.binary-tree-right-side-view](./problems/199.binary-tree-right-side-view.md)
 - [201.bitwise-and-of-numbers-range](./problems/201.bitwise-and-of-numbers-range.md)
 - 🆕 [208.implement-trie-prefix-tree](./problems/208.implement-trie-prefix-tree.md)
@@ -143,7 +143,7 @@ leetcode 题解，记录自己的 leetcode 解题之路。
 ### 数据结构与算法的总结
 
 - 🖊 [数据结构](./thinkings/basic-data-structure.md)（草稿）
-- 🖊 [[二叉树的遍历](./thinkings/binary-tree-traversal.md)
+- 🖊 [二叉树的遍历](./thinkings/binary-tree-traversal.md)
 - [动态规划](./thinkings/dynamic-programming.md)
 - [哈夫曼编码和游程编码](./thinkings/run-length-encode-and-huffman-encode.md)
 - [布隆过滤器](./thinkings/bloom-filter.md)
