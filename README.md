@@ -14,7 +14,7 @@ leetcode 题解，记录自己的 leetcode 解题之路。
 
 - 第四部分是计划， 这里会记录将来要加入到以上三个部分内容
 
-> 只有熟练掌握基础的数据结构与算法，才能对复杂问题迎刃有余
+> 只有熟练掌握基础的数据结构与算法，才能对复杂问题迎刃有余。
 
 ## 食用指南
 
@@ -115,6 +115,7 @@ leetcode 题解，记录自己的 leetcode 解题之路。
 - [139.word-break](./problems/139.word-breakmd)
 - [144.binary-tree-preorder-traversal](./problems/144.binary-tree-preorder-traversal.md)
 - 🖊 [150.evaluate-reverse-polish-notation](./problems/150.evaluate-reverse-polish-notation.md)
+-  🆕 [152.maximum-product-subarray](./problems/152.maximum-product-subarray.md)
 - [199.binary-tree-right-side-view](./problems/199.binary-tree-right-side-view.md)
 - [201.bitwise-and-of-numbers-range](./problems/201.bitwise-and-of-numbers-range.md)
 - 🆕 [208.implement-trie-prefix-tree](./problems/208.implement-trie-prefix-tree.md)
@@ -132,6 +133,7 @@ leetcode 题解，记录自己的 leetcode 解题之路。
 - [900.rle-iterator](./problems/900.rle-iterator.md)
 
 #### 困难难度
+- 🆕 [23.merge-k-sorted-lists](./problems/23.merge-k-sorted-lists.md)
 - 🆕 [42.trapping-rain-water](./problems/42.trapping-rain-water.md)
 - 🆕 [128.longest-consecutive-sequence](./problems/128.longest-consecutive-sequence.md)
 - [145.binary-tree-postorder-traversal](./problems/145.binary-tree-postorder-traversal.md)
