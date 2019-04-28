@@ -123,6 +123,7 @@ leetcode 题解，记录自己的 leetcode 解题之路。
 - [240.search-a-2-d-matrix-ii](./problems/240.search-a-2-d-matrix-ii.md)
 - 🖊 [279.perfect-squares](./problems/279.perfect-squares.md)
 - [322.coin-change](./problems/322.coin-change.md)
+- 🆕 [334.increasing-triplet-subsequence](./problems/334.increasing-triplet-subsequence.md)
 - [328.odd-even-linked-list](./problems/328.odd-even-linked-list.md)
 - [416.partition-equal-subset-sum](./problems/416.partition-equal-subset-sum.md)
 - [445.add-two-numbers-ii](./problems/445.add-two-numbers-ii.md)
