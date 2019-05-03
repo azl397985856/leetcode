@@ -18,8 +18,8 @@ leetcode 题解，记录自己的 leetcode 解题之路。
 
 ## 食用指南
 
-- 对于最近添加的部分， 前面会有 🆕 标注
-- 对于最近更新的部分， 前面会有 🖊 标注
+- 对于最近添加的部分， 后面会有 🆕 标注
+- 对于最近更新的部分， 后面会有 🖊 标注
 - 将来会在这里更新anki卡片
 - 这里有一份leetcode官方账号在知乎上给出的一个《互联网公司最常见的面试算法题有哪些？》的答案，我这里尽量去覆盖回答中的题目和知识点
 原文地址： https://www.zhihu.com/question/24964987/answer/586425979
@@ -53,9 +53,9 @@ leetcode 题解，记录自己的 leetcode 解题之路。
 ## 精彩预告
 
 
-42.trapping-rain-water-1(雨水收集问题):
+0042.trapping-rain-water-1(雨水收集问题):
 
-![42.trapping-rain-water](./assets/problems/42.trapping-rain-water-1.png)
+![0042.trapping-rain-water](./assets/problems/42.trapping-rain-water-1.png)
 
 浏览器中的栈：
 
@@ -69,81 +69,86 @@ leetcode 题解，记录自己的 leetcode 解题之路。
 
 ![koko-eating-bananas](./assets/problems/koko-eating-bananas.png)
 
+## 进度
+
+- [Top 100 Linked Questions](https://leetcode.com/problemset/top-100-liked-questions/)(44/100)
+
+- [Top Interview Questions](https://leetcode.com/problemset/top-interview-questions/)(59/145)
 ## 传送门
 
 ### leetcode 经典题目的解析
 
 #### 简单难度
 
-- 🖊 [20. Valid Parentheses](./problems/20.validParentheses.md)
-- [26.remove-duplicates-from-sorted-array](./problems/26.remove-duplicates-from-sorted-array.md)
-- 🆕 [88.merge-sorted-array](./problems/88.merge-sorted-array.md)
-- [136.single-number](./problems/136.single-number.md)
-- [167.two-sum-ii-input-array-is-sorted](./problems/167.two-sum-ii-input-array-is-sorted.md)
-- 🆕 [169.majority-element](./problems/169.majority-element.md)
-- [190.reverse-bits](./problems/190.reverse-bits.md)
-- [191.number-of-1-bits](./problems/191.number-of-1-bits.md)
-- [203.remove-linked-list-elements](./problems/203.remove-linked-list-elements.md)
-- [206.reverse-linked-list](./problems/206.reverse-linked-list.md)
-- [219.contains-duplicate-ii](./problems/219.contains-duplicate-ii.md)
-- [226.invert-binary-tree](./problems/226.invert-binary-tree.md)
-- [283.move-zeroes](./problems/283.move-zeroes.md)
-- [349.intersection-of-two-arrays](./problems/349.intersection-of-two-arrays.md)
+- [0020.Valid Parentheses](./problems/20.validParentheses.md) 🖊 
+- [0026.remove-duplicates-from-sorted-array](./problems/26.remove-duplicates-from-sorted-array.md)
+- [0088.merge-sorted-array](./problems/88.merge-sorted-array.md) 🆕 
+- [0136.single-number](./problems/136.single-number.md)
+- [0167.two-sum-ii-input-array-is-sorted](./problems/167.two-sum-ii-input-array-is-sorted.md)
+- [0169.majority-element](./problems/169.majority-element.md) 🆕 
+- [0190.reverse-bits](./problems/190.reverse-bits.md)
+- [0191.number-of-1-bits](./problems/191.number-of-1-bits.md)
+- [0203.remove-linked-list-elements](./problems/203.remove-linked-list-elements.md)
+- [0206.reverse-linked-list](./problems/206.reverse-linked-list.md)
+- [0219.contains-duplicate-ii](./problems/219.contains-duplicate-ii.md)
+- [0226.invert-binary-tree](./problems/226.invert-binary-tree.md)
+- [0283.move-zeroes](./problems/283.move-zeroes.md)
+- [0349.intersection-of-two-arrays](./problems/349.intersection-of-two-arrays.md)
 
 
 #### 中等难度
 
-- [2. Add Two Numbers](./problems/2.addTwoNumbers.md)
-- [3. Longest Substring Without Repeating Characters](./problems/3.longestSubstringWithoutRepeatingCharacters.md)
-- [11.container-with-most-water](./problems/11.container-with-most-water.md)
-- [19. Remove Nth Node From End of List](./problems/19.removeNthNodeFromEndofList.md)
-- [24. Swap Nodes In Pairs](./problems/24.swapNodesInPairs.md)
-- 🆕 [39.combination-sum](./problems/39.combination-sum.md)
-- 🆕 [40.combination-sum-ii](./problems/40.combination-sum-ii.md)
-- 🆕 [46.permutations](./problems/46.permutations.md)
-- 🆕 [47.permutations-ii](./problems/47.permutations-ii.md)
-- 🆕 [55.jump-game](./problems/55.jump-game.md)
-- 🆕 [62.unique-paths](./problems/62.unique-paths.md)
-- [75.sort-colors](./problems/75.sort-colors.md)
-- 🆕 [78.subsets](./problems/78.subsets.md)
-- [86.partition-list](./problems/86.partition-list.md)
-- 🆕 [90.subsets-ii](./problems/90.subsets-ii.md)
-- [92.reverse-linked-list-ii](./problems/92.reverse-linked-list-ii.md)
-- [94.binary-tree-inorder-traversal](./problems/94.binary-tree-inorder-traversal.md)
-- [102.binary-tree-level-order-traversal](./problems/102.binary-tree-level-order-traversal.md)
-- [103.binary-tree-zigzag-level-order-traversal](./problems/103.binary-tree-zigzag-level-order-traversal.md)
-- [139.word-break](./problems/139.word-breakmd)
-- [144.binary-tree-preorder-traversal](./problems/144.binary-tree-preorder-traversal.md)
-- 🖊 [150.evaluate-reverse-polish-notation](./problems/150.evaluate-reverse-polish-notation.md)
--  🆕 [152.maximum-product-subarray](./problems/152.maximum-product-subarray.md)
-- [199.binary-tree-right-side-view](./problems/199.binary-tree-right-side-view.md)
-- [201.bitwise-and-of-numbers-range](./problems/201.bitwise-and-of-numbers-range.md)
-- 🆕 [208.implement-trie-prefix-tree](./problems/208.implement-trie-prefix-tree.md)
-- 🖊 [209.minimum-size-subarray-sum](./problems/209.minimum-size-subarray-sum.md)
-- 🆕 [236.lowest-common-ancestor-of-a-binary-tree](./problems/236.lowest-common-ancestor-of-a-binary-tree.md)
-- 🆕 [238.product-of-array-except-self](./problems/238.product-of-array-except-self.md)
-- [240.search-a-2-d-matrix-ii](./problems/240.search-a-2-d-matrix-ii.md)
-- 🖊 [279.perfect-squares](./problems/279.perfect-squares.md)
-- [322.coin-change](./problems/322.coin-change.md)
-- 🆕 [334.increasing-triplet-subsequence](./problems/334.increasing-triplet-subsequence.md)
-- [328.odd-even-linked-list](./problems/328.odd-even-linked-list.md)
-- [416.partition-equal-subset-sum](./problems/416.partition-equal-subset-sum.md)
-- [445.add-two-numbers-ii](./problems/445.add-two-numbers-ii.md)
-- [518.coin-change-2](./problems/518.coin-change-2.md)
-- [875.koko-eating-bananas](./problems/875.koko-eating-bananas.md)
-- [877.stone-game](./problems/877.stone-game.md)
-- [887.super-egg-drop](./problems/887.super-egg-drop.md)
-- [900.rle-iterator](./problems/900.rle-iterator.md)
+- [0002. Add Two Numbers](./problems/2.addTwoNumbers.md)
+- [0003. Longest Substring Without Repeating Characters](./problems/3.longestSubstringWithoutRepeatingCharacters.md)
+- [0011.container-with-most-water](./problems/11.container-with-most-water.md)
+- [0019. Remove Nth Node From End of List](./problems/19.removeNthNodeFromEndofList.md)
+- [0024. Swap Nodes In Pairs](./problems/24.swapNodesInPairs.md)
+- [0039.combination-sum](./problems/39.combination-sum.md) 🆕 
+- [0040.combination-sum-ii](./problems/40.combination-sum-ii.md) 🆕 
+- [0046.permutations](./problems/46.permutations.md) 🆕 
+- [0047.permutations-ii](./problems/47.permutations-ii.md) 🆕 
+- [0055.jump-game](./problems/55.jump-game.md) 🆕 
+- [0062.unique-paths](./problems/62.unique-paths.md )🆕 
+- [0075.sort-colors](./problems/75.sort-colors.md)
+- [0078.subsets](./problems/78.subsets.md) 🆕 
+- [0086.partition-list](./problems/86.partition-list.md)
+- [0090.subsets-ii](./problems/90.subsets-ii.md) 🆕 
+- [0092.reverse-linked-list-ii](./problems/92.reverse-linked-list-ii.md)
+- [0094.binary-tree-inorder-traversal](./problems/94.binary-tree-inorder-traversal.md)
+- [0102.binary-tree-level-order-traversal](./problems/102.binary-tree-level-order-traversal.md)
+- [0103.binary-tree-zigzag-level-order-traversal](./problems/103.binary-tree-zigzag-level-order-traversal.md)
+- [0139.word-break](./problems/139.word-breakmd)
+- [0144.binary-tree-preorder-traversal](./problems/144.binary-tree-preorder-traversal.md)
+- [0150.evaluate-reverse-polish-notation](./problems/150.evaluate-reverse-polish-notation.md) 🖊
+- [0152.maximum-product-subarray](./problems/152.maximum-product-subarray.md) 🆕  
+- [0199.binary-tree-right-side-view](./problems/199.binary-tree-right-side-view.md)
+- [0201.bitwise-and-of-numbers-range](./problems/201.bitwise-and-of-numbers-range.md)
+- [0208.implement-trie-prefix-tree](./problems/208.implement-trie-prefix-tree.md) 🆕 
+- [0209.minimum-size-subarray-sum](./problems/209.minimum-size-subarray-sum.md) 🖊 
+- [0236.lowest-common-ancestor-of-a-binary-tree](./problems/236.lowest-common-ancestor-of-a-binary-tree.md)🆕 
+- [0238.product-of-array-except-self](./problems/238.product-of-array-except-self.md) 🆕 
+- [0240.search-a-2-d-matrix-ii](./problems/240.search-a-2-d-matrix-ii.md)
+- [0279.perfect-squares](./problems/279.perfect-squares.md)🖊 
+- [0322.coin-change](./problems/322.coin-change.md)
+- [0334.increasing-triplet-subsequence](./problems/334.increasing-triplet-subsequence.md)
+- [0328.odd-even-linked-list](./problems/328.odd-even-linked-list.md)
+- [0416.partition-equal-subset-sum](./problems/416.partition-equal-subset-sum.md)
+- [0445.add-two-numbers-ii](./problems/445.add-two-numbers-ii.md)
+- [0518.coin-change-2](./problems/518.coin-change-2.md)
+- [0875.koko-eating-bananas](./problems/875.koko-eating-bananas.md)
+- [0877.stone-game](./problems/877.stone-game.md)
+- [0887.super-egg-drop](./problems/887.super-egg-drop.md)
+- [0900.rle-iterator](./problems/900.rle-iterator.md)
 
 #### 困难难度
-- 🆕 [23.merge-k-sorted-lists](./problems/23.merge-k-sorted-lists.md)
-- 🆕 [42.trapping-rain-water](./problems/42.trapping-rain-water.md)
-- 🆕 [128.longest-consecutive-sequence](./problems/128.longest-consecutive-sequence.md)
-- [145.binary-tree-postorder-traversal](./problems/145.binary-tree-postorder-traversal.md)
-- [146.lru-cache](./problems/146.lru-cache.md)
-- 🆕 [239.sliding-window-maximum](./problems/239.sliding-window-maximum.md)
-- 🆕 [295.find-median-from-data-stream.md](./problems/295.find-median-from-data-stream.md)
-- [301.remove-invalid-parentheses](./problems/301.remove-invalid-parentheses.md)
+- [0023.merge-k-sorted-lists](./problems/23.merge-k-sorted-lists.md)
+- [0042.trapping-rain-water](./problems/42.trapping-rain-water.md)
+- [0128.longest-consecutive-sequence](./problems/128.longest-consecutive-sequence.md) 🆕 
+- [0145.binary-tree-postorder-traversal](./problems/145.binary-tree-postorder-traversal.md)
+- [0146.lru-cache](./problems/146.lru-cache.md)
+- [0239.sliding-window-maximum](./problems/239.sliding-window-maximum.md)
+- [0295.find-median-from-data-stream.md](./problems/295.find-median-from-data-stream.md) 🆕 
+- [0301.remove-invalid-parentheses](./problems/301.remove-invalid-parentheses.md)
 
 ### 数据结构与算法的总结
 
@@ -175,13 +180,15 @@ anki - 文件 - 导入 - 下拉格式选择“打包的 anki集合”，然后�
 
 ### 计划
 
-- [494.target-sum](./todo/494.target-sum.js)
+- [0494.target-sum](./todo/494.target-sum.js)
 
-- [609.find-duplicate-file-in-system](./todo/609.find-duplicate-file-in-system.js)
+- [0609.find-duplicate-file-in-system](./todo/609.find-duplicate-file-in-system.js)
 
-- [10.regular-expression-matching](./todo/10.regular-expression-matching.js)
+- [0010.regular-expression-matching](./todo/10.regular-expression-matching.js)
 
-- [365.water-and-jug-problem](./todo/365.water-and-jug-problem.js)
+- [0309.best-time-to-buy-and-sell-stock-with-cooldown](./todo/309.best-time-to-buy-and-sell-stock-with-cooldown.js)
+
+- [0365.water-and-jug-problem](./todo/365.water-and-jug-problem.js)
 
 - [anki 卡片 完善](./assets/anki/)
 
