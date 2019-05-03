@@ -285,7 +285,7 @@ return, children, sibling也都是一个fiber，因此fiber看起来就是一个
 
 相关概念：
 
-- 真二叉树
+- 真二叉树 （所有节点的度数只能是偶数，即只能为0或者2）
 
 
 另外我也专门开设了[二叉树的遍历](./binary-tree-traversal.md)章节, 具体细节和算法可以去那里查看。

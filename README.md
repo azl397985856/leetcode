@@ -69,23 +69,25 @@ leetcode 题解，记录自己的 leetcode 解题之路。
 
 ![koko-eating-bananas](./assets/problems/koko-eating-bananas.png)
 
-## 进度
+## Top题目进度
 
-- [Top 100 Linked Questions](https://leetcode.com/problemset/top-100-liked-questions/)(44/100)
+- [Top 100 Linked Questions](https://leetcode.com/problemset/top-100-liked-questions/) (44 / 100)
 
-- [Top Interview Questions](https://leetcode.com/problemset/top-interview-questions/)(59/145)
+- [Top Interview Questions](https://leetcode.com/problemset/top-interview-questions/) (64 / 145)
 ## 传送门
 
 ### leetcode 经典题目的解析
+
+> 这里仅列举具有代表性题目，并不是全部题目
 
 #### 简单难度
 
 - [0020.Valid Parentheses](./problems/20.validParentheses.md) 🖊 
 - [0026.remove-duplicates-from-sorted-array](./problems/26.remove-duplicates-from-sorted-array.md)
-- [0088.merge-sorted-array](./problems/88.merge-sorted-array.md) 🆕 
+- [0088.merge-sorted-array](./problems/88.merge-sorted-array.md)
 - [0136.single-number](./problems/136.single-number.md)
 - [0167.two-sum-ii-input-array-is-sorted](./problems/167.two-sum-ii-input-array-is-sorted.md)
-- [0169.majority-element](./problems/169.majority-element.md) 🆕 
+- [0169.majority-element](./problems/169.majority-element.md)
 - [0190.reverse-bits](./problems/190.reverse-bits.md)
 - [0191.number-of-1-bits](./problems/191.number-of-1-bits.md)
 - [0203.remove-linked-list-elements](./problems/203.remove-linked-list-elements.md)
@@ -101,12 +103,13 @@ leetcode 题解，记录自己的 leetcode 解题之路。
 - [0002. Add Two Numbers](./problems/2.addTwoNumbers.md)
 - [0003. Longest Substring Without Repeating Characters](./problems/3.longestSubstringWithoutRepeatingCharacters.md)
 - [0011.container-with-most-water](./problems/11.container-with-most-water.md)
+- [0015.3-sum](./problems/15.3-sum.md) 🆕
 - [0019. Remove Nth Node From End of List](./problems/19.removeNthNodeFromEndofList.md)
 - [0024. Swap Nodes In Pairs](./problems/24.swapNodesInPairs.md)
-- [0039.combination-sum](./problems/39.combination-sum.md) 🆕 
-- [0040.combination-sum-ii](./problems/40.combination-sum-ii.md) 🆕 
-- [0046.permutations](./problems/46.permutations.md) 🆕 
-- [0047.permutations-ii](./problems/47.permutations-ii.md) 🆕 
+- [0039.combination-sum](./problems/39.combination-sum.md)
+- [0040.combination-sum-ii](./problems/40.combination-sum-ii.md)
+- [0046.permutations](./problems/46.permutations.md)
+- [0047.permutations-ii](./problems/47.permutations-ii.md)
 - [0055.jump-game](./problems/55.jump-game.md) 🆕 
 - [0062.unique-paths](./problems/62.unique-paths.md )🆕 
 - [0075.sort-colors](./problems/75.sort-colors.md)
@@ -134,6 +137,7 @@ leetcode 题解，记录自己的 leetcode 解题之路。
 - [0328.odd-even-linked-list](./problems/328.odd-even-linked-list.md)
 - [0416.partition-equal-subset-sum](./problems/416.partition-equal-subset-sum.md)
 - [0445.add-two-numbers-ii](./problems/445.add-two-numbers-ii.md)
+- [0454.4-sum-ii](./problems/454.4-sum-ii.md) 🆕
 - [0518.coin-change-2](./problems/518.coin-change-2.md)
 - [0875.koko-eating-bananas](./problems/875.koko-eating-bananas.md)
 - [0877.stone-game](./problems/877.stone-game.md)
@@ -205,3 +209,9 @@ anki - 文件 - 导入 - 下拉格式选择“打包的 anki集合”，然后�
 ![wechat-group-chat](./assets/wechat-group-chat.jpeg)
 
 (由于微信的限制，100个人以上只能邀请加入， 你可以添加我的机器人回复“leetcode”拉你进群)
+
+## 贡献
+
+- 如果有想法和创意，请提[issue](https://github.com/azl397985856/leetcode/issues)或者进群提
+- 如果想贡献代码，请提[PR](https://github.com/azl397985856/leetcode/pulls)
+- 如果需要修改项目中图片，[这里](./assets/drawio/)存放了项目中绘制图的源代码， 大家可以用[draw.io](https://www.draw.io/)打开进行编辑。
