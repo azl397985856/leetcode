@@ -155,10 +155,15 @@ f(n) = f(n-1) + f(n-2) 就是【状态转移公式】
 
 ### 相关问题
 
-- [硬币找零问题](../problems/322.coin-change.md)
-- [硬币找零问题2](../problems/518.coin-change-2.md)
-- [分词问题](../problems/139.word-break.md)
-- [416.partition-equal-subset-sum](../problems/416.partition-equal-subset-sum.md)
+- [0091.decode-ways](../problems/91.decode-ways.md)
+- [0139.word-break](../problems/139.word-break.md)
+- [0198.house-robber](../problems/0198.house-robber.md)
+- [0309.best-time-to-buy-and-sell-stock-with-cooldown](../problems/309.best-time-to-buy-and-sell-stock-with-cooldown.md)
+- [0322.coin-change](../problems/322.coin-change.md)
+- [0416.partition-equal-subset-sum](../problems/416.partition-equal-subset-sum.md)
+- [0518.coin-change-2](../problems/518.coin-change-2.md)
+
+> 太多了，没有逐一列举
 
 ## 总结
 
