@@ -53,23 +53,23 @@ leetcode 题解，记录自己的 leetcode 解题之路。
 ## 精彩预告
 
 
-0042.trapping-rain-water-1(雨水收集问题):
+[0042.trapping-rain-water](./problems/42.trapping-rain-water.md):
 
 ![0042.trapping-rain-water](./assets/problems/42.trapping-rain-water-1.png)
 
-浏览器中的栈：
+[浏览器中的栈](./thinkings/basic-data-structure.md)：
 
 ![basic-data-structure-call-stack](./assets/thinkings/basic-data-structure-call-stack.png)
 
-回溯法解题:
+[backtrack problems](./problems/90.subsets-ii.md):
 
 ![backtrack](./assets/problems/backtrack.png)
 
-198.house-robber:
+[0198.house-robber](./problems/198.house-robber.md):
 
 ![198.house-robber](./assets/problems/198.house-robber.png)
 
-454.4-sum-ii:
+[0454.4-sum-ii](./problems/454.4-sum-ii.md):
 
 ![454.4-sum-ii](./assets/problems/454.4-sum-ii.png)
 
@@ -96,7 +96,7 @@ leetcode 题解，记录自己的 leetcode 解题之路。
 - [0169.majority-element](./problems/169.majority-element.md)
 - [0190.reverse-bits](./problems/190.reverse-bits.md)
 - [0191.number-of-1-bits](./problems/191.number-of-1-bits.md)
-- [0198.house-robber.md](./problems/198.house-robber.md) 🆕
+- [0198.house-robber](./problems/198.house-robber.md) 🆕
 - [0203.remove-linked-list-elements](./problems/203.remove-linked-list-elements.md)
 - [0206.reverse-linked-list](./problems/206.reverse-linked-list.md)
 - [0219.contains-duplicate-ii](./problems/219.contains-duplicate-ii.md)
@@ -161,7 +161,7 @@ leetcode 题解，记录自己的 leetcode 解题之路。
 - [0145.binary-tree-postorder-traversal](./problems/145.binary-tree-postorder-traversal.md)
 - [0146.lru-cache](./problems/146.lru-cache.md)
 - [0239.sliding-window-maximum](./problems/239.sliding-window-maximum.md)
-- [0295.find-median-from-data-stream.md](./problems/295.find-median-from-data-stream.md) 🆕 
+- [0295.find-median-from-data-stream](./problems/295.find-median-from-data-stream.md) 🆕 
 - [0301.remove-invalid-parentheses](./problems/301.remove-invalid-parentheses.md)
 
 ### 数据结构与算法的总结
