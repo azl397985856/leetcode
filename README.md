@@ -65,9 +65,13 @@ leetcode 题解，记录自己的 leetcode 解题之路。
 
 ![backtrack](./assets/problems/backtrack.png)
 
-875. koko-eating-bananas:
+198.house-robber:
 
-![koko-eating-bananas](./assets/problems/koko-eating-bananas.png)
+![198.house-robber](./assets/problems/198.house-robber.png)
+
+454.4-sum-ii:
+
+![454.4-sum-ii](./assets/problems/454.4-sum-ii.png)
 
 ## Top题目进度
 
