@@ -1,0 +1,320 @@
+# Fundamental data structure
+
+This article is not going to intepret data structures, but help you to `review and understand` data structures and algorithms with real scenes. So, if you have a poor data structure foundation, you'd better to read some basic courses about data structures before reading this.
+
+This article is focused on frontend. We are expected to enhance your understanding to data structures from how data structures are implemented in frontend.
+
+## Linear structure
+
+Data structures can be divided into linear and non-linear structures logically.  
+The linear structure contains array, stack, linked list and so on.  
+The non-linear structure contains tree, graph and so on.
+
+> In fact, tree can be taken for a half-linear structure.
+
+It should be noted that, the linear and non-linear date structures do NOT mean that the data in those structure are stored in a linear or non-linear on the hard disk. It is just a logic partition. For example, binary tree can be stored in array.
+
+### Array
+
+Array is the simplest data structure and is used in so many places. For example, array is perfectly appropriate to store a data list. And in fact, you can find array behind many other data structures.
+
+The stack and queue structures which will be mentioned later can be regarded as a kind of BLOCKED array. You can find the detials in the corresponding sections.
+
+Now, let's have a look at some interesting examples.
+
+#### React Hooks
+
+`hooks` is essentially an array.
+
+![basic-data-structure-hooks.png](../assets/thinkings/basic-data-structure-hooks.png)
+
+So, why `hooks` uses array? Maybe we can find the answer from the other side. What if not array?
+
+```js
+
+function Form() {
+  // 1. Use the name state variable
+  const [name, setName] = useState('Mary');
+
+  // 2. Use an effect for persisting the form
+  useEffect(function persistForm() {
+    localStorage.setItem('formData', name);
+  });
+
+  // 3. Use the surname state variable
+  const [surname, setSurname] = useState('Poppins');
+
+  // 4. Use an effect for updating the title
+  useEffect(function updateTitle() {
+    document.title = name + ' ' + surname;
+  });
+
+  // ...
+}
+```
+
+基于数组的方式，`Form`的hooks就是 [hook1, hook2, hook3, hook4],
+我们可以得出这样的关系， hook1就是[name, setName] 这一对，
+hook2就是persistForm这个。
+
+如果不用数组实现，比如对象，Form的hooks就是
+```js
+{
+  'key1': hook1,
+  'key2': hook2,
+  'key3': hook3,
+  'key4': hook4,
+}
+```
+那么问题是key1，key2，key3，key4怎么取呢？
+
+关于React hooks 的本质研究，更多请查看[React hooks: not magic, just arrays](https://medium.com/@ryardley/react-hooks-not-magic-just-arrays-cd4f1857236e)
+
+React 将`如何确保组件内部hooks保存的状态之间的对应关系`这个工作交给了 
+开发人员去保证，即你必须保证HOOKS的顺序严格一致，具体可以看React 官网关于 Hooks Rule 部分。
+
+### Queue
+
+Queue is a confining sequence. The elements in queue can only be removed from the head and only be added from the tail.
+
+> accoding to FIFO(fisrt-in-first-out) principle
+
+Queue is also a very common data structure with widely using. Like message queue.
+
+> The queue in data structure is just like the queue in daily life.
+
+In IT area, a queue is a specific ADT(abstract data type) or set. The entities in the set are stored in a certain sequence.
+
+There are twe basic operations of queue:
+
+- Adding entity to the tail, which is called enqueue.
+- Removing entity from the head, which is called dequeue.
+
+
+Explaining of FIFO:
+
+![basic-data-structure-queue](../assets/thinkings/basic-data-structure-queue.svg)
+
+(picture source: https://github.com/trekhleb/javascript-algorithms/blob/master/src/data-structures/queue/README.zh-CN.md)
+
+There is a problem, Head of Line Block (HOL), in HTTP/1.1. What is that? And how HTTP/2 solves the problem?
+
+In fact, the HOL are not only appearing in HTTP/1.1, but also in switcher. The key to this problem is queue structure.
+
+For the same TCP connection, all HTTP/1.0 requests will be add into a queue. Which means, the next request can be sent until the previous respond has been received. This block happens at the client side mostly.
+
+Just like waiting the traffic lights, 
+这就好像我们在等红绿灯，即使旁边绿灯亮了，你的这个车道是红灯，你还是不能走，还是要等着。
+
+![basic-data-structure-queue-1](../assets/thinkings/basic-data-structure-queue-1.png)
+
+对于同一个tcp连接，http1.1允许一次发送多个http1.1请求，也就是说，不必等前一个响应收到，就可以发送下一个请求，这样就解决了http1.0的客户端的队头阻塞。
+但是，`http1.1规定，服务器端的响应的发送要根据请求被接收的顺序排队`，也就是说，
+先接收到的请求的响应也要先发送。这样造成的问题是，如果最先收到的请求的处理时间长的话，响应生成也慢，就会阻塞已经生成了的响应的发送。也会造成队头阻塞。
+可见，http1.1的队首阻塞发生在服务器端。
+
+如果用图来表示的话，过程大概是：
+
+![basic-data-structure-queue-2](../assets/thinkings/basic-data-structure-queue-2.png)
+
+### 栈
+栈也是一种受限的序列，它只能够操作栈顶，不管入栈还是出栈，都是在栈顶操作。
+
+在计算机科学中, 一个 栈(stack) 是一种抽象数据类型,用作表示元素的集合,具有两种主要操作:
+
+push, 添加元素到栈的顶端(末尾);
+pop, 移除栈最顶端(末尾)的元素.
+以上两种操作可以简单概括为“后进先出(LIFO = last in, first out)”。
+
+此外,应有一个 peek 操作用于访问栈当前顶端(末尾)的元素。（只返回不弹出）
+
+> "栈"这个名称,可类比于一组物体的堆叠(一摞书,一摞盘子之类的)。
+
+栈的 push 和 pop 操作的示意:
+
+![basic-data-structure-stack](../assets/thinkings/basic-data-structure-stack.png)
+
+(图片来自 https://github.com/trekhleb/javascript-algorithms/blob/master/src/data-structures/stack/README.zh-CN.md)
+
+
+栈在很多地方都有着应用，比如大家熟悉的浏览器就有很多栈，其实浏览器的执行栈就是一个基本的栈结构，从数据结构上说，它就是一个栈。
+这也就解释了，我们用递归的解法和用循环+栈的解法本质上是差不多。
+
+
+
+比如如下JS代码：
+
+```js
+function bar() {
+  const a = 1
+  const b = 2;
+  console.log(a, b)
+}
+function foo() {
+  const a = 1;
+  bar();
+}
+
+foo();
+
+
+```
+
+真正执行的时候，内部大概是这样的：
+
+![basic-data-structure-call-stack](../assets/thinkings/basic-data-structure-call-stack.png)
+
+> 我画的图没有画出执行上下文中其他部分（this和scope等）， 这部分是闭包的关键，而我这里不是将闭包的，是为了讲解栈的。
+
+> 社区中有很多“执行上下文中的scope指的是执行栈中父级声明的变量”说法，这是完全错误的， JS是词法作用域，scope指的是函数定义时候的父级，和执行没关系
+
+
+栈常见的应用有进制转换，括号匹配，栈混洗，中缀表达式（用的很少），后缀表达式（逆波兰表达式）等。
+
+> 合法的栈混洗操作，其实和合法的括号匹配表达式之间存在着一一对应的关系，
+也就是说n个元素的栈混洗有多少种，n对括号的合法表达式就有多少种。感兴趣的可以查找相关资料
+### 链表
+
+链表是一种最基本数据结构，熟练掌握链表的结构和常见操作是基础中的基础。
+
+![basic-data-structure-link-list](../assets/thinkings/basic-data-structure-link-list.svg)
+
+(图片来自： https://github.com/trekhleb/javascript-algorithms/tree/master/src/algorithms/linked-list/traversal)
+
+#### React Fiber
+
+很多人都说 fiber 是基于链表实现的，但是为什么要基于链表呢，可能很多人并没有答案，那么我觉得可以把这两个点（fiber 和链表）放到一起来讲下。
+
+fiber 出现的目的其实是为了解决 react 在执行的时候是无法停下来的，需要一口气执行完的问题的。
+
+![fiber-intro](../assets/thinkings/basic-data-structure-fiber-intro.png)
+
+图片来自 Lin Clark 在 ReactConf 2017 分享
+
+上面已经指出了引入 fiber 之前的问题，就是 react 会阻止优先级高的代码（比如用户输入）执行。因此 fiber
+打算自己自建一个`虚拟执行栈`来解决这个问题，这个虚拟执行栈的实现是链表。
+
+Fiber 的基本原理是将协调过程分成小块，一次执行一块，然乎将运算结果保存起来，并判断是否有时间（react 自己实现了一个类似 requestIdleCallback 的功能）继续执行下一块。
+如果有时间，则继续。 否则跳出，让浏览器主线程歇一会，执行别的优先级高的代码。
+
+当协调过程完成（所有的小块都运算完毕）， 那么就会进入提交阶段， 真正的进行副作用（side effect）操作，比如更新DOM，这个过程是没有办法取消的，原因就是这部分有副作用。
+
+问题的关键就是将协调的过程划分为一块块的，最后还可以合并到一起，有点像Map／Reduce。
+
+React 必须重新实现遍历树的算法，从依赖于`内置堆栈的同步递归模型`，变为`具有链表和指针的异步模型`。
+
+> Andrew 是这么说的： 如果你只依赖于[内置]调用堆栈，它将继续工作直到堆栈为空。。。
+
+如果我们可以随意中断调用堆栈并手动操作堆栈帧，那不是很好吗？
+这就是 React Fiber 的目的。 `Fiber 是堆栈的重新实现，专门用于 React 组件`。 你可以将单个 Fiber 视为一个`虚拟堆栈帧`。
+
+react fiber 大概是这样的：
+
+```js
+let fiber = {
+  tag: HOST_COMPONENT,
+  type: "div",
+  return: parentFiber,
+  children: childFiber,
+  sibling: childFiber,
+  alternate: currentFiber,
+  stateNode: document.createElement("div"),
+  props: { children: [], className: "foo"},
+  partialState: null,
+  effectTag: PLACEMENT,
+  effects: []
+};
+
+```
+
+从这里可以看出fiber本质上是个对象，使用parent，child，sibling属性去构建fiber树来表示组件的结构树，
+return, children, sibling也都是一个fiber，因此fiber看起来就是一个链表。
+
+> 细心的朋友可能已经发现了， alternate也是一个fiber， 那么它是用来做什么的呢？
+它其实原理有点像git， 可以用来执行git revert ,git commit等操作，这部分挺有意思，我会在我的《从零开发git》中讲解 
+
+想要了解更多的朋友可以看[这个文章](https://github.com/dawn-plex/translate/blob/master/articles/the-how-and-why-on-reacts-usage-of-linked-list-in-fiber-to-walk-the-components-tree.md)
+
+如果可以翻墙， 可以看[英文原文](https://medium.com/react-in-depth/the-how-and-why-on-reacts-usage-of-linked-list-in-fiber-67f1014d0eb7)
+
+[这篇文章](https://engineering.hexacta.com/didact-fiber-incremental-reconciliation-b2fe028dcaec)也是早期讲述fiber架构的优秀文章
+
+我目前也在写关于《从零开发react系列教程》中关于fiber架构的部分，如果你对具体实现感兴趣，欢迎关注。
+### 非线性结构
+
+那么有了线性结果，我们为什么还需要非线性结果呢？ 答案是为了高效地兼顾静态操作和动态操作。
+大家可以对照各种数据结构的各种操作的复杂度来直观感受一下。
+## 树
+树的应用同样非常广泛，小到文件系统，大到因特网，组织架构等都可以表示为树结构，
+而在我们前端眼中比较熟悉的DOM树也是一种树结构，而HTML作为一种DSL去描述这种树结构的具体表现形式。
+
+树其实是一种特殊的`图`，是一种无环连通图，是一种极大无环图，也是一种极小连通图。
+
+从另一个角度看，树是一种递归的数据结构。而且树的不同表示方法，比如不常用的`长子 + 兄弟`法，对于
+你理解树这种数据结构有着很大用处， 说是一种对树的本质的更深刻的理解也不为过。
+
+树的基本算法有前中后序遍历和层次遍历，有的同学对前中后这三个分别具体表现的访问顺序比较模糊，
+其实当初我也是一样的，后面我学到了一点，你只需要记住：`所谓的前中后指的是根节点的位置，其他位置按照先左后右排列即可`。
+比如前序遍历就是`根左右`, 中序就是`左根右`，后序就是`左右根`， 很简单吧？
+
+我刚才提到了树是一种递归的数据结构，因此树的遍历算法使用递归去完成非常简单，
+幸运的是树的算法基本上都要依赖于树的遍历。 但是递归在计算机中的性能一直都有问题，
+因此掌握不那么容易理解的"命令式地迭代"遍历算法在某些情况下是有用的。
+
+如果你使用迭代式方式去遍历的话，可以借助上面提到的`栈`来进行，可以极大减少代码量。
+
+> 如果使用栈来简化运算，由于栈是FILO的，因此一定要注意左右子树的推入顺序。
+
+树的重要性质：
+
+- 如果树有n个顶点，那么其就有n - 1条边，这说明了树的顶点数和边数是同阶的。
+- 任何一个节点到根节点存在`唯一`路径, 路径的长度为节点所处的深度
+
+
+
+### 二叉树
+
+二叉树是节点度数不超过二的树，是树的一种特殊子集，有趣的是二叉树这种被限制的树结构却能够表示和实现所有的树，
+它背后的原理正是`长子 + 兄弟`法，用邓老师的话说就是`二叉树是多叉树的特例，但在有根且有序时，其描述能力却足以覆盖后者`。
+
+> 实际上， 在你使用`长子 + 兄弟`法表示树的同时，进行45度角旋转即可。 
+
+相关算法:
+
+- [94.binary-tree-inorder-traversal](../problems/94.binary-tree-inorder-traversal.md)
+- [102.binary-tree-level-order-traversal](../problems/102.binary-tree-level-order-traversal.md)
+- [103.binary-tree-zigzag-level-order-traversal](../problems/103.binary-tree-zigzag-level-order-traversal.md)
+- [144.binary-tree-preorder-traversal](../problems/144.binary-tree-preorder-traversal.md)
+- [145.binary-tree-postorder-traversal](../problems/145.binary-tree-postorder-traversal.md)
+- [199.binary-tree-right-side-view](../problems/199.binary-tree-right-side-view.md)
+
+相关概念：
+
+- 真二叉树 （所有节点的度数只能是偶数，即只能为0或者2）
+
+
+另外我也专门开设了[二叉树的遍历](./binary-tree-traversal.md)章节, 具体细节和算法可以去那里查看。
+#### 堆
+
+堆其实是一种优先级队列，在很多语言都有对应的内置数据结构，很遗憾javascript没有这种原生的数据结构。
+不过这对我们理解和运用不会有影响。
+
+相关算法：
+
+- [295.find-median-from-data-stream](../problems/295.find-median-from-data-stream.md)
+#### 二叉查找树
+
+### 平衡树
+
+database engine
+
+#### AVL
+
+#### 红黑树
+
+### 字典树(前缀树)
+
+相关算法：
+
+- [208.implement-trie-prefix-tree](../problems/208.implement-trie-prefix-tree.md)
+## 图
