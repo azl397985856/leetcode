@@ -90,7 +90,6 @@ There are twe basic operations of queue:
 - Adding entity to the tail, which is called enqueue.
 - Removing entity from the head, which is called dequeue.
 
-
 Explaining of FIFO:
 
 ![basic-data-structure-queue](../assets/thinkings/basic-data-structure-queue.svg)
@@ -103,46 +102,47 @@ In fact, the HOL are not only appearing in HTTP/1.1, but also in switcher. The k
 
 For the same TCP connection, all HTTP/1.0 requests will be add into a queue. Which means, the next request can be sent until the previous respond has been received. This block happens at the client side mostly.
 
-Just like waiting the traffic lights, 
-这就好像我们在等红绿灯，即使旁边绿灯亮了，你的这个车道是红灯，你还是不能走，还是要等着。
+Just like waiting the traffic lights, if you are on the left-turn or right-turning lane, you cannot move even if the straight lane is good to go when the left/right turning light is still red.
 
 ![basic-data-structure-queue-1](../assets/thinkings/basic-data-structure-queue-1.png)
 
-对于同一个tcp连接，http1.1允许一次发送多个http1.1请求，也就是说，不必等前一个响应收到，就可以发送下一个请求，这样就解决了http1.0的客户端的队头阻塞。
-但是，`http1.1规定，服务器端的响应的发送要根据请求被接收的顺序排队`，也就是说，
-先接收到的请求的响应也要先发送。这样造成的问题是，如果最先收到的请求的处理时间长的话，响应生成也慢，就会阻塞已经生成了的响应的发送。也会造成队头阻塞。
-可见，http1.1的队首阻塞发生在服务器端。
+Talking about the difference or the same TCP connection, HTTP/1.1 allows send multiple HTTP/1.1 requests at the same time. In another word, 
+`HTTP/1.0` and `HTTP/1.1`:  
+Accoding to `HTTP/1.0` protocal, one TCP connect will be established for each request and be terminated immediately after receiving the corresponding response. And the next HTTP request cannot be sent until the response of previous request has been received.  
+According to `HTTP/1.1`, each connection is persistent connection by default. For the same TCP connection, it is allowed to send multiple `HTTP/1.1` request at the same time. In other words, it is unnecessary to send the next request after receiving the response of the previous one. This is the solution to the HOL bloking of `HTTP/1.0`. And, this is called `pipeline` in `HTTP/1.1`.  
+However, according to `HTTP/1.1`， all the responses are reqired to be sent back to client or brower in the sequence of that being received. In other words, one request received in front should be responded in front. The HOL blocking will happend when one request in front takes a long processing time. All later request have to wait for it. So, the HOL blocking of `HTTP/1.1` happends at the server side.
 
-如果用图来表示的话，过程大概是：
+The process can be represented as follow:
 
 ![basic-data-structure-queue-2](../assets/thinkings/basic-data-structure-queue-2.png)
 
-### 栈
-栈也是一种受限的序列，它只能够操作栈顶，不管入栈还是出栈，都是在栈顶操作。
+### Stack
 
-在计算机科学中, 一个 栈(stack) 是一种抽象数据类型,用作表示元素的集合,具有两种主要操作:
+Stack is a kind of blocked sequence. It only supports to add or remove element at the **top** of stack.
 
-push, 添加元素到栈的顶端(末尾);
-pop, 移除栈最顶端(末尾)的元素.
-以上两种操作可以简单概括为“后进先出(LIFO = last in, first out)”。
+In IT area, a stack is an ADT (abstract data type) for representing a set of elements. 
 
-此外,应有一个 peek 操作用于访问栈当前顶端(末尾)的元素。（只返回不弹出）
+There are basic operations of stack:
 
-> "栈"这个名称,可类比于一组物体的堆叠(一摞书,一摞盘子之类的)。
+- Adding element at the top (tail), which called `push`
+- Removing the element at the top (tail), which called `pop`
 
-栈的 push 和 pop 操作的示意:
+The two operations can be summarized as LIFO (last-in-first-out) or FILO (first-in-last-out)
+
+Besides, there is usually an operation called `peek` which is used to retrieve the first element of the stack or the element present at the top of the stack. Compared with `pop`, the `peek` operation won't remove the retrieved element from the stack.
+
+> Stack can be regarded as a pile of books or dishes.
+
+Explaining of `push` and `pop` operations:
 
 ![basic-data-structure-stack](../assets/thinkings/basic-data-structure-stack.png)
 
-(图片来自 https://github.com/trekhleb/javascript-algorithms/blob/master/src/data-structures/stack/README.zh-CN.md)
+(Picture from: https://github.com/trekhleb/javascript-algorithms/blob/master/src/data-structures/stack/README.zh-CN.md)
 
+Stack has been used in many places and areas. For example, in browser, the Execution Stack is a basic stack structure.  
+So, the recursion and loop+stack are essentially the same thing.
 
-栈在很多地方都有着应用，比如大家熟悉的浏览器就有很多栈，其实浏览器的执行栈就是一个基本的栈结构，从数据结构上说，它就是一个栈。
-这也就解释了，我们用递归的解法和用循环+栈的解法本质上是差不多。
-
-
-
-比如如下JS代码：
+For example:
 
 ```js
 function bar() {
@@ -160,31 +160,31 @@ foo();
 
 ```
 
-真正执行的时候，内部大概是这样的：
+It may look like this inside the program during executing:
 
 ![basic-data-structure-call-stack](../assets/thinkings/basic-data-structure-call-stack.png)
 
-> 我画的图没有画出执行上下文中其他部分（this和scope等）， 这部分是闭包的关键，而我这里不是将闭包的，是为了讲解栈的。
+> The figure above does not contains the other parts of the execution context, like `this` and `scope` which are the key to closure. Here is not going to talk about the closure but to explain the stack structure.
+> Some statements in community like *the `scope` of execution context is the variables which declared by the super class in execution stack* which are completely wrong. JS uses Lexical Scoping. And `scope` is the parent object of function when it is defined. There is nothing to do with the execution.
 
-> 社区中有很多“执行上下文中的scope指的是执行栈中父级声明的变量”说法，这是完全错误的， JS是词法作用域，scope指的是函数定义时候的父级，和执行没关系
+The common use of stack including Base Conversion, bracket matching, stack shuffling, Infix Expression and Postfix Expression, etc.
 
+> There is a correspongding relationship between legal stack shuffling operations and legal bracket matching expressions.
+> In another word, the number of conditions of Stack Shuffling with `n` elements equals the number of conditions of legal expressions of `n` pairs of brackets.
 
-栈常见的应用有进制转换，括号匹配，栈混洗，中缀表达式（用的很少），后缀表达式（逆波兰表达式）等。
+### Linked List
 
-> 合法的栈混洗操作，其实和合法的括号匹配表达式之间存在着一一对应的关系，
-也就是说n个元素的栈混洗有多少种，n对括号的合法表达式就有多少种。感兴趣的可以查找相关资料
-### 链表
-
-链表是一种最基本数据结构，熟练掌握链表的结构和常见操作是基础中的基础。
+Linked List is the most basic data structure. So, it is quit important to make yourself master of understanding and using Linked List.
 
 ![basic-data-structure-link-list](../assets/thinkings/basic-data-structure-link-list.svg)
 
-(图片来自： https://github.com/trekhleb/javascript-algorithms/tree/master/src/algorithms/linked-list/traversal)
+(Picture from: https://github.com/trekhleb/javascript-algorithms/tree/master/src/algorithms/linked-list/traversal)
 
 #### React Fiber
 
-很多人都说 fiber 是基于链表实现的，但是为什么要基于链表呢，可能很多人并没有答案，那么我觉得可以把这两个点（fiber 和链表）放到一起来讲下。
+Many people know that `fiber` is implemented on Linked List. But not many of them know the reason. So, let's have a look at the relationship between `fiber` and Linked list.
 
+The appearance of `fiber` solves the problem that `react` must
 fiber 出现的目的其实是为了解决 react 在执行的时候是无法停下来的，需要一口气执行完的问题的。
 
 ![fiber-intro](../assets/thinkings/basic-data-structure-fiber-intro.png)
@@ -240,46 +240,53 @@ return, children, sibling也都是一个fiber，因此fiber看起来就是一个
 [这篇文章](https://engineering.hexacta.com/didact-fiber-incremental-reconciliation-b2fe028dcaec)也是早期讲述fiber架构的优秀文章
 
 我目前也在写关于《从零开发react系列教程》中关于fiber架构的部分，如果你对具体实现感兴趣，欢迎关注。
-### 非线性结构
 
-那么有了线性结果，我们为什么还需要非线性结果呢？ 答案是为了高效地兼顾静态操作和动态操作。
-大家可以对照各种数据结构的各种操作的复杂度来直观感受一下。
-## 树
-树的应用同样非常广泛，小到文件系统，大到因特网，组织架构等都可以表示为树结构，
-而在我们前端眼中比较熟悉的DOM树也是一种树结构，而HTML作为一种DSL去描述这种树结构的具体表现形式。
+## Non-linear Structure
 
-树其实是一种特殊的`图`，是一种无环连通图，是一种极大无环图，也是一种极小连通图。
+The reason that we need non-linear structures is satisfying both of static operations and dynamic operations.
 
-从另一个角度看，树是一种递归的数据结构。而且树的不同表示方法，比如不常用的`长子 + 兄弟`法，对于
-你理解树这种数据结构有着很大用处， 说是一种对树的本质的更深刻的理解也不为过。
+### Tree
 
-树的基本算法有前中后序遍历和层次遍历，有的同学对前中后这三个分别具体表现的访问顺序比较模糊，
-其实当初我也是一样的，后面我学到了一点，你只需要记住：`所谓的前中后指的是根节点的位置，其他位置按照先左后右排列即可`。
-比如前序遍历就是`根左右`, 中序就是`左根右`，后序就是`左右根`， 很简单吧？
+The Tree structure is also used widely. From file system to the Internet, the organizational structure of many of them can be represented as tree structure.
+The DOM (document object model) in frontend is also a tree structure. And `HTML` is a implementation of DSL (domain specific language) to describe this tree structure.
 
-我刚才提到了树是一种递归的数据结构，因此树的遍历算法使用递归去完成非常简单，
-幸运的是树的算法基本上都要依赖于树的遍历。 但是递归在计算机中的性能一直都有问题，
-因此掌握不那么容易理解的"命令式地迭代"遍历算法在某些情况下是有用的。
+In fact, Tree is one kind of graph. It is an acyclic connected graph, a maximal acyclic graph and a minimal connected graph.
 
-如果你使用迭代式方式去遍历的话，可以借助上面提到的`栈`来进行，可以极大减少代码量。
+From another prespective, Tree is a recursive data structure. [Left-Child Right-Sibling Representation of Tree](https://www.geeksforgeeks.org/left-child-right-sibling-representation-tree/) can be used to help to understand the structure of Tree.
 
-> 如果使用栈来简化运算，由于栈是FILO的，因此一定要注意左右子树的推入顺序。
+The basic operations of Tree including preoder, inorder, postoder and hierarchical traversals.  
+It is very easy to distinguish preorder, inorder and postorder traversals:
+  
+- the preorder, inorder and postorder refer to the position of root during traversal.
+- the two children nodes are always traversed from left to right.
+- preorder: `root` -> `left child` -> `right child` (recursive).
+- inorder: `left child` -> `root` -> `right child` (recursive).
+- postorder: `left child` -> `right child` -> `root` (recursive)
 
-树的重要性质：
+Because Tree is a recursive data structure, it is very easy to complete tree traversal using recursion.  
+Basically, the algorithms of Tree are all based on the tree traversal. But the performance of recursion is always a problem.  
+So, it may be helpful with understanding and using *imperative iteration* traversal algorithms.
 
-- 如果树有n个顶点，那么其就有n - 1条边，这说明了树的顶点数和边数是同阶的。
-- 任何一个节点到根节点存在`唯一`路径, 路径的长度为节点所处的深度
+Stack can be used to implement the iterative traversal with using less code.
 
+> If stack is used, make sure that the left and right children are pushed into stack in correct sequence.
 
+Important properties of Tree:
 
-### 二叉树
+- If a tree has `n` vertex, then it has `n-1` edges.
+- There is only one path between any node and the root node. The length of this path is called the depth of the node.
 
-二叉树是节点度数不超过二的树，是树的一种特殊子集，有趣的是二叉树这种被限制的树结构却能够表示和实现所有的树，
-它背后的原理正是`长子 + 兄弟`法，用邓老师的话说就是`二叉树是多叉树的特例，但在有根且有序时，其描述能力却足以覆盖后者`。
+### Binary Tree
 
-> 实际上， 在你使用`长子 + 兄弟`法表示树的同时，进行45度角旋转即可。 
+Binary tree is the tree that the degree of each node is not more than 2. It is a special subset of tree.
+It is interesting that the binary tree which is a kind of limited tree can be used to represent and implemented all tree structures.  
+The principle behind Binary Tree is the `Left-Child Right-Sibling Representation of Tree`. 
 
-相关算法:
+> Binary Tree is a paticular case of multiple-way tree. But when Binary Tree has root and is ordered, it can be used to describe the latter.
+>
+> In fact, just rotating the tree 45 degrees, you can get a tree represented by `Left-Child Right-Sibling`
+
+Related algorithms:
 
 - [94.binary-tree-inorder-traversal](../problems/94.binary-tree-inorder-traversal.md)
 - [102.binary-tree-level-order-traversal](../problems/102.binary-tree-level-order-traversal.md)
@@ -288,33 +295,34 @@ return, children, sibling也都是一个fiber，因此fiber看起来就是一个
 - [145.binary-tree-postorder-traversal](../problems/145.binary-tree-postorder-traversal.md)
 - [199.binary-tree-right-side-view](../problems/199.binary-tree-right-side-view.md)
 
-相关概念：
+Related concepts:
 
-- 真二叉树 （所有节点的度数只能是偶数，即只能为0或者2）
+- Proper Binary Tree (all node degrees can only be even, that is 0 or 2)
 
+BTW, you can find more details and algorithms in the charpter [binary tree traversal](./binary-tree-traversal.md)
 
-另外我也专门开设了[二叉树的遍历](./binary-tree-traversal.md)章节, 具体细节和算法可以去那里查看。
-#### 堆
+#### Heap
 
-堆其实是一种优先级队列，在很多语言都有对应的内置数据结构，很遗憾javascript没有这种原生的数据结构。
-不过这对我们理解和运用不会有影响。
+Heap is a kind of priority queue which is built in many data structure. But unfortunately, JS does not have a native implementation of this data structure. However, it won't be a problem for understanding and using this structure.
 
-相关算法：
+Related algorithm:
 
 - [295.find-median-from-data-stream](../problems/295.find-median-from-data-stream.md)
-#### 二叉查找树
 
-### 平衡树
+#### Binary Search Tree
+
+### Balanced Tree
 
 database engine
 
-#### AVL
+#### AVL Tree
 
-#### 红黑树
+#### Red-Black Tree
 
-### 字典树(前缀树)
+### Trie(Prefix Tree)
 
-相关算法：
+Related algorithm:
 
 - [208.implement-trie-prefix-tree](../problems/208.implement-trie-prefix-tree.md)
-## 图
+
+### Graph
