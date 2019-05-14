@@ -1,69 +1,66 @@
 # LeetCode
 
-简体中文 | [English](./README.en.md)
+[简体中文](./README.md) | English
 
 ---
 
+## Introduction
+
 ![leetcode.jpeg](./assets/leetcode.jpeg)
 
-## 介绍
+LeetCode Solutions: A Record of My Problem Solving Journey.
 
-leetcode 题解，记录自己的 leetcode 解题之路。
+This repository will be divided into four parts for now:
 
-本仓库目前分为四个部分：
+- The first part is the solutions to some classic problems on LeetCode, including the idea thinkings, key points and code implementations.
 
-- 第一个部分是 leetcode 经典题目的解析，包括思路，关键点和具体的代码实现。
+- The second part is the summary of data structures and algorithms.
 
-- 第二部分是对于数据结构与算法的总结
+- The third part is [Anki flashcards](https://apps.ankiweb.net) that record the LeetCode problems in a certain way so as to make it easier to remember.
 
-- 第三部分是 anki 卡片， 将 leetcode 题目按照一定的方式记录在 anki 中，方便大家记忆。
+- The fourth part is future plans on content that would be introduced into the above parts.
 
-- 第四部分是计划， 这里会记录将来要加入到以上三个部分内容
+> Only when having mastered the basic data structures and algorithms can you solve complex problems easily.
 
-> 只有熟练掌握基础的数据结构与算法，才能对复杂问题迎刃有余。
 
-## 食用指南
 
-- 对于最近添加的部分， 后面会有 🆕 标注
-- 对于最近更新的部分， 后面会有 🖊 标注
-- 将来会在这里更新anki卡片
-- 这里有一份leetcode官方账号在知乎上给出的一个《互联网公司最常见的面试算法题有哪些？》的答案，我这里尽量去覆盖回答中的题目和知识点
-原文地址： https://www.zhihu.com/question/24964987/answer/586425979
+## Usage Instructions
 
-- 这里有一张互联网公司面试中经常考察的问题类型总结的思维导图，我们可以结合图片中的信息分析一下。
+- For the parts that were added recently, there will be a 🆕 behind.
+- For the parts that were updated recently, there will be a 🖊 behind.
+- Here will be the place to update Anki Flashcards in the future as well.
+- Here is a mind mapping graph showing the summary of categorizations of problems that are questioned frequently in interviews. We could analyze according to the information in the graph.
 
 ![leetcode-zhihu](./assets//leetcode-zhihu.jpg)
 
-(图片来自leetcode)
+(Picture credited by [LeetCode-cn](https://www.zhihu.com/question/24964987/answer/586425979).)
 
-其中算法，主要是以下几种：
+The algorithms mainly includes:
 
-- 基础技巧：分治、二分、贪心
-- 排序算法：快速排序、归并排序、计数排序
-- 搜索算法：回溯、递归、深度优先遍历，广度优先遍历，二叉搜索树等
-- 图论：最短路径、最小生成树
-- 动态规划：背包问题、最长子序列
+- Basic skills: Divide-and-Conquer; Binary; Greedy
+- Sorting algorithms: Quicksort; Merge Sort; Counting Sort
+- Searching algorithms: Backtracking; Recursion; Depth-First-Search (DFS); Breath-First-Search (BFS); Binary Search Tree; etc.
+- Graph theory: Shortest Path Problem; Minimal Spanning Tree
+- Dynamic Programming: Knapsack Problem; Longest Common Subsequence (LCS) Problem
 
-数据结构，主要有如下几种：
+The data structures mainly includes:
 
-- 数组与链表：单 / 双向链表
-- 栈与队列
-- 哈希表
-- 堆：最大堆 ／ 最小堆
-- 树与图：最近公共祖先、并查集
-- 字符串：前缀树（字典树） ／ 后缀树
-
-
+- Array and linked list: Singly/Doubly-Linked List
+- Stack and queue
+- Hash table
+- Heap: Min-Max Heap
+- Tree and Graph: Lowest Common Ancestor (LCA); Disjoint-Set
+- String: Prefix Tree (Trie); Suffix Tree
 
 
-## 精彩预告
 
+## Previews
 
 [0042.trapping-rain-water](./problems/42.trapping-rain-water.md):
 
 ![0042.trapping-rain-water](./assets/problems/42.trapping-rain-water-1.png)
 
-[浏览器中的栈](./thinkings/basic-data-structure.md)：
+[Stack in Browser](./thinkings/basic-data-structure.md)：
 
 ![basic-data-structure-call-stack](./assets/thinkings/basic-data-structure-call-stack.png)
 
@@ -79,18 +76,23 @@ leetcode 题解，记录自己的 leetcode 解题之路。
 
 ![454.4-sum-ii](./assets/problems/454.4-sum-ii.png)
 
-## Top题目进度
+
+
+## Top Problems Progress
 
 - [Top 100 Linked Questions](https://leetcode.com/problemset/top-100-liked-questions/) (44 / 100)
 
 - [Top Interview Questions](https://leetcode.com/problemset/top-interview-questions/) (64 / 145)
-## 传送门
 
-### leetcode 经典题目的解析
 
-> 这里仅列举具有代表性题目，并不是全部题目
 
-#### 简单难度
+## Portals
+
+### Solutions to LeetCode Classic Problems
+
+> Here only lists some representative problems but not all.
+
+#### Easy
 
 - [0020.Valid Parentheses](./problems/20.validParentheses.md)
 - [0026.remove-duplicates-from-sorted-array](./problems/26.remove-duplicates-from-sorted-array.md)
@@ -111,7 +113,7 @@ leetcode 题解，记录自己的 leetcode 解题之路。
 - [0349.intersection-of-two-arrays](./problems/349.intersection-of-two-arrays.md)
 
 
-#### 中等难度
+#### Medium
 
 - [0002. Add Two Numbers](./problems/2.addTwoNumbers.md)
 - [0003. Longest Substring Without Repeating Characters](./problems/3.longestSubstringWithoutRepeatingCharacters.md)
@@ -160,7 +162,7 @@ leetcode 题解，记录自己的 leetcode 解题之路。
 - [0887.super-egg-drop](./problems/887.super-egg-drop.md)
 - [0900.rle-iterator](./problems/900.rle-iterator.md)
 
-#### 困难难度
+#### Hard
 - [0023.merge-k-sorted-lists](./problems/23.merge-k-sorted-lists.md)
 - [0042.trapping-rain-water](./problems/42.trapping-rain-water.md)
 - [0128.longest-consecutive-sequence](./problems/128.longest-consecutive-sequence.md) 🆕 
@@ -170,35 +172,37 @@ leetcode 题解，记录自己的 leetcode 解题之路。
 - [0295.find-median-from-data-stream](./problems/295.find-median-from-data-stream.md) 🆕 
 - [0301.remove-invalid-parentheses](./problems/301.remove-invalid-parentheses.md)
 
-### 数据结构与算法的总结
 
-- 🖊 [数据结构](./thinkings/basic-data-structure.md)（草稿）
-- 🖊 [二叉树的遍历](./thinkings/binary-tree-traversal.md)
-- [动态规划](./thinkings/dynamic-programming.md)
-- [哈夫曼编码和游程编码](./thinkings/run-length-encode-and-huffman-encode.md)
-- [布隆过滤器](./thinkings/bloom-filter.md)
 
-### anki 卡片
+### Summary of Data Structures and Algorithms
 
-Anki主要分为两个部分:一部分是关键点到题目的映射，另一部分是题目到思路，关键点，代码的映射。
+- 🖊 [Data Structure](./thinkings/basic-data-structure.md) (Drafts)
+- 🖊 [Binary Tree Traversal](./thinkings/binary-tree-traversal.md)
+- [Dynamic Programming](./thinkings/dynamic-programming.md)
+- [Huffman Encode and Run Length Encode](./thinkings/run-length-encode-and-huffman-encode.md)
+- [Bloom Filter](./thinkings/bloom-filter.md)
 
-全部卡片都在[anki-card](./assets/anki/leetcode.apkg)
 
-使用方法：
 
-anki - 文件 - 导入 - 下拉格式选择“打包的 anki集合”，然后选中你下载好的文件，确定即可。
+### Anki Flashcards
 
-更多关于anki使用方法的请查看[anki官网](https://apps.ankiweb.net/)
+Anki falshcards would be mainly two parts: the mappings from key points to problems; the mappings from problems to idea thinks, key points and code implementations.
 
-目前已更新卡片一览（仅列举正面）：
+All flashcards are put in [anki-card](./assets/anki/leetcode.apkg).
 
-- 二分法解决问题的关键点是什么，相关问题有哪些
-- 如何用栈的特点来简化操作， 涉及到的题目有哪些？
-- 双指针问题的思路以及相关题目有哪些？
-- 滑动窗口问题的思路以及相关题目有哪些？
-- 回溯法解题的思路以及相关题目有哪些？
+> Please check [here](https://apps.ankiweb.net/) for more about the usage of Anki.
 
-### 计划
+Latest updated flashcards (only lists the front page):
+
+- What is the key point of the binary search algorithm? Related problems?
+- How to simplify the operations using the features of stacks? Related problems?
+- The thinkings and related problems of double-pointers problems?
+- The thinkings and related problems of sliding window problems?
+- The thinkings and related problems of backtracking?
+
+
+
+### Future Plans
 
 - [0494.target-sum](./todo/494.target-sum.js)
 
@@ -210,31 +214,34 @@ anki - 文件 - 导入 - 下拉格式选择“打包的 anki集合”，然后�
 
 - [0365.water-and-jug-problem](./todo/365.water-and-jug-problem.js)
 
-- [anki 卡片 完善](./assets/anki/)
+- [Complete Anki Flashcards](./assets/anki/)
 
-- [字符串类问题汇总](./todo/str/)
+- [Collection of String Problem](./todo/str/)
 
-## 交流群
 
-现在还是初级阶段，需要大家的意见和反馈，为了减少沟通成本，我组建了交流群。大家可以扫码进入
 
-### QQ 群
+## Community Chat Groups
 
-![qq-group-chat](./assets/qq-group-chat.png)
-
-### 微信群
-
-![wechat-group-chat](./assets/wechat-group-chat.jpeg)
-
-(由于微信的限制，100个人以上只能邀请加入， 你可以添加我的机器人回复“leetcode”拉你进群)
+We're still on the early stage, so feedback from community is very welcome. For sake of reducing the costs of communication, I created some chat groups.
 
 ### Telegram
 
-http://t.me/leetcode_intl
+[http://t.me/leetcode_intl](http://t.me/leetcode_intl)
+
+### QQ (For China Region)
+
+![qq-group-chat](./assets/qq-group-chat.png)
+
+### WeChat (For China Region)
+
+![wechat-group-chat](./assets/wechat-group-chat.jpeg)
+
+(Add this bot and reply "leetcode" to join the group.)
 
 
-## 贡献
 
-- 如果有想法和创意，请提[issue](https://github.com/azl397985856/leetcode/issues)或者进群提
-- 如果想贡献代码，请提[PR](https://github.com/azl397985856/leetcode/pulls)
-- 如果需要修改项目中图片，[这里](./assets/drawio/)存放了项目中绘制图的源代码， 大家可以用[draw.io](https://www.draw.io/)打开进行编辑。
+## Contribution
+
+- If you have any ideas, [Issues](https://github.com/azl397985856/leetcode/issues) or chat in groups.
+- If you want to commit to the repository, Pull Request is welcome.
+- If you want to edit images resources in this project, [here](./assets/drawio/) lists the files that can be edited on [draw.io](https://www.draw.io/).
