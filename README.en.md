@@ -128,7 +128,7 @@ The data structures mainly includes:
 - [0055.jump-game](./problems/55.jump-game.md) 🆕 
 - [0062.unique-paths](./problems/62.unique-paths.md )🆕 
 - [0075.sort-colors](./problems/75.sort-colors.md)
-- [0078.subsets](./problems/78.subsets.md) 🆕 
+- [0078.subsets](./problems/78.subsets.md) 
 - [0086.partition-list](./problems/86.partition-list.md)
 - [0090.subsets-ii](./problems/90.subsets-ii.md)
 - [0091.decode-ways](./problems/91.decode-ways.md) 🆕 
@@ -142,21 +142,23 @@ The data structures mainly includes:
 - [0152.maximum-product-subarray](./problems/152.maximum-product-subarray.md) 🆕  
 - [0199.binary-tree-right-side-view](./problems/199.binary-tree-right-side-view.md)
 - [0201.bitwise-and-of-numbers-range](./problems/201.bitwise-and-of-numbers-range.md)
-- [0208.implement-trie-prefix-tree](./problems/208.implement-trie-prefix-tree.md) 🆕 
+- [0208.implement-trie-prefix-tree](./problems/208.implement-trie-prefix-tree.md)
 - [0209.minimum-size-subarray-sum](./problems/209.minimum-size-subarray-sum.md) 🖊 
-- [0236.lowest-common-ancestor-of-a-binary-tree](./problems/236.lowest-common-ancestor-of-a-binary-tree.md)🆕 
+- [0236.lowest-common-ancestor-of-a-binary-tree](./problems/236.lowest-common-ancestor-of-a-binary-tree.md)
 - [0238.product-of-array-except-self](./problems/238.product-of-array-except-self.md) 🆕 
 - [0240.search-a-2-d-matrix-ii](./problems/240.search-a-2-d-matrix-ii.md)
 - [0279.perfect-squares](./problems/279.perfect-squares.md)
 - [0309.best-time-to-buy-and-sell-stock-with-cooldown](./problems/309.best-time-to-buy-and-sell-stock-with-cooldown.md) 🆕 
 - [0322.coin-change](./problems/322.coin-change.md)
-- [0334.increasing-triplet-subsequence](./problems/334.increasing-triplet-subsequence.md)
 - [0328.odd-even-linked-list](./problems/328.odd-even-linked-list.md)
+- [0334.increasing-triplet-subsequence](./problems/334.increasing-triplet-subsequence.md)
+- [0365.water-and-jug-problem](./problems/365.water-and-jug-problem.md) 🆕 
 - [0416.partition-equal-subset-sum](./problems/416.partition-equal-subset-sum.md)
 - [0445.add-two-numbers-ii](./problems/445.add-two-numbers-ii.md)
 - [0454.4-sum-ii](./problems/454.4-sum-ii.md) 🆕
-- [0494.target-sum](./problems/494.target-sum.md) 🆕
+- [0494.target-sum](./problems/494.target-sum.md)
 - [0518.coin-change-2](./problems/518.coin-change-2.md)
+- [0609.find-duplicate-file-in-system](./problems/609.find-duplicate-file-in-system.md) 🆕
 - [0875.koko-eating-bananas](./problems/875.koko-eating-bananas.md)
 - [0877.stone-game](./problems/877.stone-game.md)
 - [0887.super-egg-drop](./problems/887.super-egg-drop.md)
@@ -203,16 +205,6 @@ Latest updated flashcards (only lists the front page):
 
 
 ### Future Plans
-
-- [0494.target-sum](./todo/494.target-sum.js)
-
-- [0609.find-duplicate-file-in-system](./todo/609.find-duplicate-file-in-system.js)
-
-- [0010.regular-expression-matching](./todo/10.regular-expression-matching.js)
-
-- [0309.best-time-to-buy-and-sell-stock-with-cooldown](./todo/309.best-time-to-buy-and-sell-stock-with-cooldown.js)
-
-- [0365.water-and-jug-problem](./todo/365.water-and-jug-problem.js)
 
 - [Complete Anki Flashcards](./assets/anki/)
 
