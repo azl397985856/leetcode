@@ -35,6 +35,6 @@
  * @return {string}
  */
 var longestPalindrome = function(s) {
-    
+    // tag: 字符串问题
 };
 
