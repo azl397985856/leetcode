@@ -201,6 +201,12 @@ Latest updated flashcards (only lists the front page):
 - The thinkings and related problems of double-pointers problems?
 - The thinkings and related problems of sliding window problems?
 - The thinkings and related problems of backtracking?
+- The thinkings and related problems of number theory?
+- The thinkings and related problems of bit operations?
+
+> WIP: the translation of the flashcards are on the way.
+
+> problems added：#2 #3 #11
 
 
 
