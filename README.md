@@ -95,10 +95,11 @@ leetcode 题解，记录自己的 leetcode 解题之路。
 - [0020.Valid Parentheses](./problems/20.validParentheses.md)
 - [0026.remove-duplicates-from-sorted-array](./problems/26.remove-duplicates-from-sorted-array.md)
 - [0088.merge-sorted-array](./problems/88.merge-sorted-array.md)
-- [0121.best-time-to-buy-and-sell-stock](./problems/121.best-time-to-buy-and-sell-stock.md) 🆕
-- [0122.best-time-to-buy-and-sell-stock-ii](./problems/122.best-time-to-buy-and-sell-stock-ii.md) 🆕
+- [0121.best-time-to-buy-and-sell-stock](./problems/121.best-time-to-buy-and-sell-stock.md)
+- [0122.best-time-to-buy-and-sell-stock-ii](./problems/122.best-time-to-buy-and-sell-stock-ii.md)
 - [0136.single-number](./problems/136.single-number.md)
 - [0167.two-sum-ii-input-array-is-sorted](./problems/167.two-sum-ii-input-array-is-sorted.md)
+- [0172.factorial-trailing-zeroes](./problems/172.factorial-trailing-zeroes.md) 🆕
 - [0169.majority-element](./problems/169.majority-element.md)
 - [0190.reverse-bits](./problems/190.reverse-bits.md)
 - [0191.number-of-1-bits](./problems/191.number-of-1-bits.md)
@@ -107,8 +108,11 @@ leetcode 题解，记录自己的 leetcode 解题之路。
 - [0206.reverse-linked-list](./problems/206.reverse-linked-list.md)
 - [0219.contains-duplicate-ii](./problems/219.contains-duplicate-ii.md)
 - [0226.invert-binary-tree](./problems/226.invert-binary-tree.md)
+- [0263.ugly-number](./problems/263.ugly-number.md) 🆕
 - [0283.move-zeroes](./problems/283.move-zeroes.md)
+- [0342.power-of-four](./problems/342.power-of-four.md) 🆕
 - [0349.intersection-of-two-arrays](./problems/349.intersection-of-two-arrays.md)
+- [0575.distribute-candies](./problems/575.distribute-candies.md) 🆕
 
 
 #### 中等难度
