@@ -97,10 +97,11 @@ The data structures mainly includes:
 - [0020.Valid Parentheses](./problems/20.validParentheses.md)
 - [0026.remove-duplicates-from-sorted-array](./problems/26.remove-duplicates-from-sorted-array.md)
 - [0088.merge-sorted-array](./problems/88.merge-sorted-array.md)
-- [0121.best-time-to-buy-and-sell-stock](./problems/121.best-time-to-buy-and-sell-stock.md) 🆕
-- [0122.best-time-to-buy-and-sell-stock-ii](./problems/122.best-time-to-buy-and-sell-stock-ii.md) 🆕
+- [0121.best-time-to-buy-and-sell-stock](./problems/121.best-time-to-buy-and-sell-stock.md)
+- [0122.best-time-to-buy-and-sell-stock-ii](./problems/122.best-time-to-buy-and-sell-stock-ii.md)
 - [0136.single-number](./problems/136.single-number.md)
 - [0167.two-sum-ii-input-array-is-sorted](./problems/167.two-sum-ii-input-array-is-sorted.md)
+- [0172.factorial-trailing-zeroes](./problems/172.factorial-trailing-zeroes.md) 🆕
 - [0169.majority-element](./problems/169.majority-element.md)
 - [0190.reverse-bits](./problems/190.reverse-bits.md)
 - [0191.number-of-1-bits](./problems/191.number-of-1-bits.md)
@@ -109,8 +110,11 @@ The data structures mainly includes:
 - [0206.reverse-linked-list](./problems/206.reverse-linked-list.md)
 - [0219.contains-duplicate-ii](./problems/219.contains-duplicate-ii.md)
 - [0226.invert-binary-tree](./problems/226.invert-binary-tree.md)
+- [0263.ugly-number](./problems/263.ugly-number.md) 🆕
 - [0283.move-zeroes](./problems/283.move-zeroes.md)
+- [0342.power-of-four](./problems/342.power-of-four.md) 🆕
 - [0349.intersection-of-two-arrays](./problems/349.intersection-of-two-arrays.md)
+- [0575.distribute-candies](./problems/575.distribute-candies.md) 🆕
 
 
 #### Medium
@@ -118,15 +122,15 @@ The data structures mainly includes:
 - [0002. Add Two Numbers](./problems/2.addTwoNumbers.md)
 - [0003. Longest Substring Without Repeating Characters](./problems/3.longestSubstringWithoutRepeatingCharacters.md)
 - [0011.container-with-most-water](./problems/11.container-with-most-water.md)
-- [0015.3-sum](./problems/15.3-sum.md) 🆕
+- [0015.3-sum](./problems/15.3-sum.md)
 - [0019. Remove Nth Node From End of List](./problems/19.removeNthNodeFromEndofList.md)
 - [0024. Swap Nodes In Pairs](./problems/24.swapNodesInPairs.md)
 - [0039.combination-sum](./problems/39.combination-sum.md)
 - [0040.combination-sum-ii](./problems/40.combination-sum-ii.md)
 - [0046.permutations](./problems/46.permutations.md)
 - [0047.permutations-ii](./problems/47.permutations-ii.md)
-- [0055.jump-game](./problems/55.jump-game.md) 🆕 
-- [0062.unique-paths](./problems/62.unique-paths.md )🆕 
+- [0055.jump-game](./problems/55.jump-game.md)
+- [0062.unique-paths](./problems/62.unique-paths.md )
 - [0075.sort-colors](./problems/75.sort-colors.md)
 - [0078.subsets](./problems/78.subsets.md) 
 - [0086.partition-list](./problems/86.partition-list.md)
@@ -138,12 +142,12 @@ The data structures mainly includes:
 - [0103.binary-tree-zigzag-level-order-traversal](./problems/103.binary-tree-zigzag-level-order-traversal.md)
 - [0139.word-break](./problems/139.word-breakmd)
 - [0144.binary-tree-preorder-traversal](./problems/144.binary-tree-preorder-traversal.md)
-- [0150.evaluate-reverse-polish-notation](./problems/150.evaluate-reverse-polish-notation.md) 🖊
+- [0150.evaluate-reverse-polish-notation](./problems/150.evaluate-reverse-polish-notation.md)
 - [0152.maximum-product-subarray](./problems/152.maximum-product-subarray.md) 🆕  
 - [0199.binary-tree-right-side-view](./problems/199.binary-tree-right-side-view.md)
 - [0201.bitwise-and-of-numbers-range](./problems/201.bitwise-and-of-numbers-range.md)
 - [0208.implement-trie-prefix-tree](./problems/208.implement-trie-prefix-tree.md)
-- [0209.minimum-size-subarray-sum](./problems/209.minimum-size-subarray-sum.md) 🖊 
+- [0209.minimum-size-subarray-sum](./problems/209.minimum-size-subarray-sum.md)
 - [0236.lowest-common-ancestor-of-a-binary-tree](./problems/236.lowest-common-ancestor-of-a-binary-tree.md)
 - [0238.product-of-array-except-self](./problems/238.product-of-array-except-self.md) 🆕 
 - [0240.search-a-2-d-matrix-ii](./problems/240.search-a-2-d-matrix-ii.md)
