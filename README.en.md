@@ -97,15 +97,17 @@ The data structures mainly includes:
 - [0020.Valid Parentheses](./problems/20.validParentheses.md)
 - [0026.remove-duplicates-from-sorted-array](./problems/26.remove-duplicates-from-sorted-array.md)
 - [0088.merge-sorted-array](./problems/88.merge-sorted-array.md)
+- [0104.maximum-depth-of-binary-tree](./problems/104.maximum-depth-of-binary-tree.md) 🆕
 - [0121.best-time-to-buy-and-sell-stock](./problems/121.best-time-to-buy-and-sell-stock.md)
 - [0122.best-time-to-buy-and-sell-stock-ii](./problems/122.best-time-to-buy-and-sell-stock-ii.md)
 - [0136.single-number](./problems/136.single-number.md)
+- [0155.min-stack](./problems/155.min-stack.md) 🆕
 - [0167.two-sum-ii-input-array-is-sorted](./problems/167.two-sum-ii-input-array-is-sorted.md)
 - [0172.factorial-trailing-zeroes](./problems/172.factorial-trailing-zeroes.md) 🆕
 - [0169.majority-element](./problems/169.majority-element.md)
 - [0190.reverse-bits](./problems/190.reverse-bits.md)
 - [0191.number-of-1-bits](./problems/191.number-of-1-bits.md)
-- [0198.house-robber](./problems/198.house-robber.md) 🆕
+- [0198.house-robber](./problems/198.house-robber.md)
 - [0203.remove-linked-list-elements](./problems/203.remove-linked-list-elements.md)
 - [0206.reverse-linked-list](./problems/206.reverse-linked-list.md)
 - [0219.contains-duplicate-ii](./problems/219.contains-duplicate-ii.md)
@@ -114,7 +116,8 @@ The data structures mainly includes:
 - [0283.move-zeroes](./problems/283.move-zeroes.md)
 - [0342.power-of-four](./problems/342.power-of-four.md) 🆕
 - [0349.intersection-of-two-arrays](./problems/349.intersection-of-two-arrays.md)
-- [0575.distribute-candies](./problems/575.distribute-candies.md) 🆕
+- [0371.sum-of-two-integers](./problems/371.sum-of-two-integers.md) 🆕
+- [0575.distribute-candies](./problems/575.distribute-candies.md)
 
 
 #### Medium
@@ -131,11 +134,12 @@ The data structures mainly includes:
 - [0047.permutations-ii](./problems/47.permutations-ii.md)
 - [0055.jump-game](./problems/55.jump-game.md)
 - [0062.unique-paths](./problems/62.unique-paths.md )
+- [0073.set-matrix-zeroes](./problems/73.set-matrix-zeroes.md )🆕 
 - [0075.sort-colors](./problems/75.sort-colors.md)
-- [0078.subsets](./problems/78.subsets.md) 
+- [0078.subsets](./problems/78.subsets.md)
 - [0086.partition-list](./problems/86.partition-list.md)
 - [0090.subsets-ii](./problems/90.subsets-ii.md)
-- [0091.decode-ways](./problems/91.decode-ways.md) 🆕 
+- [0091.decode-ways](./problems/91.decode-ways.md)
 - [0092.reverse-linked-list-ii](./problems/92.reverse-linked-list-ii.md)
 - [0094.binary-tree-inorder-traversal](./problems/94.binary-tree-inorder-traversal.md)
 - [0102.binary-tree-level-order-traversal](./problems/102.binary-tree-level-order-traversal.md)
@@ -147,8 +151,9 @@ The data structures mainly includes:
 - [0199.binary-tree-right-side-view](./problems/199.binary-tree-right-side-view.md)
 - [0201.bitwise-and-of-numbers-range](./problems/201.bitwise-and-of-numbers-range.md)
 - [0208.implement-trie-prefix-tree](./problems/208.implement-trie-prefix-tree.md)
-- [0209.minimum-size-subarray-sum](./problems/209.minimum-size-subarray-sum.md)
-- [0236.lowest-common-ancestor-of-a-binary-tree](./problems/236.lowest-common-ancestor-of-a-binary-tree.md)
+- [0209.minimum-size-subarray-sum](./problems/209.minimum-size-subarray-sum.md) 
+- [0230.kth-smallest-element-in-a-bst](./problems/230.kth-smallest-element-in-a-bst.md) 🆕
+- [0236.lowest-common-ancestor-of-a-binary-tree](./problems/236.lowest-common-ancestor-of-a-binary-tree.md)🆕 
 - [0238.product-of-array-except-self](./problems/238.product-of-array-except-self.md) 🆕 
 - [0240.search-a-2-d-matrix-ii](./problems/240.search-a-2-d-matrix-ii.md)
 - [0279.perfect-squares](./problems/279.perfect-squares.md)
