@@ -80,7 +80,7 @@ The data structures mainly includes:
 
 ## Top Problems Progress
 
-- [Top 100 Linked Questions](https://leetcode.com/problemset/top-100-liked-questions/) (49 / 100)
+- [Top 100 Liked Questions](https://leetcode.com/problemset/top-100-liked-questions/) (49 / 100)
 
 - [Top Interview Questions](https://leetcode.com/problemset/top-interview-questions/) (72 / 145)
 
