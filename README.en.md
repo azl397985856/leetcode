@@ -128,13 +128,17 @@ The data structures mainly includes:
 - [0015.3-sum](./problems/15.3-sum.md)
 - [0019. Remove Nth Node From End of List](./problems/19.removeNthNodeFromEndofList.md)
 - [0024. Swap Nodes In Pairs](./problems/24.swapNodesInPairs.md)
+- [0029.divide-two-integers](./problems/29.divide-two-integers.md) 🆕
 - [0039.combination-sum](./problems/39.combination-sum.md)
 - [0040.combination-sum-ii](./problems/40.combination-sum-ii.md)
 - [0046.permutations](./problems/46.permutations.md)
 - [0047.permutations-ii](./problems/47.permutations-ii.md)
+- [0048.rotate-image](./problems/48.rotate-image.md) 🆕 
+- [0049.group-anagrams](./problems/49.group-anagrams.md) 🆕 
 - [0055.jump-game](./problems/55.jump-game.md)
+- [0056.merge-intervals](./problems/56.merge-intervals.md) 🆕 
 - [0062.unique-paths](./problems/62.unique-paths.md )
-- [0073.set-matrix-zeroes](./problems/73.set-matrix-zeroes.md )🆕 
+- [0073.set-matrix-zeroes](./problems/73.set-matrix-zeroes.md )
 - [0075.sort-colors](./problems/75.sort-colors.md)
 - [0078.subsets](./problems/78.subsets.md)
 - [0086.partition-list](./problems/86.partition-list.md)
@@ -142,19 +146,20 @@ The data structures mainly includes:
 - [0091.decode-ways](./problems/91.decode-ways.md)
 - [0092.reverse-linked-list-ii](./problems/92.reverse-linked-list-ii.md)
 - [0094.binary-tree-inorder-traversal](./problems/94.binary-tree-inorder-traversal.md)
+- [0098.validate-binary-search-tree](./problems/98.validate-binary-search-tree.md) 🆕 
 - [0102.binary-tree-level-order-traversal](./problems/102.binary-tree-level-order-traversal.md)
 - [0103.binary-tree-zigzag-level-order-traversal](./problems/103.binary-tree-zigzag-level-order-traversal.md)
 - [0139.word-break](./problems/139.word-breakmd)
 - [0144.binary-tree-preorder-traversal](./problems/144.binary-tree-preorder-traversal.md)
 - [0150.evaluate-reverse-polish-notation](./problems/150.evaluate-reverse-polish-notation.md)
-- [0152.maximum-product-subarray](./problems/152.maximum-product-subarray.md) 🆕  
+- [0152.maximum-product-subarray](./problems/152.maximum-product-subarray.md)
 - [0199.binary-tree-right-side-view](./problems/199.binary-tree-right-side-view.md)
 - [0201.bitwise-and-of-numbers-range](./problems/201.bitwise-and-of-numbers-range.md)
 - [0208.implement-trie-prefix-tree](./problems/208.implement-trie-prefix-tree.md)
 - [0209.minimum-size-subarray-sum](./problems/209.minimum-size-subarray-sum.md) 
-- [0230.kth-smallest-element-in-a-bst](./problems/230.kth-smallest-element-in-a-bst.md) 🆕
+- [0230.kth-smallest-element-in-a-bst](./problems/230.kth-smallest-element-in-a-bst.md)
 - [0236.lowest-common-ancestor-of-a-binary-tree](./problems/236.lowest-common-ancestor-of-a-binary-tree.md)🆕 
-- [0238.product-of-array-except-self](./problems/238.product-of-array-except-self.md) 🆕 
+- [0238.product-of-array-except-self](./problems/238.product-of-array-except-self.md)
 - [0240.search-a-2-d-matrix-ii](./problems/240.search-a-2-d-matrix-ii.md)
 - [0279.perfect-squares](./problems/279.perfect-squares.md)
 - [0309.best-time-to-buy-and-sell-stock-with-cooldown](./problems/309.best-time-to-buy-and-sell-stock-with-cooldown.md) 🆕 
@@ -187,8 +192,9 @@ The data structures mainly includes:
 
 ### Summary of Data Structures and Algorithms
 
-- 🖊 [Data Structure](./thinkings/basic-data-structure.md) (Drafts)
-- 🖊 [Binary Tree Traversal](./thinkings/binary-tree-traversal.md)
+- [Data Structure](./thinkings/basic-data-structure.md) (Drafts)
+- [Basic Algorithm](./thinkings/basic-algorithm.md)Drafts
+- [Binary Tree Traversal](./thinkings/binary-tree-traversal.md)
 - [Dynamic Programming](./thinkings/dynamic-programming.md)
 - [Huffman Encode and Run Length Encode](./thinkings/run-length-encode-and-huffman-encode.md)
 - [Bloom Filter](./thinkings/bloom-filter.md)
