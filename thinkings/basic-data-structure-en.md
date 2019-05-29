@@ -1,5 +1,7 @@
 # Fundamental data structure
 
+> WIP: the translation of `fundamental data structure` is on the way.
+
 This article is not going to intepret data structures, but help you to `review and understand` data structures and algorithms with real scenes. So, if you have a poor data structure foundation, you'd better to read some basic courses about data structures before reading this.
 
 This article is focused on frontend. We are expected to enhance your understanding to data structures from how data structures are implemented in frontend.
@@ -18,7 +20,7 @@ It should be noted that, the linear and non-linear date structures do NOT mean t
 
 Array is the simplest data structure and is used in so many places. For example, array is perfectly appropriate to store a data list. And in fact, you can find array behind many other data structures.
 
-The stack and queue structures which will be mentioned later can be regarded as a kind of BLOCKED array. You can find the detials in the corresponding sections.
+The stack and queue structures which will be mentioned later can be regarded as a kind of LIMITED array. You can find the detials in the corresponding sections.
 
 Now, let's have a look at some interesting examples.
 
@@ -75,11 +77,11 @@ React 将`如何确保组件内部hooks保存的状态之间的对应关系`这�
 
 ### Queue
 
-Queue is a confining sequence. The elements in queue can only be removed from the head and only be added from the tail.
+Queue is a limited sequence. The elements in queue can only be removed from the head and only be added from the tail.
 
 > accoding to FIFO(fisrt-in-first-out) principle
 
-Queue is also a very common data structure with widely using. Like message queue.
+Queue is also a very common data structure with widespread application. Like message queue.
 
 > The queue in data structure is just like the queue in daily life.
 
@@ -106,7 +108,6 @@ Just like waiting the traffic lights, if you are on the left-turn or right-turni
 
 ![basic-data-structure-queue-1](../assets/thinkings/basic-data-structure-queue-1.png)
 
-Talking about the difference or the same TCP connection, HTTP/1.1 allows send multiple HTTP/1.1 requests at the same time. In another word, 
 `HTTP/1.0` and `HTTP/1.1`:  
 Accoding to `HTTP/1.0` protocal, one TCP connect will be established for each request and be terminated immediately after receiving the corresponding response. And the next HTTP request cannot be sent until the response of previous request has been received.  
 According to `HTTP/1.1`, each connection is persistent connection by default. For the same TCP connection, it is allowed to send multiple `HTTP/1.1` request at the same time. In other words, it is unnecessary to send the next request after receiving the response of the previous one. This is the solution to the HOL bloking of `HTTP/1.0`. And, this is called `pipeline` in `HTTP/1.1`.  
@@ -118,7 +119,7 @@ The process can be represented as follow:
 
 ### Stack
 
-Stack is a kind of blocked sequence. It only supports to add or remove element at the **top** of stack.
+Stack is a kind of limited sequence. It only supports to add or remove element at the **top** of stack.
 
 In IT area, a stack is an ADT (abstract data type) for representing a set of elements. 
 
