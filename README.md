@@ -81,9 +81,9 @@ leetcode 题解，记录自己的 leetcode 解题之路。
 
 ## Top题目进度
 
-- [Top 100 Liked Questions](https://leetcode.com/problemset/top-100-liked-questions/) (49 / 100)
+- [Top 100 Liked Questions](https://leetcode.com/problemset/top-100-liked-questions/) (53 / 100)
 
-- [Top Interview Questions](https://leetcode.com/problemset/top-interview-questions/) (72 / 145)
+- [Top Interview Questions](https://leetcode.com/problemset/top-interview-questions/) (79 / 145)
 ## 传送门
 
 ### leetcode 经典题目的解析
