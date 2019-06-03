@@ -81,9 +81,9 @@ leetcode 题解，记录自己的 leetcode 解题之路。
 
 ## Top题目进度
 
-- [Top 100 Linked Questions](https://leetcode.com/problemset/top-100-liked-questions/) (44 / 100)
+- [Top 100 Liked Questions](https://leetcode.com/problemset/top-100-liked-questions/) (53 / 100)
 
-- [Top Interview Questions](https://leetcode.com/problemset/top-interview-questions/) (64 / 145)
+- [Top Interview Questions](https://leetcode.com/problemset/top-interview-questions/) (79 / 145)
 ## 传送门
 
 ### leetcode 经典题目的解析
@@ -95,20 +95,27 @@ leetcode 题解，记录自己的 leetcode 解题之路。
 - [0020.Valid Parentheses](./problems/20.validParentheses.md)
 - [0026.remove-duplicates-from-sorted-array](./problems/26.remove-duplicates-from-sorted-array.md)
 - [0088.merge-sorted-array](./problems/88.merge-sorted-array.md)
-- [0121.best-time-to-buy-and-sell-stock](./problems/121.best-time-to-buy-and-sell-stock.md) 🆕
-- [0122.best-time-to-buy-and-sell-stock-ii](./problems/122.best-time-to-buy-and-sell-stock-ii.md) 🆕
+- [0104.maximum-depth-of-binary-tree](./problems/104.maximum-depth-of-binary-tree.md) 🆕
+- [0121.best-time-to-buy-and-sell-stock](./problems/121.best-time-to-buy-and-sell-stock.md)
+- [0122.best-time-to-buy-and-sell-stock-ii](./problems/122.best-time-to-buy-and-sell-stock-ii.md)
 - [0136.single-number](./problems/136.single-number.md)
+- [0155.min-stack](./problems/155.min-stack.md) 🆕
 - [0167.two-sum-ii-input-array-is-sorted](./problems/167.two-sum-ii-input-array-is-sorted.md)
+- [0172.factorial-trailing-zeroes](./problems/172.factorial-trailing-zeroes.md) 🆕
 - [0169.majority-element](./problems/169.majority-element.md)
 - [0190.reverse-bits](./problems/190.reverse-bits.md)
 - [0191.number-of-1-bits](./problems/191.number-of-1-bits.md)
-- [0198.house-robber](./problems/198.house-robber.md) 🆕
+- [0198.house-robber](./problems/198.house-robber.md)
 - [0203.remove-linked-list-elements](./problems/203.remove-linked-list-elements.md)
 - [0206.reverse-linked-list](./problems/206.reverse-linked-list.md)
 - [0219.contains-duplicate-ii](./problems/219.contains-duplicate-ii.md)
 - [0226.invert-binary-tree](./problems/226.invert-binary-tree.md)
+- [0263.ugly-number](./problems/263.ugly-number.md) 🆕
 - [0283.move-zeroes](./problems/283.move-zeroes.md)
+- [0342.power-of-four](./problems/342.power-of-four.md) 🆕
 - [0349.intersection-of-two-arrays](./problems/349.intersection-of-two-arrays.md)
+- [0371.sum-of-two-integers](./problems/371.sum-of-two-integers.md) 🆕
+- [0575.distribute-candies](./problems/575.distribute-candies.md)
 
 
 #### 中等难度
@@ -116,45 +123,54 @@ leetcode 题解，记录自己的 leetcode 解题之路。
 - [0002. Add Two Numbers](./problems/2.addTwoNumbers.md)
 - [0003. Longest Substring Without Repeating Characters](./problems/3.longestSubstringWithoutRepeatingCharacters.md)
 - [0011.container-with-most-water](./problems/11.container-with-most-water.md)
-- [0015.3-sum](./problems/15.3-sum.md) 🆕
+- [0015.3-sum](./problems/15.3-sum.md)
 - [0019. Remove Nth Node From End of List](./problems/19.removeNthNodeFromEndofList.md)
 - [0024. Swap Nodes In Pairs](./problems/24.swapNodesInPairs.md)
+- [0029.divide-two-integers](./problems/29.divide-two-integers.md) 🆕
 - [0039.combination-sum](./problems/39.combination-sum.md)
 - [0040.combination-sum-ii](./problems/40.combination-sum-ii.md)
 - [0046.permutations](./problems/46.permutations.md)
 - [0047.permutations-ii](./problems/47.permutations-ii.md)
-- [0055.jump-game](./problems/55.jump-game.md) 🆕 
-- [0062.unique-paths](./problems/62.unique-paths.md )🆕 
+- [0048.rotate-image](./problems/48.rotate-image.md) 🆕 
+- [0049.group-anagrams](./problems/49.group-anagrams.md) 🆕 
+- [0055.jump-game](./problems/55.jump-game.md)
+- [0056.merge-intervals](./problems/56.merge-intervals.md) 🆕 
+- [0062.unique-paths](./problems/62.unique-paths.md )
+- [0073.set-matrix-zeroes](./problems/73.set-matrix-zeroes.md )
 - [0075.sort-colors](./problems/75.sort-colors.md)
-- [0078.subsets](./problems/78.subsets.md) 🆕 
+- [0078.subsets](./problems/78.subsets.md)
 - [0086.partition-list](./problems/86.partition-list.md)
 - [0090.subsets-ii](./problems/90.subsets-ii.md)
-- [0091.decode-ways](./problems/91.decode-ways.md) 🆕 
+- [0091.decode-ways](./problems/91.decode-ways.md)
 - [0092.reverse-linked-list-ii](./problems/92.reverse-linked-list-ii.md)
 - [0094.binary-tree-inorder-traversal](./problems/94.binary-tree-inorder-traversal.md)
+- [0098.validate-binary-search-tree](./problems/98.validate-binary-search-tree.md) 🆕 
 - [0102.binary-tree-level-order-traversal](./problems/102.binary-tree-level-order-traversal.md)
 - [0103.binary-tree-zigzag-level-order-traversal](./problems/103.binary-tree-zigzag-level-order-traversal.md)
 - [0139.word-break](./problems/139.word-breakmd)
 - [0144.binary-tree-preorder-traversal](./problems/144.binary-tree-preorder-traversal.md)
-- [0150.evaluate-reverse-polish-notation](./problems/150.evaluate-reverse-polish-notation.md) 🖊
-- [0152.maximum-product-subarray](./problems/152.maximum-product-subarray.md) 🆕  
+- [0150.evaluate-reverse-polish-notation](./problems/150.evaluate-reverse-polish-notation.md)
+- [0152.maximum-product-subarray](./problems/152.maximum-product-subarray.md)
 - [0199.binary-tree-right-side-view](./problems/199.binary-tree-right-side-view.md)
 - [0201.bitwise-and-of-numbers-range](./problems/201.bitwise-and-of-numbers-range.md)
-- [0208.implement-trie-prefix-tree](./problems/208.implement-trie-prefix-tree.md) 🆕 
-- [0209.minimum-size-subarray-sum](./problems/209.minimum-size-subarray-sum.md) 🖊 
+- [0208.implement-trie-prefix-tree](./problems/208.implement-trie-prefix-tree.md)
+- [0209.minimum-size-subarray-sum](./problems/209.minimum-size-subarray-sum.md) 
+- [0230.kth-smallest-element-in-a-bst](./problems/230.kth-smallest-element-in-a-bst.md)
 - [0236.lowest-common-ancestor-of-a-binary-tree](./problems/236.lowest-common-ancestor-of-a-binary-tree.md)🆕 
-- [0238.product-of-array-except-self](./problems/238.product-of-array-except-self.md) 🆕 
+- [0238.product-of-array-except-self](./problems/238.product-of-array-except-self.md)
 - [0240.search-a-2-d-matrix-ii](./problems/240.search-a-2-d-matrix-ii.md)
 - [0279.perfect-squares](./problems/279.perfect-squares.md)
 - [0309.best-time-to-buy-and-sell-stock-with-cooldown](./problems/309.best-time-to-buy-and-sell-stock-with-cooldown.md) 🆕 
 - [0322.coin-change](./problems/322.coin-change.md)
-- [0334.increasing-triplet-subsequence](./problems/334.increasing-triplet-subsequence.md)
 - [0328.odd-even-linked-list](./problems/328.odd-even-linked-list.md)
+- [0334.increasing-triplet-subsequence](./problems/334.increasing-triplet-subsequence.md)
+- [0365.water-and-jug-problem](./problems/365.water-and-jug-problem.md) 🆕 
 - [0416.partition-equal-subset-sum](./problems/416.partition-equal-subset-sum.md)
 - [0445.add-two-numbers-ii](./problems/445.add-two-numbers-ii.md)
 - [0454.4-sum-ii](./problems/454.4-sum-ii.md) 🆕
-- [0494.target-sum](./problems/494.target-sum.md) 🆕
+- [0494.target-sum](./problems/494.target-sum.md)
 - [0518.coin-change-2](./problems/518.coin-change-2.md)
+- [0609.find-duplicate-file-in-system](./problems/609.find-duplicate-file-in-system.md) 🆕
 - [0875.koko-eating-bananas](./problems/875.koko-eating-bananas.md)
 - [0877.stone-game](./problems/877.stone-game.md)
 - [0887.super-egg-drop](./problems/887.super-egg-drop.md)
@@ -172,8 +188,9 @@ leetcode 题解，记录自己的 leetcode 解题之路。
 
 ### 数据结构与算法的总结
 
-- 🖊 [数据结构](./thinkings/basic-data-structure.md)（草稿）
-- 🖊 [二叉树的遍历](./thinkings/binary-tree-traversal.md)
+- [数据结构](./thinkings/basic-data-structure.md)（草稿）
+- [基础算法](./thinkings/basic-algorithm.md)（草稿）
+- [二叉树的遍历](./thinkings/binary-tree-traversal.md)
 - [动态规划](./thinkings/dynamic-programming.md)
 - [哈夫曼编码和游程编码](./thinkings/run-length-encode-and-huffman-encode.md)
 - [布隆过滤器](./thinkings/bloom-filter.md)
@@ -192,23 +209,17 @@ anki - 文件 - 导入 - 下拉格式选择“打包的 anki集合”，然后�
 
 目前已更新卡片一览（仅列举正面）：
 
-- 二分法解决问题的关键点是什么，相关问题有哪些
+- 二分法解决问题的关键点是什么，相关问题有哪些?
 - 如何用栈的特点来简化操作， 涉及到的题目有哪些？
 - 双指针问题的思路以及相关题目有哪些？
 - 滑动窗口问题的思路以及相关题目有哪些？
 - 回溯法解题的思路以及相关题目有哪些？
+- 数论解决问题的关键点是什么，相关问题有哪些?
+- 位运算解决问题的关键点是什么，相关问题有哪些?
+
+> 已加入的题目有：#2 #3 #11
 
 ### 计划
-
-- [0494.target-sum](./todo/494.target-sum.js)
-
-- [0609.find-duplicate-file-in-system](./todo/609.find-duplicate-file-in-system.js)
-
-- [0010.regular-expression-matching](./todo/10.regular-expression-matching.js)
-
-- [0309.best-time-to-buy-and-sell-stock-with-cooldown](./todo/309.best-time-to-buy-and-sell-stock-with-cooldown.js)
-
-- [0365.water-and-jug-problem](./todo/365.water-and-jug-problem.js)
 
 - [anki 卡片 完善](./assets/anki/)
 

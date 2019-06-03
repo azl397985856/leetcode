@@ -61,6 +61,10 @@ BFS 的关键点在于如何记录每一层次是否遍历完成， 我们可以
 
 3. 出栈，判断有没有右节点，有则入栈，继续执行 2
 
+值得注意的是，中序遍历一个二叉查找树（BST）的结果是一个有序数组，利用这个性质有些题目可以得到简化，
+比如[230.kth-smallest-element-in-a-bst](../problems/230.kth-smallest-element-in-a-bst.md)，
+以及[98.validate-binary-search-tree](../problems/98.validate-binary-search-tree.md)
+
 ## 后序遍历
 
 相关问题[145.binary-tree-postorder-traversal](../problems/145.binary-tree-postorder-traversal.md)

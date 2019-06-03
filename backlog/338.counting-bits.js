@@ -44,15 +44,22 @@
  * @return {number[]}
  */
 var countBits = function(num) {
-  // 这是一道位运算的题目
+  // tag: bit dp
+  // Time complexity: O(n)
+  // Space complexity: O(n)
   const res = [];
   res[0] = 0;
 
+  // 10000100110101
   for (let i = 1; i <= num; i++) {
-    if ((i & 1) === 0) { // 偶数
-      res[i] = res[i >> 1]; // 偶数不影响结果
-    } else { // 奇数
-      res[i] = res[i - 1] + 1; // 如果是奇数，那就是前面的数字 + 1 
+    if ((i & 1) === 0) {
+      // 偶数
+      // 偶数最后一位是0，因此右移一位对结果没有影响
+      res[i] = res[i >> 1];
+    } else {
+      // 奇数
+      // 奇数最后一位是1，i - 1 的 位数 + 1 就是结果
+      res[i] = res[i - 1] + 1;
     }
   }
 

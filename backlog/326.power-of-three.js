@@ -46,6 +46,7 @@
  * @return {boolean}
  */
 var isPowerOfThree = function(n) {
+  // tag: 数论
   // let i = 0;
   // while(Math.pow(3, i) < n) {
   //     i++;
@@ -55,3 +56,4 @@ var isPowerOfThree = function(n) {
   // 巧用整除
   return n > 0 && Math.pow(3, 19) % n === 0;
 };
+// 扩展： 这个方法可以扩展到任意质数，合数则不行
