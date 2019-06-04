@@ -202,6 +202,7 @@ The data structures mainly includes:
 - [Dynamic Programming](./thinkings/dynamic-programming.md)
 - [Huffman Encode and Run Length Encode](./thinkings/run-length-encode-and-huffman-encode.md)
 - [Bloom Filter](./thinkings/bloom-filter.md)
+- [String Problems](./thinkings/string-problems.md)
 
 
 
