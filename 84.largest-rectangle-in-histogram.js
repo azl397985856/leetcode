@@ -32,27 +32,27 @@ var largestRectangleArea = function(heights) {
 
   // 社区中流行的一种解法: 单调栈,  在这里我们需要使用单调递增栈
   // 时间复杂度O(n) 空间复杂度O(n)
-  const ascStack = [];
-  let max = 0;
-  heights.push(0); // hack, 为了使最后一个柱子也参与运算
+  // const ascStack = [];
+  // let max = 0;
+  // heights.push(0); // hack, 为了使最后一个柱子也参与运算
 
-  for (let i = 0; i < heights.length; i++) {
-    let p = i;
+  // for (let i = 0; i < heights.length; i++) {
+  //   let p = i;
 
-    while (
-      ascStack.length > 0 &&
-      heights[i] < heights[ascStack[ascStack.length - 1]]
-    ) {
-      // 由于是递增栈， height[p]一定是最小的，一定是短板
-      p = ascStack.pop();
+  //   while (
+  //     ascStack.length > 0 &&
+  //     heights[i] < heights[ascStack[ascStack.length - 1]]
+  //   ) {
+  //     // 由于是递增栈， height[p]一定是最小的，一定是短板
+  //     p = ascStack.pop();
      
-      max = Math.max(max, heights[p] * (ascStack.length === 0 ? i : i - p));
-    }
+  //     max = Math.max(max, heights[p] * (ascStack.length === 0 ? i : i - p));
+  //   }
 
-    ascStack.push(i);
-  }
+  //   ascStack.push(i);
+  // }
 
-  return max;
+  // return max;
 
   // 相关题目： 雨水收集
 
