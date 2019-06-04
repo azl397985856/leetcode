@@ -125,6 +125,7 @@ The data structures mainly includes:
 
 - [0002. Add Two Numbers](./problems/2.addTwoNumbers.md)
 - [0003. Longest Substring Without Repeating Characters](./problems/3.longestSubstringWithoutRepeatingCharacters.md)
+- [0005.longest-palindromic-substring](./problems/5.longest-palindromic-substring.md) 🆕
 - [0011.container-with-most-water](./problems/11.container-with-most-water.md)
 - [0015.3-sum](./problems/15.3-sum.md)
 - [0019. Remove Nth Node From End of List](./problems/19.removeNthNodeFromEndofList.md)
@@ -173,6 +174,7 @@ The data structures mainly includes:
 - [0445.add-two-numbers-ii](./problems/445.add-two-numbers-ii.md)
 - [0454.4-sum-ii](./problems/454.4-sum-ii.md)
 - [0494.target-sum](./problems/494.target-sum.md)
+- [0516.longest-palindromic-subsequence](./problems/516.longest-palindromic-subsequence.md) 🆕
 - [0518.coin-change-2](./problems/518.coin-change-2.md)
 - [0609.find-duplicate-file-in-system](./problems/609.find-duplicate-file-in-system.md) 🆕
 - [0875.koko-eating-bananas](./problems/875.koko-eating-bananas.md)
