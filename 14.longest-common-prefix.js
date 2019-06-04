@@ -21,7 +21,7 @@ var longestCommonPrefix = function(strs) {
   // 时间复杂度O(m) 空间复杂度O(m * n)
 
   // tag: 二分法
-  // 时间复杂度 O(n*logm*logm)  空间复杂度O(1)
+  // 时间复杂度 O(n*logm)  空间复杂度O(1)
   if (strs.length === 0) return "";
   if (strs.length === 1) return strs[0];
 
