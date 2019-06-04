@@ -80,9 +80,9 @@ The data structures mainly includes:
 
 ## Top Problems Progress
 
-- [Top 100 Liked Questions](https://leetcode.com/problemset/top-100-liked-questions/) (53 / 100)
+- [Top 100 Liked Questions](https://leetcode.com/problemset/top-100-liked-questions/) (54 / 100)
 
-- [Top Interview Questions](https://leetcode.com/problemset/top-interview-questions/) (79 / 145)
+- [Top Interview Questions](https://leetcode.com/problemset/top-interview-questions/) (82 / 145)
 
 
 
@@ -100,6 +100,7 @@ The data structures mainly includes:
 - [0104.maximum-depth-of-binary-tree](./problems/104.maximum-depth-of-binary-tree.md) 🆕
 - [0121.best-time-to-buy-and-sell-stock](./problems/121.best-time-to-buy-and-sell-stock.md)
 - [0122.best-time-to-buy-and-sell-stock-ii](./problems/122.best-time-to-buy-and-sell-stock-ii.md)
+- [0125.valid-palindrome](./problems/125.valid-palindrome.md) 🆕
 - [0136.single-number](./problems/136.single-number.md)
 - [0155.min-stack](./problems/155.min-stack.md) 🆕
 - [0167.two-sum-ii-input-array-is-sorted](./problems/167.two-sum-ii-input-array-is-sorted.md)
@@ -112,11 +113,11 @@ The data structures mainly includes:
 - [0206.reverse-linked-list](./problems/206.reverse-linked-list.md)
 - [0219.contains-duplicate-ii](./problems/219.contains-duplicate-ii.md)
 - [0226.invert-binary-tree](./problems/226.invert-binary-tree.md)
-- [0263.ugly-number](./problems/263.ugly-number.md) 🆕
+- [0263.ugly-number](./problems/263.ugly-number.md)
 - [0283.move-zeroes](./problems/283.move-zeroes.md)
-- [0342.power-of-four](./problems/342.power-of-four.md) 🆕
+- [0342.power-of-four](./problems/342.power-of-four.md)
 - [0349.intersection-of-two-arrays](./problems/349.intersection-of-two-arrays.md)
-- [0371.sum-of-two-integers](./problems/371.sum-of-two-integers.md) 🆕
+- [0371.sum-of-two-integers](./problems/371.sum-of-two-integers.md)
 - [0575.distribute-candies](./problems/575.distribute-candies.md)
 
 
@@ -136,7 +137,7 @@ The data structures mainly includes:
 - [0048.rotate-image](./problems/48.rotate-image.md) 🆕 
 - [0049.group-anagrams](./problems/49.group-anagrams.md) 🆕 
 - [0055.jump-game](./problems/55.jump-game.md)
-- [0056.merge-intervals](./problems/56.merge-intervals.md) 🆕 
+- [0056.merge-intervals](./problems/56.merge-intervals.md)
 - [0062.unique-paths](./problems/62.unique-paths.md )
 - [0073.set-matrix-zeroes](./problems/73.set-matrix-zeroes.md )
 - [0075.sort-colors](./problems/75.sort-colors.md)
@@ -149,7 +150,8 @@ The data structures mainly includes:
 - [0098.validate-binary-search-tree](./problems/98.validate-binary-search-tree.md) 🆕 
 - [0102.binary-tree-level-order-traversal](./problems/102.binary-tree-level-order-traversal.md)
 - [0103.binary-tree-zigzag-level-order-traversal](./problems/103.binary-tree-zigzag-level-order-traversal.md)
-- [0139.word-break](./problems/139.word-breakmd)
+- [0131.palindrome-partitioning](./problems/131.palindrome-partitioning.md) 🆕 
+- [0139.word-break](./problems/139.word-break.md)
 - [0144.binary-tree-preorder-traversal](./problems/144.binary-tree-preorder-traversal.md)
 - [0150.evaluate-reverse-polish-notation](./problems/150.evaluate-reverse-polish-notation.md)
 - [0152.maximum-product-subarray](./problems/152.maximum-product-subarray.md)
@@ -166,10 +168,10 @@ The data structures mainly includes:
 - [0322.coin-change](./problems/322.coin-change.md)
 - [0328.odd-even-linked-list](./problems/328.odd-even-linked-list.md)
 - [0334.increasing-triplet-subsequence](./problems/334.increasing-triplet-subsequence.md)
-- [0365.water-and-jug-problem](./problems/365.water-and-jug-problem.md) 🆕 
+- [0365.water-and-jug-problem](./problems/365.water-and-jug-problem.md)
 - [0416.partition-equal-subset-sum](./problems/416.partition-equal-subset-sum.md)
 - [0445.add-two-numbers-ii](./problems/445.add-two-numbers-ii.md)
-- [0454.4-sum-ii](./problems/454.4-sum-ii.md) 🆕
+- [0454.4-sum-ii](./problems/454.4-sum-ii.md)
 - [0494.target-sum](./problems/494.target-sum.md)
 - [0518.coin-change-2](./problems/518.coin-change-2.md)
 - [0609.find-duplicate-file-in-system](./problems/609.find-duplicate-file-in-system.md) 🆕
