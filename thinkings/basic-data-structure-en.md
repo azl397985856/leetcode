@@ -1,6 +1,6 @@
-# Fundamental data structure
+# Basic data structure
 
-> WIP: the translation of `fundamental data structure` is on the way.
+> WIP: the translation of `basic data structure` is on the way.
 
 This article is not going to intepret data structures, but help you to `review and understand` data structures and algorithms with real scenes. So, if you have a poor data structure foundation, you'd better to read some basic courses about data structures before reading this.
 
