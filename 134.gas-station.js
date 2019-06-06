@@ -41,7 +41,7 @@ var canCompleteCircuit = function(gas, cost) {
 
   for(let i = 0; i < n; i++) {
     total += gas[i];
-    total -= cost[i]
+    total -= cost[i];
 
     remain += gas[i];
     remain -= cost[i];
