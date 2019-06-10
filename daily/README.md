@@ -6,7 +6,7 @@
 ### 历史汇总
 
 
-#### [134.Gas Station](../templates/daily/2019-06-04.md)
+#### [134.Gas Station](./2019-06-04.md)
 
 tag: `Array`
 
