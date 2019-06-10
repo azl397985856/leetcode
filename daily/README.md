@@ -5,6 +5,11 @@
 
 ### 历史汇总
 
+#### [14.Longest-Common-Prefix](./2019-06-03.md)
+
+tag: `trie` `binary search`
+
+时间：2019-06-03
 
 #### [134.Gas Station](./2019-06-04.md)
 
