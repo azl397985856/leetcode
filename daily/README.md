@@ -5,10 +5,9 @@
 
 ### 历史汇总
 
-> 下面这个只是个demo， 链接是无效的
 
-#### [14.longest-common-prefix](./2019-06-03.md)
+#### [134.Gas Station](../templates/daily/2019-06-04.md)
 
-tag: `trie` ， `binary search`
+tag: `Array`
 
-时间: 2019-06-03
+时间: 2019-06-04
