@@ -16,3 +16,9 @@ tag: `trie` `binary search`
 tag: `Array`
 
 时间: 2019-06-04
+
+#### [617. Merge Two Binary Trees](./2019-06-10.md)
+
+tag: `Tree`
+
+时间: 2019-06-10
