@@ -181,6 +181,7 @@ The data structures mainly includes:
 - [0877.stone-game](./problems/877.stone-game.md)
 - [0887.super-egg-drop](./problems/887.super-egg-drop.md)
 - [0900.rle-iterator](./problems/900.rle-iterator.md)
+- [1031.maximum-sum-of-two-non-overlapping-subarrays](./problems/1031.maximum-sum-of-two-non-overlapping-subarrays.md) 🆕
 
 #### Hard
 - [0023.merge-k-sorted-lists](./problems/23.merge-k-sorted-lists.md)
