@@ -264,3 +264,11 @@ http://t.me/leetcode_intl
 - 如果有想法和创意，请提[issue](https://github.com/azl397985856/leetcode/issues)或者进群提
 - 如果想贡献代码，请提[PR](https://github.com/azl397985856/leetcode/pulls)
 - 如果需要修改项目中图片，[这里](./assets/drawio/)存放了项目中绘制图的源代码， 大家可以用[draw.io](https://www.draw.io/)打开进行编辑。
+
+## 鸣谢
+
+感谢为这个项目作出贡献的所有[小伙伴](https://github.com/azl397985856/leetcode/graphs/contributors)
+
+## License
+
+[Apache-2.0](./License.txt)

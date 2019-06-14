@@ -265,3 +265,11 @@ We're still on the early stage, so feedback from community is very welcome. For 
 - If you have any ideas, [Issues](https://github.com/azl397985856/leetcode/issues) or chat in groups.
 - If you want to commit to the repository, Pull Request is welcome.
 - If you want to edit images resources in this project, [here](./assets/drawio/) lists the files that can be edited on [draw.io](https://www.draw.io/).
+
+## Thank you
+
+A big Thank you to every [contributor](https://github.com/azl397985856/leetcode/graphs/contributors) of this project.
+
+## License
+
+[Apache-2.0](./License.txt)
