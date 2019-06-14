@@ -272,4 +272,4 @@ A big Thank you to every [contributor](https://github.com/azl397985856/leetcode/
 
 ## License
 
-[Apache-2.0](./License.txt)
+[Apache-2.0](./LICENSE.txt)
