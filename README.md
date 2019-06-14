@@ -271,4 +271,4 @@ http://t.me/leetcode_intl
 
 ## License
 
-[Apache-2.0](./License.txt)
+[Apache-2.0](./LICENSE.txt)
