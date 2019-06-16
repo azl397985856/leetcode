@@ -25,13 +25,13 @@ tag: `Array`
 
 #### [347.Top K Frequent Elements](./2019-06-08.md)
 
-tag: `HashTable Heap`
+tag: `HashTable` `Heap`
 
 时间: 2019-06-08
 
 #### [10.Regular Expression Matching](./2019-06-09.md)
 
-tag: `Dynamic Programming Backtracking String`
+tag: `Dynamic Programming` `Backtracking` `String`
 
 时间: 2019-06-09
 
