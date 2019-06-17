@@ -31,10 +31,9 @@ tag: `HashTable` `Heap`
 
 #### [10.Regular Expression Matching](./2019-06-09.md)
 
-tag: `Dynamic Programming` `Backtracking` `String`
+tag:  `String` `Dynamic Programming` `Backtracking`
 
 时间: 2019-06-09
-
 
 #### [617. Merge Two Binary Trees](./2019-06-10.md)
 
