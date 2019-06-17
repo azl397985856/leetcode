@@ -5,10 +5,38 @@
 
 ### 历史汇总
 
-> 下面这个只是个demo， 链接是无效的
+#### [14.Longest-Common-Prefix](./2019-06-03.md)
 
-#### [14.longest-common-prefix](./2019-06-03.md)
+tag: `trie` `binary search`
 
-tag: `trie` ， `binary search`
+时间：2019-06-03
 
-时间: 2019-06-03
+#### [134.Gas Station](./2019-06-04.md)
+
+tag: `Array`
+
+时间: 2019-06-04
+
+#### [448.Find All Numbers Disappeared in an Array](./2019-06-05.md)
+
+tag: `Array`
+
+时间: 2019-06-05
+
+#### [347.Top K Frequent Elements](./2019-06-08.md)
+
+tag: `HashTable` `Heap`
+
+时间: 2019-06-08
+
+#### [10.Regular Expression Matching](./2019-06-09.md)
+
+tag:  `String` `Dynamic Programming` `Backtracking`
+
+时间: 2019-06-09
+
+#### [617. Merge Two Binary Trees](./2019-06-10.md)
+
+tag: `Tree`
+
+时间: 2019-06-10

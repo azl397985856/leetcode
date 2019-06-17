@@ -10,7 +10,7 @@
 
 leetcode 题解，记录自己的 leetcode 解题之路。
 
-本仓库目前分为四个部分：
+本仓库目前分为五个部分：
 
 - 第一个部分是 leetcode 经典题目的解析，包括思路，关键点和具体的代码实现。
 
@@ -18,7 +18,9 @@ leetcode 题解，记录自己的 leetcode 解题之路。
 
 - 第三部分是 anki 卡片， 将 leetcode 题目按照一定的方式记录在 anki 中，方便大家记忆。
 
-- 第四部分是计划， 这里会记录将来要加入到以上三个部分内容
+- 第四部分是每日一题，每日一题是在交流群（包括微信和qq）里进行的一种活动，大家一起 解一道题，这样讨论问题更加集中，会得到更多的反馈。而且 这些题目可以被记录下来，日后会进行筛选添加到仓库的题解模块。
+
+- 第五部分是计划， 这里会记录将来要加入到以上三个部分内容
 
 > 只有熟练掌握基础的数据结构与算法，才能对复杂问题迎刃有余。
 
@@ -81,9 +83,9 @@ leetcode 题解，记录自己的 leetcode 解题之路。
 
 ## Top题目进度
 
-- [Top 100 Liked Questions](https://leetcode.com/problemset/top-100-liked-questions/) (54 / 100)
+- [Top 100 Liked Questions](https://leetcode.com/problemset/top-100-liked-questions/) (63 / 100)
 
-- [Top Interview Questions](https://leetcode.com/problemset/top-interview-questions/) (82 / 145)
+- [Top Interview Questions](https://leetcode.com/problemset/top-interview-questions/) (85 / 145)
 ## 传送门
 
 ### leetcode 经典题目的解析
@@ -179,6 +181,7 @@ leetcode 题解，记录自己的 leetcode 解题之路。
 - [0877.stone-game](./problems/877.stone-game.md)
 - [0887.super-egg-drop](./problems/887.super-egg-drop.md)
 - [0900.rle-iterator](./problems/900.rle-iterator.md)
+- [1031.maximum-sum-of-two-non-overlapping-subarrays](./problems/1031.maximum-sum-of-two-non-overlapping-subarrays.md) 🆕
 
 #### 困难难度
 - [0023.merge-k-sorted-lists](./problems/23.merge-k-sorted-lists.md)
@@ -225,6 +228,12 @@ anki - 文件 - 导入 - 下拉格式选择“打包的 anki集合”，然后�
 
 > 已加入的题目有：#2 #3 #11
 
+### 每日一题
+
+- [每日一题汇总](./daily/)
+
+- [每日一题认领区](https://github.com/azl397985856/leetcode/projects/1)
+
 ### 计划
 
 - [anki 卡片 完善](./assets/anki/)
@@ -255,3 +264,11 @@ http://t.me/leetcode_intl
 - 如果有想法和创意，请提[issue](https://github.com/azl397985856/leetcode/issues)或者进群提
 - 如果想贡献代码，请提[PR](https://github.com/azl397985856/leetcode/pulls)
 - 如果需要修改项目中图片，[这里](./assets/drawio/)存放了项目中绘制图的源代码， 大家可以用[draw.io](https://www.draw.io/)打开进行编辑。
+
+## 鸣谢
+
+感谢为这个项目作出贡献的所有[小伙伴](https://github.com/azl397985856/leetcode/graphs/contributors)
+
+## License
+
+[Apache-2.0](./LICENSE.txt)

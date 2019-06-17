@@ -80,9 +80,9 @@ The data structures mainly includes:
 
 ## Top Problems Progress
 
-- [Top 100 Liked Questions](https://leetcode.com/problemset/top-100-liked-questions/) (54 / 100)
+- [Top 100 Liked Questions](https://leetcode.com/problemset/top-100-liked-questions/) (63 / 100)
 
-- [Top Interview Questions](https://leetcode.com/problemset/top-interview-questions/) (82 / 145)
+- [Top Interview Questions](https://leetcode.com/problemset/top-interview-questions/) (85 / 145)
 
 
 
@@ -181,6 +181,7 @@ The data structures mainly includes:
 - [0877.stone-game](./problems/877.stone-game.md)
 - [0887.super-egg-drop](./problems/887.super-egg-drop.md)
 - [0900.rle-iterator](./problems/900.rle-iterator.md)
+- [1031.maximum-sum-of-two-non-overlapping-subarrays](./problems/1031.maximum-sum-of-two-non-overlapping-subarrays.md) 🆕
 
 #### Hard
 - [0023.merge-k-sorted-lists](./problems/23.merge-k-sorted-lists.md)
@@ -264,3 +265,11 @@ We're still on the early stage, so feedback from community is very welcome. For 
 - If you have any ideas, [Issues](https://github.com/azl397985856/leetcode/issues) or chat in groups.
 - If you want to commit to the repository, Pull Request is welcome.
 - If you want to edit images resources in this project, [here](./assets/drawio/) lists the files that can be edited on [draw.io](https://www.draw.io/).
+
+## Thank you
+
+A big Thank you to every [contributor](https://github.com/azl397985856/leetcode/graphs/contributors) of this project.
+
+## License
+
+[Apache-2.0](./LICENSE.txt)
