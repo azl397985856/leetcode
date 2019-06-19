@@ -7,7 +7,7 @@
 
 #### [14.Longest-Common-Prefix](./2019-06-03.md)
 
-tag: `tree` `binary search`
+tag: `trie` `binary search`
 
 时间：2019-06-03
 
