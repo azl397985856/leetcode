@@ -7,7 +7,7 @@
 
 #### [14.Longest-Common-Prefix](./2019-06-03.md)
 
-tag: `trie` `binary search`
+tag: `tree` `binary search`
 
 时间：2019-06-03
 
@@ -25,7 +25,7 @@ tag: `Array`
 
 #### [347.Top K Frequent Elements](./2019-06-08.md)
 
-tag: `HashTable` `Heap`
+tag: `Hash Table` `Heap`
 
 时间: 2019-06-08
 
