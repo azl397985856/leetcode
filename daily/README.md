@@ -25,7 +25,7 @@ tag: `Array`
 
 #### [347.Top K Frequent Elements](./2019-06-08.md)
 
-tag: `HashTable` `Heap`
+tag: `Hash Table` `Heap`
 
 时间: 2019-06-08
 
@@ -40,3 +40,10 @@ tag:  `String` `Dynamic Programming` `Backtracking`
 tag: `Tree`
 
 时间: 2019-06-10
+
+
+### [三门问题](./2019-06-13.md)
+
+tag: `Probability Theory` 
+
+时间: 2019-06-13
