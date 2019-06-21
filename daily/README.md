@@ -41,15 +41,20 @@ tag: `Tree`
 
 时间: 2019-06-10
 
-
 ### [三门问题](./2019-06-13.md)
 
-tag: `Probability Theory` 
+tag: `Probability Theory`
 
 时间: 2019-06-13
 
+### [重复数据排序优化](./2019-06-11.md)
+
+tag: `Sort` `Quick Sort`
+
+时间: 2019-06-11
+
 ### [114.flatten-binary-tree-to-linked-list](./2019-06-14.md)
 
-tag: `tree` 
+tag: `tree`
 
 时间: 2019-06-14
