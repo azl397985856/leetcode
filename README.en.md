@@ -18,7 +18,10 @@ This repository will be divided into four parts for now:
 
 - The third part is [Anki flashcards](https://apps.ankiweb.net) that record the LeetCode problems in a certain way so as to make it easier to remember.
 
-- The fourth part is future plans on content that would be introduced into the above parts.
+- The fourth part is daily problems which held at group chat. we solve just one problem all together, so that
+we can get more feedback, moreover the problems can be drafted to add to the problem solving module.
+
+- The fifth part is future plans on content that would be introduced into the above parts.
 
 > Only when having mastered the basic data structures and algorithms can you solve complex problems easily.
 
@@ -154,6 +157,7 @@ The data structures mainly includes:
 - [0098.validate-binary-search-tree](./problems/98.validate-binary-search-tree.md) 🆕 
 - [0102.binary-tree-level-order-traversal](./problems/102.binary-tree-level-order-traversal.md)
 - [0103.binary-tree-zigzag-level-order-traversal](./problems/103.binary-tree-zigzag-level-order-traversal.md)
+- [0113.path-sum-ii](./problems/113.path-sum-ii.md) 🆕 
 - [0131.palindrome-partitioning](./problems/131.palindrome-partitioning.md) 🆕 
 - [0139.word-break](./problems/139.word-break.md)
 - [0144.binary-tree-preorder-traversal](./problems/144.binary-tree-preorder-traversal.md)
@@ -190,6 +194,7 @@ The data structures mainly includes:
 - [0023.merge-k-sorted-lists](./problems/23.merge-k-sorted-lists.md)
 - [0032.longest-valid-parentheses](./problems/32.longest-valid-parentheses.md) 🆕
 - [0042.trapping-rain-water](./problems/42.trapping-rain-water.md)
+- [0124.binary-tree-maximum-path-sum](./problems/124.binary-tree-maximum-path-sum.md) 🆕
 - [0128.longest-consecutive-sequence](./problems/128.longest-consecutive-sequence.md) 🆕
 - [0145.binary-tree-postorder-traversal](./problems/145.binary-tree-postorder-traversal.md)
 - [0146.lru-cache](./problems/146.lru-cache.md)
@@ -232,6 +237,12 @@ Latest updated flashcards (only lists the front page):
 > WIP: the translation of the flashcards are on the way.
 
 > problems added：#2 #3 #11
+
+### Daily Problems
+
+- [summary](./daily/)
+
+- [project](https://github.com/azl397985856/leetcode/projects/1)
 
 
 
