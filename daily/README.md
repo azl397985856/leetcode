@@ -77,9 +77,22 @@ tag: `sql`
 
 时间: 2019-06-21
 
-### [mySqrt](./2019-06-27.md)
 
-tag: `inary search` `math`
+### [poker-reveal](./2019-06-26.md)
+
+tag: `stack` `queue` `backtrack`
+
+时间: 2019-06-26
+
+### [my-sqrt](./2019-06-27.md)
+
+tag: `binary search` `math`
 
 时间: 2019-06-27
+
+### [deliver-medicine](./2019-07-01.md)
+
+tag: `logic`
+
+时间: 2019-07-01
 
