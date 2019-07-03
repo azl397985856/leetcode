@@ -83,7 +83,7 @@ The data structures mainly includes:
 
 ## Top Problems Progress
 
-- [Top 100 Liked Questions](https://leetcode.com/problemset/top-100-liked-questions/) (75 / 100)
+- [Top 100 Liked Questions](https://leetcode.com/problemset/top-100-liked-questions/) (76 / 100)
 
 - [Top Interview Questions](https://leetcode.com/problemset/top-interview-questions/) (95 / 145)
 
@@ -136,6 +136,7 @@ The data structures mainly includes:
 - [0019. Remove Nth Node From End of List](./problems/19.removeNthNodeFromEndofList.md)
 - [0024. Swap Nodes In Pairs](./problems/24.swapNodesInPairs.md)
 - [0029.divide-two-integers](./problems/29.divide-two-integers.md) 🆕
+- [0031.next-permutation](./problems/31.next-permutation.md) 🆕
 - [0033.search-in-rotated-sorted-array](./problems/33.search-in-rotated-sorted-array.md) 🆕
 - [0039.combination-sum](./problems/39.combination-sum.md)
 - [0040.combination-sum-ii](./problems/40.combination-sum-ii.md)
