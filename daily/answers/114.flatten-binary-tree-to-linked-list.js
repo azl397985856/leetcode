@@ -26,7 +26,7 @@ var flatten = function(root) {
     const res = preorderTraversal(root);
     
     let curPos = 0;
-    let curNode = res[0];
+    let curNode = null;
 
     while(curNode = res[curPos]) {
         curNode.left = null;

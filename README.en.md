@@ -18,7 +18,10 @@ This repository will be divided into four parts for now:
 
 - The third part is [Anki flashcards](https://apps.ankiweb.net) that record the LeetCode problems in a certain way so as to make it easier to remember.
 
-- The fourth part is future plans on content that would be introduced into the above parts.
+- The fourth part is daily problems which held at group chat. we solve just one problem all together, so that
+we can get more feedback, moreover the problems can be drafted to add to the problem solving module.
+
+- The fifth part is future plans on content that would be introduced into the above parts.
 
 > Only when having mastered the basic data structures and algorithms can you solve complex problems easily.
 
@@ -80,9 +83,9 @@ The data structures mainly includes:
 
 ## Top Problems Progress
 
-- [Top 100 Liked Questions](https://leetcode.com/problemset/top-100-liked-questions/) (67 / 100)
+- [Top 100 Liked Questions](https://leetcode.com/problemset/top-100-liked-questions/) (76 / 100)
 
-- [Top Interview Questions](https://leetcode.com/problemset/top-interview-questions/) (88 / 145)
+- [Top Interview Questions](https://leetcode.com/problemset/top-interview-questions/) (95 / 145)
 
 
 
@@ -101,6 +104,7 @@ The data structures mainly includes:
 - [0121.best-time-to-buy-and-sell-stock](./problems/121.best-time-to-buy-and-sell-stock.md)
 - [0122.best-time-to-buy-and-sell-stock-ii](./problems/122.best-time-to-buy-and-sell-stock-ii.md)
 - [0125.valid-palindrome](./problems/125.valid-palindrome.md) 🆕
+- [0129.sum-root-to-leaf-numbers](./problems/129.sum-root-to-leaf-numbers.md) 🆕
 - [0136.single-number](./problems/136.single-number.md)
 - [0155.min-stack](./problems/155.min-stack.md) 🆕
 - [0167.two-sum-ii-input-array-is-sorted](./problems/167.two-sum-ii-input-array-is-sorted.md)
@@ -118,6 +122,7 @@ The data structures mainly includes:
 - [0283.move-zeroes](./problems/283.move-zeroes.md)
 - [0342.power-of-four](./problems/342.power-of-four.md)
 - [0349.intersection-of-two-arrays](./problems/349.intersection-of-two-arrays.md)
+- [0437.path-sum-iii](./problems/437.path-sum-iii.md) 🆕
 - [0371.sum-of-two-integers](./problems/371.sum-of-two-integers.md)
 - [0575.distribute-candies](./problems/575.distribute-candies.md)
 
@@ -132,6 +137,8 @@ The data structures mainly includes:
 - [0019. Remove Nth Node From End of List](./problems/19.removeNthNodeFromEndofList.md)
 - [0024. Swap Nodes In Pairs](./problems/24.swapNodesInPairs.md)
 - [0029.divide-two-integers](./problems/29.divide-two-integers.md) 🆕
+- [0031.next-permutation](./problems/31.next-permutation.md) 🆕
+- [0033.search-in-rotated-sorted-array](./problems/33.search-in-rotated-sorted-array.md) 🆕
 - [0039.combination-sum](./problems/39.combination-sum.md)
 - [0040.combination-sum-ii](./problems/40.combination-sum-ii.md)
 - [0046.permutations](./problems/46.permutations.md)
@@ -152,7 +159,8 @@ The data structures mainly includes:
 - [0098.validate-binary-search-tree](./problems/98.validate-binary-search-tree.md) 🆕 
 - [0102.binary-tree-level-order-traversal](./problems/102.binary-tree-level-order-traversal.md)
 - [0103.binary-tree-zigzag-level-order-traversal](./problems/103.binary-tree-zigzag-level-order-traversal.md)
-- [0131.palindrome-partitioning](./problems/131.palindrome-partitioning.md) 🆕 
+- [0113.path-sum-ii](./problems/113.path-sum-ii.md) 🆕 
+- [0131.palindrome-partitioning](./problems/131.palindrome-partitioning.md)
 - [0139.word-break](./problems/139.word-break.md)
 - [0144.binary-tree-preorder-traversal](./problems/144.binary-tree-preorder-traversal.md)
 - [0150.evaluate-reverse-polish-notation](./problems/150.evaluate-reverse-polish-notation.md)
@@ -171,13 +179,14 @@ The data structures mainly includes:
 - [0328.odd-even-linked-list](./problems/328.odd-even-linked-list.md)
 - [0334.increasing-triplet-subsequence](./problems/334.increasing-triplet-subsequence.md)
 - [0365.water-and-jug-problem](./problems/365.water-and-jug-problem.md)
+- [0378.kth-smallest-element-in-a-sorted-matrix](./problems/378.kth-smallest-element-in-a-sorted-matrix.md) 🆕 
 - [0416.partition-equal-subset-sum](./problems/416.partition-equal-subset-sum.md)
 - [0445.add-two-numbers-ii](./problems/445.add-two-numbers-ii.md)
 - [0454.4-sum-ii](./problems/454.4-sum-ii.md)
 - [0494.target-sum](./problems/494.target-sum.md)
-- [0516.longest-palindromic-subsequence](./problems/516.longest-palindromic-subsequence.md) 🆕
+- [0516.longest-palindromic-subsequence](./problems/516.longest-palindromic-subsequence.md)
 - [0518.coin-change-2](./problems/518.coin-change-2.md)
-- [0609.find-duplicate-file-in-system](./problems/609.find-duplicate-file-in-system.md) 🆕
+- [0609.find-duplicate-file-in-system](./problems/609.find-duplicate-file-in-system.md)
 - [0875.koko-eating-bananas](./problems/875.koko-eating-bananas.md)
 - [0877.stone-game](./problems/877.stone-game.md)
 - [0887.super-egg-drop](./problems/887.super-egg-drop.md)
@@ -188,6 +197,7 @@ The data structures mainly includes:
 - [0023.merge-k-sorted-lists](./problems/23.merge-k-sorted-lists.md)
 - [0032.longest-valid-parentheses](./problems/32.longest-valid-parentheses.md) 🆕
 - [0042.trapping-rain-water](./problems/42.trapping-rain-water.md)
+- [0124.binary-tree-maximum-path-sum](./problems/124.binary-tree-maximum-path-sum.md) 🆕
 - [0128.longest-consecutive-sequence](./problems/128.longest-consecutive-sequence.md) 🆕
 - [0145.binary-tree-postorder-traversal](./problems/145.binary-tree-postorder-traversal.md)
 - [0146.lru-cache](./problems/146.lru-cache.md)
@@ -199,13 +209,13 @@ The data structures mainly includes:
 
 ### Summary of Data Structures and Algorithms
 
-- [Data Structure](./thinkings/basic-data-structure.md) (Drafts)
+- [Data Structure](./thinkings/basic-data-structure-en.md) (Drafts)
 - [Basic Algorithm](./thinkings/basic-algorithm.md)Drafts
 - [Binary Tree Traversal](./thinkings/binary-tree-traversal.md)
-- [Dynamic Programming](./thinkings/dynamic-programming.md)
+- [Dynamic Programming](./thinkings/dynamic-programming-en.md)
 - [Huffman Encode and Run Length Encode](./thinkings/run-length-encode-and-huffman-encode.md)
 - [Bloom Filter](./thinkings/bloom-filter.md)
-- [String Problems](./thinkings/string-problems.md)
+- [String Problems](./thinkings/string-problems-en.md)
 
 
 
@@ -230,6 +240,12 @@ Latest updated flashcards (only lists the front page):
 > WIP: the translation of the flashcards are on the way.
 
 > problems added：#2 #3 #11
+
+### Daily Problems
+
+- [summary](./daily/)
+
+- [project](https://github.com/azl397985856/leetcode/projects/1)
 
 
 

@@ -41,20 +41,63 @@ tag: `Tree`
 
 时间: 2019-06-10
 
-### [三门问题](./2019-06-13.md)
-
-tag: `Probability Theory`
-
-时间: 2019-06-13
-
 ### [重复数据排序优化](./2019-06-11.md)
 
 tag: `Sort` `Quick Sort`
 
 时间: 2019-06-11
 
+### [三门问题](./2019-06-13.md)
+
+tag: `Probability Theory`
+
+时间: 2019-06-13
+
 ### [114.flatten-binary-tree-to-linked-list](./2019-06-14.md)
 
 tag: `tree`
 
 时间: 2019-06-14
+
+### [letter-combinations-of-a-phone-number](./2019-06-18.md)
+
+tag: `backtrack`
+
+时间: 2019-06-18
+
+### [big-countries](./2019-06-19.md)
+
+tag: `sql`
+
+时间: 2019-06-19
+
+### [nth-highest-salary](./2019-06-21.md)
+
+tag: `sql`
+
+时间: 2019-06-21
+
+
+### [poker-reveal](./2019-06-26.md)
+
+tag: `stack` `queue` `backtrack`
+
+时间: 2019-06-26
+
+### [my-sqrt](./2019-06-27.md)
+
+tag: `binary search` `math`
+
+时间: 2019-06-27
+
+### [deliver-medicine](./2019-07-01.md)
+
+tag: `logic`
+
+时间: 2019-07-01
+### [longest-univalue-path](./2019-07-04.md)
+
+tag:`recursive` `tree`
+
+时间: 2019-07-04
+
