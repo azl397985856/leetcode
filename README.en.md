@@ -83,11 +83,9 @@ The data structures mainly includes:
 
 ## Top Problems Progress
 
-- [Top 100 Liked Questions](https://leetcode.com/problemset/top-100-liked-questions/) (76 / 100)
+- [Top 100 Liked Questions](https://leetcode.com/problemset/top-100-liked-questions/) (77 / 100)
 
-- [Top Interview Questions](https://leetcode.com/problemset/top-interview-questions/) (95 / 145)
-
-
+- [Top Interview Questions](https://leetcode.com/problemset/top-interview-questions/) (96 / 145)
 
 ## Portals
 
