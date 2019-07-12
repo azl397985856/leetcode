@@ -16,6 +16,8 @@ The non-linear structure contains tree, graph and so on.
 
 It should be noted that, the linear and non-linear date structures do NOT mean that the data in those structure are stored in a linear or non-linear on the hard disk. It is just a logic partition. For example, binary tree can be stored in array.
 
+Generally speaking, the data structure which has `pre` and `next` is linear.
+Such as Array and Linked List, actually the Linked List is  a kind of `Single Tree`。
 ### Array
 
 Array is the simplest data structure and is used in so many places. For example, array is perfectly appropriate to store a data list. And in fact, you can find array behind many other data structures.
@@ -305,6 +307,9 @@ BTW, you can find more details and algorithms in the charpter [binary tree trave
 #### Heap
 
 Heap is a kind of priority queue which is built in many data structure. But unfortunately, JS does not have a native implementation of this data structure. However, it won't be a problem for understanding and using this structure.
+
+Note that: heap is not the only implementation of `priority queue`, there're a lot of more complex
+implementations
 
 Related algorithm:
 

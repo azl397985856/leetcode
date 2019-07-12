@@ -6,6 +6,9 @@
 
 ![leetcode.jpeg](./assets/leetcode.jpeg)
 
+这个是我写的[纪念项目 Star 突破 1W 的一个短文](./thanksGiving.md)， 记录了项目的"兴起"之路, 大家有兴趣可以看一下，
+如果对这个项目感兴趣，请点击一下Star， 项目会长久更新，感谢大家的支持。
+
 ## 介绍
 
 leetcode 题解，记录自己的 leetcode 解题之路。
@@ -83,9 +86,10 @@ leetcode 题解，记录自己的 leetcode 解题之路。
 
 ## Top题目进度
 
-- [Top 100 Liked Questions](https://leetcode.com/problemset/top-100-liked-questions/) (76 / 100)
+- [Top 100 Liked Questions](https://leetcode.com/problemset/top-100-liked-questions/) (77 / 100)
 
-- [Top Interview Questions](https://leetcode.com/problemset/top-interview-questions/) (95 / 145)
+- [Top Interview Questions](https://leetcode.com/problemset/top-interview-questions/) (96 / 145)
+
 ## 传送门
 
 ### leetcode 经典题目的解析
