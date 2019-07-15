@@ -101,9 +101,9 @@ leetcode 题解，记录自己的 leetcode 解题之路。
 
 ## Top题目进度
 
-- [Top 100 Liked Questions](https://leetcode.com/problemset/top-100-liked-questions/) (77 / 100)
+- [Top 100 Liked Questions](https://leetcode.com/problemset/top-100-liked-questions/) (79 / 100)
 
-- [Top Interview Questions](https://leetcode.com/problemset/top-interview-questions/) (96 / 145)
+- [Top Interview Questions](https://leetcode.com/problemset/top-interview-questions/) (97 / 145)
 
 ## 传送门
 
@@ -185,6 +185,7 @@ leetcode 题解，记录自己的 leetcode 解题之路。
 - [0201.bitwise-and-of-numbers-range](./problems/201.bitwise-and-of-numbers-range.md)
 - [0208.implement-trie-prefix-tree](./problems/208.implement-trie-prefix-tree.md)
 - [0209.minimum-size-subarray-sum](./problems/209.minimum-size-subarray-sum.md) 
+- [0221.maximal-square](./problems/221.maximal-square.md) 🆕 
 - [0230.kth-smallest-element-in-a-bst](./problems/230.kth-smallest-element-in-a-bst.md)
 - [0236.lowest-common-ancestor-of-a-binary-tree](./problems/236.lowest-common-ancestor-of-a-binary-tree.md)🆕 
 - [0238.product-of-array-except-self](./problems/238.product-of-array-except-self.md)
