@@ -10,10 +10,9 @@
  * @description 思路：正则把石头里的宝石replace掉，长度相减，就是结果
  */
 var numJewelsInStones = function(J, S) {
-  let newS=S;
-  for(let i=0;i<J.length;i++){
-     newS= newS.replace(new RegExp(J[i],'g'),"");
+  let newS = S
+  for (let i = 0; i < J.length; i++) {
+    newS = newS.replace(new RegExp(J[i], 'g'), '')
   }
-  return S.length-newS.length
-};
-
+  return S.length - newS.length
+}
