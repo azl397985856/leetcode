@@ -120,3 +120,8 @@ tag:：`Array` `Two Pointers`
 
 时间: 2019-07-18
 
+### [洗牌算法](./2019-07-19.md)
+
+tag:：`Array` `Probability`
+
+时间: 2019-07-19
