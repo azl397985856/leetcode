@@ -1,5 +1,6 @@
 ## 每日一题
-每日一题是在交流群（包括微信和qq）里进行的一种活动，大家一起
+
+每日一题是在交流群（包括微信和 qq）里进行的一种活动，大家一起
 解一道题，这样讨论问题更加集中，会得到更多的反馈。而且
 这些题目可以被记录下来，日后会进行筛选添加到仓库的题解模块。
 
@@ -31,7 +32,7 @@ tag: `Hash Table` `Heap`
 
 #### [10.Regular Expression Matching](./2019-06-09.md)
 
-tag:  `String` `Dynamic Programming` `Backtracking`
+tag: `String` `Dynamic Programming` `Backtracking`
 
 时间: 2019-06-09
 
@@ -77,7 +78,6 @@ tag: `sql`
 
 时间: 2019-06-21
 
-
 ### [poker-reveal](./2019-06-26.md)
 
 tag: `stack` `queue` `backtrack`
@@ -95,12 +95,12 @@ tag: `binary search` `math`
 tag: `logic`
 
 时间: 2019-07-01
+
 ### [longest-univalue-path](./2019-07-04.md)
 
 tag:`recursive` `tree`
 
 时间: 2019-07-04
-
 
 ### [赛马问题](./2019-07-08.md)
 
@@ -128,6 +128,12 @@ tag:：`Array` `Probability`
 
 ### [524.longest-word-in-dictionary-through-deleting](./2019-07-22.md)
 
-- tag：`String` `Two Pointers`
+tag：`String` `Two Pointers`
 
 时间: 2019-07-22
+
+### [删除没有头节点的单链表中的指定项](./2019-07-23.md)
+
+tag：`Linked List`
+
+时间: 2019-07-23
