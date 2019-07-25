@@ -137,3 +137,9 @@ tag：`String` `Two Pointers`
 tag：`Linked List`
 
 时间: 2019-07-23
+
+### [灯泡问题](./2019-07-24.md)
+
+tag：`发散思维`
+
+时间: 2019-07-24
