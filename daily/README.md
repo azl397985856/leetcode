@@ -72,6 +72,13 @@ tag: `sql`
 
 时间: 2019-06-19
 
+### [594.longest-harmonious-subsequence](./2019-06-20.md)
+
+tag：`Array`  
+
+时间：2019-06-20
+
+
 ### [nth-highest-salary](./2019-06-21.md)
 
 tag: `sql`
