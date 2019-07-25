@@ -8,20 +8,19 @@
 
 ![leetcode.jpeg](./assets/leetcode.jpeg)
 
-LeetCode Solutions: A Record of My Problem Solving Journey.
+LeetCode Solutions: A Journey of Problem Solving.
 
-This repository will be divided into four parts for now:
+This repository is divided into five parts for now:
 
 - The first part is the solutions to some classic problems on LeetCode, including the idea thinkings, key points and code implementations.
 
-- The second part is the summary of data structures and algorithms.
+- The second part is a summary of data structures and algorithms.
 
-- The third part is [Anki flashcards](https://apps.ankiweb.net) that record the LeetCode problems in a certain way so as to make it easier to remember.
+- The third part is [Anki flashcards](https://apps.ankiweb.net) that organizes the LeetCode problems in a certain way to make it easier to remember.
 
-- The fourth part is daily problems which held at group chat. we solve just one problem all together, so that
-we can get more feedback, moreover the problems can be drafted to add to the problem solving module.
+- The fourth part is daily challenges which were held at group chat. We usually solve one problem altogether to get more feedback. Moreover, the problems can be drafted to add to the problem solving module.
 
-- The fifth part is future plans on content that would be introduced into the above parts.
+- The fifth part is a future plannning on content that will be introduced into the above parts.
 
 > Only when having mastered the basic data structures and algorithms can you solve complex problems easily.
 
