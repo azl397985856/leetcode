@@ -60,6 +60,12 @@ tag: `tree`
 
 时间: 2019-06-14
 
+### [744.find-smallest-letter-greater-than-target](./2019-06-17.md)
+
+tag：`Array` `binary search`  
+
+时间：2019-06-17
+
 ### [letter-combinations-of-a-phone-number](./2019-06-18.md)
 
 tag: `backtrack`
@@ -77,7 +83,6 @@ tag: `sql`
 tag：`Array`  
 
 时间：2019-06-20
-
 
 ### [nth-highest-salary](./2019-06-21.md)
 
