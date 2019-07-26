@@ -62,7 +62,7 @@ tag: `tree`
 
 ### [744.find-smallest-letter-greater-than-target](./2019-06-17.md)
 
-tag：`Array`  
+tag：`Array` `binary search`  
 
 时间：2019-06-17
 
