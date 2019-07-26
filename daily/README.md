@@ -155,3 +155,9 @@ tag：`Linked List`
 tag：`发散思维`
 
 时间: 2019-07-24
+
+### [9.palindrome-number](./2019-07-25.md)
+
+tag：`Math`
+
+时间: 2019-07-25
