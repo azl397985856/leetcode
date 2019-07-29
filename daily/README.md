@@ -60,6 +60,12 @@ tag: `tree`
 
 时间: 2019-06-14
 
+### [744.find-smallest-letter-greater-than-target](./2019-06-17.md)
+
+tag：`Array` `binary search`  
+
+时间：2019-06-17
+
 ### [letter-combinations-of-a-phone-number](./2019-06-18.md)
 
 tag: `backtrack`
@@ -71,6 +77,12 @@ tag: `backtrack`
 tag: `sql`
 
 时间: 2019-06-19
+
+### [594.longest-harmonious-subsequence](./2019-06-20.md)
+
+tag：`Array`  
+
+时间：2019-06-20
 
 ### [nth-highest-salary](./2019-06-21.md)
 
@@ -143,6 +155,12 @@ tag：`Linked List`
 tag：`发散思维`
 
 时间: 2019-07-24
+
+### [9.palindrome-number](./2019-07-25.md)
+
+tag：`Math`
+
+时间: 2019-07-25
 
 ### [将帅问题](./2019-07-26.md)
 
