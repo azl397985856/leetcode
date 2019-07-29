@@ -24,6 +24,12 @@ tag: `Array`
 
 时间: 2019-06-05
 
+#### [739.Daily Temperatures](./2019-06-06.md)
+
+tag: `Array` `Stack`
+
+时间: 2019-06-06
+
 #### [347.Top K Frequent Elements](./2019-06-08.md)
 
 tag: `Hash Table` `Heap`
@@ -161,3 +167,9 @@ tag：`发散思维`
 tag：`Math`
 
 时间: 2019-07-25
+
+### [将帅问题](./2019-07-26.md)
+
+tag：`数据压缩`
+
+时间: 2019-07-26
