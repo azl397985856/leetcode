@@ -24,6 +24,12 @@ tag: `Array`
 
 时间: 2019-06-05
 
+#### [739.Daily Temperatures](./2019-06-06.md)
+
+tag: `Array` `Stack`
+
+时间: 2019-06-06
+
 #### [347.Top K Frequent Elements](./2019-06-08.md)
 
 tag: `Hash Table` `Heap`
