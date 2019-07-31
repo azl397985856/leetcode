@@ -27,6 +27,21 @@ leetcode 题解，记录自己的 leetcode 解题之路。
 
 > 只有熟练掌握基础的数据结构与算法，才能对复杂问题迎刃有余。
 
+## 关于我
+
+我是一个对技术充满兴趣的程序员, 擅长前端工程化，前端性能优化，前端标准化等。
+
+做过.net， 搞过Java，现在是一名前端工程师。
+
+除了我的本职工作外，我会在开源社区进行一些输出和分享，比较受欢迎的有[宇宙最强的前端面试指南](https://github.com/azl397985856/fe-interview)
+和[我的第一本小书](https://github.com/azl397985856/automate-everything)
+
+目前本人正在写一本关于《leetcode题解》的实体书，因此可能更新会比较慢，
+如果有人想要做些贡献或者合作的也可以直接用下面的邮箱联系我。
+
+另外如果大家需要内推的可以找我，我这里有包括阿里，腾讯，头条，网易等很多公司的朋友。
+有需要可以直接群里联系我，或者发送到我的个人邮箱 [azl397985856@gmail.com]。
+
 ## 食用指南
 
 - 对于最近添加的部分， 后面会有 🆕 标注
@@ -86,9 +101,9 @@ leetcode 题解，记录自己的 leetcode 解题之路。
 
 ## Top题目进度
 
-- [Top 100 Liked Questions](https://leetcode.com/problemset/top-100-liked-questions/) (77 / 100)
+- [Top 100 Liked Questions](https://leetcode.com/problemset/top-100-liked-questions/) (79 / 100)
 
-- [Top Interview Questions](https://leetcode.com/problemset/top-interview-questions/) (96 / 145)
+- [Top Interview Questions](https://leetcode.com/problemset/top-interview-questions/) (97 / 145)
 
 ## 传送门
 
@@ -144,8 +159,8 @@ leetcode 题解，记录自己的 leetcode 解题之路。
 - [0040.combination-sum-ii](./problems/40.combination-sum-ii.md)
 - [0046.permutations](./problems/46.permutations.md)
 - [0047.permutations-ii](./problems/47.permutations-ii.md)
-- [0048.rotate-image](./problems/48.rotate-image.md) 🆕 
-- [0049.group-anagrams](./problems/49.group-anagrams.md) 🆕 
+- [0048.rotate-image](./problems/48.rotate-image.md)
+- [0049.group-anagrams](./problems/49.group-anagrams.md)
 - [0055.jump-game](./problems/55.jump-game.md)
 - [0056.merge-intervals](./problems/56.merge-intervals.md)
 - [0062.unique-paths](./problems/62.unique-paths.md )
@@ -160,16 +175,19 @@ leetcode 题解，记录自己的 leetcode 解题之路。
 - [0098.validate-binary-search-tree](./problems/98.validate-binary-search-tree.md) 🆕 
 - [0102.binary-tree-level-order-traversal](./problems/102.binary-tree-level-order-traversal.md)
 - [0103.binary-tree-zigzag-level-order-traversal](./problems/103.binary-tree-zigzag-level-order-traversal.md)
-- [0113.path-sum-ii](./problems/113.path-sum-ii.md) 🆕 
+- [0113.path-sum-ii](./problems/113.path-sum-ii.md)
+- [0130.surrounded-regions](./problems/130.surrounded-regions.md) 🆕 
 - [0131.palindrome-partitioning](./problems/131.palindrome-partitioning.md)
 - [0139.word-break](./problems/139.word-break.md)
 - [0144.binary-tree-preorder-traversal](./problems/144.binary-tree-preorder-traversal.md)
 - [0150.evaluate-reverse-polish-notation](./problems/150.evaluate-reverse-polish-notation.md)
 - [0152.maximum-product-subarray](./problems/152.maximum-product-subarray.md)
 - [0199.binary-tree-right-side-view](./problems/199.binary-tree-right-side-view.md)
+- [0200.number-of-islands](./problems/200.number-of-islands.md) 🆕 
 - [0201.bitwise-and-of-numbers-range](./problems/201.bitwise-and-of-numbers-range.md)
 - [0208.implement-trie-prefix-tree](./problems/208.implement-trie-prefix-tree.md)
 - [0209.minimum-size-subarray-sum](./problems/209.minimum-size-subarray-sum.md) 
+- [0221.maximal-square](./problems/221.maximal-square.md) 🆕 
 - [0230.kth-smallest-element-in-a-bst](./problems/230.kth-smallest-element-in-a-bst.md)
 - [0236.lowest-common-ancestor-of-a-binary-tree](./problems/236.lowest-common-ancestor-of-a-binary-tree.md)🆕 
 - [0238.product-of-array-except-self](./problems/238.product-of-array-except-self.md)
@@ -251,6 +269,19 @@ anki - 文件 - 导入 - 下拉格式选择“打包的 anki集合”，然后�
 - [anki 卡片 完善](./assets/anki/)
 
 - [字符串类问题汇总](./todo/str/)
+
+## 关注我
+
+最近我重新整理了下自己的公众号，并且我还给他换了一个名字`脑洞前端`，它是一个帮助你打开大前端新世界大门的钥匙🔑，在这里你可以听到新奇的观点，看到一些技术尝新，还会收到系统性总结和思考。
+
+由于微信`一个自然人只能有一个订阅号`的限制, 现在我也会放一些leetcode题解在这个号上面，
+后期考虑出一个leetcode模块或者想办法开另外一个公众号。
+
+在这里我会尽量通过图的形式来阐述一些概念和逻辑，帮助大家快速理解，图解是我的目标。
+
+之后我的文章同步到微信公众号 `脑洞前端` ，您可以关注获取最新的文章，或者和我进行交流。
+
+![gongzhonghao](./assets/gongzhonghao.jpeg)
 
 ## 交流群
 

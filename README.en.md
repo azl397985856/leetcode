@@ -8,20 +8,19 @@
 
 ![leetcode.jpeg](./assets/leetcode.jpeg)
 
-LeetCode Solutions: A Record of My Problem Solving Journey.
+LeetCode Solutions: A Journey of Problem Solving.
 
-This repository will be divided into four parts for now:
+This repository is divided into five parts for now:
 
 - The first part is the solutions to some classic problems on LeetCode, including the idea thinkings, key points and code implementations.
 
-- The second part is the summary of data structures and algorithms.
+- The second part is a summary of data structures and algorithms.
 
-- The third part is [Anki flashcards](https://apps.ankiweb.net) that record the LeetCode problems in a certain way so as to make it easier to remember.
+- The third part is [Anki flashcards](https://apps.ankiweb.net) that organizes the LeetCode problems in a certain way to make it easier to remember.
 
-- The fourth part is daily problems which held at group chat. we solve just one problem all together, so that
-we can get more feedback, moreover the problems can be drafted to add to the problem solving module.
+- The fourth part is daily challenges which were held at group chat. We usually solve one problem altogether to get more feedback. Moreover, the problems can be drafted to add to the problem solving module.
 
-- The fifth part is future plans on content that would be introduced into the above parts.
+- The fifth part is a future plannning on content that will be introduced into the above parts.
 
 > Only when having mastered the basic data structures and algorithms can you solve complex problems easily.
 
@@ -83,9 +82,9 @@ The data structures mainly includes:
 
 ## Top Problems Progress
 
-- [Top 100 Liked Questions](https://leetcode.com/problemset/top-100-liked-questions/) (77 / 100)
+- [Top 100 Liked Questions](https://leetcode.com/problemset/top-100-liked-questions/) (79 / 100)
 
-- [Top Interview Questions](https://leetcode.com/problemset/top-interview-questions/) (96 / 145)
+- [Top Interview Questions](https://leetcode.com/problemset/top-interview-questions/) (97 / 145)
 
 ## Portals
 
@@ -141,8 +140,8 @@ The data structures mainly includes:
 - [0040.combination-sum-ii](./problems/40.combination-sum-ii.md)
 - [0046.permutations](./problems/46.permutations.md)
 - [0047.permutations-ii](./problems/47.permutations-ii.md)
-- [0048.rotate-image](./problems/48.rotate-image.md) 🆕 
-- [0049.group-anagrams](./problems/49.group-anagrams.md) 🆕 
+- [0048.rotate-image](./problems/48.rotate-image.md)
+- [0049.group-anagrams](./problems/49.group-anagrams.md) 
 - [0055.jump-game](./problems/55.jump-game.md)
 - [0056.merge-intervals](./problems/56.merge-intervals.md)
 - [0062.unique-paths](./problems/62.unique-paths.md )
@@ -157,16 +156,19 @@ The data structures mainly includes:
 - [0098.validate-binary-search-tree](./problems/98.validate-binary-search-tree.md) 🆕 
 - [0102.binary-tree-level-order-traversal](./problems/102.binary-tree-level-order-traversal.md)
 - [0103.binary-tree-zigzag-level-order-traversal](./problems/103.binary-tree-zigzag-level-order-traversal.md)
-- [0113.path-sum-ii](./problems/113.path-sum-ii.md) 🆕 
+- [0113.path-sum-ii](./problems/113.path-sum-ii.md)
+- [0130.surrounded-regions](./problems/130.surrounded-regions.md) 🆕 
 - [0131.palindrome-partitioning](./problems/131.palindrome-partitioning.md)
 - [0139.word-break](./problems/139.word-break.md)
 - [0144.binary-tree-preorder-traversal](./problems/144.binary-tree-preorder-traversal.md)
 - [0150.evaluate-reverse-polish-notation](./problems/150.evaluate-reverse-polish-notation.md)
 - [0152.maximum-product-subarray](./problems/152.maximum-product-subarray.md)
 - [0199.binary-tree-right-side-view](./problems/199.binary-tree-right-side-view.md)
+- [0200.number-of-islands](./problems/200.number-of-islands.md) 🆕 
 - [0201.bitwise-and-of-numbers-range](./problems/201.bitwise-and-of-numbers-range.md)
 - [0208.implement-trie-prefix-tree](./problems/208.implement-trie-prefix-tree.md)
-- [0209.minimum-size-subarray-sum](./problems/209.minimum-size-subarray-sum.md) 
+- [0209.minimum-size-subarray-sum](./problems/209.minimum-size-subarray-sum.md)
+- [0221.maximal-square](./problems/221.maximal-square.md) 🆕 
 - [0230.kth-smallest-element-in-a-bst](./problems/230.kth-smallest-element-in-a-bst.md)
 - [0236.lowest-common-ancestor-of-a-binary-tree](./problems/236.lowest-common-ancestor-of-a-binary-tree.md)🆕 
 - [0238.product-of-array-except-self](./problems/238.product-of-array-except-self.md)
