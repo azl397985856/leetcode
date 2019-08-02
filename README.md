@@ -213,16 +213,18 @@ leetcode 题解，记录自己的 leetcode 解题之路。
 - [1031.maximum-sum-of-two-non-overlapping-subarrays](./problems/1031.maximum-sum-of-two-non-overlapping-subarrays.md) 🆕
 
 #### 困难难度
+
 - [0023.merge-k-sorted-lists](./problems/23.merge-k-sorted-lists.md)
 - [0032.longest-valid-parentheses](./problems/32.longest-valid-parentheses.md) 🆕
 - [0042.trapping-rain-water](./problems/42.trapping-rain-water.md)
-- [0124.binary-tree-maximum-path-sum](./problems/124.binary-tree-maximum-path-sum.md) 🆕
-- [0128.longest-consecutive-sequence](./problems/128.longest-consecutive-sequence.md) 🆕
+- [0124.binary-tree-maximum-path-sum](./problems/124.binary-tree-maximum-path-sum.md)
+- [0128.longest-consecutive-sequence](./problems/128.longest-consecutive-sequence.md)
 - [0145.binary-tree-postorder-traversal](./problems/145.binary-tree-postorder-traversal.md)
 - [0146.lru-cache](./problems/146.lru-cache.md)
 - [0239.sliding-window-maximum](./problems/239.sliding-window-maximum.md)
 - [0295.find-median-from-data-stream](./problems/295.find-median-from-data-stream.md) 🆕
 - [0301.remove-invalid-parentheses](./problems/301.remove-invalid-parentheses.md)
+- [0460.lfu-cache](./problems/460.lfu-cache.md) 🆕
 
 ### 数据结构与算法的总结
 
