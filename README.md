@@ -189,6 +189,7 @@ leetcode 题解，记录自己的 leetcode 解题之路。
 - [0209.minimum-size-subarray-sum](./problems/209.minimum-size-subarray-sum.md) 
 - [0215.kth-largest-element-in-an-array](./problems/215.kth-largest-element-in-an-array.md) 🆕 
 - [0221.maximal-square](./problems/221.maximal-square.md) 🆕 
+- [0229.majority-element-ii](./problems/229.majority-element-ii.md) 🆕 
 - [0230.kth-smallest-element-in-a-bst](./problems/230.kth-smallest-element-in-a-bst.md)
 - [0236.lowest-common-ancestor-of-a-binary-tree](./problems/236.lowest-common-ancestor-of-a-binary-tree.md)🆕 
 - [0238.product-of-array-except-self](./problems/238.product-of-array-except-self.md)
