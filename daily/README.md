@@ -68,7 +68,7 @@ tag: `tree`
 
 ### [744.find-smallest-letter-greater-than-target](./2019-06-17.md)
 
-tag：`Array` `binary search`  
+tag：`Array` `binary search`
 
 时间：2019-06-17
 
@@ -86,7 +86,7 @@ tag: `sql`
 
 ### [594.longest-harmonious-subsequence](./2019-06-20.md)
 
-tag：`Array`  
+tag：`Array`
 
 时间：2019-06-20
 
@@ -131,6 +131,12 @@ tag:`dAc`
 tag:`math`
 
 时间: 2019-07-10
+
+### [圆桌一先一后](./2019-07-15.md)
+
+tag: `逻辑思维`
+
+时间：2019-07-15
 
 ### [squares-of-a-sorted-array](./2019-07-18.md)
 
@@ -179,6 +185,12 @@ tag：`数据压缩`
 tag：`Array` `Matrix`
 
 时间: 2019-07-29
+
+### [走地球问题](./2019-07-30.md)
+
+tag: `几何`
+
+时间：2019-07-30
 
 ### [771.jewels-and-stones](./2019-08-22.md)
 
