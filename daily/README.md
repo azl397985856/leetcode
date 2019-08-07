@@ -186,6 +186,12 @@ tag：`Array` `Matrix`
 
 时间: 2019-07-29
 
+### [走地球问题](./2019-07-30.md)
+
+tag: `几何`
+
+时间：2019-07-30
+
 ### [771.jewels-and-stones](./2019-08-22.md)
 
 tag：String` `Hash Table`
