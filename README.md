@@ -216,6 +216,7 @@ leetcode 题解，记录自己的 leetcode 解题之路。
 
 #### 困难难度
 
+- [0004.median-of-two-sorted-array](./problems/4.median-of-two-sorted-array.md) 🆕
 - [0023.merge-k-sorted-lists](./problems/23.merge-k-sorted-lists.md)
 - [0032.longest-valid-parentheses](./problems/32.longest-valid-parentheses.md) 🆕
 - [0042.trapping-rain-water](./problems/42.trapping-rain-water.md)
