@@ -217,6 +217,12 @@ tag: `Tree` `Array`
 
 时间：2019-08-08
 
+### [64.最小路径和](./2019-08-09.md)
+
+tag: `动态规划` `Array`
+
+时间：2019-08-09
+
 ### [771.jewels-and-stones](./2019-08-22.md)
 
 tag：String` `Hash Table`
