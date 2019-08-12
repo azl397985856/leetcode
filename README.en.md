@@ -4,6 +4,13 @@
 
 ---
 
+![leetcode.jpeg](./assets/leetcode.jpeg)
+
+This essay records the course of and my emotion to this project from initialisation to 10,000 stars.
+[Milestone for 10,000+ stars](./thanksGiving.md)
+
+If you are interested in this project, do not mean your star. This project will be supported for a long enough time by the comminity. Thanks for every audience and contributor.
+
 ## Introduction
 
 ![leetcode.jpeg](./assets/leetcode.jpeg)
@@ -24,7 +31,13 @@ This repository is divided into five parts for now:
 
 > Only when having mastered the basic data structures and algorithms can you solve complex problems easily.
 
+## About me
 
+I, a programmer, am all passionate about technology.
+
+Used to write `.net` and `Java`, I am a frontend engineer and focused on the engineering, optimization and standardlization for frontend.
+
+If you want to do some contributions or collaborations, just feel free to contact me via [azl397985856@gmail.com].
 
 ## Usage Instructions
 
