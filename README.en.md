@@ -4,6 +4,13 @@
 
 ---
 
+![leetcode.jpeg](./assets/leetcode.jpeg)
+
+This essay records the course of and my emotion to this project from initialisation to 10,000 stars.
+[Milestone for 10,000+ stars](./thanksGiving.md)
+
+If you are interested in this project, do not mean your star. This project will be supported for a long enough time by the comminity. Thanks for every audience and contributor.
+
 ## Introduction
 
 ![leetcode.jpeg](./assets/leetcode.jpeg)
@@ -24,7 +31,13 @@ This repository is divided into five parts for now:
 
 > Only when having mastered the basic data structures and algorithms can you solve complex problems easily.
 
+## About me
 
+I, a programmer, am all passionate about technology.
+
+Used to write `.net` and `Java`, I am a frontend engineer and focused on the engineering, optimization and standardlization for frontend.
+
+If you want to do some contributions or collaborations, just feel free to contact me via [azl397985856@gmail.com].
 
 ## Usage Instructions
 
@@ -62,9 +75,9 @@ The data structures mainly includes:
 
 ![0042.trapping-rain-water](./assets/problems/42.trapping-rain-water-1.png)
 
-[Stack in Browser](./thinkings/basic-data-structure.md)：
+[0547.friend-circles](./problems/547.friend-circles-en.md):
 
-![basic-data-structure-call-stack](./assets/thinkings/basic-data-structure-call-stack.png)
+![friend circle BFS](./assets/problems/547.friend-circle-bfs.png)
 
 [backtrack problems](./problems/90.subsets-ii.md):
 
@@ -148,6 +161,7 @@ The data structures mainly includes:
 - [0073.set-matrix-zeroes](./problems/73.set-matrix-zeroes.md )
 - [0075.sort-colors](./problems/75.sort-colors.md)
 - [0078.subsets](./problems/78.subsets.md)
+- [0079.word-search](./problems/79.word-search-en.md)
 - [0086.partition-list](./problems/86.partition-list.md)
 - [0090.subsets-ii](./problems/90.subsets-ii.md)
 - [0091.decode-ways](./problems/91.decode-ways.md)
@@ -188,6 +202,7 @@ The data structures mainly includes:
 - [0494.target-sum](./problems/494.target-sum.md)
 - [0516.longest-palindromic-subsequence](./problems/516.longest-palindromic-subsequence.md)
 - [0518.coin-change-2](./problems/518.coin-change-2.md)
+- [0547.friend-circles](./problems/547.friend-circles-en.md) 🆕
 - [0609.find-duplicate-file-in-system](./problems/609.find-duplicate-file-in-system.md)
 - [0875.koko-eating-bananas](./problems/875.koko-eating-bananas.md)
 - [0877.stone-game](./problems/877.stone-game.md)
@@ -216,11 +231,11 @@ The data structures mainly includes:
 ### Summary of Data Structures and Algorithms
 
 - [Data Structure](./thinkings/basic-data-structure-en.md) (Drafts)
-- [Basic Algorithm](./thinkings/basic-algorithm.md)Drafts
-- [Binary Tree Traversal](./thinkings/binary-tree-traversal.md)
+- [Basic Algorithm](./thinkings/basic-algorithm-en.md)Drafts
+- [Binary Tree Traversal](./thinkings/binary-tree-traversal-en.md)
 - [Dynamic Programming](./thinkings/dynamic-programming-en.md)
-- [Huffman Encode and Run Length Encode](./thinkings/run-length-encode-and-huffman-encode.md)
-- [Bloom Filter](./thinkings/bloom-filter.md)
+- [Huffman Encode and Run Length Encode](./thinkings/run-length-encode-and-huffman-encode-en.md)
+- [Bloom Filter](./thinkings/bloom-filter-en.md)
 - [String Problems](./thinkings/string-problems-en.md)
 
 
