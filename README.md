@@ -83,9 +83,9 @@ leetcode 题解，记录自己的 leetcode 解题之路。
 
 ![0042.trapping-rain-water](./assets/problems/42.trapping-rain-water-1.png)
 
-[浏览器中的栈](./thinkings/basic-data-structure.md)：
+[0547.friend-circles](./problems/547.friend-circles-en.md):
 
-![basic-data-structure-call-stack](./assets/thinkings/basic-data-structure-call-stack.png)
+![friend circle BFS](./assets/problems/547.friend-circle-bfs.png)
 
 [backtrack problems](./problems/90.subsets-ii.md):
 
