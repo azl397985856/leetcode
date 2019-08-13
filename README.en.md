@@ -75,9 +75,9 @@ The data structures mainly includes:
 
 ![0042.trapping-rain-water](./assets/problems/42.trapping-rain-water-1.png)
 
-[Stack in Browser](./thinkings/basic-data-structure.md)：
+[0547.friend-circles](./problems/547.friend-circles-en.md):
 
-![basic-data-structure-call-stack](./assets/thinkings/basic-data-structure-call-stack.png)
+![friend circle BFS](./assets/problems/547.friend-circle-bfs.png)
 
 [backtrack problems](./problems/90.subsets-ii.md):
 
@@ -202,6 +202,7 @@ The data structures mainly includes:
 - [0494.target-sum](./problems/494.target-sum.md)
 - [0516.longest-palindromic-subsequence](./problems/516.longest-palindromic-subsequence.md)
 - [0518.coin-change-2](./problems/518.coin-change-2.md)
+- [0547.friend-circles](./problems/547.friend-circles-en.md) 🆕
 - [0609.find-duplicate-file-in-system](./problems/609.find-duplicate-file-in-system.md)
 - [0875.koko-eating-bananas](./problems/875.koko-eating-bananas.md)
 - [0877.stone-game](./problems/877.stone-game.md)
