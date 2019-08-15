@@ -83,9 +83,9 @@ leetcode 题解，记录自己的 leetcode 解题之路。
 
 ![0042.trapping-rain-water](./assets/problems/42.trapping-rain-water-1.png)
 
-[浏览器中的栈](./thinkings/basic-data-structure.md)：
+[0547.friend-circles](./problems/547.friend-circles-en.md):
 
-![basic-data-structure-call-stack](./assets/thinkings/basic-data-structure-call-stack.png)
+![friend circle BFS](./assets/problems/547.friend-circle-bfs.png)
 
 [backtrack problems](./problems/90.subsets-ii.md):
 
@@ -167,6 +167,7 @@ leetcode 题解，记录自己的 leetcode 解题之路。
 - [0073.set-matrix-zeroes](./problems/73.set-matrix-zeroes.md )
 - [0075.sort-colors](./problems/75.sort-colors.md)
 - [0078.subsets](./problems/78.subsets.md)
+- [0079.word-search](./problems/79.word-search.md)
 - [0086.partition-list](./problems/86.partition-list.md)
 - [0090.subsets-ii](./problems/90.subsets-ii.md)
 - [0091.decode-ways](./problems/91.decode-ways.md)
@@ -187,7 +188,9 @@ leetcode 题解，记录自己的 leetcode 解题之路。
 - [0201.bitwise-and-of-numbers-range](./problems/201.bitwise-and-of-numbers-range.md)
 - [0208.implement-trie-prefix-tree](./problems/208.implement-trie-prefix-tree.md)
 - [0209.minimum-size-subarray-sum](./problems/209.minimum-size-subarray-sum.md) 
+- [0215.kth-largest-element-in-an-array](./problems/215.kth-largest-element-in-an-array.md) 🆕 
 - [0221.maximal-square](./problems/221.maximal-square.md) 🆕 
+- [0229.majority-element-ii](./problems/229.majority-element-ii.md) 🆕 
 - [0230.kth-smallest-element-in-a-bst](./problems/230.kth-smallest-element-in-a-bst.md)
 - [0236.lowest-common-ancestor-of-a-binary-tree](./problems/236.lowest-common-ancestor-of-a-binary-tree.md)🆕 
 - [0238.product-of-array-except-self](./problems/238.product-of-array-except-self.md)
@@ -214,6 +217,7 @@ leetcode 题解，记录自己的 leetcode 解题之路。
 
 #### 困难难度
 
+- [0004.median-of-two-sorted-array](./problems/4.median-of-two-sorted-array.md) 🆕
 - [0023.merge-k-sorted-lists](./problems/23.merge-k-sorted-lists.md)
 - [0032.longest-valid-parentheses](./problems/32.longest-valid-parentheses.md) 🆕
 - [0042.trapping-rain-water](./problems/42.trapping-rain-water.md)
