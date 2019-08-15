@@ -278,8 +278,6 @@ return, children, sibling也都是一个fiber，因此fiber看起来就是一个
 - 如果树有n个顶点，那么其就有n - 1条边，这说明了树的顶点数和边数是同阶的。
 - 任何一个节点到根节点存在`唯一`路径, 路径的长度为节点所处的深度
 
-
-
 ### 二叉树
 
 二叉树是节点度数不超过二的树，是树的一种特殊子集，有趣的是二叉树这种被限制的树结构却能够表示和实现所有的树，
@@ -287,7 +285,17 @@ return, children, sibling也都是一个fiber，因此fiber看起来就是一个
 
 > 实际上， 在你使用`长子 + 兄弟`法表示树的同时，进行45度角旋转即可。 
 
-相关算法:
+一个典型的二叉树：
+
+标记为7的节点具有两个子节点, 标记为2和6; 一个父节点,标记为2,作为根节点, 在顶部,没有父节点。
+
+![basic-tree](../assets/thinkings/basic-tree.svg)
+
+(图片来自 https://github.com/trekhleb/javascript-algorithms/blob/master/src/data-structures/tree/README.zh-CN.md)
+
+对于一般的树，我们通常会去遍历，这里又会有很多变种。
+
+下面我列举一些二叉树遍历的相关算法:
 
 - [94.binary-tree-inorder-traversal](../problems/94.binary-tree-inorder-traversal.md)
 - [102.binary-tree-level-order-traversal](../problems/102.binary-tree-level-order-traversal.md)
@@ -307,6 +315,17 @@ return, children, sibling也都是一个fiber，因此fiber看起来就是一个
 堆其实是一种优先级队列，在很多语言都有对应的内置数据结构，很遗憾javascript没有这种原生的数据结构。
 不过这对我们理解和运用不会有影响。
 
+堆的特点：
+
+- 在一个 最小堆(min heap) 中, 如果 P 是 C 的一个父级节点, 那么 P 的key(或value)应小于或等于 C 的对应值.
+正因为此，堆顶元素一定是最小的，我们会利用这个特点求最小值或者第k小的值。
+
+![min-heap](../assets/thinkings/min-heap.png)
+
+- 在一个 最大堆(max heap) 中, P 的key(或value)大于 C 的对应值。
+
+![max-heap](../assets/thinkings/max-heap.svg)
+
 需要注意的是优先队列不仅有堆一种，还有更复杂的，但是通常来说，我们会把两者做等价。
 
 相关算法：
@@ -314,13 +333,56 @@ return, children, sibling也都是一个fiber，因此fiber看起来就是一个
 - [295.find-median-from-data-stream](../problems/295.find-median-from-data-stream.md)
 #### 二叉查找树
 
-### 平衡树
+二叉排序树（Binary Sort Tree），又称二叉查找树（Binary Search Tree），亦称二叉搜索树。
 
-database engine
+二叉查找树具有下列性质的二叉树：
+
+- 若左子树不空，则左子树上所有节点的值均小于它的根节点的值；
+- 若右子树不空，则右子树上所有节点的值均大于它的根节点的值；
+- 左、右子树也分别为二叉排序树；
+- 没有键值相等的节点。
+
+对于一个二叉查找树，常规操作有插入，查找，删除，找父节点，求最大值，求最小值。
+
+二叉查找树，之所以叫查找树就是因为其非常适合查找，举个例子，
+如下一颗二叉查找树，我们想找节点值小于且最接近58的节点，搜索的流程如图所示：
+
+![bst](../assets/thinkings/bst.png)
+（图片来自 https://www.geeksforgeeks.org/floor-in-binary-search-tree-bst/）
+
+另外我们二叉查找树有一个性质是： `其中序遍历的结果是一个有序数组`。
+有时候我们可以利用到这个性质。
+
+相关题目：
+
+- [98.validate-binary-search-tree](../problems/98.validate-binary-search-tree.md)
+
+### 二叉平衡树
+
+平衡树是计算机科学中的一类数据结构，为改进的二叉查找树。一般的二叉查找树的查询复杂度取决于目标结点到树根的距离（即深度），因此当结点的深度普遍较大时，查询的均摊复杂度会上升。为了实现更高效的查询，产生了平衡树。
+
+在这里，平衡指所有叶子的深度趋于平衡，更广义的是指在树上所有可能查找的均摊复杂度偏低。
+
+一些数据库引擎内部就是用的这种数据结构。
+
+基本操作：
+
+- 旋转
+
+- 插入
+
+- 删除
+
+- 查询前驱
+
+- 查询后继
 
 #### AVL
 
+是最早被发明的自平衡二叉查找树。在AVL树中，任一节点对应的两棵子树的最大高度差为1，因此它也被称为高度平衡树。查找、插入和删除在平均和最坏情况下的时间复杂度都是 {\displaystyle O(\log {n})} O(\log{n})。增加和删除元素的操作则可能需要借由一次或多次树旋转，以实现树的重新平衡。AVL树得名于它的发明者G. M. Adelson-Velsky和Evgenii Landis，他们在1962年的论文An algorithm for the organization of information 中公开了这一数据结构。 节点的平衡因子是它的左子树的高度减去它的右子树的高度（有时相反）。带有平衡因子1、0或 -1的节点被认为是平衡的。带有平衡因子 -2或2的节点被认为是不平衡的，并需要重新平衡这个树。平衡因子可以直接存储在每个节点中，或从可能存储在节点中的子树高度计算出来。
+
 #### 红黑树
+在1972年由鲁道夫·贝尔发明，被称为"对称二叉B树"，它现代的名字源于Leo J. Guibas和Robert Sedgewick于1978年写的一篇论文。红黑树的结构复杂，但它的操作有着良好的最坏情况运行时间，并且在实践中高效：它可以在 {\displaystyle O(\log {n})} O(\log{n})时间内完成查找，插入和删除，这里的n是树中元素的数目
 
 ### 字典树(前缀树)
 
@@ -332,8 +394,11 @@ immutable的底层就是share + tree. 这样看的话，其实和字典树是一
 
 - [208.implement-trie-prefix-tree](../problems/208.implement-trie-prefix-tree.md)
 ## 图
+
 前面讲的数据结构都可以看成是图的特例。 前面提到了二叉树完全可以实现其他树结构，
 其实有向图也完全可以实现无向图和混合图，因此有向图的研究一直是重点考察对象。
+
+图论〔Graph Theory〕是数学的一个分支。它以图为研究对象。图论中的图是由若干给定的点及连接两点的线所构成的图形，这种图形通常用来描述某些事物之间的某种特定关系，用点代表事物，用连接两点的线表示相应两个事物间具有这种关系。
 
 ## 图的表示方法
 
@@ -352,4 +417,30 @@ immutable的底层就是share + tree. 这样看的话，其实和字典树是一
 - 关联矩阵
 - 邻接表
 
-1. 适用于稀疏图
+对于每个点，存储着一个链表，用来指向所有与该点直接相连的点
+对于有权图来说，链表中元素值对应着权重
+
+例如在无向无权图中：
+
+![graph-1](../assets/thinkings/graph-1.png)
+（图片来自 https://zhuanlan.zhihu.com/p/25498681）
+
+可以看出在无向图中，邻接矩阵关于对角线对称，而邻接链表总有两条对称的边
+而在有向无权图中：
+
+![graph-2](../assets/thinkings/graph-2.png)
+
+（图片来自 https://zhuanlan.zhihu.com/p/25498681）
+
+## 图的遍历
+
+图的遍历就是要找出图中所有的点，一般有以下两种方法：
+
+1. 深度优先遍历：(Depth First Search, DFS)
+
+深度优先遍历图的方法是，从图中某顶点 v 出发， 不断访问邻居， 邻居的邻居直到访问完毕。
+
+
+2. 广度优先搜索：(Breadth First Search, BFS)
+
+广度优先搜索，可以被形象地描述为 "浅尝辄止"，它也需要一个队列以保持遍历过的顶点顺序，以便按出队的顺序再去访问这些顶点的邻接顶点。 
