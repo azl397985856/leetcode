@@ -6,6 +6,9 @@
 
 ![leetcode.jpeg](./assets/leetcode.jpeg)
 
+这个是我写的[纪念项目 Star 突破 1W 的一个短文](./thanksGiving.md)， 记录了项目的"兴起"之路, 大家有兴趣可以看一下，
+如果对这个项目感兴趣，请点击一下Star， 项目会长久更新，感谢大家的支持。
+
 ## 介绍
 
 leetcode 题解，记录自己的 leetcode 解题之路。
@@ -23,6 +26,21 @@ leetcode 题解，记录自己的 leetcode 解题之路。
 - 第五部分是计划， 这里会记录将来要加入到以上三个部分内容
 
 > 只有熟练掌握基础的数据结构与算法，才能对复杂问题迎刃有余。
+
+## 关于我
+
+我是一个对技术充满兴趣的程序员, 擅长前端工程化，前端性能优化，前端标准化等。
+
+做过.net， 搞过Java，现在是一名前端工程师。
+
+除了我的本职工作外，我会在开源社区进行一些输出和分享，比较受欢迎的有[宇宙最强的前端面试指南](https://github.com/azl397985856/fe-interview)
+和[我的第一本小书](https://github.com/azl397985856/automate-everything)
+
+目前本人正在写一本关于《leetcode题解》的实体书，因此可能更新会比较慢，
+如果有人想要做些贡献或者合作的也可以直接用下面的邮箱联系我。
+
+另外如果大家需要内推的可以找我，我这里有包括阿里，腾讯，头条，网易等很多公司的朋友。
+有需要可以直接群里联系我，或者发送到我的个人邮箱 [azl397985856@gmail.com]。
 
 ## 食用指南
 
@@ -65,9 +83,9 @@ leetcode 题解，记录自己的 leetcode 解题之路。
 
 ![0042.trapping-rain-water](./assets/problems/42.trapping-rain-water-1.png)
 
-[浏览器中的栈](./thinkings/basic-data-structure.md)：
+[0547.friend-circles](./problems/547.friend-circles-en.md):
 
-![basic-data-structure-call-stack](./assets/thinkings/basic-data-structure-call-stack.png)
+![friend circle BFS](./assets/problems/547.friend-circle-bfs.png)
 
 [backtrack problems](./problems/90.subsets-ii.md):
 
@@ -83,9 +101,10 @@ leetcode 题解，记录自己的 leetcode 解题之路。
 
 ## Top题目进度
 
-- [Top 100 Liked Questions](https://leetcode.com/problemset/top-100-liked-questions/) (67 / 100)
+- [Top 100 Liked Questions](https://leetcode.com/problemset/top-100-liked-questions/) (79 / 100)
 
-- [Top Interview Questions](https://leetcode.com/problemset/top-interview-questions/) (88 / 145)
+- [Top Interview Questions](https://leetcode.com/problemset/top-interview-questions/) (97 / 145)
+
 ## 传送门
 
 ### leetcode 经典题目的解析
@@ -101,6 +120,7 @@ leetcode 题解，记录自己的 leetcode 解题之路。
 - [0121.best-time-to-buy-and-sell-stock](./problems/121.best-time-to-buy-and-sell-stock.md)
 - [0122.best-time-to-buy-and-sell-stock-ii](./problems/122.best-time-to-buy-and-sell-stock-ii.md)
 - [0125.valid-palindrome](./problems/125.valid-palindrome.md) 🆕
+- [0129.sum-root-to-leaf-numbers](./problems/129.sum-root-to-leaf-numbers.md) 🆕
 - [0136.single-number](./problems/136.single-number.md)
 - [0155.min-stack](./problems/155.min-stack.md) 🆕
 - [0167.two-sum-ii-input-array-is-sorted](./problems/167.two-sum-ii-input-array-is-sorted.md)
@@ -118,6 +138,7 @@ leetcode 题解，记录自己的 leetcode 解题之路。
 - [0283.move-zeroes](./problems/283.move-zeroes.md)
 - [0342.power-of-four](./problems/342.power-of-four.md)
 - [0349.intersection-of-two-arrays](./problems/349.intersection-of-two-arrays.md)
+- [0437.path-sum-iii](./problems/437.path-sum-iii.md) 🆕
 - [0371.sum-of-two-integers](./problems/371.sum-of-two-integers.md)
 - [0575.distribute-candies](./problems/575.distribute-candies.md)
 
@@ -132,18 +153,21 @@ leetcode 题解，记录自己的 leetcode 解题之路。
 - [0019. Remove Nth Node From End of List](./problems/19.removeNthNodeFromEndofList.md)
 - [0024. Swap Nodes In Pairs](./problems/24.swapNodesInPairs.md)
 - [0029.divide-two-integers](./problems/29.divide-two-integers.md) 🆕
+- [0031.next-permutation](./problems/31.next-permutation.md) 🆕
+- [0033.search-in-rotated-sorted-array](./problems/33.search-in-rotated-sorted-array.md) 🆕
 - [0039.combination-sum](./problems/39.combination-sum.md)
 - [0040.combination-sum-ii](./problems/40.combination-sum-ii.md)
 - [0046.permutations](./problems/46.permutations.md)
 - [0047.permutations-ii](./problems/47.permutations-ii.md)
-- [0048.rotate-image](./problems/48.rotate-image.md) 🆕 
-- [0049.group-anagrams](./problems/49.group-anagrams.md) 🆕 
+- [0048.rotate-image](./problems/48.rotate-image.md)
+- [0049.group-anagrams](./problems/49.group-anagrams.md)
 - [0055.jump-game](./problems/55.jump-game.md)
 - [0056.merge-intervals](./problems/56.merge-intervals.md)
 - [0062.unique-paths](./problems/62.unique-paths.md )
 - [0073.set-matrix-zeroes](./problems/73.set-matrix-zeroes.md )
 - [0075.sort-colors](./problems/75.sort-colors.md)
 - [0078.subsets](./problems/78.subsets.md)
+- [0079.word-search](./problems/79.word-search.md)
 - [0086.partition-list](./problems/86.partition-list.md)
 - [0090.subsets-ii](./problems/90.subsets-ii.md)
 - [0091.decode-ways](./problems/91.decode-ways.md)
@@ -152,15 +176,21 @@ leetcode 题解，记录自己的 leetcode 解题之路。
 - [0098.validate-binary-search-tree](./problems/98.validate-binary-search-tree.md) 🆕 
 - [0102.binary-tree-level-order-traversal](./problems/102.binary-tree-level-order-traversal.md)
 - [0103.binary-tree-zigzag-level-order-traversal](./problems/103.binary-tree-zigzag-level-order-traversal.md)
-- [0131.palindrome-partitioning](./problems/131.palindrome-partitioning.md) 🆕 
+- [0113.path-sum-ii](./problems/113.path-sum-ii.md)
+- [0130.surrounded-regions](./problems/130.surrounded-regions.md) 🆕 
+- [0131.palindrome-partitioning](./problems/131.palindrome-partitioning.md)
 - [0139.word-break](./problems/139.word-break.md)
 - [0144.binary-tree-preorder-traversal](./problems/144.binary-tree-preorder-traversal.md)
 - [0150.evaluate-reverse-polish-notation](./problems/150.evaluate-reverse-polish-notation.md)
 - [0152.maximum-product-subarray](./problems/152.maximum-product-subarray.md)
 - [0199.binary-tree-right-side-view](./problems/199.binary-tree-right-side-view.md)
+- [0200.number-of-islands](./problems/200.number-of-islands.md) 🆕 
 - [0201.bitwise-and-of-numbers-range](./problems/201.bitwise-and-of-numbers-range.md)
 - [0208.implement-trie-prefix-tree](./problems/208.implement-trie-prefix-tree.md)
 - [0209.minimum-size-subarray-sum](./problems/209.minimum-size-subarray-sum.md) 
+- [0215.kth-largest-element-in-an-array](./problems/215.kth-largest-element-in-an-array.md) 🆕 
+- [0221.maximal-square](./problems/221.maximal-square.md) 🆕 
+- [0229.majority-element-ii](./problems/229.majority-element-ii.md) 🆕 
 - [0230.kth-smallest-element-in-a-bst](./problems/230.kth-smallest-element-in-a-bst.md)
 - [0236.lowest-common-ancestor-of-a-binary-tree](./problems/236.lowest-common-ancestor-of-a-binary-tree.md)🆕 
 - [0238.product-of-array-except-self](./problems/238.product-of-array-except-self.md)
@@ -171,13 +201,14 @@ leetcode 题解，记录自己的 leetcode 解题之路。
 - [0328.odd-even-linked-list](./problems/328.odd-even-linked-list.md)
 - [0334.increasing-triplet-subsequence](./problems/334.increasing-triplet-subsequence.md)
 - [0365.water-and-jug-problem](./problems/365.water-and-jug-problem.md)
+- [0378.kth-smallest-element-in-a-sorted-matrix](./problems/378.kth-smallest-element-in-a-sorted-matrix.md) 🆕 
 - [0416.partition-equal-subset-sum](./problems/416.partition-equal-subset-sum.md)
 - [0445.add-two-numbers-ii](./problems/445.add-two-numbers-ii.md)
 - [0454.4-sum-ii](./problems/454.4-sum-ii.md)
 - [0494.target-sum](./problems/494.target-sum.md)
-- [0516.longest-palindromic-subsequence](./problems/516.longest-palindromic-subsequence.md) 🆕
+- [0516.longest-palindromic-subsequence](./problems/516.longest-palindromic-subsequence.md)
 - [0518.coin-change-2](./problems/518.coin-change-2.md)
-- [0609.find-duplicate-file-in-system](./problems/609.find-duplicate-file-in-system.md) 🆕
+- [0609.find-duplicate-file-in-system](./problems/609.find-duplicate-file-in-system.md)
 - [0875.koko-eating-bananas](./problems/875.koko-eating-bananas.md)
 - [0877.stone-game](./problems/877.stone-game.md)
 - [0887.super-egg-drop](./problems/887.super-egg-drop.md)
@@ -185,15 +216,19 @@ leetcode 题解，记录自己的 leetcode 解题之路。
 - [1031.maximum-sum-of-two-non-overlapping-subarrays](./problems/1031.maximum-sum-of-two-non-overlapping-subarrays.md) 🆕
 
 #### 困难难度
+
+- [0004.median-of-two-sorted-array](./problems/4.median-of-two-sorted-array.md) 🆕
 - [0023.merge-k-sorted-lists](./problems/23.merge-k-sorted-lists.md)
 - [0032.longest-valid-parentheses](./problems/32.longest-valid-parentheses.md) 🆕
 - [0042.trapping-rain-water](./problems/42.trapping-rain-water.md)
-- [0128.longest-consecutive-sequence](./problems/128.longest-consecutive-sequence.md) 🆕
+- [0124.binary-tree-maximum-path-sum](./problems/124.binary-tree-maximum-path-sum.md)
+- [0128.longest-consecutive-sequence](./problems/128.longest-consecutive-sequence.md)
 - [0145.binary-tree-postorder-traversal](./problems/145.binary-tree-postorder-traversal.md)
 - [0146.lru-cache](./problems/146.lru-cache.md)
 - [0239.sliding-window-maximum](./problems/239.sliding-window-maximum.md)
 - [0295.find-median-from-data-stream](./problems/295.find-median-from-data-stream.md) 🆕
 - [0301.remove-invalid-parentheses](./problems/301.remove-invalid-parentheses.md)
+- [0460.lfu-cache](./problems/460.lfu-cache.md) 🆕
 
 ### 数据结构与算法的总结
 
@@ -240,6 +275,19 @@ anki - 文件 - 导入 - 下拉格式选择“打包的 anki集合”，然后�
 - [anki 卡片 完善](./assets/anki/)
 
 - [字符串类问题汇总](./todo/str/)
+
+## 关注我
+
+最近我重新整理了下自己的公众号，并且我还给他换了一个名字`脑洞前端`，它是一个帮助你打开大前端新世界大门的钥匙🔑，在这里你可以听到新奇的观点，看到一些技术尝新，还会收到系统性总结和思考。
+
+由于微信`一个自然人只能有一个订阅号`的限制, 现在我也会放一些leetcode题解在这个号上面，
+后期考虑出一个leetcode模块或者想办法开另外一个公众号。
+
+在这里我会尽量通过图的形式来阐述一些概念和逻辑，帮助大家快速理解，图解是我的目标。
+
+之后我的文章同步到微信公众号 `脑洞前端` ，您可以关注获取最新的文章，或者和我进行交流。
+
+![gongzhonghao](./assets/gongzhonghao.jpeg)
 
 ## 交流群
 

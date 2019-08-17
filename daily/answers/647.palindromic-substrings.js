@@ -28,7 +28,7 @@ function extendPalindromic(i, j, s) {
   let count = 0;
   let start = i;
   let end = j;
-  while (s[start] === s[end] && (start >= 0) & (end < n)) {
+  while (s[start] === s[end] && (start >= 0) && (end < n)) {
     start--;
     end++;
     count++;
