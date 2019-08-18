@@ -114,7 +114,6 @@ The data structures mainly includes:
 - [0121.best-time-to-buy-and-sell-stock](./problems/121.best-time-to-buy-and-sell-stock.md)
 - [0122.best-time-to-buy-and-sell-stock-ii](./problems/122.best-time-to-buy-and-sell-stock-ii.md)
 - [0125.valid-palindrome](./problems/125.valid-palindrome.md) 🆕
-- [0129.sum-root-to-leaf-numbers](./problems/129.sum-root-to-leaf-numbers.md) 🆕
 - [0136.single-number](./problems/136.single-number.md)
 - [0155.min-stack](./problems/155.min-stack.md) 🆕
 - [0167.two-sum-ii-input-array-is-sorted](./problems/167.two-sum-ii-input-array-is-sorted.md)
@@ -171,6 +170,7 @@ The data structures mainly includes:
 - [0102.binary-tree-level-order-traversal](./problems/102.binary-tree-level-order-traversal.md)
 - [0103.binary-tree-zigzag-level-order-traversal](./problems/103.binary-tree-zigzag-level-order-traversal.md)
 - [0113.path-sum-ii](./problems/113.path-sum-ii.md)
+- [0129.sum-root-to-leaf-numbers](./problems/129.sum-root-to-leaf-numbers.md) 🆕
 - [0130.surrounded-regions](./problems/130.surrounded-regions.md) 🆕 
 - [0131.palindrome-partitioning](./problems/131.palindrome-partitioning.md)
 - [0139.word-break](./problems/139.word-break.md)
