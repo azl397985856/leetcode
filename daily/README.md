@@ -211,7 +211,7 @@ tag: `几何`
 
 ### [电梯调度问题](./2019-07-31.md)
 
-tag: `Math`
+tag: `Math` `Dynamic Programming`
 
 时间：2019-07-31
 
