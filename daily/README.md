@@ -209,6 +209,12 @@ tag: `几何`
 
 时间：2019-07-30
 
+### [电梯调度问题](./2019-07-31.md)
+
+tag: `Math` `Dynamic Programming`
+
+时间：2019-07-31
+
 ### [105.从前序与中序遍历序列构造二叉树](./2019-08-05.md)
 
 tag: `Tree` `Array`
@@ -241,7 +247,7 @@ tag: `并查集`  `BFS`
 
 ### [771.jewels-and-stones](./2019-08-22.md)
 
-tag：String` `Hash Table`
+tag：`String` `Hash Table`
 
 时间: 2019-08-22
 
