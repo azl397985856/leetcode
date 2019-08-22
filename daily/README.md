@@ -253,7 +253,7 @@ tag：`String` `Hash Table`
 
 ### [417. 太平洋大西洋水流问题](./2019-08-13.md)
 
-tag: `DP`  `BFS`
+tag: `Backtracking`  `DFS`
 
 时间: 2019-08-13
 
