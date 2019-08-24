@@ -200,6 +200,7 @@ The data structures mainly includes:
 - [0416.partition-equal-subset-sum](./problems/416.partition-equal-subset-sum.md)
 - [0445.add-two-numbers-ii](./problems/445.add-two-numbers-ii.md)
 - [0454.4-sum-ii](./problems/454.4-sum-ii.md)
+- [0474.ones-and-zeros](./problems/474.ones-and-zeros-en.md) 🆕
 - [0494.target-sum](./problems/494.target-sum.md)
 - [0516.longest-palindromic-subsequence](./problems/516.longest-palindromic-subsequence.md)
 - [0518.coin-change-2](./problems/518.coin-change-2.md)
