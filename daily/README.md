@@ -245,16 +245,22 @@ tag: `并查集`  `BFS`
 时间：2019-08-11
 
 
-### [771.jewels-and-stones](./2019-08-22.md)
+### [771.jewels-and-stones](./2019-08-02.md)
 
 tag：`String` `Hash Table`
 
-时间: 2019-08-22
+时间: 2019-08-02
 
 ### [417. 太平洋大西洋水流问题](./2019-08-13.md)
 
 tag: `Backtracking`  `DFS`
 
 时间: 2019-08-13
+
+### [子数组的最大乘积](https://mp.weixin.qq.com/s/nb8zwPathjO9p4GCmmGTmQ)
+
+tag: `Array`  `Math`
+
+时间: 2019-08-22
 
 
