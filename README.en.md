@@ -226,6 +226,7 @@ The data structures mainly includes:
 - [0295.find-median-from-data-stream](./problems/295.find-median-from-data-stream.md) 🆕
 - [0301.remove-invalid-parentheses](./problems/301.remove-invalid-parentheses.md)
 - [0460.lfu-cache](./problems/460.lfu-cache.md) 🆕
+- [1168.optimize-water-distribution-in-a-village](./problems/1168.optimize-water-distribution-in-a-village-en.md) 🆕
 
 
 
