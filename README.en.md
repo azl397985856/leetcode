@@ -1,5 +1,8 @@
 # LeetCode
 
+![Total visitor](https://visitor-count-badge.herokuapp.com/total.svg?repo_id=azl397985856.leetcode)
+![Visitors in today](https://visitor-count-badge.herokuapp.com/today.svg?repo_id=azl397985856.leetcode)
+
 [简体中文](./README.md) | English
 
 ---
