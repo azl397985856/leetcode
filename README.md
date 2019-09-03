@@ -3,6 +3,8 @@
 ![历史共访问次数](https://visitor-count-badge.herokuapp.com/total.svg?repo_id=azl397985856.leetcode)
 ![今天被访问次数](https://visitor-count-badge.herokuapp.com/today.svg?repo_id=azl397985856.leetcode)
 
+> 统计数据的时间是从 2019-09-03 19:40 起至今
+
 简体中文 | [English](./README.en.md)
 
 ---
