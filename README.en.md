@@ -216,6 +216,7 @@ The data structures mainly includes:
 
 - [0004.median-of-two-sorted-array](./problems/4.median-of-two-sorted-array.md) 🆕
 - [0023.merge-k-sorted-lists](./problems/23.merge-k-sorted-lists.md)
+- [0025.reverse-nodes-in-k-group](./problems/25.reverse-nodes-in-k-groups-en.md) 🆕
 - [0032.longest-valid-parentheses](./problems/32.longest-valid-parentheses.md) 🆕
 - [0042.trapping-rain-water](./problems/42.trapping-rain-water.md)
 - [0124.binary-tree-maximum-path-sum](./problems/124.binary-tree-maximum-path-sum.md)
