@@ -178,36 +178,36 @@ leetcode 题解，记录自己的 leetcode 解题之路。
 - [0091.decode-ways](./problems/91.decode-ways.md)
 - [0092.reverse-linked-list-ii](./problems/92.reverse-linked-list-ii.md)
 - [0094.binary-tree-inorder-traversal](./problems/94.binary-tree-inorder-traversal.md)
-- [0098.validate-binary-search-tree](./problems/98.validate-binary-search-tree.md) 🆕 
+- [0098.validate-binary-search-tree](./problems/98.validate-binary-search-tree.md) 🆕
 - [0102.binary-tree-level-order-traversal](./problems/102.binary-tree-level-order-traversal.md)
 - [0103.binary-tree-zigzag-level-order-traversal](./problems/103.binary-tree-zigzag-level-order-traversal.md)
 - [0113.path-sum-ii](./problems/113.path-sum-ii.md)
 - [0129.sum-root-to-leaf-numbers](./problems/129.sum-root-to-leaf-numbers.md) 🆕
-- [0130.surrounded-regions](./problems/130.surrounded-regions.md) 🆕 
+- [0130.surrounded-regions](./problems/130.surrounded-regions.md) 🆕
 - [0131.palindrome-partitioning](./problems/131.palindrome-partitioning.md)
 - [0139.word-break](./problems/139.word-break.md)
 - [0144.binary-tree-preorder-traversal](./problems/144.binary-tree-preorder-traversal.md)
 - [0150.evaluate-reverse-polish-notation](./problems/150.evaluate-reverse-polish-notation.md)
 - [0152.maximum-product-subarray](./problems/152.maximum-product-subarray.md)
 - [0199.binary-tree-right-side-view](./problems/199.binary-tree-right-side-view.md)
-- [0200.number-of-islands](./problems/200.number-of-islands.md) 🆕 
+- [0200.number-of-islands](./problems/200.number-of-islands.md) 🆕
 - [0201.bitwise-and-of-numbers-range](./problems/201.bitwise-and-of-numbers-range.md)
 - [0208.implement-trie-prefix-tree](./problems/208.implement-trie-prefix-tree.md)
-- [0209.minimum-size-subarray-sum](./problems/209.minimum-size-subarray-sum.md) 
-- [0215.kth-largest-element-in-an-array](./problems/215.kth-largest-element-in-an-array.md) 🆕 
-- [0221.maximal-square](./problems/221.maximal-square.md) 🆕 
-- [0229.majority-element-ii](./problems/229.majority-element-ii.md) 🆕 
+- [0209.minimum-size-subarray-sum](./problems/209.minimum-size-subarray-sum.md)
+- [0215.kth-largest-element-in-an-array](./problems/215.kth-largest-element-in-an-array.md) 🆕
+- [0221.maximal-square](./problems/221.maximal-square.md) 🆕
+- [0229.majority-element-ii](./problems/229.majority-element-ii.md) 🆕
 - [0230.kth-smallest-element-in-a-bst](./problems/230.kth-smallest-element-in-a-bst.md)
-- [0236.lowest-common-ancestor-of-a-binary-tree](./problems/236.lowest-common-ancestor-of-a-binary-tree.md)🆕 
+- [0236.lowest-common-ancestor-of-a-binary-tree](./problems/236.lowest-common-ancestor-of-a-binary-tree.md)🆕
 - [0238.product-of-array-except-self](./problems/238.product-of-array-except-self.md)
 - [0240.search-a-2-d-matrix-ii](./problems/240.search-a-2-d-matrix-ii.md)
 - [0279.perfect-squares](./problems/279.perfect-squares.md)
-- [0309.best-time-to-buy-and-sell-stock-with-cooldown](./problems/309.best-time-to-buy-and-sell-stock-with-cooldown.md) 🆕 
+- [0309.best-time-to-buy-and-sell-stock-with-cooldown](./problems/309.best-time-to-buy-and-sell-stock-with-cooldown.md) 🆕
 - [0322.coin-change](./problems/322.coin-change.md)
 - [0328.odd-even-linked-list](./problems/328.odd-even-linked-list.md)
 - [0334.increasing-triplet-subsequence](./problems/334.increasing-triplet-subsequence.md)
 - [0365.water-and-jug-problem](./problems/365.water-and-jug-problem.md)
-- [0378.kth-smallest-element-in-a-sorted-matrix](./problems/378.kth-smallest-element-in-a-sorted-matrix.md) 🆕 
+- [0378.kth-smallest-element-in-a-sorted-matrix](./problems/378.kth-smallest-element-in-a-sorted-matrix.md) 🆕
 - [0416.partition-equal-subset-sum](./problems/416.partition-equal-subset-sum.md)
 - [0445.add-two-numbers-ii](./problems/445.add-two-numbers-ii.md)
 - [0454.4-sum-ii](./problems/454.4-sum-ii.md)
@@ -274,9 +274,16 @@ anki - 文件 - 导入 - 下拉格式选择“打包的 anki集合”，然后�
 
 ### 每日一题
 
+每日一题是在交流群（包括微信和 qq）里进行的一种活动，大家一起 解一道题，这样讨论问题更加集中，会得到更多的反馈。而且 这些题目可以被记录下来，日后会进行筛选添加到仓库的题解模块。
+
 - [每日一题汇总](./daily/)
 
+![每日一题汇总](./assets/daily-summary.png)
+
 - [每日一题认领区](https://github.com/azl397985856/leetcode/projects/1)
+
+![每日一题认领区](./assets/daily.png)
+![每日一题认领区](./assets/daily-board.png)
 
 ### 计划
 
