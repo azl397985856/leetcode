@@ -88,21 +88,27 @@ leetcode 题解，记录自己的 leetcode 解题之路。
 
 ![0042.trapping-rain-water](./assets/problems/42.trapping-rain-water-1.png)
 
+
 [0547.friend-circles](./problems/547.friend-circles-en.md):
 
-![friend circle BFS](./assets/problems/547.friend-circle-bfs.png)
+<img width="600" src="./assets/problems/547.friend-circle-bfs.png">
+
+
 
 [backtrack problems](./problems/90.subsets-ii.md):
 
-![backtrack](./assets/problems/backtrack.png)
+<img width="600" src="./assets/problems/backtrack.png">
+
+
 
 [0198.house-robber](./problems/198.house-robber.md):
 
-![198.house-robber](./assets/problems/198.house-robber.png)
+<img width="600" src="./assets/problems/198.house-robber.png">
+
 
 [0454.4-sum-ii](./problems/454.4-sum-ii.md):
 
-![454.4-sum-ii](./assets/problems/454.4-sum-ii.png)
+<img width="600" src="./assets/problems/454.4-sum-ii.png">
 
 ## Top题目进度
 
@@ -303,7 +309,8 @@ anki - 文件 - 导入 - 下拉格式选择“打包的 anki集合”，然后�
 
 另外你可以回复leetcode拉你进微信群，如果想加入qq群，请回复qq。
 
-![gongzhonghao](./assets/gongzhonghao.jpeg)
+
+<img width="300" src="./assets/gongzhonghao.jpeg">
 
 ## 捐赠
 
