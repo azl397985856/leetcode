@@ -305,6 +305,18 @@ anki - 文件 - 导入 - 下拉格式选择“打包的 anki集合”，然后�
 
 ![gongzhonghao](./assets/gongzhonghao.jpeg)
 
+## 捐赠
+
+## 微信
+<img width="300" src="./assets/donate-weixin.jpg">
+
+## 支付宝
+<img width="300" src="./assets/donate-zfb.jpg">
+
+感谢以下捐赠者，我目前没有在任何平台卖钱，用郭德纲的话叫：“我给你快乐，你给我饭吃”，我就只能说：“我给你知识，你给我买咖啡☕️的钱”
+
+- [【前端迷】](https://mp.weixin.qq.com/s?__biz=MzI5MjUxNjA4Mw==&mid=100000905&idx=1&sn=dd7956bbb9b1b845a8d8f3875ac11253&chksm=6c017d155b76f403f091420f6639e8f2871dd48b584bec153406906cce88bab610492d8c8a6d&scene=18#wechat_redirect) - <span style="color: red;">￥88</span>
+
 
 ## 贡献
 
