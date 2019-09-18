@@ -1,5 +1,8 @@
 # LeetCode
-
+[![Travis](https://img.shields.io/badge/language-C++-green.svg)]()
+[![Travis](https://img.shields.io/badge/language-JavaScript-yellow.svg)]()
+[![Travis](https://img.shields.io/badge/language-Python-red.svg)]()
+[![Travis](https://img.shields.io/badge/language-Java-blue.svg)]()
 ![Total visitor](https://visitor-count-badge.herokuapp.com/total.svg?repo_id=azl397985856.leetcode)
 ![Visitors in today](https://visitor-count-badge.herokuapp.com/today.svg?repo_id=azl397985856.leetcode)
 > since 2019-09-03 19:40
@@ -13,7 +16,7 @@
 This essay records the course of and my emotion to this project from initialisation to 10,000 stars.
 [Milestone for 10,000+ stars](./thanksGiving.md)
 
-If you are interested in this project, do not mean your star. This project will be supported for a long enough time by the comminity. Thanks for every audience and contributor.
+If you are interested in this project, **do not mean your star**. This project will be **supported for a long enough time** by the comminity. Thanks for every audience and contributor.
 
 ## Introduction
 
@@ -107,7 +110,7 @@ The data structures mainly includes:
 
 ### Solutions to LeetCode Classic Problems
 
-> Here only lists some representative problems but not all.
+> Here only lists some **representative problems** but not all.
 
 #### Easy
 
