@@ -1,5 +1,9 @@
 # LeetCode
 
+[![Travis](https://img.shields.io/badge/language-C++-green.svg)]()
+[![Travis](https://img.shields.io/badge/language-JavaScript-yellow.svg)]()
+[![Travis](https://img.shields.io/badge/language-Python-red.svg)]()
+[![Travis](https://img.shields.io/badge/language-Java-blue.svg)]()
 ![历史共访问次数](https://visitor-count-badge.herokuapp.com/total.svg?repo_id=azl397985856.leetcode)
 ![今天被访问次数](https://visitor-count-badge.herokuapp.com/today.svg?repo_id=azl397985856.leetcode)
 
@@ -12,13 +16,13 @@
 ![leetcode.jpeg](./assets/leetcode.jpeg)
 
 这个是我写的[纪念项目 Star 突破 1W 的一个短文](./thanksGiving.md)， 记录了项目的"兴起"之路, 大家有兴趣可以看一下，
-如果对这个项目感兴趣，请点击一下Star， 项目会长久更新，感谢大家的支持。
+如果对这个项目感兴趣，请**点击一下Star**， 项目会**持续更新**，感谢大家的支持。
 
 ## 介绍
 
 leetcode 题解，记录自己的 leetcode 解题之路。
 
-本仓库目前分为五个部分：
+本仓库目前分为**五个**部分：
 
 - 第一个部分是 leetcode 经典题目的解析，包括思路，关键点和具体的代码实现。
 
@@ -120,7 +124,7 @@ leetcode 题解，记录自己的 leetcode 解题之路。
 
 ### leetcode 经典题目的解析
 
-> 这里仅列举具有代表性题目，并不是全部题目
+> 这里仅列举具有**代表性题目**，并不是全部题目
 
 #### 简单难度
 
