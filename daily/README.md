@@ -209,6 +209,12 @@ tag: `几何`
 
 时间：2019-07-30
 
+### [电梯调度问题](./2019-07-31.md)
+
+tag: `Math` `Dynamic Programming`
+
+时间：2019-07-31
+
 ### [105.从前序与中序遍历序列构造二叉树](./2019-08-05.md)
 
 tag: `Tree` `Array`
@@ -220,10 +226,40 @@ tag: `Tree` `Array`
 tag: `Tree` `Array`
 
 时间：2019-08-08
+### [字符串首尾相等的最长子串](./2019-08-16.md)
 
-### [771.jewels-and-stones](./2019-08-22.md)
+tag: `String` `Hash Table`
 
-tag：String` `Hash Table`
+时间：2019-08-16
+
+### [64.最小路径和](./2019-08-09.md)
+
+tag: `动态规划` `Array`
+
+时间：2019-08-09
+
+### [547.朋友圈](./2019-08-11.md)
+
+tag: `并查集`  `BFS`
+
+时间：2019-08-11
+
+
+### [771.jewels-and-stones](./2019-08-02.md)
+
+tag：`String` `Hash Table`
+
+时间: 2019-08-02
+
+### [417. 太平洋大西洋水流问题](./2019-08-13.md)
+
+tag: `Backtracking`  `DFS`
+
+时间: 2019-08-13
+
+### [子数组的最大乘积](https://mp.weixin.qq.com/s/nb8zwPathjO9p4GCmmGTmQ)
+
+tag: `Array`  `Math`
 
 时间: 2019-08-22
 
