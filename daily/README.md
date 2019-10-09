@@ -257,6 +257,13 @@ tag: `Backtracking`  `DFS`
 
 时间: 2019-08-13
 
+
+### [593. 有效的正方形和](./2019-08-19.md)
+
+tag: `Array` `Math`
+
+时间：2019-08-19
+
 ### [子数组的最大乘积](https://mp.weixin.qq.com/s/nb8zwPathjO9p4GCmmGTmQ)
 
 tag: `Array`  `Math`
