@@ -1,5 +1,9 @@
 # LeetCode
 
+[![Travis](https://img.shields.io/badge/language-C++-green.svg)]()
+[![Travis](https://img.shields.io/badge/language-JavaScript-yellow.svg)]()
+[![Travis](https://img.shields.io/badge/language-Python-red.svg)]()
+[![Travis](https://img.shields.io/badge/language-Java-blue.svg)]()
 ![历史共访问次数](https://visitor-count-badge.herokuapp.com/total.svg?repo_id=azl397985856.leetcode)
 ![今天被访问次数](https://visitor-count-badge.herokuapp.com/today.svg?repo_id=azl397985856.leetcode)
 
@@ -12,13 +16,13 @@
 ![leetcode.jpeg](./assets/leetcode.jpeg)
 
 这个是我写的[纪念项目 Star 突破 1W 的一个短文](./thanksGiving.md)， 记录了项目的"兴起"之路, 大家有兴趣可以看一下，
-如果对这个项目感兴趣，请点击一下Star， 项目会长久更新，感谢大家的支持。
+如果对这个项目感兴趣，请**点击一下Star**， 项目会**持续更新**，感谢大家的支持。
 
 ## 介绍
 
 leetcode 题解，记录自己的 leetcode 解题之路。
 
-本仓库目前分为五个部分：
+本仓库目前分为**五个**部分：
 
 - 第一个部分是 leetcode 经典题目的解析，包括思路，关键点和具体的代码实现。
 
@@ -34,18 +38,12 @@ leetcode 题解，记录自己的 leetcode 解题之路。
 
 ## 关于我
 
-我是一个对技术充满兴趣的程序员, 擅长前端工程化，前端性能优化，前端标准化等。
+擅长前端工程化，前端性能优化，前端标准化等，做过.net， 搞过Java，现在是一名前端工程师，我的个人博客：https://lucifer.ren/blog/
 
-做过.net， 搞过Java，现在是一名前端工程师。
+我经常会在开源社区进行一些输出和分享，比较受欢迎的有[宇宙最强的前端面试指南](https://github.com/azl397985856/fe-interview)
+和[我的第一本小书](https://github.com/azl397985856/automate-everything)。目前本人正在写一本关于《leetcode题解》的实体书，因此可能更新会比较慢，如果有人想要做些贡献或者合作的也可以直接用下面的邮箱联系我。
 
-除了我的本职工作外，我会在开源社区进行一些输出和分享，比较受欢迎的有[宇宙最强的前端面试指南](https://github.com/azl397985856/fe-interview)
-和[我的第一本小书](https://github.com/azl397985856/automate-everything)
-
-目前本人正在写一本关于《leetcode题解》的实体书，因此可能更新会比较慢，
-如果有人想要做些贡献或者合作的也可以直接用下面的邮箱联系我。
-
-另外如果大家需要内推的可以找我，我这里有包括阿里，腾讯，头条，网易等很多公司的朋友。
-有需要可以直接群里联系我，或者发送到我的个人邮箱 [azl397985856@gmail.com]。
+另外如果大家需要内推的可以找我，我这里有包括阿里，腾讯，头条，网易等很多公司的朋友。有需要可以直接群里联系我，或者发送到我的个人邮箱 [azl397985856@gmail.com]。
 
 ## 食用指南
 
@@ -120,7 +118,7 @@ leetcode 题解，记录自己的 leetcode 解题之路。
 
 ### leetcode 经典题目的解析
 
-> 这里仅列举具有代表性题目，并不是全部题目
+> 这里仅列举具有**代表性题目**，并不是全部题目
 
 #### 简单难度
 
@@ -227,8 +225,10 @@ leetcode 题解，记录自己的 leetcode 解题之路。
 - [0877.stone-game](./problems/877.stone-game.md)
 - [0887.super-egg-drop](./problems/887.super-egg-drop.md)
 - [0900.rle-iterator](./problems/900.rle-iterator.md)
+- [0912.sort-an-array](./problems/912.sort-an-array.md) 🆕
 - [1031.maximum-sum-of-two-non-overlapping-subarrays](./problems/1031.maximum-sum-of-two-non-overlapping-subarrays.md)
 - [1218.longest-arithmetic-subsequence-of-given-difference.md](./problems/1218.longest-arithmetic-subsequence-of-given-difference.md) 🆕
+
 #### 困难难度
 
 - [0004.median-of-two-sorted-array](./problems/4.median-of-two-sorted-array.md) 🆕
@@ -300,16 +300,13 @@ anki - 文件 - 导入 - 下拉格式选择“打包的 anki集合”，然后�
 
 ## 关注我
 
-最近我重新整理了下自己的公众号，并且我还给他换了一个名字`脑洞前端`，它是一个帮助你打开大前端新世界大门的钥匙🔑，在这里你可以听到新奇的观点，看到一些技术尝新，还会收到系统性总结和思考。
-
-由于微信`一个自然人只能有一个订阅号`的限制, 现在我也会放一些leetcode题解在这个号上面，
-后期考虑出一个leetcode模块或者想办法开另外一个公众号。
+我重新整理了下自己的公众号，并且我还给它换了一个名字`脑洞前端`，它是一个帮助你打开大前端新世界大门的钥匙 🔑，在这里你可以听到新奇的观点，看到一些技术尝新，还会收到系统性总结和思考。
 
 在这里我会尽量通过图的形式来阐述一些概念和逻辑，帮助大家快速理解，图解是我的目标。
 
-之后我的文章同步到微信公众号 `脑洞前端` ，您可以关注获取最新的文章，或者和我进行交流。
+之后我的文章会同步到微信公众号 `脑洞前端` ，你可以关注获取最新的文章，并和我进行交流。
 
-另外你可以回复leetcode拉你进微信群，如果想加入qq群，请回复qq。
+另外你可以回复大前端进大前端微信交流群， 回复 leetcode 拉你进 leetcode 微信群，如果想加入 qq 群，请回复 qq。
 
 
 <img width="300" src="./assets/gongzhonghao.jpeg">

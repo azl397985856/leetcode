@@ -1,5 +1,8 @@
 # LeetCode
-
+[![Travis](https://img.shields.io/badge/language-C++-green.svg)]()
+[![Travis](https://img.shields.io/badge/language-JavaScript-yellow.svg)]()
+[![Travis](https://img.shields.io/badge/language-Python-red.svg)]()
+[![Travis](https://img.shields.io/badge/language-Java-blue.svg)]()
 ![Total visitor](https://visitor-count-badge.herokuapp.com/total.svg?repo_id=azl397985856.leetcode)
 ![Visitors in today](https://visitor-count-badge.herokuapp.com/today.svg?repo_id=azl397985856.leetcode)
 > since 2019-09-03 19:40
@@ -13,7 +16,7 @@
 This essay records the course of and my emotion to this project from initialisation to 10,000 stars.
 [Milestone for 10,000+ stars](./thanksGiving.md)
 
-If you are interested in this project, do not mean your star. This project will be supported for a long enough time by the comminity. Thanks for every audience and contributor.
+If you are interested in this project, **do not mean your star**. This project will be **supported for a long enough time** by the comminity. Thanks for every audience and contributor.
 
 ## Introduction
 
@@ -107,7 +110,7 @@ The data structures mainly includes:
 
 ### Solutions to LeetCode Classic Problems
 
-> Here only lists some representative problems but not all.
+> Here only lists some **representative problems** but not all.
 
 #### Easy
 
@@ -158,7 +161,7 @@ The data structures mainly includes:
 - [0046.permutations](./problems/46.permutations.md)
 - [0047.permutations-ii](./problems/47.permutations-ii.md)
 - [0048.rotate-image](./problems/48.rotate-image.md)
-- [0049.group-anagrams](./problems/49.group-anagrams.md) 
+- [0049.group-anagrams](./problems/49.group-anagrams.md)
 - [0055.jump-game](./problems/55.jump-game.md)
 - [0056.merge-intervals](./problems/56.merge-intervals.md)
 - [0062.unique-paths](./problems/62.unique-paths.md )
@@ -183,7 +186,7 @@ The data structures mainly includes:
 - [0150.evaluate-reverse-polish-notation](./problems/150.evaluate-reverse-polish-notation.md)
 - [0152.maximum-product-subarray](./problems/152.maximum-product-subarray.md)
 - [0199.binary-tree-right-side-view](./problems/199.binary-tree-right-side-view.md)
-- [0200.number-of-islands](./problems/200.number-of-islands.md) 🆕 
+- [0200.number-of-islands](./problems/200.number-of-islands.md) 🆕
 - [0201.bitwise-and-of-numbers-range](./problems/201.bitwise-and-of-numbers-range.md)
 - [0208.implement-trie-prefix-tree](./problems/208.implement-trie-prefix-tree.md)
 - [0209.minimum-size-subarray-sum](./problems/209.minimum-size-subarray-sum.md)
@@ -214,6 +217,7 @@ The data structures mainly includes:
 - [0877.stone-game](./problems/877.stone-game.md)
 - [0887.super-egg-drop](./problems/887.super-egg-drop.md)
 - [0900.rle-iterator](./problems/900.rle-iterator.md)
+- [0912.sort-an-array](./problems/912.sort-an-array.md) 🆕
 - [1031.maximum-sum-of-two-non-overlapping-subarrays](./problems/1031.maximum-sum-of-two-non-overlapping-subarrays.md)
 - [1218.longest-arithmetic-subsequence-of-given-difference.md](./problems/1218.longest-arithmetic-subsequence-of-given-difference.md) 🆕
 
