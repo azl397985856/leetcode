@@ -257,10 +257,27 @@ tag: `Backtracking`  `DFS`
 
 时间: 2019-08-13
 
+
+### [593. 有效的正方形和](./2019-08-19.md)
+
+tag: `Array` `Math`
+
+时间：2019-08-19
+
 ### [子数组的最大乘积](https://mp.weixin.qq.com/s/nb8zwPathjO9p4GCmmGTmQ)
 
 tag: `Array`  `Math`
 
-时间: 2019-08-22
+时间: 2019-08-22  
 
+### [拼凑硬币](./2019-10-11.md)
 
+tag: `DP`  `Bit`
+
+时间: 2019-10-11
+
+### [1190.反转每对括号间的子串](./2019-09-23.md)
+
+tag: `String` `Backtracking`
+
+时间: 2019-09-23
