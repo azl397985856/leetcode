@@ -227,6 +227,7 @@ leetcode 题解，记录自己的 leetcode 解题之路。
 - [0900.rle-iterator](./problems/900.rle-iterator.md)
 - [0912.sort-an-array](./problems/912.sort-an-array.md) 🆕
 - [1031.maximum-sum-of-two-non-overlapping-subarrays](./problems/1031.maximum-sum-of-two-non-overlapping-subarrays.md)
+- [1186.maximum-subarray-sum-with-one-deletion](./problems/1186.maximum-subarray-sum-with-one-deletion.md) 🆕
 - [1218.longest-arithmetic-subsequence-of-given-difference.md](./problems/1218.longest-arithmetic-subsequence-of-given-difference.md) 🆕
 
 #### 困难难度
