@@ -148,14 +148,14 @@ The data structures mainly includes:
 
 - [0002. Add Two Numbers](./problems/2.addTwoNumbers.md)
 - [0003. Longest Substring Without Repeating Characters](./problems/3.longestSubstringWithoutRepeatingCharacters.md)
-- [0005.longest-palindromic-substring](./problems/5.longest-palindromic-substring.md) 🆕
+- [0005.longest-palindromic-substring](./problems/5.longest-palindromic-substring.md)
 - [0011.container-with-most-water](./problems/11.container-with-most-water.md)
 - [0015.3-sum](./problems/15.3-sum.md)
 - [0019. Remove Nth Node From End of List](./problems/19.removeNthNodeFromEndofList.md)
 - [0024. Swap Nodes In Pairs](./problems/24.swapNodesInPairs.md)
-- [0029.divide-two-integers](./problems/29.divide-two-integers.md) 🆕
-- [0031.next-permutation](./problems/31.next-permutation.md) 🆕
-- [0033.search-in-rotated-sorted-array](./problems/33.search-in-rotated-sorted-array.md) 🆕
+- [0029.divide-two-integers](./problems/29.divide-two-integers.md)
+- [0031.next-permutation](./problems/31.next-permutation.md)
+- [0033.search-in-rotated-sorted-array](./problems/33.search-in-rotated-sorted-array.md) 
 - [0039.combination-sum](./problems/39.combination-sum.md)
 - [0040.combination-sum-ii](./problems/40.combination-sum-ii.md)
 - [0046.permutations](./problems/46.permutations.md)
@@ -174,12 +174,12 @@ The data structures mainly includes:
 - [0091.decode-ways](./problems/91.decode-ways.md)
 - [0092.reverse-linked-list-ii](./problems/92.reverse-linked-list-ii.md)
 - [0094.binary-tree-inorder-traversal](./problems/94.binary-tree-inorder-traversal.md)
-- [0098.validate-binary-search-tree](./problems/98.validate-binary-search-tree.md) 🆕
+- [0098.validate-binary-search-tree](./problems/98.validate-binary-search-tree.md)  
 - [0102.binary-tree-level-order-traversal](./problems/102.binary-tree-level-order-traversal.md)
 - [0103.binary-tree-zigzag-level-order-traversal](./problems/103.binary-tree-zigzag-level-order-traversal.md)
 - [0113.path-sum-ii](./problems/113.path-sum-ii.md)
-- [0129.sum-root-to-leaf-numbers](./problems/129.sum-root-to-leaf-numbers.md) 🆕
-- [0130.surrounded-regions](./problems/130.surrounded-regions.md) 🆕
+- [0129.sum-root-to-leaf-numbers](./problems/129.sum-root-to-leaf-numbers.md) 
+- [0130.surrounded-regions](./problems/130.surrounded-regions.md) 
 - [0131.palindrome-partitioning](./problems/131.palindrome-partitioning.md)
 - [0139.word-break](./problems/139.word-break.md)
 - [0144.binary-tree-preorder-traversal](./problems/144.binary-tree-preorder-traversal.md)
@@ -190,24 +190,24 @@ The data structures mainly includes:
 - [0201.bitwise-and-of-numbers-range](./problems/201.bitwise-and-of-numbers-range.md)
 - [0208.implement-trie-prefix-tree](./problems/208.implement-trie-prefix-tree.md)
 - [0209.minimum-size-subarray-sum](./problems/209.minimum-size-subarray-sum.md)
-- [0215.kth-largest-element-in-an-array](./problems/215.kth-largest-element-in-an-array.md) 🆕
-- [0221.maximal-square](./problems/221.maximal-square.md) 🆕
-- [0229.majority-element-ii](./problems/229.majority-element-ii.md) 🆕
+- [0215.kth-largest-element-in-an-array](./problems/215.kth-largest-element-in-an-array.md) 🆕 
+- [0221.maximal-square](./problems/221.maximal-square.md) 
+- [0229.majority-element-ii](./problems/229.majority-element-ii.md) 🆕 
 - [0230.kth-smallest-element-in-a-bst](./problems/230.kth-smallest-element-in-a-bst.md)
-- [0236.lowest-common-ancestor-of-a-binary-tree](./problems/236.lowest-common-ancestor-of-a-binary-tree.md)🆕
+- [0236.lowest-common-ancestor-of-a-binary-tree](./problems/236.lowest-common-ancestor-of-a-binary-tree.md)
 - [0238.product-of-array-except-self](./problems/238.product-of-array-except-self.md)
 - [0240.search-a-2-d-matrix-ii](./problems/240.search-a-2-d-matrix-ii.md)
 - [0279.perfect-squares](./problems/279.perfect-squares.md)
-- [0309.best-time-to-buy-and-sell-stock-with-cooldown](./problems/309.best-time-to-buy-and-sell-stock-with-cooldown.md) 🆕
+- [0309.best-time-to-buy-and-sell-stock-with-cooldown](./problems/309.best-time-to-buy-and-sell-stock-with-cooldown.md) 
 - [0322.coin-change](./problems/322.coin-change.md)
 - [0328.odd-even-linked-list](./problems/328.odd-even-linked-list.md)
 - [0334.increasing-triplet-subsequence](./problems/334.increasing-triplet-subsequence.md)
 - [0365.water-and-jug-problem](./problems/365.water-and-jug-problem.md)
-- [0378.kth-smallest-element-in-a-sorted-matrix](./problems/378.kth-smallest-element-in-a-sorted-matrix.md) 🆕
+- [0378.kth-smallest-element-in-a-sorted-matrix](./problems/378.kth-smallest-element-in-a-sorted-matrix.md) 
 - [0416.partition-equal-subset-sum](./problems/416.partition-equal-subset-sum.md)
 - [0445.add-two-numbers-ii](./problems/445.add-two-numbers-ii.md)
 - [0454.4-sum-ii](./problems/454.4-sum-ii.md)
-- [0474.ones-and-zeros](./problems/474.ones-and-zeros-en.md) 🆕
+- [0474.ones-and-zeros](./problems/474.ones-and-zeros-en.md)
 - [0494.target-sum](./problems/494.target-sum.md)
 - [0516.longest-palindromic-subsequence](./problems/516.longest-palindromic-subsequence.md)
 - [0518.coin-change-2](./problems/518.coin-change-2.md)
@@ -218,7 +218,8 @@ The data structures mainly includes:
 - [0887.super-egg-drop](./problems/887.super-egg-drop.md)
 - [0900.rle-iterator](./problems/900.rle-iterator.md)
 - [0912.sort-an-array](./problems/912.sort-an-array.md) 🆕
-- [1031.maximum-sum-of-two-non-overlapping-subarrays](./problems/1031.maximum-sum-of-two-non-overlapping-subarrays.md) 🆕
+- [1031.maximum-sum-of-two-non-overlapping-subarrays](./problems/1031.maximum-sum-of-two-non-overlapping-subarrays.md)
+- [1218.longest-arithmetic-subsequence-of-given-difference.md](./problems/1218.longest-arithmetic-subsequence-of-given-difference.md) 🆕
 
 #### Hard
 

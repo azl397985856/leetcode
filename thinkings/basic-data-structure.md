@@ -16,6 +16,7 @@
 比如我们可以用数组去存储二叉树。
 
 一般而言，有前驱和后继的就是线性数据结构。比如数组和链表。其实一叉树就是链表。
+
 ### 数组
 
 数组是最简单的数据结构了，很多地方都用到它。 比如有一个数据列表等，用它是再合适不过了。
@@ -24,42 +25,43 @@
 我们之后要讲的栈和队列其实都可以看成是一种`受限`的数组, 怎么个受限法呢？我们后面讨论。
 
 我们来讲几个有趣的例子来加深大家对数组这种数据结构的理解。
+
 #### React Hooks
 
-Hooks的本质就是一个数组， 伪代码：
+Hooks 的本质就是一个数组， 伪代码：
 
 ![basic-data-structure-hooks.png](../assets/thinkings/basic-data-structure-hooks.png)
 
-那么为什么hooks要用数组？ 我们可以换个角度来解释，如果不用数组会怎么样？
+那么为什么 hooks 要用数组？ 我们可以换个角度来解释，如果不用数组会怎么样？
 
 ```js
-
 function Form() {
   // 1. Use the name state variable
-  const [name, setName] = useState('Mary');
+  const [name, setName] = useState("Mary");
 
   // 2. Use an effect for persisting the form
   useEffect(function persistForm() {
-    localStorage.setItem('formData', name);
+    localStorage.setItem("formData", name);
   });
 
   // 3. Use the surname state variable
-  const [surname, setSurname] = useState('Poppins');
+  const [surname, setSurname] = useState("Poppins");
 
   // 4. Use an effect for updating the title
   useEffect(function updateTitle() {
-    document.title = name + ' ' + surname;
+    document.title = name + " " + surname;
   });
 
   // ...
 }
-
 ```
-基于数组的方式，Form的hooks就是 [hook1, hook2, hook3, hook4],
-我们可以得出这样的关系， hook1就是[name, setName] 这一对，
-hook2就是persistForm这个。
 
-如果不用数组实现，比如对象，Form的hooks就是
+基于数组的方式，Form 的 hooks 就是 [hook1, hook2, hook3, hook4],
+我们可以得出这样的关系， hook1 就是[name, setName] 这一对，
+hook2 就是 persistForm 这个。
+
+如果不用数组实现，比如对象，Form 的 hooks 就是
+
 ```js
 {
   'key1': hook1,
@@ -68,12 +70,14 @@ hook2就是persistForm这个。
   'key4': hook4,
 }
 ```
-那么问题是key1，key2，key3，key4怎么取呢？
 
-关于React hooks 的本质研究，更多请查看[React hooks: not magic, just arrays](https://medium.com/@ryardley/react-hooks-not-magic-just-arrays-cd4f1857236e)
+那么问题是 key1，key2，key3，key4 怎么取呢？
 
-React 将`如何确保组件内部hooks保存的状态之间的对应关系`这个工作交给了 
-开发人员去保证，即你必须保证HOOKS的顺序严格一致，具体可以看React 官网关于 Hooks Rule 部分。
+关于 React hooks 的本质研究，更多请查看[React hooks: not magic, just arrays](https://medium.com/@ryardley/react-hooks-not-magic-just-arrays-cd4f1857236e)
+
+React 将`如何确保组件内部hooks保存的状态之间的对应关系`这个工作交给了
+开发人员去保证，即你必须保证 HOOKS 的顺序严格一致，具体可以看 React 官网关于 Hooks Rule 部分。
+
 ### 队列
 
 队列是一种受限的序列，它只能够操作队尾和队首，并且只能只能在队尾添加元素，在队首删除元素。
@@ -84,7 +88,7 @@ React 将`如何确保组件内部hooks保存的状态之间的对应关系`这�
 
 在计算机科学中, 一个 队列(queue) 是一种特殊类型的抽象数据类型或集合。集合中的实体按顺序保存。
 
-队列基本操作有两种: 
+队列基本操作有两种:
 
 - 向队列的后端位置添加实体，称为入队
 - 从队列的前端位置移除实体，称为出队。
@@ -95,32 +99,32 @@ React 将`如何确保组件内部hooks保存的状态之间的对应关系`这�
 
 (图片来自 https://github.com/trekhleb/javascript-algorithms/blob/master/src/data-structures/queue/README.zh-CN.md)
 
-我们前端在做性能优化的时候，很多时候会提到的一点就是“HTTP 1.1  的队头阻塞问题”，具体来说
-就是HTTP2 解决了 HTTP1.1 中的队头阻塞问题，但是为什么HTTP1.1有队头阻塞问题，HTTP2究竟怎么解决的很多人都不清楚。
+我们前端在做性能优化的时候，很多时候会提到的一点就是“HTTP 1.1 的队头阻塞问题”，具体来说
+就是 HTTP2 解决了 HTTP1.1 中的队头阻塞问题，但是为什么 HTTP1.1 有队头阻塞问题，HTTP2 究竟怎么解决的很多人都不清楚。
 
 其实“队头阻塞”是一个专有名词，不仅仅这里有，交换器等其他都有这个问题，引起这个问题的根本原因是使用了`队列`这种数据结构。
 
-对于同一个tcp连接，所有的http1.0请求放入队列中，只有前一个`请求的响应`收到了，然后才能发送下一个请求，这个阻塞主要发生在客户端。
+对于同一个 tcp 连接，所有的 http1.0 请求放入队列中，只有前一个`请求的响应`收到了，然后才能发送下一个请求，这个阻塞主要发生在客户端。
 
 这就好像我们在等红绿灯，即使旁边绿灯亮了，你的这个车道是红灯，你还是不能走，还是要等着。
 
 ![basic-data-structure-queue-1](../assets/thinkings/basic-data-structure-queue-1.png)
 
 `HTTP/1.0` 和 `HTTP/1.1`:  
-在`HTTP/1.0` 中每一次请求都需要建立一个TCP连接，请求结束后立即断开连接。
-在`HTTP/1.1` 中，每一个连接都默认是长连接(persistent connection)。对于同一个tcp连接，允许一次发送多个http1.1请求，也就是说，不必等前一个响应收到，就可以发送下一个请求。这样就解决了http1.0的客户端的队头阻塞，而这也就是`HTTP/1.1`中`管道(Pipeline)`的概念了。
+在`HTTP/1.0` 中每一次请求都需要建立一个 TCP 连接，请求结束后立即断开连接。
+在`HTTP/1.1` 中，每一个连接都默认是长连接(persistent connection)。对于同一个 tcp 连接，允许一次发送多个 http1.1 请求，也就是说，不必等前一个响应收到，就可以发送下一个请求。这样就解决了 http1.0 的客户端的队头阻塞，而这也就是`HTTP/1.1`中`管道(Pipeline)`的概念了。
 但是，`http1.1规定，服务器端的响应的发送要根据请求被接收的顺序排队`，也就是说，先接收到的请求的响应也要先发送。这样造成的问题是，如果最先收到的请求的处理时间长的话，响应生成也慢，就会阻塞已经生成了的响应的发送。也会造成队头阻塞。
-可见，http1.1的队首阻塞发生在服务器端。
+可见，http1.1 的队首阻塞发生在服务器端。
 
 如果用图来表示的话，过程大概是：
 
 ![basic-data-structure-queue-2](../assets/thinkings/basic-data-structure-queue-2.png)
 
-`HTTP/2` 和 `HTTP/1.1`:  
+`HTTP/2` 和 `HTTP/1.1`:
 
 为了解决`HTTP/1.1`中的服务端队首阻塞，`HTTP/2`采用了`二进制分帧` 和 `多路复用` 等方法。  
 `二进制分帧`中，帧是`HTTP/2`数据通信的最小单位。在`HTTP/1.1`数据包是文本格式，而`HTTP/2`的数据包是二进制格式的，也就是二进制帧。采用帧可以将请求和响应的数据分割得更小，且二进制协议可以更高效解析。`HTTP/2`中，同域名下所有通信都在单个连接上完成，该连接可以承载任意数量的双向数据流。每个数据流都以消息的形式发送，而消息又由一个或多个帧组成。多个帧之间可以乱序发送，根据帧首部的流标识可以重新组装。
-`多路复用`用以替代原来的序列和拥塞机制。在`HTTP/1.1`中，并发多个请求需要多个TCP链接，且单个域名有6-8个TCP链接请求限制。在`HHTP/2`中，同一域名下的所有通信在单个链接完成，仅占用一个TCP链接，且在这一个链接上可以并行请求和响应，互不干扰。
+`多路复用`用以替代原来的序列和拥塞机制。在`HTTP/1.1`中，并发多个请求需要多个 TCP 链接，且单个域名有 6-8 个 TCP 链接请求限制。在`HHTP/2`中，同一域名下的所有通信在单个链接完成，仅占用一个 TCP 链接，且在这一个链接上可以并行请求和响应，互不干扰。
 
 > [此网站](https://http2.akamai.com/demo)可以直观感受`HTTP/1.1`和`HTTP/2`的性能对比。
 
@@ -144,19 +148,16 @@ pop, 移除栈最顶端(末尾)的元素.
 
 (图片来自 https://github.com/trekhleb/javascript-algorithms/blob/master/src/data-structures/stack/README.zh-CN.md)
 
-
 栈在很多地方都有着应用，比如大家熟悉的浏览器就有很多栈，其实浏览器的执行栈就是一个基本的栈结构，从数据结构上说，它就是一个栈。
 这也就解释了，我们用递归的解法和用循环+栈的解法本质上是差不多。
 
-
-
-比如如下JS代码：
+比如如下 JS 代码：
 
 ```js
 function bar() {
-  const a = 1
+  const a = 1;
   const b = 2;
-  console.log(a, b)
+  console.log(a, b);
 }
 function foo() {
   const a = 1;
@@ -164,23 +165,21 @@ function foo() {
 }
 
 foo();
-
-
 ```
 
 真正执行的时候，内部大概是这样的：
 
 ![basic-data-structure-call-stack](../assets/thinkings/basic-data-structure-call-stack.png)
 
-> 我画的图没有画出执行上下文中其他部分（this和scope等）， 这部分是闭包的关键，而我这里不是将闭包的，是为了讲解栈的。
+> 我画的图没有画出执行上下文中其他部分（this 和 scope 等）， 这部分是闭包的关键，而我这里不是将闭包的，是为了讲解栈的。
 
-> 社区中有很多“执行上下文中的scope指的是执行栈中父级声明的变量”说法，这是完全错误的， JS是词法作用域，scope指的是函数定义时候的父级，和执行没关系
-
+> 社区中有很多“执行上下文中的 scope 指的是执行栈中父级声明的变量”说法，这是完全错误的， JS 是词法作用域，scope 指的是函数定义时候的父级，和执行没关系
 
 栈常见的应用有进制转换，括号匹配，栈混洗，中缀表达式（用的很少），后缀表达式（逆波兰表达式）等。
 
 > 合法的栈混洗操作，其实和合法的括号匹配表达式之间存在着一一对应的关系，
-也就是说n个元素的栈混洗有多少种，n对括号的合法表达式就有多少种。感兴趣的可以查找相关资料
+> 也就是说 n 个元素的栈混洗有多少种，n 对括号的合法表达式就有多少种。感兴趣的可以查找相关资料
+
 ### 链表
 
 链表是一种最基本数据结构，熟练掌握链表的结构和常见操作是基础中的基础。
@@ -205,9 +204,9 @@ fiber 出现的目的其实是为了解决 react 在执行的时候是无法停�
 Fiber 的基本原理是将协调过程分成小块，一次执行一块，然乎将运算结果保存起来，并判断是否有时间（react 自己实现了一个类似 requestIdleCallback 的功能）继续执行下一块。
 如果有时间，则继续。 否则跳出，让浏览器主线程歇一会，执行别的优先级高的代码。
 
-当协调过程完成（所有的小块都运算完毕）， 那么就会进入提交阶段， 真正的进行副作用（side effect）操作，比如更新DOM，这个过程是没有办法取消的，原因就是这部分有副作用。
+当协调过程完成（所有的小块都运算完毕）， 那么就会进入提交阶段， 真正的进行副作用（side effect）操作，比如更新 DOM，这个过程是没有办法取消的，原因就是这部分有副作用。
 
-问题的关键就是将协调的过程划分为一块块的，最后还可以合并到一起，有点像Map／Reduce。
+问题的关键就是将协调的过程划分为一块块的，最后还可以合并到一起，有点像 Map／Reduce。
 
 React 必须重新实现遍历树的算法，从依赖于`内置堆栈的同步递归模型`，变为`具有链表和指针的异步模型`。
 
@@ -227,34 +226,36 @@ let fiber = {
   sibling: childFiber,
   alternate: currentFiber,
   stateNode: document.createElement("div"),
-  props: { children: [], className: "foo"},
+  props: { children: [], className: "foo" },
   partialState: null,
   effectTag: PLACEMENT,
   effects: []
 };
-
 ```
 
-从这里可以看出fiber本质上是个对象，使用parent，child，sibling属性去构建fiber树来表示组件的结构树，
-return, children, sibling也都是一个fiber，因此fiber看起来就是一个链表。
+从这里可以看出 fiber 本质上是个对象，使用 parent，child，sibling 属性去构建 fiber 树来表示组件的结构树，
+return, children, sibling 也都是一个 fiber，因此 fiber 看起来就是一个链表。
 
-> 细心的朋友可能已经发现了， alternate也是一个fiber， 那么它是用来做什么的呢？
-它其实原理有点像git， 可以用来执行git revert ,git commit等操作，这部分挺有意思，我会在我的《从零开发git》中讲解 
+> 细心的朋友可能已经发现了， alternate 也是一个 fiber， 那么它是用来做什么的呢？
+> 它其实原理有点像 git， 可以用来执行 git revert ,git commit 等操作，这部分挺有意思，我会在我的《从零开发 git》中讲解
 
 想要了解更多的朋友可以看[这个文章](https://github.com/dawn-plex/translate/blob/master/articles/the-how-and-why-on-reacts-usage-of-linked-list-in-fiber-to-walk-the-components-tree.md)
 
 如果可以翻墙， 可以看[英文原文](https://medium.com/react-in-depth/the-how-and-why-on-reacts-usage-of-linked-list-in-fiber-67f1014d0eb7)
 
-[这篇文章](https://engineering.hexacta.com/didact-fiber-incremental-reconciliation-b2fe028dcaec)也是早期讲述fiber架构的优秀文章
+[这篇文章](https://engineering.hexacta.com/didact-fiber-incremental-reconciliation-b2fe028dcaec)也是早期讲述 fiber 架构的优秀文章
 
-我目前也在写关于《从零开发react系列教程》中关于fiber架构的部分，如果你对具体实现感兴趣，欢迎关注。
+我目前也在写关于《从零开发 react 系列教程》中关于 fiber 架构的部分，如果你对具体实现感兴趣，欢迎关注。
+
 ## 非线性结构
 
 那么有了线性结构，我们为什么还需要非线性结构呢？ 答案是为了高效地兼顾静态操作和动态操作。
 大家可以对照各种数据结构的各种操作的复杂度来直观感受一下。
+
 ### 树
+
 树的应用同样非常广泛，小到文件系统，大到因特网，组织架构等都可以表示为树结构，
-而在我们前端眼中比较熟悉的DOM树也是一种树结构，而HTML作为一种DSL去描述这种树结构的具体表现形式。
+而在我们前端眼中比较熟悉的 DOM 树也是一种树结构，而 HTML 作为一种 DSL 去描述这种树结构的具体表现形式。
 
 树其实是一种特殊的`图`，是一种无环连通图，是一种极大无环图，也是一种极小连通图。
 
@@ -271,11 +272,11 @@ return, children, sibling也都是一个fiber，因此fiber看起来就是一个
 
 如果你使用迭代式方式去遍历的话，可以借助上面提到的`栈`来进行，可以极大减少代码量。
 
-> 如果使用栈来简化运算，由于栈是FILO的，因此一定要注意左右子树的推入顺序。
+> 如果使用栈来简化运算，由于栈是 FILO 的，因此一定要注意左右子树的推入顺序。
 
 树的重要性质：
 
-- 如果树有n个顶点，那么其就有n - 1条边，这说明了树的顶点数和边数是同阶的。
+- 如果树有 n 个顶点，那么其就有 n - 1 条边，这说明了树的顶点数和边数是同阶的。
 - 任何一个节点到根节点存在`唯一`路径, 路径的长度为节点所处的深度
 
 ### 二叉树
@@ -283,11 +284,11 @@ return, children, sibling也都是一个fiber，因此fiber看起来就是一个
 二叉树是节点度数不超过二的树，是树的一种特殊子集，有趣的是二叉树这种被限制的树结构却能够表示和实现所有的树，
 它背后的原理正是`长子 + 兄弟`法，用邓老师的话说就是`二叉树是多叉树的特例，但在有根且有序时，其描述能力却足以覆盖后者`。
 
-> 实际上， 在你使用`长子 + 兄弟`法表示树的同时，进行45度角旋转即可。 
+> 实际上， 在你使用`长子 + 兄弟`法表示树的同时，进行 45 度角旋转即可。
 
 一个典型的二叉树：
 
-标记为7的节点具有两个子节点, 标记为2和6; 一个父节点,标记为2,作为根节点, 在顶部,没有父节点。
+标记为 7 的节点具有两个子节点, 标记为 2 和 6; 一个父节点,标记为 2,作为根节点, 在顶部,没有父节点。
 
 ![basic-tree](../assets/thinkings/basic-tree.svg)
 
@@ -306,23 +307,23 @@ return, children, sibling也都是一个fiber，因此fiber看起来就是一个
 
 相关概念：
 
-- 真二叉树 （所有节点的度数只能是偶数，即只能为0或者2）
-
+- 真二叉树 （所有节点的度数只能是偶数，即只能为 0 或者 2）
 
 另外我也专门开设了[二叉树的遍历](./binary-tree-traversal.md)章节, 具体细节和算法可以去那里查看。
+
 #### 堆
 
-堆其实是一种优先级队列，在很多语言都有对应的内置数据结构，很遗憾javascript没有这种原生的数据结构。
+堆其实是一种优先级队列，在很多语言都有对应的内置数据结构，很遗憾 javascript 没有这种原生的数据结构。
 不过这对我们理解和运用不会有影响。
 
 堆的特点：
 
-- 在一个 最小堆(min heap) 中, 如果 P 是 C 的一个父级节点, 那么 P 的key(或value)应小于或等于 C 的对应值.
-正因为此，堆顶元素一定是最小的，我们会利用这个特点求最小值或者第k小的值。
+- 在一个 最小堆(min heap) 中, 如果 P 是 C 的一个父级节点, 那么 P 的 key(或 value)应小于或等于 C 的对应值.
+  正因为此，堆顶元素一定是最小的，我们会利用这个特点求最小值或者第 k 小的值。
 
 ![min-heap](../assets/thinkings/min-heap.png)
 
-- 在一个 最大堆(max heap) 中, P 的key(或value)大于 C 的对应值。
+- 在一个 最大堆(max heap) 中, P 的 key(或 value)大于 C 的对应值。
 
 ![max-heap](../assets/thinkings/max-heap.svg)
 
@@ -331,6 +332,7 @@ return, children, sibling也都是一个fiber，因此fiber看起来就是一个
 相关算法：
 
 - [295.find-median-from-data-stream](../problems/295.find-median-from-data-stream.md)
+
 #### 二叉查找树
 
 二叉排序树（Binary Sort Tree），又称二叉查找树（Binary Search Tree），亦称二叉搜索树。
@@ -345,7 +347,7 @@ return, children, sibling也都是一个fiber，因此fiber看起来就是一个
 对于一个二叉查找树，常规操作有插入，查找，删除，找父节点，求最大值，求最小值。
 
 二叉查找树，之所以叫查找树就是因为其非常适合查找，举个例子，
-如下一颗二叉查找树，我们想找节点值小于且最接近58的节点，搜索的流程如图所示：
+如下一颗二叉查找树，我们想找节点值小于且最接近 58 的节点，搜索的流程如图所示：
 
 ![bst](../assets/thinkings/bst.png)
 （图片来自 https://www.geeksforgeeks.org/floor-in-binary-search-tree-bst/）
@@ -379,20 +381,33 @@ return, children, sibling也都是一个fiber，因此fiber看起来就是一个
 
 #### AVL
 
-是最早被发明的自平衡二叉查找树。在AVL树中，任一节点对应的两棵子树的最大高度差为1，因此它也被称为高度平衡树。查找、插入和删除在平均和最坏情况下的时间复杂度都是 {\displaystyle O(\log {n})} O(\log{n})。增加和删除元素的操作则可能需要借由一次或多次树旋转，以实现树的重新平衡。AVL树得名于它的发明者G. M. Adelson-Velsky和Evgenii Landis，他们在1962年的论文An algorithm for the organization of information 中公开了这一数据结构。 节点的平衡因子是它的左子树的高度减去它的右子树的高度（有时相反）。带有平衡因子1、0或 -1的节点被认为是平衡的。带有平衡因子 -2或2的节点被认为是不平衡的，并需要重新平衡这个树。平衡因子可以直接存储在每个节点中，或从可能存储在节点中的子树高度计算出来。
+是最早被发明的自平衡二叉查找树。在 AVL 树中，任一节点对应的两棵子树的最大高度差为 1，因此它也被称为高度平衡树。查找、插入和删除在平均和最坏情况下的时间复杂度都是 {\displaystyle O(\log {n})} O(\log{n})。增加和删除元素的操作则可能需要借由一次或多次树旋转，以实现树的重新平衡。AVL 树得名于它的发明者 G. M. Adelson-Velsky 和 Evgenii Landis，他们在 1962 年的论文 An algorithm for the organization of information 中公开了这一数据结构。 节点的平衡因子是它的左子树的高度减去它的右子树的高度（有时相反）。带有平衡因子 1、0 或 -1 的节点被认为是平衡的。带有平衡因子 -2 或 2 的节点被认为是不平衡的，并需要重新平衡这个树。平衡因子可以直接存储在每个节点中，或从可能存储在节点中的子树高度计算出来。
 
 #### 红黑树
-在1972年由鲁道夫·贝尔发明，被称为"对称二叉B树"，它现代的名字源于Leo J. Guibas和Robert Sedgewick于1978年写的一篇论文。红黑树的结构复杂，但它的操作有着良好的最坏情况运行时间，并且在实践中高效：它可以在 {\displaystyle O(\log {n})} O(\log{n})时间内完成查找，插入和删除，这里的n是树中元素的数目
+
+在 1972 年由鲁道夫·贝尔发明，被称为"对称二叉 B 树"，它现代的名字源于 Leo J. Guibas 和 Robert Sedgewick 于 1978 年写的一篇论文。红黑树的结构复杂，但它的操作有着良好的最坏情况运行时间，并且在实践中高效：它可以在 {\displaystyle O(\log {n})} O(\log{n})时间内完成查找，插入和删除，这里的 n 是树中元素的数目
 
 ### 字典树(前缀树)
 
+又称 Trie 树，是一种树形结构。典型应用是用于统计，排序和保存大量的字符串（但不仅限于字符串），所以经常被搜索引擎系统用于文本词频统计。它的优点是：利用字符串的公共前缀来减少查询时间，最大限度地减少无谓的字符串比较，查询效率比哈希树高。
+
+![trie](../assets/thinkings/trie.jpg)
+
+(图来自 https://baike.baidu.com/item/%E5%AD%97%E5%85%B8%E6%A0%91/9825209?fr=aladdin)
+它有 3 个基本性质：
+
+- 根节点不包含字符，除根节点外每一个节点都只包含一个字符；
+- 从根节点到某一节点，路径上经过的字符连接起来，为该节点对应的字符串；
+- 每个节点的所有子节点包含的字符都不相同。
+
 #### immutable 与 字典树
 
-immutable的底层就是share + tree. 这样看的话，其实和字典树是一致的。
+`immutableJS`的底层就是`share + tree`. 这样看的话，其实和字典树是一致的。
 
 相关算法：
 
 - [208.implement-trie-prefix-tree](../problems/208.implement-trie-prefix-tree.md)
+
 ## 图
 
 前面讲的数据结构都可以看成是图的特例。 前面提到了二叉树完全可以实现其他树结构，
@@ -404,7 +419,7 @@ immutable的底层就是share + tree. 这样看的话，其实和字典树是一
 
 - 邻接矩阵(常见)
 
-空间复杂度O(n^2),n为顶点个数。
+空间复杂度 O(n^2),n 为顶点个数。
 
 优点：
 
@@ -412,7 +427,7 @@ immutable的底层就是share + tree. 这样看的话，其实和字典树是一
 
 2. 适用于稠密图
 
-3. 判断两个顶点是否连接，获取入度和出度以及更新度数，时间复杂度都是O(1)
+3. 判断两个顶点是否连接，获取入度和出度以及更新度数，时间复杂度都是 O(1)
 
 - 关联矩阵
 - 邻接表
@@ -440,7 +455,6 @@ immutable的底层就是share + tree. 这样看的话，其实和字典树是一
 
 深度优先遍历图的方法是，从图中某顶点 v 出发， 不断访问邻居， 邻居的邻居直到访问完毕。
 
-
 2. 广度优先搜索：(Breadth First Search, BFS)
 
-广度优先搜索，可以被形象地描述为 "浅尝辄止"，它也需要一个队列以保持遍历过的顶点顺序，以便按出队的顺序再去访问这些顶点的邻接顶点。 
+广度优先搜索，可以被形象地描述为 "浅尝辄止"，它也需要一个队列以保持遍历过的顶点顺序，以便按出队的顺序再去访问这些顶点的邻接顶点。
