@@ -215,6 +215,7 @@ leetcode 题解，记录自己的 leetcode 解题之路。
 - [0887.super-egg-drop](./problems/887.super-egg-drop.md)
 - [0900.rle-iterator](./problems/900.rle-iterator.md)
 - [0912.sort-an-array](./problems/912.sort-an-array.md) 🆕
+- [1020.number-of-enclaves.md](./problems/1020.number-of-enclaves.md) 🆕
 - [1023.camelcase-matching](./problems/1023.camelcase-matching.md) 🆕
 - [1031.maximum-sum-of-two-non-overlapping-subarrays](./problems/1031.maximum-sum-of-two-non-overlapping-subarrays.md)
 - [1186.maximum-subarray-sum-with-one-deletion](./problems/1186.maximum-subarray-sum-with-one-deletion.md) 🆕
