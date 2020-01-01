@@ -16,7 +16,7 @@
 ![leetcode.jpeg](./assets/leetcode.jpeg)
 
 这个是我写的[纪念项目 Star 突破 1W 的一个短文](./thanksGiving.md)， 记录了项目的"兴起"之路, 大家有兴趣可以看一下，
-如果对这个项目感兴趣，请**点击一下Star**， 项目会**持续更新**，感谢大家的支持。
+如果对这个项目感兴趣，请**点击一下 Star**， 项目会**持续更新**，感谢大家的支持。
 
 ## 介绍
 
@@ -30,7 +30,7 @@ leetcode 题解，记录自己的 leetcode 解题之路。
 
 - 第三部分是 anki 卡片， 将 leetcode 题目按照一定的方式记录在 anki 中，方便大家记忆。
 
-- 第四部分是每日一题，每日一题是在交流群（包括微信和qq）里进行的一种活动，大家一起 解一道题，这样讨论问题更加集中，会得到更多的反馈。而且 这些题目可以被记录下来，日后会进行筛选添加到仓库的题解模块。
+- 第四部分是每日一题，每日一题是在交流群（包括微信和 qq）里进行的一种活动，大家一起 解一道题，这样讨论问题更加集中，会得到更多的反馈。而且 这些题目可以被记录下来，日后会进行筛选添加到仓库的题解模块。
 
 - 第五部分是计划， 这里会记录将来要加入到以上三个部分内容
 
@@ -38,10 +38,10 @@ leetcode 题解，记录自己的 leetcode 解题之路。
 
 ## 关于我
 
-擅长前端工程化，前端性能优化，前端标准化等，做过.net， 搞过Java，现在是一名前端工程师，我的个人博客：https://lucifer.ren/blog/
+擅长前端工程化，前端性能优化，前端标准化等，做过.net， 搞过 Java，现在是一名前端工程师，我的个人博客：https://lucifer.ren/blog/
 
 我经常会在开源社区进行一些输出和分享，比较受欢迎的有[宇宙最强的前端面试指南](https://github.com/azl397985856/fe-interview)
-和[我的第一本小书](https://github.com/azl397985856/automate-everything)。目前本人正在写一本关于《leetcode题解》的实体书，因此可能更新会比较慢，如果有人想要做些贡献或者合作的也可以直接用下面的邮箱联系我。
+和[我的第一本小书](https://github.com/azl397985856/automate-everything)。目前本人正在写一本关于《leetcode 题解》的实体书，因此可能更新会比较慢，如果有人想要做些贡献或者合作的也可以直接用下面的邮箱联系我。
 
 另外如果大家需要内推的可以找我，我这里有包括阿里，腾讯，头条，网易等很多公司的朋友。有需要可以直接群里联系我，或者发送到我的个人邮箱 [azl397985856@gmail.com]。
 
@@ -49,15 +49,15 @@ leetcode 题解，记录自己的 leetcode 解题之路。
 
 - 对于最近添加的部分， 后面会有 🆕 标注
 - 对于最近更新的部分， 后面会有 🖊 标注
-- 将来会在这里更新anki卡片
-- 这里有一份leetcode官方账号在知乎上给出的一个《互联网公司最常见的面试算法题有哪些？》的答案，我这里尽量去覆盖回答中的题目和知识点
-原文地址： https://www.zhihu.com/question/24964987/answer/586425979
+- 将来会在这里更新 anki 卡片
+- 这里有一份 leetcode 官方账号在知乎上给出的一个《互联网公司最常见的面试算法题有哪些？》的答案，我这里尽量去覆盖回答中的题目和知识点
+  原文地址： https://www.zhihu.com/question/24964987/answer/586425979
 
 - 这里有一张互联网公司面试中经常考察的问题类型总结的思维导图，我们可以结合图片中的信息分析一下。
 
 ![leetcode-zhihu](./assets//leetcode-zhihu.jpg)
 
-(图片来自leetcode)
+(图片来自 leetcode)
 
 其中算法，主要是以下几种：
 
@@ -76,39 +76,29 @@ leetcode 题解，记录自己的 leetcode 解题之路。
 - 树与图：最近公共祖先、并查集
 - 字符串：前缀树（字典树） ／ 后缀树
 
-
-
-
 ## 精彩预告
-
 
 [0042.trapping-rain-water](./problems/42.trapping-rain-water.md):
 
 ![0042.trapping-rain-water](./assets/problems/42.trapping-rain-water-1.png)
 
-
 [0547.friend-circles](./problems/547.friend-circles-en.md):
 
 <img width="600" src="./assets/problems/547.friend-circle-bfs.png">
-
-
 
 [backtrack problems](./problems/90.subsets-ii.md):
 
 <img width="600" src="./assets/problems/backtrack.png">
 
-
-
 [0198.house-robber](./problems/198.house-robber.md):
 
 <img width="600" src="./assets/problems/198.house-robber.png">
-
 
 [0454.4-sum-ii](./problems/454.4-sum-ii.md):
 
 <img width="600" src="./assets/problems/454.4-sum-ii.png">
 
-## Top题目进度
+## Top 题目进度
 
 - [Top 100 Liked Questions](https://leetcode.com/problemset/top-100-liked-questions/) (79 / 100)
 
@@ -151,7 +141,6 @@ leetcode 题解，记录自己的 leetcode 解题之路。
 - [0371.sum-of-two-integers](./problems/371.sum-of-two-integers.md)
 - [0575.distribute-candies](./problems/575.distribute-candies.md)
 
-
 #### 中等难度
 
 - [0002. Add Two Numbers](./problems/2.addTwoNumbers.md)
@@ -163,17 +152,17 @@ leetcode 题解，记录自己的 leetcode 解题之路。
 - [0024. Swap Nodes In Pairs](./problems/24.swapNodesInPairs.md)
 - [0029.divide-two-integers](./problems/29.divide-two-integers.md)
 - [0031.next-permutation](./problems/31.next-permutation.md)
-- [0033.search-in-rotated-sorted-array](./problems/33.search-in-rotated-sorted-array.md) 
+- [0033.search-in-rotated-sorted-array](./problems/33.search-in-rotated-sorted-array.md)
 - [0039.combination-sum](./problems/39.combination-sum.md)
 - [0040.combination-sum-ii](./problems/40.combination-sum-ii.md)
 - [0046.permutations](./problems/46.permutations.md)
 - [0047.permutations-ii](./problems/47.permutations-ii.md)
 - [0048.rotate-image](./problems/48.rotate-image.md)
-- [0049.group-anagrams](./problems/49.group-anagrams.md) 
+- [0049.group-anagrams](./problems/49.group-anagrams.md)
 - [0055.jump-game](./problems/55.jump-game.md)
 - [0056.merge-intervals](./problems/56.merge-intervals.md)
-- [0062.unique-paths](./problems/62.unique-paths.md )
-- [0073.set-matrix-zeroes](./problems/73.set-matrix-zeroes.md )
+- [0062.unique-paths](./problems/62.unique-paths.md)
+- [0073.set-matrix-zeroes](./problems/73.set-matrix-zeroes.md)
 - [0075.sort-colors](./problems/75.sort-colors.md)
 - [0078.subsets](./problems/78.subsets.md)
 - [0079.word-search](./problems/79.word-search-en.md)
@@ -182,36 +171,36 @@ leetcode 题解，记录自己的 leetcode 解题之路。
 - [0091.decode-ways](./problems/91.decode-ways.md)
 - [0092.reverse-linked-list-ii](./problems/92.reverse-linked-list-ii.md)
 - [0094.binary-tree-inorder-traversal](./problems/94.binary-tree-inorder-traversal.md)
-- [0098.validate-binary-search-tree](./problems/98.validate-binary-search-tree.md)  
+- [0098.validate-binary-search-tree](./problems/98.validate-binary-search-tree.md)
 - [0102.binary-tree-level-order-traversal](./problems/102.binary-tree-level-order-traversal.md)
 - [0103.binary-tree-zigzag-level-order-traversal](./problems/103.binary-tree-zigzag-level-order-traversal.md)
 - [0113.path-sum-ii](./problems/113.path-sum-ii.md)
-- [0129.sum-root-to-leaf-numbers](./problems/129.sum-root-to-leaf-numbers.md) 
-- [0130.surrounded-regions](./problems/130.surrounded-regions.md) 
+- [0129.sum-root-to-leaf-numbers](./problems/129.sum-root-to-leaf-numbers.md)
+- [0130.surrounded-regions](./problems/130.surrounded-regions.md)
 - [0131.palindrome-partitioning](./problems/131.palindrome-partitioning.md)
 - [0139.word-break](./problems/139.word-break.md)
 - [0144.binary-tree-preorder-traversal](./problems/144.binary-tree-preorder-traversal.md)
 - [0150.evaluate-reverse-polish-notation](./problems/150.evaluate-reverse-polish-notation.md)
 - [0152.maximum-product-subarray](./problems/152.maximum-product-subarray.md)
 - [0199.binary-tree-right-side-view](./problems/199.binary-tree-right-side-view.md)
-- [0200.number-of-islands](./problems/200.number-of-islands.md) 🆕 
+- [0200.number-of-islands](./problems/200.number-of-islands.md) 🆕
 - [0201.bitwise-and-of-numbers-range](./problems/201.bitwise-and-of-numbers-range.md)
 - [0208.implement-trie-prefix-tree](./problems/208.implement-trie-prefix-tree.md)
 - [0209.minimum-size-subarray-sum](./problems/209.minimum-size-subarray-sum.md)
-- [0215.kth-largest-element-in-an-array](./problems/215.kth-largest-element-in-an-array.md) 🆕 
-- [0221.maximal-square](./problems/221.maximal-square.md) 
-- [0229.majority-element-ii](./problems/229.majority-element-ii.md) 🆕 
+- [0215.kth-largest-element-in-an-array](./problems/215.kth-largest-element-in-an-array.md) 🆕
+- [0221.maximal-square](./problems/221.maximal-square.md)
+- [0229.majority-element-ii](./problems/229.majority-element-ii.md) 🆕
 - [0230.kth-smallest-element-in-a-bst](./problems/230.kth-smallest-element-in-a-bst.md)
 - [0236.lowest-common-ancestor-of-a-binary-tree](./problems/236.lowest-common-ancestor-of-a-binary-tree.md)
 - [0238.product-of-array-except-self](./problems/238.product-of-array-except-self.md)
 - [0240.search-a-2-d-matrix-ii](./problems/240.search-a-2-d-matrix-ii.md)
 - [0279.perfect-squares](./problems/279.perfect-squares.md)
-- [0309.best-time-to-buy-and-sell-stock-with-cooldown](./problems/309.best-time-to-buy-and-sell-stock-with-cooldown.md) 
+- [0309.best-time-to-buy-and-sell-stock-with-cooldown](./problems/309.best-time-to-buy-and-sell-stock-with-cooldown.md)
 - [0322.coin-change](./problems/322.coin-change.md)
 - [0328.odd-even-linked-list](./problems/328.odd-even-linked-list.md)
 - [0334.increasing-triplet-subsequence](./problems/334.increasing-triplet-subsequence.md)
 - [0365.water-and-jug-problem](./problems/365.water-and-jug-problem.md)
-- [0378.kth-smallest-element-in-a-sorted-matrix](./problems/378.kth-smallest-element-in-a-sorted-matrix.md) 
+- [0378.kth-smallest-element-in-a-sorted-matrix](./problems/378.kth-smallest-element-in-a-sorted-matrix.md)
 - [0416.partition-equal-subset-sum](./problems/416.partition-equal-subset-sum.md)
 - [0445.add-two-numbers-ii](./problems/445.add-two-numbers-ii.md)
 - [0454.4-sum-ii](./problems/454.4-sum-ii.md)
@@ -226,6 +215,7 @@ leetcode 题解，记录自己的 leetcode 解题之路。
 - [0887.super-egg-drop](./problems/887.super-egg-drop.md)
 - [0900.rle-iterator](./problems/900.rle-iterator.md)
 - [0912.sort-an-array](./problems/912.sort-an-array.md) 🆕
+- [1023.camelcase-matching](./problems/1023.camelcase-matching.md) 🆕
 - [1031.maximum-sum-of-two-non-overlapping-subarrays](./problems/1031.maximum-sum-of-two-non-overlapping-subarrays.md)
 - [1186.maximum-subarray-sum-with-one-deletion](./problems/1186.maximum-subarray-sum-with-one-deletion.md) 🆕
 - [1218.longest-arithmetic-subsequence-of-given-difference.md](./problems/1218.longest-arithmetic-subsequence-of-given-difference.md) 🆕
@@ -259,15 +249,15 @@ leetcode 题解，记录自己的 leetcode 解题之路。
 
 ### anki 卡片
 
-Anki主要分为两个部分:一部分是关键点到题目的映射，另一部分是题目到思路，关键点，代码的映射。
+Anki 主要分为两个部分:一部分是关键点到题目的映射，另一部分是题目到思路，关键点，代码的映射。
 
 全部卡片都在[anki-card](./assets/anki/leetcode.apkg)
 
 使用方法：
 
-anki - 文件 - 导入 - 下拉格式选择“打包的 anki集合”，然后选中你下载好的文件，确定即可。
+anki - 文件 - 导入 - 下拉格式选择“打包的 anki 集合”，然后选中你下载好的文件，确定即可。
 
-更多关于anki使用方法的请查看[anki官网](https://apps.ankiweb.net/)
+更多关于 anki 使用方法的请查看[anki 官网](https://apps.ankiweb.net/)
 
 目前已更新卡片一览（仅列举正面）：
 
@@ -283,7 +273,7 @@ anki - 文件 - 导入 - 下拉格式选择“打包的 anki集合”，然后�
 
 ### 每日一题
 
-每日一题是在交流群（包括微信和 qq）里通过issues来进行的一种活动，大家一起 解一道题，这样讨论问题更加集中，会得到更多的反馈。而且 这些题目可以被记录下来，日后会进行筛选添加到仓库的题解模块。
+每日一题是在交流群（包括微信和 qq）里通过 issues 来进行的一种活动，大家一起 解一道题，这样讨论问题更加集中，会得到更多的反馈。而且 这些题目可以被记录下来，日后会进行筛选添加到仓库的题解模块。
 
 - [每日一题汇总](./daily/)
 
@@ -309,7 +299,6 @@ anki - 文件 - 导入 - 下拉格式选择“打包的 anki集合”，然后�
 
 另外你可以回复大前端进大前端微信交流群， 回复 leetcode 拉你进 leetcode 微信群，如果想加入 qq 群，请回复 qq。
 
-
 <img width="300" src="./assets/gongzhonghao.jpeg">
 
 ## 捐赠
@@ -317,11 +306,12 @@ anki - 文件 - 导入 - 下拉格式选择“打包的 anki集合”，然后�
 [点击查看完整的捐赠列表](./donation.md)
 
 ### 微信
+
 <img width="300" src="./assets/donate-weixin.jpg">
 
 ### 支付宝
-<img width="300" src="./assets/donate-zfb.jpg">
 
+<img width="300" src="./assets/donate-zfb.jpg">
 
 ## 贡献
 
