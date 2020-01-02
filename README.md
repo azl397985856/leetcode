@@ -219,6 +219,7 @@ leetcode 题解，记录自己的 leetcode 解题之路。
 - [1020.number-of-enclaves](./problems/1020.number-of-enclaves.md) 🆕
 - [1023.camelcase-matching](./problems/1023.camelcase-matching.md) 🆕
 - [1031.maximum-sum-of-two-non-overlapping-subarrays](./problems/1031.maximum-sum-of-two-non-overlapping-subarrays.md)
+- [1104.path-in-zigzag-labelled-binary-tree](./problems/1104.path-in-zigzag-labelled-binary-tree.md)
 - [1186.maximum-subarray-sum-with-one-deletion](./problems/1186.maximum-subarray-sum-with-one-deletion.md) 🆕
 - [1218.longest-arithmetic-subsequence-of-given-difference.md](./problems/1218.longest-arithmetic-subsequence-of-given-difference.md) 🆕
 
