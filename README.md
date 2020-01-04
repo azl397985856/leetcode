@@ -15,8 +15,9 @@
 
 ![leetcode.jpeg](./assets/leetcode.jpeg)
 
-这个是我写的[纪念项目 Star 突破 1W 的一个短文](./thanksGiving.md)， 记录了项目的"兴起"之路, 大家有兴趣可以看一下，
-如果对这个项目感兴趣，请**点击一下 Star**， 项目会**持续更新**，感谢大家的支持。
+- 2019-07-10 ：[纪念项目 Star 突破 1W 的一个短文](./thanksGiving.md)， 记录了项目的"兴起"之路,大家有兴趣可以看一下，如果对这个项目感兴趣，请**点击一下 Star**， 项目会**持续更新**，感谢大家的支持。
+
+- 2019-10-08: [纪念 LeetCode 项目 Star 突破 2W](./thanksGiving2.md)，并且 Github 搜索“LeetCode”，排名第一。
 
 ## 介绍
 
@@ -52,6 +53,8 @@ leetcode 题解，记录自己的 leetcode 解题之路。
 - 将来会在这里更新 anki 卡片
 - 这里有一份 leetcode 官方账号在知乎上给出的一个《互联网公司最常见的面试算法题有哪些？》的答案，我这里尽量去覆盖回答中的题目和知识点
   原文地址： https://www.zhihu.com/question/24964987/answer/586425979
+
+- 这里有一份我在知乎上的回答[《大家都是如何刷 LeetCode 的？》](https://www.zhihu.com/question/280279208/answer/824585814)
 
 - 这里有一张互联网公司面试中经常考察的问题类型总结的思维导图，我们可以结合图片中的信息分析一下。
 
@@ -216,6 +219,9 @@ leetcode 题解，记录自己的 leetcode 解题之路。
 - [0887.super-egg-drop](./problems/887.super-egg-drop.md)
 - [0900.rle-iterator](./problems/900.rle-iterator.md)
 - [0912.sort-an-array](./problems/912.sort-an-array.md) 🆕
+- [1011.capacity-to-ship-packages-within-d-days](./problems/1011.capacity-to-ship-packages-within-d-days.md) 🆕
+- [1014.best-sightseeing-pair](./problems/1014.best-sightseeing-pair.md) 🆕
+- [1015.smallest-integer-divisible-by-k](./problems/1015.smallest-integer-divisible-by-k.md) 🆕
 - [1019.next-greater-node-in-linked-list](./problems/1019.next-greater-node-in-linked-list.md) 🆕
 - [1020.number-of-enclaves](./problems/1020.number-of-enclaves.md) 🆕
 - [1023.camelcase-matching](./problems/1023.camelcase-matching.md) 🆕
@@ -321,6 +327,7 @@ anki - 文件 - 导入 - 下拉格式选择“打包的 anki 集合”，然后�
 
 - 如果有想法和创意，请提[issue](https://github.com/azl397985856/leetcode/issues)或者进群提
 - 如果想贡献代码，请提[PR](https://github.com/azl397985856/leetcode/pulls)
+  > 关于如何提交题解，我写了一份[指南](./templates/problems/1014.best-sightseeing-pair.md)
 - 如果需要修改项目中图片，[这里](./assets/drawio/)存放了项目中绘制图的源代码， 大家可以用[draw.io](https://www.draw.io/)打开进行编辑。
 
 ## 鸣谢
