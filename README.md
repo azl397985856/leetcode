@@ -218,6 +218,7 @@ leetcode 题解，记录自己的 leetcode 解题之路。
 - [0887.super-egg-drop](./problems/887.super-egg-drop.md)
 - [0900.rle-iterator](./problems/900.rle-iterator.md)
 - [0912.sort-an-array](./problems/912.sort-an-array.md) 🆕
+- [1011.capacity-to-ship-packages-within-d-days](./problems/1011.capacity-to-ship-packages-within-d-days.md) 🆕
 - [1014.best-sightseeing-pair](./problems/1014.best-sightseeing-pair.md) 🆕
 - [1015.smallest-integer-divisible-by-k](./problems/1015.smallest-integer-divisible-by-k.md) 🆕
 - [1019.next-greater-node-in-linked-list](./problems/1019.next-greater-node-in-linked-list.md) 🆕
