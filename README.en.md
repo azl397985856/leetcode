@@ -139,6 +139,7 @@ The data structures mainly includes:
 - [0349.intersection-of-two-arrays](./problems/349.intersection-of-two-arrays.md)
 - [0437.path-sum-iii](./problems/437.path-sum-iii.md) 🆕
 - [0371.sum-of-two-integers](./problems/371.sum-of-two-integers.md)
+- [0501.find-mode-in-binary-search-tree](./problems/501.Find-Mode-in-Binary-Search-Tree.md) 🆕
 - [0575.distribute-candies](./problems/575.distribute-candies.md)
 
 #### Medium
