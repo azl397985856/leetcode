@@ -215,6 +215,7 @@ leetcode 题解，记录自己的 leetcode 解题之路。
 - [0887.super-egg-drop](./problems/887.super-egg-drop.md)
 - [0900.rle-iterator](./problems/900.rle-iterator.md)
 - [0912.sort-an-array](./problems/912.sort-an-array.md) 🆕
+- [1015.smallest-integer-divisible-by-k](./problems/1015.smallest-integer-divisible-by-k.md) 🆕
 - [1019.next-greater-node-in-linked-list](./problems/1019.next-greater-node-in-linked-list.md) 🆕
 - [1020.number-of-enclaves](./problems/1020.number-of-enclaves.md) 🆕
 - [1023.camelcase-matching](./problems/1023.camelcase-matching.md) 🆕
