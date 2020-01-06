@@ -165,6 +165,7 @@ leetcode 题解，记录自己的 leetcode 解题之路。
 - [0049.group-anagrams](./problems/49.group-anagrams.md)
 - [0055.jump-game](./problems/55.jump-game.md)
 - [0056.merge-intervals](./problems/56.merge-intervals.md)
+- [0060.permutation-sequence](./problems/60.permutation-sequence.md) 🆕
 - [0062.unique-paths](./problems/62.unique-paths.md)
 - [0073.set-matrix-zeroes](./problems/73.set-matrix-zeroes.md)
 - [0075.sort-colors](./problems/75.sort-colors.md)
