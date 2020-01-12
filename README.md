@@ -234,6 +234,7 @@ leetcode 题解，记录自己的 leetcode 解题之路。
 - [1218.longest-arithmetic-subsequence-of-given-difference](./problems/1218.longest-arithmetic-subsequence-of-given-difference.md) 🆕
 
 - [1261.find-elements-in-a-contaminated-binary-tree](./problems/1261.find-elements-in-a-contaminated-binary-tree.md) 🆕
+- [1262.greatest-sum-divisible-by-three](./problems/1262.greatest-sum-divisible-by-three.md) 🆕
 - [1297.maximum-number-of-occurrences-of-a-substring](./problems/1297.maximum-number-of-occurrences-of-a-substring.md) 🆕
 - [1310.xor-queries-of-a-subarray](./problems/1310.xor-queries-of-a-subarray.md) 🆕
 
