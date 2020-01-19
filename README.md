@@ -233,7 +233,7 @@ leetcode 题解，记录自己的 leetcode 解题之路。
 - [1131.maximum-of-absolute-value-expression](./problems/1131.maximum-of-absolute-value-expression.md) 🆕
 - [1186.maximum-subarray-sum-with-one-deletion](./problems/1186.maximum-subarray-sum-with-one-deletion.md) 🆕
 - [1218.longest-arithmetic-subsequence-of-given-difference](./problems/1218.longest-arithmetic-subsequence-of-given-difference.md) 🆕
-
+- [1227.airplane-seat-assignment-probability](./problems/1227.airplane-seat-assignment-probability.md) 🆕
 - [1261.find-elements-in-a-contaminated-binary-tree](./problems/1261.find-elements-in-a-contaminated-binary-tree.md) 🆕
 - [1262.greatest-sum-divisible-by-three](./problems/1262.greatest-sum-divisible-by-three.md) 🆕
 - [1297.maximum-number-of-occurrences-of-a-substring](./problems/1297.maximum-number-of-occurrences-of-a-substring.md) 🆕
