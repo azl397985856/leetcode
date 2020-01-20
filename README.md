@@ -255,6 +255,7 @@ leetcode 题解，记录自己的 leetcode 解题之路。
 - [0295.find-median-from-data-stream](./problems/295.find-median-from-data-stream.md) 🆕
 - [0301.remove-invalid-parentheses](./problems/301.remove-invalid-parentheses.md)
 - [0460.lfu-cache](./problems/460.lfu-cache.md) 🆕
+- [0493.reverse-pairs](./problems/493.reverse-pairs.md) 🆕
 - [1168.optimize-water-distribution-in-a-village](./problems/1168.optimize-water-distribution-in-a-village-cn.md) 🆕
 
 ### 数据结构与算法的总结
