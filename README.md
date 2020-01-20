@@ -178,6 +178,11 @@ leetcode 题解，记录自己的 leetcode 解题之路。
 - [0091.decode-ways](./problems/91.decode-ways.md)
 - [0092.reverse-linked-list-ii](./problems/92.reverse-linked-list-ii.md)
 - [0094.binary-tree-inorder-traversal](./problems/94.binary-tree-inorder-traversal.md)
+- [0095.unique-binary-search-trees-ii](./problems/95.unique-binary-search-trees-ii.md) 🆕
+- [0096.unique-binary-search-trees](./problems/96.unique-binary-search-trees.md) 🆕
+
+  95.unique-binary-search-trees-ii
+
 - [0098.validate-binary-search-tree](./problems/98.validate-binary-search-tree.md)
 - [0102.binary-tree-level-order-traversal](./problems/102.binary-tree-level-order-traversal.md)
 - [0103.binary-tree-zigzag-level-order-traversal](./problems/103.binary-tree-zigzag-level-order-traversal.md)
