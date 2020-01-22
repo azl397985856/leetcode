@@ -199,6 +199,7 @@ leetcode 题解，记录自己的 leetcode 解题之路。
 - [0201.bitwise-and-of-numbers-range](./problems/201.bitwise-and-of-numbers-range.md)
 - [0208.implement-trie-prefix-tree](./problems/208.implement-trie-prefix-tree.md)
 - [0209.minimum-size-subarray-sum](./problems/209.minimum-size-subarray-sum.md)
+- [0211.add-and-search-word-data-structure-design](./problems/211.add-and-search-word-data-structure-design.md) 🆕
 - [0215.kth-largest-element-in-an-array](./problems/215.kth-largest-element-in-an-array.md) 🆕
 - [0221.maximal-square](./problems/221.maximal-square.md)
 - [0229.majority-element-ii](./problems/229.majority-element-ii.md) 🆕
@@ -257,6 +258,7 @@ leetcode 题解，记录自己的 leetcode 解题之路。
 - [0128.longest-consecutive-sequence](./problems/128.longest-consecutive-sequence.md)
 - [0145.binary-tree-postorder-traversal](./problems/145.binary-tree-postorder-traversal.md)
 - [0146.lru-cache](./problems/146.lru-cache.md)
+- [0212.word-search-ii](./problems/212.word-search-ii.md) 🆕
 - [0239.sliding-window-maximum](./problems/239.sliding-window-maximum.md)
 - [0295.find-median-from-data-stream](./problems/295.find-median-from-data-stream.md) 🆕
 - [0301.remove-invalid-parentheses](./problems/301.remove-invalid-parentheses.md)
