@@ -404,6 +404,8 @@ return, children, sibling 也都是一个 fiber，因此 fiber 看起来就是�
 相关算法：
 
 - [208.implement-trie-prefix-tree](../problems/208.implement-trie-prefix-tree.md)
+- [211.add-and-search-word-data-structure-design](../problems/211.add-and-search-word-data-structure-design.md)
+- [212.word-search-ii](../problems/212.word-search-ii.md)
 
 ## 图
 
