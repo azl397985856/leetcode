@@ -1,10 +1,12 @@
 # LeetCode
+
 [![Travis](https://img.shields.io/badge/language-C++-green.svg)]()
 [![Travis](https://img.shields.io/badge/language-JavaScript-yellow.svg)]()
 [![Travis](https://img.shields.io/badge/language-Python-red.svg)]()
 [![Travis](https://img.shields.io/badge/language-Java-blue.svg)]()
 ![Total visitor](https://visitor-count-badge.herokuapp.com/total.svg?repo_id=azl397985856.leetcode)
 ![Visitors in today](https://visitor-count-badge.herokuapp.com/today.svg?repo_id=azl397985856.leetcode)
+
 > since 2019-09-03 19:40
 
 [简体中文](./README.md) | English
@@ -74,8 +76,6 @@ The data structures mainly includes:
 - Tree and Graph: Lowest Common Ancestor (LCA); Disjoint-Set
 - String: Prefix Tree (Trie); Suffix Tree
 
-
-
 ## Previews
 
 [0042.trapping-rain-water](./problems/42.trapping-rain-water.md):
@@ -98,13 +98,11 @@ The data structures mainly includes:
 
 ![454.4-sum-ii](./assets/problems/454.4-sum-ii.png)
 
-
-
 ## Top Problems Progress
 
-- [Top 100 Liked Questions](https://leetcode.com/problemset/top-100-liked-questions/) (79 / 100)
+- [Top 100 Liked Questions](https://leetcode.com/problemset/top-100-liked-questions/) (84 / 100)
 
-- [Top Interview Questions](https://leetcode.com/problemset/top-interview-questions/) (97 / 145)
+- [Top Interview Questions](https://leetcode.com/problemset/top-interview-questions/) (115 / 145)
 
 ## Portals
 
@@ -141,8 +139,8 @@ The data structures mainly includes:
 - [0349.intersection-of-two-arrays](./problems/349.intersection-of-two-arrays.md)
 - [0437.path-sum-iii](./problems/437.path-sum-iii.md) 🆕
 - [0371.sum-of-two-integers](./problems/371.sum-of-two-integers.md)
+- [0501.find-mode-in-binary-search-tree](./problems/501.Find-Mode-in-Binary-Search-Tree.md) 🆕
 - [0575.distribute-candies](./problems/575.distribute-candies.md)
-
 
 #### Medium
 
@@ -155,7 +153,7 @@ The data structures mainly includes:
 - [0024. Swap Nodes In Pairs](./problems/24.swapNodesInPairs.md)
 - [0029.divide-two-integers](./problems/29.divide-two-integers.md)
 - [0031.next-permutation](./problems/31.next-permutation.md)
-- [0033.search-in-rotated-sorted-array](./problems/33.search-in-rotated-sorted-array.md) 
+- [0033.search-in-rotated-sorted-array](./problems/33.search-in-rotated-sorted-array.md)
 - [0039.combination-sum](./problems/39.combination-sum.md)
 - [0040.combination-sum-ii](./problems/40.combination-sum-ii.md)
 - [0046.permutations](./problems/46.permutations.md)
@@ -164,8 +162,8 @@ The data structures mainly includes:
 - [0049.group-anagrams](./problems/49.group-anagrams.md)
 - [0055.jump-game](./problems/55.jump-game.md)
 - [0056.merge-intervals](./problems/56.merge-intervals.md)
-- [0062.unique-paths](./problems/62.unique-paths.md )
-- [0073.set-matrix-zeroes](./problems/73.set-matrix-zeroes.md )
+- [0062.unique-paths](./problems/62.unique-paths.md)
+- [0073.set-matrix-zeroes](./problems/73.set-matrix-zeroes.md)
 - [0075.sort-colors](./problems/75.sort-colors.md)
 - [0078.subsets](./problems/78.subsets.md)
 - [0079.word-search](./problems/79.word-search-en.md)
@@ -174,12 +172,12 @@ The data structures mainly includes:
 - [0091.decode-ways](./problems/91.decode-ways.md)
 - [0092.reverse-linked-list-ii](./problems/92.reverse-linked-list-ii.md)
 - [0094.binary-tree-inorder-traversal](./problems/94.binary-tree-inorder-traversal.md)
-- [0098.validate-binary-search-tree](./problems/98.validate-binary-search-tree.md)  
+- [0098.validate-binary-search-tree](./problems/98.validate-binary-search-tree.md)
 - [0102.binary-tree-level-order-traversal](./problems/102.binary-tree-level-order-traversal.md)
 - [0103.binary-tree-zigzag-level-order-traversal](./problems/103.binary-tree-zigzag-level-order-traversal.md)
 - [0113.path-sum-ii](./problems/113.path-sum-ii.md)
-- [0129.sum-root-to-leaf-numbers](./problems/129.sum-root-to-leaf-numbers.md) 
-- [0130.surrounded-regions](./problems/130.surrounded-regions.md) 
+- [0129.sum-root-to-leaf-numbers](./problems/129.sum-root-to-leaf-numbers.md)
+- [0130.surrounded-regions](./problems/130.surrounded-regions.md)
 - [0131.palindrome-partitioning](./problems/131.palindrome-partitioning.md)
 - [0139.word-break](./problems/139.word-break.md)
 - [0144.binary-tree-preorder-traversal](./problems/144.binary-tree-preorder-traversal.md)
@@ -190,20 +188,20 @@ The data structures mainly includes:
 - [0201.bitwise-and-of-numbers-range](./problems/201.bitwise-and-of-numbers-range.md)
 - [0208.implement-trie-prefix-tree](./problems/208.implement-trie-prefix-tree.md)
 - [0209.minimum-size-subarray-sum](./problems/209.minimum-size-subarray-sum.md)
-- [0215.kth-largest-element-in-an-array](./problems/215.kth-largest-element-in-an-array.md) 🆕 
-- [0221.maximal-square](./problems/221.maximal-square.md) 
-- [0229.majority-element-ii](./problems/229.majority-element-ii.md) 🆕 
+- [0215.kth-largest-element-in-an-array](./problems/215.kth-largest-element-in-an-array.md) 🆕
+- [0221.maximal-square](./problems/221.maximal-square.md)
+- [0229.majority-element-ii](./problems/229.majority-element-ii.md) 🆕
 - [0230.kth-smallest-element-in-a-bst](./problems/230.kth-smallest-element-in-a-bst.md)
 - [0236.lowest-common-ancestor-of-a-binary-tree](./problems/236.lowest-common-ancestor-of-a-binary-tree.md)
 - [0238.product-of-array-except-self](./problems/238.product-of-array-except-self.md)
 - [0240.search-a-2-d-matrix-ii](./problems/240.search-a-2-d-matrix-ii.md)
 - [0279.perfect-squares](./problems/279.perfect-squares.md)
-- [0309.best-time-to-buy-and-sell-stock-with-cooldown](./problems/309.best-time-to-buy-and-sell-stock-with-cooldown.md) 
+- [0309.best-time-to-buy-and-sell-stock-with-cooldown](./problems/309.best-time-to-buy-and-sell-stock-with-cooldown.md)
 - [0322.coin-change](./problems/322.coin-change.md)
 - [0328.odd-even-linked-list](./problems/328.odd-even-linked-list.md)
 - [0334.increasing-triplet-subsequence](./problems/334.increasing-triplet-subsequence.md)
 - [0365.water-and-jug-problem](./problems/365.water-and-jug-problem.md)
-- [0378.kth-smallest-element-in-a-sorted-matrix](./problems/378.kth-smallest-element-in-a-sorted-matrix.md) 
+- [0378.kth-smallest-element-in-a-sorted-matrix](./problems/378.kth-smallest-element-in-a-sorted-matrix.md)
 - [0416.partition-equal-subset-sum](./problems/416.partition-equal-subset-sum.md)
 - [0445.add-two-numbers-ii](./problems/445.add-two-numbers-ii.md)
 - [0454.4-sum-ii](./problems/454.4-sum-ii.md)
@@ -238,9 +236,6 @@ The data structures mainly includes:
 - [0460.lfu-cache](./problems/460.lfu-cache.md) 🆕
 - [1168.optimize-water-distribution-in-a-village](./problems/1168.optimize-water-distribution-in-a-village-en.md) 🆕
 
-
-
-
 ### Summary of Data Structures and Algorithms
 
 - [Data Structure](./thinkings/basic-data-structure-en.md) (Drafts)
@@ -250,8 +245,6 @@ The data structures mainly includes:
 - [Huffman Encode and Run Length Encode](./thinkings/run-length-encode-and-huffman-encode-en.md)
 - [Bloom Filter](./thinkings/bloom-filter-en.md)
 - [String Problems](./thinkings/string-problems-en.md)
-
-
 
 ### Anki Flashcards
 
@@ -281,15 +274,11 @@ Latest updated flashcards (only lists the front page):
 
 - [project](https://github.com/azl397985856/leetcode/projects/1)
 
-
-
 ### Future Plans
 
 - [Complete Anki Flashcards](./assets/anki/)
 
 - [Collection of String Problem](./todo/str/)
-
-
 
 ## Community Chat Groups
 
@@ -308,8 +297,6 @@ We're still on the early stage, so feedback from community is very welcome. For 
 ![wechat-group-chat](./assets/wechat-group-chat.jpeg)
 
 (Add this bot and reply "leetcode" to join the group.)
-
-
 
 ## Contribution
 
