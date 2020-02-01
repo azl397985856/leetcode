@@ -245,6 +245,7 @@ leetcode 题解，记录自己的 leetcode 解题之路。
 - [1262.greatest-sum-divisible-by-three](./problems/1262.greatest-sum-divisible-by-three.md) 🆕
 - [1297.maximum-number-of-occurrences-of-a-substring](./problems/1297.maximum-number-of-occurrences-of-a-substring.md) 🆕
 - [1310.xor-queries-of-a-subarray](./problems/1310.xor-queries-of-a-subarray.md) 🆕
+- [1334.find-the-city-with-the-smallest-number-of-neighbors-at-a-threshold-distance](./problems/1334.find-the-city-with-the-smallest-number-of-neighbors-at-a-threshold-distance.md) 🆕
 
 #### 困难难度
 
