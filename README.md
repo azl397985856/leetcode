@@ -146,6 +146,7 @@ leetcode 题解，记录自己的 leetcode 解题之路。
 - [0575.distribute-candies](./problems/575.distribute-candies.md)
 - [0874.walking-robot-simulation](./problems/874.walking-robot-simulation.md) 🆕
 - [1260.shift-2d-grid](./problems/1260.shift-2d-grid.md) 🆕
+- [1332.remove-palindromic-subsequences](./problems/1332.remove-palindromic-subsequences.md) 🆕
 
 #### 中等难度
 
@@ -261,7 +262,7 @@ leetcode 题解，记录自己的 leetcode 解题之路。
 - [0239.sliding-window-maximum](./problems/239.sliding-window-maximum.md)
 - [0295.find-median-from-data-stream](./problems/295.find-median-from-data-stream.md) 🆕
 - [0301.remove-invalid-parentheses](./problems/301.remove-invalid-parentheses.md)
-- [0335.self-crossing](./problems/335.self-crossing.md) 🆕
+- [0335.self-crossPing](./problems/335.self-crossing.md) 🆕
 - [0460.lfu-cache](./problems/460.lfu-cache.md) 🆕
 - [0493.reverse-pairs](./problems/493.reverse-pairs.md) 🆕
 - [1168.optimize-water-distribution-in-a-village](./problems/1168.optimize-water-distribution-in-a-village-cn.md) 🆕
