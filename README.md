@@ -265,18 +265,20 @@ leetcode 题解，记录自己的 leetcode 解题之路。
 - [0301.remove-invalid-parentheses](./problems/301.remove-invalid-parentheses.md)
 - [0335.self-crossPing](./problems/335.self-crossing.md) 🆕
 - [0460.lfu-cache](./problems/460.lfu-cache.md) 🆕
+- [0472.concatenated-words](./problems/472.concatenated-words.md) 🆕
 - [0493.reverse-pairs](./problems/493.reverse-pairs.md) 🆕
 - [1168.optimize-water-distribution-in-a-village](./problems/1168.optimize-water-distribution-in-a-village-cn.md) 🆕
 
 ### 数据结构与算法的总结
 
-- [数据结构](./thinkings/basic-data-structure.md)（草稿）
-- [基础算法](./thinkings/basic-algorithm.md)（草稿）
+- [数据结构](./thinkings/basic-data-structure.md)
+- [基础算法](./thinkings/basic-algorithm.md)
 - [二叉树的遍历](./thinkings/binary-tree-traversal.md)
 - [动态规划](./thinkings/dynamic-programming.md)
 - [哈夫曼编码和游程编码](./thinkings/run-length-encode-and-huffman-encode.md)
 - [布隆过滤器](./thinkings/bloom-filter.md)
 - [字符串问题](./thinkings/string-problems.md)
+- [前缀树专题](./thinkings/trie.md) 🆕
 
 ### anki 卡片
 
