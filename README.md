@@ -279,6 +279,7 @@ leetcode 题解，记录自己的 leetcode 解题之路。
 - [布隆过滤器](./thinkings/bloom-filter.md)
 - [字符串问题](./thinkings/string-problems.md)
 - [前缀树专题](./thinkings/trie.md) 🆕
+- [《日程安排》专题](https://lucifer.ren/blog/2020/02/03/leetcode-%E6%88%91%E7%9A%84%E6%97%A5%E7%A8%8B%E5%AE%89%E6%8E%92%E8%A1%A8%E7%B3%BB%E5%88%97/) 🆕
 
 ### anki 卡片
 
