@@ -170,7 +170,7 @@ leetcode 题解，记录自己的 leetcode 解题之路。
 - [0055.jump-game](./problems/55.jump-game.md)
 - [0056.merge-intervals](./problems/56.merge-intervals.md)
 - [0060.permutation-sequence](./problems/60.permutation-sequence.md) 🆕
-- [0062.unique-paths](./problems/62.unique-paths.md)
+- [0062.unique-paths](./problems/62.unique-paths.md) 🖊
 - [0073.set-matrix-zeroes](./problems/73.set-matrix-zeroes.md)
 - [0075.sort-colors](./problems/75.sort-colors.md)
 - [0078.subsets](./problems/78.subsets.md)
@@ -196,7 +196,7 @@ leetcode 题解，记录自己的 leetcode 解题之路。
 - [0152.maximum-product-subarray](./problems/152.maximum-product-subarray.md)
 - [0199.binary-tree-right-side-view](./problems/199.binary-tree-right-side-view.md)
 - [0200.number-of-islands](./problems/200.number-of-islands.md) 🆕
-- [0201.bitwise-and-of-numbers-range](./problems/201.bitwise-and-of-numbers-range.md)
+- [0201.bitwise-and-of-numbers-range](./problems/201.bitwise-and-of-numbers-range.md) 🖊
 - [0208.implement-trie-prefix-tree](./problems/208.implement-trie-prefix-tree.md)
 - [0209.minimum-size-subarray-sum](./problems/209.minimum-size-subarray-sum.md)
 - [0211.add-and-search-word-data-structure-design](./problems/211.add-and-search-word-data-structure-design.md) 🆕
