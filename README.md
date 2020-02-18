@@ -42,7 +42,7 @@ leetcode 题解，记录自己的 leetcode 解题之路。
 擅长前端工程化，前端性能优化，前端标准化等，做过.net， 搞过 Java，现在是一名前端工程师，我的个人博客：https://lucifer.ren/blog/
 
 我经常会在开源社区进行一些输出和分享，比较受欢迎的有[宇宙最强的前端面试指南](https://github.com/azl397985856/fe-interview)
-和[我的第一本小书](https://github.com/azl397985856/automate-everything)。目前本人正在写一本关于《leetcode 题解》的实体书，因此可能更新会比较慢，如果有人想要做些贡献或者合作的也可以直接用下面的邮箱联系我。
+和[我的第一本小书](https://github.com/azl397985856/automate-everything)。目前本人正在写一本关于《leetcode 题解》的实体书，感兴趣的可以通过邮箱或者微信联系我，我会在出版的第一时间通知你，并给出首发优惠价。
 
 另外如果大家需要内推的可以找我，我这里有包括阿里，腾讯，头条，网易等很多公司的朋友。有需要可以直接群里联系我，或者发送到我的个人邮箱 [azl397985856@gmail.com]。
 
@@ -281,6 +281,7 @@ leetcode 题解，记录自己的 leetcode 解题之路。
 - [前缀树专题](./thinkings/trie.md) 🆕
 - [《日程安排》专题](https://lucifer.ren/blog/2020/02/03/leetcode-%E6%88%91%E7%9A%84%E6%97%A5%E7%A8%8B%E5%AE%89%E6%8E%92%E8%A1%A8%E7%B3%BB%E5%88%97/) 🆕
 - [《构造二叉树》专题](https://lucifer.ren/blog/2020/02/08/%E6%9E%84%E9%80%A0%E4%BA%8C%E5%8F%89%E6%A0%91%E4%B8%93%E9%A2%98/) 🆕
+- [《贪婪策略》专题](./thinkings/greedy.md) 🆕
 
 ### anki 卡片
 
