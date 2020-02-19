@@ -5,6 +5,8 @@
 Huffman 编码的基本思想就是用短的编码表示出现频率高的字符，用长的编码来表示出现频率低的字符，这使得编码之后的字符串的平均长度、长度的期望值降低，从而实现压缩的目的。
 因此 Huffman 编码被广泛地应用于无损压缩领域。
 
+Huffman编码是一种前缀编码，即一个字符的编码不是另一个字符编码的前缀。
+
 Huffman 编码的过程包含两个主要部分：
 
 - 根据输入字符构建 Huffman 树
@@ -38,12 +40,12 @@ eg:
 
 结果是这样的：
 
-![huffman-example](../assets/thinkings/huffman-example.png)
+![huffman-example](../assets/thinkings/huffman-example-fix.png)
 
 |character|frequency|encoding|
 |:-:|:-:|:-:|
 |a|5|1100|
-|b|9|1110|
+|b|9|1101|
 |c|12|100|
 |d|13|101|
 |e|16|111|
