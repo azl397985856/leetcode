@@ -38,12 +38,12 @@ eg:
 
 结果是这样的：
 
-![huffman-example](../assets/thinkings/huffman-example.png)
+![huffman-example](../assets/thinkings/huffman-example-fix.png)
 
 |character|frequency|encoding|
 |:-:|:-:|:-:|
 |a|5|1100|
-|b|9|1110|
+|b|9|1101|
 |c|12|100|
 |d|13|101|
 |e|16|111|
