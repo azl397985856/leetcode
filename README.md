@@ -256,6 +256,7 @@ leetcode 题解，记录自己的 leetcode 解题之路。
 - [0030.substring-with-concatenation-of-all-words](./problems/30.substring-with-concatenation-of-all-words.md)
 - [0032.longest-valid-parentheses](./problems/32.longest-valid-parentheses.md)
 - [0042.trapping-rain-water](./problems/42.trapping-rain-water.md)
+- [0084.largest-rectangle-in-histogram](./problems/84.largest-rectangle-in-histogram.md) 🆕
 - [0124.binary-tree-maximum-path-sum](./problems/124.binary-tree-maximum-path-sum.md)
 - [0128.longest-consecutive-sequence](./problems/128.longest-consecutive-sequence.md)
 - [0145.binary-tree-postorder-traversal](./problems/145.binary-tree-postorder-traversal.md)
