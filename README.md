@@ -261,7 +261,6 @@ leetcode 题解，记录自己的 leetcode 解题之路。
 - [0124.binary-tree-maximum-path-sum](./problems/124.binary-tree-maximum-path-sum.md)
 - [0128.longest-consecutive-sequence](./problems/128.longest-consecutive-sequence.md)
 - [0145.binary-tree-postorder-traversal](./problems/145.binary-tree-postorder-traversal.md)
-- [0146.lru-cache](./problems/146.lru-cache.md)
 - [0212.word-search-ii](./problems/212.word-search-ii.md) 🆕
 - [0239.sliding-window-maximum](./problems/239.sliding-window-maximum.md)
 - [0295.find-median-from-data-stream](./problems/295.find-median-from-data-stream.md) 🆕
@@ -332,6 +331,10 @@ anki - 文件 - 导入 - 下拉格式选择“打包的 anki 集合”，然后�
 - LeetCode 换皮题目集锦
 
 - 滑动窗口（思路 + 模板）#3 #76 #209 #438 #862 #904 #930 #992  #1004 #1234 #1248
+
+- 动态规划完善。最长递增子序列，最长回文子序列，编辑距离等“字符串”题目， 扔鸡蛋问题。 解题模板，滚动数组。
+
+- 堆可以解决的题目。 手写堆
 
 ## 关注我
 
