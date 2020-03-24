@@ -281,11 +281,12 @@ leetcode 题解，记录自己的 leetcode 解题之路。
 - [布隆过滤器](./thinkings/bloom-filter.md)
 - [字符串问题](./thinkings/string-problems.md)
 - [前缀树专题](./thinkings/trie.md)
-- [《日程安排》专题](https://lucifer.ren/blog/2020/02/03/leetcode-%E6%88%91%E7%9A%84%E6%97%A5%E7%A8%8B%E5%AE%89%E6%8E%92%E8%A1%A8%E7%B3%BB%E5%88%97/) 🆕
-- [《构造二叉树》专题](https://lucifer.ren/blog/2020/02/08/%E6%9E%84%E9%80%A0%E4%BA%8C%E5%8F%89%E6%A0%91%E4%B8%93%E9%A2%98/) 🆕
+- [《日程安排》专题](https://lucifer.ren/blog/2020/02/03/leetcode-%E6%88%91%E7%9A%84%E6%97%A5%E7%A8%8B%E5%AE%89%E6%8E%92%E8%A1%A8%E7%B3%BB%E5%88%97/)
+- [《构造二叉树》专题](https://lucifer.ren/blog/2020/02/08/%E6%9E%84%E9%80%A0%E4%BA%8C%E5%8F%89%E6%A0%91%E4%B8%93%E9%A2%98/)
 - [《贪婪策略》专题](./thinkings/greedy.md) 🆕
 - [《深度优先遍历》专题](./thinkings/DFS.md) 🆕
-- [滑动窗口（思路 + 模板）](./thinkings/slide-window.md) 
+- [滑动窗口（思路 + 模板）](./thinkings/slide-window.md) 🆕
+- [位运算](./thinkings/bit.md) 🆕
 
 ### anki 卡片
 
