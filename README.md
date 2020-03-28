@@ -253,12 +253,12 @@ leetcode 题解，记录自己的 leetcode 解题之路。
 
 - [0004.median-of-two-sorted-array](./problems/4.median-of-two-sorted-array.md)
 - [0023.merge-k-sorted-lists](./problems/23.merge-k-sorted-lists.md)
-- [0025.reverse-nodes-in-k-group](./problems/25.reverse-nodes-in-k-groups-cn.md) 🆕
+- [0025.reverse-nodes-in-k-group](./problems/25.reverse-nodes-in-k-groups-cn.md)
 - [0030.substring-with-concatenation-of-all-words](./problems/30.substring-with-concatenation-of-all-words.md)
 - [0032.longest-valid-parentheses](./problems/32.longest-valid-parentheses.md)
 - [0042.trapping-rain-water](./problems/42.trapping-rain-water.md)
 - [0084.largest-rectangle-in-histogram](./problems/84.largest-rectangle-in-histogram.md) 🆕
-- [0085.maximal-rectangle](./problems/85.maximal-rectangle.md) 🆕
+- [0085.maximal-rectangle](./problems/85.maximal-rectangle.md)
 - [0124.binary-tree-maximum-path-sum](./problems/124.binary-tree-maximum-path-sum.md)
 - [0128.longest-consecutive-sequence](./problems/128.longest-consecutive-sequence.md)
 - [0145.binary-tree-postorder-traversal](./problems/145.binary-tree-postorder-traversal.md)
@@ -267,9 +267,10 @@ leetcode 题解，记录自己的 leetcode 解题之路。
 - [0295.find-median-from-data-stream](./problems/295.find-median-from-data-stream.md) 🆕
 - [0301.remove-invalid-parentheses](./problems/301.remove-invalid-parentheses.md)
 - [0335.self-crossPing](./problems/335.self-crossing.md) 🆕
-- [0460.lfu-cache](./problems/460.lfu-cache.md) 🆕
+- [0460.lfu-cache](./problems/460.lfu-cache.md) 
 - [0472.concatenated-words](./problems/472.concatenated-words.md) 🆕
 - [0493.reverse-pairs](./problems/493.reverse-pairs.md) 🆕
+- [0895.maximum-frequency-stack](./problems/895.maximum-frequency-stack.md) 🆕
 - [1168.optimize-water-distribution-in-a-village](./problems/1168.optimize-water-distribution-in-a-village-cn.md) 🆕
 
 ### 数据结构与算法的总结
@@ -288,6 +289,7 @@ leetcode 题解，记录自己的 leetcode 解题之路。
 - [《深度优先遍历》专题](./thinkings/DFS.md) 🆕
 - [滑动窗口（思路 + 模板）](./thinkings/slide-window.md) 🆕
 - [位运算](./thinkings/bit.md) 🆕
+- [设计题](./thinkings/design.md) 🆕
 
 ### anki 卡片
 
@@ -338,8 +340,6 @@ anki - 文件 - 导入 - 下拉格式选择“打包的 anki 集合”，然后�
 - 堆可以解决的题目。 手写堆
 
 - 单调栈
-
-- 设计题
 
 ## 关注我
 
