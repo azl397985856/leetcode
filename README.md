@@ -224,6 +224,7 @@ leetcode 题解，记录自己的 leetcode 解题之路。
 - [0518.coin-change-2](./problems/518.coin-change-2.md)
 - [0547.friend-circles](./problems/547.friend-circles-en.md) 🆕
 - [0609.find-duplicate-file-in-system](./problems/609.find-duplicate-file-in-system.md)
+- [0820.short-encoding-of-words](./problems/820.short-encoding-of-words.md) 🆕
 - [0875.koko-eating-bananas](./problems/875.koko-eating-bananas.md)
 - [0877.stone-game](./problems/877.stone-game.md)
 - [0887.super-egg-drop](./problems/887.super-egg-drop.md)
