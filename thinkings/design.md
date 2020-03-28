@@ -15,7 +15,7 @@
 
 ## 题目列表
 
-这是我近期总结的几设计题目，后续会持续更新～
+这是我近期总结的几道设计题目，后续会持续更新～
 
 - [0155.min-stack](./problems/155.min-stack.md) 简单
 - [0211.add-and-search-word-data-structure-design](../problems/211.add-and-search-word-data-structure-design.md) 中等
