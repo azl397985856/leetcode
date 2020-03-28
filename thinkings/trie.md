@@ -20,7 +20,8 @@
 
 以下是本专题的四道题目的题解，内容会持续更新，感谢你的关注～
 
-- [208.implement-trie-prefix-tree](https://github.com/azl397985856/leetcode/blob/b8e8fa5f0554926efa9039495b25ed7fc158372a/problems/208.implement-trie-prefix-tree.md)
-- [211.add-and-search-word-data-structure-design](https://github.com/azl397985856/leetcode/blob/b0b69f8f11dace3a9040b54532105d42e88e6599/problems/211.add-and-search-word-data-structure-design.md)
-- [212.word-search-ii](https://github.com/azl397985856/leetcode/blob/b0b69f8f11dace3a9040b54532105d42e88e6599/problems/212.word-search-ii.md)
-- [472.concatenated-words](https://github.com/azl397985856/leetcode/blob/master/problems/472.concatenated-words.md)
+- [0208.implement-trie-prefix-tree](https://github.com/azl397985856/leetcode/blob/b8e8fa5f0554926efa9039495b25ed7fc158372a/problems/208.implement-trie-prefix-tree.md)
+- [0211.add-and-search-word-data-structure-design](https://github.com/azl397985856/leetcode/blob/b0b69f8f11dace3a9040b54532105d42e88e6599/problems/211.add-and-search-word-data-structure-design.md)
+- [0212.word-search-ii](https://github.com/azl397985856/leetcode/blob/b0b69f8f11dace3a9040b54532105d42e88e6599/problems/212.word-search-ii.md)
+- [0472.concatenated-words](https://github.com/azl397985856/leetcode/blob/master/problems/472.concatenated-words.md)
+- [0820.short-encoding-of-words](https://github.com/azl397985856/leetcode/blob/master/problems/820.short-encoding-of-words.md)
