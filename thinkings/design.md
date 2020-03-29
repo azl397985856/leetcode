@@ -10,12 +10,12 @@
 - 中等32道
 - 困难12道
 
-这里精选6到题目进行详细讲解，旨在大家能够对系统设计题的答题技巧和套路有所掌握，喜欢的话别忘了点赞和关注哦。
+这里精选6道题目进行详细讲解，旨在大家能够对系统设计题的答题技巧和套路有所掌握，喜欢的话别忘了点赞和关注哦。
 
 
 ## 题目列表
 
-这是我近期总结的几设计题目，后续会持续更新～
+这是我近期总结的几道设计题目，后续会持续更新～
 
 - [0155.min-stack](./problems/155.min-stack.md) 简单
 - [0211.add-and-search-word-data-structure-design](../problems/211.add-and-search-word-data-structure-design.md) 中等
