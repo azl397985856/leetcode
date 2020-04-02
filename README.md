@@ -291,6 +291,7 @@ leetcode 题解，记录自己的 leetcode 解题之路。
 - [位运算](./thinkings/bit.md) 🆕
 - [设计题](./thinkings/design.md) 🆕
 - [小岛问题](./thinkings/island.md) 🆕
+- [最大公约数](./thinkings/GCD.md) 🆕
 
 ### anki 卡片
 
