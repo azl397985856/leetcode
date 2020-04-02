@@ -267,7 +267,7 @@ leetcode 题解，记录自己的 leetcode 解题之路。
 - [0295.find-median-from-data-stream](./problems/295.find-median-from-data-stream.md) 🆕
 - [0301.remove-invalid-parentheses](./problems/301.remove-invalid-parentheses.md)
 - [0335.self-crossPing](./problems/335.self-crossing.md) 🆕
-- [0460.lfu-cache](./problems/460.lfu-cache.md) 
+- [0460.lfu-cache](./problems/460.lfu-cache.md)
 - [0472.concatenated-words](./problems/472.concatenated-words.md) 🆕
 - [0493.reverse-pairs](./problems/493.reverse-pairs.md) 🆕
 - [0895.maximum-frequency-stack](./problems/895.maximum-frequency-stack.md) 🆕
@@ -290,6 +290,7 @@ leetcode 题解，记录自己的 leetcode 解题之路。
 - [滑动窗口（思路 + 模板）](./thinkings/slide-window.md) 🆕
 - [位运算](./thinkings/bit.md) 🆕
 - [设计题](./thinkings/design.md) 🆕
+- [小岛问题](./thinkings/island.md) 🆕
 
 ### anki 卡片
 
