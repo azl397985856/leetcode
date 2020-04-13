@@ -171,7 +171,7 @@ foo();
 
 ![basic-data-structure-call-stack](../assets/thinkings/basic-data-structure-call-stack.png)
 
-> 我画的图没有画出执行上下文中其他部分（this 和 scope 等）， 这部分是闭包的关键，而我这里不是将闭包的，是为了讲解栈的。
+> 我画的图没有画出执行上下文中其他部分（this 和 scope 等）， 这部分是闭包的关键，而我这里不是讲闭包的，是为了讲解栈的。
 
 > 社区中有很多“执行上下文中的 scope 指的是执行栈中父级声明的变量”说法，这是完全错误的， JS 是词法作用域，scope 指的是函数定义时候的父级，和执行没关系
 
