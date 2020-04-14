@@ -17,9 +17,9 @@
 
 这是我近期总结的几道设计题目，后续会持续更新～
 
-- [0155.min-stack](./problems/155.min-stack.md) 简单
+- [0155.min-stack](../problems/155.min-stack.md) 简单
 - [0211.add-and-search-word-data-structure-design](../problems/211.add-and-search-word-data-structure-design.md) 中等
-- [0232.implement-queue-using-stacks](./problems/232.implement-queue-using-stacks.md) 简单
+- [0232.implement-queue-using-stacks](../problems/232.implement-queue-using-stacks.md) 简单
 - [0460.lfu-cache](../problems/460.lfu-cache.md) 困难
 - [895.maximum-frequency-stack](../problems/895.maximum-frequency-stack.md) 困难
 - [900.rle-iterator](../problems/900.rle-iterator.md) 中等
