@@ -193,6 +193,7 @@ leetcode 题解，记录自己的 leetcode 解题之路。
 - [0098.validate-binary-search-tree](./problems/98.validate-binary-search-tree.md)
 - [0102.binary-tree-level-order-traversal](./problems/102.binary-tree-level-order-traversal.md)
 - [0103.binary-tree-zigzag-level-order-traversal](./problems/103.binary-tree-zigzag-level-order-traversal.md)
+- [105.Construct-Binary-Tree-from-Preorder-and-Inorder-Traversal.md](./problems/105.Construct-Binary-Tree-from-Preorder-and-Inorder-Traversal.md)
 - [0113.path-sum-ii](./problems/113.path-sum-ii.md)
 - [0129.sum-root-to-leaf-numbers](./problems/129.sum-root-to-leaf-numbers.md)
 - [0130.surrounded-regions](./problems/130.surrounded-regions.md)
