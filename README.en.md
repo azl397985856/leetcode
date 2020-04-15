@@ -112,7 +112,9 @@ The data structures mainly includes:
 
 #### Easy
 
+- [0001.TwoSum](./problems/1.TwoSum.md)🆕
 - [0020.Valid Parentheses](./problems/20.validParentheses.md)
+- [0021.MergeTwoSortedLists](./problems/21.MergeTwoSortedLists.md) 🆕
 - [0026.remove-duplicates-from-sorted-array](./problems/26.remove-duplicates-from-sorted-array.md)
 - [0053.maximum-sum-subarray](./problems/53.maximum-sum-subarray-en.md) 🆕
 - [0088.merge-sorted-array](./problems/88.merge-sorted-array.md)
@@ -136,9 +138,10 @@ The data structures mainly includes:
 - [0263.ugly-number](./problems/263.ugly-number.md)
 - [0283.move-zeroes](./problems/283.move-zeroes.md)
 - [0342.power-of-four](./problems/342.power-of-four.md)
+- [0371.sum-of-two-integers](./problems/371.sum-of-two-integers.md)
 - [0349.intersection-of-two-arrays](./problems/349.intersection-of-two-arrays.md)
 - [0437.path-sum-iii](./problems/437.path-sum-iii.md) 🆕
-- [0371.sum-of-two-integers](./problems/371.sum-of-two-integers.md)
+- [0455.AssignCookies](./problems/455.AssignCookies.md) 🆕
 - [0501.find-mode-in-binary-search-tree](./problems/501.Find-Mode-in-Binary-Search-Tree.md) 🆕
 - [0575.distribute-candies](./problems/575.distribute-candies.md)
 
@@ -149,7 +152,9 @@ The data structures mainly includes:
 - [0005.longest-palindromic-substring](./problems/5.longest-palindromic-substring.md)
 - [0011.container-with-most-water](./problems/11.container-with-most-water.md)
 - [0015.3-sum](./problems/15.3-sum.md)
+- [0017.Letter-Combinations-of-a-Phone-Number](./problems/17.Letter-Combinations-of-a-Phone-Number.md) 🆕
 - [0019. Remove Nth Node From End of List](./problems/19.removeNthNodeFromEndofList.md)
+- [0022.GenerateParentheses](./problems/22.GenerateParentheses.md) 🆕
 - [0024. Swap Nodes In Pairs](./problems/24.swapNodesInPairs.md)
 - [0029.divide-two-integers](./problems/29.divide-two-integers.md)
 - [0031.next-permutation](./problems/31.next-permutation.md)
@@ -227,6 +232,7 @@ The data structures mainly includes:
 - [0025.reverse-nodes-in-k-group](./problems/25.reverse-nodes-in-k-groups-en.md) 🆕
 - [0032.longest-valid-parentheses](./problems/32.longest-valid-parentheses.md) 🆕
 - [0042.trapping-rain-water](./problems/42.trapping-rain-water.md)
+- [0052.N-Queens-II](./problems/52.N-Queens-II.md) 🆕
 - [0124.binary-tree-maximum-path-sum](./problems/124.binary-tree-maximum-path-sum.md)
 - [0128.longest-consecutive-sequence](./problems/128.longest-consecutive-sequence.md)
 - [0145.binary-tree-postorder-traversal](./problems/145.binary-tree-postorder-traversal.md)
