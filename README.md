@@ -26,7 +26,8 @@
 
 - 2019-10-08: [纪念 LeetCode 项目 Star 突破 2W](./thanksGiving2.md)，并且 Github 搜索“LeetCode”，排名第一。
 
-- 2020-04-14: 项目突破三万 Star。并且我们的官网`力扣加加`上线啦 💐💐💐💐💐，有专题讲解，每日一题，下载区和视频题解，后续会增加更多内容，还不赶紧收藏起来？地址：http://leetcode-solution.cn/
+- 2020-04-12: [项目突破三万 Star](./thanksGiving3.md)。
+- 2020-04-14: 官网`力扣加加`上线啦 💐💐💐💐💐，有专题讲解，每日一题，下载区和视频题解，后续会增加更多内容，还不赶紧收藏起来？地址：http://leetcode-solution.cn/
 
 ![](https://tva1.sinaimg.cn/large/007S8ZIlly1gdvenxvjlsj30z90dtdhw.jpg)
 
