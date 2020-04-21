@@ -72,8 +72,9 @@ def union(self, p, q):
 ```python
 class UF:
     parent = {}
-    def __init__(self, equations):
-        # 做一些初始化操作
+    cnt = 0
+    def __init__(self, M):
+        # 初始化 parent 和 cnt
 
     def find(self, x):
         while x != self.parent[x]:
@@ -82,6 +83,7 @@ class UF:
     def union(self, p, q):
         if self.connected(p, q): return
         self.parent[self.find(p)] = self.find(q)
+        self.cnt -= 1
     def connected(self, p, q):
         return self.find(p) == self.find(q)
 ```
@@ -91,15 +93,27 @@ class UF:
 ```python
 class UF:
     parent = {}
-    def __init__(self, equations):
-        # 做一些初始化操作
+    size = {}
+    cnt = 0
+    def __init__(self, M):
+        # 初始化 parent，size 和 cnt
+
     def find(self, x):
-        if x != self.parent[x]:
-            parent[x] = find(parent[x])
-        return parent[x]
+        while x != self.parent[x]:
+            x = self.parent[x]
+            # 路径压缩
+            self.parent[x] = self.parent[self.parent[x]];
+        return x
     def union(self, p, q):
         if self.connected(p, q): return
-        self.parent[self.find(p)] = self.find(q)
+        # 小的树挂到大的树上， 使树尽量平衡
+        leader_p = self.find(p)
+        leader_q = self.find(q)
+        if self.size[leader_p] < self.size[leader_q]:
+            self.parent[leader_p] = leader_q
+        else:
+            self.parent[leader_q] = leader_p
+        self.cnt -= 1
     def connected(self, p, q):
         return self.find(p) == self.find(q)
 ```
