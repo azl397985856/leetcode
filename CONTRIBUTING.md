@@ -15,7 +15,7 @@
 - README.en.md （如果你是英文题解的话）
 - drawio 文件 或者图片（如果你画图的话）
 
-> 其他画图工具，比如 https://excalidraw.com/，draw.io，processon，ipad 画图
+> 其他画图工具，比如 https://excalidraw.com/ 或者 draw.io 或者 processon 或者 ipad 画图
 
 ## 贡献每日一题
 
