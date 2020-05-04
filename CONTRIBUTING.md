@@ -15,6 +15,8 @@
 - README.en.md （如果你是英文题解的话）
 - drawio 文件 或者图片（如果你画图的话）
 
+> 其他画图工具，比如 https://excalidraw.com/，draw.io，processon，ipad 画图
+
 ## 贡献每日一题
 
 - 直接按照“每日一题”格式要求提交issue即可，需要注意的是，要打上正确的tag，如果LeetCode题目，可以参考官方给的tag。
