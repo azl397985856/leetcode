@@ -15,10 +15,10 @@
 
 ![leetcode.jpeg](./assets/leetcode.jpeg)
 
-This essay records the course of and my emotion to this project from initialisation to 10,000 stars.
+This essay records the course of and my emotion to this project from initialization to 10,000 stars.
 [Milestone for 10,000+ stars](./thanksGiving.md)
 
-If you are interested in this project, **do not mean your star**. This project will be **supported for a long enough time** by the comminity. Thanks for every audience and contributor.
+If you are interested in this project, **do not mean your star**. This project will be **supported for a long enough time** by the community. Thanks for every audience and contributor.
 
 ## Introduction
 
@@ -36,7 +36,7 @@ This repository is divided into five parts for now:
 
 - The fourth part is daily challenges which were held at group chat. We usually solve one problem altogether to get more feedback. Moreover, the problems can be drafted to add to the problem solving module.
 
-- The fifth part is a future plannning on content that will be introduced into the above parts.
+- The fifth part is a future planning on content that will be introduced into the above parts.
 
 > Only when having mastered the basic data structures and algorithms can you solve complex problems easily.
 
@@ -44,7 +44,7 @@ This repository is divided into five parts for now:
 
 I, a programmer, am all passionate about technology.
 
-Used to write `.net` and `Java`, I am a frontend engineer and focused on the engineering, optimization and standardlization for frontend.
+Used to write `.net` and `Java`, I am a frontend engineer and focused on the engineering, optimization and standardization for frontend.
 
 If you want to do some contributions or collaborations, just feel free to contact me via [azl397985856@gmail.com].
 
@@ -59,7 +59,7 @@ If you want to do some contributions or collaborations, just feel free to contac
 
 (Picture credited by [LeetCode-cn](https://www.zhihu.com/question/24964987/answer/586425979).)
 
-The algorithms mainly includes:
+The algorithms mainly include:
 
 - Basic skills: Divide-and-Conquer; Binary; Greedy
 - Sorting algorithms: Quicksort; Merge Sort; Counting Sort
@@ -67,7 +67,7 @@ The algorithms mainly includes:
 - Graph theory: Shortest Path Problem; Minimal Spanning Tree
 - Dynamic Programming: Knapsack Problem; Longest Common Subsequence (LCS) Problem
 
-The data structures mainly includes:
+The data structures mainly include:
 
 - Array and linked list: Singly/Doubly-Linked List
 - Stack and queue
