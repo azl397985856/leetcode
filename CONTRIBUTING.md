@@ -16,6 +16,7 @@
 - drawio 文件 或者图片（如果你画图的话）
 
 > 模板可参考 [1014.best-sightseeing-pair](./templates/problems/1014.best-sightseeing-pair.md)
+> 也可以使用其他画图工具，比如 https://excalidraw.com/ 或者 draw.io 或者 processon 或者 ipad 画图
 
 ## 贡献每日一题
 
