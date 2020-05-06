@@ -11,12 +11,13 @@ Manual translation instead of machine translation, there is no need to translate
 Please follow the template of "problems", what you need to submit are:
 
 - Problem and solution markdown file
-- Add the question title in README.md
-- Add the question title in README.en.md (optional)
-- draw.io file or other pictures (optional)
+- Add the link of the solution in README.md
+- Add the link of the solution in README.en.md (optional)
+- draw.io file(xml) or pictures (optional)
 
+> Template for reference: [1014.best-sightseeing-pair](./templates/problems/1014.best-sightseeing-pair.md)
 > Online painting tools like https://excalidraw.com/, draw.io, processon or iPad apps
 
-## Contributing to daily
+## Contributing to daily problem
 
-- Please follow the template of "daily" and submit the issue with correct tags (can refer to official tags on LeetCode).
+- Please follow the template of "daily problem" and submit the issue with correct tags (can refer to official tags on LeetCode).
