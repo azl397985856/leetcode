@@ -69,7 +69,7 @@ class Solution:
 
 ## List of problems
 
-Some problems here is quite direct that you know the sliding window technique would be useful while others need a second thought to realize that.
+Some problems here are quite direct that you know the sliding window technique would be useful while others need a second thought to realize that.
 
 - [【Python，JavaScript】滑动窗口（3. 无重复字符的最长子串）](https://leetcode-cn.com/problems/longest-substring-without-repeating-characters/solution/pythonjavascript-hua-dong-chuang-kou-3-wu-zhong-fu/)
 - [76. 最小覆盖子串](https://leetcode-cn.com/problems/minimum-window-substring/solution/python-hua-dong-chuang-kou-76-zui-xiao-fu-gai-zi-c/)
