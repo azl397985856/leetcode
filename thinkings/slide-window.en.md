@@ -6,7 +6,7 @@ The sliding window technique in algorithms is very similar while applies to more
 
 ## Introduction
 
-Sliding window technique, also known as two pointers technique can help to reduce time complexity in problems that ask for "consecutive" or "contiguous" items. For example, [209. Minimum Size Subarray Sum](https://leetcode-cn.com/problems/minimum-size-subarray-sum/solution/209-chang-du-zui-xiao-de-zi-shu-zu-hua-dong-chua-2/). For more related problems, go to the `List of Problems` below.
+Sliding window technique, also known as two pointers technique, can help to reduce time complexity in problems that ask for "consecutive" or "contiguous" items. For example, [209. Minimum Size Subarray Sum](https://leetcode-cn.com/problems/minimum-size-subarray-sum/solution/209-chang-du-zui-xiao-de-zi-shu-zu-hua-dong-chua-2/). For more related problems, go to the `List of Problems` below.
 
 ## Common Types
 
