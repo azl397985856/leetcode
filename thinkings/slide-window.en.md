@@ -1,12 +1,12 @@
 # Sliding Window Technique
 
-Some people may have heard of sliding window technique because of Sliding window protocals, which is used in Transmission Control Protocol (TCP) for packet-based data transimission. It is used to improved transmission efficiency in order to avoid congestions. The sender and the receiver each has a window size, w1 and w2, respectively. The window size may vary based on the network traffic flow. However, in a simpler implementation, the sizes are fixed, and they must be greater than 0 to perform any task.
+I first encountered the term "sliding window" when learning about the sliding window protocols, which is used in Transmission Control Protocol (TCP) for packet-based data transimission. It is used to improved transmission efficiency in order to avoid congestions. The sender and the receiver each has a window size, w1 and w2, respectively. The window size may vary based on the network traffic flow. However, in a simpler implementation, the sizes are fixed, and they must be greater than 0 to perform any task.
 
-The sliding window technique in algorithms is very similar while applies to more scenarios. Now, let's go over this technique.
+The sliding window technique in algorithms is very similar, but it applies to more scenarios. Now, let's go over this technique.
 
 ## Introduction
 
-Sliding window technique, also known as two pointers technique, can help to reduce time complexity in problems that ask for "consecutive" or "contiguous" items. For example, [209. Minimum Size Subarray Sum](https://leetcode-cn.com/problems/minimum-size-subarray-sum/solution/209-chang-du-zui-xiao-de-zi-shu-zu-hua-dong-chua-2/). For more related problems, go to the `List of Problems` below.
+Sliding window technique, also known as two pointers technique, can help reduce time complexity in problems that ask for "consecutive" or "contiguous" items. For example, [209. Minimum Size Subarray Sum](https://leetcode-cn.com/problems/minimum-size-subarray-sum/solution/209-chang-du-zui-xiao-de-zi-shu-zu-hua-dong-chua-2/). For more related problems, go to the `List of Problems` below.
 
 ## Common Types
 
@@ -45,7 +45,7 @@ For variable window, we initialize the left and right pointers the same way. The
         - 3.1.2 else we return the current solution
    - 3.2 If they don't satisfy, we continue to find an appropriate window
 
-If we view it another way, it simply moving the pointer r to find an appropriate window and we only move the pointer l once we find an appropriate window to minimize the window and find an optimal solution.
+If we view it another way, it's simply moving the pointer r to find an appropriate window and we only move the pointer l once we find an appropriate window to minimize the window and find an optimal solution.
 
 ![](https://tva1.sinaimg.cn/large/00831rSTly1gcw0ouuplaj30d90d50t3.jpg)
 
