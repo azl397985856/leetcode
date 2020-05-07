@@ -1,6 +1,6 @@
 # Sliding Window Technique
 
-Sliding window technique is mostly known because of Sliding window protocals, which is used in Transmission Control Protocol (TCP) for packet-based data transimission. It is used to improved transmission efficiency in order to avoid congestions. The sender and the receiver each has a window size, w1 and w2, respectively. The window size may vary based on the network traffic flow. However, in a simpler implementation, the sizes are fixed, and they must be greater than 0 to perform any task.
+Some people may have heard of sliding window technique because of Sliding window protocals, which is used in Transmission Control Protocol (TCP) for packet-based data transimission. It is used to improved transmission efficiency in order to avoid congestions. The sender and the receiver each has a window size, w1 and w2, respectively. The window size may vary based on the network traffic flow. However, in a simpler implementation, the sizes are fixed, and they must be greater than 0 to perform any task.
 
 The sliding window technique in algorithms is very similar while applies to more scenarios. Now, let's go over this technique.
 
