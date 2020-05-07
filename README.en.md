@@ -76,7 +76,7 @@ The data structures mainly include:
 - Tree and Graph: Lowest Common Ancestor (LCA); Disjoint-Set
 - String: Prefix Tree (Trie); Suffix Tree
 
-## Previews
+## Previews（Not Translated Yet）
 
 [0042.trapping-rain-water](./problems/42.trapping-rain-water.md):
 
@@ -110,7 +110,7 @@ The data structures mainly include:
 
 > Here only lists some **representative problems** but not all.
 
-#### Easy
+#### Easy （Not Translated Yet）
 
 - [0001.TwoSum](./problems/1.TwoSum.md)🆕
 - [0020.Valid Parentheses](./problems/20.validParentheses.md)
@@ -145,7 +145,7 @@ The data structures mainly include:
 - [0501.find-mode-in-binary-search-tree](./problems/501.Find-Mode-in-Binary-Search-Tree.md) 🆕
 - [0575.distribute-candies](./problems/575.distribute-candies.md)
 
-#### Medium
+#### Medium （Not Translated Yet）
 
 - [0002. Add Two Numbers](./problems/2.addTwoNumbers.md)
 - [0003. Longest Substring Without Repeating Characters](./problems/3.longestSubstringWithoutRepeatingCharacters.md)
@@ -225,7 +225,7 @@ The data structures mainly include:
 - [1031.maximum-sum-of-two-non-overlapping-subarrays](./problems/1031.maximum-sum-of-two-non-overlapping-subarrays.md)
 - [1218.longest-arithmetic-subsequence-of-given-difference.md](./problems/1218.longest-arithmetic-subsequence-of-given-difference.md) 🆕
 
-#### Hard
+#### Hard （Not Translated Yet）
 
 - [0004.median-of-two-sorted-array](./problems/4.median-of-two-sorted-array.md) 🆕
 - [0023.merge-k-sorted-lists](./problems/23.merge-k-sorted-lists.md)
@@ -242,7 +242,7 @@ The data structures mainly include:
 - [0460.lfu-cache](./problems/460.lfu-cache.md) 🆕
 - [1168.optimize-water-distribution-in-a-village](./problems/1168.optimize-water-distribution-in-a-village-en.md) 🆕
 
-### Summary of Data Structures and Algorithms
+### Summary of Data Structures and Algorithm
 
 - [Data Structure](./thinkings/basic-data-structure-en.md) (Drafts)
 - [Basic Algorithm](./thinkings/basic-algorithm-en.md)Drafts
@@ -307,7 +307,7 @@ We're still on the early stage, so feedback from community is very welcome. For 
 ## Contribution
 
 - If you have any ideas, [Issues](https://github.com/azl397985856/leetcode/issues) or chat in groups.
-- If you want to commit to the repository, Pull Request is welcome.
+- If you want to commit to the repository, Pull Request is welcome. Here is the [CONTRIBUTION GUIDE](./CONTRIBUTING.en.md)
 - If you want to edit images resources in this project, [here](./assets/drawio/) lists the files that can be edited on [draw.io](https://www.draw.io/).
 
 ## Thank you
