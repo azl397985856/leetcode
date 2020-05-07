@@ -67,7 +67,7 @@ class Solution:
         return  0 if ans == len(nums) + 1 else ans
 ```
 
-## List of problems（Not Translated Yet）
+## List of problems (Not Translated Yet)
 
 Some problems here are intuitive that you know the sliding window technique would be useful while others need a second thought to realize that.
 
