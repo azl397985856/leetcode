@@ -251,6 +251,7 @@ The data structures mainly include:
 - [Huffman Encode and Run Length Encode](./thinkings/run-length-encode-and-huffman-encode-en.md)
 - [Bloom Filter](./thinkings/bloom-filter-en.md)
 - [String Problems](./thinkings/string-problems-en.md)
+- [Sliding Window Technique](./thinkings/slide-window.en.md)
 
 ### Anki Flashcards
 
