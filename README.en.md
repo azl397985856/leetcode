@@ -170,7 +170,7 @@ The data structures mainly include:
 - [0062.unique-paths (Not Translated Yet)](./problems/62.unique-paths.md)
 - [0073.set-matrix-zeroes (Not Translated Yet)](./problems/73.set-matrix-zeroes.md)
 - [0075.sort-colors (Not Translated Yet)](./problems/75.sort-colors.md)
-- [0078.subsets (Not Translated Yet)](./problems/78.subsets.md)
+- [0078.subsets](./problems/78.subsets.en.md)
 - [0079.word-search (Not Translated Yet)](./problems/79.word-search-en.md)
 - [0086.partition-list (Not Translated Yet)](./problems/86.partition-list.md)
 - [0090.subsets-ii (Not Translated Yet)](./problems/90.subsets-ii.md)
