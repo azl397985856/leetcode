@@ -116,7 +116,7 @@ The data structures mainly include:
 - [0020.Valid Parentheses (Not Translated Yet)](./problems/20.validParentheses.md)
 - [0021.MergeTwoSortedLists (Not Translated Yet)](./problems/21.MergeTwoSortedLists.md) 🆕
 - [0026.remove-duplicates-from-sorted-array (Not Translated Yet)](./problems/26.remove-duplicates-from-sorted-array.md)
-- [0053.maximum-sum-subarray (Not Translated Yet)](./problems/53.maximum-sum-subarray-en.md) 🆕
+- [0053.maximum-sum-subarray](./problems/53.maximum-sum-subarray-en.md) 🆕
 - [0088.merge-sorted-array (Not Translated Yet)](./problems/88.merge-sorted-array.md)
 - [0104.maximum-depth-of-binary-tree (Not Translated Yet)](./problems/104.maximum-depth-of-binary-tree.md)
 - [0121.best-time-to-buy-and-sell-stock (Not Translated Yet)](./problems/121.best-time-to-buy-and-sell-stock.md)
@@ -170,8 +170,8 @@ The data structures mainly include:
 - [0062.unique-paths (Not Translated Yet)](./problems/62.unique-paths.md)
 - [0073.set-matrix-zeroes (Not Translated Yet)](./problems/73.set-matrix-zeroes.md)
 - [0075.sort-colors (Not Translated Yet)](./problems/75.sort-colors.md)
-- [0078.subsets](./problems/78.subsets.en.md)
-- [0079.word-search (Not Translated Yet)](./problems/79.word-search-en.md)
+- [0078.subsets](./problems/78.subsets-en.md)
+- [0079.word-search](./problems/79.word-search-en.md)
 - [0086.partition-list (Not Translated Yet)](./problems/86.partition-list.md)
 - [0090.subsets-ii (Not Translated Yet)](./problems/90.subsets-ii.md)
 - [0091.decode-ways (Not Translated Yet)](./problems/91.decode-ways.md)
@@ -211,11 +211,11 @@ The data structures mainly include:
 - [0416.partition-equal-subset-sum (Not Translated Yet)](./problems/416.partition-equal-subset-sum.md)
 - [0445.add-two-numbers-ii (Not Translated Yet)](./problems/445.add-two-numbers-ii.md)
 - [0454.4-sum-ii (Not Translated Yet)](./problems/454.4-sum-ii.md)
-- [0474.ones-and-zeros (Not Translated Yet)](./problems/474.ones-and-zeros-en.md)
+- [0474.ones-and-zeros](./problems/474.ones-and-zeros-en.md)
 - [0494.target-sum (Not Translated Yet)](./problems/494.target-sum.md)
 - [0516.longest-palindromic-subsequence (Not Translated Yet)](./problems/516.longest-palindromic-subsequence.md)
 - [0518.coin-change-2 (Not Translated Yet)](./problems/518.coin-change-2.md)
-- [0547.friend-circles (Not Translated Yet)](./problems/547.friend-circles-en.md) 🆕
+- [0547.friend-circles](./problems/547.friend-circles-en.md) 🆕
 - [0609.find-duplicate-file-in-system (Not Translated Yet)](./problems/609.find-duplicate-file-in-system.md)
 - [0875.koko-eating-bananas (Not Translated Yet)](./problems/875.koko-eating-bananas.md)
 - [0877.stone-game (Not Translated Yet)](./problems/877.stone-game.md)
@@ -229,7 +229,7 @@ The data structures mainly include:
 
 - [0004.median-of-two-sorted-array (Not Translated Yet)](./problems/4.median-of-two-sorted-array.md) 🆕
 - [0023.merge-k-sorted-lists (Not Translated Yet)](./problems/23.merge-k-sorted-lists.md)
-- [0025.reverse-nodes-in-k-group (Not Translated Yet)](./problems/25.reverse-nodes-in-k-groups-en.md) 🆕
+- [0025.reverse-nodes-in-k-group](./problems/25.reverse-nodes-in-k-groups-en.md) 🆕
 - [0032.longest-valid-parentheses (Not Translated Yet)](./problems/32.longest-valid-parentheses.md) 🆕
 - [0042.trapping-rain-water (Not Translated Yet)](./problems/42.trapping-rain-water.md)
 - [0052.N-Queens-II (Not Translated Yet)](./problems/52.N-Queens-II.md) 🆕
@@ -240,7 +240,7 @@ The data structures mainly include:
 - [0295.find-median-from-data-stream (Not Translated Yet)](./problems/295.find-median-from-data-stream.md) 🆕
 - [0301.remove-invalid-parentheses (Not Translated Yet)](./problems/301.remove-invalid-parentheses.md)
 - [0460.lfu-cache (Not Translated Yet)](./problems/460.lfu-cache.md) 🆕
-- [1168.optimize-water-distribution-in-a-village (Not Translated Yet)](./problems/1168.optimize-water-distribution-in-a-village-en.md) 🆕
+- [1168.optimize-water-distribution-in-a-village](./problems/1168.optimize-water-distribution-in-a-village-en.md) 🆕
 
 ### Summary of Data Structures and Algorithm
 
