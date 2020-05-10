@@ -110,137 +110,137 @@ The data structures mainly include:
 
 > Here only lists some **representative problems** but not all.
 
-#### Easy （Not Translated Yet）
+#### Easy
 
-- [0001.TwoSum](./problems/1.TwoSum.md)🆕
-- [0020.Valid Parentheses](./problems/20.validParentheses.md)
-- [0021.MergeTwoSortedLists](./problems/21.MergeTwoSortedLists.md) 🆕
-- [0026.remove-duplicates-from-sorted-array](./problems/26.remove-duplicates-from-sorted-array.md)
-- [0053.maximum-sum-subarray](./problems/53.maximum-sum-subarray-en.md) 🆕
-- [0088.merge-sorted-array](./problems/88.merge-sorted-array.md)
-- [0104.maximum-depth-of-binary-tree](./problems/104.maximum-depth-of-binary-tree.md)
-- [0121.best-time-to-buy-and-sell-stock](./problems/121.best-time-to-buy-and-sell-stock.md)
-- [0122.best-time-to-buy-and-sell-stock-ii](./problems/122.best-time-to-buy-and-sell-stock-ii.md)
-- [0125.valid-palindrome](./problems/125.valid-palindrome.md) 🆕
-- [0136.single-number](./problems/136.single-number.md)
-- [0155.min-stack](./problems/155.min-stack.md) 🆕
-- [0167.two-sum-ii-input-array-is-sorted](./problems/167.two-sum-ii-input-array-is-sorted.md)
-- [0172.factorial-trailing-zeroes](./problems/172.factorial-trailing-zeroes.md)
-- [0169.majority-element](./problems/169.majority-element.md)
-- [0190.reverse-bits](./problems/190.reverse-bits.md)
-- [0191.number-of-1-bits](./problems/191.number-of-1-bits.md)
-- [0198.house-robber](./problems/198.house-robber.md)
-- [0203.remove-linked-list-elements](./problems/203.remove-linked-list-elements.md)
-- [0206.reverse-linked-list](./problems/206.reverse-linked-list.md)
-- [0219.contains-duplicate-ii](./problems/219.contains-duplicate-ii.md)
-- [0226.invert-binary-tree](./problems/226.invert-binary-tree.md)
-- [0232.implement-queue-using-stacks](./problems/232.implement-queue-using-stacks.md) 🆕
-- [0263.ugly-number](./problems/263.ugly-number.md)
-- [0283.move-zeroes](./problems/283.move-zeroes.md)
-- [0342.power-of-four](./problems/342.power-of-four.md)
-- [0371.sum-of-two-integers](./problems/371.sum-of-two-integers.md)
-- [0349.intersection-of-two-arrays](./problems/349.intersection-of-two-arrays.md)
-- [0437.path-sum-iii](./problems/437.path-sum-iii.md) 🆕
-- [0455.AssignCookies](./problems/455.AssignCookies.md) 🆕
-- [0501.find-mode-in-binary-search-tree](./problems/501.Find-Mode-in-Binary-Search-Tree.md) 🆕
-- [0575.distribute-candies](./problems/575.distribute-candies.md)
+- [0001.TwoSum (Not Translated Yet)](./problems/1.TwoSum.md)🆕
+- [0020.Valid Parentheses (Not Translated Yet)](./problems/20.validParentheses.md)
+- [0021.MergeTwoSortedLists (Not Translated Yet)](./problems/21.MergeTwoSortedLists.md) 🆕
+- [0026.remove-duplicates-from-sorted-array (Not Translated Yet)](./problems/26.remove-duplicates-from-sorted-array.md)
+- [0053.maximum-sum-subarray (Not Translated Yet)](./problems/53.maximum-sum-subarray-en.md) 🆕
+- [0088.merge-sorted-array (Not Translated Yet)](./problems/88.merge-sorted-array.md)
+- [0104.maximum-depth-of-binary-tree (Not Translated Yet)](./problems/104.maximum-depth-of-binary-tree.md)
+- [0121.best-time-to-buy-and-sell-stock (Not Translated Yet)](./problems/121.best-time-to-buy-and-sell-stock.md)
+- [0122.best-time-to-buy-and-sell-stock-ii (Not Translated Yet)](./problems/122.best-time-to-buy-and-sell-stock-ii.md)
+- [0125.valid-palindrome (Not Translated Yet)](./problems/125.valid-palindrome.md) 🆕
+- [0136.single-number (Not Translated Yet)](./problems/136.single-number.md)
+- [0155.min-stack (Not Translated Yet)](./problems/155.min-stack.md) 🆕
+- [0167.two-sum-ii-input-array-is-sorted (Not Translated Yet)](./problems/167.two-sum-ii-input-array-is-sorted.md)
+- [0172.factorial-trailing-zeroes (Not Translated Yet)](./problems/172.factorial-trailing-zeroes.md)
+- [0169.majority-element (Not Translated Yet)](./problems/169.majority-element.md)
+- [0190.reverse-bits (Not Translated Yet)](./problems/190.reverse-bits.md)
+- [0191.number-of-1-bits (Not Translated Yet)](./problems/191.number-of-1-bits.md)
+- [0198.house-robber (Not Translated Yet)](./problems/198.house-robber.md)
+- [0203.remove-linked-list-elements (Not Translated Yet)](./problems/203.remove-linked-list-elements.md)
+- [0206.reverse-linked-list (Not Translated Yet)](./problems/206.reverse-linked-list.md)
+- [0219.contains-duplicate-ii (Not Translated Yet)](./problems/219.contains-duplicate-ii.md)
+- [0226.invert-binary-tree (Not Translated Yet)](./problems/226.invert-binary-tree.md)
+- [0232.implement-queue-using-stacks (Not Translated Yet)](./problems/232.implement-queue-using-stacks.md) 🆕
+- [0263.ugly-number (Not Translated Yet)](./problems/263.ugly-number.md)
+- [0283.move-zeroes (Not Translated Yet)](./problems/283.move-zeroes.md)
+- [0342.power-of-four (Not Translated Yet)](./problems/342.power-of-four.md)
+- [0371.sum-of-two-integers (Not Translated Yet)](./problems/371.sum-of-two-integers.md)
+- [0349.intersection-of-two-arrays (Not Translated Yet)](./problems/349.intersection-of-two-arrays.md)
+- [0437.path-sum-iii (Not Translated Yet)](./problems/437.path-sum-iii.md) 🆕
+- [0455.AssignCookies (Not Translated Yet)](./problems/455.AssignCookies.md) 🆕
+- [0501.find-mode-in-binary-search-tree (Not Translated Yet)](./problems/501.Find-Mode-in-Binary-Search-Tree.md) 🆕
+- [0575.distribute-candies (Not Translated Yet)](./problems/575.distribute-candies.md)
 
-#### Medium （Not Translated Yet）
+#### Medium
 
-- [0002. Add Two Numbers](./problems/2.addTwoNumbers.md)
-- [0003. Longest Substring Without Repeating Characters](./problems/3.longestSubstringWithoutRepeatingCharacters.md)
-- [0005.longest-palindromic-substring](./problems/5.longest-palindromic-substring.md)
-- [0011.container-with-most-water](./problems/11.container-with-most-water.md)
-- [0015.3-sum](./problems/15.3-sum.md)
-- [0017.Letter-Combinations-of-a-Phone-Number](./problems/17.Letter-Combinations-of-a-Phone-Number.md) 🆕
-- [0019. Remove Nth Node From End of List](./problems/19.removeNthNodeFromEndofList.md)
-- [0022.GenerateParentheses](./problems/22.GenerateParentheses.md) 🆕
-- [0024. Swap Nodes In Pairs](./problems/24.swapNodesInPairs.md)
-- [0029.divide-two-integers](./problems/29.divide-two-integers.md)
-- [0031.next-permutation](./problems/31.next-permutation.md)
-- [0033.search-in-rotated-sorted-array](./problems/33.search-in-rotated-sorted-array.md)
-- [0039.combination-sum](./problems/39.combination-sum.md)
-- [0040.combination-sum-ii](./problems/40.combination-sum-ii.md)
-- [0046.permutations](./problems/46.permutations.md)
-- [0047.permutations-ii](./problems/47.permutations-ii.md)
-- [0048.rotate-image](./problems/48.rotate-image.md)
-- [0049.group-anagrams](./problems/49.group-anagrams.md)
-- [0055.jump-game](./problems/55.jump-game.md)
-- [0056.merge-intervals](./problems/56.merge-intervals.md)
-- [0062.unique-paths](./problems/62.unique-paths.md)
-- [0073.set-matrix-zeroes](./problems/73.set-matrix-zeroes.md)
-- [0075.sort-colors](./problems/75.sort-colors.md)
-- [0078.subsets](./problems/78.subsets.md)
-- [0079.word-search](./problems/79.word-search-en.md)
-- [0086.partition-list](./problems/86.partition-list.md)
-- [0090.subsets-ii](./problems/90.subsets-ii.md)
-- [0091.decode-ways](./problems/91.decode-ways.md)
-- [0092.reverse-linked-list-ii](./problems/92.reverse-linked-list-ii.md)
-- [0094.binary-tree-inorder-traversal](./problems/94.binary-tree-inorder-traversal.md)
-- [0098.validate-binary-search-tree](./problems/98.validate-binary-search-tree.md)
-- [0102.binary-tree-level-order-traversal](./problems/102.binary-tree-level-order-traversal.md)
-- [0103.binary-tree-zigzag-level-order-traversal](./problems/103.binary-tree-zigzag-level-order-traversal.md)
-- [105.Construct-Binary-Tree-from-Preorder-and-Inorder-Traversal.md](./problems/105.Construct-Binary-Tree-from-Preorder-and-Inorder-Traversal.md)
-- [0113.path-sum-ii](./problems/113.path-sum-ii.md)
-- [0129.sum-root-to-leaf-numbers](./problems/129.sum-root-to-leaf-numbers.md)
-- [0130.surrounded-regions](./problems/130.surrounded-regions.md)
-- [0131.palindrome-partitioning](./problems/131.palindrome-partitioning.md)
-- [0139.word-break](./problems/139.word-break.md)
-- [0144.binary-tree-preorder-traversal](./problems/144.binary-tree-preorder-traversal.md)
-- [0150.evaluate-reverse-polish-notation](./problems/150.evaluate-reverse-polish-notation.md)
-- [0152.maximum-product-subarray](./problems/152.maximum-product-subarray.md)
-- [0199.binary-tree-right-side-view](./problems/199.binary-tree-right-side-view.md)
-- [0200.number-of-islands](./problems/200.number-of-islands.md) 🆕
-- [0201.bitwise-and-of-numbers-range](./problems/201.bitwise-and-of-numbers-range.md)
-- [0208.implement-trie-prefix-tree](./problems/208.implement-trie-prefix-tree.md)
-- [0209.minimum-size-subarray-sum](./problems/209.minimum-size-subarray-sum.md)
-- [0215.kth-largest-element-in-an-array](./problems/215.kth-largest-element-in-an-array.md) 🆕
-- [0221.maximal-square](./problems/221.maximal-square.md)
-- [0229.majority-element-ii](./problems/229.majority-element-ii.md) 🆕
-- [0230.kth-smallest-element-in-a-bst](./problems/230.kth-smallest-element-in-a-bst.md)
-- [0236.lowest-common-ancestor-of-a-binary-tree](./problems/236.lowest-common-ancestor-of-a-binary-tree.md)
-- [0238.product-of-array-except-self](./problems/238.product-of-array-except-self.md)
-- [0240.search-a-2-d-matrix-ii](./problems/240.search-a-2-d-matrix-ii.md)
-- [0279.perfect-squares](./problems/279.perfect-squares.md)
-- [0309.best-time-to-buy-and-sell-stock-with-cooldown](./problems/309.best-time-to-buy-and-sell-stock-with-cooldown.md)
-- [0322.coin-change](./problems/322.coin-change.md)
-- [0328.odd-even-linked-list](./problems/328.odd-even-linked-list.md)
-- [0334.increasing-triplet-subsequence](./problems/334.increasing-triplet-subsequence.md)
-- [0365.water-and-jug-problem](./problems/365.water-and-jug-problem.md)
-- [0378.kth-smallest-element-in-a-sorted-matrix](./problems/378.kth-smallest-element-in-a-sorted-matrix.md)
-- [0416.partition-equal-subset-sum](./problems/416.partition-equal-subset-sum.md)
-- [0445.add-two-numbers-ii](./problems/445.add-two-numbers-ii.md)
-- [0454.4-sum-ii](./problems/454.4-sum-ii.md)
-- [0474.ones-and-zeros](./problems/474.ones-and-zeros-en.md)
-- [0494.target-sum](./problems/494.target-sum.md)
-- [0516.longest-palindromic-subsequence](./problems/516.longest-palindromic-subsequence.md)
-- [0518.coin-change-2](./problems/518.coin-change-2.md)
-- [0547.friend-circles](./problems/547.friend-circles-en.md) 🆕
-- [0609.find-duplicate-file-in-system](./problems/609.find-duplicate-file-in-system.md)
-- [0875.koko-eating-bananas](./problems/875.koko-eating-bananas.md)
-- [0877.stone-game](./problems/877.stone-game.md)
-- [0887.super-egg-drop](./problems/887.super-egg-drop.md)
-- [0900.rle-iterator](./problems/900.rle-iterator.md)
-- [0912.sort-an-array](./problems/912.sort-an-array.md) 🆕
-- [1031.maximum-sum-of-two-non-overlapping-subarrays](./problems/1031.maximum-sum-of-two-non-overlapping-subarrays.md)
-- [1218.longest-arithmetic-subsequence-of-given-difference.md](./problems/1218.longest-arithmetic-subsequence-of-given-difference.md) 🆕
+- [0002. Add Two Numbers (Not Translated Yet)](./problems/2.addTwoNumbers.md)
+- [0003. Longest Substring Without Repeating Characters (Not Translated Yet)](./problems/3.longestSubstringWithoutRepeatingCharacters.md)
+- [0005.longest-palindromic-substring (Not Translated Yet)](./problems/5.longest-palindromic-substring.md)
+- [0011.container-with-most-water (Not Translated Yet)](./problems/11.container-with-most-water.md)
+- [0015.3-sum (Not Translated Yet)](./problems/15.3-sum.md)
+- [0017.Letter-Combinations-of-a-Phone-Number (Not Translated Yet)](./problems/17.Letter-Combinations-of-a-Phone-Number.md) 🆕
+- [0019. Remove Nth Node From End of List (Not Translated Yet)](./problems/19.removeNthNodeFromEndofList.md)
+- [0022.GenerateParentheses (Not Translated Yet)](./problems/22.GenerateParentheses.md) 🆕
+- [0024. Swap Nodes In Pairs (Not Translated Yet)](./problems/24.swapNodesInPairs.md)
+- [0029.divide-two-integers (Not Translated Yet)](./problems/29.divide-two-integers.md)
+- [0031.next-permutation (Not Translated Yet)](./problems/31.next-permutation.md)
+- [0033.search-in-rotated-sorted-array (Not Translated Yet)](./problems/33.search-in-rotated-sorted-array.md)
+- [0039.combination-sum (Not Translated Yet)](./problems/39.combination-sum.md)
+- [0040.combination-sum-ii (Not Translated Yet)](./problems/40.combination-sum-ii.md)
+- [0046.permutations (Not Translated Yet)](./problems/46.permutations.md)
+- [0047.permutations-ii (Not Translated Yet)](./problems/47.permutations-ii.md)
+- [0048.rotate-image (Not Translated Yet)](./problems/48.rotate-image.md)
+- [0049.group-anagrams (Not Translated Yet)](./problems/49.group-anagrams.md)
+- [0055.jump-game (Not Translated Yet)](./problems/55.jump-game.md)
+- [0056.merge-intervals (Not Translated Yet)](./problems/56.merge-intervals.md)
+- [0062.unique-paths (Not Translated Yet)](./problems/62.unique-paths.md)
+- [0073.set-matrix-zeroes (Not Translated Yet)](./problems/73.set-matrix-zeroes.md)
+- [0075.sort-colors (Not Translated Yet)](./problems/75.sort-colors.md)
+- [0078.subsets (Not Translated Yet)](./problems/78.subsets.md)
+- [0079.word-search (Not Translated Yet)](./problems/79.word-search-en.md)
+- [0086.partition-list (Not Translated Yet)](./problems/86.partition-list.md)
+- [0090.subsets-ii (Not Translated Yet)](./problems/90.subsets-ii.md)
+- [0091.decode-ways (Not Translated Yet)](./problems/91.decode-ways.md)
+- [0092.reverse-linked-list-ii (Not Translated Yet)](./problems/92.reverse-linked-list-ii.md)
+- [0094.binary-tree-inorder-traversal (Not Translated Yet)](./problems/94.binary-tree-inorder-traversal.md)
+- [0098.validate-binary-search-tree (Not Translated Yet)](./problems/98.validate-binary-search-tree.md)
+- [0102.binary-tree-level-order-traversal (Not Translated Yet)](./problems/102.binary-tree-level-order-traversal.md)
+- [0103.binary-tree-zigzag-level-order-traversal (Not Translated Yet)](./problems/103.binary-tree-zigzag-level-order-traversal.md)
+- [105.Construct-Binary-Tree-from-Preorder-and-Inorder-Traversal.md (Not Translated Yet)](./problems/105.Construct-Binary-Tree-from-Preorder-and-Inorder-Traversal.md)
+- [0113.path-sum-ii (Not Translated Yet)](./problems/113.path-sum-ii.md)
+- [0129.sum-root-to-leaf-numbers (Not Translated Yet)](./problems/129.sum-root-to-leaf-numbers.md)
+- [0130.surrounded-regions (Not Translated Yet)](./problems/130.surrounded-regions.md)
+- [0131.palindrome-partitioning (Not Translated Yet)](./problems/131.palindrome-partitioning.md)
+- [0139.word-break (Not Translated Yet)](./problems/139.word-break.md)
+- [0144.binary-tree-preorder-traversal (Not Translated Yet)](./problems/144.binary-tree-preorder-traversal.md)
+- [0150.evaluate-reverse-polish-notation (Not Translated Yet)](./problems/150.evaluate-reverse-polish-notation.md)
+- [0152.maximum-product-subarray (Not Translated Yet)](./problems/152.maximum-product-subarray.md)
+- [0199.binary-tree-right-side-view (Not Translated Yet)](./problems/199.binary-tree-right-side-view.md)
+- [0200.number-of-islands (Not Translated Yet)](./problems/200.number-of-islands.md) 🆕
+- [0201.bitwise-and-of-numbers-range (Not Translated Yet)](./problems/201.bitwise-and-of-numbers-range.md)
+- [0208.implement-trie-prefix-tree (Not Translated Yet)](./problems/208.implement-trie-prefix-tree.md)
+- [0209.minimum-size-subarray-sum (Not Translated Yet)](./problems/209.minimum-size-subarray-sum.md)
+- [0215.kth-largest-element-in-an-array (Not Translated Yet)](./problems/215.kth-largest-element-in-an-array.md) 🆕
+- [0221.maximal-square (Not Translated Yet)](./problems/221.maximal-square.md)
+- [0229.majority-element-ii (Not Translated Yet)](./problems/229.majority-element-ii.md) 🆕
+- [0230.kth-smallest-element-in-a-bst (Not Translated Yet)](./problems/230.kth-smallest-element-in-a-bst.md)
+- [0236.lowest-common-ancestor-of-a-binary-tree (Not Translated Yet)](./problems/236.lowest-common-ancestor-of-a-binary-tree.md)
+- [0238.product-of-array-except-self (Not Translated Yet)](./problems/238.product-of-array-except-self.md)
+- [0240.search-a-2-d-matrix-ii (Not Translated Yet)](./problems/240.search-a-2-d-matrix-ii.md)
+- [0279.perfect-squares (Not Translated Yet)](./problems/279.perfect-squares.md)
+- [0309.best-time-to-buy-and-sell-stock-with-cooldown (Not Translated Yet)](./problems/309.best-time-to-buy-and-sell-stock-with-cooldown.md)
+- [0322.coin-change (Not Translated Yet)](./problems/322.coin-change.md)
+- [0328.odd-even-linked-list (Not Translated Yet)](./problems/328.odd-even-linked-list.md)
+- [0334.increasing-triplet-subsequence (Not Translated Yet)](./problems/334.increasing-triplet-subsequence.md)
+- [0365.water-and-jug-problem (Not Translated Yet)](./problems/365.water-and-jug-problem.md)
+- [0378.kth-smallest-element-in-a-sorted-matrix (Not Translated Yet)](./problems/378.kth-smallest-element-in-a-sorted-matrix.md)
+- [0416.partition-equal-subset-sum (Not Translated Yet)](./problems/416.partition-equal-subset-sum.md)
+- [0445.add-two-numbers-ii (Not Translated Yet)](./problems/445.add-two-numbers-ii.md)
+- [0454.4-sum-ii (Not Translated Yet)](./problems/454.4-sum-ii.md)
+- [0474.ones-and-zeros (Not Translated Yet)](./problems/474.ones-and-zeros-en.md)
+- [0494.target-sum (Not Translated Yet)](./problems/494.target-sum.md)
+- [0516.longest-palindromic-subsequence (Not Translated Yet)](./problems/516.longest-palindromic-subsequence.md)
+- [0518.coin-change-2 (Not Translated Yet)](./problems/518.coin-change-2.md)
+- [0547.friend-circles (Not Translated Yet)](./problems/547.friend-circles-en.md) 🆕
+- [0609.find-duplicate-file-in-system (Not Translated Yet)](./problems/609.find-duplicate-file-in-system.md)
+- [0875.koko-eating-bananas (Not Translated Yet)](./problems/875.koko-eating-bananas.md)
+- [0877.stone-game (Not Translated Yet)](./problems/877.stone-game.md)
+- [0887.super-egg-drop (Not Translated Yet)](./problems/887.super-egg-drop.md)
+- [0900.rle-iterator (Not Translated Yet)](./problems/900.rle-iterator.md)
+- [0912.sort-an-array (Not Translated Yet)](./problems/912.sort-an-array.md) 🆕
+- [1031.maximum-sum-of-two-non-overlapping-subarrays (Not Translated Yet)](./problems/1031.maximum-sum-of-two-non-overlapping-subarrays.md)
+- [1218.longest-arithmetic-subsequence-of-given-difference.md (Not Translated Yet)](./problems/1218.longest-arithmetic-subsequence-of-given-difference.md) 🆕
 
-#### Hard （Not Translated Yet）
+#### Hard
 
-- [0004.median-of-two-sorted-array](./problems/4.median-of-two-sorted-array.md) 🆕
-- [0023.merge-k-sorted-lists](./problems/23.merge-k-sorted-lists.md)
-- [0025.reverse-nodes-in-k-group](./problems/25.reverse-nodes-in-k-groups-en.md) 🆕
-- [0032.longest-valid-parentheses](./problems/32.longest-valid-parentheses.md) 🆕
-- [0042.trapping-rain-water](./problems/42.trapping-rain-water.md)
-- [0052.N-Queens-II](./problems/52.N-Queens-II.md) 🆕
-- [0124.binary-tree-maximum-path-sum](./problems/124.binary-tree-maximum-path-sum.md)
-- [0128.longest-consecutive-sequence](./problems/128.longest-consecutive-sequence.md)
-- [0145.binary-tree-postorder-traversal](./problems/145.binary-tree-postorder-traversal.md)
-- [0239.sliding-window-maximum](./problems/239.sliding-window-maximum.md)
-- [0295.find-median-from-data-stream](./problems/295.find-median-from-data-stream.md) 🆕
-- [0301.remove-invalid-parentheses](./problems/301.remove-invalid-parentheses.md)
-- [0460.lfu-cache](./problems/460.lfu-cache.md) 🆕
-- [1168.optimize-water-distribution-in-a-village](./problems/1168.optimize-water-distribution-in-a-village-en.md) 🆕
+- [0004.median-of-two-sorted-array (Not Translated Yet)](./problems/4.median-of-two-sorted-array.md) 🆕
+- [0023.merge-k-sorted-lists (Not Translated Yet)](./problems/23.merge-k-sorted-lists.md)
+- [0025.reverse-nodes-in-k-group (Not Translated Yet)](./problems/25.reverse-nodes-in-k-groups-en.md) 🆕
+- [0032.longest-valid-parentheses (Not Translated Yet)](./problems/32.longest-valid-parentheses.md) 🆕
+- [0042.trapping-rain-water (Not Translated Yet)](./problems/42.trapping-rain-water.md)
+- [0052.N-Queens-II (Not Translated Yet)](./problems/52.N-Queens-II.md) 🆕
+- [0124.binary-tree-maximum-path-sum (Not Translated Yet)](./problems/124.binary-tree-maximum-path-sum.md)
+- [0128.longest-consecutive-sequence (Not Translated Yet)](./problems/128.longest-consecutive-sequence.md)
+- [0145.binary-tree-postorder-traversal (Not Translated Yet)](./problems/145.binary-tree-postorder-traversal.md)
+- [0239.sliding-window-maximum (Not Translated Yet)](./problems/239.sliding-window-maximum.md)
+- [0295.find-median-from-data-stream (Not Translated Yet)](./problems/295.find-median-from-data-stream.md) 🆕
+- [0301.remove-invalid-parentheses (Not Translated Yet)](./problems/301.remove-invalid-parentheses.md)
+- [0460.lfu-cache (Not Translated Yet)](./problems/460.lfu-cache.md) 🆕
+- [1168.optimize-water-distribution-in-a-village (Not Translated Yet)](./problems/1168.optimize-water-distribution-in-a-village-en.md) 🆕
 
 ### Summary of Data Structures and Algorithm
 
