@@ -76,13 +76,13 @@ The data structures mainly include:
 - Tree and Graph: Lowest Common Ancestor (LCA); Disjoint-Set
 - String: Prefix Tree (Trie); Suffix Tree
 
-## Previews（Not Translated Yet）
+## Previews (Translation in Progress)
 
 [0042.trapping-rain-water](./problems/42.trapping-rain-water.md):
 
 ![0042.trapping-rain-water](./assets/problems/42.trapping-rain-water-1.png)
 
-[0547.friend-circles](./problems/547.friend-circles-en.md):
+[0547.friend-circles](./problems/547.friend-circles-en.md) ✅:
 
 ![friend circle BFS](./assets/problems/547.friend-circle-bfs.png)
 
