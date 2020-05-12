@@ -52,6 +52,7 @@ If you want to do some contributions or collaborations, just feel free to contac
 
 - For the parts that were added recently, there will be a 🆕 behind.
 - For the parts that were updated recently, there will be a 🖊 behind.
+- For the parts that have been translated, there will be a ✅ behind.
 - Here will be the place to update Anki Flashcards in the future as well.
 - Here is a mind mapping graph showing the summary of categorizations of problems that are questioned frequently in interviews. We could analyze according to the information in the graph.
 
@@ -76,13 +77,13 @@ The data structures mainly include:
 - Tree and Graph: Lowest Common Ancestor (LCA); Disjoint-Set
 - String: Prefix Tree (Trie); Suffix Tree
 
-## Previews（Not Translated Yet）
+## Previews (Translation in Progress)
 
 [0042.trapping-rain-water](./problems/42.trapping-rain-water.md):
 
 ![0042.trapping-rain-water](./assets/problems/42.trapping-rain-water-1.png)
 
-[0547.friend-circles](./problems/547.friend-circles-en.md):
+[0547.friend-circles](./problems/547.friend-circles-en.md) ✅:
 
 ![friend circle BFS](./assets/problems/547.friend-circle-bfs.png)
 
@@ -110,13 +111,13 @@ The data structures mainly include:
 
 > Here only lists some **representative problems** but not all.
 
-#### Easy （Not Translated Yet）
 
-- [0001.TwoSum](./problems/1.TwoSum.md)🆕
+#### Easy (Translation in Progress)
+- [0001.TwoSum](./problems/1.TwoSum.en.md)🆕✅
 - [0020.Valid Parentheses](./problems/20.validParentheses.md)
 - [0021.MergeTwoSortedLists](./problems/21.MergeTwoSortedLists.md) 🆕
 - [0026.remove-duplicates-from-sorted-array](./problems/26.remove-duplicates-from-sorted-array.md)
-- [0053.maximum-sum-subarray](./problems/53.maximum-sum-subarray-en.md) 🆕
+- [0053.maximum-sum-subarray](./problems/53.maximum-sum-subarray-en.md) 🆕✅
 - [0088.merge-sorted-array](./problems/88.merge-sorted-array.md)
 - [0104.maximum-depth-of-binary-tree](./problems/104.maximum-depth-of-binary-tree.md)
 - [0121.best-time-to-buy-and-sell-stock](./problems/121.best-time-to-buy-and-sell-stock.md)
@@ -145,7 +146,7 @@ The data structures mainly include:
 - [0501.find-mode-in-binary-search-tree](./problems/501.Find-Mode-in-Binary-Search-Tree.md) 🆕
 - [0575.distribute-candies](./problems/575.distribute-candies.md)
 
-#### Medium （Not Translated Yet）
+#### Medium (Translation in Progress)
 
 - [0002. Add Two Numbers](./problems/2.addTwoNumbers.md)
 - [0003. Longest Substring Without Repeating Characters](./problems/3.longestSubstringWithoutRepeatingCharacters.md)
@@ -171,7 +172,7 @@ The data structures mainly include:
 - [0073.set-matrix-zeroes](./problems/73.set-matrix-zeroes.md)
 - [0075.sort-colors](./problems/75.sort-colors.md)
 - [0078.subsets](./problems/78.subsets.md)
-- [0079.word-search](./problems/79.word-search-en.md)
+- [0079.word-search](./problems/79.word-search-en.md) ✅
 - [0086.partition-list](./problems/86.partition-list.md)
 - [0090.subsets-ii](./problems/90.subsets-ii.md)
 - [0091.decode-ways](./problems/91.decode-ways.md)
@@ -211,11 +212,11 @@ The data structures mainly include:
 - [0416.partition-equal-subset-sum](./problems/416.partition-equal-subset-sum.md)
 - [0445.add-two-numbers-ii](./problems/445.add-two-numbers-ii.md)
 - [0454.4-sum-ii](./problems/454.4-sum-ii.md)
-- [0474.ones-and-zeros](./problems/474.ones-and-zeros-en.md)
+- [0474.ones-and-zeros](./problems/474.ones-and-zeros-en.md)✅
 - [0494.target-sum](./problems/494.target-sum.md)
 - [0516.longest-palindromic-subsequence](./problems/516.longest-palindromic-subsequence.md)
 - [0518.coin-change-2](./problems/518.coin-change-2.md)
-- [0547.friend-circles](./problems/547.friend-circles-en.md) 🆕
+- [0547.friend-circles](./problems/547.friend-circles-en.md) 🆕✅
 - [0609.find-duplicate-file-in-system](./problems/609.find-duplicate-file-in-system.md)
 - [0875.koko-eating-bananas](./problems/875.koko-eating-bananas.md)
 - [0877.stone-game](./problems/877.stone-game.md)
@@ -225,11 +226,12 @@ The data structures mainly include:
 - [1031.maximum-sum-of-two-non-overlapping-subarrays](./problems/1031.maximum-sum-of-two-non-overlapping-subarrays.md)
 - [1218.longest-arithmetic-subsequence-of-given-difference.md](./problems/1218.longest-arithmetic-subsequence-of-given-difference.md) 🆕
 
-#### Hard （Not Translated Yet）
+
+#### Hard (Translation in Progress)
 
 - [0004.median-of-two-sorted-array](./problems/4.median-of-two-sorted-array.md) 🆕
 - [0023.merge-k-sorted-lists](./problems/23.merge-k-sorted-lists.md)
-- [0025.reverse-nodes-in-k-group](./problems/25.reverse-nodes-in-k-groups-en.md) 🆕
+- [0025.reverse-nodes-in-k-group](./problems/25.reverse-nodes-in-k-groups-en.md) 🆕✅
 - [0032.longest-valid-parentheses](./problems/32.longest-valid-parentheses.md) 🆕
 - [0042.trapping-rain-water](./problems/42.trapping-rain-water.md)
 - [0052.N-Queens-II](./problems/52.N-Queens-II.md) 🆕
@@ -240,12 +242,12 @@ The data structures mainly include:
 - [0295.find-median-from-data-stream](./problems/295.find-median-from-data-stream.md) 🆕
 - [0301.remove-invalid-parentheses](./problems/301.remove-invalid-parentheses.md)
 - [0460.lfu-cache](./problems/460.lfu-cache.md) 🆕
-- [1168.optimize-water-distribution-in-a-village](./problems/1168.optimize-water-distribution-in-a-village-en.md) 🆕
+- [1168.optimize-water-distribution-in-a-village](./problems/1168.optimize-water-distribution-in-a-village-en.md) 🆕✅
 
 ### Summary of Data Structures and Algorithm
 
 - [Data Structure](./thinkings/basic-data-structure-en.md) (Drafts)
-- [Basic Algorithm](./thinkings/basic-algorithm-en.md)Drafts
+- [Basic Algorithm](./thinkings/basic-algorithm-en.md)(Drafts)
 - [Binary Tree Traversal](./thinkings/binary-tree-traversal-en.md)
 - [Dynamic Programming](./thinkings/dynamic-programming-en.md)
 - [Huffman Encode and Run Length Encode](./thinkings/run-length-encode-and-huffman-encode-en.md)
