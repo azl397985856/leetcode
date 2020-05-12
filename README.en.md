@@ -248,7 +248,7 @@ The data structures mainly include:
 
 - [Data Structure](./thinkings/basic-data-structure-en.md) (Drafts)
 - [Basic Algorithm](./thinkings/basic-algorithm-en.md)(Drafts)
-- [Binary Tree Traversal](./thinkings/binary-tree-traversal-en.md)
+- [Binary Tree Traversal](./thinkings/binary-tree-traversal.en.md)✅
 - [Dynamic Programming](./thinkings/dynamic-programming-en.md)
 - [Huffman Encode and Run Length Encode](./thinkings/run-length-encode-and-huffman-encode-en.md)
 - [Bloom Filter](./thinkings/bloom-filter-en.md)
