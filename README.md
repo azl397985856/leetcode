@@ -228,6 +228,7 @@ leetcode 题解，记录自己的 leetcode 解题之路。
 - [0322.coin-change](./problems/322.coin-change.md)
 - [0328.odd-even-linked-list](./problems/328.odd-even-linked-list.md)
 - [0334.increasing-triplet-subsequence](./problems/334.increasing-triplet-subsequence.md)
+- [0343.integer-break](./problems/343.integer-break.md)🆕
 - [0365.water-and-jug-problem](./problems/365.water-and-jug-problem.md)
 - [0378.kth-smallest-element-in-a-sorted-matrix](./problems/378.kth-smallest-element-in-a-sorted-matrix.md)
 - [0380.insert-delete-getrandom-o1](./problems/380.insert-delete-getrandom-o1.md)🆕
@@ -246,23 +247,23 @@ leetcode 题解，记录自己的 leetcode 解题之路。
 - [0877.stone-game](./problems/877.stone-game.md)
 - [0887.super-egg-drop](./problems/887.super-egg-drop.md)
 - [0900.rle-iterator](./problems/900.rle-iterator.md)
-- [0912.sort-an-array](./problems/912.sort-an-array.md) 🆕
+- [0912.sort-an-array](./problems/912.sort-an-array.md)
 - [0935.knight-dialer](./problems/935.knight-dialer.md) 🆕
-- [1011.capacity-to-ship-packages-within-d-days](./problems/1011.capacity-to-ship-packages-within-d-days.md) 🆕
+- [1011.capacity-to-ship-packages-within-d-days](./problems/1011.capacity-to-ship-packages-within-d-days.md)
 - [1014.best-sightseeing-pair](./problems/1014.best-sightseeing-pair.md) 🆕
-- [1015.smallest-integer-divisible-by-k](./problems/1015.smallest-integer-divisible-by-k.md) 🆕
+- [1015.smallest-integer-divisible-by-k](./problems/1015.smallest-integer-divisible-by-k.md)
 - [1019.next-greater-node-in-linked-list](./problems/1019.next-greater-node-in-linked-list.md) 🆕
-- [1020.number-of-enclaves](./problems/1020.number-of-enclaves.md) 🆕
-- [1023.camelcase-matching](./problems/1023.camelcase-matching.md) 🆕
+- [1020.number-of-enclaves](./problems/1020.number-of-enclaves.md)
+- [1023.camelcase-matching](./problems/1023.camelcase-matching.md)
 - [1031.maximum-sum-of-two-non-overlapping-subarrays](./problems/1031.maximum-sum-of-two-non-overlapping-subarrays.md)
-- [1104.path-in-zigzag-labelled-binary-tree](./problems/1104.path-in-zigzag-labelled-binary-tree.md) 🆕
-- [1131.maximum-of-absolute-value-expression](./problems/1131.maximum-of-absolute-value-expression.md) 🆕
+- [1104.path-in-zigzag-labelled-binary-tree](./problems/1104.path-in-zigzag-labelled-binary-tree.md)
+- [1131.maximum-of-absolute-value-expression](./problems/1131.maximum-of-absolute-value-expression.md)
 - [1186.maximum-subarray-sum-with-one-deletion](./problems/1186.maximum-subarray-sum-with-one-deletion.md) 🆕
-- [1218.longest-arithmetic-subsequence-of-given-difference](./problems/1218.longest-arithmetic-subsequence-of-given-difference.md) 🆕
-- [1227.airplane-seat-assignment-probability](./problems/1227.airplane-seat-assignment-probability.md) 🆕
-- [1261.find-elements-in-a-contaminated-binary-tree](./problems/1261.find-elements-in-a-contaminated-binary-tree.md) 🆕
-- [1262.greatest-sum-divisible-by-three](./problems/1262.greatest-sum-divisible-by-three.md) 🆕
-- [1297.maximum-number-of-occurrences-of-a-substring](./problems/1297.maximum-number-of-occurrences-of-a-substring.md) 🆕
+- [1218.longest-arithmetic-subsequence-of-given-difference](./problems/1218.longest-arithmetic-subsequence-of-given-difference.md)
+- [1227.airplane-seat-assignment-probability](./problems/1227.airplane-seat-assignment-probability.md)
+- [1261.find-elements-in-a-contaminated-binary-tree](./problems/1261.find-elements-in-a-contaminated-binary-tree.md)
+- [1262.greatest-sum-divisible-by-three](./problems/1262.greatest-sum-divisible-by-three.md)
+- [1297.maximum-number-of-occurrences-of-a-substring](./problems/1297.maximum-number-of-occurrences-of-a-substring.md)
 - [1310.xor-queries-of-a-subarray](./problems/1310.xor-queries-of-a-subarray.md) 🆕
 - [1334.find-the-city-with-the-smallest-number-of-neighbors-at-a-threshold-distance](./problems/1334.find-the-city-with-the-smallest-number-of-neighbors-at-a-threshold-distance.md) 🆕
 
