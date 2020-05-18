@@ -247,14 +247,14 @@ The data structures mainly include:
 
 ### Summary of Data Structures and Algorithm
 
-- [Data Structure](./thinkings/basic-data-structure-en.md) (Drafts)
-- [Basic Algorithm](./thinkings/basic-algorithm-en.md)(Drafts)
+- [Data Structure](./thinkings/basic-data-structure-en.md)✅
+- [Basic Algorithm](./thinkings/basic-algorithm-en.md)✅
 - [Binary Tree Traversal](./thinkings/binary-tree-traversal.en.md)✅
-- [Dynamic Programming](./thinkings/dynamic-programming-en.md)
-- [Huffman Encode and Run Length Encode](./thinkings/run-length-encode-and-huffman-encode-en.md)
-- [Bloom Filter](./thinkings/bloom-filter-en.md)
-- [String Problems](./thinkings/string-problems-en.md)
-- [Sliding Window Technique](./thinkings/slide-window.en.md)
+- [Dynamic Programming](./thinkings/dynamic-programming-en.md)✅
+- [Huffman Encode and Run Length Encode](./thinkings/run-length-encode-and-huffman-encode-en.md)✅
+- [Bloom Filter](./thinkings/bloom-filter-en.md)✅
+- [String Problems](./thinkings/string-problems-en.md)✅
+- [Sliding Window Technique](./thinkings/slide-window.en.md)✅
 
 ### Anki Flashcards
 
