@@ -170,10 +170,10 @@ The data structures mainly include:
 - [0062.unique-paths](./problems/62.unique-paths.md)
 - [0073.set-matrix-zeroes](./problems/73.set-matrix-zeroes.md)
 - [0075.sort-colors](./problems/75.sort-colors.md)
-- [0078.subsets](./problems/78.subsets-en.md)
+- [0078.subsets](./problems/78.subsets-en.md)✅
 - [0079.word-search](./problems/79.word-search-en.md) ✅
 - [0086.partition-list](./problems/86.partition-list.md)
-- [0090.subsets-ii](./problems/90.subsets-ii-en.md)
+- [0090.subsets-ii](./problems/90.subsets-ii-en.md)✅
 - [0091.decode-ways](./problems/91.decode-ways.md)
 - [0092.reverse-linked-list-ii](./problems/92.reverse-linked-list-ii.md)
 - [0094.binary-tree-inorder-traversal](./problems/94.binary-tree-inorder-traversal.md)
