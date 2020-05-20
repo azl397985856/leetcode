@@ -84,4 +84,4 @@ Some problems here are intuitive that you know the sliding window technique woul
 
 ## Further Readings
 
-- [LeetCode Sliding Window Series Discussion](https://leetcode.com/problems/binary-subarrays-with-sum/discuss/186683/)
+- [LeetCode Sliding Window Series Discussion](https://leetcode.com/problems/binary-subarrays-with-sum/discuss/186683/)（English）
