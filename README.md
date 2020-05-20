@@ -266,6 +266,7 @@ leetcode 题解，记录自己的 leetcode 解题之路。
 - [1297.maximum-number-of-occurrences-of-a-substring](./problems/1297.maximum-number-of-occurrences-of-a-substring.md)
 - [1310.xor-queries-of-a-subarray](./problems/1310.xor-queries-of-a-subarray.md) 🆕
 - [1334.find-the-city-with-the-smallest-number-of-neighbors-at-a-threshold-distance](./problems/1334.find-the-city-with-the-smallest-number-of-neighbors-at-a-threshold-distance.md) 🆕
+- [1371.find-the-longest-substring-containing-vowels-in-even-counts](./problems/1371.find-the-longest-substring-containing-vowels-in-even-counts.md) 🆕
 
 #### 困难难度
 
@@ -306,12 +307,13 @@ leetcode 题解，记录自己的 leetcode 解题之路。
 - [《构造二叉树》专题](https://lucifer.ren/blog/2020/02/08/%E6%9E%84%E9%80%A0%E4%BA%8C%E5%8F%89%E6%A0%91%E4%B8%93%E9%A2%98/)
 - [《贪婪策略》专题](./thinkings/greedy.md)
 - [《深度优先遍历》专题](./thinkings/DFS.md)
-- [滑动窗口（思路 + 模板）](./thinkings/slide-window.md) 🆕
+- [滑动窗口（思路 + 模板）](./thinkings/slide-window.md)
 - [位运算](./thinkings/bit.md) 🆕
 - [设计题](./thinkings/design.md) 🆕
 - [小岛问题](./thinkings/island.md) 🆕
 - [最大公约数](./thinkings/GCD.md) 🆕
 - [并查集](./thinkings/union-find.md) 🆕
+- [前缀和](./thinkings/prefix.md) 🆕
 
 ### anki 卡片
 
