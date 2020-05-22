@@ -226,6 +226,7 @@ The data structures mainly include:
 - [0912.sort-an-array](./problems/912.sort-an-array.md) 🆕
 - [1031.maximum-sum-of-two-non-overlapping-subarrays](./problems/1031.maximum-sum-of-two-non-overlapping-subarrays.md)
 - [1218.longest-arithmetic-subsequence-of-given-difference.md](./problems/1218.longest-arithmetic-subsequence-of-given-difference.md) 🆕
+- [1371.find-the-longest-substring-containing-vowels-in-even-counts](./problems/1371.find-the-longest-substring-containing-vowels-in-even-counts.en.md) 🆕✅
 
 
 #### Hard (Translation in Progress)
