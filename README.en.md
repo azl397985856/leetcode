@@ -223,6 +223,7 @@ The data structures mainly include:
 - [0887.super-egg-drop](./problems/887.super-egg-drop.md)
 - [0900.rle-iterator](./problems/900.rle-iterator.md)
 - [0912.sort-an-array](./problems/912.sort-an-array.md) 🆕
+- [1011.capacity-to-ship-packages-within-d-days](./problems/1011.capacity-to-ship-packages-within-d-days-en.md) 🆕✅
 - [1031.maximum-sum-of-two-non-overlapping-subarrays](./problems/1031.maximum-sum-of-two-non-overlapping-subarrays.md)
 - [1218.longest-arithmetic-subsequence-of-given-difference.md](./problems/1218.longest-arithmetic-subsequence-of-given-difference.md) 🆕
 - [1371.find-the-longest-substring-containing-vowels-in-even-counts](./problems/1371.find-the-longest-substring-containing-vowels-in-even-counts.en.md) 🆕✅
