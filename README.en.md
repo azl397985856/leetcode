@@ -52,6 +52,7 @@ If you want to do some contributions or collaborations, just feel free to contac
 
 - For the parts that were added recently, there will be a 🆕 behind.
 - For the parts that were updated recently, there will be a 🖊 behind.
+- For the parts that have been translated, there will be a ✅ behind.
 - Here will be the place to update Anki Flashcards in the future as well.
 - Here is a mind mapping graph showing the summary of categorizations of problems that are questioned frequently in interviews. We could analyze according to the information in the graph.
 
