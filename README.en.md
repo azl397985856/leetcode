@@ -4,8 +4,8 @@
 [![Travis](https://img.shields.io/badge/language-JavaScript-yellow.svg)]()
 [![Travis](https://img.shields.io/badge/language-Python-red.svg)]()
 [![Travis](https://img.shields.io/badge/language-Java-blue.svg)]()
-![Total visitor](https://visitor-count-badge.herokuapp.com/total.svg?repo_id=azl397985856.leetcode)
-![Visitors in today](https://visitor-count-badge.herokuapp.com/today.svg?repo_id=azl397985856.leetcode)
+![Total visitor](https://visitor-count-badge.herokuapp.com/total.svg?repo_id=azl397985856.leetcode.en)
+![Visitors in today](https://visitor-count-badge.herokuapp.com/today.svg?repo_id=azl397985856.leetcode.en)
 
 > since 2019-09-03 19:40
 
@@ -87,7 +87,7 @@ The data structures mainly include:
 
 ![friend circle BFS](./assets/problems/547.friend-circle-bfs.png)
 
-[backtrack problems](./problems/90.subsets-ii.md):
+[backtrack problems](./problems/90.subsets-ii-en.md):
 
 ![backtrack](./assets/problems/backtrack.png)
 
@@ -111,7 +111,10 @@ The data structures mainly include:
 
 > Here only lists some **representative problems** but not all.
 
+<<<<<<< HEAD
 
+=======
+>>>>>>> upstream/master
 #### Easy (Translation in Progress)
 - [0001.TwoSum](./problems/1.TwoSum.en.md)🆕✅
 - [0020.Valid Parentheses](./problems/20.validParentheses.md)
@@ -148,7 +151,7 @@ The data structures mainly include:
 
 #### Medium (Translation in Progress)
 
-- [0002. Add Two Numbers](./problems/2.addTwoNumbers.md)
+- [0002. Add Two Numbers](./problems/2.addTwoNumbers.en.md) ✅
 - [0003. Longest Substring Without Repeating Characters](./problems/3.longestSubstringWithoutRepeatingCharacters.md)
 - [0005.longest-palindromic-substring](./problems/5.longest-palindromic-substring.md)
 - [0011.container-with-most-water](./problems/11.container-with-most-water.md)
@@ -171,10 +174,14 @@ The data structures mainly include:
 - [0062.unique-paths](./problems/62.unique-paths.md)
 - [0073.set-matrix-zeroes](./problems/73.set-matrix-zeroes.md)
 - [0075.sort-colors](./problems/75.sort-colors.md)
+<<<<<<< HEAD
 - [0078.subsets](./problems/78.subsets.md)
+=======
+- [0078.subsets](./problems/78.subsets-en.md)✅
+>>>>>>> upstream/master
 - [0079.word-search](./problems/79.word-search-en.md) ✅
 - [0086.partition-list](./problems/86.partition-list.md)
-- [0090.subsets-ii](./problems/90.subsets-ii.md)
+- [0090.subsets-ii](./problems/90.subsets-ii-en.md)✅
 - [0091.decode-ways](./problems/91.decode-ways.md)
 - [0092.reverse-linked-list-ii](./problems/92.reverse-linked-list-ii.md)
 - [0094.binary-tree-inorder-traversal](./problems/94.binary-tree-inorder-traversal.md)
@@ -217,17 +224,26 @@ The data structures mainly include:
 - [0516.longest-palindromic-subsequence](./problems/516.longest-palindromic-subsequence.md)
 - [0518.coin-change-2](./problems/518.coin-change-2.md)
 - [0547.friend-circles](./problems/547.friend-circles-en.md) 🆕✅
+<<<<<<< HEAD
+=======
 - [0560.subarray-sum-equals-k](./problems/560.subarray-sum-equals-k.en.md) ✅
+>>>>>>> upstream/master
 - [0609.find-duplicate-file-in-system](./problems/609.find-duplicate-file-in-system.md)
 - [0875.koko-eating-bananas](./problems/875.koko-eating-bananas.md)
 - [0877.stone-game](./problems/877.stone-game.md)
 - [0887.super-egg-drop](./problems/887.super-egg-drop.md)
 - [0900.rle-iterator](./problems/900.rle-iterator.md)
 - [0912.sort-an-array](./problems/912.sort-an-array.md) 🆕
+- [1011.capacity-to-ship-packages-within-d-days](./problems/1011.capacity-to-ship-packages-within-d-days-en.md) 🆕✅
 - [1031.maximum-sum-of-two-non-overlapping-subarrays](./problems/1031.maximum-sum-of-two-non-overlapping-subarrays.md)
 - [1218.longest-arithmetic-subsequence-of-given-difference.md](./problems/1218.longest-arithmetic-subsequence-of-given-difference.md) 🆕
+- [1371.find-the-longest-substring-containing-vowels-in-even-counts](./problems/1371.find-the-longest-substring-containing-vowels-in-even-counts.en.md) 🆕✅
 
 
+<<<<<<< HEAD
+
+=======
+>>>>>>> upstream/master
 #### Hard (Translation in Progress)
 
 - [0004.median-of-two-sorted-array](./problems/4.median-of-two-sorted-array.md) 🆕
