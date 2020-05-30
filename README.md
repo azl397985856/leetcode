@@ -277,14 +277,14 @@ leetcode 题解，记录自己的 leetcode 解题之路。
 - [0032.longest-valid-parentheses](./problems/32.longest-valid-parentheses.md)
 - [0042.trapping-rain-water](./problems/42.trapping-rain-water.md)
 - [0052.N-Queens-II](./problems/52.N-Queens-II.md) 🆕
-- [0084.largest-rectangle-in-histogram](./problems/84.largest-rectangle-in-histogram.md) 🆕
+- [0084.largest-rectangle-in-histogram](./problems/84.largest-rectangle-in-histogram.md)
 - [0085.maximal-rectangle](./problems/85.maximal-rectangle.md)
 - [0124.binary-tree-maximum-path-sum](./problems/124.binary-tree-maximum-path-sum.md)
 - [0128.longest-consecutive-sequence](./problems/128.longest-consecutive-sequence.md)
 - [0145.binary-tree-postorder-traversal](./problems/145.binary-tree-postorder-traversal.md)
 - [0212.word-search-ii](./problems/212.word-search-ii.md) 🆕
 - [0239.sliding-window-maximum](./problems/239.sliding-window-maximum.md)
-- [0295.find-median-from-data-stream](./problems/295.find-median-from-data-stream.md) 🆕
+- [0295.find-median-from-data-stream](./problems/295.find-median-from-data-stream.md)
 - [0301.remove-invalid-parentheses](./problems/301.remove-invalid-parentheses.md)
 - [0335.self-crossPing](./problems/335.self-crossing.md) 🆕
 - [0460.lfu-cache](./problems/460.lfu-cache.md)
@@ -292,6 +292,7 @@ leetcode 题解，记录自己的 leetcode 解题之路。
 - [0493.reverse-pairs](./problems/493.reverse-pairs.md) 🆕
 - [0895.maximum-frequency-stack](./problems/895.maximum-frequency-stack.md) 🆕
 - [1168.optimize-water-distribution-in-a-village](./problems/1168.optimize-water-distribution-in-a-village-cn.md) 🆕
+- [1449.form-largest-integer-with-digits-that-add-up-to-target](./problesm/1449.form-largest-integer-with-digits-that-add-up-to-target.md) 🆕
 
 ### 数据结构与算法的总结
 
