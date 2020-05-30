@@ -292,7 +292,7 @@ leetcode 题解，记录自己的 leetcode 解题之路。
 - [0493.reverse-pairs](./problems/493.reverse-pairs.md) 🆕
 - [0895.maximum-frequency-stack](./problems/895.maximum-frequency-stack.md) 🆕
 - [1168.optimize-water-distribution-in-a-village](./problems/1168.optimize-water-distribution-in-a-village-cn.md) 🆕
-- [1449.form-largest-integer-with-digits-that-add-up-to-target](./problesm/1449.form-largest-integer-with-digits-that-add-up-to-target.md) 🆕
+- [1449.form-largest-integer-with-digits-that-add-up-to-target](./problems/1449.form-largest-integer-with-digits-that-add-up-to-target.md) 🆕
 
 ### 数据结构与算法的总结
 
