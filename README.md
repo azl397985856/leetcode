@@ -283,11 +283,12 @@ leetcode 题解，记录自己的 leetcode 解题之路。
 - [0124.binary-tree-maximum-path-sum](./problems/124.binary-tree-maximum-path-sum.md)
 - [0128.longest-consecutive-sequence](./problems/128.longest-consecutive-sequence.md)
 - [0145.binary-tree-postorder-traversal](./problems/145.binary-tree-postorder-traversal.md)
-- [0212.word-search-ii](./problems/212.word-search-ii.md) 🆕
+- [0212.word-search-ii](./problems/212.word-search-ii.md)
 - [0239.sliding-window-maximum](./problems/239.sliding-window-maximum.md)
 - [0295.find-median-from-data-stream](./problems/295.find-median-from-data-stream.md)
 - [0301.remove-invalid-parentheses](./problems/301.remove-invalid-parentheses.md)
-- [0335.self-crossPing](./problems/335.self-crossing.md) 🆕
+- [0312.burst-balloons](./problems/312.burst-balloons.md) 🆕
+- [0335.self-crossPing](./problems/335.self-crossing.md)
 - [0460.lfu-cache](./problems/460.lfu-cache.md)
 - [0472.concatenated-words](./problems/472.concatenated-words.md) 🆕
 - [0493.reverse-pairs](./problems/493.reverse-pairs.md) 🆕
