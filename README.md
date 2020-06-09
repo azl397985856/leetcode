@@ -6,7 +6,7 @@
 [![Travis](https://img.shields.io/badge/language-Java-blue.svg)]()
 
 [![](https://img.shields.io/badge/WeChat-微信群-brightgreen)](#关注我)
-[![](https://img.shields.io/badge/公众号-脑洞前端-blueviolet)](#关注我)
+[![](https://img.shields.io/badge/公众号-力扣加加-blueviolet)](#关注我)
 [![](https://img.shields.io/badge/Juejin-掘金-blue)](https://juejin.im/user/58af98305c497d0067780b3b)
 [![](https://img.shields.io/badge/Zhihu-知乎-blue)](https://www.zhihu.com/people/lu-xiao-13-70)
 [![](https://img.shields.io/badge/bilili-哔哩哔哩-ff69b4)](https://space.bilibili.com/519510412/)
@@ -125,16 +125,17 @@ leetcode 题解，记录自己的 leetcode 解题之路。
 
 #### 简单难度
 
-- [0001.TwoSum](./problems/1.TwoSum.md) 🆕
+- [0001.TwoSum](./problems/1.TwoSum.md)
 - [0020.Valid Parentheses](./problems/20.validParentheses.md)
-- [0021.MergeTwoSortedLists](./problems/21.MergeTwoSortedLists.md) 🆕
+- [0021.MergeTwoSortedLists](./problems/21.MergeTwoSortedLists.md)
 - [0026.remove-duplicates-from-sorted-array](./problems/26.remove-duplicates-from-sorted-array.md)
-- [0053.maximum-sum-subarray](./problems/53.maximum-sum-subarray-cn.md) 🆕
+- [0053.maximum-sum-subarray](./problems/53.maximum-sum-subarray-cn.md)
 - [0088.merge-sorted-array](./problems/88.merge-sorted-array.md)
+- [0101.symmetric-tree](./problems/101.symmetric-tree.md)🆕
 - [0104.maximum-depth-of-binary-tree](./problems/104.maximum-depth-of-binary-tree.md)
 - [0121.best-time-to-buy-and-sell-stock](./problems/121.best-time-to-buy-and-sell-stock.md)
 - [0122.best-time-to-buy-and-sell-stock-ii](./problems/122.best-time-to-buy-and-sell-stock-ii.md)
-- [0125.valid-palindrome](./problems/125.valid-palindrome.md) 🆕
+- [0125.valid-palindrome](./problems/125.valid-palindrome.md)
 - [0136.single-number](./problems/136.single-number.md)
 - [0155.min-stack](./problems/155.min-stack.md) 🆕
 - [0167.two-sum-ii-input-array-is-sorted](./problems/167.two-sum-ii-input-array-is-sorted.md)
@@ -232,7 +233,7 @@ leetcode 题解，记录自己的 leetcode 解题之路。
 - [0365.water-and-jug-problem](./problems/365.water-and-jug-problem.md)
 - [0378.kth-smallest-element-in-a-sorted-matrix](./problems/378.kth-smallest-element-in-a-sorted-matrix.md)
 - [0380.insert-delete-getrandom-o1](./problems/380.insert-delete-getrandom-o1.md)🆕
-- [0416.partition-equal-subset-sum](./problems/416.partition-equal-subset-sum.md)
+- [0416.partition-equal-subset-sum](./problems/416.partition-equal-subset-sum.md)🖊
 - [0445.add-two-numbers-ii](./problems/445.add-two-numbers-ii.md)
 - [0454.4-sum-ii](./problems/454.4-sum-ii.md)
 - [0474.ones-and-zeros](./problems/474.ones-and-zeros-en.md)
@@ -245,7 +246,6 @@ leetcode 题解，记录自己的 leetcode 解题之路。
 - [0820.short-encoding-of-words](./problems/820.short-encoding-of-words.md) 🆕
 - [0875.koko-eating-bananas](./problems/875.koko-eating-bananas.md)
 - [0877.stone-game](./problems/877.stone-game.md)
-- [0887.super-egg-drop](./problems/887.super-egg-drop.md)
 - [0900.rle-iterator](./problems/900.rle-iterator.md)
 - [0912.sort-an-array](./problems/912.sort-an-array.md)
 - [0935.knight-dialer](./problems/935.knight-dialer.md) 🆕
@@ -277,21 +277,24 @@ leetcode 题解，记录自己的 leetcode 解题之路。
 - [0032.longest-valid-parentheses](./problems/32.longest-valid-parentheses.md)
 - [0042.trapping-rain-water](./problems/42.trapping-rain-water.md)
 - [0052.N-Queens-II](./problems/52.N-Queens-II.md) 🆕
-- [0084.largest-rectangle-in-histogram](./problems/84.largest-rectangle-in-histogram.md) 🆕
+- [0084.largest-rectangle-in-histogram](./problems/84.largest-rectangle-in-histogram.md)
 - [0085.maximal-rectangle](./problems/85.maximal-rectangle.md)
 - [0124.binary-tree-maximum-path-sum](./problems/124.binary-tree-maximum-path-sum.md)
 - [0128.longest-consecutive-sequence](./problems/128.longest-consecutive-sequence.md)
 - [0145.binary-tree-postorder-traversal](./problems/145.binary-tree-postorder-traversal.md)
-- [0212.word-search-ii](./problems/212.word-search-ii.md) 🆕
+- [0212.word-search-ii](./problems/212.word-search-ii.md)
 - [0239.sliding-window-maximum](./problems/239.sliding-window-maximum.md)
-- [0295.find-median-from-data-stream](./problems/295.find-median-from-data-stream.md) 🆕
+- [0295.find-median-from-data-stream](./problems/295.find-median-from-data-stream.md)
 - [0301.remove-invalid-parentheses](./problems/301.remove-invalid-parentheses.md)
-- [0335.self-crossPing](./problems/335.self-crossing.md) 🆕
+- [0312.burst-balloons](./problems/312.burst-balloons.md) 🆕
+- [0335.self-crossPing](./problems/335.self-crossing.md)
 - [0460.lfu-cache](./problems/460.lfu-cache.md)
 - [0472.concatenated-words](./problems/472.concatenated-words.md) 🆕
 - [0493.reverse-pairs](./problems/493.reverse-pairs.md) 🆕
+- [0887.super-egg-drop](./problems/887.super-egg-drop.md)
 - [0895.maximum-frequency-stack](./problems/895.maximum-frequency-stack.md) 🆕
 - [1168.optimize-water-distribution-in-a-village](./problems/1168.optimize-water-distribution-in-a-village-cn.md) 🆕
+- [1449.form-largest-integer-with-digits-that-add-up-to-target](./problems/1449.form-largest-integer-with-digits-that-add-up-to-target.md) 🆕
 
 ### 数据结构与算法的总结
 
@@ -367,15 +370,11 @@ anki - 文件 - 导入 - 下拉格式选择“打包的 anki 集合”，然后�
 
 ## 关注我
 
-我重新整理了下自己的公众号，并且我还给它换了一个名字`脑洞前端`，它是一个帮助你打开大前端新世界大门的钥匙 🔑，在这里你可以听到新奇的观点，看到一些技术尝新，还会收到系统性总结和思考。
+点关注，不迷路。如果再给 ➕ 个星标就更棒啦！
 
-在这里我会尽量通过图的形式来阐述一些概念和逻辑，帮助大家快速理解，图解是我的目标。
+> 关注加加，星标加加～
 
-之后我的文章会同步到微信公众号 `脑洞前端` ，你可以关注获取最新的文章，并和我进行交流。
-
-另外你可以回复大前端进大前端微信交流群， 回复 leetcode 拉你进 leetcode 微信群，如果想加入 qq 群，请回复 qq。
-
-<img width="300" src="./assets/gongzhonghao.jpeg">
+<img src="https://tva1.sinaimg.cn/large/007S8ZIlly1gfcuzagjalj30p00dwabs.jpg" width="100%">
 
 ## 捐赠
 
