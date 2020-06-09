@@ -111,10 +111,6 @@ The data structures mainly include:
 
 > Here only lists some **representative problems** but not all.
 
-<<<<<<< HEAD
-
-=======
->>>>>>> upstream/master
 #### Easy (Translation in Progress)
 - [0001.TwoSum](./problems/1.TwoSum.en.md)🆕✅
 - [0020.Valid Parentheses](./problems/20.validParentheses.md)
