@@ -170,11 +170,7 @@ The data structures mainly include:
 - [0062.unique-paths](./problems/62.unique-paths.md)
 - [0073.set-matrix-zeroes](./problems/73.set-matrix-zeroes.md)
 - [0075.sort-colors](./problems/75.sort-colors.md)
-<<<<<<< HEAD
-- [0078.subsets](./problems/78.subsets.md)
-=======
 - [0078.subsets](./problems/78.subsets-en.md)✅
->>>>>>> upstream/master
 - [0079.word-search](./problems/79.word-search-en.md) ✅
 - [0086.partition-list](./problems/86.partition-list.md)
 - [0090.subsets-ii](./problems/90.subsets-ii-en.md)✅
@@ -220,10 +216,7 @@ The data structures mainly include:
 - [0516.longest-palindromic-subsequence](./problems/516.longest-palindromic-subsequence.md)
 - [0518.coin-change-2](./problems/518.coin-change-2.md)
 - [0547.friend-circles](./problems/547.friend-circles-en.md) 🆕✅
-<<<<<<< HEAD
-=======
 - [0560.subarray-sum-equals-k](./problems/560.subarray-sum-equals-k.en.md) ✅
->>>>>>> upstream/master
 - [0609.find-duplicate-file-in-system](./problems/609.find-duplicate-file-in-system.md)
 - [0875.koko-eating-bananas](./problems/875.koko-eating-bananas.md)
 - [0877.stone-game](./problems/877.stone-game.md)
@@ -236,10 +229,6 @@ The data structures mainly include:
 - [1371.find-the-longest-substring-containing-vowels-in-even-counts](./problems/1371.find-the-longest-substring-containing-vowels-in-even-counts.en.md) 🆕✅
 
 
-<<<<<<< HEAD
-
-=======
->>>>>>> upstream/master
 #### Hard (Translation in Progress)
 
 - [0004.median-of-two-sorted-array](./problems/4.median-of-two-sorted-array.md) 🆕
