@@ -142,9 +142,9 @@ leetcode 题解，记录自己的 leetcode 解题之路。
 
 #### 简单难度
 
-- [0001.TwoSum](./problems/1.TwoSum.md)
-- [0020.Valid Parentheses](./problems/20.validParentheses.md)
-- [0021.MergeTwoSortedLists](./problems/21.MergeTwoSortedLists.md)
+- [0001.two-sum](./problems/1.two-sum.md)
+- [0020.Valid Parentheses](./problems/20.valid-parentheses.md)
+- [0021.MergeTwoSortedLists](./problems/21.merge-two-sorted-lists.md)
 - [0026.remove-duplicates-from-sorted-array](./problems/26.remove-duplicates-from-sorted-array.md)
 - [0053.maximum-sum-subarray](./problems/53.maximum-sum-subarray-cn.md)
 - [0088.merge-sorted-array](./problems/88.merge-sorted-array.md)
@@ -181,14 +181,14 @@ leetcode 题解，记录自己的 leetcode 解题之路。
 
 #### 中等难度
 
-- [0002. Add Two Numbers](./problems/2.addTwoNumbers.md)
-- [0003. Longest Substring Without Repeating Characters](./problems/3.longestSubstringWithoutRepeatingCharacters.md)
+- [0002.add-two-numbers](./problems/2.add-two-numbers.md)
+- [0003.longest-substring-without-repeating-characters](./problems/3.longest-substring-without-repeating-characters.md)
 - [0005.longest-palindromic-substring](./problems/5.longest-palindromic-substring.md)
 - [0011.container-with-most-water](./problems/11.container-with-most-water.md)
 - [0015.3-sum](./problems/15.3-sum.md)
 - [0017.Letter-Combinations-of-a-Phone-Number](./problems/17.Letter-Combinations-of-a-Phone-Number.md) 🆕
 - [0019. Remove Nth Node From End of List](./problems/19.removeNthNodeFromEndofList.md)
-- [0022.GenerateParentheses](./problems/22.GenerateParentheses.md) 🆕
+- [0022.generate-parentheses.md](./problems/22.generate-parentheses.md) 🆕
 - [0024. Swap Nodes In Pairs](./problems/24.swapNodesInPairs.md)
 - [0029.divide-two-integers](./problems/29.divide-two-integers.md)
 - [0031.next-permutation](./problems/31.next-permutation.md)
