@@ -79,7 +79,7 @@ The data structures mainly include:
 
 ## Previews (Translation in Progress)
 
-[0042.trapping-rain-water](./problems/42.trapping-rain-water.md):
+[0042.trapping-rain-water](./problems/42.trapping-rain-water.en.md) ✅:
 
 ![0042.trapping-rain-water](./assets/problems/42.trapping-rain-water-1.png)
 
@@ -91,7 +91,7 @@ The data structures mainly include:
 
 ![backtrack](./assets/problems/backtrack.png)
 
-[0198.house-robber](./problems/198.house-robber.md):
+[0198.house-robber](./problems/198.house-robber.en.md) ✅:
 
 ![198.house-robber](./assets/problems/198.house-robber.png)
 
@@ -129,7 +129,7 @@ The data structures mainly include:
 - [0169.majority-element](./problems/169.majority-element.md)
 - [0190.reverse-bits](./problems/190.reverse-bits.md)
 - [0191.number-of-1-bits](./problems/191.number-of-1-bits.md)
-- [0198.house-robber](./problems/198.house-robber.md)
+- [0198.house-robber](./problems/198.house-robber.en.md)✅
 - [0203.remove-linked-list-elements](./problems/203.remove-linked-list-elements.md)
 - [0206.reverse-linked-list](./problems/206.reverse-linked-list.md)
 - [0219.contains-duplicate-ii](./problems/219.contains-duplicate-ii.md)
