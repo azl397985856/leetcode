@@ -102,6 +102,8 @@ The data structures mainly include:
 
 - [0053.maximum-sum-subarray](./problems/53.maximum-sum-subarray-en.md) 🆕
 
+- [0198.house-robber](./problems/198.house-robber.en.md)🆕
+
 #### Medium (Translation in Progress)
 
 - [0002. Add Two Numbers](./problems/2.add-two-numbers.en.md)
