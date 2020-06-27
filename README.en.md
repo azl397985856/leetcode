@@ -123,9 +123,7 @@ The data structures mainly include:
 #### Hard (Translation in Progress)
 
 - [0025.reverse-nodes-in-k-group](./problems/25.reverse-nodes-in-k-groups-en.md) 🆕
-
 - [0042.trapping-rain-water](./problems/42.trapping-rain-water.en.md)🆕
-- [00
 - [1168.optimize-water-distribution-in-a-village](./problems/1168.optimize-water-distribution-in-a-village-en.md) 🆕
 
 ### Summary of Data Structures and Algorithm
