@@ -79,7 +79,7 @@ class Solution:
         return  0 if ans == len(nums) + 1 else ans
 ```
 
-## 题目列表
+## 题目列表（有题解）
 
 以下题目有的信息比较直接，有的题目信息比较隐蔽，需要自己发掘
 
@@ -93,6 +93,7 @@ class Solution:
 - [【1004. 最大连续 1 的个数 III】滑动窗口（Python3）](https://leetcode-cn.com/problems/max-consecutive-ones-iii/solution/1004-zui-da-lian-xu-1de-ge-shu-iii-hua-dong-chuang/)
 - [【1234. 替换子串得到平衡字符串】[Java/C++/Python] Sliding Window](https://leetcode.com/problems/replace-the-substring-for-balanced-string/discuss/408978/javacpython-sliding-window/367697)
 - [【1248. 统计「优美子数组」】滑动窗口（Python）](https://leetcode-cn.com/problems/count-number-of-nice-subarrays/solution/1248-tong-ji-you-mei-zi-shu-zu-hua-dong-chuang-kou/)
+
 
 ## 扩展阅读
 

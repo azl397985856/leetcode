@@ -2,8 +2,7 @@
 
 ## 概述
 
-二叉树作为一个基础的数据结构，遍历算法作为一个基础的算法，两者结合当然是经典的组合了。
-很多题目都会有 ta 的身影，有直接问二叉树的遍历的，有间接问的。
+二叉树作为一个基础的数据结构，遍历算法作为一个基础的算法，两者结合当然是经典的组合了。很多题目都会有 ta 的身影，有直接问二叉树的遍历的，有间接问的。比如要你找到树中满足条件的节点，就是间接考察树的遍历，因为你要找到树中满足条件的点，就需要进行遍历。
 
 > 你如果掌握了二叉树的遍历，那么也许其他复杂的树对于你来说也并不遥远了
 
@@ -139,7 +138,11 @@ class Solution:
         return res
 ```
 
+可以看出，实现上 WHITE 就表示的是递归中的第一次进入过程，Gray 则表示递归中的从叶子节点返回的过程。 因此这种迭代的写法更接近递归写法的本质。
+
 如要实现前序、后序遍历，只需要调整左右子节点的入栈顺序即可。可以看出使用三色标记法， 其写法类似递归的形式，因此便于记忆和书写，缺点是使用了额外的内存空间。不过这个额外的空间是线性的，影响倒是不大。
+
+> 虽然递归也是额外的线性时间，但是递归的栈开销还是比一个 0，1 变量开销大的。
 
 ## Morris 遍历
 
@@ -184,3 +187,15 @@ def MorrisTraversal(root):
 ```
 
 参考： [what-is-morris-traversal](https://www.educative.io/edpresso/what-is-morris-traversal)
+
+## 相关题目
+
+- [lowest-common-ancestor-of-a-binary-tree](https://leetcode-cn.com/problems/lowest-common-ancestor-of-a-binary-tree/)
+- [binary-tree-level-order-traversal](https://leetcode-cn.com/problems/binary-tree-level-order-traversal/)
+- [binary-tree-zigzag-level-order-traversal](https://leetcode-cn.com/problems/binary-tree-zigzag-level-order-traversal/)
+- [validate-binary-search-tree](https://leetcode-cn.com/problems/validate-binary-search-tree/)
+- [maximum-depth-of-binary-tree](https://leetcode-cn.com/problems/maximum-depth-of-binary-tree/)
+- [balanced-binary-tree](https://leetcode-cn.com/problems/balanced-binary-tree/)
+- [binary-tree-level-order-traversal-ii](https://leetcode-cn.com/problems/binary-tree-level-order-traversal-ii/)
+- [binary-tree-maximum-path-sum](https://leetcode-cn.com/problems/binary-tree-maximum-path-sum/)
+- [insert-into-a-binary-search-tree](https://leetcode-cn.com/problems/insert-into-a-binary-search-tree/)
