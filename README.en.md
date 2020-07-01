@@ -111,68 +111,12 @@ The data structures mainly include:
 - [0078.subsets](./problems/78.subsets-en.md)
 - [0079.word-search](./problems/79.word-search-en.md)
 - [0086.partition-list](./problems/86.partition-list.md)
-<<<<<<< HEAD
-- [0090.subsets-ii](./problems/90.subsets-ii.md)
-- [0091.decode-ways](./problems/91.decode-ways.md)
-- [0092.reverse-linked-list-ii](./problems/92.reverse-linked-list-ii.md)
-- [0094.binary-tree-inorder-traversal](./problems/94.binary-tree-inorder-traversal.md)
-- [0098.validate-binary-search-tree](./problems/98.validate-binary-search-tree.md)
-- [0102.binary-tree-level-order-traversal](./problems/102.binary-tree-level-order-traversal.md)
-- [0103.binary-tree-zigzag-level-order-traversal](./problems/103.binary-tree-zigzag-level-order-traversal.md)
-- [105.Construct-Binary-Tree-from-Preorder-and-Inorder-Traversal.md](./problems/105.Construct-Binary-Tree-from-Preorder-and-Inorder-Traversal.md)
-- [0113.path-sum-ii](./problems/113.path-sum-ii.md)
-- [0129.sum-root-to-leaf-numbers](./problems/129.sum-root-to-leaf-numbers.md)
-- [0130.surrounded-regions](./problems/130.surrounded-regions.md)
-- [0131.palindrome-partitioning](./problems/131.palindrome-partitioning.md)
-- [0139.word-break](./problems/139.word-break.md)
-- [0144.binary-tree-preorder-traversal](./problems/144.binary-tree-preorder-traversal.md)
-- [0150.evaluate-reverse-polish-notation](./problems/150.evaluate-reverse-polish-notation.md)
-- [0152.maximum-product-subarray](./problems/152.maximum-product-subarray.md)
-- [0199.binary-tree-right-side-view](./problems/199.binary-tree-right-side-view.md)
-- [0200.number-of-islands](./problems/200.number-of-islands.md) 🆕
-- [0201.bitwise-and-of-numbers-range](./problems/201.bitwise-and-of-numbers-range.md)
-- [0208.implement-trie-prefix-tree](./problems/208.implement-trie-prefix-tree.md)
-- [0209.minimum-size-subarray-sum](./problems/209.minimum-size-subarray-sum.md)
-- [0215.kth-largest-element-in-an-array](./problems/215.kth-largest-element-in-an-array.md) 🆕
-- [0221.maximal-square](./problems/221.maximal-square.md)
-- [0229.majority-element-ii](./problems/229.majority-element-ii.md) 🆕
-- [0230.kth-smallest-element-in-a-bst](./problems/230.kth-smallest-element-in-a-bst.md)
-- [0236.lowest-common-ancestor-of-a-binary-tree](./problems/236.lowest-common-ancestor-of-a-binary-tree.md)
-- [0238.product-of-array-except-self](./problems/238.product-of-array-except-self.md)
-- [0240.search-a-2-d-matrix-ii](./problems/240.search-a-2-d-matrix-ii.md)
-- [0279.perfect-squares](./problems/279.perfect-squares.md)
-- [0309.best-time-to-buy-and-sell-stock-with-cooldown](./problems/309.best-time-to-buy-and-sell-stock-with-cooldown.md)
-- [0322.coin-change](./problems/322.coin-change.md)
-- [0328.odd-even-linked-list](./problems/328.odd-even-linked-list.md)
-- [0334.increasing-triplet-subsequence](./problems/334.increasing-triplet-subsequence.md)
-- [0365.water-and-jug-problem](./problems/365.water-and-jug-problem.md)
-- [0378.kth-smallest-element-in-a-sorted-matrix](./problems/378.kth-smallest-element-in-a-sorted-matrix.md)
-- [0416.partition-equal-subset-sum](./problems/416.partition-equal-subset-sum.md)
-- [0445.add-two-numbers-ii](./problems/445.add-two-numbers-ii.md)
-- [0454.4-sum-ii](./problems/454.4-sum-ii.md)
-- [0474.ones-and-zeros](./problems/474.ones-and-zeros-en.md)✅
-- [0494.target-sum](./problems/494.target-sum.md)
-- [0516.longest-palindromic-subsequence](./problems/516.longest-palindromic-subsequence.md)
-- [0518.coin-change-2](./problems/518.coin-change-2.md)
-- [0547.friend-circles](./problems/547.friend-circles-en.md) 🆕✅
-- [0560.subarray-sum-equals-k](./problems/560.subarray-sum-equals-k.en.md) ✅
-- [0609.find-duplicate-file-in-system](./problems/609.find-duplicate-file-in-system.md)
-- [0875.koko-eating-bananas](./problems/875.koko-eating-bananas.md)
-- [0877.stone-game](./problems/877.stone-game.md)
-- [0887.super-egg-drop](./problems/887.super-egg-drop.md)
-- [0900.rle-iterator](./problems/900.rle-iterator.md)
-- [0912.sort-an-array](./problems/912.sort-an-array.md) 🆕
-- [1031.maximum-sum-of-two-non-overlapping-subarrays](./problems/1031.maximum-sum-of-two-non-overlapping-subarrays.md)
-- [1218.longest-arithmetic-subsequence-of-given-difference.md](./problems/1218.longest-arithmetic-subsequence-of-given-difference.md) 🆕
-- [1371.find-the-longest-substring-containing-vowels-in-even-counts](./problems/1371.find-the-longest-substring-containing-vowels-in-even-counts.en.md) 🆕✅
-=======
 - [0090.subsets-ii](./problems/90.subsets-ii-en.md)
 
 * [0474.ones-and-zeros](./problems/474.ones-and-zeros-en.md)
 
 * [0547.friend-circles](./problems/547.friend-circles-en.md) 🆕
 * [0560.subarray-sum-equals-k](./problems/560.subarray-sum-equals-k.en.md)
->>>>>>> ee214d2f54c362e90fda9c6c8a6a831574c85a07
 
 * [1011.capacity-to-ship-packages-within-d-days](./problems/1011.capacity-to-ship-packages-within-d-days-en.md) 🆕
 
