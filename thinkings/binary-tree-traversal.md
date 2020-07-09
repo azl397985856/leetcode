@@ -146,7 +146,7 @@ class Solution:
 
 ## Morris 遍历
 
-我们可以使用一种叫做 Morris 遍历的方法，既不使用递归也不借助于栈。从而在$O(1)$时间完成这个过程。
+我们可以使用一种叫做 Morris 遍历的方法，既不使用递归也不借助于栈。从而在 $O(1)$ 空间完成这个过程。
 
 ```python
 def MorrisTraversal(root):
