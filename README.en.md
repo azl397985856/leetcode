@@ -139,6 +139,7 @@ The data structures mainly include:
 - [String Problems](./thinkings/string-problems-en.md)
 - [Sliding Window Technique](./thinkings/slide-window.en.md)
 - [Union Find](./thinkings/union-find.en.md) 🆕
+- [Trie](./thinkings/trie.en.md) 🆕
 
 ### Anki Flashcards
 
