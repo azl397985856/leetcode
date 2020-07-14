@@ -1,6 +1,6 @@
 ## Trie
 
-When this article is done (2020-07-13), there are 17 LeetCode problems about [Trie (Prefix Tree)](https://leetcode.com/tag/trie/) Among them, 2 problems are easy, 8 are medium, and 7 are hard.
+When this article is done (2020-07-13), there are 17 LeetCode problems about [Trie (Prefix Tree)](https://leetcode.com/tag/trie/). Among them, 2 problems are easy, 8 are medium, and 7 are hard.
 
 Here we summarize four of them. Once you figure them out, `Trie` should not be a challenge to you anymore. Hope this article is helpful to you.
 
@@ -8,9 +8,9 @@ The main interface of a trie should include the following:
 
 - `insert(word)`: Insert a word
 - `search(word)`: Search for a word
-- `startWith(prefix)`： Search for a word with the given prefix
+- `startWith(prefix)`: Search for a word with the given prefix
 
-Among all of the above, `startWith` is one of the most essential methods, which leads to the naming for 'Prefix Tree'. You can start with [208.implement-trie-prefix-tree](https://leetcode.com/problems/implement-trie-prefix-tree), get yourself familiar with this data structure, and then try to solve other problems.
+Among all of the above, `startWith` is one of the most essential methods, which leads to the naming for 'Prefix Tree'. You can start with [208.implement-trie-prefix-tree](https://leetcode.com/problems/implement-trie-prefix-tree) to get yourself familiar with this data structure, and then try to solve other problems.
 
 Here's the graph illustration of a trie: 
 ![](../assets/problems/208.implement-trie-prefix-tree-1.en.png)
