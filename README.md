@@ -250,7 +250,7 @@ leetcode 题解，记录自己的 leetcode 解题之路。
 - [0343.integer-break](./problems/343.integer-break.md)🆕
 - [0365.water-and-jug-problem](./problems/365.water-and-jug-problem.md)
 - [0378.kth-smallest-element-in-a-sorted-matrix](./problems/378.kth-smallest-element-in-a-sorted-matrix.md)
-- [0380.insert-delete-getrandom-o1](./problems/380.insert-delete-getrandom-o1.md)🆕
+- [0380.insert-delete-getrandom-o1](./problems/380.insert-delete-getrandom-o1.md)
 - [0416.partition-equal-subset-sum](./problems/416.partition-equal-subset-sum.md)🖊
 - [0445.add-two-numbers-ii](./problems/445.add-two-numbers-ii.md)
 - [0454.4-sum-ii](./problems/454.4-sum-ii.md)
@@ -258,13 +258,15 @@ leetcode 题解，记录自己的 leetcode 解题之路。
 - [0494.target-sum](./problems/494.target-sum.md)
 - [0516.longest-palindromic-subsequence](./problems/516.longest-palindromic-subsequence.md)
 - [0518.coin-change-2](./problems/518.coin-change-2.md)
-- [0547.friend-circles](./problems/547.friend-circles-en.md) 🆕
+- [0547.friend-circles](./problems/547.friend-circles-en.md)
 - [0560.subarray-sum-equals-k](./problems/560.subarray-sum-equals-k.md)
 - [0609.find-duplicate-file-in-system](./problems/609.find-duplicate-file-in-system.md)
 - [0718.maximum-length-of-repeated-subarray](./problems/718.maximum-length-of-repeated-subarray.md)
+- [0785.is-graph-bipartite](./problems/785.is-graph-bipartite.md) 🆕
 - [0820.short-encoding-of-words](./problems/820.short-encoding-of-words.md) 🖊
 - [0875.koko-eating-bananas](./problems/875.koko-eating-bananas.md)
 - [0877.stone-game](./problems/877.stone-game.md)
+- [0886.possible-bipartition](./problems/886.possible-bipartition.md) 🆕
 - [0900.rle-iterator](./problems/900.rle-iterator.md)
 - [0912.sort-an-array](./problems/912.sort-an-array.md)
 - [0935.knight-dialer](./problems/935.knight-dialer.md) 🆕
