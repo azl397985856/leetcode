@@ -25,3 +25,4 @@
 - [0212.word-search-ii](https://github.com/azl397985856/leetcode/blob/b0b69f8f11dace3a9040b54532105d42e88e6599/problems/212.word-search-ii.md)
 - [0472.concatenated-words](https://github.com/azl397985856/leetcode/blob/master/problems/472.concatenated-words.md)
 - [0820.short-encoding-of-words](https://github.com/azl397985856/leetcode/blob/master/problems/820.short-encoding-of-words.md)
+- [1032.stream-of-characters](../problems/1032.stream-of-characters.md)
