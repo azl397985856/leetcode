@@ -297,7 +297,7 @@ leetcode 题解，记录自己的 leetcode 解题之路。
 - [0030.substring-with-concatenation-of-all-words](./problems/30.substring-with-concatenation-of-all-words.md)
 - [0032.longest-valid-parentheses](./problems/32.longest-valid-parentheses.md)
 - [0042.trapping-rain-water](./problems/42.trapping-rain-water.md)🖊
-- [0052.N-Queens-II](./problems/52.N-Queens-II.md) 🆕
+- [0052.N-Queens-II](./problems/52.N-Queens-II.md)
 - [0084.largest-rectangle-in-histogram](./problems/84.largest-rectangle-in-histogram.md)
 - [0085.maximal-rectangle](./problems/85.maximal-rectangle.md)
 - [0124.binary-tree-maximum-path-sum](./problems/124.binary-tree-maximum-path-sum.md)
@@ -314,6 +314,8 @@ leetcode 题解，记录自己的 leetcode 解题之路。
 - [0493.reverse-pairs](./problems/493.reverse-pairs.md) 🆕
 - [0887.super-egg-drop](./problems/887.super-egg-drop.md)
 - [0895.maximum-frequency-stack](./problems/895.maximum-frequency-stack.md) 🆕
+
+- [1032.stream-of-characters](./problems/1032.stream-of-characters.md) 🆕
 - [1168.optimize-water-distribution-in-a-village](./problems/1168.optimize-water-distribution-in-a-village-cn.md) 🆕
 - [1449.form-largest-integer-with-digits-that-add-up-to-target](./problems/1449.form-largest-integer-with-digits-that-add-up-to-target.md) 🆕
 
@@ -326,16 +328,16 @@ leetcode 题解，记录自己的 leetcode 解题之路。
 - [哈夫曼编码和游程编码](./thinkings/run-length-encode-and-huffman-encode.md)
 - [布隆过滤器](./thinkings/bloom-filter.md)
 - [字符串问题](./thinkings/string-problems.md)
-- [前缀树专题](./thinkings/trie.md)
+- [前缀树专题](./thinkings/trie.md) 🖊
 - [《日程安排》专题](https://lucifer.ren/blog/2020/02/03/leetcode-%E6%88%91%E7%9A%84%E6%97%A5%E7%A8%8B%E5%AE%89%E6%8E%92%E8%A1%A8%E7%B3%BB%E5%88%97/)
 - [《构造二叉树》专题](https://lucifer.ren/blog/2020/02/08/%E6%9E%84%E9%80%A0%E4%BA%8C%E5%8F%89%E6%A0%91%E4%B8%93%E9%A2%98/)
 - [《贪婪策略》专题](./thinkings/greedy.md)
 - [《深度优先遍历》专题](./thinkings/DFS.md)
 - [滑动窗口（思路 + 模板）](./thinkings/slide-window.md)
 - [位运算](./thinkings/bit.md)
-- [设计题](./thinkings/design.md) 🆕
+- [设计题](./thinkings/design.md)
 - [小岛问题](./thinkings/island.md)
-- [最大公约数](./thinkings/GCD.md) 🆕
+- [最大公约数](./thinkings/GCD.md)
 - [并查集](./thinkings/union-find.md) 🆕
 - [前缀和](./thinkings/prefix.md) 🆕
 - [字典序列删除](https://lucifer.ren/blog/2020/06/13/%E5%88%A0%E9%99%A4%E9%97%AE%E9%A2%98/)🆕
