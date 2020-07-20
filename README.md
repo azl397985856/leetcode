@@ -261,6 +261,7 @@ leetcode 题解，记录自己的 leetcode 解题之路。
 - [0547.friend-circles](./problems/547.friend-circles-en.md)
 - [0560.subarray-sum-equals-k](./problems/560.subarray-sum-equals-k.md)
 - [0609.find-duplicate-file-in-system](./problems/609.find-duplicate-file-in-system.md)
+- [0611.valid-triangle-number](./problems/611.valid-triangle-number.md)
 - [0718.maximum-length-of-repeated-subarray](./problems/718.maximum-length-of-repeated-subarray.md)
 - [0785.is-graph-bipartite](./problems/785.is-graph-bipartite.md) 🆕
 - [0820.short-encoding-of-words](./problems/820.short-encoding-of-words.md) 🖊
