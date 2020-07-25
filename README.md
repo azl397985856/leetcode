@@ -342,6 +342,7 @@ leetcode 题解，记录自己的 leetcode 解题之路。
 - [并查集](./thinkings/union-find.md) 🆕
 - [前缀和](./thinkings/prefix.md) 🆕
 - [字典序列删除](https://lucifer.ren/blog/2020/06/13/%E5%88%A0%E9%99%A4%E9%97%AE%E9%A2%98/)🆕
+- [平衡二叉树专题](./thinkings/balanced-tree.md)
 
 ### anki 卡片
 
