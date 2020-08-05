@@ -247,6 +247,7 @@ leetcode 题解，记录自己的 leetcode 解题之路。
 - [0322.coin-change](./problems/322.coin-change.md)
 - [0328.odd-even-linked-list](./problems/328.odd-even-linked-list.md)
 - [0334.increasing-triplet-subsequence](./problems/334.increasing-triplet-subsequence.md)
+- [0337.house-robber-iii.md](./problems/337.house-robber-iii.md)
 - [0343.integer-break](./problems/343.integer-break.md)🆕
 - [0365.water-and-jug-problem](./problems/365.water-and-jug-problem.md)
 - [0378.kth-smallest-element-in-a-sorted-matrix](./problems/378.kth-smallest-element-in-a-sorted-matrix.md)
