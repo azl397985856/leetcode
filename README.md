@@ -20,7 +20,7 @@
 
 ---
 
-![leetcode.jpeg](./assets/leetcode.jpeg)
+![leetcode.jpeg](https://tva1.sinaimg.cn/large/007S8ZIlly1ghluelm27rj30dw0780sm.jpg)
 
 - 2019-07-10 ：[纪念项目 Star 突破 1W 的一个短文](./thanksGiving.md)， 记录了项目的"兴起"之路，大家有兴趣可以看一下，如果对这个项目感兴趣，请**点击一下 Star**， 项目会**持续更新**，感谢大家的支持。
 
@@ -29,7 +29,7 @@
 - 2020-04-12: [项目突破三万 Star](./thanksGiving3.md)。
 - 2020-04-14: 官网`力扣加加`上线啦 💐💐💐💐💐，有专题讲解，每日一题，下载区和视频题解，后续会增加更多内容，还不赶紧收藏起来？地址：http://leetcode-solution.cn/
 
-![](https://tva1.sinaimg.cn/large/007S8ZIlly1gdvenxvjlsj30z90dtdhw.jpg)
+![](https://tva1.sinaimg.cn/large/007S8ZIlly1ghluemaoj3j30z90dtmy5.jpg)
 
 ## 非科学人士看过来
 
@@ -85,7 +85,7 @@ leetcode 题解，记录自己的 leetcode 解题之路。
 
 - 这里有一张互联网公司面试中经常考察的问题类型总结的思维导图，我们可以结合图片中的信息分析一下。
 
-![leetcode-zhihu](./assets//leetcode-zhihu.jpg)
+![leetcode-zhihu](https://tva1.sinaimg.cn/large/007S8ZIlly1ghluennxvrj30k00jx0te.jpg)
 
 （图片来自 leetcode)
 
@@ -110,7 +110,7 @@ leetcode 题解，记录自己的 leetcode 解题之路。
 
 [0042.trapping-rain-water](./problems/42.trapping-rain-water.md):
 
-![0042.trapping-rain-water](./assets/problems/42.trapping-rain-water-1.png)
+![0042.trapping-rain-water](https://tva1.sinaimg.cn/large/007S8ZIlly1ghlueqdwy3j30bg04hmx3.jpg)
 
 [0547.friend-circles](./problems/547.friend-circles-en.md):
 
@@ -375,11 +375,11 @@ anki - 文件 - 导入 - 下拉格式选择“打包的 anki 集合”，然后�
 
 - [每日一题汇总](./daily/)
 
-![每日一题汇总](./assets/daily-summary.png)
+![每日一题汇总](https://tva1.sinaimg.cn/large/007S8ZIlly1ghluequftmj30p80nrmzc.jpg)
 
 - [每日一题认领区](https://github.com/azl397985856/leetcode/projects/1)
 
-![每日一题认领区](./assets/daily-board.png)
+![每日一题认领区](https://tva1.sinaimg.cn/large/007S8ZIlly1ghlues83n0j315f0i8gug.jpg)
 
 ### 计划
 
