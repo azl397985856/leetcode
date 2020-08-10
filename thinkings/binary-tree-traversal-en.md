@@ -22,7 +22,7 @@ DFS simplifies operations with stack. Meanwhile, a tree is a recursive data stru
 
 Diagrammatic graph of DFS：
 
-![binary-tree-traversal-dfs](../assets/thinkings/binary-tree-traversal-dfs.gif)
+![binary-tree-traversal-dfs](https://tva1.sinaimg.cn/large/007S8ZIlly1ghlug1p3ugg30dw0dw3yl.gif)
 
 (source: https://github.com/trekhleb/javascript-algorithms/tree/master/src/algorithms/tree/depth-first-search)
 
@@ -55,7 +55,7 @@ If we think from this point of view, the algorithm can be different. All nodes i
 
 The whole process is like this:
 
-![binary-tree-traversal-preorder](../assets/thinkings/binary-tree-traversal-preorder.png)
+![binary-tree-traversal-preorder](https://tva1.sinaimg.cn/large/007S8ZIlly1ghlug50aewj30n30azaar.jpg)
 
 This idea is something like the `backtrack`. It is important, because this idea can help us to `unify the understanding of three traversal methods`.
 
@@ -98,7 +98,7 @@ For condition 2, variables are required for recording the traversal status for e
 
 The key point of level-order is recording the traversal status of each level. An identifier bit can be used to represent the status of current level.
 
-![binary-tree-traversal-bfs](../assets/thinkings/binary-tree-traversal-bfs.gif)
+![binary-tree-traversal-bfs](https://tva1.sinaimg.cn/large/007S8ZIlly1ghlug5hg0eg30dw0dw3yl.gif)
 
 (source: https://github.com/trekhleb/javascript-algorithms/tree/master/src/algorithms/tree/breadth-first-search)
 

@@ -178,13 +178,13 @@ class Solution:
 
 和 108 思路一样。 不同的是数据结构的不同，因此我们需要关注的是链表和数组的操作差异。
 
-![](https://tva1.sinaimg.cn/large/007S8ZIlly1ggypywx9eqj31ii0pgdj0.jpg)
+![](https://tva1.sinaimg.cn/large/007S8ZIlly1ghluhp582uj31ii0pgjsw.jpg)
 
 （数组的情况）
 
 我们再来看下链表：
 
-![](https://tva1.sinaimg.cn/large/007S8ZIlly1ggyq5115dbj31q30u0afz.jpg)
+![](https://tva1.sinaimg.cn/large/007S8ZIlly1ghluhpjgtqj31q30u0mzv.jpg)
 （链表的情况）
 
 找到中点，只需要使用经典的快慢指针即可。同时为了防止环的出现， 我们需要斩断指向 mid 的 next 指针，因此需要记录一下中点前的一个节点，这只需要用一个变量 pre 记录即可。
@@ -238,7 +238,7 @@ class Solution:
 
 ```
 
-![](https://tva1.sinaimg.cn/large/007S8ZIlly1ggxvm577m7j306j07rdfw.jpg)
+![](https://tva1.sinaimg.cn/large/007S8ZIlly1ghluhpzr87j306j07r0sm.jpg)
 
 ```
 

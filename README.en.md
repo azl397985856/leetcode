@@ -13,7 +13,7 @@
 
 ---
 
-![leetcode.jpeg](./assets/leetcode.jpeg)
+![leetcode.jpeg](https://tva1.sinaimg.cn/large/007S8ZIlly1ghltwf4xivj30dw0780sm.jpg)
 
 This essay records the course of and my emotion to this project from initialization to 10,000 stars.
 [Milestone for 10,000+ stars](./thanksGiving.md)
@@ -22,7 +22,7 @@ If you are interested in this project, **do not mean your star**. This project w
 
 ## Introduction
 
-![leetcode.jpeg](./assets/leetcode.jpeg)
+![leetcode.jpeg](https://tva1.sinaimg.cn/large/007S8ZIlly1ghltwf4xivj30dw0780sm.jpg)
 
 LeetCode Solutions: A Journey of Problem Solving.
 
@@ -55,7 +55,7 @@ If you want to do some contributions or collaborations, just feel free to contac
 - Here will be the place to update Anki Flashcards in the future as well.
 - Here is a mind mapping graph showing the summary of categorizations of problems that are questioned frequently in interviews. We could analyze according to the information in the graph.
 
-![leetcode-zhihu](./assets//leetcode-zhihu.jpg)
+![leetcode-zhihu](https://tva1.sinaimg.cn/large/007S8ZIlly1ghltwgi53bj30k00jx0te.jpg)
 
 (Picture credited by [LeetCode-cn](https://www.zhihu.com/question/24964987/answer/586425979).)
 
@@ -80,15 +80,15 @@ The data structures mainly include:
 
 [0547.friend-circles](./problems/547.friend-circles-en.md) :
 
-![friend circle BFS](./assets/problems/547.friend-circle-bfs.png)
+![friend circle BFS](https://tva1.sinaimg.cn/large/007S8ZIlly1ghltwh1getj30u0140tdc.jpg)
 
 [backtrack problems](./problems/90.subsets-ii-en.md):
 
-![backtrack](./assets/problems/backtrack.png)
+![backtrack](https://tva1.sinaimg.cn/large/007S8ZIlly1ghltwhwowgj30n20nptas.jpg)
 
 [0454.4-sum-ii](./problems/454.4-sum-ii.en.md) :
 
-![454.4-sum-ii](./assets/problems/454.4-sum-ii.png)
+![454.4-sum-ii](https://tva1.sinaimg.cn/large/007S8ZIlly1ghltwivf65j30le0deab3.jpg)
 
 ## Portals
 
@@ -173,11 +173,11 @@ We're still on the early stage, so feedback from community is very welcome. For 
 
 ### QQ (For China Region)
 
-![qq-group-chat](./assets/qq-group-chat.png)
+![qq-group-chat](https://tva1.sinaimg.cn/large/007S8ZIlly1ghltwje9plj3060060wel.jpg)
 
 ### WeChat (For China Region)
 
-![wechat-group-chat](./assets/wechat-group-chat.jpeg)
+![wechat-group-chat](https://tva1.sinaimg.cn/large/007S8ZIlly1ghltwjrk6ij30e80e875j.jpg)
 
 (Add this bot and reply "leetcode" to join the group.)
 

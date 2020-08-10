@@ -48,7 +48,7 @@ function sum(nums) {
 
 Let's review this problem intuitively with a recursion tree.
 
-![dynamic-programming-1](../assets/thinkings/dynamic-programming-1.png)
+![dynamic-programming-1](https://tva1.sinaimg.cn/large/007S8ZIlly1ghluhr04bxj30n00ex3za.jpg)
 
 This method works, but not quit good. Because there are certain costs in executing functions. Let's take JS as example.
 For each time a function executed, it requires stack push operations, pre-processing and executing processes. So, recurse a function is easy to cause stack overflow.
@@ -72,7 +72,7 @@ function climbStairs(n) {
 
 This question is just like the `fibnacci` series. Let's have a look at the recursion tree of `fibnacci` question again.
 
-![dynamic-programming-2](../assets/thinkings/dynamic-programming-2.png)
+![dynamic-programming-2](https://tva1.sinaimg.cn/large/007S8ZIlly1ghluhrgqpaj30mz0b2dgk.jpg)
 
 Some results are calculated repeatedly. Just like the red nodes showing. If a structure like `hashtable` is used to store the intermedia results, the reduplicative calculations can be avoided.
 Similarly, DP also uses "table look-up" to solve the problem of reduplicative calculation.
@@ -104,7 +104,7 @@ function climbStairs(n) {
 
 Here is the process of "table look-up" in DP:
 
-![dynamic-programming-3](../assets/thinkings/dynamic-programming-3.png)
+![dynamic-programming-3](https://tva1.sinaimg.cn/large/007S8ZIlly1ghluhsfe5pj30n40cbaaq.jpg)
 
 > dotted box is the "table look-up"
 

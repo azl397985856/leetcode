@@ -38,7 +38,7 @@ eg:
 
 结果是这样的：
 
-![huffman-example](../assets/thinkings/huffman-example-fix.png)
+![huffman-example](https://tva1.sinaimg.cn/large/007S8ZIlly1ghluhusda8j30re0hmabe.jpg)
 
 |character|frequency|encoding|
 |:-:|:-:|:-:|

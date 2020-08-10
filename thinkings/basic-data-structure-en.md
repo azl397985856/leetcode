@@ -30,7 +30,7 @@ Now, let's have a look at some interesting examples.
 
 `hooks` is essentially an array.
 
-![basic-data-structure-hooks.png](../assets/thinkings/basic-data-structure-hooks.png)
+![basic-data-structure-hooks.png](https://tva1.sinaimg.cn/large/007S8ZIlly1ghlug8opb3j30m80bsq3j.jpg)
 
 So, why `hooks` uses array? Maybe we can find the answer from the other side. What if not array?
 
@@ -108,7 +108,7 @@ For the same TCP connection, all HTTP/1.0 requests will be add into a queue. Whi
 
 Just like waiting the traffic lights, if you are on the left-turn or right-turning lane, you cannot move even if the straight lane is good to go when the left/right turning light is still red.
 
-![basic-data-structure-queue-1](../assets/thinkings/basic-data-structure-queue-1.png)
+![basic-data-structure-queue-1](https://tva1.sinaimg.cn/large/007S8ZIlly1ghlugdwut7j30gf0e2dgm.jpg)
 
 `HTTP/1.0` and `HTTP/1.1`:  
 Accoding to `HTTP/1.0` protocal, one TCP connect will be established for each request and be terminated immediately after receiving the corresponding response. And the next HTTP request cannot be sent until the response of previous request has been received.  
@@ -117,7 +117,7 @@ However, according to `HTTP/1.1`， all the responses are reqired to be sent bac
 
 The process can be represented as follow:
 
-![basic-data-structure-queue-2](../assets/thinkings/basic-data-structure-queue-2.png)
+![basic-data-structure-queue-2](https://tva1.sinaimg.cn/large/007S8ZIlly1ghluge9iilj31210d83zr.jpg)
 
 ### Stack
 
@@ -138,7 +138,7 @@ Besides, there is usually an operation called `peek` which is used to retrieve t
 
 Explaining of `push` and `pop` operations:
 
-![basic-data-structure-stack](../assets/thinkings/basic-data-structure-stack.png)
+![basic-data-structure-stack](https://tva1.sinaimg.cn/large/007S8ZIlly1ghlugf65egj30lh0f074v.jpg)
 
 (Picture from: https://github.com/trekhleb/javascript-algorithms/blob/master/src/data-structures/stack/README.zh-CN.md)
 
@@ -165,7 +165,7 @@ foo();
 
 It may look like this inside the program during executing:
 
-![basic-data-structure-call-stack](../assets/thinkings/basic-data-structure-call-stack.png)
+![basic-data-structure-call-stack](https://tva1.sinaimg.cn/large/007S8ZIlly1ghlugg7gubj30v70hi0u8.jpg)
 
 > The figure above does not contains the other parts of the execution context, like `this` and `scope` which are the key to closure. Here is not going to talk about the closure but to explain the stack structure.
 > Some statements in community like *the `scope` of execution context is the variables which declared by the super class in execution stack* which are completely wrong. JS uses Lexical Scoping. And `scope` is the parent object of function when it is defined. There is nothing to do with the execution.
@@ -190,7 +190,7 @@ Many people know that `fiber` is implemented on Linked List. But not many of the
 The appearance of `fiber` solves the problem that `react` must
 fiber 出现的目的其实是为了解决 react 在执行的时候是无法停下来的，需要一口气执行完的问题的。
 
-![fiber-intro](../assets/thinkings/basic-data-structure-fiber-intro.png)
+![fiber-intro](https://tva1.sinaimg.cn/large/007S8ZIlly1ghlugj00hdj30rc0c0wez.jpg)
 
 图片来自 Lin Clark 在 ReactConf 2017 分享
 
