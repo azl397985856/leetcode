@@ -25,7 +25,7 @@ Let's say there are two Marshals, each holds a group of Generals, which holds a 
 
 How do we determine whether two Generals belong two the same Marshal (connectivity)?
 
-![](https://tva1.sinaimg.cn/large/007S8ZIlly1ge1ap6p77yj30gs0bz3zn.jpg)
+![](https://tva1.sinaimg.cn/large/007S8ZIlly1ghlui26glxj30gs0bzwet.jpg)
 
 The question is easy enough. All we have to do is to find the Marshals of these two Generals respectively. If the results are the same Marshal, then the two Generals belong to the same Marshal. Use `parent[x] = y` to represent `x's parent is y`. By looking for `parent` recursively, a `root` can be reached finally. Then a conclusion can be drawn by comparing the roots obtained.
 
@@ -33,11 +33,11 @@ The process described above involves two basic operations: `find` and `connected
 
 There are two Marshals in the picture.
 
-![](https://tva1.sinaimg.cn/large/007S8ZIlly1ge1auw6z8oj30wp0eljth.jpg)
+![](https://tva1.sinaimg.cn/large/007S8ZIlly1ghlui391l0j30wp0el0th.jpg)
 
 How do we merge them? The simplest way is pointing one of the Marshals to the other one.
 
-![](https://tva1.sinaimg.cn/large/007S8ZIlly1ge1awrmaclj30ym0cogo4.jpg)
+![](https://tva1.sinaimg.cn/large/007S8ZIlly1ghlui6gr4vj30ym0cojsb.jpg)
 
 Done with the lively explanation of the three core APIs `find`, `connected`, and `union`. Now let's see how to implement these APIs.
 

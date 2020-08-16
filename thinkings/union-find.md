@@ -25,7 +25,7 @@
 
 我们如何判断某两个师长是否属于同一个司令呢（连通性）？
 
-![](https://tva1.sinaimg.cn/large/007S8ZIlly1ge1ap6p77yj30gs0bz3zn.jpg)
+![](https://tva1.sinaimg.cn/large/007S8ZIlly1ghlufxh5lhj30gs0bzwet.jpg)
 
 很简单，我们顺着师长，往上找，找到司令。 如果两个师长找到的是同一个司令，那么就属于同一个司令。我们用 parent[x] = y 表示 x 的 parent 是 y，通过不断沿着搜索 parent 搜索找到 root，然后比较 root 是否相同即可得出结论。
 
@@ -33,11 +33,11 @@
 
 如图有两个司令：
 
-![](https://tva1.sinaimg.cn/large/007S8ZIlly1ge1auw6z8oj30wp0eljth.jpg)
+![](https://tva1.sinaimg.cn/large/007S8ZIlly1ghlufys950j30wp0el0th.jpg)
 
 我们将其合并为一个联通域，最简单的方式就是直接将其中一个司令指向另外一个即可：
 
-![](https://tva1.sinaimg.cn/large/007S8ZIlly1ge1awrmaclj30ym0cogo4.jpg)
+![](https://tva1.sinaimg.cn/large/007S8ZIlly1ghlug0ni3jj30ym0cojsb.jpg)
 
 以上就是三个核心 API `find`，`connnected` 和 `union`， 的形象化解释，下面我们来看下代码实现。
 
@@ -111,8 +111,10 @@ class UF:
         leader_q = self.find(q)
         if self.size[leader_p] < self.size[leader_q]:
             self.parent[leader_p] = leader_q
+            self.size[leader_p] += self.size[leader_q]
         else:
             self.parent[leader_q] = leader_p
+            self.size[leader_q] += self.size[leader_p]
         self.cnt -= 1
     def connected(self, p, q):
         return self.find(p) == self.find(q)

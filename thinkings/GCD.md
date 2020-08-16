@@ -46,19 +46,19 @@ def GCD(a: int, b: int) -> int:
 
 实际上这正是一个最大公约数的应用场景，我们的目标就是求解 1680 和 640 的最大公约数。
 
-![](https://tva1.sinaimg.cn/large/00831rSTly1gdflglk6v2j30f104zgo0.jpg)
+![](https://tva1.sinaimg.cn/large/007S8ZIlly1ghluj0ysrjj30f104zmxs.jpg)
 
 将 1680 米 \* 640 米 的土地分割，相当于对将 400 米 \* 640 米 的土地进行分割。 为什么呢？ 假如 400 米 \* 640 米分割的正方形边长为 x，那么有 640 % x == 0，那么肯定也满足剩下的两块 640 米 \* 640 米的。
 
-![](https://tva1.sinaimg.cn/large/00831rSTly1gdfliql4tvj30g805aq5k.jpg)
+![](https://tva1.sinaimg.cn/large/007S8ZIlly1ghluj6lpjej30g805aaap.jpg)
 
 我们不断进行上面的分割：
 
-![](https://tva1.sinaimg.cn/large/00831rSTly1gdflles5bsj307x08vgmv.jpg)
+![](https://tva1.sinaimg.cn/large/007S8ZIlly1ghlujd4rhbj307x08v74i.jpg)
 
 直到边长为 80，没有必要进行下去了。
 
-![](https://tva1.sinaimg.cn/large/00831rSTly1gdfllz6hx4j30aa04uwer.jpg)
+![](https://tva1.sinaimg.cn/large/007S8ZIlly1ghlujgvkvbj30aa04umx2.jpg)
 
 辗转相除法如果 a 和 b 都很大的时候，a % b 性能会较低。在中国，《九章算术》中提到了一种类似辗转相减法的 [更相减损术](https://zh.wikisource.org/wiki/%E4%B9%9D%E7%AB%A0%E7%AE%97%E8%A1%93#-.7BA.7Czh-hans:.E5.8D.B7.3Bzh-hant:.E5.8D.B7.7D-.E7.AC.AC.E4.B8.80.E3.80.80.E6.96.B9.E7.94.B0.E4.BB.A5.E5.BE.A1.E7.94.B0.E7.96.87.E7.95.8C.E5.9F.9F "更相减损术")。它的原理是：`两个正整数 a 和 b（a>b），它们的最大公约数等于 a-b 的差值 c 和较小数 b 的最大公约数。`。
 

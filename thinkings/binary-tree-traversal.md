@@ -13,7 +13,7 @@ DFS 都可以使用栈来简化操作，并且其实树本身是一种递归的�
 
 DFS 图解：
 
-![binary-tree-traversal-dfs](../assets/thinkings/binary-tree-traversal-dfs.gif)
+![binary-tree-traversal-dfs](https://tva1.sinaimg.cn/large/007S8ZIlly1ghlui7vcmwg30dw0dw3yl.gif)
 
 (图片来自 https://github.com/trekhleb/javascript-algorithms/tree/master/src/algorithms/tree/depth-first-search)
 
@@ -43,7 +43,7 @@ BFS 的关键点在于如何记录每一层次是否遍历完成， 我们可以
 如果从这个角度出发去写的话，算法就不一样了。从上向下我们可以直接递归访问即可，从下向上我们只需要借助栈也可以轻易做到。
 整个过程大概是这样：
 
-![binary-tree-traversal-preorder](../assets/thinkings/binary-tree-traversal-preorder.png)
+![binary-tree-traversal-preorder](https://tva1.sinaimg.cn/large/007S8ZIlly1ghlui8rph4j30n30azaar.jpg)
 
 这种思路解题有点像我总结过的一个解题思路`backtrack` - 回溯法。这种思路有一个好处就是
 可以`统一三种遍历的思路`. 这个很重要，如果不了解的朋友，希望能够记住这一点。
@@ -86,7 +86,7 @@ BFS 的关键点在于如何记录每一层次是否遍历完成， 我们可以
 
 层次遍历的关键点在于如何记录每一层次是否遍历完成， 我们可以用一个标识位来表式当前层的结束。
 
-![binary-tree-traversal-bfs](../assets/thinkings/binary-tree-traversal-bfs.gif)
+![binary-tree-traversal-bfs](https://tva1.sinaimg.cn/large/007S8ZIlly1ghluic79lag30dw0dw3yl.gif)
 
 (图片来自 https://github.com/trekhleb/javascript-algorithms/tree/master/src/algorithms/tree/breadth-first-search)
 

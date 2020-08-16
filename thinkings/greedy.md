@@ -42,11 +42,11 @@ LeetCode 上对于贪婪策略有 73 道题目。我们将其分成几个类型�
 
 如下图，开始的位置是 2，可跳的范围是橙色的。然后因为 3 可以跳的更远，所以跳到 3 的位置。
 
-![](https://tva1.sinaimg.cn/large/0082zybply1gc0ymvsw64j309i03xmx7.jpg)
+![](https://tva1.sinaimg.cn/large/007S8ZIlly1ghluifqw9sj309i03xq2t.jpg)
 
 如下图，然后现在的位置就是 3 了，能跳的范围是橙色的，然后因为 4 可以跳的更远，所以下次跳到 4 的位置。
 
-![](https://tva1.sinaimg.cn/large/0082zybply1gc0ynd8zilj30c10390ss.jpg)
+![](https://tva1.sinaimg.cn/large/007S8ZIlly1ghluimff8dj30c1039wed.jpg)
 
 写代码的话，我们用 end 表示当前能跳的边界，对于上边第一个图的橙色 1，第二个图中就是橙色的 4，遍历数组的时候，到了边界，我们就重新更新新的边界。
 
@@ -125,7 +125,7 @@ class Solution:
 
 贪婪策略，我们选择满足条件的最大值。和上面的不同，这次我们需要手动进行一次排序，实际上贪婪策略经常伴随着排序，我们按照 clip[0]从小到大进行排序。
 
-![](https://tva1.sinaimg.cn/large/0082zybply1gc0yseg71aj30yg0i0js3.jpg)
+![](https://tva1.sinaimg.cn/large/007S8ZIlly1ghluind4orj30yg0i00um.jpg)
 
 如图：
 
@@ -137,11 +137,11 @@ class Solution:
 
 那么这种情况下 t1 实际上是不需要的，因为 t2 完全可以覆盖它：
 
-![](https://tva1.sinaimg.cn/large/0082zybply1gc0ywpgkcsj30o604sq2w.jpg)
+![](https://tva1.sinaimg.cn/large/007S8ZIlly1ghluinuuz2j30o604s3yo.jpg)
 
 那什么样 t1 才是需要的呢？如图：
 
-![](https://tva1.sinaimg.cn/large/0082zybply1gc0yxinwf7j30mc05sgll.jpg)
+![](https://tva1.sinaimg.cn/large/007S8ZIlly1ghluis28zej30mc05saa7.jpg)
 
 用代码来说的话就是`s > t2 and t2 <= t1`
 
@@ -191,7 +191,7 @@ class Solution:
 
 示例 1：
 
-![](https://tva1.sinaimg.cn/large/0082zybply1gc0z68dxoxj30bm05xjrk.jpg)
+![](https://tva1.sinaimg.cn/large/007S8ZIlly1ghluiubf2gj30bm05xmx4.jpg)
 
 输入：n = 5, ranges = [3,4,1,1,0,0]
 输出：1

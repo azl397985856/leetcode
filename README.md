@@ -20,7 +20,7 @@
 
 ---
 
-![leetcode.jpeg](./assets/leetcode.jpeg)
+![leetcode.jpeg](https://tva1.sinaimg.cn/large/007S8ZIlly1ghluelm27rj30dw0780sm.jpg)
 
 - 2019-07-10 ：[纪念项目 Star 突破 1W 的一个短文](./thanksGiving.md)， 记录了项目的"兴起"之路，大家有兴趣可以看一下，如果对这个项目感兴趣，请**点击一下 Star**， 项目会**持续更新**，感谢大家的支持。
 
@@ -29,7 +29,7 @@
 - 2020-04-12: [项目突破三万 Star](./thanksGiving3.md)。
 - 2020-04-14: 官网`力扣加加`上线啦 💐💐💐💐💐，有专题讲解，每日一题，下载区和视频题解，后续会增加更多内容，还不赶紧收藏起来？地址：http://leetcode-solution.cn/
 
-![](https://tva1.sinaimg.cn/large/007S8ZIlly1gdvenxvjlsj30z90dtdhw.jpg)
+![](https://tva1.sinaimg.cn/large/007S8ZIlly1ghluemaoj3j30z90dtmy5.jpg)
 
 ## 非科学人士看过来
 
@@ -85,7 +85,7 @@ leetcode 题解，记录自己的 leetcode 解题之路。
 
 - 这里有一张互联网公司面试中经常考察的问题类型总结的思维导图，我们可以结合图片中的信息分析一下。
 
-![leetcode-zhihu](./assets//leetcode-zhihu.jpg)
+![leetcode-zhihu](https://tva1.sinaimg.cn/large/007S8ZIlly1ghluennxvrj30k00jx0te.jpg)
 
 （图片来自 leetcode)
 
@@ -110,7 +110,7 @@ leetcode 题解，记录自己的 leetcode 解题之路。
 
 [0042.trapping-rain-water](./problems/42.trapping-rain-water.md):
 
-![0042.trapping-rain-water](./assets/problems/42.trapping-rain-water-1.png)
+![0042.trapping-rain-water](https://tva1.sinaimg.cn/large/007S8ZIlly1ghlueqdwy3j30bg04hmx3.jpg)
 
 [0547.friend-circles](./problems/547.friend-circles-en.md):
 
@@ -247,10 +247,11 @@ leetcode 题解，记录自己的 leetcode 解题之路。
 - [0322.coin-change](./problems/322.coin-change.md)
 - [0328.odd-even-linked-list](./problems/328.odd-even-linked-list.md)
 - [0334.increasing-triplet-subsequence](./problems/334.increasing-triplet-subsequence.md)
+- [0337.house-robber-iii.md](./problems/337.house-robber-iii.md)
 - [0343.integer-break](./problems/343.integer-break.md)🆕
 - [0365.water-and-jug-problem](./problems/365.water-and-jug-problem.md)
 - [0378.kth-smallest-element-in-a-sorted-matrix](./problems/378.kth-smallest-element-in-a-sorted-matrix.md)
-- [0380.insert-delete-getrandom-o1](./problems/380.insert-delete-getrandom-o1.md)🆕
+- [0380.insert-delete-getrandom-o1](./problems/380.insert-delete-getrandom-o1.md)
 - [0416.partition-equal-subset-sum](./problems/416.partition-equal-subset-sum.md)🖊
 - [0445.add-two-numbers-ii](./problems/445.add-two-numbers-ii.md)
 - [0454.4-sum-ii](./problems/454.4-sum-ii.md)
@@ -258,13 +259,16 @@ leetcode 题解，记录自己的 leetcode 解题之路。
 - [0494.target-sum](./problems/494.target-sum.md)
 - [0516.longest-palindromic-subsequence](./problems/516.longest-palindromic-subsequence.md)
 - [0518.coin-change-2](./problems/518.coin-change-2.md)
-- [0547.friend-circles](./problems/547.friend-circles-en.md) 🆕
+- [0547.friend-circles](./problems/547.friend-circles-en.md)
 - [0560.subarray-sum-equals-k](./problems/560.subarray-sum-equals-k.md)
 - [0609.find-duplicate-file-in-system](./problems/609.find-duplicate-file-in-system.md)
+- [0611.valid-triangle-number](./problems/611.valid-triangle-number.md)
 - [0718.maximum-length-of-repeated-subarray](./problems/718.maximum-length-of-repeated-subarray.md)
+- [0785.is-graph-bipartite](./problems/785.is-graph-bipartite.md) 🆕
 - [0820.short-encoding-of-words](./problems/820.short-encoding-of-words.md) 🖊
 - [0875.koko-eating-bananas](./problems/875.koko-eating-bananas.md)
 - [0877.stone-game](./problems/877.stone-game.md)
+- [0886.possible-bipartition](./problems/886.possible-bipartition.md) 🆕
 - [0900.rle-iterator](./problems/900.rle-iterator.md)
 - [0912.sort-an-array](./problems/912.sort-an-array.md)
 - [0935.knight-dialer](./problems/935.knight-dialer.md) 🆕
@@ -295,7 +299,7 @@ leetcode 题解，记录自己的 leetcode 解题之路。
 - [0030.substring-with-concatenation-of-all-words](./problems/30.substring-with-concatenation-of-all-words.md)
 - [0032.longest-valid-parentheses](./problems/32.longest-valid-parentheses.md)
 - [0042.trapping-rain-water](./problems/42.trapping-rain-water.md)🖊
-- [0052.N-Queens-II](./problems/52.N-Queens-II.md) 🆕
+- [0052.N-Queens-II](./problems/52.N-Queens-II.md)
 - [0084.largest-rectangle-in-histogram](./problems/84.largest-rectangle-in-histogram.md)
 - [0085.maximal-rectangle](./problems/85.maximal-rectangle.md)
 - [0124.binary-tree-maximum-path-sum](./problems/124.binary-tree-maximum-path-sum.md)
@@ -312,6 +316,8 @@ leetcode 题解，记录自己的 leetcode 解题之路。
 - [0493.reverse-pairs](./problems/493.reverse-pairs.md) 🆕
 - [0887.super-egg-drop](./problems/887.super-egg-drop.md)
 - [0895.maximum-frequency-stack](./problems/895.maximum-frequency-stack.md) 🆕
+
+- [1032.stream-of-characters](./problems/1032.stream-of-characters.md) 🆕
 - [1168.optimize-water-distribution-in-a-village](./problems/1168.optimize-water-distribution-in-a-village-cn.md) 🆕
 - [1449.form-largest-integer-with-digits-that-add-up-to-target](./problems/1449.form-largest-integer-with-digits-that-add-up-to-target.md) 🆕
 
@@ -324,19 +330,20 @@ leetcode 题解，记录自己的 leetcode 解题之路。
 - [哈夫曼编码和游程编码](./thinkings/run-length-encode-and-huffman-encode.md)
 - [布隆过滤器](./thinkings/bloom-filter.md)
 - [字符串问题](./thinkings/string-problems.md)
-- [前缀树专题](./thinkings/trie.md)
+- [前缀树专题](./thinkings/trie.md) 🖊
 - [《日程安排》专题](https://lucifer.ren/blog/2020/02/03/leetcode-%E6%88%91%E7%9A%84%E6%97%A5%E7%A8%8B%E5%AE%89%E6%8E%92%E8%A1%A8%E7%B3%BB%E5%88%97/)
 - [《构造二叉树》专题](https://lucifer.ren/blog/2020/02/08/%E6%9E%84%E9%80%A0%E4%BA%8C%E5%8F%89%E6%A0%91%E4%B8%93%E9%A2%98/)
 - [《贪婪策略》专题](./thinkings/greedy.md)
 - [《深度优先遍历》专题](./thinkings/DFS.md)
 - [滑动窗口（思路 + 模板）](./thinkings/slide-window.md)
 - [位运算](./thinkings/bit.md)
-- [设计题](./thinkings/design.md) 🆕
+- [设计题](./thinkings/design.md)
 - [小岛问题](./thinkings/island.md)
-- [最大公约数](./thinkings/GCD.md) 🆕
+- [最大公约数](./thinkings/GCD.md)
 - [并查集](./thinkings/union-find.md) 🆕
 - [前缀和](./thinkings/prefix.md) 🆕
 - [字典序列删除](https://lucifer.ren/blog/2020/06/13/%E5%88%A0%E9%99%A4%E9%97%AE%E9%A2%98/)🆕
+- [平衡二叉树专题](./thinkings/balanced-tree.md)
 
 ### anki 卡片
 
@@ -368,11 +375,11 @@ anki - 文件 - 导入 - 下拉格式选择“打包的 anki 集合”，然后�
 
 - [每日一题汇总](./daily/)
 
-![每日一题汇总](./assets/daily-summary.png)
+![每日一题汇总](https://tva1.sinaimg.cn/large/007S8ZIlly1ghluequftmj30p80nrmzc.jpg)
 
 - [每日一题认领区](https://github.com/azl397985856/leetcode/projects/1)
 
-![每日一题认领区](./assets/daily-board.png)
+![每日一题认领区](https://tva1.sinaimg.cn/large/007S8ZIlly1ghlues83n0j315f0i8gug.jpg)
 
 ### 计划
 
@@ -423,4 +430,4 @@ anki - 文件 - 导入 - 下拉格式选择“打包的 anki 集合”，然后�
 
 ## License
 
-[Apache-2.0](./LICENSE.txt)
+[CC BY-NC-ND 4.0](./LICENSE.txt)
