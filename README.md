@@ -174,7 +174,6 @@ leetcode 题解，记录自己的 leetcode 解题之路。
 - [0371.sum-of-two-integers](./problems/371.sum-of-two-integers.md)
 - [0437.path-sum-iii](./problems/437.path-sum-iii.md) 🆕
 - [0455.AssignCookies](./problems/455.AssignCookies.md) 🆕
-- [0501.find-mode-in-binary-search-tree](./problems/501.Find-Mode-in-Binary-Search-Tree.md)🆕
 - [0575.distribute-candies](./problems/575.distribute-candies.md)
 - [0874.walking-robot-simulation](./problems/874.walking-robot-simulation.md) 🆕
 - [1260.shift-2d-grid](./problems/1260.shift-2d-grid.md) 🆕
