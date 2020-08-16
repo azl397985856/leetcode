@@ -99,15 +99,13 @@ The data structures mainly include:
 #### Easy (Translation in Progress)
 
 - [0001.TwoSum](./problems/1.two-sum.en.md)🆕
-
 - [0053.maximum-sum-subarray](./problems/53.maximum-sum-subarray-en.md) 🆕
-
 - [0198.house-robber](./problems/198.house-robber.en.md)🆕
+- [0501.find-mode-in-binary-search-tree](./problems/501.Find-Mode-in-Binary-Search-Tree-en.md)🆕
 
 #### Medium (Translation in Progress)
 
 - [0002. Add Two Numbers](./problems/2.add-two-numbers.en.md)
-
 - [0078.subsets](./problems/78.subsets-en.md)
 - [0079.word-search](./problems/79.word-search-en.md)
 - [0086.partition-list](./problems/86.partition-list.md)
