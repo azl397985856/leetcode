@@ -34,6 +34,10 @@
 
 ![project-overview](https://github.com/azl397985856/leetcode/blob/master/Kapture%202020-08-19%20at%2011.37.36.gif)
 
+可以清晰地看出仓库组织关系。
+
+（你可以下载本仓库 和 obsidian 软件，然后用 obsidian 打开获得更好的阅读效果）
+
 ## 介绍
 
 leetcode 题解，记录自己的 leetcode 解题之路。
