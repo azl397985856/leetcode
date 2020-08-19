@@ -292,7 +292,7 @@ leetcode 题解，记录自己的 leetcode 解题之路。
 
 #### 困难难度
 
-- [0004.median-of-two-sorted-array](./problems/4.median-of-two-sorted-array.md)
+- [0004.median-of-two-sorted-array](./problems/4.median-of-two-sorted-arrays.md)
 - [0023.merge-k-sorted-lists](./problems/23.merge-k-sorted-lists.md)
 - [0025.reverse-nodes-in-k-group](./problems/25.reverse-nodes-in-k-groups-cn.md)
 - [0030.substring-with-concatenation-of-all-words](./problems/30.substring-with-concatenation-of-all-words.md)
