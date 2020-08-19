@@ -185,7 +185,7 @@ leetcode 题解，记录自己的 leetcode 解题之路。
 - [0003.longest-substring-without-repeating-characters](./problems/3.longest-substring-without-repeating-characters.md)
 - [0005.longest-palindromic-substring](./problems/5.longest-palindromic-substring.md)
 - [0011.container-with-most-water](./problems/11.container-with-most-water.md)
-- [0015.3-sum](./problems/15.3-sum.md)
+- [0015.3-sum](./problems/15.3sum.md)
 - [0017.Letter-Combinations-of-a-Phone-Number](./problems/17.Letter-Combinations-of-a-Phone-Number.md) 🆕
 - [0019. Remove Nth Node From End of List](./problems/19.removeNthNodeFromEndofList.md)
 - [0022.generate-parentheses.md](./problems/22.generate-parentheses.md) 🆕
