@@ -11,11 +11,6 @@
 [![](https://img.shields.io/badge/Zhihu-知乎-blue)](https://www.zhihu.com/people/lu-xiao-13-70)
 [![](https://img.shields.io/badge/bilili-哔哩哔哩-ff69b4)](https://space.bilibili.com/519510412/)
 
-![历史共访问次数](https://visitor-count-badge.herokuapp.com/total.svg?repo_id=azl397985856.leetcode)
-![今天被访问次数](https://visitor-count-badge.herokuapp.com/today.svg?repo_id=azl397985856.leetcode)
-
-> 统计数据的时间是从 2019-09-03 19:40 起至今
-
 简体中文 | [English](./README.en.md)
 
 ---
@@ -118,7 +113,7 @@ leetcode 题解，记录自己的 leetcode 解题之路。
 
 [0042.trapping-rain-water](./problems/42.trapping-rain-water.md):
 
-![0042.trapping-rain-water](https://tva1.sinaimg.cn/large/007S8ZIlly1ghlueqdwy3j30bg04hmx3.jpg)
+<img width="300" src="https://tva1.sinaimg.cn/large/007S8ZIlly1ghlueqdwy3j30bg04hmx3.jpg">
 
 [0547.friend-circles](./problems/547.friend-circles-en.md):
 
@@ -206,11 +201,7 @@ anki - 文件 - 导入 - 下拉格式选择“打包的 anki 集合”，然后�
 
 - [每日一题汇总](./daily/)
 
-![每日一题汇总](https://tva1.sinaimg.cn/large/007S8ZIlly1ghluequftmj30p80nrmzc.jpg)
-
-- [每日一题认领区](https://github.com/azl397985856/leetcode/projects/1)
-
-![每日一题认领区](https://tva1.sinaimg.cn/large/007S8ZIlly1ghlues83n0j315f0i8gug.jpg)
+* [每日一题认领区](https://github.com/azl397985856/leetcode/projects/1)
 
 ### 计划
 
