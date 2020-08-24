@@ -31,22 +31,13 @@
 
 ![](https://tva1.sinaimg.cn/large/007S8ZIlly1ghluemaoj3j30z90dtmy5.jpg)
 
-## 非科学人士看过来
+## 项目预览
 
-如果是国内的非科学用户，可以使用 https://lucifer.ren/leetcode ，整站做了静态化，速度贼快！但是阅读体验可能一般，大家也可以访问[力扣加加](http://leetcode-solution.cn/)（暂时没有静态化）获得更好的阅读体验。
+![project-overview](https://github.com/azl397985856/leetcode/blob/master/Kapture%202020-08-19%20at%2011.37.36.gif)
 
-## 怎么刷 LeetCode？
+可以清晰地看出仓库组织关系。
 
-- [我是如何刷 LeetCode 的](https://www.zhihu.com/question/280279208/answer/824585814)
-- [算法小白如何高效、快速刷 leetcode？](https://www.zhihu.com/question/321738058/answer/1279464192)
-
-## 刷题插件(开发中)
-
-- [刷题效率低？或许你就差这么一个插件](https://lucifer.ren/blog/2020/06/06/algo-chrome-extension/)
-
-## 91 天学算法
-
-- [91 天，遇见不一样的自己](https://lucifer.ren/blog/2020/05/23/91-algo/)
+（你可以下载本仓库 和 obsidian 软件，然后用 obsidian 打开获得更好的阅读效果）
 
 ## 介绍
 
@@ -65,6 +56,23 @@ leetcode 题解，记录自己的 leetcode 解题之路。
 - 第五部分是计划， 这里会记录将来要加入到以上三个部分内容
 
 > 只有熟练掌握基础的数据结构与算法，才能对复杂问题迎刃有余。
+
+## 非科学人士看过来
+
+如果是国内的非科学用户，可以使用 https://lucifer.ren/leetcode ，整站做了静态化，速度贼快！但是阅读体验可能一般，大家也可以访问[力扣加加](http://leetcode-solution.cn/)（暂时没有静态化）获得更好的阅读体验。
+
+## 怎么刷 LeetCode？
+
+- [我是如何刷 LeetCode 的](https://www.zhihu.com/question/280279208/answer/824585814)
+- [算法小白如何高效、快速刷 leetcode？](https://www.zhihu.com/question/321738058/answer/1279464192)
+
+## 刷题插件(开发中)
+
+- [刷题效率低？或许你就差这么一个插件](https://lucifer.ren/blog/2020/06/06/algo-chrome-extension/)
+
+## 91 天学算法
+
+- [91 天，遇见不一样的自己](https://lucifer.ren/blog/2020/05/23/91-algo/)
 
 ## 关于我
 
@@ -253,4 +261,4 @@ anki - 文件 - 导入 - 下拉格式选择“打包的 anki 集合”，然后�
 
 ## License
 
-[Apache-2.0](./LICENSE.txt)
+[CC BY-NC-ND 4.0](./LICENSE.txt)
