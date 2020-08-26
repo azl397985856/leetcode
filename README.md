@@ -64,6 +64,7 @@ leetcode 题解，记录自己的 leetcode 解题之路。
 ## 刷题插件
 
 - [刷题效率低？或许你就差这么一个插件](https://lucifer.ren/blog/2020/06/06/algo-chrome-extension/)
+- [力扣刷题插件](https://lucifer.ren/blog/2020/08/16/leetcode-cheat/)
 
 ## 91 天学算法
 
