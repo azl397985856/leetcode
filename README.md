@@ -61,20 +61,13 @@ leetcode 题解，记录自己的 leetcode 解题之路。
 - [我是如何刷 LeetCode 的](https://www.zhihu.com/question/280279208/answer/824585814)
 - [算法小白如何高效、快速刷 leetcode？](https://www.zhihu.com/question/321738058/answer/1279464192)
 
-## 刷题插件(开发中)
+## 刷题插件
 
 - [刷题效率低？或许你就差这么一个插件](https://lucifer.ren/blog/2020/06/06/algo-chrome-extension/)
 
 ## 91 天学算法
 
 - [91 天，遇见不一样的自己](https://lucifer.ren/blog/2020/05/23/91-algo/)
-
-## 关于我
-
-擅长前端工程化，前端性能优化，前端标准化等，做过。net， 搞过 Java，现在是一名前端工程师，我的个人博客：https://lucifer.ren/blog/
-
-我经常会在开源社区进行一些输出和分享，比较受欢迎的有 [宇宙最强的前端面试指南](https://github.com/azl397985856/fe-interview)
-和 [我的第一本小书](https://github.com/azl397985856/automate-everything)。目前本人正在写一本关于《leetcode 题解》的实体书，感兴趣的可以通过邮箱或者微信联系我，我会在出版的第一时间通知你，并给出首发优惠价。有需要可以直接群里联系我，或者发送到我的个人邮箱 [azl397985856@gmail.com]。 新书详情戳这里：[《或许是一本可以彻底改变你刷 LeetCode 效率的题解书》](https://lucifer.ren/blog/2020/04/07/leetcode-book.intro/)
 
 ## 食用指南
 
@@ -219,7 +212,7 @@ anki - 文件 - 导入 - 下拉格式选择“打包的 anki 集合”，然后�
 
 - BFS & DFS
 
-## 关注我
+## 哪里能找到我？
 
 点关注，不迷路。如果再给 ➕ 个星标就更棒啦！
 
@@ -227,9 +220,12 @@ anki - 文件 - 导入 - 下拉格式选择“打包的 anki 集合”，然后�
 
 <img src="https://tva1.sinaimg.cn/large/007S8ZIlly1gfcuzagjalj30p00dwabs.jpg" width="100%">
 
-## 捐赠
+## 关于我
 
-[点击查看完整的捐赠列表](./donation.md)
+擅长前端工程化，前端性能优化，前端标准化等，做过。net， 搞过 Java，现在是一名前端工程师，我的个人博客：https://lucifer.ren/blog/
+
+我经常会在开源社区进行一些输出和分享，比较受欢迎的有 [宇宙最强的前端面试指南](https://github.com/azl397985856/fe-interview)
+和 [我的第一本小书](https://github.com/azl397985856/automate-everything)。目前本人正在写一本关于《leetcode 题解》的实体书，感兴趣的可以通过邮箱或者微信联系我，我会在出版的第一时间通知你，并给出首发优惠价。有需要可以直接群里联系我，或者发送到我的个人邮箱 [azl397985856@gmail.com]。 新书详情戳这里：[《或许是一本可以彻底改变你刷 LeetCode 效率的题解书》](https://lucifer.ren/blog/2020/04/07/leetcode-book.intro/)
 
 ### 微信
 
@@ -238,6 +234,10 @@ anki - 文件 - 导入 - 下拉格式选择“打包的 anki 集合”，然后�
 ### 支付宝
 
 <img width="300" src="./assets/donate-zfb.jpg">
+
+## 捐赠
+
+[点击查看完整的捐赠列表](./donation.md)
 
 ## 贡献
 
