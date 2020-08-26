@@ -73,12 +73,6 @@ leetcode 题解，记录自己的 leetcode 解题之路。
 
 - 对于最近添加的部分， 后面会有 🆕 标注
 - 对于最近更新的部分， 后面会有 🖊 标注
-- 将来会在这里更新 anki 卡片
-- 这里有一份 leetcode 官方账号在知乎上给出的一个《互联网公司最常见的面试算法题有哪些？》的答案，我这里尽量去覆盖回答中的题目和知识点
-  原文地址： https://www.zhihu.com/question/24964987/answer/586425979
-
-- 这里有一份我在知乎上的回答 [《大家都是如何刷 LeetCode 的？》](https://www.zhihu.com/question/280279208/answer/824585814)
-
 - 这里有一张互联网公司面试中经常考察的问题类型总结的思维导图，我们可以结合图片中的信息分析一下。
 
 ![leetcode-zhihu](https://tva1.sinaimg.cn/large/007S8ZIlly1ghluennxvrj30k00jx0te.jpg)
@@ -123,12 +117,6 @@ leetcode 题解，记录自己的 leetcode 解题之路。
 [0454.4-sum-ii](./problems/454.4-sum-ii.md):
 
 <img width="600" src="./assets/problems/454.4-sum-ii.png">
-
-## Top 题目进度
-
-- [Top 100 Liked Questions](https://leetcode.com/problemset/top-100-liked-questions/) (84 / 100)
-
-- [Top Interview Questions](https://leetcode.com/problemset/top-interview-questions/) (115 / 145)
 
 ## 传送门
 
