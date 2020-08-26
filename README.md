@@ -67,7 +67,7 @@ leetcode 题解，记录自己的 leetcode 解题之路。
 
 ## 91 天学算法
 
-- [91 天，遇见不一样的自己](https://lucifer.ren/blog/2020/05/23/91-algo/)
+- [91 天，遇见不一样的自己](https://lucifer.ren/blog/2020/05/30/91algo-05-30/)
 
 ## 食用指南
 
