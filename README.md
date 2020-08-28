@@ -56,6 +56,8 @@ leetcode 题解，记录自己的 leetcode 解题之路。
 
 如果是国内的非科学用户，可以使用 https://lucifer.ren/leetcode ，整站做了静态化，速度贼快！但是阅读体验可能一般，大家也可以访问[力扣加加](http://leetcode-solution.cn/)（暂时没有静态化）获得更好的阅读体验。
 
+另外需要科学的，我推荐一个工具， 用户体验真的是好，用起来超简单， 提供一站式工具，包括网络检测工具，浏览器插件等，支持多种客户端（还有我最喜欢的 Switch 加速器），价格也不贵，基础套餐折算到月大约 11.2 块/月。地址：https://glados.space/landing/M9OHH-Q88JQ-DX72D-R04RN
+
 ## 怎么刷 LeetCode？
 
 - [我是如何刷 LeetCode 的](https://www.zhihu.com/question/280279208/answer/824585814)
