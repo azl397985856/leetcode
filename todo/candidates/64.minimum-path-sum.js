@@ -7,8 +7,8 @@
  * @param {number[][]} grid
  * @return {number}
  */
-var minPathSum = function(grid) {
-// 时间复杂度和空间复杂度都是 O (m * n);
+var minPathSum = function (grid) {
+  // 时间复杂度和空间复杂度都是 O (m * n);
   if (grid.length === 0) return 0;
   const dp = [];
   const rows = grid.length;
@@ -39,4 +39,3 @@ var minPathSum = function(grid) {
 
   return dp[rows][cols];
 };
-
