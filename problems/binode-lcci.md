@@ -132,6 +132,6 @@ class Solution:
 - [92.reverse-linked-list-ii](./92.reverse-linked-list-ii.md)
 - [25.reverse-nodes-in-k-groups-cn](./25.reverse-nodes-in-k-groups-cn.md)
 
-大家也可以关注我的公众号《脑洞前端》获取更多更新鲜的 LeetCode 题解
+大家也可以关注我的公众号《力扣加加》获取更多更新鲜的 LeetCode 题解
 
 ![](https://tva1.sinaimg.cn/large/007S8ZIlly1ghluc9tkv6j30x20iwjtf.jpg)
