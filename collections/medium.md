@@ -80,6 +80,7 @@
 - [0609.find-duplicate-file-in-system](../problems/609.find-duplicate-file-in-system.md)
 - [0611.valid-triangle-number](../problems/611.valid-triangle-number.md)
 - [0718.maximum-length-of-repeated-subarray](../problems/718.maximum-length-of-repeated-subarray.md)
+- [0754.reach-a-number.md](../problems/754.reach-a-number.md) 🆕
 - [0785.is-graph-bipartite](../problems/785.is-graph-bipartite.md) 🆕
 - [0820.short-encoding-of-words](../problems/820.short-encoding-of-words.md) 🖊
 - [0875.koko-eating-bananas](../problems/875.koko-eating-bananas.md)
