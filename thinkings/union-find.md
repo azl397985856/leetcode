@@ -7,6 +7,7 @@
 - [547. 朋友圈](../problems/547.friend-circles.md)
 - [721. 账户合并](https://leetcode-cn.com/problems/accounts-merge/solution/mo-ban-ti-bing-cha-ji-python3-by-fe-lucifer-3/)
 - [990. 等式方程的可满足性](https://github.com/azl397985856/leetcode/issues/304)
+- [1202. 交换字符串中的元素](https://leetcode-cn.com/problems/smallest-string-with-swaps/)
 
 看完这里的内容，建议拿上面的题目练下手，检测一下学习成果。
 
