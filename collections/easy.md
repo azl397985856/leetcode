@@ -1,4 +1,4 @@
-- [binode-lcci](../problems/binode-lcci.md) 🆕
+- [面试题 17.12. BiNode](../problems/binode-lcci.md) 🆕
 
 - [0001.two-sum](../problems/1.two-sum.md)
 - [0020.Valid Parentheses](../problems/20.valid-parentheses.md)
