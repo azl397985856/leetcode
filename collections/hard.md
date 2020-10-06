@@ -18,6 +18,7 @@
 - [0335.self-crossPing](../problems/335.self-crossing.md)
 - [0460.lfu-cache](../problems/460.lfu-cache.md)
 - [0472.concatenated-words](../problems/472.concatenated-words.md) 🆕
+- [0488.zuma-game.md](../problems/488.zuma-game.md) 🆕
 - [0493.reverse-pairs](../problems/493.reverse-pairs.md) 🆕
 - [0887.super-egg-drop](../problems/887.super-egg-drop.md)
 - [0895.maximum-frequency-stack](../problems/895.maximum-frequency-stack.md) 🆕
