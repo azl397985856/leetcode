@@ -26,3 +26,7 @@
 - [0472.concatenated-words](https://github.com/azl397985856/leetcode/blob/master/problems/472.concatenated-words.md)
 - [0820.short-encoding-of-words](https://github.com/azl397985856/leetcode/blob/master/problems/820.short-encoding-of-words.md)
 - [1032.stream-of-characters](../problems/1032.stream-of-characters.md)
+
+## 相关题目
+
+- [648. 单词替换](https://leetcode-cn.com/problems/replace-words/) (换皮题)

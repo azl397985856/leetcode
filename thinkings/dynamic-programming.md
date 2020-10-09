@@ -92,6 +92,8 @@ function sum(nums) {
 
 一个人爬楼梯，每次只能爬 1 个或 2 个台阶，假设有 n 个台阶，那么这个人有多少种不同的爬楼梯方法？
 
+> [746. 使用最小花费爬楼梯](https://leetcode-cn.com/problems/min-cost-climbing-stairs/) 是这道题的换皮题， GrowingIO 前端工程师岗位考察过这个题目。
+
 由于上第 n 级台阶一定是从 n - 1 或者 n - 2 来的，因此 上第 n 级台阶的数目就是 `上 n - 1 级台阶的数目加上 n - 1 级台阶的数目`。
 
 递归代码：
