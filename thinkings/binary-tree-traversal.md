@@ -100,7 +100,10 @@ BFS 的关键点在于如何记录每一层次是否遍历完成， 我们可以
 
 4. 如果不为 null，说明这一层还没完，则将其左右子树依次入队列。
 
-相关问题[102.binary-tree-level-order-traversal](../problems/102.binary-tree-level-order-traversal.md)
+相关问题：
+
+- [102.binary-tree-level-order-traversal](../problems/102.binary-tree-level-order-traversal.md)
+- [117. 填充每个节点的下一个右侧节点指针 II](https://leetcode-cn.com/problems/populating-next-right-pointers-in-each-node-ii/)
 
 ## 双色标记法
 
