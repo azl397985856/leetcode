@@ -5,7 +5,7 @@
 - [高频考题（简单）](collections/easy.md)
 
   - [面试题 17.12. BiNode](problems/binode-lcci.md)
-  - [0001.two-sum](https://github.com/azl397985856/leetcode/blob/mastproblems/1.two-sum.md)
+  - [0001.two-sum](problems/1.two-sum.md)
   - [0020.Valid Parentheses](problems/20.valid-parentheses.md)
   - [0021.MergeTwoSortedLists](problems/21.merge-two-sorted-lists.md)
   - [0026.remove-duplicates-from-sorted-array](problems/26.remove-duplicates-from-sorted-array.md)
