@@ -157,7 +157,8 @@ leetcode 题解，记录自己的 leetcode 解题之路。
 
 ### 91 算法
 
-- [双指针](./91/two-pointers.md)
+- [第一期讲义-二分法](./91/binary-search.md)
+- [第一期讲义-双指针](./91/two-pointers.md)
 - [第二期](./91/season2.md)
 
 ### 精选题解
