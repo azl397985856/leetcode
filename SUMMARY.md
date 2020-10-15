@@ -1,6 +1,6 @@
 # 目录
 
-- [Introduction](Intro.md)
+- [前言](Intro.md)
 - 高频考点题目集合
   - [简单合集](collections/easy.md)
   - [中等合集](collections/medium.md)
