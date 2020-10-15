@@ -206,9 +206,3 @@
   - [并查集](thinkings/union-find.md)
   - [前缀和](thinkings/prefix.md)
   - [平衡二叉树专题](thinkings/balanced-tree.md)
-
-- 91 算法
-
-  - [第一期讲义-二分法](./91/binary-search.md)
-  - [第一期讲义-双指针](./91/two-pointers.md)
-  - [第二期](./91/season2.md)
