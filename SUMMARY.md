@@ -1,10 +1,6 @@
 ‌
 # Summary​
 
-## 前言
-
-* [使用指南](Intro.md)
-
 ## 高频考题（简单）
 * [面试题 17.12. BiNode](./problems/binode-lcci.md)
 * [0001.two-sum](https://github.com/azl397985856/leetcode/blob/mast./problems/1.two-sum.md)
