@@ -26,14 +26,6 @@
 
 ![](https://tva1.sinaimg.cn/large/007S8ZIlly1ghluemaoj3j30z90dtmy5.jpg)
 
-## 项目预览
-
-![project-overview](https://github.com/azl397985856/leetcode/blob/master/Kapture%202020-08-19%20at%2011.37.36.gif)
-
-可以清晰地看出仓库组织关系。
-
-（你可以下载本仓库 和 obsidian 软件，然后用 obsidian 打开获得更好的阅读效果）
-
 ## 介绍
 
 leetcode 题解，记录自己的 leetcode 解题之路。
@@ -74,8 +66,6 @@ leetcode 题解，记录自己的 leetcode 解题之路。
 
 ## 食用指南
 
-- 对于最近添加的部分， 后面会有 🆕 标注
-- 对于最近更新的部分， 后面会有 🖊 标注
 - 这里有一张互联网公司面试中经常考察的问题类型总结的思维导图，我们可以结合图片中的信息分析一下。
 
 ![leetcode-zhihu](https://tva1.sinaimg.cn/large/007S8ZIlly1ghluennxvrj30k00jx0te.jpg)
@@ -179,7 +169,6 @@ anki - 文件 - 导入 - 下拉格式选择“打包的 anki 集合”，然后�
 
 我经常会在开源社区进行一些输出和分享，比较受欢迎的有 [宇宙最强的前端面试指南](https://github.com/azl397985856/fe-interview)
 和 [我的第一本小书](https://github.com/azl397985856/automate-everything)。目前本人正在写一本关于《leetcode 题解》的实体书，感兴趣的可以通过邮箱或者微信联系我，我会在出版的第一时间通知你，并给出首发优惠价。有需要可以直接群里联系我，或者发送到我的个人邮箱 [azl397985856@gmail.com]。 新书详情戳这里：[《或许是一本可以彻底改变你刷 LeetCode 效率的题解书》](https://lucifer.ren/blog/2020/04/07/leetcode-book.intro/)
-
 
 ## 贡献
 
