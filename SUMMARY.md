@@ -205,22 +205,4 @@
     * [前缀和](thinkings/prefix.md)
     * [平衡二叉树专题](thinkings/balanced-tree.md)
 
-* 91 算法
 
-    * [动态规划问题为什么要画表格？](https://lucifer.ren/blog/2020/08/27/91algo-dp-lecture/)
-    * [双指针](https://lucifer.ren/blog/2020/05/26/91algo-basic-05.two-pointer/)
-    * [第二期](https://lucifer.ren/blog/2000/04/06/91-algo-2/)
-
-* 精选题解
-
-    * [《日程安排》专题](https://lucifer.ren/blog/2020/02/03/leetcode-%E6%88%91%E7%9A%84%E6%97%A5%E7%A8%8B%E5%AE%89%E6%8E%92%E8%A1%A8%E7%B3%BB%E5%88%97/)
-    * [《构造二叉树》专题](https://lucifer.ren/blog/2020/02/08/%E6%9E%84%E9%80%A0%E4%BA%8C%E5%8F%89%E6%A0%91%E4%B8%93%E9%A2%98/)
-    * [字典序列删除](https://lucifer.ren/blog/2020/06/13/%E5%88%A0%E9%99%A4%E9%97%AE%E9%A2%98/)
-    * [百度的算法面试题 * 祖玛游戏](https://lucifer.ren/blog/2020/10/06/zuma-game/)
-    * [西法带你学算法】一次搞定前缀和](https://lucifer.ren/blog/2020/09/27/atMostK/)
-    * [字节跳动的算法面试题是什么难度？](https://lucifer.ren/blog/2020/09/06/byte-dance-algo-ex/)
-    * [字节跳动的算法面试题是什么难度？（第二弹）](https://lucifer.ren/blog/2020/09/06/byte-dance-algo-ex-2017/)
-    * [《我是你的妈妈呀》 * 第一期](https://lucifer.ren/blog/2020/08/03/mother-01/)
-    * [一文带你看懂二叉树的序列化](https://lucifer.ren/blog/2020/07/24/serialize/)
-    * [穿上衣服我就不认识你了？来聊聊最长上升子序列](https://lucifer.ren/blog/2020/06/20/LIS/)
-    * [你的衣服我扒了 * 《最长公共子序列》](https://lucifer.ren/blog/2020/07/01/LCS/)
