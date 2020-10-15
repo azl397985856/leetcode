@@ -155,6 +155,26 @@ leetcode 题解，记录自己的 leetcode 解题之路。
 - [字典序列删除](https://lucifer.ren/blog/2020/06/13/%E5%88%A0%E9%99%A4%E9%97%AE%E9%A2%98/)🆕
 - [平衡二叉树专题](./thinkings/balanced-tree.md)
 
+### 91 算法
+
+- [双指针](./91/two-pointers.md)
+- [第二期](./91/season2.md)
+
+### 精选题解
+
+- [《日程安排》专题](./selected/schedule-topic.md)
+- [《构造二叉树》专题](./selected/construct-binary-tree.md)
+- [字典序列删除](./selected/a-deleted.md)
+- [百度的算法面试题 - 祖玛游戏](./selected/zuma-game.md)
+- [西法带你学算法】一次搞定前缀和](./selected/atMostK.md)
+- [字节跳动的算法面试题是什么难度？](./selected/byte-dance-algo-ex.md)
+- [字节跳动的算法面试题是什么难度？（第二弹）](./selected/byte-dance-algo-ex-2017.md)
+- [《我是你的妈妈呀》 - 第一期](./selected/mother-01.md)
+- [一文带你看懂二叉树的序列化](./selected/serialize.md)
+- [穿上衣服我就不认识你了？来聊聊最长上升子序列](./selected/LIS.md)
+- [你的衣服我扒了 - 《最长公共子序列》](./selected/LCS.md)
+- [一文看懂《最大子序列和问题》](./selected/LSS.md)
+
 ### anki 卡片
 
 Anki 主要分为两个部分：一部分是关键点到题目的映射，另一部分是题目到思路，关键点，代码的映射。
