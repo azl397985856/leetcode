@@ -2,6 +2,6 @@
   "structure": {
     "readme": "introduction.md"
   },
+  "language": "zh-hans"
 
-  "plugins": ["page-toc"]
 }

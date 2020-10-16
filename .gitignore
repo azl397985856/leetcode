@@ -1,2 +1,4 @@
 .DS_Store
+_book/
 .idea/*
+node_modules/
