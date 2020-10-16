@@ -1,16 +1,5 @@
 # LeetCode
 
-[![Travis](https://img.shields.io/badge/language-C++-green.svg)]()
-[![Travis](https://img.shields.io/badge/language-JavaScript-yellow.svg)]()
-[![Travis](https://img.shields.io/badge/language-Python-red.svg)]()
-[![Travis](https://img.shields.io/badge/language-Java-blue.svg)]()
-
-[![](https://img.shields.io/badge/WeChat-微信群-brightgreen)](#关注我)
-[![](https://img.shields.io/badge/公众号-力扣加加-blueviolet)](#关注我)
-[![](https://img.shields.io/badge/Juejin-掘金-blue)](https://juejin.im/user/58af98305c497d0067780b3b)
-[![](https://img.shields.io/badge/Zhihu-知乎-blue)](https://www.zhihu.com/people/lu-xiao-13-70)
-[![](https://img.shields.io/badge/bilili-哔哩哔哩-ff69b4)](https://space.bilibili.com/519510412/)
-
 简体中文 | [English](./README.en.md)
 
 ---
@@ -25,6 +14,14 @@
 - 2020-04-14: 官网`力扣加加`上线啦 💐💐💐💐💐，有专题讲解，每日一题，下载区和视频题解，后续会增加更多内容，还不赶紧收藏起来？地址：http://leetcode-solution.cn/
 
 ![](https://tva1.sinaimg.cn/large/007S8ZIlly1ghluemaoj3j30z90dtmy5.jpg)
+
+## 前言
+
+这是我将我的所有公开的算法资料整理的一个电子书，主要特点有：
+
+- 全部题目信息中文化，以前会有一些英文描述。
+
+后期可能将每日一题也整理进来。
 
 ## 介绍
 
@@ -66,6 +63,7 @@ leetcode 题解，记录自己的 leetcode 解题之路。
 
 ## 食用指南
 
+- 我对题目难度进行了分类的保留，因此你可以根据自己的情况刷。我推荐大家从简单开始，逐步加大难度，直到困难。
 - 这里有一张互联网公司面试中经常考察的问题类型总结的思维导图，我们可以结合图片中的信息分析一下。
 
 ![leetcode-zhihu](https://tva1.sinaimg.cn/large/007S8ZIlly1ghluennxvrj30k00jx0te.jpg)
