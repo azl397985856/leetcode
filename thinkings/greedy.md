@@ -264,6 +264,6 @@ class Solution:
 
 **复杂度分析**
 
-- 时间复杂度：时间复杂度取决 l 和 r，也就是说取决于 ranges 数组的值，假设 ranges 的平均大小为 Size 的话，那么时间复杂度为 $O(N \* Size)$。
+- 时间复杂度：时间复杂度取决 l 和 r，也就是说取决于 ranges 数组的值，假设 ranges 的平均大小为 Size 的话，那么时间复杂度为 $O(N * Size)$。
 
 - 空间复杂度：我们使用了 furthest 数组， 因此空间复杂度为 $O(N)$。

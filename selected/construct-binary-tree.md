@@ -252,7 +252,7 @@ node.right = self.constructFromPrePost(pre[i + 2:], post[i + 1:-1])
 
 ## 关注我
 
-更多题解可以访问我的 LeetCode 题解仓库：https://github.com/azl397985856/leetcode 。 目前已经 30K star 啦。
+更多题解可以访问我的 LeetCode 题解仓库：https://github.com/azl397985856/leetcode 。 目前已经 37K star 啦。
 
 大家也可以关注我的公众号《力扣加加》获取更多更新鲜的 LeetCode 题解
 
