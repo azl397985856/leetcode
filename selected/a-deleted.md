@@ -378,7 +378,7 @@ class Solution:
 - [【简单易懂】归并排序（Python）](https://leetcode-cn.com/problems/shu-zu-zhong-de-ni-xu-dui-lcof/solution/jian-dan-yi-dong-gui-bing-pai-xu-python-by-azl3979/)
 - [一文看懂《最大子序列和问题》](https://lucifer.ren/blog/2019/12/11/LSS/)
 
-更多题解可以访问我的 LeetCode 题解仓库：https://github.com/azl397985856/leetcode 。 目前已经 30K star 啦。
+更多题解可以访问我的 LeetCode 题解仓库：https://github.com/azl397985856/leetcode 。 目前已经 37K star 啦。
 
 大家也可以关注我的公众号《力扣加加》获取更多更新鲜的 LeetCode 题解
 

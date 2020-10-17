@@ -26,13 +26,36 @@
 
 ![](https://tva1.sinaimg.cn/large/007S8ZIlly1ghluemaoj3j30z90dtmy5.jpg)
 
-## 项目预览
+##  电子书
 
-![project-overview](https://github.com/azl397985856/leetcode/blob/master/Kapture%202020-08-19%20at%2011.37.36.gif)
+这是我将我的所有公开的算法资料整理的一个电子书，全部题目信息中文化，以前会有一些英文描述。
 
-可以清晰地看出仓库组织关系。
+![](https://cdn.jsdelivr.net/gh/azl397985856/cdn/2020-10-17/1602928846461-image.png)
 
-（你可以下载本仓库 和 obsidian 软件，然后用 obsidian 打开获得更好的阅读效果）
+
+![](https://cdn.jsdelivr.net/gh/azl397985856/cdn/2020-10-17/1602928862442-image.png)
+
+我写这本电子书花费了大量的时间和精力，除了内容上的创作，还要做一些电子书的排版，以让大家获得更好的阅读体验。光数学公式的展示，我就研究了多个插件的要源码，并魔改了一下才使得导出的电子书支持 latex。 不过有些动图，在做成电子书的时候自然就变没了，如果需要看动图的， 可以去我的公众号《力扣加加》或者我的 leetcode 题解仓库看。
+
+由于是电子书，因此阅读体验可能比 Github 更好， 但是相应地就不能获得及时的更新，因此你可以收藏一下我的同步电子书的网站 [西法的刷题秘籍 - 在线版](https://leetcode-solution-leetcode-pp.gitbook.io/leetcode-solution/)。后期可能将每日一题， 91 天学算法其他章节的讲义等也整理进来。
+
+电子书有更新我也会在公众号《力扣加加》进行通知， 感兴趣的同学可以关注一下。
+
+目前导出了四种格式，可惜的是这几种格式都有自己的不足：
+
+- 在线版。 实时更新，想要及时获取最新信息的可以用在线版。
+- html。 方便大家在线观看，由于是 html ，实际上大家也可以保存起来**离线**观看。
+- pdf。可使用 pdf 阅读器和浏览器（比如谷歌）直接观看，阅读体验一般。
+- mobi。 下载一个 Kindle 客户端就可以看，不需要购买 Kindle。
+- epub。 数学公式和主题都比较不错， 但是代码没有高亮。
+
+大家选择适合自己的格式下载即可。
+
+- [在线版](https://leetcode-solution-leetcode-pp.gitbook.io/leetcode-solution/)
+- [html](./assets/book.zip)
+- [pdf](./book.pdf)
+- [mobi](./book.mobi)
+- [epub](./book.epub)
 
 ## 介绍
 
@@ -167,7 +190,7 @@ leetcode 题解，记录自己的 leetcode 解题之路。
 - [《构造二叉树》专题](./selected/construct-binary-tree.md)
 - [字典序列删除](./selected/a-deleted.md)
 - [百度的算法面试题 - 祖玛游戏](./selected/zuma-game.md)
-- [西法带你学算法】一次搞定前缀和](./selected/atMostK.md)
+- [西法的刷题秘籍】一次搞定前缀和](./selected/atMostK.md)
 - [字节跳动的算法面试题是什么难度？](./selected/byte-dance-algo-ex.md)
 - [字节跳动的算法面试题是什么难度？（第二弹）](./selected/byte-dance-algo-ex-2017.md)
 - [《我是你的妈妈呀》 - 第一期](./selected/mother-01.md)

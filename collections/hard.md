@@ -1,3 +1,27 @@
+# 困难难度题目合集
+
+困难难度题目从类型上说多是：
+
+- 图
+- 设计题
+- 游戏场景题目
+- 中等题目的 follow up
+
+从解法上来说，多是：
+
+- 图算法
+- 动态规划
+- 二分法
+- DFS & BFS
+- 状态压缩
+- 剪枝
+
+从逻辑上说， 要么就是非常难想到，要么就是非常难写代码。 这里我总结了几个技巧：
+
+1. 看题目的数据范围， 看能否暴力模拟
+2. 暴力枚举所有可能的算法往上套
+3. 总结和记忆解题模板，减少解题压力
+
 - [0004.median-of-two-sorted-array](../problems/4.median-of-two-sorted-arrays.md)
 - [0023.merge-k-sorted-lists](../problems/23.merge-k-sorted-lists.md)
 - [0025.reverse-nodes-in-k-group](../problems/25.reverse-nodes-in-k-groups-cn.md)

@@ -1,3 +1,9 @@
+# 简单难度题目合集
+
+这里的题目难度比较小， 大多是模拟题，或者是很容易看出解法的题目，另外简单题目一般使用暴力法都是可以解决的。 这个时候只有看一下数据范围，思考下你的算法复杂度就行了。
+
+当然也不排除很多 hard 题目也可以暴力模拟，大家平时多注意数据范围即可。
+
 - [面试题 17.12. BiNode](../problems/binode-lcci.md) 🆕
 
 - [0001.two-sum](https://github.com/azl397985856/leetcode/blob/master/problems/1.two-sum.md)

@@ -1,3 +1,9 @@
+# 中等难度题目合集
+
+中等题目是力扣比例最大的部分，因此这部分我的题解也是最多的。 大家不要太过追求难题，先把中等难度题目做熟了再说。
+
+这部分的题目要不需要我们挖掘题目的内含信息， 将其抽象成简单题目。 要么是一些写起来比较麻烦的题目， 一些人编码能力不行就挂了。因此大家一定要自己做， 即使看了题解”会了“，也要自己码一遍。自己不亲自写一遍，里面的细节永远不知道。
+
 - [面试题 17.09. 第 k 个数](../problems/get-kth-magic-number-lcci.md)
 
 - [0002.add-two-numbers](../problems/2.add-two-numbers.md)
@@ -26,7 +32,7 @@
 - [0073.set-matrix-zeroes](../problems/73.set-matrix-zeroes.md)
 - [0075.sort-colors](../problems/75.sort-colors.md)
 - [0078.subsets](../problems/78.subsets.md)
-- [0079.word-search](../problems/79.word-search-en.md)
+- [0079.word-search](../problems/79.word-search.md)
 - [0080.remove-duplicates-from-sorted-array-ii](../problems/80.remove-duplicates-from-sorted-array-ii.md) 🆕
 - [0086.partition-list](../problems/86.partition-list.md)
 - [0090.subsets-ii](../problems/90.subsets-ii.md)
