@@ -20,7 +20,6 @@
     * [小岛问题](thinkings/island.md)
     * [最大公约数](thinkings/GCD.md)
     * [并查集](thinkings/union-find.md)
-    * [前缀和](thinkings/prefix.md)
     * [平衡二叉树专题](thinkings/balanced-tree.md)
 
 
