@@ -3,7 +3,7 @@
     "readme": "introduction.md"
   },
   "language": "zh-hans",
-  "plugins": ["katex",   "ace", "theme-api"],
+  "plugins": ["katex", "ace", "theme-api"],
   "pluginsConfig": {
     "theme-api": {
       "theme": "dark"

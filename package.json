@@ -1,5 +1,5 @@
 {
-  "dependencies": {
-    "mathjax": "^2.7.6"
+  "scripts": {
+    "book": "gitbook epub . & gitbook pdf . & gitbook mobi . & gitbook build && zip book.zip –q –r  _book"
   }
 }
