@@ -5,7 +5,6 @@
 
 * [第一章 - 算法专题](thinkings/README.md)
     * [数据结构](thinkings/basic-data-structure.md)
-    * [基础算法](thinkings/basic-algorithm.md)
     * [二叉树的遍历](thinkings/binary-tree-traversal.md)
     * [动态规划](thinkings/dynamic-programming.md)
     * [哈夫曼编码和游程编码](thinkings/run-length-encode-and-huffman-encode.md)
