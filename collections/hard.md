@@ -22,31 +22,30 @@
 2. 暴力枚举所有可能的算法往上套
 3. 总结和记忆解题模板，减少解题压力
 
-- [0004.median-of-two-sorted-array](../problems/4.median-of-two-sorted-arrays.md)
-- [0023.merge-k-sorted-lists](../problems/23.merge-k-sorted-lists.md)
-- [0025.reverse-nodes-in-k-group](../problems/25.reverse-nodes-in-k-groups-cn.md)
-- [0030.substring-with-concatenation-of-all-words](../problems/30.substring-with-concatenation-of-all-words.md)
-- [0032.longest-valid-parentheses](../problems/32.longest-valid-parentheses.md)
-- [0042.trapping-rain-water](../problems/42.trapping-rain-water.md)🖊
-- [0052.N-Queens-II](../problems/52.N-Queens-II.md)
-- [0084.largest-rectangle-in-histogram](../problems/84.largest-rectangle-in-histogram.md)
-- [0085.maximal-rectangle](../problems/85.maximal-rectangle.md)
-- [0124.binary-tree-maximum-path-sum](../problems/124.binary-tree-maximum-path-sum.md)
-- [0128.longest-consecutive-sequence](../problems/128.longest-consecutive-sequence.md)
-- [0145.binary-tree-postorder-traversal](../problems/145.binary-tree-postorder-traversal.md)
-- [0212.word-search-ii](../problems/212.word-search-ii.md)
-- [0239.sliding-window-maximum](../problems/239.sliding-window-maximum.md)
-- [0295.find-median-from-data-stream](../problems/295.find-median-from-data-stream.md)
-- [0301.remove-invalid-parentheses](../problems/301.remove-invalid-parentheses.md)
-- [0312.burst-balloons](../problems/312.burst-balloons.md) 🆕
-- [0335.self-crossPing](../problems/335.self-crossing.md)
-- [0460.lfu-cache](../problems/460.lfu-cache.md)
-- [0472.concatenated-words](../problems/472.concatenated-words.md) 🆕
-- [0488.zuma-game.md](../problems/488.zuma-game.md) 🆕
-- [0493.reverse-pairs](../problems/493.reverse-pairs.md) 🆕
-- [0887.super-egg-drop](../problems/887.super-egg-drop.md)
-- [0895.maximum-frequency-stack](../problems/895.maximum-frequency-stack.md) 🆕
-
-- [1032.stream-of-characters](../problems/1032.stream-of-characters.md) 🆕
-- [1168.optimize-water-distribution-in-a-village](../problems/1168.optimize-water-distribution-in-a-village-cn.md) 🆕
-- [1449.form-largest-integer-with-digits-that-add-up-to-target](../problems/1449.form-largest-integer-with-digits-that-add-up-to-target.md) 🆕
+- [0004. 寻找两个正序数组的中位数](problems/4.median-of-two-sorted-arrays.md)
+- [0023. 合并K个升序链表](problems/23.merge-k-sorted-lists.md)
+- [0025. K 个一组翻转链表](problems/25.reverse-nodes-in-k-groups.md)
+- [0030. 串联所有单词的子串](problems/30.substring-with-concatenation-of-all-words.md)
+- [0032. 最长有效括号](problems/32.longest-valid-parentheses.md)
+- [0042. 接雨水](problems/42.trapping-rain-water.md)
+- [0052. N皇后 II](problems/52.N-Queens-II.md)
+- [0084. 柱状图中最大的矩形](problems/84.largest-rectangle-in-histogram.md)
+- [0085. 最大矩形](problems/85.maximal-rectangle.md)
+- [0124. 二叉树中的最大路径和](problems/124.binary-tree-maximum-path-sum.md)
+- [0128. 最长连续序列](problems/128.longest-consecutive-sequence.md)
+- [0145. 二叉树的后序遍历](problems/145.binary-tree-postorder-traversal.md)
+- [0212. 单词搜索 II](problems/212.word-search-ii.md)
+- [0239. 滑动窗口最大值](problems/239.sliding-window-maximum.md)
+- [0295. 数据流的中位数](problems/295.find-median-from-data-stream.md)
+- [0301. 删除无效的括号](problems/301.remove-invalid-parentheses.md)
+- [0312. 戳气球](problems/312.burst-balloons.md)
+- [0335. 路径交叉](problems/335.self-crossing.md)
+- [0460. LFU缓存](problems/460.lfu-cache.md)
+- [0472. 连接词](problems/472.concatenated-words.md)
+- [0488. 祖玛游戏](problems/488.zuma-game.md)
+- [0493. 翻转对](problems/493.reverse-pairs.md)
+- [0887. 鸡蛋掉落](problems/887.super-egg-drop.md)
+- [0895. 最大频率栈](problems/895.maximum-frequency-stack.md)
+- [1032. 字符流](problems/1032.stream-of-characters.md)
+- [1168. 水资源分配优化](problems/1168.optimize-water-distribution-in-a-village.md)
+- [1449. 数位成本和为目标值的最大数字](problems/1449.form-largest-integer-with-digits-that-add-up-to-target.md)

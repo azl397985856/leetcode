@@ -5,7 +5,6 @@
 
 * [第一章 - 算法专题](thinkings/README.md)
     * [数据结构](thinkings/basic-data-structure.md)
-    * [基础算法](thinkings/basic-algorithm.md)
     * [二叉树的遍历](thinkings/binary-tree-traversal.md)
     * [动态规划](thinkings/dynamic-programming.md)
     * [哈夫曼编码和游程编码](thinkings/run-length-encode-and-huffman-encode.md)
@@ -123,7 +122,6 @@
     * [0098. 验证二叉搜索树](problems/98.validate-binary-search-tree.md)
     * [0102. 二叉树的层序遍历](problems/102.binary-tree-level-order-traversal.md)
     * [0103. 二叉树的锯齿形层次遍历](problems/103.binary-tree-zigzag-level-order-traversal.md)
-    * [105. 从前序与中序遍历序列构造二叉树](problems/105.Construct-Binary-Tree-from-Preorder-and-Inorder-Traversal.md)
     * [0113. 路径总和 II](problems/113.path-sum-ii.md)
     * [0129. 求根到叶子节点数字之和](problems/129.sum-root-to-leaf-numbers.md)
     * [0130. 被围绕的区域](problems/130.surrounded-regions.md)
