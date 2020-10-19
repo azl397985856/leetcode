@@ -34,18 +34,20 @@ https://leetcode-cn.com/problems/binode-lcci/
 
 ## 思路
 
-实际上这就是一个考察二叉树遍历 + 二叉查找树性质的题目。需要注意的是指针操作，这一点和链表反转系列题目是一样的。
+实际上这就是一个考察二叉树遍历 + 二叉搜索(查找)树性质的题目。这类题目特别需要注意的是指针操作，这一点和**链表反转系列**题目是一样的。
 
-首先我们要知道一个性质： 对于一个二叉查找树来说，其中序遍历结果是一个有序数组。 而题目要求你输出的恰好就是有序数组（虽然没有明说， 不过从测试用例也可以看出）。
+首先我们要知道一个性质： **对于一个二叉查找树来说，其中序遍历结果是一个有序数组**。 而题目要求你输出的恰好就是有序数组（虽然没有明说， 不过从测试用例也可以看出）。
 
 因此一个思路就是中序遍历， 边遍历边改变指针即可。 这里有两个注意点:
 
-1. 指针操作小心死循环
-2. 你需要返回的是最左下角的节点，而不是题目给的 root
+1. 指针操作小心互相引用，导致死循环。
+2. 你需要返回的是最左下角的节点，而不是题目给的 root。
 
-对于第一个问题， 其实只要注意操作指针的顺序即可。对于第二个问题，我用了一个黑科技，让代码看起来简洁又高效。如果不懂的话， 你也可以换个朴素的写法。
+- 对于第一个问题， 其实只要注意操作指针的顺序，以及在必要的时候重置指针即可。
 
-让我们进入正题。
+- 对于第二个问题，我用了一个黑科技，让代码看起来简洁又高效。如果不懂的话， 你也可以换个朴素的写法。
+
+理解了上面的内容的话， 那让我们进入正题。
 
 其中绿色是我们要增加的连线，而黑色是是原本的连线。
 
@@ -55,7 +57,9 @@ https://leetcode-cn.com/problems/binode-lcci/
 
 ![](https://tva1.sinaimg.cn/large/007S8ZIlly1gj0zl95r69j31040m6tbc.jpg)
 
-实际上，不管多么复杂。 我们只需要进行一次**中序遍历**，同时记录前驱节点。然后操作修改前驱节点和当前节点的指针即可，整个过程就好像是链表反转。
+实际上，不管多么复杂。 我们只需要进行一次**中序遍历**，同时记录前驱节点。然后修改前驱节点和当前节点的指针即可，整个过程就好像是链表反转。
+
+![](https://tva1.sinaimg.cn/large/007S8ZIlly1gjufqa8pk7j30dm07cwev.jpg)
 
 核心代码（假设 pre 我们已经正确计算出了）：
 
@@ -90,8 +94,8 @@ def dfs(root):
    self.pre.right = root
    # 当第一次执行到下面这一行代码，恰好是在最左下角， 这个时候 self.pre = root 就切断了 self.pre 和 self.ans 的联系
    # 之后 self.pre 的变化都不会体现到 self.ans 上。
-   # 直观上来说就是 self.ans 在遍历到最左下角的时候下车了
-   # 因此最后返回 self.ans 即可
+   # 直观上来说就是 self.ans 在遍历到最左下角的时候下车了，而 self.pre 还在车上
+   # 因此最后返回 self.ans.right 即可
    self.pre = root
    dfs(root.right)
 dfs(root)
@@ -130,8 +134,9 @@ class Solution:
 
 - [206.reverse-linked-list](./206.reverse-linked-list.md)
 - [92.reverse-linked-list-ii](./92.reverse-linked-list-ii.md)
-- [25.reverse-nodes-in-k-groups-cn](./25.reverse-nodes-in-k-groups-cn.md)
+- [25.reverse-nodes-in-k-groups-cn](./25.reverse-nodes-in-k-groups.md)
 
-大家也可以关注我的公众号《力扣加加》获取更多更新鲜的 LeetCode 题解
+大家对此有何看法，欢迎给我留言，我有时间都会一一查看回答。更多算法套路可以访问我的 LeetCode 题解仓库：https://github.com/azl397985856/leetcode 。 目前已经 37K star 啦。
+大家也可以关注我的公众号《力扣加加》带你啃下算法这块硬骨头。
 
-![](https://tva1.sinaimg.cn/large/007S8ZIlly1ghluc9tkv6j30x20iwjtf.jpg)
+![](https://tva1.sinaimg.cn/large/007S8ZIlly1gfcuzagjalj30p00dwabs.jpg)
