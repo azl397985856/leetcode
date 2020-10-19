@@ -59,7 +59,7 @@
     * [0125. 验证回文串](problems/125.valid-palindrome.md)
     * [0136. 只出现一次的数字](problems/136.single-number.md)
     * [0155. 最小栈](problems/155.min-stack.md)
-    * [0167. 两数之和 II * 输入有序数组](problems/167.two-sum-ii-input-array-is-sorted.md)
+    * [0167. 两数之和 II 输入有序数组](problems/167.two-sum-ii-input-array-is-sorted.md)
     * [0169. 多数元素](problems/169.majority-element.md)
     * [0172. 阶乘后的零](problems/172.factorial-trailing-zeroes.md)
     * [0190. 颠倒二进制位](problems/190.reverse-bits.md)
