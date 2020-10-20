@@ -1,2 +1,12 @@
 .DS_Store
+_book/
 .idea/*
+node_modules/
+西法的刷题秘籍*.pdf
+西法的刷题秘籍*.mobi
+西法的刷题秘籍*.epub
+西法的刷题秘籍*.zip
+book*.pdf
+book*.mobi
+book*.epub
+book*.zip

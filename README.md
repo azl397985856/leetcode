@@ -26,13 +26,35 @@
 
 ![](https://tva1.sinaimg.cn/large/007S8ZIlly1ghluemaoj3j30z90dtmy5.jpg)
 
-## 项目预览
+## 电子书
 
-![project-overview](https://github.com/azl397985856/leetcode/blob/master/Kapture%202020-08-19%20at%2011.37.36.gif)
+这是我将我的所有公开的算法资料整理的一个电子书，全部题目信息中文化，以前会有一些英文描述，感谢 @CYL 的中文整理。
 
-可以清晰地看出仓库组织关系。
+![](https://cdn.jsdelivr.net/gh/azl397985856/cdn/2020-10-17/1602928846461-image.png)
 
-（你可以下载本仓库 和 obsidian 软件，然后用 obsidian 打开获得更好的阅读效果）
+![](https://cdn.jsdelivr.net/gh/azl397985856/cdn/2020-10-17/1602928862442-image.png)
+
+我写这本电子书花费了大量的时间和精力，除了内容上的创作，还要做一些电子书的排版，以让大家获得更好的阅读体验。光数学公式的展示，我就研究了多个插件的要源码，并魔改了一下才使得导出的电子书支持 latex。 不过有些动图，在做成电子书（比如 pdf）的时候自然就变没了，如果需要看动图的， 可以去我的公众号《力扣加加》或者我的 leetcode 题解仓库看。
+
+> epub 还是有动图的
+
+由于是电子书，因此阅读体验可能会更好， 但是相应地就不能获得及时的更新，因此你可以收藏一下我的同步电子书的网站 [西法的刷题秘籍 - 在线版](https://leetcode-solution-leetcode-pp.gitbook.io/leetcode-solution/)。后期可能将每日一题， 91 天学算法其他章节的讲义等也整理进来。
+
+电子书有更新我也会在公众号《力扣加加》进行通知， 感兴趣的同学可以关注一下。
+
+目前导出了四种格式，可惜的是这几种格式都有自己的不足：
+
+- 在线版。 实时更新，想要及时获取最新信息的可以用在线版。
+- html。 方便大家在线观看，由于是 html ，实际上大家也可以保存起来**离线**观看。
+- pdf。可使用 pdf 阅读器和浏览器（比如谷歌）直接观看，阅读体验一般，生成的目录不能导航。
+- mobi。 下载一个 Kindle 客户端就可以看，不需要购买 Kindle。
+- epub。 数学公式和主题都比较不错， 但是代码没有高亮。
+
+大家选择适合自己的格式下载即可。
+
+- [在线版](https://leetcode-solution-leetcode-pp.gitbook.io/leetcode-solution/)
+
+html, pdf，mobi 和 epub 格式，关注我的公众号《力扣加加》回复`电子书`即可。
 
 ## 介绍
 
@@ -68,9 +90,11 @@ leetcode 题解，记录自己的 leetcode 解题之路。
 - [刷题效率低？或许你就差这么一个插件](https://lucifer.ren/blog/2020/06/06/algo-chrome-extension/)
 - [力扣刷题插件](https://lucifer.ren/blog/2020/08/16/leetcode-cheat/)
 
-## 91 天学算法
+### 91 天学算法
 
-- [91 天，遇见不一样的自己](https://lucifer.ren/blog/2020/05/30/91algo-05-30/)
+- [第一期讲义-二分法](./91/binary-search.md)
+- [第一期讲义-双指针](./91/two-pointers.md)
+- [第二期正在火热进行中](./91/season2.md)
 
 ## 食用指南
 
@@ -136,7 +160,7 @@ leetcode 题解，记录自己的 leetcode 解题之路。
 - [数据结构](./thinkings/basic-data-structure.md)
 - [基础算法](./thinkings/basic-algorithm.md)
 - [二叉树的遍历](./thinkings/binary-tree-traversal.md) 🖊
-- [动态规划](./thinkings/dynamic-programming.md)
+- [动态规划](./thinkings/dynamic-programming.md) 🖊
 - [哈夫曼编码和游程编码](./thinkings/run-length-encode-and-huffman-encode.md)
 - [布隆过滤器](./thinkings/bloom-filter.md)
 - [字符串问题](./thinkings/string-problems.md)
@@ -154,6 +178,21 @@ leetcode 题解，记录自己的 leetcode 解题之路。
 - [前缀和](./thinkings/prefix.md) 🆕
 - [字典序列删除](https://lucifer.ren/blog/2020/06/13/%E5%88%A0%E9%99%A4%E9%97%AE%E9%A2%98/)🆕
 - [平衡二叉树专题](./thinkings/balanced-tree.md)
+
+### 精选题解
+
+- [《日程安排》专题](./selected/schedule-topic.md)
+- [《构造二叉树》专题](./selected/construct-binary-tree.md)
+- [字典序列删除](./selected/a-deleted.md)
+- [百度的算法面试题 - 祖玛游戏](./selected/zuma-game.md)
+- [西法的刷题秘籍】一次搞定前缀和](./selected/atMostK.md)
+- [字节跳动的算法面试题是什么难度？](./selected/byte-dance-algo-ex.md)
+- [字节跳动的算法面试题是什么难度？（第二弹）](./selected/byte-dance-algo-ex-2017.md)
+- [《我是你的妈妈呀》 - 第一期](./selected/mother-01.md)
+- [一文带你看懂二叉树的序列化](./selected/serialize.md)
+- [穿上衣服我就不认识你了？来聊聊最长上升子序列](./selected/LIS.md)
+- [你的衣服我扒了 - 《最长公共子序列》](./selected/LCS.md)
+- [一文看懂《最大子序列和问题》](./selected/LSS.md)
 
 ### anki 卡片
 
@@ -189,10 +228,6 @@ anki - 文件 - 导入 - 下拉格式选择“打包的 anki 集合”，然后�
 
 ### 计划
 
-- [anki 卡片 完善](./assets/anki/)
-
-- [字符串类问题汇总](./todo/str/)
-
 - LeetCode 换皮题目集锦
 
 - 动态规划完善。最长递增子序列，最长回文子序列，编辑距离等“字符串”题目， 扔鸡蛋问题。 解题模板，滚动数组。
@@ -218,18 +253,6 @@ anki - 文件 - 导入 - 下拉格式选择“打包的 anki 集合”，然后�
 我经常会在开源社区进行一些输出和分享，比较受欢迎的有 [宇宙最强的前端面试指南](https://github.com/azl397985856/fe-interview)
 和 [我的第一本小书](https://github.com/azl397985856/automate-everything)。目前本人正在写一本关于《leetcode 题解》的实体书，感兴趣的可以通过邮箱或者微信联系我，我会在出版的第一时间通知你，并给出首发优惠价。有需要可以直接群里联系我，或者发送到我的个人邮箱 [azl397985856@gmail.com]。 新书详情戳这里：[《或许是一本可以彻底改变你刷 LeetCode 效率的题解书》](https://lucifer.ren/blog/2020/04/07/leetcode-book.intro/)
 
-### 微信
-
-<img width="300" src="./assets/donate-weixin.jpg">
-
-### 支付宝
-
-<img width="300" src="./assets/donate-zfb.jpg">
-
-## 捐赠
-
-[点击查看完整的捐赠列表](./donation.md)
-
 ## 贡献
 
 - 如果有想法和创意，请提 [issue](https://github.com/azl397985856/leetcode/issues) 或者进群提
@@ -240,6 +263,20 @@ anki - 文件 - 导入 - 下拉格式选择“打包的 anki 集合”，然后�
 ## 鸣谢
 
 感谢为这个项目作出贡献的所有 [小伙伴](https://github.com/azl397985856/leetcode/graphs/contributors)
+
+## 赞助
+
+### 微信
+
+<img width="300" src="./assets/donate-weixin.jpg">
+
+### 支付宝
+
+<img width="300" src="./assets/donate-zfb.jpg">
+
+### 捐赠
+
+[点击查看完整的捐赠列表](./donation.md)
 
 ## License
 
