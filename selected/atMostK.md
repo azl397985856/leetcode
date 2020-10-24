@@ -575,6 +575,8 @@ class Solution:
 
 ![](https://tva1.sinaimg.cn/large/007S8ZIlly1gj8k997nmbj30q9074dhm.jpg)
 
+> 1094. 拼车 是这道题的换皮题， 思路一模一样。
+
 ### 代码（Python）
 
 ```py

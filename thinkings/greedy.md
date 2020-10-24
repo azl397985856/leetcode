@@ -127,23 +127,21 @@ class Solution:
 
 ![](https://tva1.sinaimg.cn/large/007S8ZIlly1ghluind4orj30yg0i00um.jpg)
 
-如图：
+上一题的思路是维护一个 furthest，end 变量，不断贪心更新。 这一道题也是如此，不同的点是本题的数据是一个二维数组。 不过如果你彻底理解了上面的题，我想这道题也难不倒你。
 
-- 1 不可以，因此存在断层
-- 2 可以
-- 3 不行，因为不到 T
+我们来看下这道题究竟和上面的题有多像。
 
-我们当前的 clip 开始结束时间分别为 s，e。 上一段 clip 的结束时间是 t1，上上一段 clip 结束时间是 t2。
+以题目给的数据为例：
 
-那么这种情况下 t1 实际上是不需要的，因为 t2 完全可以覆盖它：
+clips = [[0,1],[6,8],[0,2],[5,6],[0,4],[0,3],[6,7],[1,3],[4,7],[1,4],[2,5],[2,6],[3,4],[4,5],[5,7],[6,9]], T = 9
 
-![](https://tva1.sinaimg.cn/large/007S8ZIlly1ghluinuuz2j30o604s3yo.jpg)
+我们对原数组按开始时间排序，并先看前面的一部分：
 
-那什么样 t1 才是需要的呢？如图：
+[[0,1], [0,2], [0,3], [0,4], [1,3], [1,4], [2,5], [2,6] ...]
 
-![](https://tva1.sinaimg.cn/large/007S8ZIlly1ghluis28zej30mc05saa7.jpg)
+> 注意并不需要真正地排序，而是类似桶排序的思路，使用额外的空间，具体参考代码区
 
-用代码来说的话就是`s > t2 and t2 <= t1`
+这是不是就相当于上面跳跃游戏中的：[4,0,2]。 至此我们成功将这道题转换为了上面已经做出来的题。 只不过有一点不同，那就是上面的题保证可以跳到最后，而这道题是可能拼不出来的，因此这个临界值需要注意，具体参考后面的代码区。
 
 #### 代码
 
@@ -155,27 +153,32 @@ Python3 Code:
 
 class Solution:
     def videoStitching(self, clips: List[List[int]], T: int) -> int:
-        #  t1 表示选取的上一个clip的结束时间
-        #  t2 表示选取的上上一个clip的结束时间
-        t2, t1, cnt = -1, 0, 0
-        clips.sort(key=lambda a: a[0])
+        furthest = [0] * (T)
+
         for s, e in clips:
-            # s > t1 已经确定不可以了， t1 >= T 已经可以了
-            if s > t1 or t1 >= T:
-                break
-            if s > t2 and t2 <= t1:
-                cnt += 1
-                t2 = t1
-            t1 = max(t1,e)
-        return cnt if t1 >= T else - 1
+            for i in range(s, e + 1):
+                # 无需考虑，这也是我可以建立一个大小为 T 的 furthest 的数组的原因
+                if i >= T:break
+                furthest[i] = max(furthest[i], e)
+        # 经过上面的预处理，本题和上面的题差距以及很小了
+        # 这里的 last 相当于上题的 furthest
+        end = last = ans = 0
+        for i in range(T):
+            last = max(last, furthest[i])
+            # 比上面题目多的一个临界值
+            if last == i: return - 1
+            if end == i:
+                ans += 1
+                end = last
+        return ans
 
 ```
 
 **复杂度分析**
 
-- 时间复杂度：由于使用了排序（假设是基于比较的排序），因此时间复杂度为 $O(NlogN)$。
+- 时间复杂度：$O(\sum_{i=1}^{n}ranges[i] + T)$，其中 ranges[i] 为 clips[i] 的区间长度。
 
-- 空间复杂度：$O(1)$。
+- 空间复杂度：$O(T)$。
 
 ### 1326. 灌溉花园的最少水龙头数目
 
@@ -229,13 +232,17 @@ ranges.length == n + 1
 
 #### 思路
 
-贪心策略，我们尽量找到能够覆盖最远（右边）位置的水龙头，并记录它最右覆盖的土地。
+和上面的题思路还是一样的。我们仍然采用贪心策略，继续沿用上面的思路，尽量找到能够覆盖最远（右边）位置的水龙头，并记录它最右覆盖的土地。
 
-- 我们使用 furthest[i] 来记录经过每一个水龙头 i 能够覆盖的最右侧土地。
-- 一共有 n+1 个水龙头，我们遍历 n + 1 次。
-- 对于每次我们计算水龙头的左右边界，[i - ranges[i], i + ranges[i]]
-- 我们更新左右边界范围内的水龙头的 furthest
-- 最后从土地 0 开始，一直到土地 n ，记录水龙头数目
+这里我就不多解释了，我们来看下具体的算法，大家自己体会一下有多像。
+
+算法：
+
+- 使用 furthest[i] 来记录经过每一个水龙头 i 能够覆盖的最右侧土地。一共有 n+1 个水龙头，我们遍历 n + 1 次。
+- 每次都计算并更新水龙头的左右边界 [i - ranges[i], i + ranges[i]] 范围内的水龙头的 furthest
+- 最后从土地 0 开始，一直遍历到土地 n ，记录水龙头数目，类似跳跃游戏。
+
+是不是和上面的题几乎一模一样？
 
 #### 代码
 
@@ -247,23 +254,43 @@ Python3 Code:
 
 class Solution:
     def minTaps(self, n: int, ranges: List[int]) -> int:
-        furthest, cnt, cur = [0] * n, 0, 0
-
+        furthest, ans, cur = [0] * n, 0, 0
+        # 预处理
         for i in range(n + 1):
-            l = max(0, i - ranges[i])
-            r = min(n, i + ranges[i])
-            for j in range(l, r):
-                furthest[j] = max(furthest[j], r)
-        while cur < n:
-            if furthest[cur] == 0: return -1
-            cur = furthest[cur]
-            cnt += 1
-        return cnt
+            for j in range(max(0, i - ranges[i]), min(n, i + ranges[i])):
+                furthest[j] = max(furthest[j], min(n, i + ranges[i]))
+        # 老套路了
+        end = last = 0
+        for i in range(n):
+            if furthest[i] == 0: return -1
+            last = max(last, furthest[i])
+            if i == end:
+                end = last
+                ans += 1
+        return ans
 
 ```
 
 **复杂度分析**
 
-- 时间复杂度：时间复杂度取决 l 和 r，也就是说取决于 ranges 数组的值，假设 ranges 的平均大小为 Size 的话，那么时间复杂度为 $O(N * Size)$。
+- 时间复杂度：$O(\sum_{i=1}^{n}R[i] + n)$，其中 R[i] 为 ranges[i] 的区间长度。
 
-- 空间复杂度：我们使用了 furthest 数组， 因此空间复杂度为 $O(N)$。
+- 空间复杂度：$O(n)$。
+
+## 总结
+
+极值问题我们可以考虑使用动态规划和贪心，而覆盖类的问题使用动态规划和贪心都是可以的，只不过使用贪心的代码和复杂度通常都会更简单。但是相应地，贪心的难点在于如何证明局部最优解就可以得到全局最优解。通过这几道题的学习，希望你能够明白覆盖类问题的套路，其底层都是一样的。明白了这些， 你回头再去看覆盖类的题目，或许会发现新的世界。
+
+我整理的 1000 多页的电子书已经开发下载了，大家可以去我的公众号《力扣加加》后台回复电子书获取。 
+
+![](https://cdn.jsdelivr.net/gh/azl397985856/cdn/2020-10-17/1602928846461-image.png)
+
+
+![](https://cdn.jsdelivr.net/gh/azl397985856/cdn/2020-10-17/1602928862442-image.png)
+
+
+大家对此有何看法，欢迎给我留言，我有时间都会一一查看回答。更多算法套路可以访问我的 LeetCode 题解仓库：https://github.com/azl397985856/leetcode 。 目前已经 37K star 啦。
+
+大家也可以关注我的公众号《力扣加加》带你啃下算法这块硬骨头。
+
+![](https://tva1.sinaimg.cn/large/007S8ZIlly1gfcuzagjalj30p00dwabs.jpg)
