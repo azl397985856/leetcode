@@ -97,6 +97,7 @@
 - [0900. RLE 迭代器](../problems/900.rle-iterator.md)
 - [0912. 排序数组](../problems/912.sort-an-array.md)
 - [0935. 骑士拨号器](../problems/935.knight-dialer.md)
+- [0978. 最长湍流子数组](../problems/978.longest-turbulent-subarray.md) 🆕
 - [1011. 在 D 天内送达包裹的能力](../problems/1011.capacity-to-ship-packages-within-d-days.md)
 - [1014. 最佳观光组合](../problems/1014.best-sightseeing-pair.md)
 - [1015. 可被 K 整除的最小整数](../problems/1015.smallest-integer-divisible-by-k.md)
