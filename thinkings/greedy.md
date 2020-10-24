@@ -189,9 +189,9 @@ class Solution:
 请你返回可以灌溉整个花园的   最少水龙头数目  。如果花园始终存在无法灌溉到的地方，请你返回  -1 。
 
 示例 1：
-
+```
 ![](https://tva1.sinaimg.cn/large/007S8ZIlly1ghluiubf2gj30bm05xmx4.jpg)
-
+```
 输入：n = 5, ranges = [3,4,1,1,0,0]
 输出：1
 解释：
