@@ -163,6 +163,7 @@
     * [0560. 和为K的子数组](problems/560.subarray-sum-equals-k.md)
     * [0609. 在系统中查找重复文件](problems/609.find-duplicate-file-in-system.md)
     * [0611. 有效三角形的个数](problems/611.valid-triangle-number.md)
+    * [0686. 重复叠加字符串匹配](problems/686.repeated-string-match.md)
     * [0718. 最长重复子数组](problems/718.maximum-length-of-repeated-subarray.md)
     * [0754. 到达终点数字](problems/754.reach-a-number.md)
     * [0785. 判断二分图](problems/785.is-graph-bipartite.md)
