@@ -193,6 +193,7 @@
     * [1310. 子数组异或查询](problems/1310.xor-queries-of-a-subarray.md)
     * [1334. 阈值距离内邻居最少的城市](problems/1334.find-the-city-with-the-smallest-number-of-neighbors-at-a-threshold-distance.md)
     * [1371.每个元音包含偶数次的最长子字符串](problems/1371.find-the-longest-substring-containing-vowels-in-even-counts.md)
+    * [1631.path-with-minimum-effort](../problems/1631.path-with-minimum-effort.md)
 
 
 * [第六章 - 高频考题（困难）](collections/hard.md)
