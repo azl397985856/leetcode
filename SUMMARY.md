@@ -10,9 +10,10 @@
     * [哈夫曼编码和游程编码](thinkings/run-length-encode-and-huffman-encode.md)
     * [布隆过滤器](thinkings/bloom-filter.md)
     * [字符串问题](thinkings/string-problems.md)
-    * [前缀树专题](thinkings/trie.md)
-    * [《贪婪策略》专题](thinkings/greedy.md)
-    * [《深度优先遍历》专题](thinkings/DFS.md)
+    * [前缀树](thinkings/trie.md)
+    * [贪婪策略](thinkings/greedy.md)
+    * [深度优先遍历](thinkings/DFS.md)
+    * [回溯](thinkings/backtrack.md)
     * [滑动窗口（思路 + 模板）](thinkings/slide-window.md)
     * [位运算](thinkings/bit.md)
     * [设计题](thinkings/design.md)
@@ -223,6 +224,7 @@
     * [0895. 最大频率栈](problems/895.maximum-frequency-stack.md)
     * [1032. 字符流](problems/1032.stream-of-characters.md)
     * [1168. 水资源分配优化](problems/1168.optimize-water-distribution-in-a-village.md)
+    * [1255. 得分最高的单词集合](../problems/1255.maximum-score-words-formed-by-letters.md)
     * [1449. 数位成本和为目标值的最大数字](problems/1449.form-largest-integer-with-digits-that-add-up-to-target.md)
     
 
