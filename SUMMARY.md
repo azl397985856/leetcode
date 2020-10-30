@@ -194,7 +194,7 @@
     * [1310. 子数组异或查询](problems/1310.xor-queries-of-a-subarray.md)
     * [1334. 阈值距离内邻居最少的城市](problems/1334.find-the-city-with-the-smallest-number-of-neighbors-at-a-threshold-distance.md)
     * [1371.每个元音包含偶数次的最长子字符串](problems/1371.find-the-longest-substring-containing-vowels-in-even-counts.md)
-    * [1631.path-with-minimum-effort](../problems/1631.path-with-minimum-effort.md)
+    * [1631. 最小体力消耗路径](problems/1631.path-with-minimum-effort.md)
 
 
 * [第六章 - 高频考题（困难）](collections/hard.md)
@@ -224,7 +224,7 @@
     * [0895. 最大频率栈](problems/895.maximum-frequency-stack.md)
     * [1032. 字符流](problems/1032.stream-of-characters.md)
     * [1168. 水资源分配优化](problems/1168.optimize-water-distribution-in-a-village.md)
-    * [1255. 得分最高的单词集合](../problems/1255.maximum-score-words-formed-by-letters.md)
+    * [1255. 得分最高的单词集合](problems/1255.maximum-score-words-formed-by-letters.md)
     * [1449. 数位成本和为目标值的最大数字](problems/1449.form-largest-integer-with-digits-that-add-up-to-target.md)
     
 
