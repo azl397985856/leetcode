@@ -3,13 +3,13 @@
     "readme": "introduction.md"
   },
   "title": "西法的刷题秘籍",
-  "output": "西法的刷题秘籍",
+  "output": {
+    "name": "西法的刷题秘籍"
+  },
   "description": " leetcode题解，记录自己的leetcode解题之路。",
   "language": "zh-hans",
-  "plugins": ["katex", "ace", "theme-api"],
+  "plugins": ["katex", "ace"],
   "pluginsConfig": {
-    "theme-api": {
-      "theme": "dark"
-    }
+    
   }
 }

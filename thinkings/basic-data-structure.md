@@ -92,7 +92,7 @@ function Form() {
 
 队列中元素先进先出 FIFO (first in, first out) 的示意：
 
-![basic-data-structure-queue](../assets/thinkings/basic-data-structure-queue.svg)
+![](https://tva1.sinaimg.cn/large/0081Kckwly1gk7h2kgnjfj30b907dt8x.jpg)
 
 （图片来自 https://github.com/trekhleb/javascript-algorithms/blob/master/src/data-structures/queue/README.zh-CN.md)
 
@@ -121,7 +121,7 @@ function Form() {
 
 `HTTP/2` 和 `HTTP/1.1`:
 
-为了解决`HTTP/1.1`中的服务端队首阻塞，`HTTP/2`采用了`二进制分帧` 和 `多路复用` 等方法。  
+为了解决`HTTP/1.1`中的服务端队首阻塞，`HTTP/2`采用了`二进制分帧` 和 `多路复用` 等方法。
 
 帧是`HTTP/2`数据通信的最小单位。在 `HTTP/1.1` 中数据包是文本格式，而 `HTTP/2` 的数据包是二进制格式的，也就是二进制帧。
 
@@ -187,7 +187,7 @@ foo();
 
 链表是一种最基本数据结构，熟练掌握链表的结构和常见操作是基础中的基础。
 
-![basic-data-structure-link-list](../assets/thinkings/basic-data-structure-link-list.svg)
+![](https://tva1.sinaimg.cn/large/0081Kckwly1gk7h36dljuj30bc0153yj.jpg)
 
 （图片来自： https://github.com/trekhleb/javascript-algorithms/tree/master/src/algorithms/linked-list/traversal)
 
@@ -263,7 +263,7 @@ return, children, sibling 也都是一个 fiber，因此 fiber 看起来就是�
 
 树的基本算法有前中后序遍历和层次遍历，有的同学对前中后这三个分别具体表现的访问顺序比较模糊，其实当初我也是一样的，后面我学到了一点，你只需要记住：`所谓的前中后指的是根节点的位置，其他位置按照先左后右排列即可`。比如前序遍历就是`根左右`, 中序就是`左根右`，后序就是`左右根`， 很简单吧？
 
-我刚才提到了树是一种递归的数据结构，因此树的遍历算法使用递归去完成非常简单，幸运的是树的算法基本上都要依赖于树的遍历。 
+我刚才提到了树是一种递归的数据结构，因此树的遍历算法使用递归去完成非常简单，幸运的是树的算法基本上都要依赖于树的遍历。
 
 但是递归在计算机中的性能一直都有问题，因此掌握不那么容易理解的"命令式地迭代"遍历算法在某些情况下是有用的。如果你使用迭代式方式去遍历的话，可以借助上面提到的`栈`来进行，可以极大减少代码量。
 
@@ -290,7 +290,7 @@ return, children, sibling 也都是一个 fiber，因此 fiber 看起来就是�
 
 标记为 7 的节点具有两个子节点，标记为 2 和 6; 一个父节点，标记为 2, 作为根节点，在顶部，没有父节点。
 
-![basic-tree](../assets/thinkings/basic-tree.svg)
+![](https://tva1.sinaimg.cn/large/0081Kckwly1gk7h4obmnkj30rs0muq4k.jpg)
 
 （图片来自 https://github.com/trekhleb/javascript-algorithms/blob/master/src/data-structures/tree/README.zh-CN.md)
 
@@ -325,7 +325,7 @@ return, children, sibling 也都是一个 fiber，因此 fiber 看起来就是�
 
 - 在一个 最大堆 (max heap) 中，P 的 key（或 value) 大于或等于 C 的对应值。
 
-![max-heap](../assets/thinkings/max-heap.svg)
+![max-heap](https://tva1.sinaimg.cn/large/0081Kckwly1gk7h43x3o8j30dx0ab74q.jpg)
 
 需要注意的是优先队列不仅有堆一种，还有更复杂的，但是通常来说，我们会把两者做等价。
 
@@ -1134,4 +1134,3 @@ if __name__ == "__main__":  # pragma: no cover
 理解图的常见概念，我们就算入门了。接下来，我们就可以做题了，一般的图题目第一步都是建图，第二步都是基于第一步的图进行遍历以寻找可行解。
 
 图的题目相对而言比较难，尤其是代码书写层面。但是就面试题目而言， 图的题目类型却不多，而且很多题目都是套模板就可以解决。因此建议大家多练习模板，并自己多手敲，确保可以自己敲出来。
-
