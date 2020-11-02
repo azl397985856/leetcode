@@ -71,8 +71,8 @@ function dfs(i) {
 
 参考题目：
 
-- [140. 单词拆分 II](https://leetcode-cn.com/problems/word-break-ii/solution/cong-hui-su-dao-di-qia-er-ji-ji-yi-hua-di-gui-140-/)
-- [816. 模糊坐标](https://leetcode-cn.com/problems/ambiguous-coordinates/)
+- [140. 单词拆分 II](https://github.com/azl397985856/leetcode/blob/master/problems/140.word-break-ii.md)
+- [816. 模糊坐标](https://github.com/azl397985856/leetcode/blob/master/problems/816.ambiguous-coordinates.md)
 
 这类问题不同于子集和全排列，其组合是有规律的，我们可以使用笛卡尔积公式，将两个或更多子集联合起来。
 
