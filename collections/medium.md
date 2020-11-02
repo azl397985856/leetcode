@@ -91,6 +91,7 @@
 - [0718. 最长重复子数组](../problems/718.maximum-length-of-repeated-subarray.md)
 - [0754. 到达终点数字](../problems/754.reach-a-number.md)
 - [0785. 判断二分图](../problems/785.is-graph-bipartite.md)
+- [0816.ambiguous-coordinates](../problems/816.ambiguous-coordinates.md) 🆕
 - [0820. 单词的压缩编码](../problems/820.short-encoding-of-words.md)
 - [0875. 爱吃香蕉的珂珂](../problems/875.koko-eating-bananas.md)
 - [0877. 石子游戏](../problems/877.stone-game.md)
