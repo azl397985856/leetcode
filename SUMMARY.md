@@ -21,6 +21,7 @@
     * [最大公约数](thinkings/GCD.md)
     * [并查集](thinkings/union-find.md)
     * [平衡二叉树专题](thinkings/balanced-tree.md)
+    * [单调栈](thinkings/monotone-stack.md)
 
 
 * [第二章 - 91 天学算法](./91/README.md)
