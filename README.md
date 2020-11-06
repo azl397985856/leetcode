@@ -151,9 +151,11 @@ leetcode 题解，记录自己的 leetcode 解题之路。
 
 > 这里仅列举具有**代表性题目**，并不是全部题目
 
-- [简单难度](./collections/easy.md)
-- [中等难度](./collections/medium.md)
-- [困难难度](./collections/hard.md)
+目前更新了 212 道题解，加上专题涉及的题目，差不多有 **300 道**。
+
+- [高频考题（简单 70 题）](./collections/easy.md)
+- [高频考题（中等 112 题）](./collections/medium.md)
+- [高频考题（困难 30 题）](./collections/hard.md)
 
 ### 数据结构与算法的总结
 
