@@ -611,9 +611,11 @@ class Solution:
 最后推荐几道类似的题目， 供大家练习，一定要自己写出来才行哦。
 
 - [303. 区域和检索 - 数组不可变](https://leetcode-cn.com/problems/range-sum-query-immutable/description/ "303. 区域和检索 - 数组不可变")
+- [1171. 从链表中删去总和值为零的连续节点](https://leetcode-cn.com/problems/remove-zero-sum-consecutive-nodes-from-linked-list/)
 - [1186.删除一次得到子数组最大和](https://lucifer.ren/blog/2019/12/11/leetcode-1186/ "1186.删除一次得到子数组最大和")
 - [1310. 子数组异或查询](https://lucifer.ren/blog/2020/01/09/1310.xor-queries-of-a-subarray/ "1310. 子数组异或查询")
 - [1371. 每个元音包含偶数次的最长子字符串](https://github.com/azl397985856/leetcode/blob/master/problems/1371.find-the-longest-substring-containing-vowels-in-even-counts.md "1371. 每个元音包含偶数次的最长子字符串")
+- [1402. 做菜顺序](https://leetcode-cn.com/problems/reducing-dishes/)
 
 大家对此有何看法，欢迎给我留言，我有时间都会一一查看回答。
 
