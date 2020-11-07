@@ -31,6 +31,7 @@
 
 
 * [第三章 - 精选题解](./selected/README.md)
+    * [单调栈解题模板秒杀八道题](./selected/mono-stack.md)
     * [字典序列删除](./selected/a-deleted.md)
     * [西法的刷题秘籍】一次搞定前缀和](./selected/atMostK.md)
     * [字节跳动的算法面试题是什么难度？](./selected/byte-dance-algo-ex.md)
