@@ -101,28 +101,6 @@ leetcode 题解，记录自己的 leetcode 解题之路。
 - 树与图：最近公共祖先、并查集
 - 字符串：前缀树（字典树） ／ 后缀树
 
-## 精彩预告
-
-[0042.trapping-rain-water](./problems/42.trapping-rain-water.md):
-
-<img width="300" src="https://tva1.sinaimg.cn/large/007S8ZIlly1ghlueqdwy3j30bg04hmx3.jpg">
-
-[0547.friend-circles](./problems/547.friend-circles-en.md):
-
-<img width="600" src="./assets/problems/547.friend-circle-bfs.png">
-
-[backtrack problems](./problems/90.subsets-ii.md):
-
-<img width="600" src="./assets/problems/backtrack.png">
-
-[0198.house-robber](./problems/198.house-robber.md):
-
-<img width="600" src="./assets/problems/198.house-robber.png">
-
-[0454.4-sum-ii](./problems/454.4-sum-ii.md):
-
-<img width="600" src="./assets/problems/454.4-sum-ii.png">
-
 ## 传送门
 
 ### leetcode 经典题目的解析
