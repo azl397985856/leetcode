@@ -31,10 +31,7 @@
 
 
 * [第三章 - 精选题解](./selected/README.md)
-    * [《日程安排》专题](./selected/schedule-topic.md)
-    * [《构造二叉树》专题](./selected/construct-binary-tree.md)
     * [字典序列删除](./selected/a-deleted.md)
-    * [百度的算法面试题 * 祖玛游戏](./selected/zuma-game.md)
     * [西法的刷题秘籍】一次搞定前缀和](./selected/atMostK.md)
     * [字节跳动的算法面试题是什么难度？](./selected/byte-dance-algo-ex.md)
     * [字节跳动的算法面试题是什么难度？（第二弹）](./selected/byte-dance-algo-ex-2017.md)
