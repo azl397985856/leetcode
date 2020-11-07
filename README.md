@@ -17,14 +17,7 @@
 
 ![leetcode.jpeg](https://tva1.sinaimg.cn/large/007S8ZIlly1ghluelm27rj30dw0780sm.jpg)
 
-- 2019-07-10 ：[纪念项目 Star 突破 1W 的一个短文](./thanksGiving.md)， 记录了项目的"兴起"之路，大家有兴趣可以看一下，如果对这个项目感兴趣，请**点击一下 Star**， 项目会**持续更新**，感谢大家的支持。
-
-- 2019-10-08: [纪念 LeetCode 项目 Star 突破 2W](./thanksGiving2.md)，并且 Github 搜索“LeetCode”，排名第一。
-
-- 2020-04-12: [项目突破三万 Star](./thanksGiving3.md)。
-- 2020-04-14: 官网`力扣加加`上线啦 💐💐💐💐💐，有专题讲解，每日一题，下载区和视频题解，后续会增加更多内容，还不赶紧收藏起来？地址：http://leetcode-solution.cn/
-
-![](https://tva1.sinaimg.cn/large/007S8ZIlly1ghluemaoj3j30z90dtmy5.jpg)
+**只有熟练掌握基础的数据结构与算法，才能对复杂问题迎刃有余。**
 
 ## 电子书
 
@@ -44,19 +37,28 @@
 
 电子书有更新我也会在公众号《力扣加加》进行通知， 感兴趣的同学可以关注一下。
 
-目前导出了四种格式，可惜的是这几种格式都有自己的不足：
+个人不建议使用 html 和 epub，建议大家从**在线版，pdf 和 mobi** 选择适合自己的格式下载即可。html, pdf，mobi 和 epub 格式，关注我的公众号《力扣加加》回复`电子书`即可。
 
-- [在线版](https://leetcode-solution-leetcode-pp.gitbook.io/leetcode-solution/)。 实时更新，想要及时获取最新信息的可以用在线版。
-- pdf。可使用 pdf 阅读器和浏览器（比如谷歌）直接观看，阅读体验一般，生成的目录不能导航。
-- mobi。 下载一个 Kindle 客户端就可以看，不需要购买 Kindle。
-- html。 方便大家在线观看，由于是 html ，实际上大家也可以保存起来**离线**观看。（谷歌浏览器安全策略原因，导致导航失效，因此不推荐）
-- epub。 数学公式和主题都比较不错， 但是代码没有高亮。（代码不高亮，不推荐）
+## 非科学人士看过来
 
-个人不建议使用 html 和 epub，建议大家从**在线版，pdf 和 mobi** 选择适合自己的格式下载即可。
+如果是国内的非科学用户，可以使用 https://lucifer.ren/leetcode ，整站做了静态化，速度贼快！但是阅读体验可能一般，大家也可以访问 [力扣加加](http://leetcode-solution.cn/)（暂时没有静态化）获得更好的阅读体验。
 
-html, pdf，mobi 和 epub 格式，关注我的公众号《力扣加加》回复`电子书`即可。
+另外需要科学的，我推荐一个工具， 用户体验真的是好，用起来超简单， 提供一站式工具，包括网络检测工具，浏览器插件等，支持多种客户端（还有我最喜欢的 Switch 加速器），价格也不贵，基础套餐折算到月大约 11.2 块/月。它还支持签到送天数，也就是说你可以每天签到无限续期。地址：https://glados.space/landing/M9OHH-Q88JQ-DX72D-R04RN
 
-## 介绍
+## 怎么刷 LeetCode？
+
+- [我是如何刷 LeetCode 的](https://www.zhihu.com/question/280279208/answer/824585814)
+- [算法小白如何高效、快速刷 leetcode？](https://www.zhihu.com/question/321738058/answer/1279464192)
+- [刷题效率低？或许你就差这么一个插件](https://lucifer.ren/blog/2020/06/06/algo-chrome-extension/)
+- [力扣刷题插件](https://lucifer.ren/blog/2020/08/16/leetcode-cheat/)
+
+## 《91 天学算法》限时活动
+
+- [第一期讲义-二分法](./91/binary-search.md)
+- [第一期讲义-双指针](./91/two-pointers.md)
+- [第二期正在火热进行中](./91/season2.md)
+
+## 仓库介绍
 
 leetcode 题解，记录自己的 leetcode 解题之路。
 
@@ -72,31 +74,7 @@ leetcode 题解，记录自己的 leetcode 解题之路。
 
 - 第五部分是计划， 这里会记录将来要加入到以上三个部分内容
 
-> 只有熟练掌握基础的数据结构与算法，才能对复杂问题迎刃有余。
-
-## 非科学人士看过来
-
-如果是国内的非科学用户，可以使用 https://lucifer.ren/leetcode ，整站做了静态化，速度贼快！但是阅读体验可能一般，大家也可以访问 [力扣加加](http://leetcode-solution.cn/)（暂时没有静态化）获得更好的阅读体验。
-
-另外需要科学的，我推荐一个工具， 用户体验真的是好，用起来超简单， 提供一站式工具，包括网络检测工具，浏览器插件等，支持多种客户端（还有我最喜欢的 Switch 加速器），价格也不贵，基础套餐折算到月大约 11.2 块/月。它还支持签到送天数，也就是说你可以每天签到无限续期。地址：https://glados.space/landing/M9OHH-Q88JQ-DX72D-R04RN
-
-## 怎么刷 LeetCode？
-
-- [我是如何刷 LeetCode 的](https://www.zhihu.com/question/280279208/answer/824585814)
-- [算法小白如何高效、快速刷 leetcode？](https://www.zhihu.com/question/321738058/answer/1279464192)
-
-## 刷题插件
-
-- [刷题效率低？或许你就差这么一个插件](https://lucifer.ren/blog/2020/06/06/algo-chrome-extension/)
-- [力扣刷题插件](https://lucifer.ren/blog/2020/08/16/leetcode-cheat/)
-
-### 91 天学算法
-
-- [第一期讲义-二分法](./91/binary-search.md)
-- [第一期讲义-双指针](./91/two-pointers.md)
-- [第二期正在火热进行中](./91/season2.md)
-
-## 食用指南
+## 仓库食用指南
 
 - 对于最近添加的部分， 后面会有 🆕 标注
 - 对于最近更新的部分， 后面会有 🖊 标注
@@ -198,7 +176,7 @@ leetcode 题解，记录自己的 leetcode 解题之路。
 - [你的衣服我扒了 - 《最长公共子序列》](./selected/LCS.md)
 - [一文看懂《最大子序列和问题》](./selected/LSS.md)
 
-### anki 卡片
+## anki 卡片
 
 Anki 主要分为两个部分：一部分是关键点到题目的映射，另一部分是题目到思路，关键点，代码的映射。
 
@@ -222,7 +200,7 @@ anki - 文件 - 导入 - 下拉格式选择“打包的 anki 集合”，然后�
 
 > 已加入的题目有：#2 #3 #11
 
-### 每日一题
+## 每日一题
 
 每日一题是在交流群（包括微信和 qq）里通过 issues 来进行的一种活动，大家一起 解一道题，这样讨论问题更加集中，会得到更多的反馈。而且 这些题目可以被记录下来，日后会进行筛选添加到仓库的题解模块。
 
@@ -230,7 +208,7 @@ anki - 文件 - 导入 - 下拉格式选择“打包的 anki 集合”，然后�
 
 * [每日一题认领区](https://github.com/azl397985856/leetcode/projects/1)
 
-### 计划
+## 计划
 
 - LeetCode 换皮题目集锦
 
@@ -249,6 +227,17 @@ anki - 文件 - 导入 - 下拉格式选择“打包的 anki 集合”，然后�
 > 关注加加，星标加加～
 
 <img src="https://tva1.sinaimg.cn/large/007S8ZIlly1gfcuzagjalj30p00dwabs.jpg" width="100%">
+
+## 大事件
+
+- 2019-07-10 ：[纪念项目 Star 突破 1W 的一个短文](./thanksGiving.md)， 记录了项目的"兴起"之路，大家有兴趣可以看一下，如果对这个项目感兴趣，请**点击一下 Star**， 项目会**持续更新**，感谢大家的支持。
+
+- 2019-10-08: [纪念 LeetCode 项目 Star 突破 2W](./thanksGiving2.md)，并且 Github 搜索“LeetCode”，排名第一。
+
+- 2020-04-12: [项目突破三万 Star](./thanksGiving3.md)。
+- 2020-04-14: 官网`力扣加加`上线啦 💐💐💐💐💐，有专题讲解，每日一题，下载区和视频题解，后续会增加更多内容，还不赶紧收藏起来？地址：http://leetcode-solution.cn/
+
+![](https://tva1.sinaimg.cn/large/007S8ZIlly1ghluemaoj3j30z90dtmy5.jpg)
 
 ## 关于我
 
