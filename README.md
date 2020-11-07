@@ -15,8 +15,6 @@
 
 ---
 
-![leetcode.jpeg](https://tva1.sinaimg.cn/large/007S8ZIlly1ghluelm27rj30dw0780sm.jpg)
-
 **只有熟练掌握基础的数据结构与算法，才能对复杂问题迎刃有余。**
 
 ## 电子书
