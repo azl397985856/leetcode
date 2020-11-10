@@ -101,7 +101,7 @@ leetcode 题解，记录自己的 leetcode 解题之路。
 
 ## 传送门
 
-### leetcode 经典题目的解析（200 多道经典考题）
+### leetcode 经典题目的解析（200 多道）
 
 > 这里仅列举具有**代表性题目**，并不是全部题目
 
@@ -111,10 +111,11 @@ leetcode 题解，记录自己的 leetcode 解题之路。
 - [高频考题（中等 112 题）](./collections/medium.md)
 - [高频考题（困难 30 题）](./collections/hard.md)
 
-### 数据结构与算法的总结(23 个专题)
+### 数据结构与算法的总结(23 篇)
 
-- [数据结构](./thinkings/basic-data-structure.md)
-- [基础算法](./thinkings/basic-algorithm.md)
+- [数据结构总览](./thinkings/basic-data-structure.md)
+- [链表专题](./thinkings/linked-list.md) 🆕
+<!-- - [基础算法](./thinkings/basic-algorithm.md) -->
 - [二叉树的遍历](./thinkings/binary-tree-traversal.md)
 - [动态规划](./thinkings/dynamic-programming.md)
 - [回溯](./thinkings/backtrack.md)
@@ -124,20 +125,20 @@ leetcode 题解，记录自己的 leetcode 解题之路。
 - [前缀树](./thinkings/trie.md)🖊
 - [《日程安排》专题](https://lucifer.ren/blog/2020/02/03/leetcode-%E6%88%91%E7%9A%84%E6%97%A5%E7%A8%8B%E5%AE%89%E6%8E%92%E8%A1%A8%E7%B3%BB%E5%88%97/)
 - [《构造二叉树》专题](https://lucifer.ren/blog/2020/02/08/%E6%9E%84%E9%80%A0%E4%BA%8C%E5%8F%89%E6%A0%91%E4%B8%93%E9%A2%98/)
-- [《贪婪策略》专题](./thinkings/greedy.md)🖊
+- [《贪婪策略》专题](./thinkings/greedy.md)
 - [深度优先遍历](./thinkings/DFS.md)
 - [滑动窗口（思路 + 模板）](./thinkings/slide-window.md)
 - [位运算](./thinkings/bit.md)
 - [设计题](./thinkings/design.md)
 - [小岛问题](./thinkings/island.md)🖊
 - [最大公约数](./thinkings/GCD.md)
-- [并查集](./thinkings/union-find.md) 🆕
+- [并查集](./thinkings/union-find.md)
 - [前缀和](./thinkings/prefix.md) 🆕
 - [字典序列删除](https://lucifer.ren/blog/2020/06/13/%E5%88%A0%E9%99%A4%E9%97%AE%E9%A2%98/) 🆕
 - [平衡二叉树专题](./thinkings/balanced-tree.md)
 - [单调栈](./thinkings/monotone-stack.md) 🆕
 
-### 精选题解（9 篇精选题解）
+### 精选题解（9 篇）
 
 - [字典序列删除](./selected/a-deleted.md)
 - [一次搞定前缀和](./selected/atMostK.md)
