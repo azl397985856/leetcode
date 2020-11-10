@@ -8,7 +8,9 @@
 
 ## 贡献多语言
 
-格式参考： https://github.com/azl397985856/leetcode/pull/452/files
+**要求和其他语言的思路一致。** 必要时，命名也要保持一致。 不过命名规范可以按照语言的最佳实践， 比如 python 可以蛇形 ，JS 可以驼峰等。
+
+格式参考这个 pr： https://github.com/azl397985856/leetcode/pull/452/files
 
 ## 增加题解
 
