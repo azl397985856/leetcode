@@ -315,7 +315,7 @@ cur = next
 
 ![](https://tva1.sinaimg.cn/large/0081Kckwly1gkhsft0cyuj30wa0s80ux.jpg)
 
-那么环呢？ 实际上， 环不用解决。因为如何我们是从前往后遍历，那么实际上，前面的链表已经被反转了，因此上面我的图是错的。正确的图应该是：
+那么环呢？ 实际上， 环不用解决。因为如果我们是从前往后遍历，那么实际上，前面的链表已经被反转了，因此上面我的图是错的。正确的图应该是：
 
 ![](https://tva1.sinaimg.cn/large/0081Kckwly1gkhsi5tiorj311y0gcwg1.jpg)
 
