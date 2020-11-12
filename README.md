@@ -1,9 +1,11 @@
 # LeetCode
 
 [![Travis](https://img.shields.io/badge/language-C++-green.svg)]()
-[![Travis](https://img.shields.io/badge/language-JavaScript-yellow.svg)]()
 [![Travis](https://img.shields.io/badge/language-Python-red.svg)]()
 [![Travis](https://img.shields.io/badge/language-Java-blue.svg)]()
+[![Travis](https://img.shields.io/badge/language-Go-red.svg)]()
+[![Travis](https://img.shields.io/badge/language-Php-pink.svg)]()
+[![Travis](https://img.shields.io/badge/language-JavaScript-yellow.svg)]()
 
 [![](https://img.shields.io/badge/WeChat-微信群-brightgreen)](#哪里能找到我)
 [![](https://img.shields.io/badge/公众号-力扣加加-blueviolet)](#哪里能找到我)
