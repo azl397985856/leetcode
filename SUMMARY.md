@@ -50,6 +50,7 @@
     * [0021. 合并两个有序链表](problems/21.merge-two-sorted-lists.md)
     * [0026. 删除排序数组中的重复项](problems/26.remove-duplicates-from-sorted-array.md)
     * [0053. 最大子序和](problems/53.maximum-sum-subarray-cn.md)
+    * [0066. 加一](problems/66.plus-one.md) 91
     * [0088. 合并两个有序数组](problems/88.merge-sorted-array.md)
     * [0101. 对称二叉树](problems/101.symmetric-tree.md)
     * [0104. 二叉树的最大深度](problems/104.maximum-depth-of-binary-tree.md)
@@ -69,7 +70,7 @@
     * [0206. 反转链表](problems/206.reverse-linked-list.md)
     * [0219. 存在重复元素 II](problems/219.contains-duplicate-ii.md)
     * [0226. 翻转二叉树](problems/226.invert-binary-tree.md)
-    * [0232. 用栈实现队列](problems/232.implement-queue-using-stacks.md)
+    * [0232. 用栈实现队列](problems/232.implement-queue-using-stacks.md) 91
     * [0263. 丑数](problems/263.ugly-number.md)
     * [0283. 移动零](problems/283.move-zeroes.md)
     * [0342. 4的幂](problems/342.power-of-four.md)
@@ -78,6 +79,7 @@
     * [0437. 路径总和 III](problems/437.path-sum-iii.md)
     * [0455. 分发饼干](problems/455.AssignCookies.md)
     * [0575. 分糖果](problems/575.distribute-candies.md)
+    * [821. 字符的最短距离](problems/821.shortest-distance-to-a-character.md) 91
     * [0874. 模拟行走机器人](problems/874.walking-robot-simulation.md)
     * [1260. 二维网格迁移](problems/1260.shift-2d-grid.md)
     * [1332. 删除回文子序列](problems/1332.remove-palindromic-subsequences.md)
@@ -153,6 +155,7 @@
     * [0365. 水壶问题](problems/365.water-and-jug-problem.md)
     * [0378. 有序矩阵中第K小的元素](problems/378.kth-smallest-element-in-a-sorted-matrix.md)
     * [0380. 常数时间插入、删除和获取随机元素](problems/380.insert-delete-getrandom-o1.md)
+    * [0394. 字符串解码](problems/394.decode-string.md) 91
     * [0416. 分割等和子集](problems/416.partition-equal-subset-sum.md)
     * [0445. 两数相加 II](problems/445.add-two-numbers-ii.md)
     * [0454. 四数相加 II](problems/454.4-sum-ii.md)
@@ -194,6 +197,7 @@
     * [1310. 子数组异或查询](problems/1310.xor-queries-of-a-subarray.md)
     * [1334. 阈值距离内邻居最少的城市](problems/1334.find-the-city-with-the-smallest-number-of-neighbors-at-a-threshold-distance.md)
     * [1371.每个元音包含偶数次的最长子字符串](problems/1371.find-the-longest-substring-containing-vowels-in-even-counts.md)
+    * [1381. 设计一个支持增量操作的栈](../problems/1381.design-a-stack-with-increment-operation.md) 91
     * [1558. 得到目标数组的最少函数调用次数](../problems/1558.minimum-numbers-of-function-calls-to-make-target-array.md)
     * [1631. 最小体力消耗路径](problems/1631.path-with-minimum-effort.md)
 

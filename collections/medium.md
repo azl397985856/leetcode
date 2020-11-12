@@ -4,7 +4,7 @@
 
 这部分的题目要不需要我们挖掘题目的内含信息， 将其抽象成简单题目。 要么是一些写起来比较麻烦的题目， 一些人编码能力不行就挂了。因此大家一定要自己做， 即使看了题解”会了“，也要自己码一遍。自己不亲自写一遍，里面的细节永远不知道。
 
-以下是我列举的经典题目：
+以下是我列举的经典题目（带 91 字样的表示出自 **91 天学算法**活动）：
 
 - [面试题 17.09. 第 k 个数](../../problems/get-kth-magic-number-lcci.md)
 
@@ -77,6 +77,7 @@
 - [0365. 水壶问题](../problems/365.water-and-jug-problem.md)
 - [0378. 有序矩阵中第 K 小的元素](../problems/378.kth-smallest-element-in-a-sorted-matrix.md)
 - [0380. 常数时间插入、删除和获取随机元素](../problems/380.insert-delete-getrandom-o1.md)
+- [0394. 字符串解码](../problems/394.decode-string.md) 91
 - [0416. 分割等和子集](../problems/416.partition-equal-subset-sum.md)
 - [0445. 两数相加 II](../problems/445.add-two-numbers-ii.md)
 - [0454. 四数相加 II](../problems/454.4-sum-ii.md)
@@ -118,5 +119,6 @@
 - [1310. 子数组异或查询](../problems/1310.xor-queries-of-a-subarray.md)
 - [1334. 阈值距离内邻居最少的城市](../problems/1334.find-the-city-with-the-smallest-number-of-neighbors-at-a-threshold-distance.md)
 - [1371.每个元音包含偶数次的最长子字符串](../problems/1371.find-the-longest-substring-containing-vowels-in-even-counts.md)
+- [1381. 设计一个支持增量操作的栈](../problems/1381.design-a-stack-with-increment-operation.md) 91
 - [1558. 得到目标数组的最少函数调用次数](../problems/1558.minimum-numbers-of-function-calls-to-make-target-array.md) 🆕
 - [1631.path-with-minimum-effort](../problems/1631.path-with-minimum-effort.md) 🆕
