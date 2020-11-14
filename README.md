@@ -113,7 +113,7 @@ leetcode 题解，记录自己的 leetcode 解题之路。
 - [高频考题（中等 114 题）](./collections/medium.md)
 - [高频考题（困难 30 题）](./collections/hard.md)
 
-### 数据结构与算法的总结(23 篇)
+### 数据结构与算法的总结(21 篇)
 
 - [数据结构总览](./thinkings/basic-data-structure.md)
 - [链表专题](./thinkings/linked-list.md) 🆕
@@ -135,8 +135,6 @@ leetcode 题解，记录自己的 leetcode 解题之路。
 - [小岛问题](./thinkings/island.md)🖊
 - [最大公约数](./thinkings/GCD.md)
 - [并查集](./thinkings/union-find.md)
-- [前缀和](./thinkings/prefix.md) 🆕
-- [字典序列删除](https://lucifer.ren/blog/2020/06/13/%E5%88%A0%E9%99%A4%E9%97%AE%E9%A2%98/) 🆕
 - [平衡二叉树专题](./thinkings/balanced-tree.md)
 - [单调栈](./thinkings/monotone-stack.md) 🆕
 
