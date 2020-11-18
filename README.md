@@ -43,7 +43,7 @@
 
 你可以 Github 提供的 [RSS](https://github.com/azl397985856/leetcode/commits.atom) 来订阅我的仓库更新。
 
-## :goal_net:非科学人士看过来
+## :goal_net: &nbsp;非科学人士看过来
 
 如果是国内的非科学用户，可能部分图片会加载不出来。你可以使用 https://lucifer.ren/leetcode ，整站做了静态化，速度贼快！但是阅读体验可能一般。
 
@@ -56,7 +56,7 @@
 - [刷题效率低？或许你就差这么一个插件](https://lucifer.ren/blog/2020/06/06/algo-chrome-extension/)
 - [力扣刷题插件](https://lucifer.ren/blog/2020/08/16/leetcode-cheat/)
 
-## 《91 天学算法》限时活动
+## :calendar:《91 天学算法》限时活动
 
 - [第一期讲义-二分法](./91/binary-search.md)
 - [第一期讲义-双指针](./91/two-pointers.md)
@@ -105,7 +105,7 @@ leetcode 题解，记录自己的 leetcode 解题之路。
 - 树与图：最近公共祖先、并查集
 - 字符串：前缀树（字典树） ／ 后缀树
 
-## :anger: &nbsp;传送门
+## :door: &nbsp;传送门
 
 ### leetcode 经典题目的解析（200 多道）
 
@@ -178,7 +178,7 @@ anki - 文件 - 导入 - 下拉格式选择“打包的 anki 集合”，然后�
 
 > 已加入的题目有：#2 #3 #11
 
-## CLI Tools &nbsp;每日一题
+## :honeybee: &nbsp;每日一题
 
 每日一题是在交流群（包括微信和 qq）里通过 issues 来进行的一种活动，大家一起 解一道题，这样讨论问题更加集中，会得到更多的反馈。而且 这些题目可以被记录下来，日后会进行筛选添加到仓库的题解模块。
 
@@ -222,7 +222,7 @@ anki - 文件 - 导入 - 下拉格式选择“打包的 anki 集合”，然后�
 
 <img src="https://tva1.sinaimg.cn/large/007S8ZIlly1gfcuzagjalj30p00dwabs.jpg" width="100%">
 
-## :handshaking:贡献
+## :gift_heart: 贡献
 
 - 如果有想法和创意，请提 [issue](https://github.com/azl397985856/leetcode/issues) 或者进群提
 - 如果想贡献增加题解或者翻译， 可以参考 [贡献指南](./CONTRIBUTING.md)
@@ -233,7 +233,7 @@ anki - 文件 - 导入 - 下拉格式选择“打包的 anki 集合”，然后�
 
 感谢为这个项目作出贡献的所有 [小伙伴](https://github.com/azl397985856/leetcode/graphs/contributors)
 
-## :gift_heart: &nbsp;赞助
+## :moneybag: &nbsp;赞助
 
 ### 微信
 
