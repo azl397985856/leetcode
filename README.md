@@ -39,6 +39,10 @@
 
 个人不建议使用 html 和 epub，建议大家从**在线版，pdf 和 mobi** 选择适合自己的格式下载即可。html, pdf，mobi 和 epub 格式，关注我的公众号《力扣加加》回复`电子书`即可。
 
+## 订阅
+
+你可以 Github 提供的 [RSS](https://github.com/azl397985856/leetcode/commits.atom) 来订阅我的仓库更新。
+
 ## 非科学人士看过来
 
 如果是国内的非科学用户，可能部分图片会加载不出来。你可以使用 https://lucifer.ren/leetcode ，整站做了静态化，速度贼快！但是阅读体验可能一般。
