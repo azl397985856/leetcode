@@ -25,11 +25,9 @@
 
 **限时免费下载！后期随时可能收费**
 
-![](https://cdn.jsdelivr.net/gh/azl397985856/cdn/2020-10-17/1602928846461-image.png)
-
 ![](https://cdn.jsdelivr.net/gh/azl397985856/cdn/2020-10-17/1602928862442-image.png)
 
-我写这本电子书花费了大量的时间和精力，除了内容上的创作，还要做一些电子书的排版，以让大家获得更好的阅读体验。光数学公式的展示，我就研究了多个插件的源码，并魔改了一下才使得导出的电子书支持 latex。 不过有些动图，在做成电子书（比如 pdf）的时候自然就变没了，如果需要看动图的， 可以去我的公众号《力扣加加》或者我的 leetcode 题解仓库看。
+有些动图，在做成电子书（比如 pdf）的时候自然就变没了，如果需要看动图的， 可以去我的公众号《力扣加加》或者我的 leetcode 题解仓库看。
 
 > epub 还是有动图的
 
@@ -41,7 +39,7 @@
 
 ## :newspaper: &nbsp;订阅
 
-你可以 Github 提供的 [RSS](https://github.com/azl397985856/leetcode/commits.atom) 来订阅我的仓库更新。
+大家可以用 Github 提供的 [RSS](https://github.com/azl397985856/leetcode/commits.atom) 来订阅我的仓库更新。
 
 ## :goal_net: &nbsp;非科学人士看过来
 
