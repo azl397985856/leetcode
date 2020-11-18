@@ -19,7 +19,7 @@
 
 **只有熟练掌握基础的数据结构与算法，才能对复杂问题迎刃有余。**
 
-## 电子书
+## :blue_book:电子书
 
 这是我将我的所有公开的算法资料整理的一个电子书，全部题目信息中文化，以前会有一些英文描述，感谢 @CYL 的中文整理。
 
@@ -39,17 +39,17 @@
 
 个人不建议使用 html 和 epub，建议大家从**在线版，pdf 和 mobi** 选择适合自己的格式下载即可。html, pdf，mobi 和 epub 格式，关注我的公众号《力扣加加》回复`电子书`即可。
 
-## 订阅
+## :newspaper: &nbsp;订阅
 
 你可以 Github 提供的 [RSS](https://github.com/azl397985856/leetcode/commits.atom) 来订阅我的仓库更新。
 
-## 非科学人士看过来
+## :goal_net:非科学人士看过来
 
 如果是国内的非科学用户，可能部分图片会加载不出来。你可以使用 https://lucifer.ren/leetcode ，整站做了静态化，速度贼快！但是阅读体验可能一般。
 
 另外需要科学的，我推荐一个工具， 用户体验真的是好，用起来超简单， 提供一站式工具，包括网络检测工具，浏览器插件等，支持多种客户端（还有我最喜欢的 Switch 加速器），价格也不贵，基础套餐折算到月大约 11.2 块/月。地址：https://glados.space/landing/M9OHH-Q88JQ-DX72D-R04RN
 
-## 怎么刷 LeetCode？
+## :exclamation:怎么刷 LeetCode？
 
 - [我是如何刷 LeetCode 的](https://www.zhihu.com/question/280279208/answer/824585814)
 - [算法小白如何高效、快速刷 leetcode？](https://www.zhihu.com/question/321738058/answer/1279464192)
@@ -62,7 +62,7 @@
 - [第一期讲义-双指针](./91/two-pointers.md)
 - [第二期正在火热进行中](./91/season2.md)
 
-## 仓库介绍
+## :octocat:仓库介绍
 
 leetcode 题解，记录自己的 leetcode 解题之路。
 
@@ -78,7 +78,7 @@ leetcode 题解，记录自己的 leetcode 解题之路。
 
 - 第五部分是计划， 这里会记录将来要加入到以上三个部分内容
 
-## 仓库食用指南
+## :meat_on_bone:仓库食用指南
 
 - 对于最近添加的部分， 后面会有 🆕 标注
 - 对于最近更新的部分， 后面会有 🖊 标注
@@ -105,7 +105,7 @@ leetcode 题解，记录自己的 leetcode 解题之路。
 - 树与图：最近公共祖先、并查集
 - 字符串：前缀树（字典树） ／ 后缀树
 
-## 传送门
+## :anger: &nbsp;传送门
 
 ### leetcode 经典题目的解析（200 多道）
 
@@ -154,7 +154,7 @@ leetcode 题解，记录自己的 leetcode 解题之路。
 - [你的衣服我扒了 - 《最长公共子序列》](./selected/LCS.md)
 - [一文看懂《最大子序列和问题》](./selected/LSS.md)
 
-## anki 卡片
+## :trident: &nbsp;anki 卡片
 
 Anki 主要分为两个部分：一部分是关键点到题目的映射，另一部分是题目到思路，关键点，代码的映射。
 
@@ -178,7 +178,7 @@ anki - 文件 - 导入 - 下拉格式选择“打包的 anki 集合”，然后�
 
 > 已加入的题目有：#2 #3 #11
 
-## 每日一题
+## CLI Tools &nbsp;每日一题
 
 每日一题是在交流群（包括微信和 qq）里通过 issues 来进行的一种活动，大家一起 解一道题，这样讨论问题更加集中，会得到更多的反馈。而且 这些题目可以被记录下来，日后会进行筛选添加到仓库的题解模块。
 
@@ -186,7 +186,7 @@ anki - 文件 - 导入 - 下拉格式选择“打包的 anki 集合”，然后�
 
 * [每日一题认领区](https://github.com/azl397985856/leetcode/projects/1)
 
-## 计划
+## :ballot_box_with_check: &nbsp;计划
 
 - LeetCode 换皮题目集锦
 
@@ -194,19 +194,11 @@ anki - 文件 - 导入 - 下拉格式选择“打包的 anki 集合”，然后�
 
 - 堆可以解决的题目。 手写堆
 
-- 单调栈
+- 树
 
 - BFS & DFS
 
-## 哪里能找到我？
-
-点关注，不迷路。如果再给 ➕ 个星标就更棒啦！
-
-> 关注加加，星标加加～
-
-<img src="https://tva1.sinaimg.cn/large/007S8ZIlly1gfcuzagjalj30p00dwabs.jpg" width="100%">
-
-## 大事件
+## :chart_with_upwards_trend:大事件
 
 - 2019-07-10 ：[纪念项目 Star 突破 1W 的一个短文](./thanksGiving.md)， 记录了项目的"兴起"之路，大家有兴趣可以看一下，如果对这个项目感兴趣，请**点击一下 Star**， 项目会**持续更新**，感谢大家的支持。
 
@@ -217,25 +209,31 @@ anki - 文件 - 导入 - 下拉格式选择“打包的 anki 集合”，然后�
 
 ![](https://tva1.sinaimg.cn/large/007S8ZIlly1ghluemaoj3j30z90dtmy5.jpg)
 
-## 关于我
+## :information_desk_person:关于我
 
 擅长前端工程化，前端性能优化，前端标准化等，做过 .net， 搞过 Java，现在是一名前端工程师，我的个人博客：https://lucifer.ren/blog/
 
 我经常会在开源社区进行一些输出和分享，比较受欢迎的有 [宇宙最强的前端面试指南](https://github.com/azl397985856/fe-interview)
 和 [我的第一本小书](https://github.com/azl397985856/automate-everything)。目前本人正在写一本关于《leetcode 题解》的实体书，感兴趣的可以通过邮箱或者微信联系我，我会在出版的第一时间通知你，并给出首发优惠价。有需要可以直接群里联系我，或者发送到我的个人邮箱 [azl397985856@gmail.com]。 新书详情戳这里：[《或许是一本可以彻底改变你刷 LeetCode 效率的题解书》](https://lucifer.ren/blog/2020/04/07/leetcode-book.intro/)
 
-## 贡献
+点关注，不迷路。如果再给 ➕ 个星标就更棒啦！
+
+> 关注加加，星标加加～
+
+<img src="https://tva1.sinaimg.cn/large/007S8ZIlly1gfcuzagjalj30p00dwabs.jpg" width="100%">
+
+## :handshaking:贡献
 
 - 如果有想法和创意，请提 [issue](https://github.com/azl397985856/leetcode/issues) 或者进群提
 - 如果想贡献增加题解或者翻译， 可以参考 [贡献指南](./CONTRIBUTING.md)
   > 关于如何提交题解，我写了一份 [指南](./templates/problems/1014.best-sightseeing-pair.md)
 - 如果需要修改项目中图片，[这里](./assets/drawio/) 存放了项目中绘制图的源代码， 大家可以用 [draw.io](https://www.draw.io/) 打开进行编辑。
 
-## 鸣谢
+## :love_letter:鸣谢
 
 感谢为这个项目作出贡献的所有 [小伙伴](https://github.com/azl397985856/leetcode/graphs/contributors)
 
-## 赞助
+## :gift_heart: &nbsp;赞助
 
 ### 微信
 
