@@ -112,7 +112,7 @@ leetcode 题解，记录自己的 leetcode 解题之路。
 目前更新了 200 多道题解，加上专题涉及的题目，差不多有 **300 道**。
 
 - [高频考题（简单 72 题）](./collections/easy.md)
-- [高频考题（中等 114 题）](./collections/medium.md)
+- [高频考题（中等 115 题）](./collections/medium.md)
 - [高频考题（困难 30 题）](./collections/hard.md)
 
 ### 数据结构与算法的总结(21 篇)
