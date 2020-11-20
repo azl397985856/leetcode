@@ -130,6 +130,7 @@
     * [0131. 分割回文串](problems/131.palindrome-partitioning.md)
     * [0139. 单词拆分](problems/139.word-break.md)
     * [0144. 二叉树的前序遍历](problems/144.binary-tree-preorder-traversal.md)
+    * [0147. 对链表进行插入排序](../problems/147.insertion-sort-list.md)
     * [0150. 逆波兰表达式求值](problems/150.evaluate-reverse-polish-notation.md)
     * [0152. 乘积最大子数组](problems/152.maximum-product-subarray.md)
     * [0199. 二叉树的右视图](problems/199.binary-tree-right-side-view.md)
