@@ -66,9 +66,9 @@ for i in range(M):
 ## 相关题目
 
 - [200. 岛屿数量](https://github.com/azl397985856/leetcode/blob/master/problems/200.number-of-islands.md)
-- [695. 岛屿的最大面积](https://leetcode-cn.com/problems/max-area-of-island/solution/695-dao-yu-de-zui-da-mian-ji-dfspython3-by-fe-luci/)
+- [695. 岛屿的最大面积](https://leetcode-cn.com/problems/max-area-of-island/solution/695-dao-yu-de-zui-da-mian-ji-dfspython3-by-fe-luci/)(字节跳动原题)
 - [1162. 地图分析](https://leetcode-cn.com/problems/as-far-from-land-as-possible/solution/python-tu-jie-chao-jian-dan-de-bfs1162-di-tu-fen-x/)
-- 463. 岛屿的周长
+- 463.岛屿的周长
 
 上面四道题都可以使用常规的 DFS 来做。 并且递归的方向都是上下左右四个方向。更有意思的是，都可以采用原地修改的方式，来减少开辟 visited 的空间。
 

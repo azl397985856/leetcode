@@ -192,11 +192,12 @@ class Solution:
 
 ## 相关题目
 
-- [number-of-1-bits](https://leetcode-cn.com/problems/number-of-1-bits/)
-- [counting-bits](https://leetcode-cn.com/problems/counting-bits/)
-- [reverse-bits](https://leetcode-cn.com/problems/reverse-bits/)
+- [190. 颠倒二进制位](https://leetcode-cn.com/problems/reverse-bits/)（简单）
+- [191. 位1的个数](https://leetcode-cn.com/problems/number-of-1-bits/)（简单）
+- [338. 比特位计数](https://leetcode-cn.com/problems/counting-bits/)（中等）
+- [1072. 按列翻转得到最大值等行数](https://leetcode-cn.com/problems/flip-columns-for-maximum-number-of-equal-rows/)（中等）
 
 
-更多题解可以访问我的LeetCode题解仓库：https://github.com/azl397985856/leetcode  。 目前已经30K star啦。
+更多题解可以访问我的LeetCode题解仓库：https://github.com/azl397985856/leetcode  。 目前已经38K star啦。
 
 关注公众号力扣加加，努力用清晰直白的语言还原解题思路，并且有大量图解，手把手教你识别套路，高效刷题。
