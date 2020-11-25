@@ -1,5 +1,5 @@
 {
   "scripts": {
-    "book": "gitbook epub . && gitbook pdf . && gitbook mobi . && gitbook build && zip book.zip –r  _book"
+    "book": "gitbook epub . && gitbook pdf . && gitbook mobi . "
   }
 }
