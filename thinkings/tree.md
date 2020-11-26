@@ -581,7 +581,7 @@ class Solution:
                     res.append((path + [cur.val]).copy())
                 return
             # 选择
-            tepathmp.append(cur.val)
+            path.append(cur.val)
             # 递归左右子树
             backtrack(nodes, path, cur.left, remain - cur.val)
             backtrack(nodes, path, cur.right, remain - cur.val)
@@ -589,7 +589,7 @@ class Solution:
             path.pop(-1)
         ans = []
         # 入口，路径，目标值全部传进去，其中路径和path都是扩展的参数
-        dfs(ans, [], root, target, )
+        backtrack(ans, [], root, target)
         return ans
 
 
