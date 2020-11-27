@@ -30,6 +30,7 @@
 - [0055. 跳跃游戏](../problems/55.jump-game.md)
 - [0056. 合并区间](../problems/56.merge-intervals.md)
 - [0060. 第 k 个排列](../problems/60.permutation-sequence.md)
+- [0061. 旋转链表](../problems/61.Rotate-List.md) 91
 - [0062. 不同路径](../problems/62.unique-paths.md)
 - [0073. 矩阵置零](../problems/73.set-matrix-zeroes.md)
 - [0075. 颜色分类](../problems/75.sort-colors.md)
@@ -84,6 +85,7 @@
 - [0454. 四数相加 II](../problems/454.4-sum-ii.md)
 - [0494. 目标和](../problems/494.target-sum.md)
 - [0516. 最长回文子序列](../problems/516.longest-palindromic-subsequence.md)
+- [0513. 找树左下角的值](../problems/513.find-bottom-left-tree-value.md) 91
 - [0518. 零钱兑换 II](../problems/518.coin-change-2.md)
 - [0547. 朋友圈](../problems/547.friend-circles.md)
 - [0560. 和为 K 的子数组](../problems/560.subarray-sum-equals-k.md)
@@ -102,6 +104,7 @@
 - [0912. 排序数组](../problems/912.sort-an-array.md)
 - [0935. 骑士拨号器](../problems/935.knight-dialer.md)
 - [0978. 最长湍流子数组](../problems/978.longest-turbulent-subarray.md) 🆕
+- [0987. 二叉树的垂序遍历](../problems/987.vertical-order-traversal-of-a-binary-tree.md) 91
 - [1011. 在 D 天内送达包裹的能力](../problems/1011.capacity-to-ship-packages-within-d-days.md)
 - [1014. 最佳观光组合](../problems/1014.best-sightseeing-pair.md)
 - [1015. 可被 K 整除的最小整数](../problems/1015.smallest-integer-divisible-by-k.md)

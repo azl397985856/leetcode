@@ -22,6 +22,7 @@
 - [0125. 验证回文串](../problems/125.valid-palindrome.md)
 - [0136. 只出现一次的数字](../problems/136.single-number.md)
 - [0155. 最小栈](../problems/155.min-stack.md)
+- [0160. 相交链表](../problems/160.Intersection-of-Two-Linked-Lists.md) 91
 - [0167. 两数之和 II 输入有序数组](../problems/167.two-sum-ii-input-array-is-sorted.md)
 - [0169. 多数元素](../problems/169.majority-element.md)
 - [0172. 阶乘后的零](../problems/172.factorial-trailing-zeroes.md)
