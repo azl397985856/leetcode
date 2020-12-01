@@ -19,6 +19,10 @@
 
 **只有熟练掌握基础的数据结构与算法，才能对复杂问题迎刃有余。**
 
+## :newspaper: &nbsp;订阅
+
+大家可以用 Github 提供的 [RSS](https://github.com/azl397985856/leetcode/commits.atom) 来订阅我的仓库更新。
+
 ## :blue_book:电子书
 
 这是我将我的所有公开的算法资料整理的一个电子书，全部题目信息中文化，以前会有一些英文描述，感谢 @CYL 的中文整理。
@@ -37,9 +41,17 @@
 
 个人建议大家从**在线版，pdf 和 mobi** 选择适合自己的格式下载即可。pdf，mobi 和 epub 格式，关注我的公众号《力扣加加》回复`电子书`即可。
 
-## :newspaper: &nbsp;订阅
+## :computer: 插件
 
-大家可以用 Github 提供的 [RSS](https://github.com/azl397985856/leetcode/commits.atom) 来订阅我的仓库更新。
+或许是一个可以改变你刷题效率的浏览器扩展插件。
+
+![](https://tva1.sinaimg.cn/large/0081Kckwly1gl88o9p60hj30u00njq3y.jpg)
+
+![](https://tva1.sinaimg.cn/large/0081Kckwly1gl88nldbwnj30pb09omyh.jpg)
+
+![](https://tva1.sinaimg.cn/large/0081Kckwly1gl88npuv1xj30mm0h23zy.jpg)
+
+获取方式： 关注公众号《力扣加加》 回复插件。 之后会持续更新，大家关注即可。
 
 ## :goal_net: &nbsp;非科学人士看过来
 
