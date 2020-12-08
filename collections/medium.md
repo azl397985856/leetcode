@@ -126,3 +126,4 @@
 - [1381. 设计一个支持增量操作的栈](../problems/1381.design-a-stack-with-increment-operation.md) 91
 - [1558. 得到目标数组的最少函数调用次数](../problems/1558.minimum-numbers-of-function-calls-to-make-target-array.md) 🆕
 - [1631.path-with-minimum-effort](../problems/1631.path-with-minimum-effort.md) 🆕
+- [1658. 将 x 减到 0 的最小操作数](../problems/1658.minimum-operations-to-reduce-x-to-zero.md) 🆕

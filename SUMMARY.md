@@ -44,7 +44,7 @@
     * [一文看懂《最大子序列和问题》](./selected/LSS.md)
 
 
-* [第四章 - 高频考题（简单 73 题）](collections/easy.md)
+* [第四章 - 高频考题](collections/easy.md)
     * [面试题 17.12. BiNode](problems/binode-lcci.md)
     * [0001. 两数之和](problems/1.two-sum.md)
     * [0020. 有效的括号](problems/20.valid-parentheses.md)
@@ -87,7 +87,7 @@
     * [1332. 删除回文子序列](problems/1332.remove-palindromic-subsequences.md)
 
 
-* [第五章 - 高频考题（中等 118 题）](collections/medium.md)
+* [第五章 - 高频考题](collections/medium.md)
     * [0002. 两数相加](problems/2.add-two-numbers.md)
     * [0003. 无重复字符的最长子串](problems/3.longest-substring-without-repeating-characters.md)
     * [0005. 最长回文子串](problems/5.longest-palindromic-substring.md)
@@ -206,9 +206,10 @@
     * [1381. 设计一个支持增量操作的栈](../problems/1381.design-a-stack-with-increment-operation.md) 91
     * [1558. 得到目标数组的最少函数调用次数](../problems/1558.minimum-numbers-of-function-calls-to-make-target-array.md)
     * [1631. 最小体力消耗路径](problems/1631.path-with-minimum-effort.md)
+    * [1658. 将 x 减到 0 的最小操作数](problems/1658.minimum-operations-to-reduce-x-to-zero.md)
 
 
-* [第六章 - 高频考题（困难 32 题）](collections/hard.md)
+* [第六章 - 高频考题](collections/hard.md)
     * [0004. 寻找两个正序数组的中位数](problems/4.median-of-two-sorted-arrays.md)
     * [0023. 合并K个升序链表](problems/23.merge-k-sorted-lists.md)
     * [0025. K 个一组翻转链表](problems/25.reverse-nodes-in-k-groups.md)
