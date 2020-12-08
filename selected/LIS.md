@@ -292,9 +292,32 @@ class Solution:
 - 时间复杂度：$$O(N ^ 2)$$
 - 空间复杂度：$$O(N)$$
 
+## 优化
+
+大家想看效率高的，其实也不难。 LIS 也可以用 **贪心 + 二分** 达到不错的效率。代码如下：
+
+![](https://tva1.sinaimg.cn/large/0081Kckwly1gl6ajh887vj31zc0gmae6.jpg)
+
+代码文字版如下：
+
+```py
+class Solution:
+    def lengthOfLIS(self, A: List[int]) -> int:
+        d = []
+        for a in A:
+            i = bisect.bisect_left(d, a)
+            if i < len(d):
+                d[i] = a
+            elif not d or d[-1] < a:
+                d.append(a)
+        return len(d)
+```
+
 ## More
 
-其他的我就不一一说了。比如 [673. 最长递增子序列的个数](https://leetcode-cn.com/problems/number-of-longest-increasing-subsequence/) （滴滴面试题）。 不就是求出最长序列，之后再循环比对一次就可以得出答案了么？
+其他的我就不一一说了。
+
+比如 [673. 最长递增子序列的个数](https://leetcode-cn.com/problems/number-of-longest-increasing-subsequence/) （滴滴面试题）。 不就是求出最长序列，之后再循环比对一次就可以得出答案了么？
 
 [491. 递增子序列](https://leetcode-cn.com/problems/increasing-subsequences/) 由于需要找到所有的递增子序列，因此动态规划就不行了，妥妥回溯就行了，套一个模板就出来了。回溯的模板可以看我之前写的[回溯专题](https://github.com/azl397985856/leetcode/blob/master/problems/90.subsets-ii.md "回溯专题")。
 

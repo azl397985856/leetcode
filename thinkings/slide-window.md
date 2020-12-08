@@ -50,6 +50,7 @@
 ## 模板代码
 
 ### 伪代码
+
 ```
 初始化慢指针 = 0
 初始化 ans
@@ -62,6 +63,7 @@ for 快指针 in 可迭代集合
    更新答案
 返回 ans
 ```
+
 ### 代码
 
 以下是 209 题目的代码，使用 Python 编写，大家意会即可。
@@ -95,7 +97,7 @@ class Solution:
 - [【1004. 最大连续 1 的个数 III】滑动窗口（Python3）](https://leetcode-cn.com/problems/max-consecutive-ones-iii/solution/1004-zui-da-lian-xu-1de-ge-shu-iii-hua-dong-chuang/)
 - [【1234. 替换子串得到平衡字符串】[Java/C++/Python] Sliding Window](https://leetcode.com/problems/replace-the-substring-for-balanced-string/discuss/408978/javacpython-sliding-window/367697)
 - [【1248. 统计「优美子数组」】滑动窗口（Python）](https://leetcode-cn.com/problems/count-number-of-nice-subarrays/solution/1248-tong-ji-you-mei-zi-shu-zu-hua-dong-chuang-kou/)
-
+- [1658. 将 x 减到 0 的最小操作数](../problems/1658.minimum-operations-to-reduce-x-to-zero.md)
 
 ## 扩展阅读
 
