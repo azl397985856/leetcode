@@ -51,7 +51,11 @@
 
 ![](https://tva1.sinaimg.cn/large/0081Kckwly1gl88npuv1xj30mm0h23zy.jpg)
 
-获取方式： 关注公众号《力扣加加》 回复插件。 之后会持续更新，大家关注即可。
+插件地址：https://chrome.google.com/webstore/detail/leetcode-cheatsheet/fniccleejlofifaakbgppmbbcdfjonle?hl=en-US。
+
+不能访问谷歌商店的朋友可以去我的公众号回复插件获取离线版。
+
+> 强烈推荐大家使用谷歌商店安装， 这样如果有更新可以自动安装，毕竟咱们的插件更新还是蛮快的。
 
 ## :goal_net: &nbsp;非科学人士看过来
 
