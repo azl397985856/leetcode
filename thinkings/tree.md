@@ -1403,10 +1403,10 @@ def bstFromPreorder(self, preorder: List[int]) -> TreeNode:
                 mid = i
                 break
         if mid == -1:
-            return None
-
-        root.left = dfs(start + 1, mid - 1)
-        root.right = dfs(mid, end)
+            root.left = dfs(start + 1, end) 
+        else:
+            root.left = dfs(start + 1, mid - 1)
+            root.right = dfs(mid, end)
         return root
 
     return dfs(0, len(preorder) - 1)
