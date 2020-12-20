@@ -57,12 +57,6 @@
 
 > 强烈推荐大家使用谷歌商店安装， 这样如果有更新可以自动安装，毕竟咱们的插件更新还是蛮快的。
 
-## :goal_net: &nbsp;非科学人士看过来
-
-如果是国内的非科学用户，可能部分图片会加载不出来。你可以使用 https://lucifer.ren/leetcode ，整站做了静态化，速度贼快！但是阅读体验可能一般。
-
-另外需要科学的，我推荐一个工具， 用户体验真的是好，用起来超简单， 提供一站式工具，包括网络检测工具，浏览器插件等，支持多种客户端（还有我最喜欢的 Switch 加速器），价格也不贵，基础套餐折算到月大约 11.2 块/月。地址：https://glados.space/landing/M9OHH-Q88JQ-DX72D-R04RN
-
 ## :exclamation:怎么刷 LeetCode？
 
 - [我是如何刷 LeetCode 的](https://www.zhihu.com/question/280279208/answer/824585814)
