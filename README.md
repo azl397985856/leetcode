@@ -51,11 +51,12 @@
 
 或许是一个可以改变你刷题效率的浏览器扩展插件。
 
-![](https://tva1.sinaimg.cn/large/0081Kckwly1gl88o9p60hj30u00njq3y.jpg)
-
-![](https://tva1.sinaimg.cn/large/0081Kckwly1gl88nldbwnj30pb09omyh.jpg)
-
-![](https://tva1.sinaimg.cn/large/0081Kckwly1gl88npuv1xj30mm0h23zy.jpg)
+- 总结题型以及思路。
+- 内置各种常见刷题模板。
+- 更方便地看仓库题解，甚至可以基于公司筛选
+- 一键复制测试用例
+- 上班刷题必备的“摸鱼模式”
+- 等等
 
 插件地址：https://chrome.google.com/webstore/detail/leetcode-cheatsheet/fniccleejlofifaakbgppmbbcdfjonle?hl=en-US。
 
