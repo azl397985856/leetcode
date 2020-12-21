@@ -1,6 +1,6 @@
 # Union Find Data Structure
 
-Leetcode has many problems concerning the union-find data structure. To be specific, the official number is 30(until 2020-02-20). And some problems, though not labeled with `Union Find`, can be solved more easily by applying this data structure. A problem-solving pattern can be found among this kind of problem. Once you have grasped the pattern, you can solve these problems with higher speed and fewer mistakes, which is the benefit of using patterns. 
+Leetcode has many problems concerning the union-find data structure. To be specific, the official number is 30(until 2020-02-20). And some problems, though not labeled with `Union Find`, can be solved more easily by applying this data structure. A problem-solving pattern can be found among this kind of problem. Once you have grasped the pattern, you can solve these problems with higher speed and fewer mistakes, which is the benefit of using patterns.
 
 Related problems:
 
@@ -100,9 +100,9 @@ class UF:
 
     def find(self, x):
         while x != self.parent[x]:
-            x = self.parent[x]
             # path compression
             self.parent[x] = self.parent[self.parent[x]];
+            x = self.parent[x]
         return x
     def union(self, p, q):
         if self.connected(p, q): return
@@ -114,33 +114,6 @@ class UF:
         else:
             self.parent[leader_q] = leader_p
         self.cnt -= 1
-    def connected(self, p, q):
-        return self.find(p) == self.find(q)
-```
-
-The code above implements path compression with recursion, which, though is easier to write, contains the risk of stack overflow. The following is how we can do it with iteration.
-
-```python
-class UF:
-    parent = {}
-    def __init__(self, equations):
-        # Initiation
-
-    def find(self, x):
-        # root
-        r = x
-        while r != parent[r]:
-            r = parent[r]
-        k = x
-        while k != r:
-            # Store the parent node of parent[k] temporarily.
-            j = parent[k]
-            parent[k] = r
-            k = j
-        return r
-    def union(self, p, q):
-        if self.connected(p, q): return
-        self.parent[self.find(p)] = self.find(q)
     def connected(self, p, q):
         return self.find(p) == self.find(q)
 ```

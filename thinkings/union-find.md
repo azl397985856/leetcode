@@ -8,8 +8,9 @@
 - [721. 账户合并](https://leetcode-cn.com/problems/accounts-merge/solution/mo-ban-ti-bing-cha-ji-python3-by-fe-lucifer-3/)
 - [990. 等式方程的可满足性](https://github.com/azl397985856/leetcode/issues/304)
 - [1202. 交换字符串中的元素](https://leetcode-cn.com/problems/smallest-string-with-swaps/)
+- [1697. 检查边长度限制的路径是否存在](https://leetcode-cn.com/problems/checking-existence-of-edge-length-limited-paths/)
 
-看完这里的内容，建议拿上面的题目练下手，检测一下学习成果。
+上面的题目前面四道都是无权图的连通性问题，第五道题是带权图的连通性问题。两种类型大家都要会，上面的题目关键字都是**连通性**，代码都是套模板。看完这里的内容，建议拿上面的题目练下手，检测一下学习成果。
 
 ## 概述
 
@@ -101,9 +102,9 @@ class UF:
 
     def find(self, x):
         while x != self.parent[x]:
-            x = self.parent[x]
             # 路径压缩
             self.parent[x] = self.parent[self.parent[x]];
+            x = self.parent[x]
         return x
     def union(self, p, q):
         if self.connected(p, q): return
@@ -121,35 +122,8 @@ class UF:
         return self.find(p) == self.find(q)
 ```
 
-上面是递归的方式进行路径压缩，写起来比较简单。但是有栈溢出的风险。 接下来我们看下迭代的写法：
-
-```python
-class UF:
-    parent = {}
-    def __init__(self, equations):
-        # 做一些初始化操作
-
-    def find(self, x):
-        # 根节点
-        r = x
-        while r != parent[r]:
-            r = parent[r]
-        k = x
-        while k != r:
-            # 暂存parent[k]的父节点
-            j = parent[k]
-            parent[k] = r
-            k = j
-        return r
-    def union(self, p, q):
-        if self.connected(p, q): return
-        self.parent[self.find(p)] = self.find(q)
-    def connected(self, p, q):
-        return self.find(p) == self.find(q)
-```
-
 ## 总结
 
 如果题目有连通，等价的关系，那么你就可以考虑并查集，使用并查集的时候要注意路径压缩。
 
-本文提供的题目模板是西法我用的比较多的，用了它不仅出错概率大大降低，而且速度也快了很多，整个人都更自信了呢 ^_^
+本文提供的题目模板是西法我用的比较多的，用了它不仅出错概率大大降低，而且速度也快了很多，整个人都更自信了呢 ^\_^
