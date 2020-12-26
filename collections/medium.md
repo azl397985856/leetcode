@@ -130,4 +130,4 @@
 - [1574. 删除最短的子数组使剩余数组有序](../problems/1574.shortest-subarray-to-be-removed-to-make-array-sorted.md) 🆕
 - [1631. 最小体力消耗路径](../problems/1631.path-with-minimum-effort.md) 🆕
 - [1658. 将 x 减到 0 的最小操作数](../problems/1658.minimum-operations-to-reduce-x-to-zero.md) 🆕
-- [面试题 17.23. 最大黑方阵](problems/max-black-square-lcci.md)🆕
+- [面试题 17.23. 最大黑方阵](../problems/max-black-square-lcci.md)🆕
