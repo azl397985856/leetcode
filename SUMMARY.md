@@ -26,22 +26,22 @@
     * [单调栈](thinkings/monotone-stack.md)
 
 
-* [第二章 - 91 天学算法](./91/README.md)
-    * [第一期讲义-二分法](./91/binary-search.md)
-    * [第一期讲义-双指针](./91/two-pointers.md)
-    * [第二期](./91/season2.md)
+* [第二章 - 91 天学算法](91/README.md)
+    * [第一期讲义-二分法](91/binary-search.md)
+    * [第一期讲义-双指针](91/two-pointers.md)
+    * [第二期](91/season2.md)
 
 
-* [第三章 - 精选题解](./selected/README.md)
-    * [字典序列删除](./selected/a-deleted.md)
-    * [西法的刷题秘籍】一次搞定前缀和](./selected/atMostK.md)
-    * [字节跳动的算法面试题是什么难度？](./selected/byte-dance-algo-ex.md)
-    * [字节跳动的算法面试题是什么难度？（第二弹）](./selected/byte-dance-algo-ex-2017.md)
-    * [《我是你的妈妈呀》 * 第一期](./selected/mother-01.md)
-    * [一文带你看懂二叉树的序列化](./selected/serialize.md)
-    * [穿上衣服我就不认识你了？来聊聊最长上升子序列](./selected/LIS.md)
-    * [你的衣服我扒了 * 《最长公共子序列》](./selected/LCS.md)
-    * [一文看懂《最大子序列和问题》](./selected/LSS.md)
+* [第三章 - 精选题解](selected/README.md)
+    * [字典序列删除](selected/a-deleted.md)
+    * [西法的刷题秘籍】一次搞定前缀和](selected/atMostK.md)
+    * [字节跳动的算法面试题是什么难度？](selected/byte-dance-algo-ex.md)
+    * [字节跳动的算法面试题是什么难度？（第二弹）](selected/byte-dance-algo-ex-2017.md)
+    * [《我是你的妈妈呀》 * 第一期](selected/mother-01.md)
+    * [一文带你看懂二叉树的序列化](selected/serialize.md)
+    * [穿上衣服我就不认识你了？来聊聊最长上升子序列](selected/LIS.md)
+    * [你的衣服我扒了 * 《最长公共子序列》](selected/LCS.md)
+    * [一文看懂《最大子序列和问题》](selected/LSS.md)
 
 
 * [第四章 - 高频考题（简单）](collections/easy.md)
@@ -110,7 +110,7 @@
     * [0055. 跳跃游戏](problems/55.jump-game.md)
     * [0056. 合并区间](problems/56.merge-intervals.md)
     * [0060. 第k个排列](problems/60.permutation-sequence.md)
-    * [0061. 旋转链表](../problems/61.Rotate-List.md) 91
+    * [0061. 旋转链表](problems/61.Rotate-List.md) 91
     * [0062. 不同路径](problems/62.unique-paths.md)
     * [0073. 矩阵置零](problems/73.set-matrix-zeroes.md)
     * [0075. 颜色分类](problems/75.sort-colors.md)
@@ -133,7 +133,7 @@
     * [0131. 分割回文串](problems/131.palindrome-partitioning.md)
     * [0139. 单词拆分](problems/139.word-break.md)
     * [0144. 二叉树的前序遍历](problems/144.binary-tree-preorder-traversal.md)
-    * [0147. 对链表进行插入排序](../problems/147.insertion-sort-list.md)
+    * [0147. 对链表进行插入排序](problems/147.insertion-sort-list.md)
     * [0150. 逆波兰表达式求值](problems/150.evaluate-reverse-polish-notation.md)
     * [0152. 乘积最大子数组](problems/152.maximum-product-subarray.md)
     * [0199. 二叉树的右视图](problems/199.binary-tree-right-side-view.md)
@@ -211,6 +211,7 @@
     * [1631. 最小体力消耗路径](problems/1631.path-with-minimum-effort.md)
     * [1658. 将 x 减到 0 的最小操作数](problems/1658.minimum-operations-to-reduce-x-to-zero.md)
     * [面试题 17.23. 最大黑方阵](problems/max-black-square-lcci.md)
+    * [面试题 17.09. 第 k 个数](problems/get-kth-magic-number-lcci.md)
 
 
 * [第六章 - 高频考题（困难）](collections/hard.md)
@@ -239,7 +240,7 @@
     * [0472. 连接词](problems/472.concatenated-words.md)
     * [0488. 祖玛游戏](problems/488.zuma-game.md)
     * [0493. 翻转对](problems/493.reverse-pairs.md)
-    * [0768. 最多能完成排序的块 II](../problems/768.max-chunks-to-make-sorted-ii.md) 91
+    * [0768. 最多能完成排序的块 II](problems/768.max-chunks-to-make-sorted-ii.md) 91
     * [0887. 鸡蛋掉落](problems/887.super-egg-drop.md)
     * [0895. 最大频率栈](problems/895.maximum-frequency-stack.md)
     * [1032. 字符流](problems/1032.stream-of-characters.md)
@@ -248,4 +249,4 @@
     * [1449. 数位成本和为目标值的最大数字](problems/1449.form-largest-integer-with-digits-that-add-up-to-target.md)
     
 
-* [后序](./epilogue.md)
+* [后序](epilogue.md)
