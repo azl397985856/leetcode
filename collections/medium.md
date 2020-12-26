@@ -64,6 +64,7 @@
 - [0211. 添加与搜索单词 \* 数据结构设计](../problems/211.add-and-search-word-data-structure-design.md)
 - [0215. 数组中的第 K 个最大元素](../problems/215.kth-largest-element-in-an-array.md)
 - [0221. 最大正方形](../problems/221.maximal-square.md)
+- [0227. 基本计算器 II](../problems/227.basic-calculator-ii.md)🆕
 - [0229. 求众数 II](../problems/229.majority-element-ii.md)
 - [0230. 二叉搜索树中第 K 小的元素](../problems/230.kth-smallest-element-in-a-bst.md)
 - [0236. 二叉树的最近公共祖先](../problems/236.lowest-common-ancestor-of-a-binary-tree.md)
@@ -83,6 +84,7 @@
 - [0416. 分割等和子集](../problems/416.partition-equal-subset-sum.md)
 - [0445. 两数相加 II](../problems/445.add-two-numbers-ii.md)
 - [0454. 四数相加 II](../problems/454.4-sum-ii.md)
+- [0464. 我能赢么](../problems/464.can-i-win.md)
 - [0494. 目标和](../problems/494.target-sum.md)
 - [0516. 最长回文子序列](../problems/516.longest-palindromic-subsequence.md)
 - [0513. 找树左下角的值](../problems/513.find-bottom-left-tree-value.md) 91
@@ -125,5 +127,7 @@
 - [1371.每个元音包含偶数次的最长子字符串](../problems/1371.find-the-longest-substring-containing-vowels-in-even-counts.md)
 - [1381. 设计一个支持增量操作的栈](../problems/1381.design-a-stack-with-increment-operation.md) 91
 - [1558. 得到目标数组的最少函数调用次数](../problems/1558.minimum-numbers-of-function-calls-to-make-target-array.md) 🆕
-- [1631.path-with-minimum-effort](../problems/1631.path-with-minimum-effort.md) 🆕
+- [1574. 删除最短的子数组使剩余数组有序](../problems/1574.shortest-subarray-to-be-removed-to-make-array-sorted.md) 🆕
+- [1631. 最小体力消耗路径](../problems/1631.path-with-minimum-effort.md) 🆕
 - [1658. 将 x 减到 0 的最小操作数](../problems/1658.minimum-operations-to-reduce-x-to-zero.md) 🆕
+- [面试题 17.23. 最大黑方阵](problems/max-black-square-lcci.md)🆕
