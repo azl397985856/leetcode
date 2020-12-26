@@ -234,19 +234,6 @@ anki - 文件 - 导入 - 下拉格式选择“打包的 anki 集合”，然后�
 
 感谢为这个项目作出贡献的所有 [小伙伴](https://github.com/azl397985856/leetcode/graphs/contributors)
 
-## :moneybag: &nbsp;赞助
-
-### 微信
-
-<img width="300" src="./assets/donate-weixin.jpg">
-
-### 支付宝
-
-<img width="300" src="./assets/donate-zfb.jpg">
-
-### 捐赠
-
-[点击查看完整的捐赠列表](./donation.md)
 
 ## License
 
