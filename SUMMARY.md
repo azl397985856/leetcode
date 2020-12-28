@@ -7,6 +7,7 @@
     * [数据结构](thinkings/basic-data-structure.md)
     * [链表专题](thinkings/linked-list.md)
     * [树专题](thinkings/tree.md)
+    * [堆专题（上）](./thinkings/heap.md) 🆕
     * [二叉树的遍历](thinkings/binary-tree-traversal.md)
     * [动态规划](thinkings/dynamic-programming.md)
     * [哈夫曼编码和游程编码](thinkings/run-length-encode-and-huffman-encode.md)
