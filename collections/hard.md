@@ -44,6 +44,7 @@
 - [0297. 二叉树的序列化与反序列化](../problems/297.serialize-and-deserialize-binary-tree.md) 91
 - [0301. 删除无效的括号](../problems/301.remove-invalid-parentheses.md)
 - [0312. 戳气球](../problems/312.burst-balloons.md)
+- [330. 按要求补齐数组](../problems/330.patching-array.md)
 - [0335. 路径交叉](../problems/335.self-crossing.md)
 - [0460. LFU 缓存](../problems/460.lfu-cache.md)
 - [0472. 连接词](../problems/472.concatenated-words.md)
