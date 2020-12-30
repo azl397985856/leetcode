@@ -39,6 +39,7 @@
 - [0342. 4 的幂](../problems/342.power-of-four.md)
 - [0349. 两个数组的交集](../problems/349.intersection-of-two-arrays.md)
 - [0371. 两整数之和](../problems/371.sum-of-two-integers.md)
+- [401. 二进制手表](../problems/401.binary-watch.md)
 - [0437. 路径总和 III](../problems/437.path-sum-iii.md)
 - [0455. 分发饼干](../problems/455.AssignCookies.md)
 - [0575. 分糖果](../problems/575.distribute-candies.md)
