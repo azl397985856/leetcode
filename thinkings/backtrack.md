@@ -166,6 +166,7 @@ class Solution:
 参考题目：
 
 - [140. 单词拆分 II](https://github.com/azl397985856/leetcode/blob/master/problems/140.word-break-ii.md)
+- [401. 二进制手表](../problems/401.binary-watch.md)
 - [816. 模糊坐标](https://github.com/azl397985856/leetcode/blob/master/problems/816.ambiguous-coordinates.md)
 
 这类问题不同于子集和全排列，其组合是有规律的，我们可以使用笛卡尔积公式，将两个或更多子集联合起来。

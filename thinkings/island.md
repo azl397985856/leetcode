@@ -133,7 +133,139 @@ class Solution:
 
 如果你下次碰到了小岛题目， 或者可以抽象为小岛类模型的题目，可以尝试使用本节给大家介绍的模板。这种题目的规律性很强， 类似的还有石子游戏，石子游戏大多数可以使用 DP 来做，这就是一种套路。
 
-大家对此有何看法，欢迎给我留言，我有时间都会一一查看回答。更多算法套路可以访问我的 LeetCode 题解仓库：https://github.com/azl397985856/leetcode 。 目前已经 37K star 啦。
+
+## 扩展
+
+实际上，很多题都有小岛题的影子，所谓的小岛题的核心是求连通区域。如果你能将问题转化为求连通区域，那么就可以使用本节的思路去做。 比如 [959. 由斜杠划分区域](https://leetcode-cn.com/problems/regions-cut-by-slashes/ "959. 由斜杠划分区域")
+
+题目描述：
+
+```
+在由 1 x 1 方格组成的 N x N 网格 grid 中，每个 1 x 1 方块由 /、\ 或空格构成。这些字符会将方块划分为一些共边的区域。
+
+（请注意，反斜杠字符是转义的，因此 \ 用 "\\" 表示。）。
+
+返回区域的数目。
+
+示例 1：
+
+输入：
+[
+  " /",
+  "/ "
+]
+输出：2
+解释：2x2 网格如下：
+```
+
+![](https://tva1.sinaimg.cn/large/0081Kckwly1gm5tfleu8lj302a02aa9y.jpg)
+
+```
+
+示例 2：
+
+输入：
+[
+  " /",
+  "  "
+]
+输出：1
+解释：2x2 网格如下：
+```
+
+![](https://tva1.sinaimg.cn/large/0081Kckwly1gm5tg0a44lj302b02a3ye.jpg)
+
+```
+
+示例 3：
+
+输入：
+[
+  "\\/",
+  "/\\"
+]
+输出：4
+解释：（回想一下，因为 \ 字符是转义的，所以 "\\/" 表示 \/，而 "/\\" 表示 /\。）
+2x2 网格如下：
+
+```
+
+![](https://tva1.sinaimg.cn/large/0081Kckwly1gm5tg5hn8vj302b02at8m.jpg)
+
+```
+
+示例 4：
+
+输入：
+[
+  "/\\",
+  "\\/"
+]
+输出：5
+解释：（回想一下，因为 \ 字符是转义的，所以 "/\\" 表示 /\，而 "\\/" 表示 \/。）
+2x2 网格如下：
+```
+
+![](https://tva1.sinaimg.cn/large/0081Kckwly1gm5tgi6g9ij3029029jra.jpg)
+
+```
+
+示例 5：
+
+输入：
+[
+  "//",
+  "/ "
+]
+输出：3
+解释：2x2 网格如下：
+```
+
+![](https://tva1.sinaimg.cn/large/0081Kckwly1gm5tgn4yysj302a02at8m.jpg)
+
+
+```
+提示：
+
+1 <= grid.length == grid[0].length <= 30
+grid[i][j] 是 '/'、'\'、或 ' '。
+```
+
+实际上，如果你将题目中的 "/" 和 "\" 都转化为 一个 3 x 3 的网格之后，问题就变成了求连通区域的个数，就可以用本节的思路去解决了。具体留给读者去思考吧，这里给大家贴一个 Python3 的代码。
+
+```py
+class Solution:
+    def regionsBySlashes(self, grid: List[str]) -> int:
+        m, n = len(grid), len(grid[0])
+        new_grid = [[0 for _ in range(3 * n)] for _ in range(3 * m)]
+        ans = 0
+        # 预处理，生成新的 3 * m * 3 * n 的网格
+        for i in range(m):
+            for j in range(n):
+                if grid[i][j] == '/':
+                    new_grid[3 * i][3 * j + 2] = 1
+                    new_grid[3 * i + 1][3 * j + 1] = 1
+                    new_grid[3 * i + 2][3 * j] = 1
+                if grid[i][j] == '\\':
+                    new_grid[3 * i][3 * j] = 1
+                    new_grid[3 * i + 1][3 * j + 1] = 1
+                    new_grid[3 * i + 2][3 * j + 2] = 1·
+        def dfs(i, j):
+            if 0 <= i < 3 * m and 0 <= j < 3 * n and new_grid[i][j] == 0:
+                new_grid[i][j] = 1
+                dfs(i + 1, j)
+                dfs(i - 1, j)
+                dfs(i, j + 1)
+                dfs(i, j - 1)
+        for i in range(3 * m):
+            for j in range(3 * n):
+                if new_grid[i][j] == 0:
+                    ans += 1
+                    dfs(i, j)
+        return ans
+```
+ 
+以上就是本文的全部内容了。大家对此有何看法，欢迎给我留言，我有时间都会一一查看回答。更多算法套路可以访问我的 LeetCode 题解仓库：https://github.com/azl397985856/leetcode 。 目前已经 37K star 啦。
 
 大家也可以关注我的公众号《力扣加加》带你啃下算法这块硬骨头。
 
