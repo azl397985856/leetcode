@@ -321,8 +321,93 @@ class Solution:
 
 [491. 递增子序列](https://leetcode-cn.com/problems/increasing-subsequences/) 由于需要找到所有的递增子序列，因此动态规划就不行了，妥妥回溯就行了，套一个模板就出来了。回溯的模板可以看我之前写的[回溯专题](https://github.com/azl397985856/leetcode/blob/master/problems/90.subsets-ii.md "回溯专题")。
 
-大家把我讲的思路搞懂，这几个题一写，还怕碰到类似的题不会么？**只有熟练掌握基础的数据结构与算法，才能对复杂问题迎刃有余。** 最长上升子序列就是一个非常经典的基础算法，把它彻底搞懂，再去面对出题人的各种换皮就不怕了。相反，如果你不去思考题目背后的逻辑，就会刷地很痛苦。题目稍微一变化你就不会了，这也是为什么很多人说**刷了很多题，但是碰到新的题目还是不会做**的原因之一。关注公众号力扣加加，努力用清晰直白的语言还原解题思路，并且有大量图解，手把手教你识别套路，高效刷题。
+最后推荐两道题大家练习一下，别看它们是 hard， 其实掌握了我这篇文章的内容一点都不难。
 
-更多题解可以访问我的 LeetCode 题解仓库：https://github.com/azl397985856/leetcode 。 目前已经 37K star 啦。
+- [面试题 08.13. 堆箱子](https://leetcode-cn.com/problems/pile-box-lcci/)
+
+参考代码：
+
+```py
+class Solution:
+    def pileBox(self, box: List[List[int]]) -> int:
+        box = sorted(box, key=sorted)
+        n = len(box)
+        dp = [0 if i == 0 else box[i - 1][2] for i in range(n + 1)]
+        ans = max(dp)
+
+        for i in range(1, n + 1):
+            for j in range(i + 1, n + 1):
+                if box[j - 1][0] > box[i - 1][0] and box[j - 1][1] > box[i - 1][1] and box[j - 1][2] > box[i - 1][2]:
+                    dp[j] = max(dp[j], dp[i] + box[j - 1][2])
+                    ans = max(ans , dp[j])
+        return ans
+```
+
+- [354. 俄罗斯套娃信封问题](https://leetcode-cn.com/problems/russian-doll-envelopes/)
+
+参考代码：
+
+```py
+class Solution:
+    def maxEnvelopes(self, envelopes: List[List[int]]) -> int:
+        if not envelopes: return 0
+        n = len(envelopes)
+        dp = [1] * n
+        envelopes.sort()
+        for i in range(n):
+            for j in range(i + 1, n):
+                if envelopes[i][0] < envelopes[j][0] and envelopes[i][1] < envelopes[j][1]:
+                    dp[j] = max(dp[j], dp[i] + 1)
+        return max(dp)
+```
+
+- [960. 删列造序 III](https://leetcode-cn.com/problems/delete-columns-to-make-sorted-iii/)
+
+参考代码：
+
+```py
+class Solution:
+    def minDeletionSize(self, A):
+        keep = 1
+        m, n = len(A), len(A[0])
+        dp = [1] * n
+        for j in range(n):
+            for k in range(j + 1, n):
+                if all([A[i][k] >= A[i][j] for i in range(m)]):
+                    dp[k] = max(dp[k], dp[j] + 1)
+                    keep = max(keep, dp[k])
+        return n - keep
+```
+
+> 小任务：请尝试使用贪心在 NlogN 的时间内完成算法。（参考我上面的代码就行）
+
+- [5644. 得到子序列的最少操作次数](https://leetcode-cn.com/problems/minimum-operations-to-make-a-subsequence/)
+
+由于这道题数据范围是 $10^5$，因此只能使用 $NlogN$ 的贪心才行。
+
+> 关于为什么 10 ^ 5 就必须使用 $NlogN$ 甚至更优的算法我在[刷题技巧](https://lucifer.ren/blog/2020/12/21/shuati-silu3/)提过。更多复杂度速查可参考我的刷题插件，公众号《力扣加加》回复插件获取即可。
+
+参考代码：
+
+```py
+class Solution:
+    def minOperations(self, target: List[int], A: List[int]) -> int:
+        def LIS(A):
+            d = []
+            for a in A:
+                i = bisect.bisect_left(d, a)
+                if d and i < len(d):
+                    d[i] = a
+                else:
+                    d.append(a)
+            return len(d)
+        B = []
+        target = { t:i for i, t in enumerate(target)}
+        for a in A:
+            if a in target: B.append(target[a])
+        return len(target) - LIS(B)
+```
+
+更多题解可以访问我的 LeetCode 题解仓库：https://github.com/azl397985856/leetcode 。 目前已经 38K star 啦。
 
 ![](https://tva1.sinaimg.cn/large/007S8ZIlly1gfcuzagjalj30p00dwabs.jpg)
