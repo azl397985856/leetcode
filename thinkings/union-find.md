@@ -33,6 +33,8 @@
 
 以上过程涉及了两个基本操作`find`和`connnected`。 并查集除了这两个基本操作，还有一个是`union`。即将两个集合合并为同一个。
 
+> 为了使得合并之后的树尽可能平衡，一般选择将小树挂载到大树上面，之后的代码模板会体现这一点
+
 如图有两个司令：
 
 ![](https://tva1.sinaimg.cn/large/007S8ZIlly1ghlufys950j30wp0el0th.jpg)
@@ -54,7 +56,19 @@ def find(self, x):
     return x
 ```
 
+也可使用递归来实现。
+
+```py
+def find(self, x):
+    if x != self.parent[x]:
+        self.parent[x] = self.find(self.parent[x])
+        return self.parent[x]
+    return x
+```
+
 ### connected
+
+直接利用上面实现好的 find 方法即可。如果两个节点的祖先相同，那么其就联通。
 
 ```python
 def connected(self, p, q):
@@ -63,48 +77,36 @@ def connected(self, p, q):
 
 ### union
 
+将其中一个节点挂到另外一个节点的祖先上，这样两者祖先就一样了。也就是说，两个节点联通了。
+
 ```python
 def union(self, p, q):
     if self.connected(p, q): return
     self.parent[self.find(p)] = self.find(q)
 ```
 
-## 完整代码模板
+## 不带权并查集
+
+平时做题过程，遇到的更多的是不带权的并查集。相比于带权并查集， 其实现过程也更加简单。
+
+### 带路径压缩的代码模板
 
 ```python
 class UF:
-    parent = {}
-    cnt = 0
     def __init__(self, M):
-        # 初始化 parent 和 cnt
-
-    def find(self, x):
-        while x != self.parent[x]:
-            x = self.parent[x]
-        return x
-    def union(self, p, q):
-        if self.connected(p, q): return
-        self.parent[self.find(p)] = self.find(q)
-        self.cnt -= 1
-    def connected(self, p, q):
-        return self.find(p) == self.find(q)
-```
-
-## 带路径压缩的代码模板
-
-```python
-class UF:
-    parent = {}
-    size = {}
-    cnt = 0
-    def __init__(self, M):
+        self.parent = {}
+        self.size = {}
+        self.cnt = 0
         # 初始化 parent，size 和 cnt
+        for i in range(M):
+            self.parent[i] = i
+            self.cnt += 1
+            self.size[i] = 1
 
     def find(self, x):
-        while x != self.parent[x]:
-            # 路径压缩
-            self.parent[x] = self.parent[self.parent[x]];
-            x = self.parent[x]
+        if x != self.parent[x]:
+            self.parent[x] = self.find(self.parent[x])
+            return self.parent[x]
         return x
     def union(self, p, q):
         if self.connected(p, q): return
@@ -122,8 +124,92 @@ class UF:
         return self.find(p) == self.find(q)
 ```
 
+## 带权并查集
+
+实际上并查集就是图结构，我们使用了哈希表来模拟这种图的关系。 而上面讲到的其实都是有向无权图，因此仅仅使用 parent 表示节点关系就可以了。而如果使用的是有向带权图呢？实际上除了维护 parent 这样的节点指向关系，我们还需要维护节点的权重，一个简单的想法是使用另外一个哈希表 weight 存储节点的权重关系。比如 `weight[a] = 1 表示 a 到其父节点的权重是 1`。
+
+如果是带权的并查集，其查询过程的路径压缩以及合并过程会略有不同，因为我们不仅关心节点指向的变更，也关心权重如何更新。比如：
+
+```
+a    b
+^    ^
+|    |
+|    |
+x    y
+```
+
+如上表示的是 x 的父节点是 a，y 的父节点是 b，现在我需要将 x 和 y 进行合并。
+
+```
+a    b
+^    ^
+|    |
+|    |
+x -> y
+```
+
+假设 x 到 a 的权重是 w(xa)，y 到 b 的权重为 w(yb)，x 到 y 的权重是 w(xy)。合并之后会变成如图的样子：
+
+```
+a -> b
+^    ^
+|    |
+|    |
+x    y
+```
+
+那么 a 到 b 的权重应该被更新为什么呢？我们知道 w(xa) + w(ab) = w(xy) + w(yb)，也就是说 a 到 b 的权重 w(ab) = w(xy) + w(yb) - w(xa)。
+
+当然上面关系式是加法，减法，取模还是乘法，除法等完全由题目决定，我这里只是举了一个例子。不管怎么样，这种运算一定需要满足**可传导性**。
+
+### 带路径压缩的代码模板
+
+这里以加法型带权并查集为例，讲述一下代码应该如何书写。
+
+```py
+class UF:
+    def __init__(self, M):
+        # 初始化 parent，weight
+        self.parent = {}
+        self.weight = {}
+        for i in range(M):
+            self.parent[i] = i
+            self.weight[i] = 0
+
+   def find(self, x):
+        if self.parent[x] != x:
+            ancestor, w = self.find(self.parent[x])
+            self.parent[x] = ancestor
+            self.weight[x] += w
+        return self.parent[x], self.weight[x]
+    def union(self, p, q, dist):
+        if self.connected(p, q): return
+        leader_p, w_p = self.find(p)
+        leader_q, w_q = self.find(q)
+        self.parent[leader_p] = leader_q
+        self.weight[leader_p] = dist + w_q - w_p
+    def connected(self, p, q):
+        return self.find(p)[0] == self.find(q)[0]
+```
+
+典型题目：
+
+- [399. 除法求值](https://leetcode-cn.com/problems/evaluate-division/)
+
 ## 总结
 
-如果题目有连通，等价的关系，那么你就可以考虑并查集，使用并查集的时候要注意路径压缩。
+如果题目有连通，等价的关系，那么你就可以考虑并查集，另外使用并查集的时候要注意路径压缩，否则随着树的高度增加复杂度会逐渐增大。
+
+对于带权并查集实现起来比较复杂，主要是路径压缩和合并这块不一样，不过我们只要注意节点关系，画出如下的图：
+
+```
+a -> b
+^    ^
+|    |
+|    |
+x    y
+```
+
+就不难看出应该如何更新拉。
 
 本文提供的题目模板是西法我用的比较多的，用了它不仅出错概率大大降低，而且速度也快了很多，整个人都更自信了呢 ^\_^
