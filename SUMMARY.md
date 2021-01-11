@@ -185,6 +185,7 @@
     * [0877. 石子游戏](problems/877.stone-game.md)
     * [0886. 可能的二分法](problems/886.possible-bipartition.md)
     * [0900. RLE 迭代器](problems/900.rle-iterator.md)
+    * [0911. 在线选举](../problems/911.online-election.md) 🆕
     * [0912. 排序数组](problems/912.sort-an-array.md)
     * [0935. 骑士拨号器](problems/935.knight-dialer.md)
     * [0978. 最长湍流子数组](problems/978.longest-turbulent-subarray.md)
