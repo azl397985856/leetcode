@@ -50,7 +50,7 @@
 - [0472. 连接词](../problems/472.concatenated-words.md)
 - [0488. 祖玛游戏](../problems/488.zuma-game.md)
 - [0493. 翻转对](../problems/493.reverse-pairs.md)
-- [0715. Range 模块](../problems/715.range-module.md)
+- [0715. Range 模块](../problems/715.range-module.md) 🆕
 - [0768. 最多能完成排序的块 II](../problems/768.max-chunks-to-make-sorted-ii.md) 91
 - [0887. 鸡蛋掉落](../problems/887.super-egg-drop.md)
 - [0895. 最大频率栈](../problems/895.maximum-frequency-stack.md)

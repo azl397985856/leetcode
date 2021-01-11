@@ -104,6 +104,7 @@
 - [0877. 石子游戏](../problems/877.stone-game.md)
 - [0886. 可能的二分法](../problems/886.possible-bipartition.md)
 - [0900. RLE 迭代器](../problems/900.rle-iterator.md)
+- [0911. 在线选举](../problems/911.online-election.md) 🆕
 - [0912. 排序数组](../problems/912.sort-an-array.md)
 - [0935. 骑士拨号器](../problems/935.knight-dialer.md)
 - [0978. 最长湍流子数组](../problems/978.longest-turbulent-subarray.md) 🆕
@@ -131,4 +132,3 @@
 - [1574. 删除最短的子数组使剩余数组有序](../problems/1574.shortest-subarray-to-be-removed-to-make-array-sorted.md) 🆕
 - [1631. 最小体力消耗路径](../problems/1631.path-with-minimum-effort.md) 🆕
 - [1658. 将 x 减到 0 的最小操作数](../problems/1658.minimum-operations-to-reduce-x-to-zero.md) 🆕
-
