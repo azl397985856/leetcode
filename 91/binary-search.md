@@ -157,10 +157,24 @@ function binarySearch(nums, target) {
 
 ##### C++
 
-暂时空缺，欢迎 [PR](https://github.com/leetcode-pp/leetcode-cheat/pulls)
-
 ```cpp
+int binarySearch(vector<int>& nums, int target){
+  if(nums.size() == 0)
+    return -1;
 
+  int left = 0, right = nums.size() - 1;
+  while(left <= right){
+    int mid = left + ((right - left) >> 1);
+    if(nums[mid] == target){ return mid; }
+    // 搜索区间变为 [mid+1, right]
+    else if(nums[mid] < target) 
+	left = mid + 1;
+    // 搜索区间变为 [left, mid - 1]
+    else 
+	right = mid - 1; 
+  }
+  return -1;
+}
 ```
 
 ### 寻找最左边的满足条件的值
@@ -258,10 +272,31 @@ function binarySearchLeft(nums, target) {
 
 ##### C++
 
-暂时空缺，欢迎 [PR](https://github.com/leetcode-pp/leetcode-cheat/pulls)
 
 ```cpp
-
+int binarySearchLeft(vector<int>& nums, int target) {
+	// 搜索区间为 [left, right]
+    int left = 0, right = nums.size() - 1;
+    while (left <= right) {
+        int mid = left + ((right - left) >> 1);
+        if (nums[mid] == target) {
+            // 收缩右边界
+            right = mid - 1;
+        }
+        if (nums[mid] < target) {
+            // 搜索区间变为 [mid+1, right]
+            left = mid + 1;
+        }
+        if (nums[mid] > target) {
+            // 搜索区间变为 [left, mid-1]
+            right = mid - 1;
+        }
+    }
+    // 检查是否越界
+    if (left >= nums.size() || nums[left] != target)
+        return -1;
+    return left;
+}
 ```
 
 ### 寻找最右边的满足条件的值
@@ -366,10 +401,30 @@ function binarySearchRight(nums, target) {
 
 ##### C++
 
-暂时空缺，欢迎 [PR](https://github.com/leetcode-pp/leetcode-cheat/pulls)
-
 ```cpp
-
+int binarySearchRight(vector<int>& nums, int target) {
+	// 搜索区间为 [left, right]
+    int left = 0, right = nums.size() - 1;
+    while (left <= right) {
+        int mid = left + ((right - left) >> 1);
+         if (nums[mid] == target) {
+            // 收缩左边界
+            left = mid + 1;
+        }
+        if (nums[mid] < target) {
+			// 搜索区间变为 [mid+1, right]
+            left = mid + 1;
+        }
+        if (nums[mid] > target) {
+			// 搜索区间变为 [left, mid-1]
+            right = mid - 1;
+        }
+    }
+    // 检查是否越界
+    if (right < 0 || nums[right] != target)
+        return -1;
+    return right;
+}
 ```
 
 ### 寻找最左插入位置
