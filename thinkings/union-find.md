@@ -196,6 +196,24 @@ class UF:
 
 - [399. 除法求值](https://leetcode-cn.com/problems/evaluate-division/)
 
+## 应用
+
+- 检测图是否有环
+
+思路： 只需要将边进行合并，并在合并之前判断是否已经联通即可，如果合并之前已经联通说明存在环。
+
+代码：
+
+```py
+uf = UF()
+for a, b in edges:
+    if uf.connected(a, b): return False
+    uf.union(a, b)
+return True
+```
+
+题目推荐：[Forest Detection](https://binarysearch.com/problems/Forest-Detection)
+
 ## 总结
 
 如果题目有连通，等价的关系，那么你就可以考虑并查集，另外使用并查集的时候要注意路径压缩，否则随着树的高度增加复杂度会逐渐增大。
