@@ -27,4 +27,5 @@
 - [最大公约数](GCD.md)
 - [并查集](union-find.md)
 - [前缀和](prefix.md)
+- [蓄水池抽样](reservoid-sampling.md)
 - [平衡二叉树专题](balanced-tree.md)
