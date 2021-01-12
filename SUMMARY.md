@@ -24,6 +24,7 @@
     * [最大公约数](thinkings/GCD.md)
     * [并查集](thinkings/union-find.md)
     * [平衡二叉树专题](thinkings/balanced-tree.md)
+    * [蓄水池抽样](thinkings/reservoid-sampling.md) 🆕
     * [单调栈](thinkings/monotone-stack.md)
 
 
