@@ -167,11 +167,11 @@ int binarySearch(vector<int>& nums, int target){
     int mid = left + ((right - left) >> 1);
     if(nums[mid] == target){ return mid; }
     // 搜索区间变为 [mid+1, right]
-    else if(nums[mid] < target) 
+    else if(nums[mid] < target)
 	left = mid + 1;
     // 搜索区间变为 [left, mid - 1]
-    else 
-	right = mid - 1; 
+    else
+	right = mid - 1;
   }
   return -1;
 }
@@ -271,7 +271,6 @@ function binarySearchLeft(nums, target) {
 ```
 
 ##### C++
-
 
 ```cpp
 int binarySearchLeft(vector<int>& nums, int target) {
@@ -552,16 +551,14 @@ LeetCode 有原题 [33. 搜索旋转排序数组](https://leetcode-cn.com/proble
 
 - 我们可以先找出 mid，然后根据 mid 来判断，mid 是在有序的部分还是无序的部分
 
-假如 mid 小于 start，则 mid 一定在右边有序部分。
-假如 mid 大于 start，则 mid 一定在左边有序部分。
+假如 mid 小于 start，则 mid 一定在右边有序部分，即 [mid,end] 部分有序。假如 mid 大于 start，则 mid 一定在左边有序部分，即 [start,mid]部分有序。**这是这类题目的突破口。**
 
 > 注意我没有考虑等号，之后我会讲。
 
-- 然后我们继续判断 target 在哪一部分， 我们就可以舍弃另一部分了
+- 然后我们继续判断 target 在哪一部分， 就可以舍弃另一部分了。
 
-我们只需要比较 target 和有序部分的边界关系就行了。 比如 mid 在右侧有序部分，即[mid, end]
-那么我们只需要判断 target >= mid && target <= end 就能知道 target 在右侧有序部分，我们就
-可以舍弃左边部分了(start = mid + 1)， 反之亦然。
+也就是说只需要比较 target 和**有序部分**的边界关系就行了。 比如 mid 在右侧有序部分，即[mid,end] 有序。那么我们只需要判断 target >= mid && target <= end 就能知道 target 在右侧有序部分，我们就
+可以舍弃左边部分了(通过 start = mid + 1 实现)， 反之亦然。
 
 我们以([6,7,8,1,2,3,4,5], 4)为例讲解一下：
 
@@ -569,7 +566,7 @@ LeetCode 有原题 [33. 搜索旋转排序数组](https://leetcode-cn.com/proble
 
 ![](https://tva1.sinaimg.cn/large/007S8ZIlly1gh9ahoznqjj30gx0i2wgb.jpg)
 
-接下来，我们考虑重复元素的问题。就会发生 nums[mid] == nums[start] 了，比如 30333 。这个时候，可以选择 l 右移一位。有的同学会担心”会不会错失目标元素？“。其实这个担心是多余的，前面我们已经介绍了”搜索区间“。由于搜索区间同时包含 l 和 mid ，因此去除一个 l ，我们还有 mid。假如 3 是我们要找的元素， 这样进行下去绝对不会错过，而是收缩”搜索区间“到一个元素 3 ，我们就可以心安理得地返回 3 了。
+接下来，我们考虑重复元素的问题。如果存在重复数字，就可能会发生 nums[mid] == nums[start] 了，比如 30333 。这个时候可以选择舍弃左部分，也就是 left 右移一位。的同学会担心”会不会错失目标元素？“。其实这个担心是多余的，前面我们已经介绍了”搜索区间“。由于搜索区间同时包含 l 和 mid ，因此去除一个 l ，我们还有 mid。假如 3 是我们要找的元素， 这样进行下去绝对不会错过，而是收缩”搜索区间“到一个元素 3 ，我们就可以心安理得地返回 3 了。
 
 ##### 代码（Python）
 
