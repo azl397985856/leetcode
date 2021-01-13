@@ -54,11 +54,11 @@
 
 - 假定给出几个单词如[she,he,her,good,god]构造出一个 Trie 如下图：
 
-![Trie%200c1c1245b4df467e91ceb6931c94701d/Untitled.png](Trie%200c1c1245b4df467e91ceb6931c94701d/Untitled.png)
+![](https://tva1.sinaimg.cn/large/008eGmZEly1gmlx7lukrmj30gb0abt9w.jpg)
 
 - 也就是说从根结点出发到某一粉色节点所经过的字符组成的单词，在单词列表中出现过，当然我们也可以给树的每个节点加个 count 属性，代表根结点到该节点所构成的字符串前缀出现的次数
 
-![Trie%200c1c1245b4df467e91ceb6931c94701d/Untitled%201.png](Trie%200c1c1245b4df467e91ceb6931c94701d/Untitled%201.png)
+![](https://tva1.sinaimg.cn/large/008eGmZEly1gmlx7whonvj30g709nwfl.jpg)
 
 可以看出树的构造非常简单，插入新单词的时候就从根结点出发一个字符一个字符插入，有对应的字符节点就更新对应的属性，没有就创建一个！
 
