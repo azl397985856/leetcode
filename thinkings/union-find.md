@@ -19,6 +19,10 @@
 - Find：确定元素属于哪一个子集。它可以被用来确定两个元素是否属于同一子集。
 - Union：将两个子集合并成同一个集合。
 
+初始化每一个点都是一个连通域，类似下图：
+
+![](https://tva1.sinaimg.cn/large/008eGmZEly1gmm4f8vpp3j30p9024jra.jpg)
+
 由于支持这两种操作，一个不相交集也常被称为联合-查找数据结构（Union-find Data Structure）或合并-查找集合（Merge-find Set）。为了更加精确的定义这些方法，需要定义如何表示集合。一种常用的策略是为每个集合选定一个固定的元素，称为代表，以表示整个集合。接着，Find(x) 返回 x 所属集合的代表，而 Union 使用两个集合的代表作为参数。
 
 ## 形象解释
@@ -66,6 +70,16 @@ def find(self, x):
     return x
 ```
 
+（这里我进行了路径的压缩）
+
+比如对于如下的一个图：
+
+![](https://tva1.sinaimg.cn/large/008eGmZEly1gmm4g5jyb9j30og05naaa.jpg)
+
+调用 find(0) 会逐步找到 3 ，在找到 3 的过程上会将路径上的节点都指向根节点。
+
+![](https://tva1.sinaimg.cn/large/008eGmZEly1gmm4i1vrclg30ni05wtj9.gif)
+
 ### connected
 
 直接利用上面实现好的 find 方法即可。如果两个节点的祖先相同，那么其就联通。
@@ -78,6 +92,18 @@ def connected(self, p, q):
 ### union
 
 将其中一个节点挂到另外一个节点的祖先上，这样两者祖先就一样了。也就是说，两个节点联通了。
+
+对于如下的一个图：
+
+![](https://tva1.sinaimg.cn/large/008eGmZEly1gmm4avz4iej30lv04rmx9.jpg)
+
+图中 r:1 表示 秩为 1，r 是 rank 的简写。这里的秩其实对应的就是上文的 size。
+
+如果我们将 0 和 7 进行一次合并。即 `union(0, 7)` ，则会发生如下过程。
+
+![](https://tva1.sinaimg.cn/large/008eGmZEly1gmm4btv06yg30ni05wwze.gif)
+
+代码：
 
 ```python
 def union(self, p, q):
