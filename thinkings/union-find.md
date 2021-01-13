@@ -212,7 +212,10 @@ for a, b in edges:
 return True
 ```
 
-题目推荐：[Forest Detection](https://binarysearch.com/problems/Forest-Detection)
+题目推荐：
+
+- [684. 冗余连接](https://leetcode-cn.com/problems/redundant-connection/solution/bing-cha-ji-mo-ban-ben-zhi-jiu-shi-jian-0wz2m/)
+- [Forest Detection](https://binarysearch.com/problems/Forest-Detection)
 
 ## 总结
 
