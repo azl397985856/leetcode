@@ -80,6 +80,10 @@ def find(self, x):
 
 ![](https://tva1.sinaimg.cn/large/008eGmZEly1gmm4i1vrclg30ni05wtj9.gif)
 
+极限情况下，每一个路径都会被压缩，这种情况下继续查找的时间复杂度就是 $O(1)$。
+
+![](https://tva1.sinaimg.cn/large/008eGmZEly1gmm4zjf5evj30u00aigml.jpg)
+
 ### connected
 
 直接利用上面实现好的 find 方法即可。如果两个节点的祖先相同，那么其就联通。
