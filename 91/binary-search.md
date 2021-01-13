@@ -603,6 +603,44 @@ class Solution:
 - 时间复杂度：$$O(log N)$$
 - 空间复杂度：$$O(1)$$
 
+##### 扩展
+
+如果题目不是让你返回 true 和 false，而是返回最左/最右等于 targrt 的索引呢？这不就又和前面的知识建立联系了么？比如我让你在一个旋转数组中找最左等于 target 的索引，其实就是 [面试题 10.03. 搜索旋转数组](https://leetcode-cn.com/problems/search-rotate-array-lcci/)。
+
+思路和前面的最左满足类似，仍然是通过压缩区间，更新备胎，最后返回备胎的方式来实现。 具体看代码吧。
+
+Python Code:
+
+```py
+class Solution:
+    def search(self, nums: List[int], target: int) -> int:
+        l, r = 0, len(nums) - 1
+        while l <= r:
+            mid = l + (r - l) // 2
+            # # the first half is ordered
+            if nums[l] < nums[mid]:
+                # target is in the first half
+                if nums[l] <= target <= nums[mid]:
+                    r = mid - 1
+                else:
+                    l = mid + 1
+            # # the second half is ordered
+            elif nums[l] > nums[mid]:
+                # target is in the second half
+                if nums[l] <= target or target <= nums[mid]:
+                    r = mid - 1
+                else:
+                    l = mid + 1
+            elif nums[l] == nums[mid]:
+                if nums[l] != target:
+                    l += 1
+                else:
+                    # l 是一个备胎
+                    r = l - 1
+        return l if l < len(nums) and nums[l] == target else -1
+
+```
+
 ### 二维数组
 
 二维数组的二分查找和一维没有本质区别， 我们通过两个题来进行说明。
