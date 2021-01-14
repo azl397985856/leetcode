@@ -16,18 +16,8 @@
 简体中文 | [English](./README.en.md)
 
 ---
-
-**只有熟练掌握基础的数据结构与算法，才能对复杂问题迎刃有余。**
-
-## :information_desk_person:订阅公众号
-
-有些内容只在公众号发布，因此大家觉得内容不错的话，可以关注一下。如果再给 ➕ 个星标就更棒啦！
-
-<img src="https://tva1.sinaimg.cn/large/007S8ZIlly1gfcuzagjalj30p00dwabs.jpg" width="100%">
-
-## :newspaper: &nbsp;订阅
-
-大家可以用 Github 提供的 [RSS](https://github.com/azl397985856/leetcode/commits.atom) 来订阅我的仓库更新。
+ 
+**只有熟练掌握基础的数据结构与算法，才能对复杂问题迎刃有余。** [在线阅读](https://leetcode-solution-leetcode-pp.gitbook.io/leetcode-solution/)
 
 ## :blue_book:电子书
 
@@ -76,6 +66,17 @@
 - [第一期讲义-二分法](./91/binary-search.md)
 - [第一期讲义-双指针](./91/two-pointers.md)
 - [第二期正在火热进行中](./91/season2.md)
+
+## :information_desk_person:订阅公众号
+
+有些内容只在公众号发布，因此大家觉得内容不错的话，可以关注一下。如果再给 ➕ 个星标就更棒啦！
+
+<img src="https://tva1.sinaimg.cn/large/007S8ZIlly1gfcuzagjalj30p00dwabs.jpg" width="100%">
+
+## :newspaper: &nbsp;订阅
+
+大家可以用 Github 提供的 [RSS](https://github.com/azl397985856/leetcode/commits.atom) 来订阅我的仓库更新。
+
 
 ## :octocat:仓库介绍
 
