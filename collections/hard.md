@@ -54,6 +54,7 @@
 - [0768. 最多能完成排序的块 II](../problems/768.max-chunks-to-make-sorted-ii.md) 91
 - [0887. 鸡蛋掉落](../problems/887.super-egg-drop.md)
 - [0895. 最大频率栈](../problems/895.maximum-frequency-stack.md)
+- [0975. 奇偶跳](../problems/975.odd-even-jump.md) 🆕
 - [1032. 字符流](../problems/1032.stream-of-characters.md)
 - [1168. 水资源分配优化](../problems/1168.optimize-water-distribution-in-a-village.md)
 - [1203. 项目管理](../problems/1203.sort-items-by-groups-respecting-dependencies.md) 🆕
