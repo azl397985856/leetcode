@@ -189,6 +189,7 @@
     * [0911. 在线选举](../problems/911.online-election.md) 🆕
     * [0912. 排序数组](problems/912.sort-an-array.md)
     * [0935. 骑士拨号器](problems/935.knight-dialer.md)
+    * [0947. 移除最多的同行或同列石头](./problems/947.most-stones-removed-with-same-row-or-column.md) 🆕
     * [0978. 最长湍流子数组](problems/978.longest-turbulent-subarray.md)
     * [0987. 二叉树的垂序遍历](problems/987.vertical-order-traversal-of-a-binary-tree.md) 91
     * [1011. 在 D 天内送达包裹的能力](problems/1011.capacity-to-ship-packages-within-d-days.md)

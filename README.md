@@ -16,7 +16,7 @@
 简体中文 | [English](./README.en.md)
 
 ---
- 
+
 **只有熟练掌握基础的数据结构与算法，才能对复杂问题迎刃有余。** [在线阅读](https://leetcode-solution-leetcode-pp.gitbook.io/leetcode-solution/)
 
 ## :blue_book:电子书
@@ -77,7 +77,6 @@
 
 大家可以用 Github 提供的 [RSS](https://github.com/azl397985856/leetcode/commits.atom) 来订阅我的仓库更新。
 
-
 ## :octocat:仓库介绍
 
 leetcode 题解，记录自己的 leetcode 解题之路。
@@ -122,6 +121,46 @@ leetcode 题解，记录自己的 leetcode 解题之路。
 - 字符串：前缀树（字典树） ／ 后缀树
 
 ## :door: &nbsp;传送门
+
+### 数据结构与算法的总结(22 篇)
+
+- [数据结构总览](./thinkings/basic-data-structure.md)
+- [链表专题](./thinkings/linked-list.md) 🆕
+- [树专题](./thinkings/tree.md) 🆕
+- [堆专题（上）](./thinkings/heap.md) 🆕
+<!-- - [基础算法](./thinkings/basic-algorithm.md) -->
+- [二叉树的遍历](./thinkings/binary-tree-traversal.md)
+- [动态规划](./thinkings/dynamic-programming.md)
+- [回溯](./thinkings/backtrack.md)
+- [哈夫曼编码和游程编码](./thinkings/run-length-encode-and-huffman-encode.md)
+- [布隆过滤器](./thinkings/bloom-filter.md)🖊
+- [字符串问题](./thinkings/string-problems.md)
+- [前缀树](./thinkings/trie.md)🖊
+- [《日程安排》专题](https://lucifer.ren/blog/2020/02/03/leetcode-%E6%88%91%E7%9A%84%E6%97%A5%E7%A8%8B%E5%AE%89%E6%8E%92%E8%A1%A8%E7%B3%BB%E5%88%97/)
+- [《构造二叉树》专题](https://lucifer.ren/blog/2020/02/08/%E6%9E%84%E9%80%A0%E4%BA%8C%E5%8F%89%E6%A0%91%E4%B8%93%E9%A2%98/)
+- [《贪婪策略》专题](./thinkings/greedy.md)
+- [深度优先遍历](./thinkings/DFS.md)
+- [滑动窗口（思路 + 模板）](./thinkings/slide-window.md)
+- [位运算](./thinkings/bit.md)
+- [设计题](./thinkings/design.md)
+- [小岛问题](./thinkings/island.md)🖊
+- [最大公约数](./thinkings/GCD.md)
+- [并查集](./thinkings/union-find.md)
+- [平衡二叉树专题](./thinkings/balanced-tree.md)
+- [蓄水池抽样](./thinkings/reservoid-sampling.md) 🆕
+- [单调栈](./thinkings/monotone-stack.md) 🆕
+
+### 精选题解（9 篇）
+
+- [字典序列删除](./selected/a-deleted.md)
+- [一次搞定前缀和](./selected/atMostK.md)
+- [字节跳动的算法面试题是什么难度？](./selected/byte-dance-algo-ex.md)
+- [字节跳动的算法面试题是什么难度？（第二弹）](./selected/byte-dance-algo-ex-2017.md)
+- [《我是你的妈妈呀》 - 第一期](./selected/mother-01.md)
+- [一文带你看懂二叉树的序列化](./selected/serialize.md)
+- [穿上衣服我就不认识你了？来聊聊最长上升子序列](./selected/LIS.md)
+- [你的衣服我扒了 - 《最长公共子序列》](./selected/LCS.md)
+- [一文看懂《最大子序列和问题》](./selected/LSS.md)
 
 ### leetcode 经典题目的解析（200 多道）
 
@@ -291,6 +330,7 @@ leetcode 题解，记录自己的 leetcode 解题之路。
 - [0911. 在线选举](./problems/911.online-election.md) 🆕
 - [0912. 排序数组](./problems/912.sort-an-array.md)
 - [0935. 骑士拨号器](./problems/935.knight-dialer.md)
+- [0947. 移除最多的同行或同列石头](./problems/947.most-stones-removed-with-same-row-or-column.md) 🆕
 - [0978. 最长湍流子数组](./problems/978.longest-turbulent-subarray.md) 🆕
 - [0987. 二叉树的垂序遍历](./problems/987.vertical-order-traversal-of-a-binary-tree.md) 91
 - [1011. 在 D 天内送达包裹的能力](./problems/1011.capacity-to-ship-packages-within-d-days.md)
@@ -381,46 +421,6 @@ leetcode 题解，记录自己的 leetcode 解题之路。
 - [1345. 跳跃游戏 IV](./problems/1435.jump-game-iv.md)
 - [1449. 数位成本和为目标值的最大数字](./problems/1449.form-largest-integer-with-digits-that-add-up-to-target.md) 🆕
 - [5640. 与数组中元素的最大异或值](./problems/5640.maximum-xor-with-an-element-from-array.md) 🆕
-
-### 数据结构与算法的总结(22 篇)
-
-- [数据结构总览](./thinkings/basic-data-structure.md)
-- [链表专题](./thinkings/linked-list.md) 🆕
-- [树专题](./thinkings/tree.md) 🆕
-- [堆专题（上）](./thinkings/heap.md) 🆕
-<!-- - [基础算法](./thinkings/basic-algorithm.md) -->
-- [二叉树的遍历](./thinkings/binary-tree-traversal.md)
-- [动态规划](./thinkings/dynamic-programming.md)
-- [回溯](./thinkings/backtrack.md)
-- [哈夫曼编码和游程编码](./thinkings/run-length-encode-and-huffman-encode.md)
-- [布隆过滤器](./thinkings/bloom-filter.md)🖊
-- [字符串问题](./thinkings/string-problems.md)
-- [前缀树](./thinkings/trie.md)🖊
-- [《日程安排》专题](https://lucifer.ren/blog/2020/02/03/leetcode-%E6%88%91%E7%9A%84%E6%97%A5%E7%A8%8B%E5%AE%89%E6%8E%92%E8%A1%A8%E7%B3%BB%E5%88%97/)
-- [《构造二叉树》专题](https://lucifer.ren/blog/2020/02/08/%E6%9E%84%E9%80%A0%E4%BA%8C%E5%8F%89%E6%A0%91%E4%B8%93%E9%A2%98/)
-- [《贪婪策略》专题](./thinkings/greedy.md)
-- [深度优先遍历](./thinkings/DFS.md)
-- [滑动窗口（思路 + 模板）](./thinkings/slide-window.md)
-- [位运算](./thinkings/bit.md)
-- [设计题](./thinkings/design.md)
-- [小岛问题](./thinkings/island.md)🖊
-- [最大公约数](./thinkings/GCD.md)
-- [并查集](./thinkings/union-find.md)
-- [平衡二叉树专题](./thinkings/balanced-tree.md)
-- [蓄水池抽样](./thinkings/reservoid-sampling.md) 🆕
-- [单调栈](./thinkings/monotone-stack.md) 🆕
-
-### 精选题解（9 篇）
-
-- [字典序列删除](./selected/a-deleted.md)
-- [一次搞定前缀和](./selected/atMostK.md)
-- [字节跳动的算法面试题是什么难度？](./selected/byte-dance-algo-ex.md)
-- [字节跳动的算法面试题是什么难度？（第二弹）](./selected/byte-dance-algo-ex-2017.md)
-- [《我是你的妈妈呀》 - 第一期](./selected/mother-01.md)
-- [一文带你看懂二叉树的序列化](./selected/serialize.md)
-- [穿上衣服我就不认识你了？来聊聊最长上升子序列](./selected/LIS.md)
-- [你的衣服我扒了 - 《最长公共子序列》](./selected/LCS.md)
-- [一文看懂《最大子序列和问题》](./selected/LSS.md)
 
 ## :trident: &nbsp;anki 卡片
 
