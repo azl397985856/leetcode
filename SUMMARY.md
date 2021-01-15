@@ -257,7 +257,8 @@
     * [1255. 得分最高的单词集合](problems/1255.maximum-score-words-formed-by-letters.md)
     * [1345. 跳跃游戏 IV](problems/1435.jump-game-iv.md) 🆕
     * [1449. 数位成本和为目标值的最大数字](problems/1449.form-largest-integer-with-digits-that-add-up-to-target.md)
-    * [5640. 与数组中元素的最大异或值](problems/5640.maximum-xor-with-an-element-from-array.md) 🆕
+    * [1649. 通过指令创建有序数组](./problems/1649.create-sorted-array-through-instructions.md) 🆕
+    * [1707. 与数组中元素的最大异或值](./problems/5640.maximum-xor-with-an-element-from-array.md) 🆕
     
 
 * [后序](epilogue.md)
