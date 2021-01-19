@@ -244,6 +244,7 @@
     * [0335. 路径交叉](problems/335.self-crossing.md)
     * [0460. LFU缓存](problems/460.lfu-cache.md)
     * [0472. 连接词](problems/472.concatenated-words.md)
+    * [0483. 最小好进制](./problems/483.smallest-good-base.md) 🆕
     * [0488. 祖玛游戏](problems/488.zuma-game.md)
     * [0493. 翻转对](problems/493.reverse-pairs.md)
     * [0715. Range 模块](../problems/715.range-module.md) 🆕

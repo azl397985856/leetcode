@@ -247,6 +247,8 @@ return True
 - [684. 冗余连接](https://leetcode-cn.com/problems/redundant-connection/solution/bing-cha-ji-mo-ban-ben-zhi-jiu-shi-jian-0wz2m/)
 - [Forest Detection](https://binarysearch.com/problems/Forest-Detection)
 
+- 最小生成树经典算法 Kruskal
+
 ## 总结
 
 如果题目有连通，等价的关系，那么你就可以考虑并查集，另外使用并查集的时候要注意路径压缩，否则随着树的高度增加复杂度会逐渐增大。
