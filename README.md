@@ -65,7 +65,7 @@
 
 - [第一期讲义-二分法](./91/binary-search.md)
 - [第一期讲义-双指针](./91/two-pointers.md)
-- [第二期正在火热进行中](./91/season2.md)
+- [第三期正在火热进行中](https://lucifer.ren/blog/2021/01/19/91-algo-3/)
 
 ## :information_desk_person:订阅公众号
 
