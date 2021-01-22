@@ -298,6 +298,27 @@ int binarySearchLeft(vector<int>& nums, int target) {
 }
 ```
 
+#### 例题解析
+
+给你一个严格递增的数组 nums ，让你找到第一个满足 nums[i] == i 的索引，如果没有这样的索引，返回 -1。（你的算法需要有 logN 的复杂度）。
+
+首先我们做一个小小的变换，将原数组 nums 转换为 A，其中 A[i] = nums[i] - i。这样新的数组 A 就是一个不严格递增的数组。这样原问题转换为 在一个不严格递增的数组 A 中找第一个等于 0 的索引。接下来，我们就可以使用最左满足模板，找到最左满足 nums[i] == i 的索引。
+
+代码：
+
+```py
+class Solution:
+    def solve(self, nums):
+        l, r = 0, len(nums) - 1
+        while l <= r:
+            mid = (l + r) // 2
+            if nums[mid] >= mid:
+                r = mid - 1
+            else:
+                l = mid + 1
+        return l if l < len(nums) and nums[l] == l else -1
+```
+
 ### 寻找最右边的满足条件的值
 
 和`查找一个数`类似， 我们仍然套用`查找一个数`的思维框架和代码模板。
