@@ -262,6 +262,7 @@
     * [1521. 找到最接近目标值的函数值](./problems/1521.find-a-value-of-a-mysterious-function-closest-to-target.md) 🆕
     * [1526. 形成目标数组的子数组最少增加次数](./problems/1526.minimum-number-of-increments-on-subarrays-to-form-a-target-array.md) 🆕
     * [1649. 通过指令创建有序数组](./problems/1649.create-sorted-array-through-instructions.md) 🆕
+    * [1671. 得到山形数组的最少删除次数](./problems/1671.minimum-number-of-removals-to-make-mountain-array.md)🆕
     * [1707. 与数组中元素的最大异或值](./problems/5640.maximum-xor-with-an-element-from-array.md) 🆕
     
 
