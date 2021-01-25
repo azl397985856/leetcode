@@ -127,7 +127,8 @@ leetcode 题解，记录自己的 leetcode 解题之路。
 - [数据结构总览](./thinkings/basic-data-structure.md)
 - [链表专题](./thinkings/linked-list.md) 🆕
 - [树专题](./thinkings/tree.md) 🆕
-- [堆专题（上）](./thinkings/heap.md) 🆕
+- [堆专题（上）](./thinkings/heap.md)
+- [堆专题（下）](./thinkings/heap-2.md) 🆕
 <!-- - [基础算法](./thinkings/basic-algorithm.md) -->
 - [二叉树的遍历](./thinkings/binary-tree-traversal.md)
 - [动态规划](./thinkings/dynamic-programming.md)
