@@ -267,6 +267,7 @@
     * [1526. 形成目标数组的子数组最少增加次数](./problems/1526.minimum-number-of-increments-on-subarrays-to-form-a-target-array.md) 🆕
     * [1649. 通过指令创建有序数组](./problems/1649.create-sorted-array-through-instructions.md) 🆕
     * [1671. 得到山形数组的最少删除次数](./problems/1671.minimum-number-of-removals-to-make-mountain-array.md)🆕
+    * [1697. 检查边长度限制的路径是否存在](./problems/1697.checking-existence-of-edge-length-limited-paths.md) 🆕
     * [1707. 与数组中元素的最大异或值](./problems/5640.maximum-xor-with-an-element-from-array.md) 🆕
     
 
