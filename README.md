@@ -333,7 +333,7 @@ leetcode 题解，记录自己的 leetcode 解题之路。
 - [0911. 在线选举](./problems/911.online-election.md) 🆕
 - [0912. 排序数组](./problems/912.sort-an-array.md)
 - [0935. 骑士拨号器](./problems/935.knight-dialer.md)
-- [0947. 移除最多的同行或同列石头](./problems/947.most-stones-removed-with-same-row-or-column.md) 🆕
+- [0947. 移除最多的同行或同列石头](./problems/947.most-stones-removed-with-same-row-or-column.md)
 - [0959. 由斜杠划分区域](./problems/959.regions-cut-by-slashes.md) 🆕
 - [0978. 最长湍流子数组](./problems/978.longest-turbulent-subarray.md) 🆕
 - [0987. 二叉树的垂序遍历](./problems/987.vertical-order-traversal-of-a-binary-tree.md) 91
@@ -358,8 +358,9 @@ leetcode 题解，记录自己的 leetcode 解题之路。
 - [1381. 设计一个支持增量操作的栈](./problems/1381.design-a-stack-with-increment-operation.md) 91
 - [1558. 得到目标数组的最少函数调用次数](./problems/1558.minimum-numbers-of-function-calls-to-make-target-array.md) 🆕
 - [1574. 删除最短的子数组使剩余数组有序](./problems/1574.shortest-subarray-to-be-removed-to-make-array-sorted.md) 🆕
-- [1631. 最小体力消耗路径](./problems/1631.path-with-minimum-effort.md) 🆕
+- [1631. 最小体力消耗路径](./problems/1631.path-with-minimum-effort.md)
 - [1658. 将 x 减到 0 的最小操作数](./problems/1658.minimum-operations-to-reduce-x-to-zero.md) 🆕
+- [1737. 满足三条件之一需改变的最少字符数](./problems/1737.change-minimum-characters-to-satisfy-one-of-three-conditions.md) 🆕
 
 #### 困难难度题目合集
 
