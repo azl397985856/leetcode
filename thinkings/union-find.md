@@ -145,10 +145,10 @@ class UF:
         leader_q = self.find(q)
         if self.size[leader_p] < self.size[leader_q]:
             self.parent[leader_p] = leader_q
-            self.size[leader_p] += self.size[leader_q]
+            self.size[leader_q] += self.size[leader_p]
         else:
             self.parent[leader_q] = leader_p
-            self.size[leader_q] += self.size[leader_p]
+            self.size[leader_p] += self.size[leader_q]
         self.cnt -= 1
     def connected(self, p, q):
         return self.find(p) == self.find(q)
