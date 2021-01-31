@@ -416,6 +416,7 @@ leetcode 题解，记录自己的 leetcode 解题之路。
 - [0483. 最小好进制](./problems/483.smallest-good-base.md) 🆕
 - [0488. 祖玛游戏](./problems/488.zuma-game.md)
 - [0493. 翻转对](./problems/493.reverse-pairs.md)
+- [0679. 24 点游戏](./problems/679.24-game.md) 🆕
 - [0715. Range 模块](./problems/715.range-module.md) 🆕
 - [0768. 最多能完成排序的块 II](./problems/768.max-chunks-to-make-sorted-ii.md) 91
 - [0839. 相似字符串组](./problems/839.similar-string-groups.md) 🆕
