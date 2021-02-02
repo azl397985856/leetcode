@@ -192,6 +192,7 @@
   - [0900. RLE 迭代器](problems/900.rle-iterator.md)
   - [0911. 在线选举](../problems/911.online-election.md) 🆕
   - [0912. 排序数组](problems/912.sort-an-array.md)
+  - [0932. 漂亮数组](./problems/932.beautiful-array.md) 🆕
   - [0935. 骑士拨号器](problems/935.knight-dialer.md)
   - [0947. 移除最多的同行或同列石头](./problems/947.most-stones-removed-with-same-row-or-column.md) 🆕
   - [0959. 由斜杠划分区域](./problems/959.regions-cut-by-slashes.md) 🆕
