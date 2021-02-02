@@ -308,6 +308,7 @@ leetcode 题解，记录自己的 leetcode 解题之路。
 - [0380. 常数时间插入、删除和获取随机元素](./problems/380.insert-delete-getrandom-o1.md)
 - [0394. 字符串解码](./problems/394.decode-string.md) 91
 - [0416. 分割等和子集](./problems/416.partition-equal-subset-sum.md)
+- [0424. 替换后的最长重复字符](./problems/424.longest-repeating-character-replacement.md) 🆕
 - [0445. 两数相加 II](./problems/445.add-two-numbers-ii.md)
 - [0454. 四数相加 II](./problems/454.4-sum-ii.md)
 - [0464. 我能赢么](./problems/464.can-i-win.md)
