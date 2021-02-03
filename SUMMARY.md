@@ -259,6 +259,7 @@
   - [0679. 24 点游戏](./problems/679.24-game.md) 🆕
   - [0715. Range 模块](problems/715.range-module.md) 🆕
   - [0768. 最多能完成排序的块 II](problems/768.max-chunks-to-make-sorted-ii.md) 91
+  - [0805. 数组的均值分割](./problems/805.split-array-with-same-average.md) 🆕
   - [0839. 相似字符串组](./problems/839.similar-string-groups.md) 🆕
   - [0887. 鸡蛋掉落](problems/887.super-egg-drop.md)
   - [0895. 最大频率栈](problems/895.maximum-frequency-stack.md)
