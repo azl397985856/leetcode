@@ -417,6 +417,7 @@ leetcode 题解，记录自己的 leetcode 解题之路。
 - [0335. 路径交叉](./problems/335.self-crossing.md)
 - [0460. LFU 缓存](./problems/460.lfu-cache.md)
 - [0472. 连接词](./problems/472.concatenated-words.md)
+- [0480. 滑动窗口中位数](./problems/480.sliding-window-median.md) 🆕
 - [0483. 最小好进制](./problems/483.smallest-good-base.md) 🆕
 - [0488. 祖玛游戏](./problems/488.zuma-game.md)
 - [0493. 翻转对](./problems/493.reverse-pairs.md)
