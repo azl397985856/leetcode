@@ -214,6 +214,7 @@ leetcode 题解，记录自己的 leetcode 解题之路。
 - [0437. 路径总和 III](./problems/437.path-sum-iii.md)
 - [0455. 分发饼干](./problems/455.AssignCookies.md)
 - [0575. 分糖果](./problems/575.distribute-candies.md)
+- [0665. 非递减数列](./problems/665.non-decreasing-array.md) 🆕
 - [821. 字符的最短距离](./problems/821.shortest-distance-to-a-character.md) 91
 - [0874. 模拟行走机器人](./problems/874.walking-robot-simulation.md)
 - [1128. 等价多米诺骨牌对的数量](./problems/1128.number-of-equivalent-domino-pairs.md) 🆕
