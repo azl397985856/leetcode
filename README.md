@@ -221,9 +221,6 @@ leetcode 题解，记录自己的 leetcode 解题之路。
 - [1260. 二维网格迁移](./problems/1260.shift-2d-grid.md)
 - [1332. 删除回文子序列](./problems/1332.remove-palindromic-subsequences.md)
 
-- [高频考题合集（中等难度）](./collections/medium.md)
-- [高频考题合集（困难难度）](./collections/hard.md)
-
 #### 中等难度题目合集
 
 中等题目是力扣比例最大的部分，因此这部分我的题解也是最多的。 大家不要太过追求难题，先把中等难度题目做熟了再说。
@@ -401,12 +398,12 @@ leetcode 题解，记录自己的 leetcode 解题之路。
 - [0032. 最长有效括号](./problems/32.longest-valid-parentheses.md)
 - [0042. 接雨水](./problems/42.trapping-rain-water.md)
 - [0052. N 皇后 II](./problems/52.N-Queens-II.md)
-- [0057. 插入区间](problems/57.insert-interval.md) 🆕
+- [0057. 插入区间](problems/57.insert-interval.md)
 - [0084. 柱状图中最大的矩形](./problems/84.largest-rectangle-in-histogram.md)
 - [0085. 最大矩形](./problems/85.maximal-rectangle.md)
 - [0124. 二叉树中的最大路径和](./problems/124.binary-tree-maximum-path-sum.md)
 - [0128. 最长连续序列](./problems/128.longest-consecutive-sequence.md)
-- [0140. 单词拆分 II](problems/140.word-break-ii.md) 🆕
+- [0140. 单词拆分 II](problems/140.word-break-ii.md)
 - [0145. 二叉树的后序遍历](./problems/145.binary-tree-postorder-traversal.md)
 - [0212. 单词搜索 II](./problems/212.word-search-ii.md)
 - [0239. 滑动窗口最大值](./problems/239.sliding-window-maximum.md)
@@ -425,8 +422,8 @@ leetcode 题解，记录自己的 leetcode 解题之路。
 - [0679. 24 点游戏](./problems/679.24-game.md) 🆕
 - [0715. Range 模块](./problems/715.range-module.md) 🆕
 - [0768. 最多能完成排序的块 II](./problems/768.max-chunks-to-make-sorted-ii.md) 91
-- [0805. 数组的均值分割](./problems/805.split-array-with-same-average.md) 🆕
-- [0839. 相似字符串组](./problems/839.similar-string-groups.md) 🆕
+- [0805. 数组的均值分割](./problems/805.split-array-with-same-average.md)
+- [0839. 相似字符串组](./problems/839.similar-string-groups.md)
 - [0887. 鸡蛋掉落](./problems/887.super-egg-drop.md)
 - [0895. 最大频率栈](./problems/895.maximum-frequency-stack.md)
 - [0975. 奇偶跳](./problems/975.odd-even-jump.md) 🆕
@@ -435,12 +432,13 @@ leetcode 题解，记录自己的 leetcode 解题之路。
 - [1203. 项目管理](./problems/1203.sort-items-by-groups-respecting-dependencies.md) 🆕
 - [1255. 得分最高的单词集合](./problems/1255.maximum-score-words-formed-by-letters.md)
 - [1345. 跳跃游戏 IV](./problems/1435.jump-game-iv.md)
-- [1449. 数位成本和为目标值的最大数字](./problems/1449.form-largest-integer-with-digits-that-add-up-to-target.md) 🆕
-- [1521. 找到最接近目标值的函数值](./problems/1521.find-a-value-of-a-mysterious-function-closest-to-target.md) 🆕
-- [1526. 形成目标数组的子数组最少增加次数](./problems/1526.minimum-number-of-increments-on-subarrays-to-form-a-target-array.md) 🆕
-- [1649. 通过指令创建有序数组](./problems/1649.create-sorted-array-through-instructions.md) 🆕
-- [1671. 得到山形数组的最少删除次数](./problems/1671.minimum-number-of-removals-to-make-mountain-array.md)🆕
-- [1707. 与数组中元素的最大异或值](./problems/5640.maximum-xor-with-an-element-from-array.md) 🆕
+- [1449. 数位成本和为目标值的最大数字](./problems/1449.form-largest-integer-with-digits-that-add-up-to-target.md)
+- [1494. 并行课程 II](./problems/1494.parallel-courses-ii.md) 🆕
+- [1521. 找到最接近目标值的函数值](./problems/1521.find-a-value-of-a-mysterious-function-closest-to-target.md)
+- [1526. 形成目标数组的子数组最少增加次数](./problems/1526.minimum-number-of-increments-on-subarrays-to-form-a-target-array.md)
+- [1649. 通过指令创建有序数组](./problems/1649.create-sorted-array-through-instructions.md)
+- [1671. 得到山形数组的最少删除次数](./problems/1671.minimum-number-of-removals-to-make-mountain-array.md)
+- [1707. 与数组中元素的最大异或值](./problems/5640.maximum-xor-with-an-element-from-array.md)
 
 ## :trident: &nbsp;anki 卡片
 
