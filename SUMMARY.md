@@ -190,6 +190,7 @@
   - [0875. 爱吃香蕉的珂珂](problems/875.koko-eating-bananas.md)
   - [0877. 石子游戏](problems/877.stone-game.md)
   - [0886. 可能的二分法](problems/886.possible-bipartition.md)
+  - [0898. 子数组按位或操作](./problems/898.bitwise-ors-of-subarrays.md) 🆕
   - [0900. RLE 迭代器](problems/900.rle-iterator.md)
   - [0911. 在线选举](problems/911.online-election.md) 🆕
   - [0912. 排序数组](problems/912.sort-an-array.md)
