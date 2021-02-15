@@ -323,20 +323,21 @@ leetcode 题解，记录自己的 leetcode 解题之路。
 - [0718. 最长重复子数组](./problems/718.maximum-length-of-repeated-subarray.md)
 - [0754. 到达终点数字](./problems/754.reach-a-number.md)
 - [0785. 判断二分图](./problems/785.is-graph-bipartite.md)
-- [0816. 模糊坐标](./problems/816.ambiguous-coordinates.md) 🆕
+- [0799. 香槟塔](./problems/799.champagne-tower.md) 🆕
+- [0816. 模糊坐标](./problems/816.ambiguous-coordinates.md)
 - [0820. 单词的压缩编码](./problems/820.short-encoding-of-words.md)
 - [0875. 爱吃香蕉的珂珂](./problems/875.koko-eating-bananas.md)
 - [0877. 石子游戏](./problems/877.stone-game.md)
 - [0886. 可能的二分法](./problems/886.possible-bipartition.md)
-- [0898. 子数组按位或操作](./problems/898.bitwise-ors-of-subarrays.md) 🆕
+- [0898. 子数组按位或操作](./problems/898.bitwise-ors-of-subarrays.md)
 - [0900. RLE 迭代器](./problems/900.rle-iterator.md)
-- [0911. 在线选举](./problems/911.online-election.md) 🆕
+- [0911. 在线选举](./problems/911.online-election.md)
 - [0912. 排序数组](./problems/912.sort-an-array.md)
 - [0932. 漂亮数组](./problems/932.beautiful-array.md) 🆕
 - [0935. 骑士拨号器](./problems/935.knight-dialer.md)
 - [0947. 移除最多的同行或同列石头](./problems/947.most-stones-removed-with-same-row-or-column.md)
 - [0959. 由斜杠划分区域](./problems/959.regions-cut-by-slashes.md) 🆕
-- [0978. 最长湍流子数组](./problems/978.longest-turbulent-subarray.md) 🆕
+- [0978. 最长湍流子数组](./problems/978.longest-turbulent-subarray.md)
 - [0987. 二叉树的垂序遍历](./problems/987.vertical-order-traversal-of-a-binary-tree.md) 91
 - [1011. 在 D 天内送达包裹的能力](./problems/1011.capacity-to-ship-packages-within-d-days.md)
 - [1014. 最佳观光组合](./problems/1014.best-sightseeing-pair.md)
