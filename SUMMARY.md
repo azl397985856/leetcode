@@ -188,6 +188,7 @@
   - [0754. 到达终点数字](./problems/754.reach-a-number.md)
   - [0785. 判断二分图](./problems/785.is-graph-bipartite.md)
   - [0799. 香槟塔](./problems/799.champagne-tower.md) 🆕
+  - [0801. 使序列递增的最小交换次数](./problems/801.minimum-swaps-to-make-sequences-increasing.md) 🆕
   - [0816. 模糊坐标](./problems/816.ambiguous-coordinates.md)
   - [0820. 单词的压缩编码](./problems/820.short-encoding-of-words.md)
   - [0875. 爱吃香蕉的珂珂](./problems/875.koko-eating-bananas.md)
