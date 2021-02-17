@@ -187,6 +187,7 @@
   - [0718. 最长重复子数组](./problems/718.maximum-length-of-repeated-subarray.md)
   - [0754. 到达终点数字](./problems/754.reach-a-number.md)
   - [0785. 判断二分图](./problems/785.is-graph-bipartite.md)
+  - [0790. 多米诺和托米诺平铺](./problems/790.domino-and-tromino-tiling.md) 🆕
   - [0799. 香槟塔](./problems/799.champagne-tower.md) 🆕
   - [0801. 使序列递增的最小交换次数](./problems/801.minimum-swaps-to-make-sequences-increasing.md) 🆕
   - [0816. 模糊坐标](./problems/816.ambiguous-coordinates.md)
