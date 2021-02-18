@@ -73,9 +73,13 @@
 
 <img src="https://tva1.sinaimg.cn/large/007S8ZIlly1gfcuzagjalj30p00dwabs.jpg" width="100%">
 
-## :newspaper: &nbsp;订阅
+## :newspaper: &nbsp; RSS
 
 大家可以用 Github 提供的 [RSS](https://github.com/azl397985856/leetcode/commits.atom) 来订阅我的仓库更新。
+
+## 图片加载不出来如何解决？
+
+https://github.com/fe-lucifer/fanqiang
 
 ## :octocat:仓库介绍
 
