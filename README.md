@@ -345,6 +345,7 @@ leetcode 题解，记录自己的 leetcode 解题之路。
 - [0959. 由斜杠划分区域](./problems/959.regions-cut-by-slashes.md) 🆕
 - [0978. 最长湍流子数组](./problems/978.longest-turbulent-subarray.md)
 - [0987. 二叉树的垂序遍历](./problems/987.vertical-order-traversal-of-a-binary-tree.md) 91
+- [1004. 最大连续 1 的个数 III](./problems/1004.max-consecutive-ones-iii.md) 🆕
 - [1011. 在 D 天内送达包裹的能力](./problems/1011.capacity-to-ship-packages-within-d-days.md)
 - [1014. 最佳观光组合](./problems/1014.best-sightseeing-pair.md)
 - [1015. 可被 K 整除的最小整数](./problems/1015.smallest-integer-divisible-by-k.md)
