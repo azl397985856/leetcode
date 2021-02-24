@@ -400,6 +400,7 @@ leetcode 题解，记录自己的 leetcode 解题之路。
 以下是我列举的经典题目（带 91 字样的表示出自 **91 天学算法**活动）：
 
 - [LCP 20. 快速公交](./problems/lcp20.meChtZ.md) 🆕
+- [Number Stream to Intervals](./problems/Number-Stream-to-Intervals.md) 🆕
 
 - [0004. 寻找两个正序数组的中位数](./problems/4.median-of-two-sorted-arrays.md)
 - [0023. 合并 K 个升序链表](./problems/23.merge-k-sorted-lists.md)
