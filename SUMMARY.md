@@ -276,6 +276,7 @@
   - [0995. K 连续位的最小翻转次数](./problems/995.minimum-number-of-k-consecutive-bit-flips.md) 🆕
   - [1032. 字符流](./problems/1032.stream-of-characters.md)
   - [1168. 水资源分配优化](./problems/1168.optimize-water-distribution-in-a-village.md)
+  - [1178. 猜字谜](./problems/1178.number-of-valid-words-for-each-puzzle.md) 🆕
   - [1203. 项目管理](./problems/1203.sort-items-by-groups-respecting-dependencies.md) 🆕
   - [1255. 得分最高的单词集合](./problems/1255.maximum-score-words-formed-by-letters.md)
   - [1345. 跳跃游戏 IV](./problems/1435.jump-game-iv.md)
