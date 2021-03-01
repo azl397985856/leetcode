@@ -63,7 +63,7 @@
 
 ## :calendar:《91 天学算法》限时活动
 
-- [91 天学算法第三期视频会议总结]()
+- [91 天学算法第三期视频会议总结](https://lucifer.ren/blog/2021/03/01/drawio/91meeting-season-3-1/)
 - [第一期讲义-二分法](./91/binary-search.md)
 - [第一期讲义-双指针](./91/two-pointers.md)
 - [第三期正在火热进行中](https://lucifer.ren/blog/2021/01/19/91-algo-3/)
