@@ -31,6 +31,14 @@
 
 > epub 还是有动图的
 
+## 春招冲冲冲
+
+春招已经开始了。你是不是已经开始准备了呢？为了帮助大家获得更好的 offer，lucifer 开辟了「春招冲冲冲」栏目。
+
+第一期我们的猎物是「虾皮」。来看看虾皮的算法题难度几何吧！
+
+- [春招冲冲冲](https://mp.weixin.qq.com/s?__biz=MzI4MzUxNjI3OA==&mid=2247487632&idx=1&sn=830fe267d835e5acbfc417787f85f1c1&chksm=eb88dc89dcff559f49913c0f2dec77b1d06c2ddbe2c6c299b32b3e49c2efaf8b11ac0aedce8f&token=1676518002&lang=zh_CN#rd)
+
 ## :information_desk_person:订阅公众号
 
 有些内容只在公众号发布，因此大家觉得内容不错的话，可以关注一下。如果再给 ➕ 个星标就更棒啦！
@@ -381,6 +389,7 @@ leetcode 题解，记录自己的 leetcode 解题之路。
 - [0128. 最长连续序列](./problems/128.longest-consecutive-sequence.md)
 - [0140. 单词拆分 II](problems/140.word-break-ii.md)
 - [0145. 二叉树的后序遍历](./problems/145.binary-tree-postorder-traversal.md)
+- [0146. LRU 缓存机制](./problems/146.lru-cache.md)
 - [0212. 单词搜索 II](./problems/212.word-search-ii.md)
 - [0239. 滑动窗口最大值](./problems/239.sliding-window-maximum.md)
 - [0295. 数据流的中位数](./problems/295.find-median-from-data-stream.md)
