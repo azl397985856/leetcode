@@ -213,6 +213,7 @@
   - [1020. 飞地的数量](./problems/1020.number-of-enclaves.md)
   - [1023. 驼峰式匹配](./problems/1023.camelcase-matching.md)
   - [1031. 两个非重叠子数组的最大和](./problems/1031.maximum-sum-of-two-non-overlapping-subarrays.md)
+  - [1043. 分隔数组以得到最大和](./problems/1043.partition-array-for-maximum-sum.md) 🆕
   - [1104. 二叉树寻路](./problems/1104.path-in-zigzag-labelled-binary-tree.md)
   - [1131.绝对值表达式的最大值](./problems/1131.maximum-of-absolute-value-expression.md)
   - [1186. 删除一次得到子数组最大和](./problems/1186.maximum-subarray-sum-with-one-deletion.md)
