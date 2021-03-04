@@ -254,6 +254,7 @@
   - [0128. 最长连续序列](./problems/128.longest-consecutive-sequence.md)
   - [0140. 单词拆分 II](problems/140.word-break-ii.md)
   - [0145. 二叉树的后序遍历](./problems/145.binary-tree-postorder-traversal.md)
+  - [0146. LRU 缓存机制](./problems/146.lru-cache.md)
   - [0212. 单词搜索 II](./problems/212.word-search-ii.md)
   - [0239. 滑动窗口最大值](./problems/239.sliding-window-maximum.md)
   - [0295. 数据流的中位数](./problems/295.find-median-from-data-stream.md)
