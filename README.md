@@ -152,8 +152,8 @@ leetcode 题解，记录自己的 leetcode 解题之路。
 以下是我列举的经典题目（带 91 字样的表示出自 **91 天学算法**活动）：
 
 - [面试题 17.12. BiNode](./problems/binode-lcci.md)
-- [0001. 两数之和](./problems/1.two-sum.md)
-- [0020. 有效的括号](./problems/20.valid-parentheses.md)
+- [0001. 两数之和](./problems/1.two-sum.md) 👍
+- [0020. 有效的括号](./problems/20.valid-parentheses.md) 👍
 - [0021. 合并两个有序链表](./problems/21.merge-two-sorted-lists.md)
 - [0026. 删除排序数组中的重复项](./problems/26.remove-duplicates-from-sorted-array.md)
 - [0053. 最大子序和](./problems/53.maximum-sum-subarray-cn.md)
@@ -164,7 +164,7 @@ leetcode 题解，记录自己的 leetcode 解题之路。
 - [0108. 将有序数组转换为二叉搜索树](./problems/108.convert-sorted-array-to-binary-search-tree.md)
 - [0121. 买卖股票的最佳时机](./problems/121.best-time-to-buy-and-sell-stock.md)
 - [0122. 买卖股票的最佳时机 II](./problems/122.best-time-to-buy-and-sell-stock-ii.md)
-- [0125. 验证回文串](./problems/125.valid-palindrome.md)
+- [0125. 验证回文串](./problems/125.valid-palindrome.md) 👍
 - [0136. 只出现一次的数字](./problems/136.single-number.md)
 - [0155. 最小栈](./problems/155.min-stack.md)
 - [0160. 相交链表](./problems/160.Intersection-of-Two-Linked-Lists.md) 91
@@ -172,7 +172,7 @@ leetcode 题解，记录自己的 leetcode 解题之路。
 - [0169. 多数元素](./problems/169.majority-element.md)
 - [0172. 阶乘后的零](./problems/172.factorial-trailing-zeroes.md)
 - [0190. 颠倒二进制位](./problems/190.reverse-bits.md)
-- [0191. 位 1 的个数](./problems/191.number-of-1-bits.md)
+- [0191. 位 1 的个数](./problems/191.number-of-1-bits.md) 👍
 - [0198. 打家劫舍](./problems/198.house-robber.md)
 - [0203. 移除链表元素](./problems/203.remove-linked-list-elements.md)
 - [0206. 反转链表](./problems/206.reverse-linked-list.md)
@@ -207,11 +207,11 @@ leetcode 题解，记录自己的 leetcode 解题之路。
 - [面试题 17.09. 第 k 个数](./problems/get-kth-magic-number-lcci.md)
 - [面试题 17.23. 最大黑方阵](./problems/max-black-square-lcci.md)🆕
 
-- [0002. 两数相加](./problems/2.add-two-numbers.md)
+- [0002. 两数相加](./problems/2.add-two-numbers.md) 👍
 - [0003. 无重复字符的最长子串](./problems/3.longest-substring-without-repeating-characters.md)
 - [0005. 最长回文子串](./problems/5.longest-palindromic-substring.md)
 - [0011. 盛最多水的容器](./problems/11.container-with-most-water.md)
-- [0015. 三数之和](./problems/15.3sum.md)
+- [0015. 三数之和](./problems/15.3sum.md) 👍
 - [0017. 电话号码的字母组合](./problems/17.Letter-Combinations-of-a-Phone-Number.md)
 - [0019. 删除链表的倒数第 N 个节点](./problems/19.removeNthNodeFromEndofList.md)
 - [0022. 括号生成](./problems/22.generate-parentheses.md)
@@ -221,7 +221,7 @@ leetcode 题解，记录自己的 leetcode 解题之路。
 - [0033. 搜索旋转排序数组](./problems/33.search-in-rotated-sorted-array.md)
 - [0039. 组合总和](./problems/39.combination-sum.md)
 - [0040. 组合总和 II](./problems/40.combination-sum-ii.md)
-- [0046. 全排列](./problems/46.permutations.md)
+- [0046. 全排列](./problems/46.permutations.md) 👍
 - [0047. 全排列 II](./problems/47.permutations-ii.md)
 - [0048. 旋转图像](./problems/48.rotate-image.md)
 - [0049. 字母异位词分组](./problems/49.group-anagrams.md)
@@ -240,7 +240,7 @@ leetcode 题解，记录自己的 leetcode 解题之路。
 - [0090. 子集 II](./problems/90.subsets-ii.md)
 - [0091. 解码方法](./problems/91.decode-ways.md)
 - [0092. 反转链表 II](./problems/92.reverse-linked-list-ii.md)
-- [0094. 二叉树的中序遍历](./problems/94.binary-tree-inorder-traversal.md)
+- [0094. 二叉树的中序遍历](./problems/94.binary-tree-inorder-traversal.md) 👍
 - [0095. 不同的二叉搜索树 II](./problems/95.unique-binary-search-trees-ii.md)
 - [0096. 不同的二叉搜索树](./problems/96.unique-binary-search-trees.md)
 - [0098. 验证二叉搜索树](./problems/98.validate-binary-search-tree.md)
@@ -255,7 +255,7 @@ leetcode 题解，记录自己的 leetcode 解题之路。
 - [0147. 对链表进行插入排序](./problems/147.insertion-sort-list.md) 🆕
 - [0150. 逆波兰表达式求值](./problems/150.evaluate-reverse-polish-notation.md)
 - [0152. 乘积最大子数组](./problems/152.maximum-product-subarray.md)
-- [0199. 二叉树的右视图](./problems/199.binary-tree-right-side-view.md)
+- [0199. 二叉树的右视图](./problems/199.binary-tree-right-side-view.md) 👍
 - [0200. 岛屿数量](./problems/200.number-of-islands.md)
 - [0201. 数字范围按位与](./problems/201.bitwise-and-of-numbers-range.md)
 - [0208. 实现 Trie (前缀树)](./problems/208.implement-trie-prefix-tree.md)
@@ -271,7 +271,7 @@ leetcode 题解，记录自己的 leetcode 解题之路。
 - [0240. 搜索二维矩阵 II](./problems/240.search-a-2-d-matrix-ii.md)
 - [0279. 完全平方数](./problems/279.perfect-squares.md)
 - [0309. 最佳买卖股票时机含冷冻期](./problems/309.best-time-to-buy-and-sell-stock-with-cooldown.md)
-- [0322. 零钱兑换](./problems/322.coin-change.md)
+- [0322. 零钱兑换](./problems/322.coin-change.md) 👍
 - [0328. 奇偶链表](./problems/328.odd-even-linked-list.md)
 - [0334. 递增的三元子序列](./problems/334.increasing-triplet-subsequence.md)
 - [0337. 打家劫舍 III](./problems/337.house-robber-iii.md)
@@ -389,6 +389,7 @@ leetcode 题解，记录自己的 leetcode 解题之路。
 - [0085. 最大矩形](./problems/85.maximal-rectangle.md)
 - [0124. 二叉树中的最大路径和](./problems/124.binary-tree-maximum-path-sum.md)
 - [0128. 最长连续序列](./problems/128.longest-consecutive-sequence.md)
+- [0132. 分割回文串 II](./problems/132.palindrome-partitioning-ii.md) 👍
 - [0140. 单词拆分 II](problems/140.word-break-ii.md)
 - [0145. 二叉树的后序遍历](./problems/145.binary-tree-postorder-traversal.md)
 - [0146. LRU 缓存机制](./problems/146.lru-cache.md)
