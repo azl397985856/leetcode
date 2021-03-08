@@ -377,9 +377,9 @@ leetcode 题解，记录自己的 leetcode 解题之路。
 - [Kth-Pair-Distance](./problems/Kth-Pair-Distance.md) 91
 - [Minimum-Light-Radius](./problems/Minimum-Light-Radius.md) 91
 
-- [0004. 寻找两个正序数组的中位数](./problems/4.median-of-two-sorted-arrays.md)
+- [0004. 寻找两个正序数组的中位数](./problems/4.median-of-two-sorted-arrays.md) 👍
 - [0023. 合并 K 个升序链表](./problems/23.merge-k-sorted-lists.md)
-- [0025. K 个一组翻转链表](./problems/25.reverse-nodes-in-k-groups.md)
+- [0025. K 个一组翻转链表](./problems/25.reverse-nodes-in-k-groups.md) 👍
 - [0030. 串联所有单词的子串](./problems/30.substring-with-concatenation-of-all-words.md)
 - [0032. 最长有效括号](./problems/32.longest-valid-parentheses.md)
 - [0042. 接雨水](./problems/42.trapping-rain-water.md)
@@ -393,11 +393,11 @@ leetcode 题解，记录自己的 leetcode 解题之路。
 - [0145. 二叉树的后序遍历](./problems/145.binary-tree-postorder-traversal.md)
 - [0146. LRU 缓存机制](./problems/146.lru-cache.md)
 - [0212. 单词搜索 II](./problems/212.word-search-ii.md)
-- [0239. 滑动窗口最大值](./problems/239.sliding-window-maximum.md)
+- [0239. 滑动窗口最大值](./problems/239.sliding-window-maximum.md) 👍
 - [0295. 数据流的中位数](./problems/295.find-median-from-data-stream.md)
 - [0297. 二叉树的序列化与反序列化](./problems/297.serialize-and-deserialize-binary-tree.md) 91
 - [0301. 删除无效的括号](./problems/301.remove-invalid-parentheses.md)
-- [0312. 戳气球](./problems/312.burst-balloons.md)
+- [0312. 戳气球](./problems/312.burst-balloons.md) 👍
 - [330. 按要求补齐数组](./problems/330.patching-array.md)
 - [0335. 路径交叉](./problems/335.self-crossing.md)
 - [0460. LFU 缓存](./problems/460.lfu-cache.md)
