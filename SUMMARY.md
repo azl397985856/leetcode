@@ -152,6 +152,7 @@
   - [0209. 长度最小的子数组](./problems/209.minimum-size-subarray-sum.md)
   - [0211. 添加与搜索单词 \* 数据结构设计](./problems/211.add-and-search-word-data-structure-design.md)
   - [0215. 数组中的第 K 个最大元素](./problems/215.kth-largest-element-in-an-array.md)
+  - [0220. 存在重复元素 III](./problems/220.contains-duplicate-iii.md) 🆕
   - [0221. 最大正方形](./problems/221.maximal-square.md)
   - [0227. 基本计算器 II](./problems/227.basic-calculator-ii.md)🆕
   - [0229. 求众数 II](./problems/229.majority-element-ii.md)
