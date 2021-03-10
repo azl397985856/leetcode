@@ -30,9 +30,10 @@
 
 - [第二章 - 91 天学算法](91/README.md)
 
-  - [第一期讲义-二分法](91/binary-search.md)
-  - [第一期讲义-双指针](91/two-pointers.md)
-  - [第二期](91/season2.md)
+  - [91 天学算法第三期视频会议总结](https://lucifer.ren/blog/2021/03/01/91meeting-season-3-1/)
+  - [第一期讲义-二分法](./91/binary-search.md)
+  - [第一期讲义-双指针](./91/two-pointers.md)
+  - [第三期正在火热进行中](https://lucifer.ren/blog/2021/01/19/91-algo-3/)
 
 - [第三章 - 精选题解](selected/README.md)
 
