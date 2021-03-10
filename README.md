@@ -180,7 +180,7 @@ leetcode 题解，记录自己的 leetcode 解题之路。
 以下是我列举的经典题目（带 91 字样的表示出自 **91 天学算法**活动）：
 
 <details>
-<summary>点击展开题目列表</summary>
+<summary> :point_right:点击展开题目列表  :point_left:</summary>
 
 - [面试题 17.12. BiNode](./problems/binode-lcci.md)
 - [0001. 两数之和](./problems/1.two-sum.md) 👍
