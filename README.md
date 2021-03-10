@@ -137,6 +137,34 @@ leetcode 题解，记录自己的 leetcode 解题之路。
 - [你的衣服我扒了 - 《最长公共子序列》](./selected/LCS.md)
 - [一文看懂《最大子序列和问题》](./selected/LSS.md)
 
+## :computer: 插件
+
+或许是一个可以改变你刷题效率的浏览器扩展插件。
+
+插件地址：https://chrome.google.com/webstore/detail/leetcode-cheatsheet/fniccleejlofifaakbgppmbbcdfjonle?hl=en-US。
+
+> 不能访问谷歌商店的朋友可以去我的公众号回复插件获取离线版。强烈推荐大家使用谷歌商店安装， 这样如果有更新可以自动安装，毕竟咱们的插件更新还是蛮快的。
+
+## :exclamation:怎么刷 LeetCode？
+
+- [我是如何刷 LeetCode 的](https://www.zhihu.com/question/280279208/answer/824585814)
+- [算法小白如何高效、快速刷 leetcode？](https://www.zhihu.com/question/321738058/answer/1279464192)
+- [刷题效率低？或许你就差这么一个插件](https://lucifer.ren/blog/2020/06/06/algo-chrome-extension/)
+- [力扣刷题插件](https://lucifer.ren/blog/2020/08/16/leetcode-cheat/)
+
+## :calendar:《91 天学算法》限时活动
+
+很多教育机构宣传的 7 天，一个月搞定算法面试的，我大概都了解了下，不怎么靠谱。学习算法这东西，还是要考积累，没有量变是不可能有质变的。还有的人选择看书，这是一个不错的选择。但是很多人选了过时的或者质量差的书，又或者不会去写书中给的练习题，导致效果很差。
+
+基于这几个原因，我组织了一个 91 天刷题活动，通过一个相对比较长的时间（91 天）给出最新的学习路径，并强制大家打卡这种高强度练习来让大家**在 91 天后遇见更好的自己**。详细活动介绍可以点下方链接查看。另外往期的讲义也在下面了，大家可以看看合不合你的口味。
+
+最后送给大家一句话： **坚持下去，会有突然间成长的一天**。
+
+- [91 天学算法第三期视频会议总结](https://lucifer.ren/blog/2021/03/01/91meeting-season-3-1/)
+- [第一期讲义-二分法](./91/binary-search.md)
+- [第一期讲义-双指针](./91/two-pointers.md)
+- [第三期正在火热进行中](https://lucifer.ren/blog/2021/01/19/91-algo-3/)
+
 ### leetcode 经典题目的解析（200 多道）
 
 > 这里仅列举具有**代表性题目**，并不是全部题目
@@ -150,6 +178,9 @@ leetcode 题解，记录自己的 leetcode 解题之路。
 当然也不排除很多 hard 题目也可以暴力模拟，大家平时多注意数据范围即可。
 
 以下是我列举的经典题目（带 91 字样的表示出自 **91 天学算法**活动）：
+
+<details>
+<summary>点击展开题目列表</summary>
 
 - [面试题 17.12. BiNode](./problems/binode-lcci.md)
 - [0001. 两数之和](./problems/1.two-sum.md) 👍
@@ -196,6 +227,8 @@ leetcode 题解，记录自己的 leetcode 解题之路。
 - [1260. 二维网格迁移](./problems/1260.shift-2d-grid.md)
 - [1332. 删除回文子序列](./problems/1332.remove-palindromic-subsequences.md)
 
+</details>
+
 #### 中等难度题目合集
 
 中等题目是力扣比例最大的部分，因此这部分我的题解也是最多的。 大家不要太过追求难题，先把中等难度题目做熟了再说。
@@ -203,6 +236,9 @@ leetcode 题解，记录自己的 leetcode 解题之路。
 这部分的题目要不需要我们挖掘题目的内含信息， 将其抽象成简单题目。 要么是一些写起来比较麻烦的题目， 一些人编码能力不行就挂了。因此大家一定要自己做， 即使看了题解”会了“，也要自己码一遍。自己不亲自写一遍，里面的细节永远不知道。
 
 以下是我列举的经典题目（带 91 字样的表示出自 **91 天学算法**活动）：
+
+<details>
+<summary>点击展开题目列表</summary>
 
 - [面试题 17.09. 第 k 个数](./problems/get-kth-magic-number-lcci.md)
 - [面试题 17.23. 最大黑方阵](./problems/max-black-square-lcci.md)🆕
@@ -347,6 +383,7 @@ leetcode 题解，记录自己的 leetcode 解题之路。
 - [1697. 检查边长度限制的路径是否存在](./problems/1697.checking-existence-of-edge-length-limited-paths.md) 🆕
 - [1737. 满足三条件之一需改变的最少字符数](./problems/1737.change-minimum-characters-to-satisfy-one-of-three-conditions.md) 🆕
 
+</details>
 #### 困难难度题目合集
 
 困难难度题目从类型上说多是：
@@ -372,6 +409,9 @@ leetcode 题解，记录自己的 leetcode 解题之路。
 3. 总结和记忆解题模板，减少解题压力
 
 以下是我列举的经典题目（带 91 字样的表示出自 **91 天学算法**活动）：
+
+<details>
+<summary>点击展开题目列表</summary>
 
 - [LCP 20. 快速公交](./problems/lcp20.meChtZ.md) 🆕
 - [Number Stream to Intervals](./problems/Number-Stream-to-Intervals.md) 🆕
@@ -432,33 +472,7 @@ leetcode 题解，记录自己的 leetcode 解题之路。
 - [1671. 得到山形数组的最少删除次数](./problems/1671.minimum-number-of-removals-to-make-mountain-array.md)
 - [1707. 与数组中元素的最大异或值](./problems/5640.maximum-xor-with-an-element-from-array.md)
 
-## :computer: 插件
-
-或许是一个可以改变你刷题效率的浏览器扩展插件。
-
-插件地址：https://chrome.google.com/webstore/detail/leetcode-cheatsheet/fniccleejlofifaakbgppmbbcdfjonle?hl=en-US。
-
-> 不能访问谷歌商店的朋友可以去我的公众号回复插件获取离线版。强烈推荐大家使用谷歌商店安装， 这样如果有更新可以自动安装，毕竟咱们的插件更新还是蛮快的。
-
-## :exclamation:怎么刷 LeetCode？
-
-- [我是如何刷 LeetCode 的](https://www.zhihu.com/question/280279208/answer/824585814)
-- [算法小白如何高效、快速刷 leetcode？](https://www.zhihu.com/question/321738058/answer/1279464192)
-- [刷题效率低？或许你就差这么一个插件](https://lucifer.ren/blog/2020/06/06/algo-chrome-extension/)
-- [力扣刷题插件](https://lucifer.ren/blog/2020/08/16/leetcode-cheat/)
-
-## :calendar:《91 天学算法》限时活动
-
-很多教育机构宣传的 7 天，一个月搞定算法面试的，我大概都了解了下，不怎么靠谱。学习算法这东西，还是要考积累，没有量变是不可能有质变的。还有的人选择看书，这是一个不错的选择。但是很多人选了过时的或者质量差的书，又或者不会去写书中给的练习题，导致效果很差。
-
-基于这几个原因，我组织了一个 91 天刷题活动，通过一个相对比较长的时间（91 天）给出最新的学习路径，并强制大家打卡这种高强度练习来让大家**在 91 天后遇见更好的自己**。详细活动介绍可以点下方链接查看。另外往期的讲义也在下面了，大家可以看看合不合你的口味。
-
-最后送给大家一句话： **坚持下去，会有突然间成长的一天**。
-
-- [91 天学算法第三期视频会议总结](https://lucifer.ren/blog/2021/03/01/91meeting-season-3-1/)
-- [第一期讲义-二分法](./91/binary-search.md)
-- [第一期讲义-双指针](./91/two-pointers.md)
-- [第三期正在火热进行中](https://lucifer.ren/blog/2021/01/19/91-algo-3/)
+</details>
 
 ## :trident: &nbsp;anki 卡片
 
