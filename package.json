@@ -1,5 +1,6 @@
 {
   "scripts": {
     "book": "gitbook epub . && gitbook pdf . && gitbook mobi . "
-  }
+  },
+  "license": "CC BY-NC-ND 4.0"
 }
