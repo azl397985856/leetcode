@@ -308,6 +308,7 @@ leetcode 题解，记录自己的 leetcode 解题之路。
 - [0309. 最佳买卖股票时机含冷冻期](./problems/309.best-time-to-buy-and-sell-stock-with-cooldown.md)
 - [0322. 零钱兑换](./problems/322.coin-change.md) 👍
 - [0328. 奇偶链表](./problems/328.odd-even-linked-list.md)
+- [0331. 验证二叉树的前序序列化](./problems/328.odd-even-linked-list.md) 🆕
 - [0334. 递增的三元子序列](./problems/334.increasing-triplet-subsequence.md)
 - [0337. 打家劫舍 III](./problems/337.house-robber-iii.md)
 - [0343. 整数拆分](./problems/343.integer-break.md)
