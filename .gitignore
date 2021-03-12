@@ -10,3 +10,9 @@ book*.pdf
 book*.mobi
 book*.epub
 book*.zip
+Thumbs.db
+.idea/
+.vscode/
+*.sublime-project
+*.sublime-workspace
+*.log
