@@ -17,9 +17,11 @@
 
 ---
 
-**只有熟练掌握基础的数据结构与算法，才能对复杂问题迎刃有余。** [在线阅读](https://leetcode-solution-leetcode-pp.gitbook.io/leetcode-solution/)
+我们的 slogon 是： **只有熟练掌握基础的数据结构与算法，才能对复杂问题迎刃有余。**
 
 ## :blue_book:电子书
+
+[在线阅读](https://leetcode-solution-leetcode-pp.gitbook.io/leetcode-solution/)
 
 这是我将我的所有公开的算法资料整理的一个电子书，全部题目信息中文化，以前会有一些英文描述，感谢 @CYL 的中文整理。
 
@@ -29,25 +31,23 @@
 
 有些动图，在做成电子书（比如 pdf）的时候自然就变没了，如果需要看动图的， 可以去我的公众号《力扣加加》或者我的 leetcode 题解仓库看。
 
+<img src="https://tva1.sinaimg.cn/large/007S8ZIlly1gfcuzagjalj30p00dwabs.jpg" width="100%">
+
 > epub 还是有动图的
+
+另外有些内容只在公众号发布，因此大家觉得内容不错的话，可以关注一下。如果再给 ➕ 个星标就更棒啦！
+
+> 大家也可以用 Github 提供的 [RSS](https://github.com/azl397985856/leetcode/commits.atom) 来订阅我的仓库更新。
 
 ## 刷题群
 
-组队刷题活动，关注公众号《力扣加加》回复 leetcode 即可获取进群方式，从此刷题不再孤单。
+组队刷题活动，关注上面的公众号《力扣加加》回复 leetcode 即可获取进群方式，从此刷题不再孤单。
 
 另外春招已经开始了。你是不是已经开始准备了呢？为了帮助大家获得更好的 offer，lucifer 开辟了「春招冲冲冲」栏目。
 
 第一期我们的猎物是「虾皮」。来看看虾皮的算法题难度几何吧！
 
 - [春招冲冲冲](https://mp.weixin.qq.com/s?__biz=MzI4MzUxNjI3OA==&mid=2247487632&idx=1&sn=830fe267d835e5acbfc417787f85f1c1&chksm=eb88dc89dcff559f49913c0f2dec77b1d06c2ddbe2c6c299b32b3e49c2efaf8b11ac0aedce8f&token=1676518002&lang=zh_CN#rd)
-
-## :information_desk_person:订阅公众号
-
-有些内容只在公众号发布，因此大家觉得内容不错的话，可以关注一下。如果再给 ➕ 个星标就更棒啦！
-
-<img src="https://tva1.sinaimg.cn/large/007S8ZIlly1gfcuzagjalj30p00dwabs.jpg" width="100%">
-
-大家也可以用 Github 提供的 [RSS](https://github.com/azl397985856/leetcode/commits.atom) 来订阅我的仓库更新。
 
 ## 图片加载不出来如何解决？
 
@@ -96,7 +96,7 @@ leetcode 题解，记录自己的 leetcode 解题之路。
 - 树与图：最近公共祖先、并查集
 - 字符串：前缀树（字典树） ／ 后缀树
 
-## 数据结构与算法的总结(22 篇)
+## 数据结构与算法的总结(25 篇)
 
 - [数据结构总览](./thinkings/basic-data-structure.md)
 - [链表专题](./thinkings/linked-list.md) 🆕
@@ -179,9 +179,6 @@ leetcode 题解，记录自己的 leetcode 解题之路。
 
 以下是我列举的经典题目（带 91 字样的表示出自 **91 天学算法**活动）：
 
-<details>
-<summary> :point_right::point_right::point_right:点击展开题目列表:point_left::point_left::point_left:</summary>
-
 - [面试题 17.12. BiNode](./problems/binode-lcci.md)
 - [0001. 两数之和](./problems/1.two-sum.md) 👍
 - [0020. 有效的括号](./problems/20.valid-parentheses.md) 👍
@@ -197,6 +194,11 @@ leetcode 题解，记录自己的 leetcode 解题之路。
 - [0122. 买卖股票的最佳时机 II](./problems/122.best-time-to-buy-and-sell-stock-ii.md)
 - [0125. 验证回文串](./problems/125.valid-palindrome.md) 👍
 - [0136. 只出现一次的数字](./problems/136.single-number.md)
+
+<details>
+
+<summary> :point_right::point_right::point_right:展开全部:point_left::point_left::point_left:</summary>
+
 - [0155. 最小栈](./problems/155.min-stack.md)
 - [0160. 相交链表](./problems/160.Intersection-of-Two-Linked-Lists.md) 91
 - [0167. 两数之和 II 输入有序数组](./problems/167.two-sum-ii-input-array-is-sorted.md)
@@ -237,9 +239,6 @@ leetcode 题解，记录自己的 leetcode 解题之路。
 
 以下是我列举的经典题目（带 91 字样的表示出自 **91 天学算法**活动）：
 
-<details>
-<summary> :point_right::point_right::point_right:点击展开题目列表:point_left::point_left::point_left:</summary>
-
 - [面试题 17.09. 第 k 个数](./problems/get-kth-magic-number-lcci.md)
 - [面试题 17.23. 最大黑方阵](./problems/max-black-square-lcci.md) 🆕
 - [Increasing Digits](./problems/Increasing-Digits.md) 👍 🆕
@@ -270,6 +269,10 @@ leetcode 题解，记录自己的 leetcode 解题之路。
 - [0061. 旋转链表](./problems/61.Rotate-List.md) 91
 - [0062. 不同路径](./problems/62.unique-paths.md)
 - [0073. 矩阵置零](./problems/73.set-matrix-zeroes.md)
+
+<details>
+<summary> :point_right::point_right::point_right:展开全部:point_left::point_left::point_left:</summary>
+
 - [0075. 颜色分类](./problems/75.sort-colors.md)
 - [0078. 子集](./problems/78.subsets.md)
 - [0079. 单词搜索](./problems/79.word-search.md)
@@ -414,9 +417,6 @@ leetcode 题解，记录自己的 leetcode 解题之路。
 
 以下是我列举的经典题目（带 91 字样的表示出自 **91 天学算法**活动）：
 
-<details>
-<summary> :point_right::point_right::point_right:点击展开题目列表:point_left::point_left::point_left:</summary>
-
 - [LCP 20. 快速公交](./problems/lcp20.meChtZ.md) 🆕
 - [Number Stream to Intervals](./problems/Number-Stream-to-Intervals.md) 🆕
 - [Triple-Inversion](./problems/Triple-Inversion.md) 91
@@ -446,6 +446,10 @@ leetcode 题解，记录自己的 leetcode 解题之路。
 - [0301. 删除无效的括号](./problems/301.remove-invalid-parentheses.md)
 - [0312. 戳气球](./problems/312.burst-balloons.md) 👍
 - [330. 按要求补齐数组](./problems/330.patching-array.md)
+
+<details>
+<summary> :point_right::point_right::point_right:展开全部:point_left::point_left::point_left:</summary>
+
 - [0335. 路径交叉](./problems/335.self-crossing.md)
 - [0460. LFU 缓存](./problems/460.lfu-cache.md)
 - [0472. 连接词](./problems/472.concatenated-words.md)
