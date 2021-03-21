@@ -10,22 +10,29 @@
 
 围绕这个思想去学习， 就不会差太多，其他我就不多说，大家慢慢体会。
 
-- [数据结构](basic-data-structure.md)
+- [数据结构总览](basic-data-structure.md)
+- [链表专题](linked-list.md) 🆕
+- [树专题](tree.md) 🆕
+- [堆专题（上）](heap.md)
+- [堆专题（下）](heap-2.md) 🆕
+<!-- - [基础算法](basic-algorithm.md) -->
 - [二叉树的遍历](binary-tree-traversal.md)
 - [动态规划](dynamic-programming.md)
-- [哈夫曼编码和游程编码](run-length-encode-and-huffman-encode.md)
-- [布隆过滤器](bloom-filter.md)
-- [字符串问题](string-problems.md)
-- [前缀树](trie.md)
-- [贪婪策略](greedy.md)
 - [回溯](backtrack.md)
+- [哈夫曼编码和游程编码](run-length-encode-and-huffman-encode.md)
+- [布隆过滤器](bloom-filter.md)🖊
+- [字符串问题](string-problems.md)
+- [前缀树](trie.md)🖊
+- [《日程安排》专题](https://lucifer.ren/blog/2020/02/03/leetcode-%E6%88%91%E7%9A%84%E6%97%A5%E7%A8%8B%E5%AE%89%E6%8E%92%E8%A1%A8%E7%B3%BB%E5%88%97/)
+- [《构造二叉树》专题](https://lucifer.ren/blog/2020/02/08/%E6%9E%84%E9%80%A0%E4%BA%8C%E5%8F%89%E6%A0%91%E4%B8%93%E9%A2%98/)
+- [《贪婪策略》专题](greedy.md)
 - [深度优先遍历](DFS.md)
 - [滑动窗口（思路 + 模板）](slide-window.md)
 - [位运算](bit.md)
 - [设计题](design.md)
-- [小岛问题](island.md)
+- [小岛问题](island.md)🖊
 - [最大公约数](GCD.md)
 - [并查集](union-find.md)
-- [前缀和](prefix.md)
-- [蓄水池抽样](reservoid-sampling.md)
 - [平衡二叉树专题](balanced-tree.md)
+- [蓄水池抽样](reservoid-sampling.md) 🆕
+- [单调栈](monotone-stack.md) 🆕
