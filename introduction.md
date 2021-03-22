@@ -1,4 +1,4 @@
-# LeetCode
+# 西法的刷题秘籍
 
 [![Travis](https://img.shields.io/badge/language-C++-green.svg)]()
 [![Travis](https://img.shields.io/badge/language-Python-red.svg)]()
@@ -9,10 +9,11 @@
 
 [![](https://img.shields.io/badge/WeChat-微信群-brightgreen)](#哪里能找到我)
 [![](https://img.shields.io/badge/公众号-力扣加加-blueviolet)](#哪里能找到我)
-[![](https//juejin.im/user/58af98305c497d0067780b3b)
-[![](https//www.zhihu.com/people/lu-xiao-13-70)
-[![](https//space.bilibili.com/519510412/)
+[![](https://img.shields.io/badge/Juejin-掘金-blue)](https://juejin.im/user/58af98305c497d0067780b3b)
+[![](https://img.shields.io/badge/Zhihu-知乎-blue)](https://www.zhihu.com/people/lu-xiao-13-70)
+[![](https://img.shields.io/badge/bilili-哔哩哔哩-ff69b4)](https://space.bilibili.com/519510412/)
 
+简体中文 | [English](./README.en.md)
 简体中文 | [English](./README.en.md)
 
 ---
