@@ -244,6 +244,7 @@
 - [第六章 - 高频考题（困难）](collections/hard.md)
 
   - [LCP 20. 快速公交](./problems/lcp20.meChtZ.md) 🆕
+  - [LCP 21. 追逐游戏](./problems/lcp21.Za25hA.md) 🆕 👍
   - [Number Stream to Intervals](./problems/Number-Stream-to-Intervals.md) 🆕
   - [Triple-Inversion](./problems/Triple-Inversion.md) 91
   - [Kth-Pair-Distance](./problems/Kth-Pair-Distance.md) 91

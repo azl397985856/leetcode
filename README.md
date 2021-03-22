@@ -418,6 +418,7 @@ leetcode 题解，记录自己的 leetcode 解题之路。
 以下是我列举的经典题目（带 91 字样的表示出自 **91 天学算法**活动）：
 
 - [LCP 20. 快速公交](./problems/lcp20.meChtZ.md) 🆕
+- [LCP 21. 追逐游戏](./problems/lcp21.Za25hA.md) 🆕 👍
 - [Number Stream to Intervals](./problems/Number-Stream-to-Intervals.md) 🆕
 - [Triple-Inversion](./problems/Triple-Inversion.md) 91
 - [Kth-Pair-Distance](./problems/Kth-Pair-Distance.md) 91
