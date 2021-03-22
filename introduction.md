@@ -9,9 +9,9 @@
 
 [![](https://img.shields.io/badge/WeChat-微信群-brightgreen)](#哪里能找到我)
 [![](https://img.shields.io/badge/公众号-力扣加加-blueviolet)](#哪里能找到我)
-[![](https://img.shields.io/badge/Juejin-掘金-blue)](https://juejin.im/user/58af98305c497d0067780b3b)
-[![](https://img.shields.io/badge/Zhihu-知乎-blue)](https://www.zhihu.com/people/lu-xiao-13-70)
-[![](https://img.shields.io/badge/bilili-哔哩哔哩-ff69b4)](https://space.bilibili.com/519510412/)
+[![](https//juejin.im/user/58af98305c497d0067780b3b)
+[![](https//www.zhihu.com/people/lu-xiao-13-70)
+[![](https//space.bilibili.com/519510412/)
 
 简体中文 | [English](./README.en.md)
 
@@ -19,7 +19,7 @@
 
 我们的 slogon 是： **只有熟练掌握基础的数据结构与算法，才能对复杂问题迎刃有余。**
 
-## :blue_book:电子书
+## 电子书
 
 [在线阅读](https://leetcode-solution-leetcode-pp.gitbook.io/leetcode-solution/)
 
@@ -53,7 +53,7 @@
 
 https://github.com/fe-lucifer/fanqiang
 
-## :octocat:仓库介绍
+## 仓库介绍
 
 leetcode 题解，记录自己的 leetcode 解题之路。
 
@@ -69,7 +69,7 @@ leetcode 题解，记录自己的 leetcode 解题之路。
 
 - 第五部分是计划， 这里会记录将来要加入到以上三个部分内容
 
-## :meat_on_bone:仓库食用指南
+## 仓库食用指南
 
 - 对于最近添加的部分， 后面会有 🆕 标注
 - 对于最近更新的部分， 后面会有 🖊 标注
@@ -137,7 +137,7 @@ leetcode 题解，记录自己的 leetcode 解题之路。
 - [你的衣服我扒了 - 《最长公共子序列》](./selected/LCS.md)
 - [一文看懂《最大子序列和问题》](./selected/LSS.md)
 
-## :computer: 插件
+## 插件
 
 或许是一个可以改变你刷题效率的浏览器扩展插件。
 
@@ -145,14 +145,14 @@ leetcode 题解，记录自己的 leetcode 解题之路。
 
 > 不能访问谷歌商店的朋友可以去我的公众号回复插件获取离线版。强烈推荐大家使用谷歌商店安装， 这样如果有更新可以自动安装，毕竟咱们的插件更新还是蛮快的。
 
-## :exclamation:怎么刷 LeetCode？
+## 怎么刷 LeetCode？
 
 - [我是如何刷 LeetCode 的](https://www.zhihu.com/question/280279208/answer/824585814)
 - [算法小白如何高效、快速刷 leetcode？](https://www.zhihu.com/question/321738058/answer/1279464192)
 - [刷题效率低？或许你就差这么一个插件](https://lucifer.ren/blog/2020/06/06/algo-chrome-extension/)
 - [力扣刷题插件](https://lucifer.ren/blog/2020/08/16/leetcode-cheat/)
 
-## :calendar:《91 天学算法》限时活动
+## 《91 天学算法》限时活动
 
 很多教育机构宣传的 7 天，一个月搞定算法面试的，我大概都了解了下，不怎么靠谱。学习算法这东西，还是要考积累，没有量变是不可能有质变的。还有的人选择看书，这是一个不错的选择。但是很多人选了过时的或者质量差的书，又或者不会去写书中给的练习题，导致效果很差。
 
@@ -194,11 +194,6 @@ leetcode 题解，记录自己的 leetcode 解题之路。
 - [0122. 买卖股票的最佳时机 II](./problems/122.best-time-to-buy-and-sell-stock-ii.md)
 - [0125. 验证回文串](./problems/125.valid-palindrome.md) 👍
 - [0136. 只出现一次的数字](./problems/136.single-number.md)
-
-<details>
-
-<summary> :point_right::point_right::point_right:展开全部:point_left::point_left::point_left:</summary>
-
 - [0155. 最小栈](./problems/155.min-stack.md)
 - [0160. 相交链表](./problems/160.Intersection-of-Two-Linked-Lists.md) 91
 - [0167. 两数之和 II 输入有序数组](./problems/167.two-sum-ii-input-array-is-sorted.md)
@@ -228,8 +223,6 @@ leetcode 题解，记录自己的 leetcode 解题之路。
 - [1128. 等价多米诺骨牌对的数量](./problems/1128.number-of-equivalent-domino-pairs.md) 🆕
 - [1260. 二维网格迁移](./problems/1260.shift-2d-grid.md)
 - [1332. 删除回文子序列](./problems/1332.remove-palindromic-subsequences.md)
-
-</details>
 
 ### 中等难度题目合集
 
@@ -269,10 +262,6 @@ leetcode 题解，记录自己的 leetcode 解题之路。
 - [0061. 旋转链表](./problems/61.Rotate-List.md) 91
 - [0062. 不同路径](./problems/62.unique-paths.md)
 - [0073. 矩阵置零](./problems/73.set-matrix-zeroes.md)
-
-<details>
-<summary> :point_right::point_right::point_right:展开全部:point_left::point_left::point_left:</summary>
-
 - [0075. 颜色分类](./problems/75.sort-colors.md)
 - [0078. 子集](./problems/78.subsets.md)
 - [0079. 单词搜索](./problems/79.word-search.md)
@@ -389,8 +378,6 @@ leetcode 题解，记录自己的 leetcode 解题之路。
 - [1697. 检查边长度限制的路径是否存在](./problems/1697.checking-existence-of-edge-length-limited-paths.md) 🆕
 - [1737. 满足三条件之一需改变的最少字符数](./problems/1737.change-minimum-characters-to-satisfy-one-of-three-conditions.md) 🆕
 
-</details>
-
 ### 困难难度题目合集
 
 困难难度题目从类型上说多是：
@@ -446,10 +433,6 @@ leetcode 题解，记录自己的 leetcode 解题之路。
 - [0301. 删除无效的括号](./problems/301.remove-invalid-parentheses.md)
 - [0312. 戳气球](./problems/312.burst-balloons.md) 👍
 - [330. 按要求补齐数组](./problems/330.patching-array.md)
-
-<details>
-<summary> :point_right::point_right::point_right:展开全部:point_left::point_left::point_left:</summary>
-
 - [0335. 路径交叉](./problems/335.self-crossing.md)
 - [0460. LFU 缓存](./problems/460.lfu-cache.md)
 - [0472. 连接词](./problems/472.concatenated-words.md)
@@ -480,9 +463,7 @@ leetcode 题解，记录自己的 leetcode 解题之路。
 - [1671. 得到山形数组的最少删除次数](./problems/1671.minimum-number-of-removals-to-make-mountain-array.md)
 - [1707. 与数组中元素的最大异或值](./problems/5640.maximum-xor-with-an-element-from-array.md)
 
-</details>
-
-## :trident: &nbsp;anki 卡片
+## &nbsp;anki 卡片
 
 Anki 主要分为两个部分：一部分是关键点到题目的映射，另一部分是题目到思路，关键点，代码的映射。
 
@@ -506,27 +487,27 @@ anki - 文件 - 导入 - 下拉格式选择“打包的 anki 集合”，然后�
 
 > 已加入的题目有：#2 #3 #11
 
-## :chart_with_upwards_trend:大事件
+## 大事件
 
 - 2019-07-10 ：[纪念项目 Star 突破 1W 的一个短文](./thanksGiving.md)， 记录了项目的"兴起"之路，大家有兴趣可以看一下，如果对这个项目感兴趣，请**点击一下 Star**， 项目会**持续更新**，感谢大家的支持。
 
 - 2019-10-08: [纪念 LeetCode 项目 Star 突破 2W](./thanksGiving2.md)，并且 Github 搜索“LeetCode”，排名第一。
 
 - 2020-04-12: [项目突破三万 Star](./thanksGiving3.md)。
-- 2020-04-14: 官网`力扣加加`上线啦 💐💐💐💐💐，有专题讲解，每日一题，下载区和视频题解，后续会增加更多内容，还不赶紧收藏起来？地址：http://leetcode-solution.cn/
+- 2020-04-14//leetcode-solution.cn/
 
 ![](https://tva1.sinaimg.cn/large/007S8ZIlly1ghluemaoj3j30z90dtmy5.jpg)
 
 - 2021-02-23: star 破四万
 
-## :gift_heart: 贡献
+## 贡献
 
 - 如果有想法和创意，请提 [issue](https://github.com/azl397985856/leetcode/issues) 或者进群提
 - 如果想贡献增加题解或者翻译， 可以参考 [贡献指南](./CONTRIBUTING.md)
   > 关于如何提交题解，我写了一份 [指南](./templates/problems/1014.best-sightseeing-pair.md)
 - 如果需要修改项目中图片，[这里](./assets/drawio/) 存放了项目中绘制图的源代码， 大家可以用 [draw.io](https://www.draw.io/) 打开进行编辑。
 
-## :love_letter:鸣谢
+## 鸣谢
 
 感谢为这个项目作出贡献的所有 [小伙伴](https://github.com/azl397985856/leetcode/graphs/contributors)
 
