@@ -14,7 +14,6 @@
 [![](https://img.shields.io/badge/bilili-哔哩哔哩-ff69b4)](https://space.bilibili.com/519510412/)
 
 简体中文 | [English](./README.en.md)
-简体中文 | [English](./README.en.md)
 
 ---
 
