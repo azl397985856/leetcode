@@ -243,6 +243,7 @@ leetcode 题解，记录自己的 leetcode 解题之路。
 - [面试题 17.23. 最大黑方阵](./problems/max-black-square-lcci.md) 🆕
 - [Increasing Digits](./problems/Increasing-Digits.md) 👍 🆕
 - [Longest Contiguously Strictly Increasing Sublist After Deletion](./problems/Longest-Contiguously-Strictly-Increasing-Sublist-After-Deletion.md) 👍 🆕
+- [Consecutive Wins](./problems/consecutive-wins.md) 🆕
 
 - [0002. 两数相加](./problems/2.add-two-numbers.md) 👍
 - [0003. 无重复字符的最长子串](./problems/3.longest-substring-without-repeating-characters.md)
@@ -303,9 +304,9 @@ leetcode 题解，记录自己的 leetcode 解题之路。
 - [0209. 长度最小的子数组](./problems/209.minimum-size-subarray-sum.md)
 - [0211. 添加与搜索单词 \* 数据结构设计](./problems/211.add-and-search-word-data-structure-design.md)
 - [0215. 数组中的第 K 个最大元素](./problems/215.kth-largest-element-in-an-array.md)
-- [0220. 存在重复元素 III](./problems/220.contains-duplicate-iii.md) 🆕
+- [0220. 存在重复元素 III](./problems/220.contains-duplicate-iii.md)
 - [0221. 最大正方形](./problems/221.maximal-square.md)
-- [0227. 基本计算器 II](./problems/227.basic-calculator-ii.md) 🆕
+- [0227. 基本计算器 II](./problems/227.basic-calculator-ii.md)
 - [0229. 求众数 II](./problems/229.majority-element-ii.md)
 - [0230. 二叉搜索树中第 K 小的元素](./problems/230.kth-smallest-element-in-a-bst.md)
 - [0236. 二叉树的最近公共祖先](./problems/236.lowest-common-ancestor-of-a-binary-tree.md)
@@ -315,7 +316,7 @@ leetcode 题解，记录自己的 leetcode 解题之路。
 - [0309. 最佳买卖股票时机含冷冻期](./problems/309.best-time-to-buy-and-sell-stock-with-cooldown.md)
 - [0322. 零钱兑换](./problems/322.coin-change.md) 👍
 - [0328. 奇偶链表](./problems/328.odd-even-linked-list.md)
-- [0331. 验证二叉树的前序序列化](./problems/328.odd-even-linked-list.md) 🆕
+- [0331. 验证二叉树的前序序列化](./problems/328.odd-even-linked-list.md)
 - [0334. 递增的三元子序列](./problems/334.increasing-triplet-subsequence.md)
 - [0337. 打家劫舍 III](./problems/337.house-robber-iii.md)
 - [0343. 整数拆分](./problems/343.integer-break.md)
@@ -324,7 +325,7 @@ leetcode 题解，记录自己的 leetcode 解题之路。
 - [0380. 常数时间插入、删除和获取随机元素](./problems/380.insert-delete-getrandom-o1.md)
 - [0394. 字符串解码](./problems/394.decode-string.md) 91
 - [0416. 分割等和子集](./problems/416.partition-equal-subset-sum.md)
-- [0424. 替换后的最长重复字符](./problems/424.longest-repeating-character-replacement.md) 🆕
+- [0424. 替换后的最长重复字符](./problems/424.longest-repeating-character-replacement.md)
 - [0445. 两数相加 II](./problems/445.add-two-numbers-ii.md)
 - [0454. 四数相加 II](./problems/454.4-sum-ii.md)
 - [0464. 我能赢么](./problems/464.can-i-win.md)
@@ -344,7 +345,7 @@ leetcode 题解，记录自己的 leetcode 解题之路。
 - [0785. 判断二分图](./problems/785.is-graph-bipartite.md)
 - [0790. 多米诺和托米诺平铺](./problems/790.domino-and-tromino-tiling.md)
 - [0799. 香槟塔](./problems/799.champagne-tower.md) 🆕
-- [0801. 使序列递增的最小交换次数](./problems/801.minimum-swaps-to-make-sequences-increasing.md) 🆕
+- [0801. 使序列递增的最小交换次数](./problems/801.minimum-swaps-to-make-sequences-increasing.md)
 - [0816. 模糊坐标](./problems/816.ambiguous-coordinates.md)
 - [0820. 单词的压缩编码](./problems/820.short-encoding-of-words.md)
 - [0873. 最长的斐波那契子序列的长度](./problems/873.length-of-longest-fibonacci-subsequence.md) 🆕
@@ -355,13 +356,13 @@ leetcode 题解，记录自己的 leetcode 解题之路。
 - [0900. RLE 迭代器](./problems/900.rle-iterator.md)
 - [0911. 在线选举](./problems/911.online-election.md)
 - [0912. 排序数组](./problems/912.sort-an-array.md)
-- [0932. 漂亮数组](./problems/932.beautiful-array.md) 🆕
+- [0932. 漂亮数组](./problems/932.beautiful-array.md)
 - [0935. 骑士拨号器](./problems/935.knight-dialer.md)
 - [0947. 移除最多的同行或同列石头](./problems/947.most-stones-removed-with-same-row-or-column.md)
-- [0959. 由斜杠划分区域](./problems/959.regions-cut-by-slashes.md) 🆕
+- [0959. 由斜杠划分区域](./problems/959.regions-cut-by-slashes.md)
 - [0978. 最长湍流子数组](./problems/978.longest-turbulent-subarray.md)
 - [0987. 二叉树的垂序遍历](./problems/987.vertical-order-traversal-of-a-binary-tree.md) 91
-- [1004. 最大连续 1 的个数 III](./problems/1004.max-consecutive-ones-iii.md) 🆕
+- [1004. 最大连续 1 的个数 III](./problems/1004.max-consecutive-ones-iii.md)
 - [1011. 在 D 天内送达包裹的能力](./problems/1011.capacity-to-ship-packages-within-d-days.md)
 - [1014. 最佳观光组合](./problems/1014.best-sightseeing-pair.md)
 - [1015. 可被 K 整除的最小整数](./problems/1015.smallest-integer-divisible-by-k.md)
@@ -369,7 +370,7 @@ leetcode 题解，记录自己的 leetcode 解题之路。
 - [1020. 飞地的数量](./problems/1020.number-of-enclaves.md)
 - [1023. 驼峰式匹配](./problems/1023.camelcase-matching.md)
 - [1031. 两个非重叠子数组的最大和](./problems/1031.maximum-sum-of-two-non-overlapping-subarrays.md)
-- [1043. 分隔数组以得到最大和](./problems/1043.partition-array-for-maximum-sum.md) 🆕
+- [1043. 分隔数组以得到最大和](./problems/1043.partition-array-for-maximum-sum.md)
 - [1104. 二叉树寻路](./problems/1104.path-in-zigzag-labelled-binary-tree.md)
 - [1131.绝对值表达式的最大值](./problems/1131.maximum-of-absolute-value-expression.md)
 - [1186. 删除一次得到子数组最大和](./problems/1186.maximum-subarray-sum-with-one-deletion.md)
