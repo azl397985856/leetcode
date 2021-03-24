@@ -242,10 +242,11 @@ leetcode 题解，记录自己的 leetcode 解题之路。
 以下是我列举的经典题目（带 91 字样的表示出自 **91 天学算法**活动）：
 
 - [面试题 17.09. 第 k 个数](./problems/get-kth-magic-number-lcci.md)
-- [面试题 17.23. 最大黑方阵](./problems/max-black-square-lcci.md) 🆕
-- [Increasing Digits](./problems/Increasing-Digits.md) 👍 🆕
+- [面试题 17.23. 最大黑方阵](./problems/max-black-square-lcci.md)
+- [Increasing Digits](./problems/Increasing-Digits.md) 👍
 - [Longest Contiguously Strictly Increasing Sublist After Deletion](./problems/Longest-Contiguously-Strictly-Increasing-Sublist-After-Deletion.md) 👍 🆕
 - [Consecutive Wins](./problems/consecutive-wins.md) 🆕
+- [Sort-String-by-Flipping](./problems/Sort-String-by-Flipping.md) 🆕
 
 - [0002. 两数相加](./problems/2.add-two-numbers.md) 👍
 - [0003. 无重复字符的最长子串](./problems/3.longest-substring-without-repeating-characters.md)
