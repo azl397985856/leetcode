@@ -182,6 +182,7 @@
   - [0424. 替换后的最长重复字符](./problems/424.longest-repeating-character-replacement.md) 🆕
   - [0445. 两数相加 II](./problems/445.add-two-numbers-ii.md)
   - [0454. 四数相加 II](./problems/454.4-sum-ii.md)
+  - [0456. 132 模式](./problems/456.132-pattern.md) 🆕
   - [0464. 我能赢么](./problems/464.can-i-win.md)
   - [0494. 目标和](./problems/494.target-sum.md)
   - [0516. 最长回文子序列](./problems/516.longest-palindromic-subsequence.md)
