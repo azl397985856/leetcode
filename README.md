@@ -247,6 +247,7 @@ leetcode 题解，记录自己的 leetcode 解题之路。
 - [Longest Contiguously Strictly Increasing Sublist After Deletion](./problems/Longest-Contiguously-Strictly-Increasing-Sublist-After-Deletion.md) 👍 🆕
 - [Consecutive Wins](./problems/consecutive-wins.md) 🆕
 - [Sort-String-by-Flipping](./problems/Sort-String-by-Flipping.md) 🆕
+- [Number of Substrings with Single Character Difference](./problems/Number-of-Substrings-with-Single-Character-Difference.md) 🆕
 
 - [0002. 两数相加](./problems/2.add-two-numbers.md) 👍
 - [0003. 无重复字符的最长子串](./problems/3.longest-substring-without-repeating-characters.md)
