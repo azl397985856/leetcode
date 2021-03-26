@@ -16,3 +16,5 @@
 - [穿上衣服我就不认识你了？来聊聊最长上升子序列](./LIS.md)
 - [你的衣服我扒了 - 《最长公共子序列》](./LCS.md)
 - [一文看懂《最大子序列和问题》](./LSS.md)
+- [状压 DP 入门](../problems/464.can-i-win.md)
+- [一行代码就可以 AC](../problems/1227.airplane-seat-assignment-probability.md)

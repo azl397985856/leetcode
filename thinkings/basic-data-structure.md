@@ -288,8 +288,6 @@ return, children, sibling 也都是一个 fiber，因此 fiber 看起来就是�
 
 一个典型的二叉树：
 
-标记为 7 的节点具有两个子节点，标记为 2 和 6; 一个父节点，标记为 2, 作为根节点，在顶部，没有父节点。
-
 ![](https://tva1.sinaimg.cn/large/0081Kckwly1gk7h4obmnkj30rs0muq4k.jpg)
 
 （图片来自 https://github.com/trekhleb/javascript-algorithms/blob/master/src/data-structures/tree/README.zh-CN.md)
@@ -346,10 +344,10 @@ return, children, sibling 也都是一个 fiber，因此 fiber 看起来就是�
 
 对于一个二叉查找树，常规操作有插入，查找，删除，找父节点，求最大值，求最小值。
 
-二叉查找树，之所以叫查找树就是因为其非常适合查找，举个例子，
-如下一颗二叉查找树，我们想找节点值小于且最接近 58 的节点，搜索的流程如图所示：
+二叉查找树，**之所以叫查找树就是因为其非常适合查找**。举个例子，如下一颗二叉查找树，我们想找节点值小于且最接近 58 的节点，搜索的流程如图所示：
 
 ![bst](https://tva1.sinaimg.cn/large/007S8ZIlly1ghluh33ttoj30rs0mudhi.jpg)
+
 （图片来自 https://www.geeksforgeeks.org/floor-in-binary-search-tree-bst/）
 
 另外我们二叉查找树有一个性质是： `其中序遍历的结果是一个有序数组`。
