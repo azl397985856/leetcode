@@ -105,6 +105,7 @@
   - [Consecutive Wins](./problems/consecutive-wins.md) 🆕
   - [Number of Substrings with Single Character Difference](./problems/Number-of-Substrings-with-Single-Character-Difference.md) 🆕
   - [Bus Fare](./problems/Bus-Fare.md) 🆕 👍
+  - [Minimum Dropping Path Sum](./problems/Minimum-Dropping-Path-Sum.md) 🆕
   - [0002. 两数相加](./problems/2.add-two-numbers.md)
   - [0003. 无重复字符的最长子串](./problems/3.longest-substring-without-repeating-characters.md)
   - [0005. 最长回文子串](./problems/5.longest-palindromic-substring.md)
