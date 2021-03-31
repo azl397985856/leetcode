@@ -428,9 +428,10 @@ leetcode 题解，记录自己的 leetcode 解题之路。
 - [LCP 20. 快速公交](./problems/lcp20.meChtZ.md) 🆕
 - [LCP 21. 追逐游戏](./problems/lcp21.Za25hA.md) 🆕 👍
 - [Number Stream to Intervals](./problems/Number-Stream-to-Intervals.md) 🆕
-- [Triple-Inversion](./problems/Triple-Inversion.md) 91
-- [Kth-Pair-Distance](./problems/Kth-Pair-Distance.md) 91
-- [Minimum-Light-Radius](./problems/Minimum-Light-Radius.md) 91
+- [Triple Inversion](./problems/Triple-Inversion.md) 91
+- [Kth Pair Distance](./problems/Kth-Pair-Distance.md) 91
+- [Minimum Light Radius](./problems/Minimum-Light-Radius.md) 91
+- [Largest Equivalent Set of Pairs](./problems/Largest-Equivalent-Set-of-Pairs.md) 🆕 👍
 
 - [0004. 寻找两个正序数组的中位数](./problems/4.median-of-two-sorted-arrays.md) 👍
 - [0023. 合并 K 个升序链表](./problems/23.merge-k-sorted-lists.md)
