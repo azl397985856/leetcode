@@ -115,4 +115,8 @@ class Solution:
 - 时间复杂度：$O(m*n)$
 - 空间复杂度：$O(1)$ （使用了滚动数组优化）
 
+## 相关题目
+
+- [Painting-Houses](https://binarysearch.com/problems/Painting-Houses) (换皮题。代码一模一样，直接复制粘贴代码就可以 AC)
+
 以上就是本文的全部内容了。大家对此有何看法，欢迎给我留言，我有时间都会一一查看回答。更多算法套路可以访问我的 LeetCode 题解仓库：https://github.com/azl397985856/leetcode 。 目前已经 40K star 啦。大家也可以关注我的公众号《力扣加加》带你啃下算法这块硬骨头。
