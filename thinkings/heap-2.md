@@ -1033,6 +1033,33 @@ class Solution:
 
 (代码 1.3.11)
 
+2021-04-06 fixed: 上面的代码有问题。错误的原因在于上述算法**如果当前湖泊发生了洪水泛滥，那么就去 sunny 数组找一个晴天去抽干它，这样它就不会洪水泛滥**部分的实现不对。sunny 数组找一个晴天去抽干它的根本前提是 **出现晴天的时候湖泊里面要有水才能抽**，如果晴天的时候，湖泊里面没有水也不行。这提示我们的 lakes 不存储 0 和 1 ，而是存储发生洪水是第几天。这样问题就变为**在 sunny 中找一个日期大于 lakes[rain-1]** 的项，并将其移除 sunny 数组。由于 sunny 数组是有序的，因此我们可以使用二分来进行查找。
+
+> 由于我们需要删除 sunny 数组的项，因此时间复杂度不会因为使用了二分而降低。
+
+正确的代码应该为：
+
+```py
+class Solution:
+    def avoidFlood(self, rains: List[int]) -> List[int]:
+        ans = [1] * len(rains)
+        lakes = {}
+        sunny = []
+
+        for i, rain in enumerate(rains):
+            if rain > 0:
+                ans[i] = -1
+                if rain - 1 in lakes:
+                    j = bisect.bisect_left(sunny, lakes[rain - 1])
+                    if j == len(sunny):
+                        return []
+                    ans[sunny.pop(j)] = rain
+                lakes[rain - 1] = i
+            else:
+                sunny.append(i)
+        return ans
+```
+
 #### 1642. 可以到达的最远建筑
 
 ##### 题目描述
