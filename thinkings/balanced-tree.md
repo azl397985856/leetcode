@@ -58,10 +58,10 @@ else:
 因此我们首先需要知道如何计算一个子树的高度。这个可以通过递归的方式轻松地计算出来。计算子树高度的 Python 代码如下：
 
 ```py
-def dfs(node, depth):
+def dfs(node):
     if not node: return 0
-    l = dfs(node.left, depth + 1)
-    r = dfs(node.right, depth + 1)
+    l = dfs(node.left)
+    r = dfs(node.right)
     return max(l, r) + 1
 ```
 
@@ -74,13 +74,13 @@ Python3 Code:
 ```py
 class Solution:
     def isBalanced(self, root: TreeNode) -> bool:
-        def dfs(node, depth):
+        def dfs(node):
             if not node: return 0
-            l = dfs(node.left, depth + 1)
-            r = dfs(node.right, depth + 1)
+            l = dfs(node.left)
+            r = dfs(node.right)
             return max(l, r)  + 1
         if not root: return True
-        if abs(dfs(root.left, 0) -  dfs(root.right, 0)) > 1: return False
+        if abs(dfs(root.left) -  dfs(root.right)) > 1: return False
         return self.isBalanced(root.left) and self.isBalanced(root.right)
 ```
 
