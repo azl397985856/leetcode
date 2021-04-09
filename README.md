@@ -303,6 +303,7 @@ leetcode 题解，记录自己的 leetcode 解题之路。
 - [0147. 对链表进行插入排序](./problems/147.insertion-sort-list.md) 🆕
 - [0150. 逆波兰表达式求值](./problems/150.evaluate-reverse-polish-notation.md)
 - [0152. 乘积最大子数组](./problems/152.maximum-product-subarray.md)
+- [0153. 寻找旋转排序数组中的最小值](./problems/153.find-minimum-in-rotated-sorted-array.md) 🆕
 - [0199. 二叉树的右视图](./problems/199.binary-tree-right-side-view.md) 👍
 - [0200. 岛屿数量](./problems/200.number-of-islands.md)
 - [0201. 数字范围按位与](./problems/201.bitwise-and-of-numbers-range.md)
@@ -450,6 +451,7 @@ leetcode 题解，记录自己的 leetcode 解题之路。
 - [0140. 单词拆分 II](problems/140.word-break-ii.md)
 - [0145. 二叉树的后序遍历](./problems/145.binary-tree-postorder-traversal.md)
 - [0146. LRU 缓存机制](./problems/146.lru-cache.md)
+- [0154. 寻找旋转排序数组中的最小值 II](./problems/154.find-minimum-in-rotated-sorted-array-ii.md) 🆕
 - [0212. 单词搜索 II](./problems/212.word-search-ii.md)
 - [0239. 滑动窗口最大值](./problems/239.sliding-window-maximum.md) 👍
 - [0295. 数据流的中位数](./problems/295.find-median-from-data-stream.md)
