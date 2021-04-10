@@ -83,23 +83,20 @@ def dfs(root):
 
 问题得以解决。
 
-这里还有最后一个问题就是返回值，题目要返回的实际上是最左下角的值。而我用了一个黑科技的方法（注意看注释）:
+这里还有最后一个问题就是返回值，题目要返回的实际上是最左下角的值。如何取到最左下角的节点呢？我们来看下核心代码你就懂了，代码比较简单。
 
 ```py
-self.pre = self.ans = TreeNode(-1)
-def dfs(root):
-   if not root: return
-   dfs(root.left)
-   root.left = None
-   self.pre.right = root
-   # 当第一次执行到下面这一行代码，恰好是在最左下角， 这个时候 self.pre = root 就切断了 self.pre 和 self.ans 的联系
-   # 之后 self.pre 的变化都不会体现到 self.ans 上。
-   # 直观上来说就是 self.ans 在遍历到最左下角的时候下车了，而 self.pre 还在车上
-   # 因此最后返回 self.ans.right 即可
-   self.pre = root
-   dfs(root.right)
-dfs(root)
-return self.ans.right
+
+    self.pre = self.ans = None
+    def dfs(root):
+        if not root: return
+        dfs(root.left)
+        root.left = None
+        if self.pre: self.pre.right = root
+        # 当第一次执行到下面这一行代码，恰好是在最左下角，此时 self.pre = None，其他任何时候 self.pre 都不是 None。
+        if self.pre is None: self.ans = root
+        self.pre = root
+        dfs(root.right)
 ```
 
 ## 关键点
@@ -111,18 +108,19 @@ return self.ans.right
 
 ```py
 class Solution:
-    def convertBiNode(self, root):
-        self.pre = self.ans = TreeNode(-1)
+    def convertBiNode(self, root: TreeNode) -> TreeNode:
+        self.pre = self.ans = None
         def dfs(root):
             if not root: return
             dfs(root.left)
             root.left = None
-            self.pre.right = root
+            if self.pre: self.pre.right = root
+            if self.pre is None: self.ans = root
             self.pre = root
+
             dfs(root.right)
         dfs(root)
-        return self.ans.right
-
+        return self.ans
 ```
 
 **复杂度分析**
