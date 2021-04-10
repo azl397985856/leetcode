@@ -75,7 +75,7 @@ https://leetcode-cn.com/problems/meChtZ/
 
 核心代码:
 
-```
+```py
 def dfs(pos):
  if pos === target: return 0
  if pos > target: return float('inf')
