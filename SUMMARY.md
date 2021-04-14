@@ -15,7 +15,6 @@
   - [动态规划](thinkings/dynamic-programming.md)
   - [哈夫曼编码和游程编码](thinkings/run-length-encode-and-huffman-encode.md)
   - [布隆过滤器](thinkings/bloom-filter.md)
-  - [字符串问题](thinkings/string-problems.md)
   - [前缀树](thinkings/trie.md)
   - [贪婪策略](thinkings/greedy.md)
   - [深度优先遍历](thinkings/DFS.md)
