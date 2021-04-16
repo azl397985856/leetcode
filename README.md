@@ -441,6 +441,7 @@ leetcode 题解，记录自己的 leetcode 解题之路。
 - [0057. 插入区间](problems/57.insert-interval.md)
 - [0084. 柱状图中最大的矩形](./problems/84.largest-rectangle-in-histogram.md)
 - [0085. 最大矩形](./problems/85.maximal-rectangle.md)
+- [0087. 扰乱字符串](./problems/87.scramble-string.md) 🆕
 - [0124. 二叉树中的最大路径和](./problems/124.binary-tree-maximum-path-sum.md)
 - [0128. 最长连续序列](./problems/128.longest-consecutive-sequence.md)
 - [0132. 分割回文串 II](./problems/132.palindrome-partitioning-ii.md) 👍
@@ -453,7 +454,7 @@ leetcode 题解，记录自己的 leetcode 解题之路。
 - [0295. 数据流的中位数](./problems/295.find-median-from-data-stream.md)
 - [0297. 二叉树的序列化与反序列化](./problems/297.serialize-and-deserialize-binary-tree.md) 91
 - [0301. 删除无效的括号](./problems/301.remove-invalid-parentheses.md)
-- [0312. 戳气球](./problems/312.burst-balloons.md) 👍
+- [0312. 戳气球](./problems/312.burst-balloons.md)
 - [330. 按要求补齐数组](./problems/330.patching-array.md)
 
 <details>
