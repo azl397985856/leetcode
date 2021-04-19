@@ -106,8 +106,8 @@ leetcode 题解，记录自己的 leetcode 解题之路。
 - [二分专题（上）](./thinkings/binary-search-1.md) 🆕
 - [二分专题（下）](./thinkings/binary-search-2.md) 🆕
 <!-- - [基础算法](./thinkings/basic-algorithm.md) -->
+- [动态规划(重置版)](./thinkings/dynamic-programming.md) 🆕
 - [二叉树的遍历](./thinkings/binary-tree-traversal.md)
-- [动态规划](./thinkings/dynamic-programming.md)
 - [回溯](./thinkings/backtrack.md)
 - [哈夫曼编码和游程编码](./thinkings/run-length-encode-and-huffman-encode.md)
 - [布隆过滤器](./thinkings/bloom-filter.md)🖊
