@@ -481,8 +481,8 @@ f(i,j)=f(i-1,j−1)
 $$
   f(i,j)=\left\{
   \begin{aligned}
-  f(i-1, j) &  & 匹配1次以上 \\
-  f(i, j - 2) & & 匹配0次 \\
+  f(i-1, j) &  & match &  & 1+ &  & times \\
+  f(i, j - 2) & & match &  & 0 &  & time \\
   \end{aligned}
   \right.
 $$
