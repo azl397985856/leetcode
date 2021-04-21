@@ -703,7 +703,10 @@ function climbStairs(n) {
 
 概率 DP 比较特殊，概率 DP 的状态转移公式一般是说一个状态**有多大的概率从某一个状态转移过来**，更像是期望的计算，因此也叫期望 DP。
 
-推荐一道题: [837. 新 21 点](https://leetcode-cn.com/problems/new-21-game/)
+推荐两道题:
+
+- [91. 解码方法](https://leetcode-cn.com/problems/decode-ways/)
+- [837. 新 21 点](https://leetcode-cn.com/problems/new-21-game/)
 
 更多题目类型以及推荐题目见刷题插件的学习路线。插件获取方式：公众号力扣加加回复插件。
 
