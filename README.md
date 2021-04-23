@@ -387,9 +387,10 @@ leetcode 题解，记录自己的 leetcode 解题之路。
 - [1334. 阈值距离内邻居最少的城市](./problems/1334.find-the-city-with-the-smallest-number-of-neighbors-at-a-threshold-distance.md)
 - [1371.每个元音包含偶数次的最长子字符串](./problems/1371.find-the-longest-substring-containing-vowels-in-even-counts.md)
 - [1381. 设计一个支持增量操作的栈](./problems/1381.design-a-stack-with-increment-operation.md) 91
-- [1438. 绝对差不超过限制的最长连续子数组](./problems/1438.longest-continuous-subarray-with-absolute-diff-less-than-or-equal-to-limit.md) 🆕
-- [1558. 得到目标数组的最少函数调用次数](./problems/1558.minimum-numbers-of-function-calls-to-make-target-array.md) 🆕
-- [1574. 删除最短的子数组使剩余数组有序](./problems/1574.shortest-subarray-to-be-removed-to-make-array-sorted.md) 🆕
+- [1423. 可获得的最大点数](./problems/1423.maximum-points-you-can-obtain-from-cards.md) 🆕
+- [1438. 绝对差不超过限制的最长连续子数组](./problems/1438.longest-continuous-subarray-with-absolute-diff-less-than-or-equal-to-limit.md)
+- [1558. 得到目标数组的最少函数调用次数](./problems/1558.minimum-numbers-of-function-calls-to-make-target-array.md)
+- [1574. 删除最短的子数组使剩余数组有序](./problems/1574.shortest-subarray-to-be-removed-to-make-array-sorted.md)
 - [1631. 最小体力消耗路径](./problems/1631.path-with-minimum-effort.md)
 - [1658. 将 x 减到 0 的最小操作数](./problems/1658.minimum-operations-to-reduce-x-to-zero.md) 🆕
 - [1697. 检查边长度限制的路径是否存在](./problems/1697.checking-existence-of-edge-length-limited-paths.md) 🆕
