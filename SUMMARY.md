@@ -156,95 +156,95 @@
   - [0201. 数字范围按位与](./problems/201.bitwise-and-of-numbers-range.md)
   - [0208. 实现 Trie (前缀树)](./problems/208.implement-trie-prefix-tree.md)
   - [0209. 长度最小的子数组](./problems/209.minimum-size-subarray-sum.md)
-  - [0211. 添加与搜索单词 \* 数据结构设计](./problems/211.add-and-search-word-data-structure-design.md)
+  - [0211. 添加与搜索单词 - 数据结构设计](./problems/211.add-and-search-word-data-structure-design.md)
   - [0215. 数组中的第 K 个最大元素](./problems/215.kth-largest-element-in-an-array.md)
   - [0220. 存在重复元素 III](./problems/220.contains-duplicate-iii.md) 🆕
   - [0221. 最大正方形](./problems/221.maximal-square.md)
-  - [0227. 基本计算器 II](./problems/227.basic-calculator-ii.md)🆕
-  - [0229. 求众数 II](./problems/229.majority-element-ii.md)
+  - [0227. 基本计算器 II](./problems/227.basic-calculator-ii.md) 👍
+  - [0229. 求众数 II](./problems/229.majority-element-ii.md) 👍
   - [0230. 二叉搜索树中第 K 小的元素](./problems/230.kth-smallest-element-in-a-bst.md)
   - [0236. 二叉树的最近公共祖先](./problems/236.lowest-common-ancestor-of-a-binary-tree.md)
   - [0238. 除自身以外数组的乘积](./problems/238.product-of-array-except-self.md)
   - [0240. 搜索二维矩阵 II](./problems/240.search-a-2-d-matrix-ii.md)
   - [0279. 完全平方数](./problems/279.perfect-squares.md)
-  - [0309. 最佳买卖股票时机含冷冻期](./problems/309.best-time-to-buy-and-sell-stock-with-cooldown.md)
+  - [0309. 最佳买卖股票时机含冷冻期](./problems/309.best-time-to-buy-and-sell-stock-with-cooldown.md) 👍
   - [0322. 零钱兑换](./problems/322.coin-change.md)
   - [0328. 奇偶链表](./problems/328.odd-even-linked-list.md)
-  - [0331. 验证二叉树的前序序列化](./problems/328.odd-even-linked-list.md) 🆕
-  - [0334. 递增的三元子序列](./problems/334.increasing-triplet-subsequence.md)
+  - [0331. 验证二叉树的前序序列化](./problems/331.verify-preorder-serialization-of-a-binary-tree.md) 👍
+  - [0334. 递增的三元子序列](./problems/334.increasing-triplet-subsequence.md) 👍
   - [0337. 打家劫舍 III](./problems/337.house-robber-iii.md)
-  - [0343. 整数拆分](./problems/343.integer-break.md)
-  - [0365. 水壶问题](./problems/365.water-and-jug-problem.md)
+  - [0343. 整数拆分](./problems/343.integer-break.md) 👍
+  - [0365. 水壶问题](./problems/365.water-and-jug-problem.md) 👍
   - [0378. 有序矩阵中第 K 小的元素](./problems/378.kth-smallest-element-in-a-sorted-matrix.md)
-  - [0380. 常数时间插入、删除和获取随机元素](./problems/380.insert-delete-getrandom-o1.md)
-  - [0394. 字符串解码](./problems/394.decode-string.md) 91
+  - [0380. 常数时间插入、删除和获取随机元素](./problems/380.insert-delete-getrandom-o1.md) 👍
+  - [0394. 字符串解码](./problems/394.decode-string.md) 91 👍
   - [0416. 分割等和子集](./problems/416.partition-equal-subset-sum.md)
   - [0424. 替换后的最长重复字符](./problems/424.longest-repeating-character-replacement.md) 🆕
   - [0445. 两数相加 II](./problems/445.add-two-numbers-ii.md)
   - [0454. 四数相加 II](./problems/454.4-sum-ii.md)
-  - [0456. 132 模式](./problems/456.132-pattern.md) 🆕
-  - [0464. 我能赢么](./problems/464.can-i-win.md)
+  - [0456. 132 模式](./problems/456.132-pattern.md) 🆕 👍
+  - [0464. 我能赢么](./problems/464.can-i-win.md) 👍
   - [0494. 目标和](./problems/494.target-sum.md)
   - [0516. 最长回文子序列](./problems/516.longest-palindromic-subsequence.md)
   - [0513. 找树左下角的值](./problems/513.find-bottom-left-tree-value.md) 91
   - [0518. 零钱兑换 II](./problems/518.coin-change-2.md)
-  - [0547. 朋友圈](./problems/547.friend-circles.md)
+  - [0547. 朋友圈](./problems/547.friend-circles.md) 👍
   - [0560. 和为 K 的子数组](./problems/560.subarray-sum-equals-k.md)
   - [0609. 在系统中查找重复文件](./problems/609.find-duplicate-file-in-system.md)
-  - [0611. 有效三角形的个数](./problems/611.valid-triangle-number.md)
-  - [0673. 最长递增子序列的个数](./problems/673.number-of-longest-increasing-subsequence.md)
-  - [0686. 重复叠加字符串匹配](./problems/686.repeated-string-match.md)
-  - [0714. 买卖股票的最佳时机含手续费](./problems/714.best-time-to-buy-and-sell-stock-with-transaction-fee.md) 🆕
+  - [0611. 有效三角形的个数](./problems/611.valid-triangle-number.md) 👍
+  - [0673. 最长递增子序列的个数](./problems/673.number-of-longest-increasing-subsequence.md) 👍
+  - [0686. 重复叠加字符串匹配](./problems/686.repeated-string-match.md) 👍
+  - [0714. 买卖股票的最佳时机含手续费](./problems/714.best-time-to-buy-and-sell-stock-with-transaction-fee.md) 👍
   - [0718. 最长重复子数组](./problems/718.maximum-length-of-repeated-subarray.md)
-  - [0754. 到达终点数字](./problems/754.reach-a-number.md)
-  - [0785. 判断二分图](./problems/785.is-graph-bipartite.md)
-  - [0790. 多米诺和托米诺平铺](./problems/790.domino-and-tromino-tiling.md) 🆕
-  - [0799. 香槟塔](./problems/799.champagne-tower.md) 🆕
-  - [0801. 使序列递增的最小交换次数](./problems/801.minimum-swaps-to-make-sequences-increasing.md) 🆕
-  - [0816. 模糊坐标](./problems/816.ambiguous-coordinates.md)
-  - [0820. 单词的压缩编码](./problems/820.short-encoding-of-words.md)
-  - [0873. 最长的斐波那契子序列的长度](./problems/873.length-of-longest-fibonacci-subsequence.md) 🆕
+  - [0754. 到达终点数字](./problems/754.reach-a-number.md) 👍
+  - [0785. 判断二分图](./problems/785.is-graph-bipartite.md) 👍
+  - [0790. 多米诺和托米诺平铺](./problems/790.domino-and-tromino-tiling.md) 👍
+  - [0799. 香槟塔](./problems/799.champagne-tower.md) 👍
+  - [0801. 使序列递增的最小交换次数](./problems/801.minimum-swaps-to-make-sequences-increasing.md) 👍
+  - [0816. 模糊坐标](./problems/816.ambiguous-coordinates.md) 👍
+  - [0820. 单词的压缩编码](./problems/820.short-encoding-of-words.md) 👍
+  - [0873. 最长的斐波那契子序列的长度](./problems/873.length-of-longest-fibonacci-subsequence.md) 👍
   - [0875. 爱吃香蕉的珂珂](./problems/875.koko-eating-bananas.md)
-  - [0877. 石子游戏](./problems/877.stone-game.md)
+  - [0877. 石子游戏](./problems/877.stone-game.md) 👍
   - [0886. 可能的二分法](./problems/886.possible-bipartition.md)
-  - [0898. 子数组按位或操作](./problems/898.bitwise-ors-of-subarrays.md)
-  - [0900. RLE 迭代器](./problems/900.rle-iterator.md)
+  - [0898. 子数组按位或操作](./problems/898.bitwise-ors-of-subarrays.md) 👍
+  - [0900. RLE 迭代器](./problems/900.rle-iterator.md) 👍
   - [0911. 在线选举](./problems/911.online-election.md)
   - [0912. 排序数组](./problems/912.sort-an-array.md)
   - [0932. 漂亮数组](./problems/932.beautiful-array.md) 🆕
   - [0935. 骑士拨号器](./problems/935.knight-dialer.md)
-  - [0947. 移除最多的同行或同列石头](./problems/947.most-stones-removed-with-same-row-or-column.md)
-  - [0959. 由斜杠划分区域](./problems/959.regions-cut-by-slashes.md) 🆕
+  - [0947. 移除最多的同行或同列石头](./problems/947.most-stones-removed-with-same-row-or-column.md) 👍
+  - [0959. 由斜杠划分区域](./problems/959.regions-cut-by-slashes.md) 👍
   - [0978. 最长湍流子数组](./problems/978.longest-turbulent-subarray.md)
   - [0987. 二叉树的垂序遍历](./problems/987.vertical-order-traversal-of-a-binary-tree.md) 91
   - [1004. 最大连续 1 的个数 III](./problems/1004.max-consecutive-ones-iii.md) 🆕
   - [1011. 在 D 天内送达包裹的能力](./problems/1011.capacity-to-ship-packages-within-d-days.md)
-  - [1014. 最佳观光组合](./problems/1014.best-sightseeing-pair.md)
-  - [1015. 可被 K 整除的最小整数](./problems/1015.smallest-integer-divisible-by-k.md)
+  - [1014. 最佳观光组合](./problems/1014.best-sightseeing-pair.md) 👍
+  - [1015. 可被 K 整除的最小整数](./problems/1015.smallest-integer-divisible-by-k.md) 👍
   - [1019. 链表中的下一个更大节点](./problems/1019.next-greater-node-in-linked-list.md)
   - [1020. 飞地的数量](./problems/1020.number-of-enclaves.md)
-  - [1023. 驼峰式匹配](./problems/1023.camelcase-matching.md)
-  - [1031. 两个非重叠子数组的最大和](./problems/1031.maximum-sum-of-two-non-overlapping-subarrays.md)
-  - [1043. 分隔数组以得到最大和](./problems/1043.partition-array-for-maximum-sum.md) 🆕
-  - [1104. 二叉树寻路](./problems/1104.path-in-zigzag-labelled-binary-tree.md)
-  - [1131.绝对值表达式的最大值](./problems/1131.maximum-of-absolute-value-expression.md)
-  - [1186. 删除一次得到子数组最大和](./problems/1186.maximum-subarray-sum-with-one-deletion.md)
-  - [1218. 最长定差子序列](./problems/1218.longest-arithmetic-subsequence-of-given-difference.md)
-  - [1227. 飞机座位分配概率](./problems/1227.airplane-seat-assignment-probability.md)
-  - [1261. 在受污染的二叉树中查找元素](./problems/1261.find-elements-in-a-contaminated-binary-tree.md)
-  - [1262. 可被三整除的最大和](./problems/1262.greatest-sum-divisible-by-three.md)
-  - [1297. 子串的最大出现次数](./problems/1297.maximum-number-of-occurrences-of-a-substring.md)
-  - [1310. 子数组异或查询](./problems/1310.xor-queries-of-a-subarray.md)
-  - [1334. 阈值距离内邻居最少的城市](./problems/1334.find-the-city-with-the-smallest-number-of-neighbors-at-a-threshold-distance.md)
+  - [1023. 驼峰式匹配](./problems/1023.camelcase-matching.md) 👍
+  - [1031. 两个非重叠子数组的最大和](./problems/1031.maximum-sum-of-two-non-overlapping-subarrays.md) 👍
+  - [1043. 分隔数组以得到最大和](./problems/1043.partition-array-for-maximum-sum.md) 👍
+  - [1104. 二叉树寻路](./problems/1104.path-in-zigzag-labelled-binary-tree.md) 👍
+  - [1131.绝对值表达式的最大值](./problems/1131.maximum-of-absolute-value-expression.md) 👍
+  - [1186. 删除一次得到子数组最大和](./problems/1186.maximum-subarray-sum-with-one-deletion.md) 👍
+  - [1218. 最长定差子序列](./problems/1218.longest-arithmetic-subsequence-of-given-difference.md) 👍
+  - [1227. 飞机座位分配概率](./problems/1227.airplane-seat-assignment-probability.md) 👍
+  - [1261. 在受污染的二叉树中查找元素](./problems/1261.find-elements-in-a-contaminated-binary-tree.md) 👍
+  - [1262. 可被三整除的最大和](./problems/1262.greatest-sum-divisible-by-three.md) 👍
+  - [1297. 子串的最大出现次数](./problems/1297.maximum-number-of-occurrences-of-a-substring.md) 👍
+  - [1310. 子数组异或查询](./problems/1310.xor-queries-of-a-subarray.md) 👍
+  - [1334. 阈值距离内邻居最少的城市](./problems/1334.find-the-city-with-the-smallest-number-of-neighbors-at-a-threshold-distance.md) 👍
   - [1371.每个元音包含偶数次的最长子字符串](./problems/1371.find-the-longest-substring-containing-vowels-in-even-counts.md)
-  - [1381. 设计一个支持增量操作的栈](./problems/1381.design-a-stack-with-increment-operation.md) 91
-  - [1438. 绝对差不超过限制的最长连续子数组](./problems/1438.longest-continuous-subarray-with-absolute-diff-less-than-or-equal-to-limit.md) 🆕
-  - [1558. 得到目标数组的最少函数调用次数](./problems/1558.minimum-numbers-of-function-calls-to-make-target-array.md)
+  - [1381. 设计一个支持增量操作的栈](./problems/1381.design-a-stack-with-increment-operation.md) 91 👍
+  - [1438. 绝对差不超过限制的最长连续子数组](./problems/1438.longest-continuous-subarray-with-absolute-diff-less-than-or-equal-to-limit.md) 👍
+  - [1558. 得到目标数组的最少函数调用次数](./problems/1558.minimum-numbers-of-function-calls-to-make-target-array.md) 👍
   - [1574. 删除最短的子数组使剩余数组有序](./problems/1574.shortest-subarray-to-be-removed-to-make-array-sorted.md)
   - [1631. 最小体力消耗路径](./problems/1631.path-with-minimum-effort.md)
-  - [1658. 将 x 减到 0 的最小操作数](./problems/1658.minimum-operations-to-reduce-x-to-zero.md) 🆕
-  - [1697. 检查边长度限制的路径是否存在](./problems/1697.checking-existence-of-edge-length-limited-paths.md)
-  - [1737. 满足三条件之一需改变的最少字符数](./problems/1737.change-minimum-characters-to-satisfy-one-of-three-conditions.md)
+  - [1658. 将 x 减到 0 的最小操作数](./problems/1658.minimum-operations-to-reduce-x-to-zero.md) 👍
+  - [1697. 检查边长度限制的路径是否存在](./problems/1697.checking-existence-of-edge-length-limited-paths.md) 👍
+  - [1737. 满足三条件之一需改变的最少字符数](./problems/1737.change-minimum-characters-to-satisfy-one-of-three-conditions.md) 👍
 
 - [第六章 - 高频考题（困难）](collections/hard.md)
 
