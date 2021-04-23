@@ -177,9 +177,9 @@ leetcode 题解，记录自己的 leetcode 解题之路。
 
 以下是我列举的经典题目（带 91 字样的表示出自 **91 天学算法**活动）：
 
-- [面试题 17.12. BiNode](./problems/binode-lcci.md)
-- [0001. 两数之和](./problems/1.two-sum.md) 👍
-- [0020. 有效的括号](./problems/20.valid-parentheses.md) 👍
+- [面试题 17.12. BiNode](./problems/binode-lcci.md) 👍
+- [0001. 两数之和](./problems/1.two-sum.md)
+- [0020. 有效的括号](./problems/20.valid-parentheses.md)
 - [0021. 合并两个有序链表](./problems/21.merge-two-sorted-lists.md)
 - [0026. 删除排序数组中的重复项](./problems/26.remove-duplicates-from-sorted-array.md)
 - [0053. 最大子序和](./problems/53.maximum-sum-subarray-cn.md)
@@ -190,29 +190,29 @@ leetcode 题解，记录自己的 leetcode 解题之路。
 - [0108. 将有序数组转换为二叉搜索树](./problems/108.convert-sorted-array-to-binary-search-tree.md)
 - [0121. 买卖股票的最佳时机](./problems/121.best-time-to-buy-and-sell-stock.md)
 - [0122. 买卖股票的最佳时机 II](./problems/122.best-time-to-buy-and-sell-stock-ii.md)
-- [0125. 验证回文串](./problems/125.valid-palindrome.md) 👍
+- [0125. 验证回文串](./problems/125.valid-palindrome.md)
 - [0136. 只出现一次的数字](./problems/136.single-number.md)
 
 <details>
 
 <summary> :point_right::point_right::point_right:展开全部:point_left::point_left::point_left:</summary>
 
-- [0155. 最小栈](./problems/155.min-stack.md)
+- [0155. 最小栈](./problems/155.min-stack.md) 👍
 - [0160. 相交链表](./problems/160.Intersection-of-Two-Linked-Lists.md) 91
 - [0167. 两数之和 II 输入有序数组](./problems/167.two-sum-ii-input-array-is-sorted.md)
 - [0169. 多数元素](./problems/169.majority-element.md)
 - [0172. 阶乘后的零](./problems/172.factorial-trailing-zeroes.md)
 - [0190. 颠倒二进制位](./problems/190.reverse-bits.md)
-- [0191. 位 1 的个数](./problems/191.number-of-1-bits.md) 👍
+- [0191. 位 1 的个数](./problems/191.number-of-1-bits.md)
 - [0198. 打家劫舍](./problems/198.house-robber.md)
 - [0203. 移除链表元素](./problems/203.remove-linked-list-elements.md)
 - [0206. 反转链表](./problems/206.reverse-linked-list.md)
 - [0219. 存在重复元素 II](./problems/219.contains-duplicate-ii.md)
 - [0226. 翻转二叉树](./problems/226.invert-binary-tree.md)
-- [0232. 用栈实现队列](./problems/232.implement-queue-using-stacks.md) 91
+- [0232. 用栈实现队列](./problems/232.implement-queue-using-stacks.md) 👍 91
 - [0263. 丑数](./problems/263.ugly-number.md)
 - [0283. 移动零](./problems/283.move-zeroes.md)
-- [0342. 4 的幂](./problems/342.power-of-four.md)
+- [0342. 4 的幂](./problems/342.power-of-four.md) 👍
 - [0349. 两个数组的交集](./problems/349.intersection-of-two-arrays.md)
 - [0371. 两整数之和](./problems/371.sum-of-two-integers.md)
 - [401. 二进制手表](./problems/401.binary-watch.md)
@@ -247,11 +247,11 @@ leetcode 题解，记录自己的 leetcode 解题之路。
 - [Bus Fare](./problems/Bus-Fare.md) 🆕 👍
 - [Minimum Dropping Path Sum](./problems/Minimum-Dropping-Path-Sum.md) 🆕
 
-- [0002. 两数相加](./problems/2.add-two-numbers.md) 👍
+- [0002. 两数相加](./problems/2.add-two-numbers.md)
 - [0003. 无重复字符的最长子串](./problems/3.longest-substring-without-repeating-characters.md)
 - [0005. 最长回文子串](./problems/5.longest-palindromic-substring.md)
 - [0011. 盛最多水的容器](./problems/11.container-with-most-water.md)
-- [0015. 三数之和](./problems/15.3sum.md) 👍
+- [0015. 三数之和](./problems/15.3sum.md)
 - [0017. 电话号码的字母组合](./problems/17.Letter-Combinations-of-a-Phone-Number.md)
 - [0019. 删除链表的倒数第 N 个节点](./problems/19.removeNthNodeFromEndofList.md)
 - [0022. 括号生成](./problems/22.generate-parentheses.md)
@@ -261,14 +261,14 @@ leetcode 题解，记录自己的 leetcode 解题之路。
 - [0033. 搜索旋转排序数组](./problems/33.search-in-rotated-sorted-array.md)
 - [0039. 组合总和](./problems/39.combination-sum.md)
 - [0040. 组合总和 II](./problems/40.combination-sum-ii.md)
-- [0046. 全排列](./problems/46.permutations.md) 👍
+- [0046. 全排列](./problems/46.permutations.md)
 - [0047. 全排列 II](./problems/47.permutations-ii.md)
 - [0048. 旋转图像](./problems/48.rotate-image.md)
 - [0049. 字母异位词分组](./problems/49.group-anagrams.md)
-- [0050. Pow(x, n)](./problems/50.pow-x-n.md)
+- [0050. Pow(x, n)](./problems/50.pow-x-n.md) 👍
 - [0055. 跳跃游戏](./problems/55.jump-game.md)
 - [0056. 合并区间](./problems/56.merge-intervals.md)
-- [0060. 第 k 个排列](./problems/60.permutation-sequence.md)
+- [0060. 第 k 个排列](./problems/60.permutation-sequence.md) 👍
 - [0061. 旋转链表](./problems/61.Rotate-List.md) 91
 - [0062. 不同路径](./problems/62.unique-paths.md)
 - [0073. 矩阵置零](./problems/73.set-matrix-zeroes.md)
@@ -276,7 +276,7 @@ leetcode 题解，记录自己的 leetcode 解题之路。
 <details>
 <summary> :point_right::point_right::point_right:展开全部:point_left::point_left::point_left:</summary>
 
-- [0075. 颜色分类](./problems/75.sort-colors.md)
+- [0075. 颜色分类](./problems/75.sort-colors.md) 👍
 - [0078. 子集](./problems/78.subsets.md)
 - [0079. 单词搜索](./problems/79.word-search.md)
 - [0080. 删除排序数组中的重复项 II](./problems/80.remove-duplicates-from-sorted-array-ii.md)
@@ -291,7 +291,7 @@ leetcode 题解，记录自己的 leetcode 解题之路。
 - [0102. 二叉树的层序遍历](./problems/102.binary-tree-level-order-traversal.md)
 - [0103. 二叉树的锯齿形层次遍历](./problems/103.binary-tree-zigzag-level-order-traversal.md)
 - [0113. 路径总和 II](./problems/113.path-sum-ii.md)
-- [0129. 求根到叶子节点数字之和](./problems/129.sum-root-to-leaf-numbers.md)
+- [0129. 求根到叶子节点数字之和](./problems/129.sum-root-to-leaf-numbers.md) 👍
 - [0130. 被围绕的区域](./problems/130.surrounded-regions.md)
 - [0131. 分割回文串](./problems/131.palindrome-partitioning.md)
 - [0139. 单词拆分](./problems/139.word-break.md)
@@ -301,11 +301,11 @@ leetcode 题解，记录自己的 leetcode 解题之路。
 - [0152. 乘积最大子数组](./problems/152.maximum-product-subarray.md)
 - [0153. 寻找旋转排序数组中的最小值](./problems/153.find-minimum-in-rotated-sorted-array.md) 🆕
 - [0199. 二叉树的右视图](./problems/199.binary-tree-right-side-view.md) 👍
-- [0200. 岛屿数量](./problems/200.number-of-islands.md)
+- [0200. 岛屿数量](./problems/200.number-of-islands.md) 👍
 - [0201. 数字范围按位与](./problems/201.bitwise-and-of-numbers-range.md)
 - [0208. 实现 Trie (前缀树)](./problems/208.implement-trie-prefix-tree.md)
 - [0209. 长度最小的子数组](./problems/209.minimum-size-subarray-sum.md)
-- [0211. 添加与搜索单词 \* 数据结构设计](./problems/211.add-and-search-word-data-structure-design.md)
+- [0211. 添加与搜索单词 - 数据结构设计](./problems/211.add-and-search-word-data-structure-design.md)
 - [0215. 数组中的第 K 个最大元素](./problems/215.kth-largest-element-in-an-array.md)
 - [0220. 存在重复元素 III](./problems/220.contains-duplicate-iii.md)
 - [0221. 最大正方形](./problems/221.maximal-square.md)
