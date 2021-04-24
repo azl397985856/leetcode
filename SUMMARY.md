@@ -96,6 +96,7 @@
 
   - [面试题 17.09. 第 k 个数](./problems/get-kth-magic-number-lcci.md)
   - [面试题 17.23. 最大黑方阵](./problems/max-black-square-lcci.md)🆕
+  - [面试题 16.16. 部分排序](./problems/sub-sort-lcci.md) 🆕
   - [Increasing Digits](./problems/Increasing-Digits.md) 👍 🆕
   - [Longest Contiguously Strictly Increasing Sublist After Deletion](./problems/Longest-Contiguously-Strictly-Increasing-Sublist-After-Deletion.md) 👍 🆕
   - [Consecutive Wins](./problems/consecutive-wins.md) 🆕
