@@ -47,7 +47,7 @@
 
 - [第四章 - 高频考题（简单）](collections/easy.md)
 
-  - [面试题 17.12. BiNode](problems/binode-lcci.md)
+  - [面试题 17.12. BiNode](problems/binode-lcci.md) 👍
   - [0001. 两数之和](problems/1.two-sum.md)
   - [0020. 有效的括号](problems/20.valid-parentheses.md)
   - [0021. 合并两个有序链表](problems/21.merge-two-sorted-lists.md)
@@ -97,7 +97,7 @@
   - [面试题 17.09. 第 k 个数](./problems/get-kth-magic-number-lcci.md)
   - [面试题 17.23. 最大黑方阵](./problems/max-black-square-lcci.md)🆕
   - [面试题 16.16. 部分排序](./problems/sub-sort-lcci.md) 🆕
-  - [Increasing Digits](./problems/Increasing-Digits.md) 👍 🆕
+  - [Increasing Digits](./problems/Increasing-Digits.md) 👍
   - [Longest Contiguously Strictly Increasing Sublist After Deletion](./problems/Longest-Contiguously-Strictly-Increasing-Sublist-After-Deletion.md) 👍 🆕
   - [Consecutive Wins](./problems/consecutive-wins.md) 🆕
   - [Number of Substrings with Single Character Difference](./problems/Number-of-Substrings-with-Single-Character-Difference.md) 🆕
