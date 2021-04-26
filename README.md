@@ -330,6 +330,7 @@ leetcode 题解，记录自己的 leetcode 解题之路。
 - [0394. 字符串解码](./problems/394.decode-string.md) 91
 - [0416. 分割等和子集](./problems/416.partition-equal-subset-sum.md)
 - [0424. 替换后的最长重复字符](./problems/424.longest-repeating-character-replacement.md)
+- [0438. 找到字符串中所有字母异位词](./problems/438.find-all-anagrams-in-a-string.md) 🆕
 - [0445. 两数相加 II](./problems/445.add-two-numbers-ii.md)
 - [0454. 四数相加 II](./problems/454.4-sum-ii.md)
 - [0456. 132 模式](./problems/456.132-pattern.md) 🆕
