@@ -265,6 +265,7 @@
   - [0042. 接雨水](./problems/42.trapping-rain-water.md)
   - [0052. N 皇后 II](./problems/52.N-Queens-II.md)
   - [0057. 插入区间](problems/57.insert-interval.md)
+  - [0065. 有效数字](problems/65.valid-number.md) 🆕
   - [0084. 柱状图中最大的矩形](./problems/84.largest-rectangle-in-histogram.md)
   - [0085. 最大矩形](./problems/85.maximal-rectangle.md)
   - [0087. 扰乱字符串](./problems/87.scramble-string.md) 🆕
