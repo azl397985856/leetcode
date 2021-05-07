@@ -286,8 +286,8 @@
   - [0335. 路径交叉](./problems/335.self-crossing.md)
   - [0460. LFU 缓存](./problems/460.lfu-cache.md)
   - [0472. 连接词](./problems/472.concatenated-words.md)
-  - [0480. 滑动窗口中位数](./problems/480.sliding-window-median.md) 🆕
-  - [0483. 最小好进制](./problems/483.smallest-good-base.md) 🆕
+  - [0480. 滑动窗口中位数](./problems/480.sliding-window-median.md)
+  - [0483. 最小好进制](./problems/483.smallest-good-base.md)
   - [0488. 祖玛游戏](./problems/488.zuma-game.md)
   - [0493. 翻转对](./problems/493.reverse-pairs.md)
   - [0679. 24 点游戏](./problems/679.24-game.md) 🆕
@@ -301,16 +301,17 @@
   - [0995. K 连续位的最小翻转次数](./problems/995.minimum-number-of-k-consecutive-bit-flips.md) 🆕
   - [1032. 字符流](./problems/1032.stream-of-characters.md)
   - [1168. 水资源分配优化](./problems/1168.optimize-water-distribution-in-a-village.md)
-  - [1178. 猜字谜](./problems/1178.number-of-valid-words-for-each-puzzle.md) 🆕
+  - [1178. 猜字谜](./problems/1178.number-of-valid-words-for-each-puzzle.md)
   - [1203. 项目管理](./problems/1203.sort-items-by-groups-respecting-dependencies.md) 🆕
   - [1255. 得分最高的单词集合](./problems/1255.maximum-score-words-formed-by-letters.md)
   - [1345. 跳跃游戏 IV](./problems/1435.jump-game-iv.md)
   - [1449. 数位成本和为目标值的最大数字](./problems/1449.form-largest-integer-with-digits-that-add-up-to-target.md)
-  - [1494. 并行课程 II](./problems/1494.parallel-courses-ii.md) 🆕
+  - [1494. 并行课程 II](./problems/1494.parallel-courses-ii.md)
   - [1521. 找到最接近目标值的函数值](./problems/1521.find-a-value-of-a-mysterious-function-closest-to-target.md)
   - [1526. 形成目标数组的子数组最少增加次数](./problems/1526.minimum-number-of-increments-on-subarrays-to-form-a-target-array.md)
   - [1649. 通过指令创建有序数组](./problems/1649.create-sorted-array-through-instructions.md)
   - [1671. 得到山形数组的最少删除次数](./problems/1671.minimum-number-of-removals-to-make-mountain-array.md)
   - [1707. 与数组中元素的最大异或值](./problems/5640.maximum-xor-with-an-element-from-array.md)
+  - [1835. 所有数对按位与结果的异或和](./problems/1835.find-xor-sum-of-all-pairs-bitwise-and.md) 🆕
 
 - [后序](epilogue.md)
