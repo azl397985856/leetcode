@@ -398,7 +398,7 @@ leetcode 题解，记录自己的 leetcode 解题之路。
 - [1658. 将 x 减到 0 的最小操作数](./problems/1658.minimum-operations-to-reduce-x-to-zero.md) 🆕
 - [1697. 检查边长度限制的路径是否存在](./problems/1697.checking-existence-of-edge-length-limited-paths.md) 🆕
 - [1737. 满足三条件之一需改变的最少字符数](./problems/1737.change-minimum-characters-to-satisfy-one-of-three-conditions.md) 🆕
-
+- [1834. 单线程 CPU](./problems/1834.single-threaded-cpu.md) 🆕
 </details>
 
 ### 困难难度题目合集
