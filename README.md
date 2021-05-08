@@ -494,6 +494,7 @@ leetcode 题解，记录自己的 leetcode 解题之路。
 - [1649. 通过指令创建有序数组](./problems/1649.create-sorted-array-through-instructions.md)
 - [1671. 得到山形数组的最少删除次数](./problems/1671.minimum-number-of-removals-to-make-mountain-array.md)
 - [1707. 与数组中元素的最大异或值](./problems/5640.maximum-xor-with-an-element-from-array.md)
+- [1723. 完成所有工作的最短时间](./problems/1723.find-minimum-time-to-finish-all-jobs.md) 🆕
 - [1835. 所有数对按位与结果的异或和](./problems/1835.find-xor-sum-of-all-pairs-bitwise-and.md) 🆕
 
 </details>
