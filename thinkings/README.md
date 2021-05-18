@@ -15,8 +15,8 @@
 - [树专题](tree.md)
 - [堆专题（上）](heap.md)
 - [堆专题（下）](heap-2.md)
-- [二分专题（上）](./thinkings/binary-search-1.md)
-- [二分专题（下）](./thinkings/binary-search-2.md) 🆕
+- [二分专题（上）](binary-search-1.md)
+- [二分专题（下）](binary-search-2.md) 🆕
 - [二叉树的遍历](binary-tree-traversal.md)
 - [动态规划](dynamic-programming.md)
 - [回溯](backtrack.md)
