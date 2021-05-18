@@ -73,7 +73,7 @@ function countSubArray(nums) {
     if (nums[i] - nums[i - 1] == 1) {
       pre += 1;
     } else {
-      pre = 0;
+      pre = 1;
     }
 
     ans += pre;
