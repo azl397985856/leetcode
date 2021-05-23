@@ -194,10 +194,6 @@ leetcode 题解，记录自己的 leetcode 解题之路。
 - [0125. 验证回文串](./problems/125.valid-palindrome.md)
 - [0136. 只出现一次的数字](./problems/136.single-number.md)
 
-<details>
-
-<summary> :point_right::point_right::point_right:展开全部:point_left::point_left::point_left:</summary>
-
 - [0155. 最小栈](./problems/155.min-stack.md) 👍
 - [0160. 相交链表](./problems/160.Intersection-of-Two-Linked-Lists.md) 91
 - [0167. 两数之和 II 输入有序数组](./problems/167.two-sum-ii-input-array-is-sorted.md)
@@ -227,8 +223,6 @@ leetcode 题解，记录自己的 leetcode 解题之路。
 - [1128. 等价多米诺骨牌对的数量](./problems/1128.number-of-equivalent-domino-pairs.md) 🆕
 - [1260. 二维网格迁移](./problems/1260.shift-2d-grid.md)
 - [1332. 删除回文子序列](./problems/1332.remove-palindromic-subsequences.md)
-
-</details>
 
 ### 中等难度题目合集
 
@@ -274,10 +268,6 @@ leetcode 题解，记录自己的 leetcode 解题之路。
 - [0061. 旋转链表](./problems/61.Rotate-List.md) 91
 - [0062. 不同路径](./problems/62.unique-paths.md)
 - [0073. 矩阵置零](./problems/73.set-matrix-zeroes.md)
-
-<details>
-<summary> :point_right::point_right::point_right:展开全部:point_left::point_left::point_left:</summary>
-
 - [0075. 颜色分类](./problems/75.sort-colors.md) 👍
 - [0078. 子集](./problems/78.subsets.md)
 - [0079. 单词搜索](./problems/79.word-search.md)
@@ -379,6 +369,7 @@ leetcode 题解，记录自己的 leetcode 解题之路。
 - [1031. 两个非重叠子数组的最大和](./problems/1031.maximum-sum-of-two-non-overlapping-subarrays.md)
 - [1043. 分隔数组以得到最大和](./problems/1043.partition-array-for-maximum-sum.md)
 - [1104. 二叉树寻路](./problems/1104.path-in-zigzag-labelled-binary-tree.md)
+- [1129. 颜色交替的最短路径](./problems/1129.shortest-path-with-alternating-colors.md)
 - [1131.绝对值表达式的最大值](./problems/1131.maximum-of-absolute-value-expression.md)
 - [1186. 删除一次得到子数组最大和](./problems/1186.maximum-subarray-sum-with-one-deletion.md)
 - [1218. 最长定差子序列](./problems/1218.longest-arithmetic-subsequence-of-given-difference.md)
@@ -399,7 +390,6 @@ leetcode 题解，记录自己的 leetcode 解题之路。
 - [1697. 检查边长度限制的路径是否存在](./problems/1697.checking-existence-of-edge-length-limited-paths.md) 🆕
 - [1737. 满足三条件之一需改变的最少字符数](./problems/1737.change-minimum-characters-to-satisfy-one-of-three-conditions.md) 🆕
 - [1834. 单线程 CPU](./problems/1834.single-threaded-cpu.md) 🆕
-</details>
 
 ### 困难难度题目合集
 
@@ -462,9 +452,6 @@ leetcode 题解，记录自己的 leetcode 解题之路。
 - [0312. 戳气球](./problems/312.burst-balloons.md)
 - [330. 按要求补齐数组](./problems/330.patching-array.md)
 
-<details>
-<summary> :point_right::point_right::point_right:展开全部:point_left::point_left::point_left:</summary>
-
 - [0335. 路径交叉](./problems/335.self-crossing.md)
 - [0460. LFU 缓存](./problems/460.lfu-cache.md)
 - [0472. 连接词](./problems/472.concatenated-words.md)
@@ -497,8 +484,7 @@ leetcode 题解，记录自己的 leetcode 解题之路。
 - [1707. 与数组中元素的最大异或值](./problems/5640.maximum-xor-with-an-element-from-array.md)
 - [1723. 完成所有工作的最短时间](./problems/1723.find-minimum-time-to-finish-all-jobs.md) 🆕
 - [1835. 所有数对按位与结果的异或和](./problems/1835.find-xor-sum-of-all-pairs-bitwise-and.md) 🆕
-
-</details>
+  >
 
 ## :trident: &nbsp;anki 卡片
 
