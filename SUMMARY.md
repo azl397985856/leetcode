@@ -229,6 +229,7 @@
   - [1031. 两个非重叠子数组的最大和](./problems/1031.maximum-sum-of-two-non-overlapping-subarrays.md)
   - [1043. 分隔数组以得到最大和](./problems/1043.partition-array-for-maximum-sum.md) 👍
   - [1104. 二叉树寻路](./problems/1104.path-in-zigzag-labelled-binary-tree.md) 👍
+  - [1129. 颜色交替的最短路径](./problems/1129.shortest-path-with-alternating-colors.md)
   - [1131.绝对值表达式的最大值](./problems/1131.maximum-of-absolute-value-expression.md) 👍
   - [1186. 删除一次得到子数组最大和](./problems/1186.maximum-subarray-sum-with-one-deletion.md) 👍
   - [1218. 最长定差子序列](./problems/1218.longest-arithmetic-subsequence-of-given-difference.md) 👍
