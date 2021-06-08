@@ -85,7 +85,6 @@ leetcode 题解，记录自己的 leetcode 解题之路。
 
 ## :meat_on_bone:仓库食用指南
 
-- 对于最近添加的部分， 后面会有 🆕 标注
 - 对于最近更新的部分， 后面会有 🖊 标注
 - 这里有一张互联网公司面试中经常考察的问题类型总结的思维导图，我们可以结合图片中的信息分析一下。
 
@@ -116,11 +115,11 @@ leetcode 题解，记录自己的 leetcode 解题之路。
 - [链表专题](./thinkings/linked-list.md)
 - [树专题](./thinkings/tree.md)
 - [堆专题（上）](./thinkings/heap.md)
-- [堆专题（下）](./thinkings/heap-2.md) 🆕
-- [二分专题（上）](./thinkings/binary-search-1.md) 🆕
-- [二分专题（下）](./thinkings/binary-search-2.md) 🆕
+- [堆专题（下）](./thinkings/heap-2.md)
+- [二分专题（上）](./thinkings/binary-search-1.md)
+- [二分专题（下）](./thinkings/binary-search-2.md)
 <!-- - [基础算法](./thinkings/basic-algorithm.md) -->
-- [动态规划(重置版)](./thinkings/dynamic-programming.md) 🆕
+- [动态规划(重置版)](./thinkings/dynamic-programming.md)
 - [二叉树的遍历](./thinkings/binary-tree-traversal.md)
 - [回溯](./thinkings/backtrack.md)
 - [哈夫曼编码和游程编码](./thinkings/run-length-encode-and-huffman-encode.md)
@@ -134,8 +133,8 @@ leetcode 题解，记录自己的 leetcode 解题之路。
 - [最大公约数](./thinkings/GCD.md)
 - [并查集](./thinkings/union-find.md)
 - [平衡二叉树专题](./thinkings/balanced-tree.md)
-- [蓄水池抽样](./thinkings/reservoid-sampling.md) 🆕
-- [单调栈](./thinkings/monotone-stack.md) 🆕
+- [蓄水池抽样](./thinkings/reservoid-sampling.md)
+- [单调栈](./thinkings/monotone-stack.md)
 
 ## 精选题解
 
@@ -215,12 +214,12 @@ leetcode 题解，记录自己的 leetcode 解题之路。
 - [401. 二进制手表](./problems/401.binary-watch.md)
 - [0437. 路径总和 III](./problems/437.path-sum-iii.md)
 - [0455. 分发饼干](./problems/455.AssignCookies.md)
-- [0504. 七进制数](./problems/504.base-7.md) 🆕
+- [0504. 七进制数](./problems/504.base-7.md)
 - [0575. 分糖果](./problems/575.distribute-candies.md)
-- [0665. 非递减数列](./problems/665.non-decreasing-array.md) 🆕
+- [0665. 非递减数列](./problems/665.non-decreasing-array.md)
 - [821. 字符的最短距离](./problems/821.shortest-distance-to-a-character.md) 91
 - [0874. 模拟行走机器人](./problems/874.walking-robot-simulation.md)
-- [1128. 等价多米诺骨牌对的数量](./problems/1128.number-of-equivalent-domino-pairs.md) 🆕
+- [1128. 等价多米诺骨牌对的数量](./problems/1128.number-of-equivalent-domino-pairs.md)
 - [1260. 二维网格迁移](./problems/1260.shift-2d-grid.md)
 - [1332. 删除回文子序列](./problems/1332.remove-palindromic-subsequences.md)
 
@@ -234,14 +233,15 @@ leetcode 题解，记录自己的 leetcode 解题之路。
 
 - [面试题 17.09. 第 k 个数](./problems/get-kth-magic-number-lcci.md)
 - [面试题 17.23. 最大黑方阵](./problems/max-black-square-lcci.md)
-- [面试题 16.16. 部分排序](./problems/sub-sort-lcci.md) 🆕
+- [面试题 16.16. 部分排序](./problems/sub-sort-lcci.md)
 - [Increasing Digits](./problems/Increasing-Digits.md) 👍
 - [Longest Contiguously Strictly Increasing Sublist After Deletion](./problems/Longest-Contiguously-Strictly-Increasing-Sublist-After-Deletion.md) 👍
-- [Consecutive Wins](./problems/consecutive-wins.md) 🆕
-- [Sort-String-by-Flipping](./problems/Sort-String-by-Flipping.md) 🆕
-- [Number of Substrings with Single Character Difference](./problems/Number-of-Substrings-with-Single-Character-Difference.md) 🆕
-- [Bus Fare](./problems/Bus-Fare.md) 🆕 👍
-- [Minimum Dropping Path Sum](./problems/Minimum-Dropping-Path-Sum.md) 🆕
+- [Consecutive Wins](./problems/consecutive-wins.md)
+- [Sort-String-by-Flipping](./problems/Sort-String-by-Flipping.md)
+- [Number of Substrings with Single Character Difference](./problems/Number-of-Substrings-with-Single-Character-Difference.md)
+- [Bus Fare](./problems/Bus-Fare.md) 👍
+- [Minimum Dropping Path Sum](./problems/Minimum-Dropping-Path-Sum.md)
+- [Longest-Matrix-Path-Length](./problems/Longest-Matrix-Path-Length.md)
 
 - [0002. 两数相加](./problems/2.add-two-numbers.md)
 - [0003. 无重复字符的最长子串](./problems/3.longest-substring-without-repeating-characters.md)
@@ -288,10 +288,10 @@ leetcode 题解，记录自己的 leetcode 解题之路。
 - [0131. 分割回文串](./problems/131.palindrome-partitioning.md)
 - [0139. 单词拆分](./problems/139.word-break.md)
 - [0144. 二叉树的前序遍历](./problems/144.binary-tree-preorder-traversal.md)
-- [0147. 对链表进行插入排序](./problems/147.insertion-sort-list.md) 🆕
+- [0147. 对链表进行插入排序](./problems/147.insertion-sort-list.md)
 - [0150. 逆波兰表达式求值](./problems/150.evaluate-reverse-polish-notation.md)
 - [0152. 乘积最大子数组](./problems/152.maximum-product-subarray.md)
-- [0153. 寻找旋转排序数组中的最小值](./problems/153.find-minimum-in-rotated-sorted-array.md) 🆕
+- [0153. 寻找旋转排序数组中的最小值](./problems/153.find-minimum-in-rotated-sorted-array.md)
 - [0199. 二叉树的右视图](./problems/199.binary-tree-right-side-view.md) 👍
 - [0200. 岛屿数量](./problems/200.number-of-islands.md) 👍
 - [0201. 数字范围按位与](./problems/201.bitwise-and-of-numbers-range.md)
@@ -321,17 +321,17 @@ leetcode 题解，记录自己的 leetcode 解题之路。
 - [0394. 字符串解码](./problems/394.decode-string.md) 91
 - [0416. 分割等和子集](./problems/416.partition-equal-subset-sum.md)
 - [0424. 替换后的最长重复字符](./problems/424.longest-repeating-character-replacement.md)
-- [0438. 找到字符串中所有字母异位词](./problems/438.find-all-anagrams-in-a-string.md) 🆕
+- [0438. 找到字符串中所有字母异位词](./problems/438.find-all-anagrams-in-a-string.md)
 - [0445. 两数相加 II](./problems/445.add-two-numbers-ii.md)
 - [0454. 四数相加 II](./problems/454.4-sum-ii.md)
-- [0456. 132 模式](./problems/456.132-pattern.md) 🆕
+- [0456. 132 模式](./problems/456.132-pattern.md)
 - [0464. 我能赢么](./problems/464.can-i-win.md)
-- [0473. 火柴拼正方形](./problems/473.matchsticks-to-square.md) 🆕 👍
+- [0473. 火柴拼正方形](./problems/473.matchsticks-to-square.md) 👍
 - [0494. 目标和](./problems/494.target-sum.md)
 - [0516. 最长回文子序列](./problems/516.longest-palindromic-subsequence.md)
 - [0513. 找树左下角的值](./problems/513.find-bottom-left-tree-value.md) 91
 - [0518. 零钱兑换 II](./problems/518.coin-change-2.md)
-- [0525. 连续数组](./problems/525.contiguous-array.md) 🆕
+- [0525. 连续数组](./problems/525.contiguous-array.md)
 - [0547. 朋友圈](./problems/547.friend-circles.md)
 - [0560. 和为 K 的子数组](./problems/560.subarray-sum-equals-k.md)
 - [0609. 在系统中查找重复文件](./problems/609.find-duplicate-file-in-system.md)
@@ -340,15 +340,15 @@ leetcode 题解，记录自己的 leetcode 解题之路。
 - [0686. 重复叠加字符串匹配](./problems/686.repeated-string-match.md)
 - [0718. 最长重复子数组](./problems/718.maximum-length-of-repeated-subarray.md)
 - [0714. 买卖股票的最佳时机含手续费](./problems/714.best-time-to-buy-and-sell-stock-with-transaction-fee.md)
-- [0735. 行星碰撞](./problems/735.asteroid-collision.md) 🆕
+- [0735. 行星碰撞](./problems/735.asteroid-collision.md)
 - [0754. 到达终点数字](./problems/754.reach-a-number.md)
 - [0785. 判断二分图](./problems/785.is-graph-bipartite.md)
 - [0790. 多米诺和托米诺平铺](./problems/790.domino-and-tromino-tiling.md)
-- [0799. 香槟塔](./problems/799.champagne-tower.md) 🆕
+- [0799. 香槟塔](./problems/799.champagne-tower.md)
 - [0801. 使序列递增的最小交换次数](./problems/801.minimum-swaps-to-make-sequences-increasing.md)
 - [0816. 模糊坐标](./problems/816.ambiguous-coordinates.md)
 - [0820. 单词的压缩编码](./problems/820.short-encoding-of-words.md)
-- [0873. 最长的斐波那契子序列的长度](./problems/873.length-of-longest-fibonacci-subsequence.md) 🆕
+- [0873. 最长的斐波那契子序列的长度](./problems/873.length-of-longest-fibonacci-subsequence.md)
 - [0875. 爱吃香蕉的珂珂](./problems/875.koko-eating-bananas.md)
 - [0877. 石子游戏](./problems/877.stone-game.md)
 - [0886. 可能的二分法](./problems/886.possible-bipartition.md)
@@ -384,15 +384,15 @@ leetcode 题解，记录自己的 leetcode 解题之路。
 - [1334. 阈值距离内邻居最少的城市](./problems/1334.find-the-city-with-the-smallest-number-of-neighbors-at-a-threshold-distance.md)
 - [1371.每个元音包含偶数次的最长子字符串](./problems/1371.find-the-longest-substring-containing-vowels-in-even-counts.md)
 - [1381. 设计一个支持增量操作的栈](./problems/1381.design-a-stack-with-increment-operation.md) 91
-- [1423. 可获得的最大点数](./problems/1423.maximum-points-you-can-obtain-from-cards.md) 🆕
+- [1423. 可获得的最大点数](./problems/1423.maximum-points-you-can-obtain-from-cards.md)
 - [1438. 绝对差不超过限制的最长连续子数组](./problems/1438.longest-continuous-subarray-with-absolute-diff-less-than-or-equal-to-limit.md)
 - [1558. 得到目标数组的最少函数调用次数](./problems/1558.minimum-numbers-of-function-calls-to-make-target-array.md)
 - [1574. 删除最短的子数组使剩余数组有序](./problems/1574.shortest-subarray-to-be-removed-to-make-array-sorted.md)
 - [1631. 最小体力消耗路径](./problems/1631.path-with-minimum-effort.md)
-- [1658. 将 x 减到 0 的最小操作数](./problems/1658.minimum-operations-to-reduce-x-to-zero.md) 🆕
-- [1697. 检查边长度限制的路径是否存在](./problems/1697.checking-existence-of-edge-length-limited-paths.md) 🆕
-- [1737. 满足三条件之一需改变的最少字符数](./problems/1737.change-minimum-characters-to-satisfy-one-of-three-conditions.md) 🆕
-- [1834. 单线程 CPU](./problems/1834.single-threaded-cpu.md) 🆕
+- [1658. 将 x 减到 0 的最小操作数](./problems/1658.minimum-operations-to-reduce-x-to-zero.md)
+- [1697. 检查边长度限制的路径是否存在](./problems/1697.checking-existence-of-edge-length-limited-paths.md)
+- [1737. 满足三条件之一需改变的最少字符数](./problems/1737.change-minimum-characters-to-satisfy-one-of-three-conditions.md)
+- [1834. 单线程 CPU](./problems/1834.single-threaded-cpu.md)
 
 ### 困难难度题目合集
 
@@ -420,13 +420,14 @@ leetcode 题解，记录自己的 leetcode 解题之路。
 
 以下是我列举的经典题目（带 91 字样的表示出自 **91 天学算法**活动）：
 
-- [LCP 20. 快速公交](./problems/lcp20.meChtZ.md) 🆕
-- [LCP 21. 追逐游戏](./problems/lcp21.Za25hA.md) 🆕 👍
-- [Number Stream to Intervals](./problems/Number-Stream-to-Intervals.md) 🆕
+- [LCP 20. 快速公交](./problems/lcp20.meChtZ.md)
+- [LCP 21. 追逐游戏](./problems/lcp21.Za25hA.md) 👍
+- [Number Stream to Intervals](./problems/Number-Stream-to-Intervals.md)
 - [Triple Inversion](./problems/Triple-Inversion.md) 91
 - [Kth Pair Distance](./problems/Kth-Pair-Distance.md) 91
 - [Minimum Light Radius](./problems/Minimum-Light-Radius.md) 91
-- [Largest Equivalent Set of Pairs](./problems/Largest-Equivalent-Set-of-Pairs.md) 🆕 👍
+- [Largest Equivalent Set of Pairs](./problems/Largest-Equivalent-Set-of-Pairs.md) 👍
+- [Ticket-Order.md](./problemsTicket-Order.md)
 
 - [0004. 寻找两个正序数组的中位数](./problems/4.median-of-two-sorted-arrays.md) 👍
 - [0023. 合并 K 个升序链表](./problems/23.merge-k-sorted-lists.md)
@@ -436,17 +437,17 @@ leetcode 题解，记录自己的 leetcode 解题之路。
 - [0042. 接雨水](./problems/42.trapping-rain-water.md)
 - [0052. N 皇后 II](./problems/52.N-Queens-II.md)
 - [0057. 插入区间](problems/57.insert-interval.md)
-- [0065. 有效数字](problems/65.valid-number.md) 🆕
+- [0065. 有效数字](problems/65.valid-number.md)
 - [0084. 柱状图中最大的矩形](./problems/84.largest-rectangle-in-histogram.md)
 - [0085. 最大矩形](./problems/85.maximal-rectangle.md)
-- [0087. 扰乱字符串](./problems/87.scramble-string.md) 🆕
+- [0087. 扰乱字符串](./problems/87.scramble-string.md)
 - [0124. 二叉树中的最大路径和](./problems/124.binary-tree-maximum-path-sum.md)
 - [0128. 最长连续序列](./problems/128.longest-consecutive-sequence.md)
 - [0132. 分割回文串 II](./problems/132.palindrome-partitioning-ii.md) 👍
 - [0140. 单词拆分 II](problems/140.word-break-ii.md)
 - [0145. 二叉树的后序遍历](./problems/145.binary-tree-postorder-traversal.md)
 - [0146. LRU 缓存机制](./problems/146.lru-cache.md)
-- [0154. 寻找旋转排序数组中的最小值 II](./problems/154.find-minimum-in-rotated-sorted-array-ii.md) 🆕
+- [0154. 寻找旋转排序数组中的最小值 II](./problems/154.find-minimum-in-rotated-sorted-array-ii.md)
 - [0212. 单词搜索 II](./problems/212.word-search-ii.md)
 - [0239. 滑动窗口最大值](./problems/239.sliding-window-maximum.md) 👍
 - [0295. 数据流的中位数](./problems/295.find-median-from-data-stream.md)
@@ -462,21 +463,21 @@ leetcode 题解，记录自己的 leetcode 解题之路。
 - [0483. 最小好进制](./problems/483.smallest-good-base.md)
 - [0488. 祖玛游戏](./problems/488.zuma-game.md)
 - [0493. 翻转对](./problems/493.reverse-pairs.md)
-- [0664. 奇怪的打印机](./problems/664.strange-printer.md) 🆕
-- [0679. 24 点游戏](./problems/679.24-game.md) 🆕
-- [0715. Range 模块](./problems/715.range-module.md) 🆕
+- [0664. 奇怪的打印机](./problems/664.strange-printer.md)
+- [0679. 24 点游戏](./problems/679.24-game.md)
+- [0715. Range 模块](./problems/715.range-module.md)
 - [0768. 最多能完成排序的块 II](./problems/768.max-chunks-to-make-sorted-ii.md) 91
 - [0805. 数组的均值分割](./problems/805.split-array-with-same-average.md)
 - [0839. 相似字符串组](./problems/839.similar-string-groups.md)
 - [0887. 鸡蛋掉落](./problems/887.super-egg-drop.md)
 - [0895. 最大频率栈](./problems/895.maximum-frequency-stack.md)
-- [0909. 蛇梯棋](./problems/909.snakes-and-ladders.md) 🆕
-- [0975. 奇偶跳](./problems/975.odd-even-jump.md) 🆕
-- [0995. K 连续位的最小翻转次数](./problems/995.minimum-number-of-k-consecutive-bit-flips.md) 🆕
+- [0909. 蛇梯棋](./problems/909.snakes-and-ladders.md)
+- [0975. 奇偶跳](./problems/975.odd-even-jump.md)
+- [0995. K 连续位的最小翻转次数](./problems/995.minimum-number-of-k-consecutive-bit-flips.md)
 - [1032. 字符流](./problems/1032.stream-of-characters.md)
 - [1168. 水资源分配优化](./problems/1168.optimize-water-distribution-in-a-village.md)
 - [1178. 猜字谜](./problems/1178.number-of-valid-words-for-each-puzzle.md)
-- [1203. 项目管理](./problems/1203.sort-items-by-groups-respecting-dependencies.md) 🆕
+- [1203. 项目管理](./problems/1203.sort-items-by-groups-respecting-dependencies.md)
 - [1255. 得分最高的单词集合](./problems/1255.maximum-score-words-formed-by-letters.md)
 - [1345. 跳跃游戏 IV](./problems/1435.jump-game-iv.md)
 - [1449. 数位成本和为目标值的最大数字](./problems/1449.form-largest-integer-with-digits-that-add-up-to-target.md)
@@ -486,10 +487,10 @@ leetcode 题解，记录自己的 leetcode 解题之路。
 - [1649. 通过指令创建有序数组](./problems/1649.create-sorted-array-through-instructions.md)
 - [1671. 得到山形数组的最少删除次数](./problems/1671.minimum-number-of-removals-to-make-mountain-array.md)
 - [1707. 与数组中元素的最大异或值](./problems/5640.maximum-xor-with-an-element-from-array.md)
-- [1723. 完成所有工作的最短时间](./problems/1723.find-minimum-time-to-finish-all-jobs.md) 🆕
-- [1787. 使所有区间的异或结果为零](./problems/1787.make-the-xor-of-all-segments-equal-to-zero.md) 🆕
-- [1835. 所有数对按位与结果的异或和](./problems/1835.find-xor-sum-of-all-pairs-bitwise-and.md) 🆕
-- [5775. 准时抵达会议现场的最小跳过休息次数](./problems/5775.minimum-skips-to-arrive-at-meeting-on-time.md) 🆕
+- [1723. 完成所有工作的最短时间](./problems/1723.find-minimum-time-to-finish-all-jobs.md)
+- [1787. 使所有区间的异或结果为零](./problems/1787.make-the-xor-of-all-segments-equal-to-zero.md)
+- [1835. 所有数对按位与结果的异或和](./problems/1835.find-xor-sum-of-all-pairs-bitwise-and.md)
+- [5775. 准时抵达会议现场的最小跳过休息次数](./problems/5775.minimum-skips-to-arrive-at-meeting-on-time.md)
 
 ## :trident: &nbsp;anki 卡片
 
