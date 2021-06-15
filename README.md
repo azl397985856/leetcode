@@ -54,8 +54,9 @@ https://github.com/fe-lucifer/fanqiang
 ![](https://tva1.sinaimg.cn/large/008i3skNly1gq0mm4lscqj313h0r0diy.jpg)
 
 - [第四期即将开始报名](https://leetcode-solution.cn/91) 🔥🔥🔥🔥
-- [第一期讲义-二分法](./91/binary-search.md)
-- [第一期讲义-双指针](./91/two-pointers.md)
+- [91 第三期讲义 - 二分专题（上）](./thinkings/binary-search-1.md)
+- [91 第三期讲义 - 二分专题（下）](./thinkings/binary-search-2.md)
+- [91 第一期讲义 - 双指针](./91/two-pointers.md)
 
 ## 刷题群
 
@@ -427,7 +428,8 @@ leetcode 题解，记录自己的 leetcode 解题之路。
 - [Kth Pair Distance](./problems/Kth-Pair-Distance.md) 91
 - [Minimum Light Radius](./problems/Minimum-Light-Radius.md) 91
 - [Largest Equivalent Set of Pairs](./problems/Largest-Equivalent-Set-of-Pairs.md) 👍
-- [Ticket-Order.md](./problemsTicket-Order.md)
+- [Ticket-Order.md](./problems/Ticket-Order.md)
+- [Connected-Road-to-Destination](./problems/Connected-Road-to-Destination.md)
 
 - [0004. 寻找两个正序数组的中位数](./problems/4.median-of-two-sorted-arrays.md) 👍
 - [0023. 合并 K 个升序链表](./problems/23.merge-k-sorted-lists.md)
