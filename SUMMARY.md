@@ -262,6 +262,8 @@
   - [Kth-Pair-Distance](./problems/Kth-Pair-Distance.md) 91
   - [Minimum-Light-Radius](./problems/Minimum-Light-Radius.md) 91
   - [Largest Equivalent Set of Pairs](./problems/Largest-Equivalent-Set-of-Pairs.md) 🆕 👍
+  - [Ticket-Order.md](./problems/Ticket-Order.md)
+  - [Connected-Road-to-Destination](./problems/Connected-Road-to-Destination.md)
   - [0004. 寻找两个正序数组的中位数](./problems/4.median-of-two-sorted-arrays.md)
   - [0023. 合并 K 个升序链表](./problems/23.merge-k-sorted-lists.md)
   - [0025. K 个一组翻转链表](./problems/25.reverse-nodes-in-k-groups.md)
