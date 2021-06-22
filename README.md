@@ -493,6 +493,7 @@ leetcode 题解，记录自己的 leetcode 解题之路。
 - [1723. 完成所有工作的最短时间](./problems/1723.find-minimum-time-to-finish-all-jobs.md)
 - [1787. 使所有区间的异或结果为零](./problems/1787.make-the-xor-of-all-segments-equal-to-zero.md)
 - [1835. 所有数对按位与结果的异或和](./problems/1835.find-xor-sum-of-all-pairs-bitwise-and.md)
+- [1871. 跳跃游戏 VII](./problems/1871.jump-game-vii.md) 👍
 - [1872. 石子游戏 VIII](./problems/1872.stone-game-viii.md)
 - [1883. 准时抵达会议现场的最小跳过休息次数](./problems/5775.minimum-skips-to-arrive-at-meeting-on-time.md)
 
