@@ -253,6 +253,7 @@
   - [1737. 满足三条件之一需改变的最少字符数](./problems/1737.change-minimum-characters-to-satisfy-one-of-three-conditions.md) 👍
   - [1834. 单线程 CPU](./problems/1834.single-threaded-cpu.md) 🆕
   - [1899. 合并若干三元组以形成目标三元组](./problems/1899.merge-triplets-to-form-target-triplet.md) 👍
+  - [1904. 你完成的完整对局数](./problems/1904.the-number-of-full-rounds-you-have-played.md)
   - [1906. 查询差绝对值的最小值](./problems/1906.minimum-absolute-difference-queries.md)
 
 - [第六章 - 高频考题（困难）](collections/hard.md)
