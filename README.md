@@ -319,6 +319,7 @@ leetcode 题解，记录自己的 leetcode 解题之路。
 - [0365. 水壶问题](./problems/365.water-and-jug-problem.md)
 - [0378. 有序矩阵中第 K 小的元素](./problems/378.kth-smallest-element-in-a-sorted-matrix.md)
 - [0380. 常数时间插入、删除和获取随机元素](./problems/380.insert-delete-getrandom-o1.md)
+- [0385. 迷你语法分析器](./problems/385.mini-parser.md)
 - [0394. 字符串解码](./problems/394.decode-string.md) 91
 - [0416. 分割等和子集](./problems/416.partition-equal-subset-sum.md)
 - [0424. 替换后的最长重复字符](./problems/424.longest-repeating-character-replacement.md)
@@ -389,6 +390,7 @@ leetcode 题解，记录自己的 leetcode 解题之路。
 - [1438. 绝对差不超过限制的最长连续子数组](./problems/1438.longest-continuous-subarray-with-absolute-diff-less-than-or-equal-to-limit.md)
 - [1558. 得到目标数组的最少函数调用次数](./problems/1558.minimum-numbers-of-function-calls-to-make-target-array.md)
 - [1574. 删除最短的子数组使剩余数组有序](./problems/1574.shortest-subarray-to-be-removed-to-make-array-sorted.md)
+- [1589. 所有排列中的最大和](./problems/1589.maximum-sum-obtained-of-any-permutation.md)
 - [1631. 最小体力消耗路径](./problems/1631.path-with-minimum-effort.md)
 - [1658. 将 x 减到 0 的最小操作数](./problems/1658.minimum-operations-to-reduce-x-to-zero.md)
 - [1697. 检查边长度限制的路径是否存在](./problems/1697.checking-existence-of-edge-length-limited-paths.md)
