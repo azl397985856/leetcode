@@ -50,7 +50,7 @@ If you want to do some contributions or collaborations, just feel free to contac
 
 ## Usage Instructions
 
-- For the parts that were added recently, there will be a 🆕 behind.
+- For the parts that were added recently, there will be a behind.
 - For the parts that were updated recently, there will be a 🖊 behind.
 - Here will be the place to update Anki Flashcards in the future as well.
 - Here is a mind mapping graph showing the summary of categorizations of problems that are questioned frequently in interviews. We could analyze according to the information in the graph.
@@ -99,7 +99,7 @@ The data structures mainly include:
 #### Easy (Translation in Progress)
 
 - [0001.TwoSum](./problems/1.two-sum.en.md)🆕
-- [0053.maximum-sum-subarray](./problems/53.maximum-sum-subarray-en.md) 🆕
+- [0053.maximum-sum-subarray](./problems/53.maximum-sum-subarray-en.md)
 - [0198.house-robber](./problems/198.house-robber.en.md)🆕
 - [0501.find-mode-in-binary-search-tree](./problems/501.Find-Mode-in-Binary-Search-Tree-en.md)🆕
 
@@ -113,18 +113,18 @@ The data structures mainly include:
 
 * [0474.ones-and-zeros](./problems/474.ones-and-zeros-en.md)
 
-* [0547.friend-circles](./problems/547.friend-circles-en.md) 🆕
+* [0547.friend-circles](./problems/547.friend-circles-en.md)
 * [0560.subarray-sum-equals-k](./problems/560.subarray-sum-equals-k.en.md)
 
-* [1011.capacity-to-ship-packages-within-d-days](./problems/1011.capacity-to-ship-packages-within-d-days-en.md) 🆕
+* [1011.capacity-to-ship-packages-within-d-days](./problems/1011.capacity-to-ship-packages-within-d-days-en.md)
 
-* [1371.find-the-longest-substring-containing-vowels-in-even-counts](./problems/1371.find-the-longest-substring-containing-vowels-in-even-counts.en.md) 🆕
+* [1371.find-the-longest-substring-containing-vowels-in-even-counts](./problems/1371.find-the-longest-substring-containing-vowels-in-even-counts.en.md)
 
 #### Hard (Translation in Progress)
 
-- [0025.reverse-nodes-in-k-group](./problems/25.reverse-nodes-in-k-groups-en.md) 🆕
+- [0025.reverse-nodes-in-k-group](./problems/25.reverse-nodes-in-k-groups-en.md)
 - [0042.trapping-rain-water](./problems/42.trapping-rain-water.en.md)🆕
-- [1168.optimize-water-distribution-in-a-village](./problems/1168.optimize-water-distribution-in-a-village-en.md) 🆕
+- [1168.optimize-water-distribution-in-a-village](./problems/1168.optimize-water-distribution-in-a-village-en.md)
 
 ### Summary of Data Structures and Algorithm
 
@@ -136,7 +136,7 @@ The data structures mainly include:
 - [Bloom Filter](./thinkings/bloom-filter-en.md)
 - [String Problems](./thinkings/string-problems-en.md)
 - [Sliding Window Technique](./thinkings/slide-window.en.md)
-- [Trie](./thinkings/trie.en.md) 🆕
+- [Trie](./thinkings/trie.en.md)
 
 ### Anki Flashcards
 

@@ -58,7 +58,7 @@ leetcode 题解，记录自己的 leetcode 解题之路。
 
 ## 仓库食用指南
 
-- 对于最近添加的部分， 后面会有 🆕 标注
+- 对于最近添加的部分， 后面会有 标注
 - 对于最近更新的部分， 后面会有 🖊 标注
 - 这里有一张互联网公司面试中经常考察的问题类型总结的思维导图，我们可以结合图片中的信息分析一下。
 
@@ -86,10 +86,10 @@ leetcode 题解，记录自己的 leetcode 解题之路。
 ## 数据结构与算法的总结(25 篇)
 
 - [数据结构总览](./thinkings/basic-data-structure.md)
-- [链表专题](./thinkings/linked-list.md) 🆕
-- [树专题](./thinkings/tree.md) 🆕
+- [链表专题](./thinkings/linked-list.md)
+- [树专题](./thinkings/tree.md)
 - [堆专题（上）](./thinkings/heap.md)
-- [堆专题（下）](./thinkings/heap-2.md) 🆕
+- [堆专题（下）](./thinkings/heap-2.md)
 <!-- - [基础算法](./thinkings/basic-algorithm.md) -->
 - [二叉树的遍历](./thinkings/binary-tree-traversal.md)
 - [动态规划](./thinkings/dynamic-programming.md)
@@ -105,8 +105,8 @@ leetcode 题解，记录自己的 leetcode 解题之路。
 - [最大公约数](./thinkings/GCD.md)
 - [并查集](./thinkings/union-find.md)
 - [平衡二叉树专题](./thinkings/balanced-tree.md)
-- [蓄水池抽样](./thinkings/reservoid-sampling.md) 🆕
-- [单调栈](./thinkings/monotone-stack.md) 🆕
+- [蓄水池抽样](./thinkings/reservoid-sampling.md)
+- [单调栈](./thinkings/monotone-stack.md)
 
 ## 精选题解（9 篇）
 
@@ -198,12 +198,12 @@ leetcode 题解，记录自己的 leetcode 解题之路。
 - [401. 二进制手表](./problems/401.binary-watch.md)
 - [0437. 路径总和 III](./problems/437.path-sum-iii.md)
 - [0455. 分发饼干](./problems/455.AssignCookies.md)
-- [0504. 七进制数](./problems/504.base-7.md) 🆕
+- [0504. 七进制数](./problems/504.base-7.md)
 - [0575. 分糖果](./problems/575.distribute-candies.md)
-- [0665. 非递减数列](./problems/665.non-decreasing-array.md) 🆕
+- [0665. 非递减数列](./problems/665.non-decreasing-array.md)
 - [821. 字符的最短距离](./problems/821.shortest-distance-to-a-character.md) 91
 - [0874. 模拟行走机器人](./problems/874.walking-robot-simulation.md)
-- [1128. 等价多米诺骨牌对的数量](./problems/1128.number-of-equivalent-domino-pairs.md) 🆕
+- [1128. 等价多米诺骨牌对的数量](./problems/1128.number-of-equivalent-domino-pairs.md)
 - [1260. 二维网格迁移](./problems/1260.shift-2d-grid.md)
 - [1332. 删除回文子序列](./problems/1332.remove-palindromic-subsequences.md)
 
@@ -216,9 +216,9 @@ leetcode 题解，记录自己的 leetcode 解题之路。
 以下是我列举的经典题目（带 91 字样的表示出自 **91 天学算法**活动）：
 
 - [面试题 17.09. 第 k 个数](./problems/get-kth-magic-number-lcci.md)
-- [面试题 17.23. 最大黑方阵](./problems/max-black-square-lcci.md) 🆕
-- [Increasing Digits](./problems/Increasing-Digits.md) 👍 🆕
-- [Longest Contiguously Strictly Increasing Sublist After Deletion](./problems/Longest-Contiguously-Strictly-Increasing-Sublist-After-Deletion.md) 👍 🆕
+- [面试题 17.23. 最大黑方阵](./problems/max-black-square-lcci.md)
+- [Increasing Digits](./problems/Increasing-Digits.md) 👍
+- [Longest Contiguously Strictly Increasing Sublist After Deletion](./problems/Longest-Contiguously-Strictly-Increasing-Sublist-After-Deletion.md) 👍
 
 - [0002. 两数相加](./problems/2.add-two-numbers.md) 👍
 - [0003. 无重复字符的最长子串](./problems/3.longest-substring-without-repeating-characters.md)
@@ -265,7 +265,7 @@ leetcode 题解，记录自己的 leetcode 解题之路。
 - [0131. 分割回文串](./problems/131.palindrome-partitioning.md)
 - [0139. 单词拆分](./problems/139.word-break.md)
 - [0144. 二叉树的前序遍历](./problems/144.binary-tree-preorder-traversal.md)
-- [0147. 对链表进行插入排序](./problems/147.insertion-sort-list.md) 🆕
+- [0147. 对链表进行插入排序](./problems/147.insertion-sort-list.md)
 - [0150. 逆波兰表达式求值](./problems/150.evaluate-reverse-polish-notation.md)
 - [0152. 乘积最大子数组](./problems/152.maximum-product-subarray.md)
 - [0199. 二叉树的右视图](./problems/199.binary-tree-right-side-view.md) 👍
@@ -275,9 +275,9 @@ leetcode 题解，记录自己的 leetcode 解题之路。
 - [0209. 长度最小的子数组](./problems/209.minimum-size-subarray-sum.md)
 - [0211. 添加与搜索单词 \* 数据结构设计](./problems/211.add-and-search-word-data-structure-design.md)
 - [0215. 数组中的第 K 个最大元素](./problems/215.kth-largest-element-in-an-array.md)
-- [0220. 存在重复元素 III](./problems/220.contains-duplicate-iii.md) 🆕
+- [0220. 存在重复元素 III](./problems/220.contains-duplicate-iii.md)
 - [0221. 最大正方形](./problems/221.maximal-square.md)
-- [0227. 基本计算器 II](./problems/227.basic-calculator-ii.md) 🆕
+- [0227. 基本计算器 II](./problems/227.basic-calculator-ii.md)
 - [0229. 求众数 II](./problems/229.majority-element-ii.md)
 - [0230. 二叉搜索树中第 K 小的元素](./problems/230.kth-smallest-element-in-a-bst.md)
 - [0236. 二叉树的最近公共祖先](./problems/236.lowest-common-ancestor-of-a-binary-tree.md)
@@ -287,7 +287,7 @@ leetcode 题解，记录自己的 leetcode 解题之路。
 - [0309. 最佳买卖股票时机含冷冻期](./problems/309.best-time-to-buy-and-sell-stock-with-cooldown.md)
 - [0322. 零钱兑换](./problems/322.coin-change.md) 👍
 - [0328. 奇偶链表](./problems/328.odd-even-linked-list.md)
-- [0331. 验证二叉树的前序序列化](./problems/328.odd-even-linked-list.md) 🆕
+- [0331. 验证二叉树的前序序列化](./problems/328.odd-even-linked-list.md)
 - [0334. 递增的三元子序列](./problems/334.increasing-triplet-subsequence.md)
 - [0337. 打家劫舍 III](./problems/337.house-robber-iii.md)
 - [0343. 整数拆分](./problems/343.integer-break.md)
@@ -296,7 +296,7 @@ leetcode 题解，记录自己的 leetcode 解题之路。
 - [0380. 常数时间插入、删除和获取随机元素](./problems/380.insert-delete-getrandom-o1.md)
 - [0394. 字符串解码](./problems/394.decode-string.md) 91
 - [0416. 分割等和子集](./problems/416.partition-equal-subset-sum.md)
-- [0424. 替换后的最长重复字符](./problems/424.longest-repeating-character-replacement.md) 🆕
+- [0424. 替换后的最长重复字符](./problems/424.longest-repeating-character-replacement.md)
 - [0445. 两数相加 II](./problems/445.add-two-numbers-ii.md)
 - [0454. 四数相加 II](./problems/454.4-sum-ii.md)
 - [0464. 我能赢么](./problems/464.can-i-win.md)
@@ -311,12 +311,12 @@ leetcode 题解，记录自己的 leetcode 解题之路。
 - [0673. 最长递增子序列的个数](./problems/673.number-of-longest-increasing-subsequence.md)
 - [0686. 重复叠加字符串匹配](./problems/686.repeated-string-match.md)
 - [0718. 最长重复子数组](./problems/718.maximum-length-of-repeated-subarray.md)
-- [0714. 买卖股票的最佳时机含手续费](./problems/714.best-time-to-buy-and-sell-stock-with-transaction-fee.md) 🆕
+- [0714. 买卖股票的最佳时机含手续费](./problems/714.best-time-to-buy-and-sell-stock-with-transaction-fee.md)
 - [0754. 到达终点数字](./problems/754.reach-a-number.md)
 - [0785. 判断二分图](./problems/785.is-graph-bipartite.md)
 - [0790. 多米诺和托米诺平铺](./problems/790.domino-and-tromino-tiling.md)
-- [0799. 香槟塔](./problems/799.champagne-tower.md) 🆕
-- [0801. 使序列递增的最小交换次数](./problems/801.minimum-swaps-to-make-sequences-increasing.md) 🆕
+- [0799. 香槟塔](./problems/799.champagne-tower.md)
+- [0801. 使序列递增的最小交换次数](./problems/801.minimum-swaps-to-make-sequences-increasing.md)
 - [0816. 模糊坐标](./problems/816.ambiguous-coordinates.md)
 - [0820. 单词的压缩编码](./problems/820.short-encoding-of-words.md)
 - [0875. 爱吃香蕉的珂珂](./problems/875.koko-eating-bananas.md)
@@ -326,13 +326,13 @@ leetcode 题解，记录自己的 leetcode 解题之路。
 - [0900. RLE 迭代器](./problems/900.rle-iterator.md)
 - [0911. 在线选举](./problems/911.online-election.md)
 - [0912. 排序数组](./problems/912.sort-an-array.md)
-- [0932. 漂亮数组](./problems/932.beautiful-array.md) 🆕
+- [0932. 漂亮数组](./problems/932.beautiful-array.md)
 - [0935. 骑士拨号器](./problems/935.knight-dialer.md)
 - [0947. 移除最多的同行或同列石头](./problems/947.most-stones-removed-with-same-row-or-column.md)
-- [0959. 由斜杠划分区域](./problems/959.regions-cut-by-slashes.md) 🆕
+- [0959. 由斜杠划分区域](./problems/959.regions-cut-by-slashes.md)
 - [0978. 最长湍流子数组](./problems/978.longest-turbulent-subarray.md)
 - [0987. 二叉树的垂序遍历](./problems/987.vertical-order-traversal-of-a-binary-tree.md) 91
-- [1004. 最大连续 1 的个数 III](./problems/1004.max-consecutive-ones-iii.md) 🆕
+- [1004. 最大连续 1 的个数 III](./problems/1004.max-consecutive-ones-iii.md)
 - [1011. 在 D 天内送达包裹的能力](./problems/1011.capacity-to-ship-packages-within-d-days.md)
 - [1014. 最佳观光组合](./problems/1014.best-sightseeing-pair.md)
 - [1015. 可被 K 整除的最小整数](./problems/1015.smallest-integer-divisible-by-k.md)
@@ -340,7 +340,7 @@ leetcode 题解，记录自己的 leetcode 解题之路。
 - [1020. 飞地的数量](./problems/1020.number-of-enclaves.md)
 - [1023. 驼峰式匹配](./problems/1023.camelcase-matching.md)
 - [1031. 两个非重叠子数组的最大和](./problems/1031.maximum-sum-of-two-non-overlapping-subarrays.md)
-- [1043. 分隔数组以得到最大和](./problems/1043.partition-array-for-maximum-sum.md) 🆕
+- [1043. 分隔数组以得到最大和](./problems/1043.partition-array-for-maximum-sum.md)
 - [1104. 二叉树寻路](./problems/1104.path-in-zigzag-labelled-binary-tree.md)
 - [1131.绝对值表达式的最大值](./problems/1131.maximum-of-absolute-value-expression.md)
 - [1186. 删除一次得到子数组最大和](./problems/1186.maximum-subarray-sum-with-one-deletion.md)
@@ -353,13 +353,13 @@ leetcode 题解，记录自己的 leetcode 解题之路。
 - [1334. 阈值距离内邻居最少的城市](./problems/1334.find-the-city-with-the-smallest-number-of-neighbors-at-a-threshold-distance.md)
 - [1371.每个元音包含偶数次的最长子字符串](./problems/1371.find-the-longest-substring-containing-vowels-in-even-counts.md)
 - [1381. 设计一个支持增量操作的栈](./problems/1381.design-a-stack-with-increment-operation.md) 91
-- [1438. 绝对差不超过限制的最长连续子数组](./problems/1438.longest-continuous-subarray-with-absolute-diff-less-than-or-equal-to-limit.md) 🆕
-- [1558. 得到目标数组的最少函数调用次数](./problems/1558.minimum-numbers-of-function-calls-to-make-target-array.md) 🆕
-- [1574. 删除最短的子数组使剩余数组有序](./problems/1574.shortest-subarray-to-be-removed-to-make-array-sorted.md) 🆕
+- [1438. 绝对差不超过限制的最长连续子数组](./problems/1438.longest-continuous-subarray-with-absolute-diff-less-than-or-equal-to-limit.md)
+- [1558. 得到目标数组的最少函数调用次数](./problems/1558.minimum-numbers-of-function-calls-to-make-target-array.md)
+- [1574. 删除最短的子数组使剩余数组有序](./problems/1574.shortest-subarray-to-be-removed-to-make-array-sorted.md)
 - [1631. 最小体力消耗路径](./problems/1631.path-with-minimum-effort.md)
-- [1658. 将 x 减到 0 的最小操作数](./problems/1658.minimum-operations-to-reduce-x-to-zero.md) 🆕
-- [1697. 检查边长度限制的路径是否存在](./problems/1697.checking-existence-of-edge-length-limited-paths.md) 🆕
-- [1737. 满足三条件之一需改变的最少字符数](./problems/1737.change-minimum-characters-to-satisfy-one-of-three-conditions.md) 🆕
+- [1658. 将 x 减到 0 的最小操作数](./problems/1658.minimum-operations-to-reduce-x-to-zero.md)
+- [1697. 检查边长度限制的路径是否存在](./problems/1697.checking-existence-of-edge-length-limited-paths.md)
+- [1737. 满足三条件之一需改变的最少字符数](./problems/1737.change-minimum-characters-to-satisfy-one-of-three-conditions.md)
 
 ### 困难难度题目合集
 
@@ -387,8 +387,8 @@ leetcode 题解，记录自己的 leetcode 解题之路。
 
 以下是我列举的经典题目（带 91 字样的表示出自 **91 天学算法**活动）：
 
-- [LCP 20. 快速公交](./problems/lcp20.meChtZ.md) 🆕
-- [Number Stream to Intervals](./problems/Number-Stream-to-Intervals.md) 🆕
+- [LCP 20. 快速公交](./problems/lcp20.meChtZ.md)
+- [Number Stream to Intervals](./problems/Number-Stream-to-Intervals.md)
 - [Triple-Inversion](./problems/Triple-Inversion.md) 91
 - [Kth-Pair-Distance](./problems/Kth-Pair-Distance.md) 91
 - [Minimum-Light-Radius](./problems/Minimum-Light-Radius.md) 91
@@ -419,27 +419,27 @@ leetcode 题解，记录自己的 leetcode 解题之路。
 - [0335. 路径交叉](./problems/335.self-crossing.md)
 - [0460. LFU 缓存](./problems/460.lfu-cache.md)
 - [0472. 连接词](./problems/472.concatenated-words.md)
-- [0480. 滑动窗口中位数](./problems/480.sliding-window-median.md) 🆕
-- [0483. 最小好进制](./problems/483.smallest-good-base.md) 🆕
+- [0480. 滑动窗口中位数](./problems/480.sliding-window-median.md)
+- [0483. 最小好进制](./problems/483.smallest-good-base.md)
 - [0488. 祖玛游戏](./problems/488.zuma-game.md)
 - [0493. 翻转对](./problems/493.reverse-pairs.md)
-- [0679. 24 点游戏](./problems/679.24-game.md) 🆕
-- [0715. Range 模块](./problems/715.range-module.md) 🆕
+- [0679. 24 点游戏](./problems/679.24-game.md)
+- [0715. Range 模块](./problems/715.range-module.md)
 - [0768. 最多能完成排序的块 II](./problems/768.max-chunks-to-make-sorted-ii.md) 91
 - [0805. 数组的均值分割](./problems/805.split-array-with-same-average.md)
 - [0839. 相似字符串组](./problems/839.similar-string-groups.md)
 - [0887. 鸡蛋掉落](./problems/887.super-egg-drop.md)
 - [0895. 最大频率栈](./problems/895.maximum-frequency-stack.md)
-- [0975. 奇偶跳](./problems/975.odd-even-jump.md) 🆕
-- [0995. K 连续位的最小翻转次数](./problems/995.minimum-number-of-k-consecutive-bit-flips.md) 🆕
+- [0975. 奇偶跳](./problems/975.odd-even-jump.md)
+- [0995. K 连续位的最小翻转次数](./problems/995.minimum-number-of-k-consecutive-bit-flips.md)
 - [1032. 字符流](./problems/1032.stream-of-characters.md)
 - [1168. 水资源分配优化](./problems/1168.optimize-water-distribution-in-a-village.md)
-- [1178. 猜字谜](./problems/1178.number-of-valid-words-for-each-puzzle.md) 🆕
-- [1203. 项目管理](./problems/1203.sort-items-by-groups-respecting-dependencies.md) 🆕
+- [1178. 猜字谜](./problems/1178.number-of-valid-words-for-each-puzzle.md)
+- [1203. 项目管理](./problems/1203.sort-items-by-groups-respecting-dependencies.md)
 - [1255. 得分最高的单词集合](./problems/1255.maximum-score-words-formed-by-letters.md)
 - [1345. 跳跃游戏 IV](./problems/1435.jump-game-iv.md)
 - [1449. 数位成本和为目标值的最大数字](./problems/1449.form-largest-integer-with-digits-that-add-up-to-target.md)
-- [1494. 并行课程 II](./problems/1494.parallel-courses-ii.md) 🆕
+- [1494. 并行课程 II](./problems/1494.parallel-courses-ii.md)
 - [1521. 找到最接近目标值的函数值](./problems/1521.find-a-value-of-a-mysterious-function-closest-to-target.md)
 - [1526. 形成目标数组的子数组最少增加次数](./problems/1526.minimum-number-of-increments-on-subarrays-to-form-a-target-array.md)
 - [1649. 通过指令创建有序数组](./problems/1649.create-sorted-array-through-instructions.md)

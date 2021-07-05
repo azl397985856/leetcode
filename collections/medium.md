@@ -54,7 +54,7 @@
 - [0131. 分割回文串](../problems/131.palindrome-partitioning.md)
 - [0139. 单词拆分](../problems/139.word-break.md)
 - [0144. 二叉树的前序遍历](../problems/144.binary-tree-preorder-traversal.md)
-- [0147. 对链表进行插入排序](../problems/147.insertion-sort-list.md) 🆕
+- [0147. 对链表进行插入排序](../problems/147.insertion-sort-list.md)
 - [0150. 逆波兰表达式求值](../problems/150.evaluate-reverse-polish-notation.md)
 - [0152. 乘积最大子数组](../problems/152.maximum-product-subarray.md)
 - [0199. 二叉树的右视图](../problems/199.binary-tree-right-side-view.md)
@@ -94,20 +94,20 @@
 - [0560. 和为 K 的子数组](../problems/560.subarray-sum-equals-k.md)
 - [0609. 在系统中查找重复文件](../problems/609.find-duplicate-file-in-system.md)
 - [0611. 有效三角形的个数](../problems/611.valid-triangle-number.md)
-- [0686. 重复叠加字符串匹配](../problems/686.repeated-string-match.md) 🆕
+- [0686. 重复叠加字符串匹配](../problems/686.repeated-string-match.md)
 - [0718. 最长重复子数组](../problems/718.maximum-length-of-repeated-subarray.md)
 - [0754. 到达终点数字](../problems/754.reach-a-number.md)
 - [0785. 判断二分图](../problems/785.is-graph-bipartite.md)
-- [0816. 模糊坐标](../problems/816.ambiguous-coordinates.md) 🆕
+- [0816. 模糊坐标](../problems/816.ambiguous-coordinates.md)
 - [0820. 单词的压缩编码](../problems/820.short-encoding-of-words.md)
 - [0875. 爱吃香蕉的珂珂](../problems/875.koko-eating-bananas.md)
 - [0877. 石子游戏](../problems/877.stone-game.md)
 - [0886. 可能的二分法](../problems/886.possible-bipartition.md)
 - [0900. RLE 迭代器](../problems/900.rle-iterator.md)
-- [0911. 在线选举](../problems/911.online-election.md) 🆕
+- [0911. 在线选举](../problems/911.online-election.md)
 - [0912. 排序数组](../problems/912.sort-an-array.md)
 - [0935. 骑士拨号器](../problems/935.knight-dialer.md)
-- [0978. 最长湍流子数组](../problems/978.longest-turbulent-subarray.md) 🆕
+- [0978. 最长湍流子数组](../problems/978.longest-turbulent-subarray.md)
 - [0987. 二叉树的垂序遍历](../problems/987.vertical-order-traversal-of-a-binary-tree.md) 91
 - [1011. 在 D 天内送达包裹的能力](../problems/1011.capacity-to-ship-packages-within-d-days.md)
 - [1014. 最佳观光组合](../problems/1014.best-sightseeing-pair.md)
@@ -128,7 +128,7 @@
 - [1334. 阈值距离内邻居最少的城市](../problems/1334.find-the-city-with-the-smallest-number-of-neighbors-at-a-threshold-distance.md)
 - [1371.每个元音包含偶数次的最长子字符串](../problems/1371.find-the-longest-substring-containing-vowels-in-even-counts.md)
 - [1381. 设计一个支持增量操作的栈](../problems/1381.design-a-stack-with-increment-operation.md) 91
-- [1558. 得到目标数组的最少函数调用次数](../problems/1558.minimum-numbers-of-function-calls-to-make-target-array.md) 🆕
-- [1574. 删除最短的子数组使剩余数组有序](../problems/1574.shortest-subarray-to-be-removed-to-make-array-sorted.md) 🆕
-- [1631. 最小体力消耗路径](../problems/1631.path-with-minimum-effort.md) 🆕
-- [1658. 将 x 减到 0 的最小操作数](../problems/1658.minimum-operations-to-reduce-x-to-zero.md) 🆕
+- [1558. 得到目标数组的最少函数调用次数](../problems/1558.minimum-numbers-of-function-calls-to-make-target-array.md)
+- [1574. 删除最短的子数组使剩余数组有序](../problems/1574.shortest-subarray-to-be-removed-to-make-array-sorted.md)
+- [1631. 最小体力消耗路径](../problems/1631.path-with-minimum-effort.md)
+- [1658. 将 x 减到 0 的最小操作数](../problems/1658.minimum-operations-to-reduce-x-to-zero.md)

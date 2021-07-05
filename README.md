@@ -86,7 +86,6 @@ leetcode 题解，记录自己的 leetcode 解题之路。
 
 ## :meat_on_bone:仓库食用指南
 
-- 对于最近更新的部分， 后面会有 🖊 标注
 - 这里有一张互联网公司面试中经常考察的问题类型总结的思维导图，我们可以结合图片中的信息分析一下。
 
 ![leetcode-zhihu](https://tva1.sinaimg.cn/large/007S8ZIlly1ghluennxvrj30k00jx0te.jpg)
@@ -473,6 +472,7 @@ leetcode 题解，记录自己的 leetcode 解题之路。
 - [0664. 奇怪的打印机](./problems/664.strange-printer.md)
 - [0679. 24 点游戏](./problems/679.24-game.md)
 - [0715. Range 模块](./problems/715.range-module.md)
+- [0726. 原子的数量](./problems/726.number-of-atoms.md)
 - [0768. 最多能完成排序的块 II](./problems/768.max-chunks-to-make-sorted-ii.md) 91
 - [0805. 数组的均值分割](./problems/805.split-array-with-same-average.md)
 - [0839. 相似字符串组](./problems/839.similar-string-groups.md)
