@@ -471,7 +471,7 @@ leetcode 题解，记录自己的 leetcode 解题之路。
 - [0493. 翻转对](./problems/493.reverse-pairs.md)
 - [0664. 奇怪的打印机](./problems/664.strange-printer.md)
 - [0679. 24 点游戏](./problems/679.24-game.md)
-- [0715. Range 模块](./problems/715.range-module.md)
+- [0715. Range 模块](./problems/715.range-module.md) 👍
 - [0726. 原子的数量](./problems/726.number-of-atoms.md)
 - [0768. 最多能完成排序的块 II](./problems/768.max-chunks-to-make-sorted-ii.md) 91
 - [0805. 数组的均值分割](./problems/805.split-array-with-same-average.md)
