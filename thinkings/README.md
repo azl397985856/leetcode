@@ -16,7 +16,7 @@
 - [堆专题（上）](heap.md)
 - [堆专题（下）](heap-2.md)
 - [二分专题（上）](binary-search-1.md)
-- [二分专题（下）](binary-search-2.md) 🆕
+- [二分专题（下）](binary-search-2.md)
 - [二叉树的遍历](binary-tree-traversal.md)
 - [动态规划](dynamic-programming.md)
 - [回溯](backtrack.md)
@@ -31,5 +31,5 @@
 - [最大公约数](GCD.md)
 - [并查集](union-find.md)
 - [平衡二叉树专题](balanced-tree.md)
-- [蓄水池抽样](reservoid-sampling.md) 🆕
-- [单调栈](monotone-stack.md) 🆕
+- [蓄水池抽样](reservoid-sampling.md)
+- [单调栈](monotone-stack.md)
