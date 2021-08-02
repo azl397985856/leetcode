@@ -771,7 +771,14 @@ class Solution {
 
 再比如 [99. 恢复二叉搜索树](https://leetcode-cn.com/problems/recover-binary-search-tree/)，官方难度为困难。题目大意是`给你二叉搜索树的根节点 root ，该树中的两个节点被错误地交换。请在不改变其结构的情况下，恢复这棵树。` 我们可以先中序遍历发现不是递增的节点，他们就是被错误交换的节点，然后交换恢复即可。这道题难点就在于一点，即错误交换可能错误交换了中序遍历的相邻节点或者中序遍历的非相邻节点，这是两种 case，需要分别讨论。
 
-类似的题目很多，不再赘述。大家如果**碰到二叉搜索树的搜索类题目，一定先想下能不能利用这个性质来做。**
+类似的题目很多，不再赘述。练习的话大家可以做一下这几道题。
+
+- [94. 二叉树的中序遍历](https://leetcode-cn.com/problems/binary-tree-inorder-traversal/)
+- [98. 验证二叉搜索树](https://leetcode-cn.com/problems/validate-binary-search-tree/)
+- [173. 二叉搜索树迭代器](https://leetcode-cn.com/problems/binary-search-tree-iterator/)
+- [250. 统计同值子树](https://leetcode-cn.com/problems/count-univalue-subtrees/)
+
+大家如果**碰到二叉搜索树的搜索类题目，一定先想下能不能利用这个性质来做。**
 
 ### 完全二叉树
 
