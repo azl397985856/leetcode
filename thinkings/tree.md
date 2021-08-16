@@ -580,7 +580,7 @@ class Solution:
             # 叶子节点
             if cur and not cur.left and not cur.right:
                 if remain == cur.val:
-                    res.append((path + [cur.val]).copy())
+                    nodes.append((path + [cur.val]).copy())
                 return
             # 选择
             path.append(cur.val)
