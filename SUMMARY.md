@@ -331,5 +331,6 @@
   - [1871. 跳跃游戏 VII](./problems/1871.jump-game-vii.md) 👍
   - [1872. 石子游戏 VIII](./problems/1872.stone-game-viii.md)
   - [1883. 准时抵达会议现场的最小跳过休息次数](./problems/5775.minimum-skips-to-arrive-at-meeting-on-time.md)
+  - [1970. 你能穿过矩阵的最后一天](./problems/1970.last-day-where-you-can-still-cross.md)
 
 - [后序](epilogue.md)
