@@ -19,6 +19,14 @@
 
 我们的 slogon 是： **只有熟练掌握基础的数据结构与算法，才能对复杂问题迎刃有余。**
 
+## 🔥🔥🔥 我的新书《算法通关之路》限时五折优惠 🔥🔥🔥
+
+我的新书《算法通关之路》出版了。
+
+![](https://tva1.sinaimg.cn/large/008i3skNly1gu39d1zb7qj622g0u013a02.jpg)
+
+现在是预售。我争取了限时五折优惠给大家。另外我公众号《力扣加加》和《脑洞前端》还额外抽六本书免费送给大家。想入手的朋友现在入手非常划算，使用这个链接 https://u.jd.com/gKbUGbR 就可以购买了。
+
 ## :blue_book:电子书
 
 [在线阅读](https://leetcode-solution-leetcode-pp.gitbook.io/leetcode-solution/)
