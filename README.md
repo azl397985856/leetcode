@@ -25,7 +25,9 @@
 
 ![](https://tva1.sinaimg.cn/large/008i3skNly1gu39d1zb7qj622g0u013a02.jpg)
 
-现在是预售。我争取了限时五折优惠给大家。另外我公众号《力扣加加》和《脑洞前端》还额外抽六本书免费送给大家。想入手的朋友现在入手非常划算，使用这个链接 https://u.jd.com/gKbUGbR 就可以购买了。
+现在是预售。我争取了限时五折优惠给大家。另外我公众号《力扣加加》和《脑洞前端》还额外抽六本书免费送给大家。想入手的朋友现在入手非常划算，使用这个链接 https://u.jd.com/gKbUGbR 就可以购买了。大家也可以扫描下方二维码购买。
+
+![](https://tva1.sinaimg.cn/large/008i3skNly1gu3sf6szzij60dw0i2aax02.jpg)
 
 ## :blue_book:电子书
 
