@@ -338,6 +338,7 @@ leetcode 题解，记录自己的 leetcode 解题之路。
 - [0456. 132 模式](./problems/456.132-pattern.md)
 - [0457.457. 环形数组是否存在循环](./problems/457.circular-array-loop.md)
 - [0464. 我能赢么](./problems/464.can-i-win.md)
+- [0470. 用 Rand7() 实现 Rand10](./problems/470.implement-rand10-using-rand7.md)
 - [0473. 火柴拼正方形](./problems/473.matchsticks-to-square.md) 👍
 - [0494. 目标和](./problems/494.target-sum.md)
 - [0516. 最长回文子序列](./problems/516.longest-palindromic-subsequence.md)
