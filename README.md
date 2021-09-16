@@ -466,7 +466,7 @@ leetcode 题解，记录自己的 leetcode 解题之路。
 - [0145. 二叉树的后序遍历](./problems/145.binary-tree-postorder-traversal.md)
 - [0146. LRU 缓存机制](./problems/146.lru-cache.md)
 - [0154. 寻找旋转排序数组中的最小值 II](./problems/154.find-minimum-in-rotated-sorted-array-ii.md)
-- [0212. 单词搜索 II](./problems/212.word-search-ii.md)
+<!-- - [0212. 单词搜索 II](./problems/212.word-search-ii.md) -->
 - [0239. 滑动窗口最大值](./problems/239.sliding-window-maximum.md) 👍
 - [0295. 数据流的中位数](./problems/295.find-median-from-data-stream.md)
 - [0297. 二叉树的序列化与反序列化](./problems/297.serialize-and-deserialize-binary-tree.md) 91
