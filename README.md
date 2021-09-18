@@ -361,6 +361,7 @@ leetcode 题解，记录自己的 leetcode 解题之路。
 - [0801. 使序列递增的最小交换次数](./problems/801.minimum-swaps-to-make-sequences-increasing.md)
 - [0816. 模糊坐标](./problems/816.ambiguous-coordinates.md)
 - [0820. 单词的压缩编码](./problems/820.short-encoding-of-words.md)
+- [0838. 推多米诺](./problems/838.push-dominoes.md)
 - [0873. 最长的斐波那契子序列的长度](./problems/873.length-of-longest-fibonacci-subsequence.md)
 - [0875. 爱吃香蕉的珂珂](./problems/875.koko-eating-bananas.md)
 - [0877. 石子游戏](./problems/877.stone-game.md)
