@@ -294,32 +294,3 @@ Trie.prototype.startsWith = function(prefix) {
 最后给大家提供了两种语言的前缀树模板，大家如果需要用，直接将其封装成标准 API 调用即可。
 
 基于前缀树的题目变化通常不大， 使用模板就可以解决。如何知道该使用前缀树优化是一个难点，不过大家只要牢牢记一点即可，那就是**算法的复杂度瓶颈在字符串查找，并且字符串有很多公共前缀，就可以用前缀树优化**。
-
-## 扩展
-
-还有一种建树方法，我们简单介绍一下。
-
-我们可以用递归的方式来建树，每一个节点称为 TrieNode。
-
-TrieNode 接口如下：
-
-```py
-children: TrieNode[] # 子节点
-word: string # 当前节点结尾的单词
-```
-
-```py
-from collections import defaultdict
-class Trie:
-    def __init__(self):
-        self.children = defaultdict(Trie)
-        self.word = ""
-
-    def insert(self, word):
-        cur = self
-        for c in word:
-            cur = cur.children[c]
-        cur.word = word
-```
-
-这种方法在某些题目中比较有用，比如 [212. 单词搜索 II](https://github.com/azl397985856/leetcode/blob/master/problems/212.word-search-ii.md)。
