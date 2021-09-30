@@ -1,0 +1,79 @@
+/**
+ * Definition for singly-linked list.
+ * struct ListNode {
+ *     int val;
+ *     ListNode *next;
+ *     ListNode() : val(0), next(nullptr) {}
+ *     ListNode(int x) : val(x), next(nullptr) {}
+ *     ListNode(int x, ListNode *next) : val(x), next(next) {}
+ * };
+ */
+class Solution {
+public:
+    
+    ListNode* midNode(ListNode* head)
+    {
+        if(head->next==NULL || head->next->next==NULL)
+            return head;
+        ListNode* fast=head;
+        ListNode* slow=head;
+        cout<<head->val<<"\n";
+        while(fast->next!=NULL && fast->next->next!=NULL)
+        {
+            fast=fast->next->next;
+            slow=slow->next;
+        }
+        return slow;
+    }
+    
+    ListNode* merge(ListNode* l1,ListNode* l2)
+    {
+        if(l1==NULL)
+            return l2;
+        if(l2==NULL)
+            return l1;
+        ListNode* c1=l1;
+        ListNode* c2=l2;
+        
+        ListNode* dummy=new ListNode(-1);
+        ListNode* prev=dummy;
+        
+        while(c1!=NULL && c2!=NULL)
+        {
+            if(c1->val<c2->val)
+            {
+                prev->next=c1;
+                c1=c1->next;
+            }
+            else
+            {
+                prev->next=c2;
+                c2=c2->next;
+            }
+            prev=prev->next;
+        }
+        if(c1!=NULL)
+            prev->next=c1;
+        else
+            prev->next=c2;
+        
+        return dummy->next;
+    }
+    
+    ListNode* mergeSort(ListNode* head)
+    {
+        if(head==NULL || head->next==NULL)
+            return head;
+        
+        ListNode* mid=midNode(head);
+        
+        ListNode* nHead=mid->next;
+        mid->next=NULL;
+        return merge(mergeSort(head),mergeSort(nHead));
+    }
+    
+    ListNode* sortList(ListNode* head) 
+    {
+        return mergeSort(head);
+    }
+};
