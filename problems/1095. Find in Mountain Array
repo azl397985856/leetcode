@@ -1,0 +1,98 @@
+/**
+ * // This is the MountainArray's API interface.
+ * // You should not implement it, or speculate about its implementation
+ * class MountainArray {
+ *   public:
+ *     int get(int index);
+ *     int length();
+ * };
+ */
+
+class Solution
+{
+public:
+  int binary_search_incre(MountainArray &mountainArr, int start, int end, int target)
+  {
+    int mid;
+    while (start <= end)
+    {
+      mid = start + (end - start) / 2;
+      if (mountainArr.get(mid) == target)
+      {
+        return mid;
+      }
+      else if (mountainArr.get(mid) > target)
+      {
+        end = mid - 1;
+      }
+      else
+      {
+        start = mid + 1;
+      }
+    }
+    return -1;
+  }
+
+  int binary_search_decre(MountainArray &mountainArr, int start, int end, int target)
+  {
+    int mid;
+    while (start <= end)
+    {
+      mid = start + (end - start) / 2;
+      if (mountainArr.get(mid) == target)
+      {
+        return mid;
+      }
+      else if (mountainArr.get(mid) < target)
+      {
+        end = mid - 1;
+      }
+      else
+      {
+        start = mid + 1;
+      }
+    }
+    return -1;
+  }
+
+  int findPeakElement(MountainArray &mountainArr, int n)
+  {
+
+    int start = 0, end = n - 1, mid;
+    while (start < end)
+    {
+      mid = (start + end) / 2;
+      if (mountainArr.get(mid) > mountainArr.get(mid + 1))
+      {
+        end = mid;
+      }
+      else
+      {
+        start = mid + 1;
+      }
+    }
+    return start;
+  }
+
+  int findInMountainArray(int target, MountainArray &mountainArr)
+  {
+    int peak = findPeakElement(mountainArr, mountainArr.length());
+    int incre_part = binary_search_incre(mountainArr, 0, peak, target);
+    int decre_part = binary_search_decre(mountainArr, peak, mountainArr.length() - 1, target);
+    if (incre_part == -1 && decre_part == -1)
+    {
+      return -1;
+    }
+    else
+    {
+      if (incre_part > -1 && decre_part > -1)
+      {
+        return min(incre_part, decre_part);
+      }
+      else
+      {
+        return max(incre_part, decre_part);
+      }
+    }
+  }
+};
