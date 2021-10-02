@@ -237,6 +237,7 @@
   - [1104. 二叉树寻路](./problems/1104.path-in-zigzag-labelled-binary-tree.md) 👍
   - [1129. 颜色交替的最短路径](./problems/1129.shortest-path-with-alternating-colors.md)
   - [1131.绝对值表达式的最大值](./problems/1131.maximum-of-absolute-value-expression.md) 👍
+  - [1138. 字母板上的路径](./problems/1138.alphabet-board-path.md)
   - [1186. 删除一次得到子数组最大和](./problems/1186.maximum-subarray-sum-with-one-deletion.md) 👍
   - [1218. 最长定差子序列](./problems/1218.longest-arithmetic-subsequence-of-given-difference.md) 👍
   - [1227. 飞机座位分配概率](./problems/1227.airplane-seat-assignment-probability.md) 👍
