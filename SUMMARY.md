@@ -338,5 +338,6 @@
   - [1883. 准时抵达会议现场的最小跳过休息次数](./problems/5775.minimum-skips-to-arrive-at-meeting-on-time.md)
   - [1970. 你能穿过矩阵的最后一天](./problems/1970.last-day-where-you-can-still-cross.md)
   - [2009. 使数组连续的最少操作数](./problems/2009.minimum-number-of-operations-to-make-array-continuous.md)
+  - [2030. 含特定字母的最小子序列](./problems/2030.smallest-k-length-subsequence-with-occurrences-of-a-letter.md)
 
 - [后序](epilogue.md)
