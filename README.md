@@ -25,9 +25,9 @@
 
 ![](https://tva1.sinaimg.cn/large/008i3skNly1gu39d1zb7qj622g0u013a02.jpg)
 
-购买链接 https://u.jd.com/gKbUGbR 就可以购买了。大家也可以扫描下方二维码购买。
+购买链接 https://u.jd.com/DwxoZxZ 就可以购买了。大家也可以扫描下方二维码购买。
 
-![](https://tva1.sinaimg.cn/large/008i3skNly1gu3sf6szzij60dw0i2aax02.jpg)
+![](https://tva1.sinaimg.cn/large/008i3skNly1gvf3ok4og4j60dw0fa74z02.jpg)
 
 ## :blue_book:电子书
 
