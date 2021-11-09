@@ -201,6 +201,8 @@ for fr, to, w in times:
 
 > 以下所有的模板都是基于邻接矩阵建图。
 
+强烈建议大家学习完专题篇的搜索之后再来学习下面经典算法。大家可以拿几道普通的搜索题目测试下，如果能够做出来再往下学习。推荐题目：[最大化一张图中的路径价值](https://leetcode-cn.com/problems/maximum-path-quality-of-a-graph/ "最大化一张图中的路径价值")
+
 ### 最短距离，最短路径
 
 #### Dijkstra 算法
@@ -622,11 +624,11 @@ var Floyd-Warshall = function(graph, n){
 
 ```
 
-如果这道题你可以解决了，我再推荐一道题给你 [1617. 统计子树中城市之间最大距离](https://leetcode-cn.com/problems/count-subtrees-with-max-distance-between-cities/)，国际版有一个题解代码挺清晰，挺好理解的，只不过没有使用状态压缩性能不是很好罢了，地址：https://leetcode.com/problems/count-subtrees-with-max-distance-between-cities/discuss/1136596/Python-Floyd-Warshall-and-check-all-subtrees
+如果这道题你可以解决了，我再推荐一道题给你 [1617. 统计子树中城市之间最大距离](https://leetcode-cn.com/problems/count-subtrees-with-max-distance-between-cities/ "1617. 统计子树中城市之间最大距离")，国际版有一个题解代码挺清晰，挺好理解的，只不过没有使用状态压缩性能不是很好罢了，地址：https://leetcode.com/problems/count-subtrees-with-max-distance-between-cities/discuss/1136596/Python-Floyd-Warshall-and-check-all-subtrees
 
 图上的动态规划算法大家还可以拿这个题目来练习一下。
 
-- [787. K 站中转内最便宜的航班](https://leetcode-cn.com/problems/cheapest-flights-within-k-stops/)
+- [787. K 站中转内最便宜的航班](https://leetcode-cn.com/problems/cheapest-flights-within-k-stops/ "787. K 站中转内最便宜的航班")
 
 #### 贝尔曼-福特算法
 
@@ -694,11 +696,11 @@ const BellmanFord = (edges, startPoint)=>{
 
 推荐阅读：
 
-- [bellman-ford-algorithm](https://www.programiz.com/dsa/bellman-ford-algorithm)
+- [bellman-ford-algorithm](https://www.programiz.com/dsa/bellman-ford-algorithm "bellman-ford-algorithm")
 
 题目推荐：
 
-- [Best Currency Path](https://binarysearch.com/problems/Best-Currency-Path)
+- [Best Currency Path](https://binarysearch.com/problems/Best-Currency-Path "Best Currency Path")
 
 ### 拓扑排序
 
@@ -749,83 +751,96 @@ graph = {0: [1, 2], 1: [3], 2: [3], 3: [4, 5], 4: [], 5: []}
 topologicalSort(graph)
 ```
 
-<!-- ### 最小生成树
+### 最小生成树
 
-什么是最小生成树，这两个算法又是如何计算最小生成树的呢？
+首先我们来看下什么是生成树。
 
-首先我们来看下什么是生成树。 生成树是一个图的一部分，生成树包含图的**所有顶点**，且不包含环，这也是为什么叫做生成树，而不是生成图的原因。你可以将生成树看成是根节点不确定的多叉树。
+首先生成树是原图的一个子图，它本质是一棵树，这也是为什么叫做生成树，而不是生成图的原因。其次生成树应该包括图中所有的顶点。 如下图由于没有包含所有顶点，换句话说所有顶点没有在同一个联通域，因此不是一个生成树。
 
-最小生成树是在生成树的基础上加了**最小**关键字，是最小权重生成树的简称。其指的是对于带权图来说，生成树的权重是其所有边的权重和，那么**最小生成树就是权重和最小的生成树**，由此可看出，不管是生成树还是最小生成树都可能不唯一。
+![](https://tva1.sinaimg.cn/large/008i3skNly1gw90jdhugxj30jg0c6mxj.jpg)
 
-这在实际生活中有很强的价值。比如我要修建一个地铁，并覆盖 n 个站，如果建造才能使得花费最小？由于每个站之间的路线不同，因此造价也不一样，因此这就是一个最小生成树的实际使用场景，类似的例子还有很多。
+> 黄色顶点没有包括在内
+
+你可以将生成树看成是根节点不确定的多叉树，由于是一棵树，那么一定不包含环。如下图就不是生成树。
+
+![](https://tva1.sinaimg.cn/large/008i3skNly1gw90i7uk9aj30pw0cmq3l.jpg)
+
+因此不难得出，最小生成树的边的个数是 n - 1，其中 n 为顶点个数。
+
+接下来我们看下什么是最小生成树。
+
+最小生成树是在生成树的基础上加了**最小**关键字，是最小权重生成树的简称。从这句话也可以看出，最小生成树处理正是有权图。生成树的权重是其所有边的权重和，那么**最小生成树就是权重和最小的生成树**，由此可看出，不管是生成树还是最小生成树都可能不唯一。
+
+最小生成树在实际生活中有很强的价值。比如我要修建一个地铁，并覆盖 n 个站，这 n 个站要互相都可以到达（同一个联通域），如果建造才能使得花费最小？由于每个站之间的路线不同，因此造价也不一样，因此这就是一个最小生成树的实际使用场景，类似的例子还有很多。
 
 ![](https://tva1.sinaimg.cn/large/008eGmZEly1gmst4yvz7sj308c06qjrl.jpg)
 
 （图来自维基百科）
 
-Kruskal 和 Prim 是两个经典的求最小生成树的算法，本节我们就来了解一下它们。
+不难看出，计算最小生成树就是从边集合中挑选 n - 1 个边，使得其满足生成树，并且权值和最小。
+
+Kruskal 和 Prim 是两个经典的求最小生成树的算法，这两个算法又是如何计算最小生成树的呢？本节我们就来了解一下它们。
 
 #### Kruskal
 
-Kruskal 算法也被形象地称为**加边法**，每前进一次都选择权重最小的边，加入到结果集。为了防止环的产生（增加环是无意义的，只要权重是正数，一定会使结果更差），我们需要检查下当前选择的边是否和已经选择的边联通了。如果联通了，是没有必要选取的，因为这会使得环产生。因此算法上，我们可使用并查集辅助完成。下面算法中的 find_parent 部分，实际上就是并查集的核心代码，只是我们没有将其封装并使用罢了。
+Kruskal 相对比较容易理解，推荐掌握。
+
+Kruskal 算法也被形象地称为**加边法**，每前进一次都选择权重最小的边，加入到结果集。为了防止环的产生（增加环是无意义的，只要权重是正数，一定会使结果更差），我们需要检查下当前选择的边是否和已经选择的边联通了。如果联通了，是没有必要选取的，因为这会使得环产生。因此算法上，我们可使用并查集辅助完成。关于并查集，我们会在之后的进阶篇进行讲解。
+
+> 下面代码中的 find_parent 部分，实际上就是并查集的核心代码，只是我们没有将其封装并使用罢了。
 
 Kruskal 具体算法：
 
-1. 对边进行排序
+1. 对边按照权值从小到大进行排序。
 2. 将 n 个顶点初始化为 n 个联通域
-3. 按照权值从小到大选择边加入到结果集，如果当前选择的边是否和已经选择的边联通了，则放弃选择，否则进行选择，加入到结果集。
+3. 按照权值从小到大选择边加入到结果集，每次**贪心地**选择最小边。如果当前选择的边是否和已经选择的边联通了（如果强行加就有环了），则放弃选择，否则进行选择，加入到结果集。
 4. 重复 3 直到我们找到了一个联通域大小为 n 的子图
 
 代码模板：
 
+其中 edge 是一个数组，数组每一项都形如： (cost, fr, to)，含义是 从 fr 到 to 有一条权值为 cost的边。
+
 ```py
-from typing import List, Tuple
+class DisjointSetUnion:
+    def __init__(self, n):
+        self.n = n
+        self.rank = [1] * n
+        self.f = list(range(n))
+    
+    def find(self, x: int) -> int:
+        if self.f[x] == x:
+            return x
+        self.f[x] = self.find(self.f[x])
+        return self.f[x]
+    
+    def unionSet(self, x: int, y: int) -> bool:
+        fx, fy = self.find(x), self.find(y)
+        if fx == fy:
+            return False
 
+        if self.rank[fx] < self.rank[fy]:
+            fx, fy = fy, fx
+        
+        self.rank[fx] += self.rank[fy]
+        self.f[fy] = fx
+        return True
 
-def kruskal(num_nodes: int, edges: List[Tuple[int, int, int]]) -> int:
-    """
-    >>> kruskal(4, 3, [(0, 1, 3), (1, 2, 5), (2, 3, 1)])
-    [(2, 3, 1), (0, 1, 3), (1, 2, 5)]
-
-    >>> kruskal(4, 5, [(0, 1, 3), (1, 2, 5), (2, 3, 1), (0, 2, 1), (0, 3, 2)])
-    [(2, 3, 1), (0, 2, 1), (0, 1, 3)]
-
-    >>> kruskal(4, 6, [(0, 1, 3), (1, 2, 5), (2, 3, 1), (0, 2, 1), (0, 3, 2),
-    ... (2, 1, 1)])
-    [(2, 3, 1), (0, 2, 1), (2, 1, 1)]
-    """
-    edges = sorted(edges, key=lambda edge: edge[2])
-
-    parent = list(range(num_nodes))
-
-    def find_parent(i):
-        if i != parent[i]:
-            parent[i] = find_parent(parent[i])
-        return parent[i]
-
-    minimum_spanning_tree_cost = 0
-    minimum_spanning_tree = []
-
-    for edge in edges:
-        parent_a = find_parent(edge[0])
-        parent_b = find_parent(edge[1])
-        if parent_a != parent_b:
-            minimum_spanning_tree_cost += edge[2]
-            minimum_spanning_tree.append(edge)
-            parent[parent_a] = parent_b
-
-    return minimum_spanning_tree
-
-
-if __name__ == "__main__":  # pragma: no cover
-    num_nodes, num_edges = list(map(int, input().strip().split()))
-    edges = []
-
-    for _ in range(num_edges):
-        node1, node2, cost = [int(x) for x in input().strip().split()]
-        edges.append((node1, node2, cost))
-
-    kruskal(num_nodes, edges)
+class Solution:
+    def Kruskal(self, edges) -> int:
+        n = len(points)
+        dsu = DisjointSetUnion(n)
+        
+        edges.sort()
+        
+        ret, num = 0, 1
+        for length, x, y in edges:
+            if dsu.unionSet(x, y):
+                ret += length
+                num += 1
+                if num == n:
+                    break
+        
+        return ret
 ```
 
 #### Prim
@@ -838,136 +853,43 @@ Prim 具体算法：
 2. 在集合 E 中 （集合 E 为原始图的边集）选取最小的边 <u, v> 其中 u 为 MV 中已有的元素，而 v 为 MV 中不存在的元素（像不像上面说的**不断生长的真实世界的树**），将 v 加入到 MV，将 <u, v> 加到 ME。
 3. 重复 2 直到我们找到了一个联通域大小为 n 的子图
 
-算法模板：
+代码模板：
 
-> 为了体现完整性，代码中关于堆的部分采用了手动实现的方式。
+其中 dist 是二维数组，dist[i][j] = x 表示顶点 i 到顶点 j 有一条权值为 x 的边。
 
 ```py
-import sys
-from collections import defaultdict
+class Solution:
+    def Prim(self, dist) -> int:
+        n = len(dist)
+        d = [float("inf")] * n # 表示各个顶点与加入最小生成树的顶点之间的最小距离.
+        vis = [False] * n # 表示是否已经加入到了最小生成树里面
+        d[0] = 0
+        ans = 0
+        for _ in range(n):
+            # 寻找目前这轮的最小d
+            M = float("inf") 
+            for i in range(n):
+                if not vis[i] and d[i] < M:
+                    node = i
+                    M = d[i]
+            vis[node] = True
+            ans += M
+            for i in range(n):
+                if not vis[i]:
+                    d[i] = min(d[i], dist[i][node])
+        return ans
 
-
-def PrimsAlgorithm(l):  # noqa: E741
-
-    nodePosition = []
-
-    def get_position(vertex):
-        return nodePosition[vertex]
-
-    def set_position(vertex, pos):
-        nodePosition[vertex] = pos
-
-    def top_to_bottom(heap, start, size, positions):
-        if start > size // 2 - 1:
-            return
-        else:
-            if 2 * start + 2 >= size:
-                m = 2 * start + 1
-            else:
-                if heap[2 * start + 1] < heap[2 * start + 2]:
-                    m = 2 * start + 1
-                else:
-                    m = 2 * start + 2
-            if heap[m] < heap[start]:
-                temp, temp1 = heap[m], positions[m]
-                heap[m], positions[m] = heap[start], positions[start]
-                heap[start], positions[start] = temp, temp1
-
-                temp = get_position(positions[m])
-                set_position(positions[m], get_position(positions[start]))
-                set_position(positions[start], temp)
-
-                top_to_bottom(heap, m, size, positions)
-
-    # Update function if value of any node in min-heap decreases
-    def bottom_to_top(val, index, heap, position):
-        temp = position[index]
-
-        while index != 0:
-            if index % 2 == 0:
-                parent = int((index - 2) / 2)
-            else:
-                parent = int((index - 1) / 2)
-
-            if val < heap[parent]:
-                heap[index] = heap[parent]
-                position[index] = position[parent]
-                set_position(position[parent], index)
-            else:
-                heap[index] = val
-                position[index] = temp
-                set_position(temp, index)
-                break
-            index = parent
-        else:
-            heap[0] = val
-            position[0] = temp
-            set_position(temp, 0)
-
-    def heapify(heap, positions):
-        start = len(heap) // 2 - 1
-        for i in range(start, -1, -1):
-            top_to_bottom(heap, i, len(heap), positions)
-
-    def deleteMinimum(heap, positions):
-        temp = positions[0]
-        heap[0] = sys.maxsize
-        top_to_bottom(heap, 0, len(heap), positions)
-        return temp
-
-    visited = [0 for i in range(len(l))]
-    Nbr_TV = [-1 for i in range(len(l))]  # Neighboring Tree Vertex of selected vertex
-    # Minimum Distance of explored vertex with neighboring vertex of partial tree
-    # formed in graph
-    Distance_TV = []  # Heap of Distance of vertices from their neighboring vertex
-    Positions = []
-
-    for x in range(len(l)):
-        p = sys.maxsize
-        Distance_TV.append(p)
-        Positions.append(x)
-        nodePosition.append(x)
-
-    TreeEdges = []
-    visited[0] = 1
-    Distance_TV[0] = sys.maxsize
-    for x in l[0]:
-        Nbr_TV[x[0]] = 0
-        Distance_TV[x[0]] = x[1]
-    heapify(Distance_TV, Positions)
-
-    for i in range(1, len(l)):
-        vertex = deleteMinimum(Distance_TV, Positions)
-        if visited[vertex] == 0:
-            TreeEdges.append((Nbr_TV[vertex], vertex))
-            visited[vertex] = 1
-            for v in l[vertex]:
-                if visited[v[0]] == 0 and v[1] < Distance_TV[get_position(v[0])]:
-                    Distance_TV[get_position(v[0])] = v[1]
-                    bottom_to_top(v[1], get_position(v[0]), Distance_TV, Positions)
-                    Nbr_TV[v[0]] = vertex
-    return TreeEdges
-
-
-if __name__ == "__main__":  # pragma: no cover
-    # < --------- Prims Algorithm --------- >
-    n = int(input("Enter number of vertices: ").strip())
-    e = int(input("Enter number of edges: ").strip())
-    adjlist = defaultdict(list)
-    for x in range(e):
-        l = [int(x) for x in input().strip().split()]  # noqa: E741
-        adjlist[l[0]].append([l[1], l[2]])
-        adjlist[l[1]].append([l[0], l[2]])
-    print(PrimsAlgorithm(adjlist))
 ```
 
 #### 两种算法比较
 
-为了后面描述方便，我们令 V 为图中的顶点数， E 为图中的边数。那么 KruKal 的算法复杂度是 $O(ElogE)$，Prim 的算法时间复杂度为 $E + VlogV$。
+为了后面描述方便，我们令 V 为图中的顶点数， E 为图中的边数。那么 KruKal 的算法复杂度是 $O(ElogE)$，Prim 的算法时间复杂度为 $E + VlogV$。因此 Prim 适合适用于稠密图，而 KruKal 则适合稀疏图。
 
-KruKal 是基于图的联通性贪心算法。而 Prim 则是基于堆的贪心算法。
+大家也可以参考一下 [维基百科 - 最小生成树](https://zh.wikipedia.org/wiki/%E6%9C%80%E5%B0%8F%E7%94%9F%E6%88%90%E6%A0%91 "维基百科 - 最小生成树") 的资料作为补充。 
 
-大家也可以参考一下 [维基百科 - 最小生成树](https://zh.wikipedia.org/wiki/%E6%9C%80%E5%B0%8F%E7%94%9F%E6%88%90%E6%A0%91) 的资料作为补充。 -->
+另外这里有一份视频学习资料，其中的动画做的不错，大家可以作为参考，地址：https://www.bilibili.com/video/BV1Eb41177d1/
+
+大家可以使用 LeetCode 的 [1584. 连接所有点的最小费用](https://leetcode-cn.com/problems/min-cost-to-connect-all-points/ "1584. 连接所有点的最小费用") 来练习该算法。
 
 ### 其他算法
 
@@ -1104,14 +1026,14 @@ for i in range(len(a)):
     print(a[i])
 ```
 
-典型题目[1263. 推箱子](https://leetcode-cn.com/problems/minimum-moves-to-move-a-box-to-their-target-location/)
+典型题目[1263. 推箱子](https://leetcode-cn.com/problems/minimum-moves-to-move-a-box-to-their-target-location/ "1263. 推箱子")
 
 #### 二分图
 
 二分图我在这两道题中讲过了，大家看一下之后把这两道题做一下就行了。其实这两道题和一道题没啥区别。
 
-- [0886. 可能的二分法](https://leetcode-solution-leetcode-pp.gitbook.io/leetcode-solution/medium/886.possible-bipartition)
-- [0785. 判断二分图](https://leetcode-solution-leetcode-pp.gitbook.io/leetcode-solution/medium/785.is-graph-bipartite)
+- [0886. 可能的二分法](https://leetcode-solution-leetcode-pp.gitbook.io/leetcode-solution/medium/886.possible-bipartition "0886. 可能的二分法")
+- [0785. 判断二分图](https://leetcode-solution-leetcode-pp.gitbook.io/leetcode-solution/medium/785.is-graph-bipartite "0785. 判断二分图")
 
 推荐顺序为： 先看 886 再看 785。
 
