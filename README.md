@@ -412,6 +412,8 @@ leetcode 题解，记录自己的 leetcode 解题之路。
 - [1904. 你完成的完整对局数](./problems/1904.the-number-of-full-rounds-you-have-played.md)
 - [1906. 查询差绝对值的最小值](./problems/1906.minimum-absolute-difference-queries.md)
 - [2008. 出租车的最大盈利](./problems/2008.maximum-earnings-from-taxi.md)
+- [5935. 适合打劫银行的日子](./problems/5935.find-good-days-to-rob-the-bank.md)
+- [5936. 引爆最多的炸弹](./problems/5936.detonate-the-maximum-bombs.md)
 
 ### 困难难度题目合集
 
@@ -519,6 +521,7 @@ leetcode 题解，记录自己的 leetcode 解题之路。
 - [2009. 使数组连续的最少操作数](./problems/2009.minimum-number-of-operations-to-make-array-continuous.md)
 - [2025. 分割数组的最多方案数](./problems/2025.maximum-number-of-ways-to-partition-an-array.md)
 - [2030. 含特定字母的最小子序列](./problems/2030.smallest-k-length-subsequence-with-occurrences-of-a-letter.md)
+- [2102. 序列顺序查询](./problems/2102.sequentially-ordinal-rank-tracker.md)
 
 ## :trident: &nbsp;anki 卡片
 
