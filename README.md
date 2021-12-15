@@ -39,7 +39,7 @@
 
 **限时免费下载！后期随时可能收费**
 
-有些动图，在做成电子书（比如 pdf）的时候自然就变没了，如果需要看动图的， 可以去我的公众号《力扣加加》或者我的 leetcode 题解仓库看。
+可以去我的公众号《力扣加加》后台回复电子书获取！
 
 <img src="https://tva1.sinaimg.cn/large/007S8ZIlly1gfcuzagjalj30p00dwabs.jpg" width="100%">
 
