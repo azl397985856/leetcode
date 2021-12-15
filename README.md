@@ -57,7 +57,7 @@
 
 ![](https://tva1.sinaimg.cn/large/008i3skNly1gq0mm4lscqj313h0r0diy.jpg)
 
-- [活动首页](hhttps://leetcode-solution.cn/91) 🔥🔥🔥🔥
+- 🔥🔥🔥🔥 [活动首页](https://leetcode-solution.cn/91) 🔥🔥🔥🔥
 - [第六期介绍](https://lucifer.ren/blog/2021/12/03/91algo-6/)
 - [91 第三期讲义 - 二分专题（上）](./thinkings/binary-search-1.md)
 - [91 第三期讲义 - 二分专题（下）](./thinkings/binary-search-2.md)
