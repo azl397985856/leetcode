@@ -158,19 +158,15 @@ class Solution:
         if n == 0: return 0
         dp = [1] * n
         ans = 1
-        intervals.sort(key=lambda a: a[1])
+        intervals.sort(key=lambda a: a[0])
 
         for i in range(len(intervals)):
             for j in range(i - 1, -1, -1):
                 if intervals[i][0] >= intervals[j][1]:
                     dp[i] = max(dp[i], dp[j] + 1)
-                    # 由于我事先进行了排序，因此倒着找的时候，找到的第一个一定是最大的数，因此不用往前继续找了。
-                    # 这也是为什么我按照结束时间排序的原因。
-                    break
-            dp[i] = max(dp[i], dp[i - 1])
-            ans = max(ans, dp[i])
+                    break # 由于是按照开始时间排序的, 因此可以剪枝
 
-        return n - ans
+        return n - max(dp)
 ```
 
 **复杂度分析**
@@ -216,17 +212,20 @@ https://leetcode-cn.com/problems/maximum-length-of-pair-chain/
 
 ```py
 class Solution:
-    def findLongestChain(self, pairs: List[List[int]]) -> int:
-        n = len(pairs)
+    def findLongestChain(self, intervals: List[List[int]]) -> int:
+        n = len(intervals)
+        if n == 0: return 0
         dp = [1] * n
         ans = 1
-        pairs.sort(key=lambda a: a[0])
-        for i in range(n):
-            for j in range(i):
-                if pairs[i][0] > pairs[j][1]:
+        intervals.sort(key=lambda a: a[0])
+
+        for i in range(len(intervals)):
+            for j in range(i - 1, -1, -1):
+                if intervals[i][0] > intervals[j][1]:
                     dp[i] = max(dp[i], dp[j] + 1)
-                    ans = max(ans, dp[i])
-        return ans
+                    break # 由于是按照开始时间排序的, 因此可以剪枝
+
+        return max(dp)
 ```
 
 **复杂度分析**
@@ -272,19 +271,20 @@ Example:
 
 ```py
 class Solution:
-    def findMinArrowShots(self, points: List[List[int]]) -> int:
-        n = len(points)
+    def findMinArrowShots(self, intervals: List[List[int]]) -> int:
+        n = len(intervals)
         if n == 0: return 0
         dp = [1] * n
-        cnt = 1
-        points.sort(key=lambda a:a[1])
+        ans = 1
+        intervals.sort(key=lambda a: a[0])
 
-        for i in range(n):
-            for j in range(0, i):
-                if points[i][0] > points[j][1]:
+        for i in range(len(intervals)):
+            for j in range(i - 1, -1, -1):
+                if intervals[i][0] > intervals[j][1]:
                     dp[i] = max(dp[i], dp[j] + 1)
-                    cnt = max(cnt, dp[i])
-        return cnt
+                    break # 由于是按照开始时间排序的, 因此可以剪枝
+
+        return max(dp)
 ```
 
 **复杂度分析**
@@ -311,6 +311,42 @@ class Solution:
             elif not d or d[-1] < a:
                 d.append(a)
         return len(d)
+```
+
+如果求最长不递减子序列呢？
+
+我们只需要将最左插入改为最右插入即可。代码：
+
+```py
+class Solution:
+    def lengthOfLIS(self, A: List[int]) -> int:
+        d = []
+        for a in A:
+            # 这里改为最右
+            i = bisect.bisect(d, a)
+            if i < len(d):
+                d[i] = a
+            # 这里改为小于等号
+            elif not d or d[-1] <= a:
+                d.append(a)
+        return len(d)
+```
+
+最左插入和最右插入分不清的可以看看我的二分专题。
+
+也可以这么写，更简单一点：
+
+```py
+def LIS(A):
+    d = []
+    for a in A:
+        # 如果求要严格递增就改为最左插入 bisect_left 即可
+        i = bisect.bisect(d, a)
+        if i == len(d):
+            d.append(a)
+        elif d[i] != a:
+            d[i] = a
+    return len(d)
 ```
 
 ## More
@@ -407,6 +443,52 @@ class Solution:
             if a in target: B.append(target[a])
         return len(target) - LIS(B)
 ```
+
+- [1626. 无矛盾的最佳球队](https://leetcode-cn.com/problems/best-team-with-no-conflicts/)
+
+不就是先排下序，然后求 scores 的最长上升子序列么？
+
+参考代码：
+
+```py
+class Solution:
+    def bestTeamScore(self, scores: List[int], ages: List[int]) -> int:
+        n = len(scores)
+        persons = list(zip(ages, scores))
+        persons.sort(key=lambda x : (x[0], x[1]))
+        dp = [persons[i][1] for i in range(n)]
+        for i in range(n):
+            for j in range(i):
+                if persons[i][1] >= persons[j][1]:
+                    dp[i] = max(dp[i], dp[j]+persons[i][1])
+        return max(dp)
+```
+
+再比如 [这道题](https://binarysearch.com/problems/Circular-Longest-Increasing-Subsequence) 无非就是加了一个条件，我们可以结合循环移位的技巧来做。
+
+> 关于循环移位算法西法在之前的文章 [文科生都能看懂的循环移位算法](https://lucifer.ren/blog/2020/02/20/rotate-list/) 也做了详细讲解，不再赘述。
+
+参考代码：
+
+```py
+class Solution:
+    def solve(self, nums):
+        n = len(nums)
+        ans = 1
+        def LIS(A):
+            d = []
+            for a in A:
+                i = bisect.bisect_left(d,a)
+                if i == len(d): d.append(a)
+                else: d[i] = a
+            return len(d)
+        nums += nums
+        for i in range(n):
+            ans = max(ans , LIS(nums[i:i+n]))
+        return ans
+```
+
+大家把我讲的思路搞懂，这几个题一写，还怕碰到类似的题不会么？**只有熟练掌握基础的数据结构与算法，才能对复杂问题迎刃有余。** 最长上升子序列就是一个非常经典的基础算法，把它彻底搞懂，再去面对出题人的各种换皮就不怕了。相反，如果你不去思考题目背后的逻辑，就会刷地很痛苦。题目稍微一变化你就不会了，这也是为什么很多人说**刷了很多题，但是碰到新的题目还是不会做**的原因之一。关注公众号力扣加加，努力用清晰直白的语言还原解题思路，并且有大量图解，手把手教你识别套路，高效刷题。
 
 更多题解可以访问我的 LeetCode 题解仓库：https://github.com/azl397985856/leetcode 。 目前已经 38K star 啦。
 
