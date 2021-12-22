@@ -251,6 +251,7 @@ leetcode 题解，记录自己的 leetcode 解题之路。
 - [Bus Fare](./problems/Bus-Fare.md) 👍
 - [Minimum Dropping Path Sum](./problems/Minimum-Dropping-Path-Sum.md)
 - [Longest-Matrix-Path-Length](./problems/Longest-Matrix-Path-Length.md)
+- [Every Sublist Min Sum](./problems/Every-Sublist-Min-Sum.md)
 
 - [0002. 两数相加](./problems/2.add-two-numbers.md)
 - [0003. 无重复字符的最长子串](./problems/3.longest-substring-without-repeating-characters.md)
