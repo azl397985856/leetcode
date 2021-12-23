@@ -105,6 +105,7 @@
   - [Bus Fare](./problems/Bus-Fare.md) 👍
   - [Minimum Dropping Path Sum](./problems/Minimum-Dropping-Path-Sum.md)
   - [Every Sublist Min Sum](./problems/Every-Sublist-Min-Sum.md)
+  - [Maximize the Number of Equivalent Pairs After Swaps](./problems/Maximize-the-Number-of-Equivalent-Pairs-After-Swaps.md)
   - [0002. 两数相加](./problems/2.add-two-numbers.md)
   - [0003. 无重复字符的最长子串](./problems/3.longest-substring-without-repeating-characters.md)
   - [0005. 最长回文子串](./problems/5.longest-palindromic-substring.md)
