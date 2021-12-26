@@ -263,6 +263,9 @@
   - [1904. 你完成的完整对局数](./problems/1904.the-number-of-full-rounds-you-have-played.md)
   - [1906. 查询差绝对值的最小值](./problems/1906.minimum-absolute-difference-queries.md)
   - [2008. 出租车的最大盈利](./problems/2008.maximum-earnings-from-taxi.md)
+  - [5935. 适合打劫银行的日子](./problems/5935.find-good-days-to-rob-the-bank.md)
+  - [5936. 引爆最多的炸弹](./problems/5936.detonate-the-maximum-bombs.md)
+  - [5965. 相同元素的间隔之和](./problems/5965.intervals-between-identical-elements.md)
 
 - [第六章 - 高频考题（困难）](collections/hard.md)
 
