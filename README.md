@@ -416,6 +416,7 @@ leetcode 题解，记录自己的 leetcode 解题之路。
 - [2008. 出租车的最大盈利](./problems/2008.maximum-earnings-from-taxi.md)
 - [5935. 适合打劫银行的日子](./problems/5935.find-good-days-to-rob-the-bank.md)
 - [5936. 引爆最多的炸弹](./problems/5936.detonate-the-maximum-bombs.md)
+- [5965. 相同元素的间隔之和](./problems/5965.intervals-between-identical-elements.md)
 
 ### 困难难度题目合集
 
