@@ -87,7 +87,26 @@ class Solution:
 
 ```
 
-由于上面的算法瓶颈在于数组的插入后移带来的时间。因此我们可以使用平衡二叉树来减少这部分时间，使用平衡二叉树可以使得插入时间稳定在 $O(logn)$，Python 可使用 SortedList 来实现， Java 可用 TreeMap 代替。
+由于上面的算法瓶颈在于数组的插入后移带来的时间。因此我们可以使用平衡二叉树来减少这部分时间，使用平衡二叉树可以使得插入时间稳定在 $O(logn)$，Python 可使用 SortedList 来实现， Java可以考虑javafx.collections.transformation.SortedList<E>。
+
+如果想用 TreeMap或者TreeSet 代替，注意，实际上，Java中TreeMap，使用headMap, tailMap时，size()的时间复杂度不为O(1), 而是O(k), k为submap中的元素个数；TreeSet同理，使用headSet, tailSet时，size()的时间复杂度不为O(1), 而是O(k), k为subset中的元素个数。关于得出tailMap，headMap，headSet, tailSet的时间复杂度，java源码显示$O(1)$,但个人认为说$O(logn)$也可以。
+
+API 信息：
+```
+SortedSet<E>	tailSet(E fromElement)
+Returns a view of the portion of this set whose elements are greater than or equal to fromElement.
+NavigableSet<E>	tailSet(E fromElement, boolean inclusive)
+Returns a view of the portion of this set whose elements are greater than (or equal to, if inclusive is true) fromElement.
+
+SortedSet<E>	headSet(E toElement)
+Returns a view of the portion of this set whose elements are strictly less than toElement.
+NavigableSet<E>	headSet(E toElement, boolean inclusive)
+Returns a view of the portion of this set whose elements are less than (or equal to, if inclusive is true) toElement.
+```
+
+因为size()的原因，java实践下来，最差时间复杂度依旧是$O(n^2)$
+
+
 
 ### 代码
 
@@ -108,13 +127,62 @@ class Solution:
             d.add(a)
         return ans
 ```
-
 **复杂度分析**
 
 令 n 为数组长度。
 
 - 时间复杂度：$O(nlogn)$
 - 空间复杂度：$O(n)$
+
+
+
+代码支持：Java
+
+Jave Code:
+
+```java
+import java.util.*;
+
+class Solution {
+    class Wrapper {
+        int val;
+        int index;
+        Wrapper(int val, int index) {
+            this.val = val;
+            this.index = index;
+        }
+    }
+
+    class MapComparator implements Comparator<Wrapper> {
+        @Override
+        public int compare(Wrapper a, Wrapper b) {
+            return a.val == b.val ? a.index - b.index : a.val - b.val;  // note this line, cannot be return a.val == b.val 
+        }
+    }
+
+    public int solve(int[] nums) {
+        int pairNum = 0;
+        TreeSet<Wrapper> searchSpace = new TreeSet<>(new MapComparator());
+        // searchSpace.size == i
+        for (int i = 0; i < nums.length; i++) {
+            // binary search on the sorted searchSpace (be cautious about +1)
+            int greaterNum = searchSpace.tailSet(new Wrapper(nums[i] * 3 + 1, 0)).size(); // note this line, size() not O(1) time complexity, k elements, then O(k)
+            pairNum += greaterNum;
+            // insert the current num into the search space
+            searchSpace.add(new Wrapper(nums[i], i));
+        }
+        return pairNum;
+    }
+
+}
+```
+**复杂度分析**
+
+令 n 为数组长度。
+
+- 时间复杂度：$O(n^2)$，进一步改进可以考虑javafx.collections.transformation.SortedList<E>
+- 空间复杂度：$O(n)$
+
 
 ## 分治法
 
