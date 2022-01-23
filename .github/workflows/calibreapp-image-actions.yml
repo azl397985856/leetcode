@@ -1,8 +1,5 @@
 name: Compress images
 on: pull_request
-env:
-  GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-  
 jobs:
   build:
     name: calibreapp/image-actions
@@ -11,7 +8,8 @@ jobs:
       - uses: actions/checkout@master
       - name: calibreapp/image-actions
         uses: docker://calibreapp/github-image-actions
-          
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
   wip:
     name: "Set status"
     runs-on: ubuntu-latest
