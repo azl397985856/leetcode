@@ -62,20 +62,6 @@
 - [91 第三期讲义 - 二分专题（上）](./thinkings/binary-search-1.md)
 - [91 第三期讲义 - 二分专题（下）](./thinkings/binary-search-2.md)
 
-## 刷题群
-
-组队刷题活动，关注上面的公众号《力扣加加》回复 leetcode 即可获取进群方式，从此刷题不再孤单。
-
-另外春招已经开始了。你是不是已经开始准备了呢？为了帮助大家获得更好的 offer，lucifer 开辟了「春招冲冲冲」栏目。
-
-第一期我们的猎物是「虾皮」。来看看虾皮的算法题难度几何吧！
-
-- [春招冲冲冲](https://mp.weixin.qq.com/s?__biz=MzI4MzUxNjI3OA==&mid=2247487632&idx=1&sn=830fe267d835e5acbfc417787f85f1c1&chksm=eb88dc89dcff559f49913c0f2dec77b1d06c2ddbe2c6c299b32b3e49c2efaf8b11ac0aedce8f&token=1676518002&lang=zh_CN#rd)
-
-## 图片加载不出来如何解决？
-
-https://github.com/fe-lucifer/fanqiang
-
 ## :octocat:仓库介绍
 
 leetcode 题解，记录自己的 leetcode 解题之路。
@@ -157,6 +143,35 @@ leetcode 题解，记录自己的 leetcode 解题之路。
 - [蓄水池抽样](./thinkings/reservoid-sampling.md)
 - [单调栈](./thinkings/monotone-stack.md)
 
+## :exclamation:怎么刷 LeetCode？
+
+- [我是如何刷 LeetCode 的](https://www.zhihu.com/question/280279208/answer/824585814)
+- [算法小白如何高效、快速刷 leetcode？](https://www.zhihu.com/question/321738058/answer/1279464192)
+- [刷题效率低？或许你就差这么一个插件](https://lucifer.ren/blog/2020/06/06/algo-chrome-extension/)
+- [力扣刷题插件](https://lucifer.ren/blog/2020/08/16/leetcode-cheat/)
+
+## :computer: 插件
+
+或许是一个可以改变你刷题效率的浏览器扩展插件。
+
+插件地址：https://chrome.google.com/webstore/detail/leetcode-cheatsheet/fniccleejlofifaakbgppmbbcdfjonle?hl=en-US。
+
+> 不能访问谷歌商店的朋友可以去我的公众号回复插件获取离线版。强烈推荐大家使用谷歌商店安装， 这样如果有更新可以自动安装，毕竟咱们的插件更新还是蛮快的。
+
+## 刷题群
+
+组队刷题活动，关注上面的公众号《力扣加加》回复 leetcode 即可获取进群方式，从此刷题不再孤单。
+
+另外春招已经开始了。你是不是已经开始准备了呢？为了帮助大家获得更好的 offer，lucifer 开辟了「春招冲冲冲」栏目。
+
+第一期我们的猎物是「虾皮」。来看看虾皮的算法题难度几何吧！
+
+- [春招冲冲冲](https://mp.weixin.qq.com/s?__biz=MzI4MzUxNjI3OA==&mid=2247487632&idx=1&sn=830fe267d835e5acbfc417787f85f1c1&chksm=eb88dc89dcff559f49913c0f2dec77b1d06c2ddbe2c6c299b32b3e49c2efaf8b11ac0aedce8f&token=1676518002&lang=zh_CN#rd)
+
+## 图片加载不出来如何解决？
+
+https://github.com/fe-lucifer/fanqiang
+
 ## 精选题解
 
 - [字典序列删除](./selected/a-deleted.md)
@@ -168,21 +183,6 @@ leetcode 题解，记录自己的 leetcode 解题之路。
 - [穿上衣服我就不认识你了？来聊聊最长上升子序列](./selected/LIS.md)
 - [你的衣服我扒了 - 《最长公共子序列》](./selected/LCS.md)
 - [一文看懂《最大子序列和问题》](./selected/LSS.md)
-
-## :computer: 插件
-
-或许是一个可以改变你刷题效率的浏览器扩展插件。
-
-插件地址：https://chrome.google.com/webstore/detail/leetcode-cheatsheet/fniccleejlofifaakbgppmbbcdfjonle?hl=en-US。
-
-> 不能访问谷歌商店的朋友可以去我的公众号回复插件获取离线版。强烈推荐大家使用谷歌商店安装， 这样如果有更新可以自动安装，毕竟咱们的插件更新还是蛮快的。
-
-## :exclamation:怎么刷 LeetCode？
-
-- [我是如何刷 LeetCode 的](https://www.zhihu.com/question/280279208/answer/824585814)
-- [算法小白如何高效、快速刷 leetcode？](https://www.zhihu.com/question/321738058/answer/1279464192)
-- [刷题效率低？或许你就差这么一个插件](https://lucifer.ren/blog/2020/06/06/algo-chrome-extension/)
-- [力扣刷题插件](https://lucifer.ren/blog/2020/08/16/leetcode-cheat/)
 
 ## leetcode 经典题目的解析（200 多道）
 
