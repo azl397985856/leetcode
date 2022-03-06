@@ -358,7 +358,7 @@ https://github.com/fe-lucifer/fanqiang
 - [0513. 找树左下角的值](./problems/513.find-bottom-left-tree-value.md) 91
 - [0518. 零钱兑换 II](./problems/518.coin-change-2.md)
 - [0525. 连续数组](./problems/525.contiguous-array.md)
-- [0547. 朋友圈](./problems/547.friend-circles.md)
+- [0547. 省份数量](./problems/547.number-of-provinces.md)
 - [0560. 和为 K 的子数组](./problems/560.subarray-sum-equals-k.md)
 - [0609. 在系统中查找重复文件](./problems/609.find-duplicate-file-in-system.md)
 - [0611. 有效三角形的个数](./problems/611.valid-triangle-number.md) 👍
