@@ -237,6 +237,7 @@ https://github.com/fe-lucifer/fanqiang
 - [0455. 分发饼干](./problems/455.AssignCookies.md)
 - [0504. 七进制数](./problems/504.base-7.md)
 - [0575. 分糖果](./problems/575.distribute-candies.md)
+- [0606. 根据二叉树创建字符串](./problems/606.construct-string-from-binary-tree.md)
 - [0665. 非递减数列](./problems/665.non-decreasing-array.md)
 - [821. 字符的最短距离](./problems/821.shortest-distance-to-a-character.md) 91
 - [0874. 模拟行走机器人](./problems/874.walking-robot-simulation.md)
