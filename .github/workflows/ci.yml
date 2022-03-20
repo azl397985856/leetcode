@@ -26,5 +26,3 @@ jobs:
         run: mdl ${{ steps.get_file_changes.outputs.files}}
       - run: npm install
       - run: node .github/check-format.js
-        # Suppress 036 Emphasis used instead of a header
-        # Suppress 024 Multiple headers with the same content
