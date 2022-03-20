@@ -12,7 +12,6 @@ jobs:
       - uses: actions/setup-node@v2
         with:
           node-version: "16"
-          cache: "npm"
       - name: Install packages
         run: sudo gem install mdl
       - name: Get file changes
