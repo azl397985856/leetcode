@@ -570,6 +570,8 @@ leetcode 题解，记录自己的 leetcode 解题之路。
 - [2025. 分割数组的最多方案数](./problems/2025.maximum-number-of-ways-to-partition-an-array.md)
 - [2030. 含特定字母的最小子序列](./problems/2030.smallest-k-length-subsequence-with-occurrences-of-a-letter.md)
 - [2102. 序列顺序查询](./problems/2102.sequentially-ordinal-rank-tracker.md)
+- [2209. 用地毯覆盖后的最少白色砖块](./problems/2209.minimum-white-tiles-after-covering-with-carpets.md)
+  👍
 - [5999. 统计数组中好三元组数目](./problems/5999.count-good-triplets-in-an-array.md)
   👍
 
