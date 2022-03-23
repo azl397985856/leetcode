@@ -7,8 +7,8 @@
 [![Travis](https://img.shields.io/badge/language-Php-pink.svg)]()
 [![Travis](https://img.shields.io/badge/language-JavaScript-yellow.svg)]()
 
-[![](https://img.shields.io/badge/WeChat-微信群-brightgreen)](#哪里能找到我）
-[![](https://img.shields.io/badge/公众号-力扣加加-blueviolet)](#哪里能找到我）
+[![](https://img.shields.io/badge/WeChat-微信群-brightgreen)](#哪里能找到我)
+[![](https://img.shields.io/badge/公众号-力扣加加-blueviolet)](#哪里能找到我)
 [![](https://img.shields.io/badge/Juejin-掘金-blue)](https://juejin.im/user/58af98305c497d0067780b3b)
 [![](https://img.shields.io/badge/Zhihu-知乎-blue)](https://www.zhihu.com/people/lu-xiao-13-70)
 [![](https://img.shields.io/badge/bilili-哔哩哔哩-ff69b4)](https://space.bilibili.com/519510412/)
@@ -50,6 +50,10 @@
 
 另外有些内容只在公众号发布，因此大家觉得内容不错的话，可以关注一下。如果再给 ➕
 个星标就更棒啦！
+
+## 图片加载不出来如何解决？
+
+<https://github.com/fe-lucifer/fanqiang>
 
 ## :calendar:《91 天学算法》限时活动
 
@@ -136,10 +140,6 @@ leetcode 题解，记录自己的 leetcode 解题之路。
 紧接着，列举了 15 算法面试的步骤。比如步骤一：**当面试官提问完后，你需要先下来关
 键点（之后再下面写注释和代码）** 看完我的感受就是，**面试只要按照这个来做，成功
 率蹭蹭提升**
-
-## 图片加载不出来如何解决？
-
-<https://github.com/fe-lucifer/fanqiang>
 
 ## 数据结构与算法的总结
 
