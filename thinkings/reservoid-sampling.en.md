@@ -1,4 +1,4 @@
-# Reservoir sampling
+# Reservoir Sampling
 
 The official label for the sampling question of the reservoir in the force buckle is 2 questions. According to my question-making situation, there may be three or four questions. The proportion is relatively low, and you can choose to master it according to your actual situation.
 
@@ -18,12 +18,7 @@ This algorithm is called reservoir sampling algorithm (reservoir sampling).
 
 The basic idea is：
 
--Construct an array of size k and put the first k elements of the data stream into the array.
--No processing is performed on the first k digits of the data stream.
--Starting from the k+1st number of the data stream, choose a number rand between [1, i], where i means that it is currently the first number.
--If rand is greater than or equal to k, do nothing
--If rand is less than k, exchange rand and i, that is to say, select the current number instead of the selected number (spare tire).
--Finally return to the surviving spare tire
+-Construct an array of size k and put the first k elements of the data stream into the array. -No processing is performed on the first k digits of the data stream. -Starting from the k+1st number of the data stream, choose a number rand between [1, i], where i means that it is currently the first number. -If rand is greater than or equal to k, do nothing -If rand is less than k, exchange rand and i, that is to say, select the current number instead of the selected number (spare tire). -Finally return to the surviving spare tire
 
 The core of this algorithm is to first select a number with a certain probability, and then replace the previously selected number with another probability in the subsequent process. Therefore, in fact, the probability of each number being finally selected is ** The probability of being selected \* The probability of not being replaced **.
 
@@ -41,9 +36,7 @@ SWAP the Mth value and ith value
 
 Can this guarantee that the selected number is equal to the probability? The answer is yes.
 
--When i <=k, the probability of i being selected is 1.
--At the k+1st number, the probability of the k+1st number being selected (the probability of walking into the if branch above) is $\frac{k}{k+1}$, at the k+2nd number, the probability of the k+2nd number being selected (the probability of walking into the if branch above) is $\frac{k}{k+2}$, and so on. Then the probability of the nth number being selected is $\frac{k}{n}$
--The probability of being selected is analyzed above, and the probability of not being replaced is analyzed next. When the k+1st number is reached, the probability of the first k numbers being replaced is $\frac{1}{k}$. When the first k+2 numbers are reached, the probability of the k+2 number being replaced is $\frac{1}{k}$, and so on. In other words, the probability of all being replaced is $\frac{1}{k}$. Knowing the probability of being replaced, the probability of not being replaced is actually 1-the probability of being replaced.
+-When i <=k, the probability of i being selected is 1. -At the k+1st number, the probability of the k+1st number being selected (the probability of walking into the if branch above) is $\frac{k}{k+1}$, at the k+2nd number, the probability of the k+2nd number being selected (the probability of walking into the if branch above) is $\frac{k}{k+2}$, and so on. Then the probability of the nth number being selected is $\frac{k}{n}$ -The probability of being selected is analyzed above, and the probability of not being replaced is analyzed next. When the k+1st number is reached, the probability of the first k numbers being replaced is $\frac{1}{k}$. When the first k+2 numbers are reached, the probability of the k+2 number being replaced is $\frac{1}{k}$, and so on. In other words, the probability of all being replaced is $\frac{1}{k}$. Knowing the probability of being replaced, the probability of not being replaced is actually 1-the probability of being replaced.
 
 Therefore, for the first k numbers, the probability of being selected in the end is 1\* The probability of not being replaced by k+1\* The probability of not being replaced by k+2\*. . . The probability of not being replaced by n, that is, 1\* (1-probability of being replaced by k+ 1) \* (1-probability of being replaced by k+ 2)\*. . . (1-the probability of being replaced by n), that is, $1\times (1-\frac{k}{k+1} \times \frac{1}{k}) \times (1-\frac{k}{k+2} \times \frac{1}{k}) \times. . . \times (1-\frac{k}{n} \times \frac{1}{k}) = \frac{k}{n} $.
 

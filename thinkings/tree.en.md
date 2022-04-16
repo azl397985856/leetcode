@@ -1,4 +1,4 @@
-#I have almost finished brushing all the tree questions of Lixu, and I found these things. 。 。
+# I have almost finished brushing all the tree questions of Lixu, and I found these things. 。 。
 
 ![](https://tva1.sinaimg.cn/large/0081Kckwly1gkybjfbpubj30uo0u0gqz.jpg)
 
@@ -8,8 +8,7 @@ Let's start with the outline of this article. This is a brain map drawn by me wi
 
 This series contains the following topics：
 
--[I have almost finished swiping all the linked topics of Lixu, and I found these things. 。 。 ](https://lucifer. ren/blog/2020/11/08/linked-list/)
--After almost brushing all the tree questions of Li Ke, I found these things. 。 。 (This is the article)
+-[I have almost finished swiping all the linked topics of Lixu, and I found these things. 。 。 ](https://lucifer. ren/blog/2020/11/08/linked-list/) -After almost brushing all the tree questions of Li Ke, I found these things. 。 。 (This is the article)
 
 ##A little bit of chatter
 
@@ -29,7 +28,7 @@ Hello everyone, this is lucifer. What I bring to you today is the topic "Tree". 
 
 In addition, it is important to inform everyone in advance that many of the contents of this article depend on recursion. Regarding the recursion exercise, I recommend that you draw the recursion process on paper and manually substitute it several times. After the brain is familiar with recursion, it doesn't have to work so hard. Students who are really too lazy to draw pictures can also find a visual recursion website, such as https://recursion.now.sh /. After you have a certain understanding of recursion, take a closer look at the various traversal methods of the tree, then finish reading this article, and finally do the topic at the end of the article. It's not a big problem to fix recursion.
 
->Later in the article, in the "Two Basic Points-depth-first Traversal" section, I also proposed a method for how to practice the recursive thinking of tree traversal.
+> Later in the article, in the "Two Basic Points-depth-first Traversal" section, I also proposed a method for how to practice the recursive thinking of tree traversal.
 
 Finally, it should be emphasized that this article is only a common routine to help you solve the tree questions, but it does not mean that all the test centers involved in the tree questions will talk about it. For example, tree DP is not within the scope of discussion in this article, because this kind of question focuses more on DP. If you don't understand DP, most of them can't be done. What you need is to learn tree DP and DP before learning tree DP. If you are interested in these contents, you can look forward to my follow-up topics.
 
@@ -53,9 +52,9 @@ Take the simplest calculation of the fibonacci sequence as an example：
 
 ```js
 function fn(n) {
-if (n == 0 || n == 1) return n;
+  if (n == 0 || n == 1) return n;
 
-return fn(n - 1) + fn(n - 2);
+  return fn(n - 1) + fn(n - 2);
 }
 ```
 
@@ -100,10 +99,7 @@ Children: Array<Node>; // Point to his son
 
 Other important concepts：
 
--Tree height: The maximum value from node to leaf node is its height.
--Tree depth: Height and depth are opposite, height is counted from bottom to top, and depth is counted from top to bottom. Therefore, the depth of the root node and the height of the leaf node are 0.
--The layer of the tree: the root is defined from the beginning, the root is the first layer, and the child of the root is the second layer.
--Binary tree, trigeminal tree,. 。 。 An N-tree can be determined by at most a few child nodes, and at most N is an N-tree.
+-Tree height: The maximum value from node to leaf node is its height. -Tree depth: Height and depth are opposite, height is counted from bottom to top, and depth is counted from top to bottom. Therefore, the depth of the root node and the height of the leaf node are 0. -The layer of the tree: the root is defined from the beginning, the root is the first layer, and the child of the root is the second layer. -Binary tree, trigeminal tree,. 。 。 An N-tree can be determined by at most a few child nodes, and at most N is an N-tree.
 
 ### Binary tree
 
@@ -125,17 +121,11 @@ Right: Node | null; / / Right son
 
 #### Binary Tree classification
 
--Complete binary tree
--Full binary tree
--Binary search tree
--[Balanced Binary tree](https://github.com/azl397985856/leetcode/blob/master/thinkings/balanced-tree.md "Balanced Binary tree")
--Red and black tree
--. 。 。
+-Complete binary tree -Full binary tree -Binary search tree -[Balanced Binary tree](https://github.com/azl397985856/leetcode/blob/master/thinkings/balanced-tree.md "Balanced Binary tree") -Red and black tree -. 。 。
 
 #### Representation of binary tree
 
--Linked list storage
--Array storage. Very suitable for complete binary trees
+-Linked list storage -Array storage. Very suitable for complete binary trees
 
 ## How difficult is the tree question?
 
@@ -155,13 +145,13 @@ No matter what the topic is, the core is the traversal of the tree. This is the 
 
 In fact, the essence of tree traversal is to access every element in the tree (isn't this the case for traversing any data structure? ). But how did you access it? I can't directly access the leaf node. I have to access it from the root node, and then access the child node according to the child node pointer, but the child node has multiple directions (up to two in the binary tree), so there is the question of which one to access first, which has caused different traversal methods.
 
->The access order of the left and right child nodes is usually unimportant, and in very rare cases there will be some subtle differences. For example, if we want to access the bottom-left node of a tree, the order will have an impact, but there will be fewer such questions.
+> The access order of the left and right child nodes is usually unimportant, and in very rare cases there will be some subtle differences. For example, if we want to access the bottom-left node of a tree, the order will have an impact, but there will be fewer such questions.
 
 Traversal is not the purpose, traversal is for better processing. The processing here includes searching, modifying trees, etc. Although the tree can only be accessed from the root, we can choose whether to process it when we come back from the visit, or before the visit comes back. These two different methods are post-sequence traversal and pre-sequence traversal.
 
 > Regarding the specific traversals, I will talk about them in detail later. Now you only need to know how these traversals come from.
 
-However, tree traversal can be divided into two basic types, namely depth-first traversal and breadth-first traversal. These two traversal methods are not unique to the tree, but they accompany all the problems of the tree. It is worth noting that these two traversal methods are only a kind of logic, so the theory can be applied to any data structure, such as [365. Kettle problem) (https://github.com/azl397985856/leetcode/blob/master/problems/365.water-and-jug-problem.md "365. In the kettle problem"), you can use the breadth-first traversal of the state of the kettle, and the state of the kettle can be represented by a binary group of **.
+However, tree traversal can be divided into two basic types, namely depth-first traversal and breadth-first traversal. These two traversal methods are not unique to the tree, but they accompany all the problems of the tree. It is worth noting that these two traversal methods are only a kind of logic, so the theory can be applied to any data structure, such as [365. Kettle problem) (https://github.com/azl397985856/leetcode/blob/master/problems/365.water-and-jug-problem.md "365. In the kettle problem"), you can use the breadth-first traversal of the state of the kettle, and the state of the kettle can be represented by a binary group of \*\*.
 
 > Unfortunately, the breadth-first traversal solution of this question will time out when submitted on LeetCode.
 
@@ -173,17 +163,13 @@ Here I will introduce to you a practical technique for writing iterative tree tr
 
 We know that among the garbage collection algorithms, there is an algorithm called the three-color marking method. namely：
 
--Use white to indicate that it has not been accessed yet
--Gray indicates that the child node has not been fully accessed
--Black indicates that all child nodes are accessed
+-Use white to indicate that it has not been accessed yet -Gray indicates that the child node has not been fully accessed -Black indicates that all child nodes are accessed
 
 Then we can imitate its ideas and use the two-color marking method to unify the three colors.
 
 Its core ideas are as follows：
 
--Use colors to mark the status of nodes. New nodes are white and visited nodes are gray.
--If the encountered node is white, mark it as gray, and then add its right child node, itself, and left child node to the stack in turn.
--If the encountered node is gray, the value of the node is output.
+-Use colors to mark the status of nodes. New nodes are white and visited nodes are gray. -If the encountered node is white, mark it as gray, and then add its right child node, itself, and left child node to the stack in turn. -If the encountered node is gray, the value of the node is output.
 
 The middle-order traversal implemented using this method is as follows：
 
@@ -209,8 +195,7 @@ It can be seen that in the implementation, White represents the first entry proc
 
 If you want to implement preorder and postorder traversal, you only need to adjust the stacking order of the left and right child nodes, and there is no need to make any changes to the other parts.
 
-![](https://tva1.sinaimg.cn/large/0081Kckwly1gkq01o7423j31gg0u0dwg.jpg)
-(You only need to adjust the position of these three sentences to traverse the front, middle and back sequence)
+![](https://tva1.sinaimg.cn/large/0081Kckwly1gkq01o7423j31gg0u0dwg.jpg) (You only need to adjust the position of these three sentences to traverse the front, middle and back sequence)
 
 > Note: The preface and preface of this schematic diagram are reversed
 
@@ -230,7 +215,7 @@ In fact, it is also very simple to implement recursion by iterating once in and 
 
 ## Two basic points
 
-As mentioned above, there are two basic ways to traverse a tree, namely depth-first traversal (hereinafter referred to as DFS) and breadth-first traversal (hereinafter referred to as BFS). These are the two basic points. These two traversal methods will be subdivided into several methods below. For example, **DFS is subdivided into front, middle and back sequence traversal, and BFS is subdivided into layered and unlinked layers.
+As mentioned above, there are two basic ways to traverse a tree, namely depth-first traversal (hereinafter referred to as DFS) and breadth-first traversal (hereinafter referred to as BFS). These are the two basic points. These two traversal methods will be subdivided into several methods below. For example, \*\*DFS is subdivided into front, middle and back sequence traversal, and BFS is subdivided into layered and unlinked layers.
 
 **DFS is suitable for some violent enumeration topics. If DFS is implemented with the help of a function call stack, it can be easily implemented using recursion. **
 
@@ -240,10 +225,9 @@ While BFS is suitable for seeking the shortest distance, this is not the same as
 
 Hierarchical traversal is to traverse the tree layer by layer and access it in the hierarchical order of the tree.
 
-![](https://tva1.sinaimg.cn/large/0081Kckwly1gkye7nyrjaj30yw0ec762.jpg)
-(Hierarchical traversal diagram)
+![](https://tva1.sinaimg.cn/large/0081Kckwly1gkye7nyrjaj30yw0ec762.jpg) (Hierarchical traversal diagram)
 
-**The core of BFS is that it can be terminated early when the shortest time is required. This is its core value. Hierarchical traversal is a byproduct of BFS that does not require early termination. This early termination is different from the early termination of DFS pruning, but the early termination of finding the nearest target. For example, if I want to find the nearest target node, BFS can return directly after finding the target node. And DFS has to exhaustively list all possibilities to find the nearest one, which is the core value of BFS. In fact, we can also use DFS to achieve the effect of hierarchical traversal. With the help of recursion, the code will be even simpler.
+\*\*The core of BFS is that it can be terminated early when the shortest time is required. This is its core value. Hierarchical traversal is a byproduct of BFS that does not require early termination. This early termination is different from the early termination of DFS pruning, but the early termination of finding the nearest target. For example, if I want to find the nearest target node, BFS can return directly after finding the target node. And DFS has to exhaustively list all possibilities to find the nearest one, which is the core value of BFS. In fact, we can also use DFS to achieve the effect of hierarchical traversal. With the help of recursion, the code will be even simpler.
 
 > If you find any node that meets the conditions, it's fine. There is no need to be the nearest one, then there is not much difference between DFS and BFS. At the same time, in order to make writing simple, I usually choose DFS.
 
@@ -266,10 +250,9 @@ DFS illustration：
 #### Algorithm flow
 
 1. First put the root node in the **stack**.
-2. Take the first node from *stack* and verify whether it is the target. If the target is found, the search ends and the result is returned. Otherwise, add one of its direct child nodes that have not been tested to the stack.
+2. Take the first node from _stack_ and verify whether it is the target. If the target is found, the search ends and the result is returned. Otherwise, add one of its direct child nodes that have not been tested to the stack.
 3. Repeat Step 2.
-4. If there is no direct child node that has not been detected. Add the previous node to the **stack**.
-Repeat Step 2.
+4. If there is no direct child node that has not been detected. Add the previous node to the **stack**. Repeat Step 2.
 5. Repeat step 4.
 6. If **stack** is empty, it means that the entire picture has been checked-that is, there are no targets to search for in the picture. End the search and return “Target not found".
 
@@ -372,3 +355,4 @@ if (meet specific conditions) {
 }
 // Do something
 dfs(root. left)
+```

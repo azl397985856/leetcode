@@ -1,4 +1,4 @@
-#Bloom filter
+# Bloom filter
 
 ## Scene
 
@@ -34,8 +34,7 @@ There are two very fatal disadvantages to doing this：
 
 The Bloom filter is actually `bit + multiple hash functions`. The k-time hash (ip) will generate multiple indexes, and set the binary of its k index positions to 1.
 
--If the value of the k index positions is 1, then it is considered that there may be ** (because of the possibility of conflict).
--If there is one that is not 1, then ** must not exist (the value of a value obtained by the hash function must be unique), which is also an important feature of the Bloom filter.
+-If the value of the k index positions is 1, then it is considered that there may be ** (because of the possibility of conflict). -If there is one that is not 1, then ** must not exist (the value of a value obtained by the hash function must be unique), which is also an important feature of the Bloom filter.
 
 In other words, the Bloom filter answered: ** There may be ** and **There must be no ** questions.
 

@@ -1,4 +1,4 @@
-#Big Talk search
+# Search Problems
 
 Search generally refers to enumerating in a finite state space, and finding eligible solutions or the number of solutions by exhausting all possibilities. Depending on the search method, the search algorithm can be divided into DFS, BFS, A\* algorithm, etc. Only DFS and BFS are introduced here, as well as a technique that occurs on DFS-backtracking.
 
@@ -12,13 +12,13 @@ Regarding search, in fact, it has been introduced in the binary tree section. An
 
 ## What is the core of search?
 
-In fact, the essence of searching for a topic is to map the states in the topic to the points in the graph, and to map the connections between states to the edges in the graph. The state space is constructed based on the topic information, and then the state space is traversed. The traversal process needs to record and maintain the state, and improve the search efficiency through pruning and data structure. **
+In fact, the essence of searching for a topic is to map the states in the topic to the points in the graph, and to map the connections between states to the edges in the graph. The state space is constructed based on the topic information, and then the state space is traversed. The traversal process needs to record and maintain the state, and improve the search efficiency through pruning and data structure. \*\*
 
 Different data structures in the state space can lead to different algorithms. For example, searching for arrays is not the same as searching for trees and graphs.
 
 Once again, the arrays, trees, and graphs I am talking about here are the logical structures of the state space, not the data structures given in the title. For example, the title gives an array that allows you to search for a subset of the array. Although the title gives an array of linear data structures, we actually search for nonlinear data structures such as trees. This is because the state space corresponding to this question is non-linear.
 
-For search issues, what is our core focus on information? How to calculate it? This is also the core concern of the search article. And many of the information on the market is not very detailed. There are many indicators that need to be paid attention to in the core of the search, such as the depth of the tree, the DFS sequence of the graph, the distance between the two points in the graph, and so on. **These indicators are essential for completing advanced algorithms, and these indicators can be achieved through some classic algorithms. This is why I have always emphasized that I must first learn the basic data structure and algorithm.
+For search issues, what is our core focus on information? How to calculate it? This is also the core concern of the search article. And many of the information on the market is not very detailed. There are many indicators that need to be paid attention to in the core of the search, such as the depth of the tree, the DFS sequence of the graph, the distance between the two points in the graph, and so on. \*\*These indicators are essential for completing advanced algorithms, and these indicators can be achieved through some classic algorithms. This is why I have always emphasized that I must first learn the basic data structure and algorithm.
 
 However, it is not easy to complete these narratives, so that it may take a lot of time to complete them, so I have not started to write them.
 
@@ -33,9 +33,7 @@ The state space of the search topic is usually non-linear. For example, the exam
 For this question, a feasible way to divide the state space is：
 
 - A subset of length 1
-- A subset of length 2
--. 。 。
--A subset of length n (where n is the length of the array)
+- A subset of length 2 -. 。 。 -A subset of length n (where n is the length of the array)
 
 And how to determine all the subsets above.
 
@@ -43,9 +41,7 @@ One feasible solution is to determine one by one in a manner similar to partitio
 
 For example, we can：
 
--First determine what is the first number of a certain subset
--Then determine what the second number is
--. 。 。
+-First determine what is the first number of a certain subset -Then determine what the second number is -. 。 。
 
 How to determine the first number and the second number. 。 。 What?
 
@@ -55,8 +51,7 @@ How to determine the first number and the second number. 。 。 What?
 
 The so-called violent enumeration of all possibilities here is to try all possible numbers in the array.
 
--For example, what is the first number? Obviously it may be any item in the array. Ok, let's enumerate n situations.
--What about the second number? Obviously it can be any number other than the number that has been selected above. Ok, let's enumerate n-1 situations.
+-For example, what is the first number? Obviously it may be any item in the array. Ok, let's enumerate n situations. -What about the second number? Obviously it can be any number other than the number that has been selected above. Ok, let's enumerate n-1 situations.
 
 Based on this, you can draw the following decision tree.
 
@@ -91,10 +86,9 @@ If you are traversing on a tree, there will be no rings, and naturally there is 
 #### Algorithm flow
 
 1. First put the root node in the **stack**.
-2. Take the first node from *stack* and verify whether it is the target. If the target is found, the search ends and the result is returned. Otherwise, add one of its direct child nodes that have not been tested to the stack.
+2. Take the first node from _stack_ and verify whether it is the target. If the target is found, the search ends and the result is returned. Otherwise, add one of its direct child nodes that have not been tested to the stack.
 3. Repeat Step 2.
-4. If there is no direct child node that has not been detected. Add the previous node to the **stack**.
-Repeat Step 2.
+4. If there is no direct child node that has not been detected. Add the previous node to the **stack**. Repeat Step 2.
 5. Repeat step 4.
 6. If **stack** is empty, it means that the entire picture has been checked-that is, there are no targets to search for in the picture. End the search and return “Target not found".
 
@@ -140,7 +134,7 @@ Regarding the traversal method used for the analysis of recursive relationships,
 
 Iterative deepening is essentially a feasible pruning. Regarding pruning, I will introduce more in the "Backtracking and Pruning" section later.
 
-The so-called iterative deepening refers to the optimization method of actively reducing the recursion depth by setting the recursion depth threshold when the recursion tree is relatively deep, and exiting when the threshold is exceeded. **The premise of the establishment of this algorithm is that the answer in the question tells us that the answer does not exceed xxx, so that we can use xxx as the recursion depth threshold, so that not only will we not miss the correct solution, but we can also effectively reduce unnecessary operations in extreme cases.
+The so-called iterative deepening refers to the optimization method of actively reducing the recursion depth by setting the recursion depth threshold when the recursion tree is relatively deep, and exiting when the threshold is exceeded. \*\*The premise of the establishment of this algorithm is that the answer in the question tells us that the answer does not exceed xxx, so that we can use xxx as the recursion depth threshold, so that not only will we not miss the correct solution, but we can also effectively reduce unnecessary operations in extreme cases.
 
 Specifically, we can use a top-down approach to record the level of the recursive tree, which is the same as the method of calculating the depth of the tree described above. Next, add the judgment of whether the current level exceeds the threshold value before the main logic.
 
@@ -209,7 +203,7 @@ prompt：
 
 ###### Idea
 
-As can be seen from the data range, the high probability of this question is a solution with 时间O(2^m) 时间time complexity, where m is nums. Half of the length.
+As can be seen from the data range, the high probability of this question is a solution with 时间 O(2^m) 时间 time complexity, where m is nums. Half of the length.
 
 Why? First of all, if the length of the topic array is limited to less than or equal to 20, then the probability is that there is a solution of $O(2^n)$.
 
@@ -227,7 +221,7 @@ Next, we use dynamic programming to find the sum of all subsets.
 
 Let dp[i] represent the sum of the selection conditions as shown in I. What is the **selection situation as shown in i? **
 
-For example, I ask for the sum of subsets of nums. Then there are子集2^n子集 subsets of nums, that is, every number in nums has both ** selection and non-selection**. Therefore, there are a total of种2^n种 species. If the binary of a number is used to represent this selection situation, where 0 means that 1 is selected and 1 means that it is not selected, then a sufficient number of digits (the number of binary digits needs to be greater than n) can be used to represent a possible selection situation.
+For example, I ask for the sum of subsets of nums. Then there are 子集 2^n 子集 subsets of nums, that is, every number in nums has both ** selection and non-selection**. Therefore, there are a total of 种 2^n 种 species. If the binary of a number is used to represent this selection situation, where 0 means that 1 is selected and 1 means that it is not selected, then a sufficient number of digits (the number of binary digits needs to be greater than n) can be used to represent a possible selection situation.
 
 We can enumerate each item of the array, and for each item we consider adding it to the selection. Then the transfer equation is:'dp[(1<<i)+j] = dp[j]+A[i]`, where j is a subset of i, and the binaries of i and j represent the selection of nums.
 
@@ -324,8 +318,7 @@ return combine_closest(combine_sum(nums[: n // 2]), combine_sum(nums[n // 2 :]))
 
 Let n be the length of the array and m be $\frac{n}{2}$.
 
--Time complexity:$O(m*2^m)$
--Spatial complexity:$O(2^m)$
+-Time complexity:$O(m*2^m)$ -Spatial complexity:$O(2^m)$
 
 Related topics recommended：
 
@@ -337,7 +330,7 @@ What does this question have to do with two-way search?
 
 Go back to what I said at the beginning: 'Sometimes the scale of the problem is very large, and the direct search will time out. At this time, you can consider searching from the starting point to half of the scale of the problem. Then save the state generated in this process. Next, the goal is to find a state that meets the conditions in the stored intermediate state. In turn, the effect of reducing the time complexity is achieved. `
 
-Corresponding to this question, if we search directly by violence. That is to enumerate the sum of all subsets, and then find the one closest to the goal. The idea is simple and straightforward. But this will time out, so half of the search will be done, and then the status will be saved (the corresponding question is stored in the dp array). Next, the problem is transformed into the operation of two dp arrays. **This algorithm essentially moves the constant term located in the exponential position to the coefficient position. This is a common two-way search, let me just call it the two-way search of DFS. The purpose is to distinguish it from the later BFS two-way search.
+Corresponding to this question, if we search directly by violence. That is to enumerate the sum of all subsets, and then find the one closest to the goal. The idea is simple and straightforward. But this will time out, so half of the search will be done, and then the status will be saved (the corresponding question is stored in the dp array). Next, the problem is transformed into the operation of two dp arrays. \*\*This algorithm essentially moves the constant term located in the exponential position to the coefficient position. This is a common two-way search, let me just call it the two-way search of DFS. The purpose is to distinguish it from the later BFS two-way search.
 
 ### BFS
 
@@ -359,9 +352,7 @@ As mentioned in the previous DFS section, no matter what search it is, the statu
 #### Algorithm flow
 
 1. First put the root node in the queue.
-2. Take out the first node from the queue and verify whether it is the target.
--If the target is found, the search ends and the result is returned.
--Otherwise, all its direct child nodes that have not been verified will be added to the queue.
+2. Take out the first node from the queue and verify whether it is the target. -If the target is found, the search ends and the result is returned. -Otherwise, all its direct child nodes that have not been verified will be added to the queue.
 3. If the queue is empty, it means that the entire picture has been checked-that is, there are no targets to search for in the picture. End the search and return “Target not found".
 4. Repeat Step 2.
 
@@ -397,3 +388,4 @@ https://leetcode-cn.com/problems/word-ladder-ii/
 
 ```
 Complete the conversion from the word beginWord to the word endWord according to the dictionary wordList. A conversion sequence that represents this process is formally like beginWord-> s1->s2->. . . - > sk such a sequence of words and satisfy：
+```
