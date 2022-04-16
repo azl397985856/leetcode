@@ -1,4 +1,4 @@
-# 并查集
+# Union Find (Disjoint Set) Problem
 
 ## Background
 
@@ -32,7 +32,7 @@ Very simple, we followed the division commander, looked up, and found the comman
 
 If I ask you to judge whether two soldiers belong to the same division commander, you can also search up to the division commander. If the two division commanders searched are the same, it means that the two soldiers belong to the same division commander. (Assuming that these two people are at a lower level than the division commander)
 
-In the code, we can use parent[x] =y to indicate that the parent of x is Y. We can find the root by constantly searching for the parent, and then comparing whether the root is the same to draw conclusions. The root here is actually the representative of the ** collection mentioned above.
+In the code, we can use parent[x] =y to indicate that the parent of x is Y. We can find the root by constantly searching for the parent, and then comparing whether the root is the same to draw conclusions. The root here is actually the representative of the \*\* collection mentioned above.
 
 > The reason why parent is used to store the parent node of each node instead of children is because “we need to find the representative of an element (that is, the root)”
 
@@ -138,9 +138,7 @@ For the following figure：
 
 If we merge 0 and 7 once. That is, `union(0, 7)`, the following process will occur.
 
--Find the root node of 0 3
--Found the root node of 7 6
--Point 6 to 3. (In order to make the merged tree as balanced as possible, generally choose to mount a small tree on top of a large tree. The following code template will reflect this. The rank of 3 is larger than that of 6, which is more conducive to the balance of the tree and avoids extreme situations)
+-Find the root node of 0 3 -Found the root node of 7 6 -Point 6 to 3. (In order to make the merged tree as balanced as possible, generally choose to mount a small tree on top of a large tree. The following code template will reflect this. The rank of 3 is larger than that of 6, which is more conducive to the balance of the tree and avoids extreme situations)
 
 ![](https://tva1.sinaimg.cn/large/008eGmZEly1gmm4btv06yg30ni05wwze.gif)
 
@@ -296,8 +294,7 @@ return True
 Topic recommendation：
 
 - [684. Redundant connection) (https://leetcode-cn.com/problems/redundant-connection/solution/bing-cha-ji-mo-ban-ben-zhi-jiu-shi-jian-0wz2m /)
-- [Forest Detection](https://binarysearch.com/problems/Forest-Detection)
--Minimum spanning tree Classical algorithm Kruskal
+- [Forest Detection](https://binarysearch.com/problems/Forest-Detection) -Minimum spanning tree Classical algorithm Kruskal
 
 ## Practice
 

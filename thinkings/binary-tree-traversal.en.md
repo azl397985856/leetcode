@@ -1,131 +1,132 @@
-# 二叉树的遍历算法
+# Binary Tree Traversal
 
-## 概述
+## Overview
 
-二叉树作为一个基础的数据结构，遍历算法作为一个基础的算法，两者结合当然是经典的组合了。很多题目都会有 ta 的身影，有直接问二叉树的遍历的，有间接问的。比如要你找到树中满足条件的节点，就是间接考察树的遍历，因为你要找到树中满足条件的点，就需要进行遍历。
+Binary tree as a basic data structure and traversal as a fundamental algorithm, their combination leads to a lot of classic problems. This patern is often seen in many problems, either directly or indirectly.
 
-> 你如果掌握了二叉树的遍历，那么也许其他复杂的树对于你来说也并不遥远了
+> If you have grasped the traversal of binary trees, other complicated trees will probably be easy for you.
 
-二叉数的遍历主要有前中后遍历和层次遍历。 前中后属于 DFS，层次遍历则可以使用 BFS 或者 DFS 来实现。只不过使用 BFS 来实现层次遍历会容易些，因为层次遍历就是 BFS 的副产物啊，你可以将层次遍历看成没有提前终止的 BFS
+Following are the generally used ways for traversing trees.
 
-DFS 和 BFS 都有着自己的应用，比如 leetcode 301 号问题和 609 号问题。
+- Depth First Traversals (DFS): Inorder, Preorder, Postorder
 
-DFS 都可以使用栈来简化操作，并且其实树本身是一种递归的数据结构，因此递归和栈对于 DFS 来说是两个关键点。
+- Breadth First or Level Order Traversal (BFS)
 
-DFS 图解：
+There are applications for both DFS and BFS. Check out leetcode problem No.301 and No.609.
 
-![binary-tree-traversal-dfs](https://tva1.sinaimg.cn/large/007S8ZIlly1ghlui7vcmwg30dw0dw3yl.gif)
+Stack can be used to simplify the process of DFS traversal. Besides, since tree is a recursive data structure, recursion and stack are two key points for DFS.
 
-(图片来自 https://github.com/trekhleb/javascript-algorithms/tree/master/src/algorithms/tree/depth-first-search)
+Graph for DFS：
 
-BFS 的关键点在于如何记录每一层次是否遍历完成， 我们可以用一个标识位来表式当前层的结束。
+![binary-tree-traversal-dfs](https://tva1.sinaimg.cn/large/007S8ZIlly1ghluhzhynsg30dw0dw3yl.gif)
 
-对于前中后序遍历来说。首先不管是前中还是后序遍历，变的只是根节点的位置， 左右节点的顺序永远是先左后右。 比如前序遍历就是根在前面，即根左右。中序就是根在中间，即左根右。后序就是根在后面，即左右根。
+(from https://github.com/trekhleb/javascript-algorithms/tree/master/src/algorithms/tree/depth-first-search)
 
-下面我们依次讲解：
+The key point of BFS is how to decide whether the traversal of each level is done. The answer is using a variable as a flag to represent the end of the traversal of current level.
 
-## 前序遍历
+Let's dive into details.
 
-相关问题[144.binary-tree-preorder-traversal](../problems/144.binary-tree-preorder-traversal.md)
+## Preorder Traversal
 
-前序遍历的顺序是`根-左-右`
+related problem[144.binary-tree-preorder-traversal](../problems/144.binary-tree-preorder-traversal.md)
 
-思路是：
+The traversal order of preorder traversal is `root-left-right`.
 
-1. 先将根结点入栈
+Algorithm Preorder
 
-2. 出栈一个元素，将右节点和左节点依次入栈
+1. Visit the root node and push it into a stack.
 
-3. 重复 2 的步骤
+2. Pop a node from the stack, and push its right and left child node into the stack respectively.
 
-总结： 典型的递归数据结构，典型的用栈来简化操作的算法。
+3. Repeat step 2.
 
-其实从宏观上表现为：`自顶向下依次访问左侧链，然后自底向上依次访问右侧链`，如果从这个角度出发去写的话，算法就不一样了。从上向下我们可以直接递归访问即可，从下向上我们只需要借助栈也可以轻易做到。
+Conclusion: This problem involves the clasic recursive data structure (i.e. a binary tree), and the algorithm above demonstrates how a simplified solution can be reached by using a stack.
 
-整个过程大概是这样：
+If you look at the bigger picture, you'll find that the process of traversal is as followed. `Visit the left subtrees repectively from top to bottom, and visit the right subtrees repectively from bottom to top`. If we are to implement it from this perspective, things will be somewhat different. For the `top to bottom` part we can simply use recursion, and for the `bottom to top` part we can turn to stack.
 
-![binary-tree-traversal-preorder](https://tva1.sinaimg.cn/large/007S8ZIlly1ghlui8rph4j30n30azaar.jpg)
+The traversal will look something like this.
 
-这种思路有一个好处就是可以`统一三种遍历的思路`. 这个很重要，如果不了解的朋友，希望能够记住这一点。
+![binary-tree-traversal-preorder](https://tva1.sinaimg.cn/large/007S8ZIlly1ghlui0d6ewj30n30azaar.jpg)
 
-## 中序遍历
+This way of problem solving is a bit similar to `backtrack`, on which I have written a post. You can benefit a lot from it because it can be used to `solve all three DFS traversal problems` mentioned aboved. If you don't know this yet, make a memo on it.
 
-相关问题[94.binary-tree-inorder-traversal](../problems/94.binary-tree-inorder-traversal.md)
+## Inorder Traversal
 
-中序遍历的顺序是 `左-根-右`，根节点不是先输出，这就有一点点复杂了。
+related problem[94.binary-tree-inorder-traversal](../problems/94.binary-tree-inorder-traversal.md)
 
-1. 根节点入栈
+The traversal order of inorder traversal is `left-root-right`.
 
-2. 判断有没有左节点，如果有，则入栈，直到叶子节点
+So the root node is not printed first. Things are getting a bit complicated here.
 
-> 此时栈中保存的就是所有的左节点和根节点。
+Algorithm Inorder
 
-3. 出栈，判断有没有右节点，有则入栈，继续执行 2
+1. Visit the root and push it into a stack.
 
-值得注意的是，中序遍历一个二叉查找树（BST）的结果是一个有序数组，利用这个性质有些题目可以得到简化，
-比如[230.kth-smallest-element-in-a-bst](../problems/230.kth-smallest-element-in-a-bst.md)，
-以及[98.validate-binary-search-tree](../problems/98.validate-binary-search-tree.md)
+2. If there is a left child node, push it into the stack. Repeat this process until a leaf node reached.
 
-## 后序遍历
+> At this point the root node and all the left nodes are in the stack.
 
-相关问题[145.binary-tree-postorder-traversal](../problems/145.binary-tree-postorder-traversal.md)
+3. Start popping nodes from the stack. If a node has a right child node, push the child node into the stack. Repeat step 2.
 
-后序遍历的顺序是 `左-右-根`
+It's worth pointing out that the inorder traversal of a binary search tree (BST) is a sorted array, which is helpful for coming up simplified solutions for some problems. e.g. [230.kth-smallest-element-in-a-bst](../problems/230.kth-smallest-element-in-a-bst.md) and [98.validate-binary-search-tree](../problems/98.validate-binary-search-tree.md)
 
-这个就有点难度了，要不也不会是 leetcode 困难的 难度啊。
+## Postorder Traversal
 
-其实这个也是属于根节点先不输出，并且根节点是最后输出。 这里可以采用一种讨巧的做法，
-就是记录当前节点状态，如果：
+related problem[145.binary-tree-postorder-traversal](../problems/145.binary-tree-postorder-traversal.md)
 
-1. 当前节点是叶子节点或者
+The traversal order of postorder traversal is `left-right-root`.
 
-2. 当前节点的左右子树都已经遍历过了，那么就可以出栈了。
+This one is a bit of a challange. It deserves the `hard` tag of leetcode.
 
-对于 `1. 当前节点是叶子节点`，这个比较好判断，只要判断 left 和 rigt 是否同时为 null 就好。
+In this case, the root node is printed not as the first but the last one. A cunning way to do it is to:
 
-对于 `2. 当前节点的左右子树都已经遍历过了`， 只需要用一个变量记录即可。最坏的情况，我们记录每一个节点的访问状况就好了，空间复杂度 O(n)
-但是仔细想一下，我们使用了栈的结构，从叶子节点开始输出，我们记录一个当前出栈的元素就好了，空间复杂度 O(1)， 具体请查看上方链接。
+Record whether the current node has been visited. If 1) it's a leaf node or 2) both its left and right subtrees have been traversed, then it can be popped from the stack.
 
-## 层次遍历
+As for `1) it's a leaf node`, you can easily tell whether a node is a leaf if both its left and right are `null`.
 
-层次遍历的关键点在于如何记录每一层次是否遍历完成， 我们可以用一个标识位来表式当前层的结束。
+As for `2) both its left and right subtrees have been traversed`, we only need a variable to record whether a node has been visited or not. In the worst case, we need to record the status for every single node and the space complexity is O(n). But if you come to think about it, as we are using a stack and start printing the result from the leaf nodes, it makes sense that we only record the status for the current node popping from the stack, reducing the space complexity to O(1). Please click the link above for more details.
 
-![binary-tree-traversal-bfs](https://tva1.sinaimg.cn/large/007S8ZIlly1ghluic79lag30dw0dw3yl.gif)
+## Level Order Traversal
 
-(图片来自 https://github.com/trekhleb/javascript-algorithms/tree/master/src/algorithms/tree/breadth-first-search)
+The key point of level order traversal is how do we know whether the traversal of each level is done. The answer is that we use a variable as a flag representing the end of the traversal of the current level.
 
-具体做法：
+![binary-tree-traversal-bfs](https://tva1.sinaimg.cn/large/007S8ZIlly1ghlui1tpoug30dw0dw3yl.gif)
 
-1. 根节点入队列， 并入队列一个特殊的标识位，此处是 null
+(from https://github.com/trekhleb/javascript-algorithms/tree/master/src/algorithms/tree/breadth-first-search)
 
-2. 出队列
+Algorithm Level Order
 
-3. 判断是不是 null， 如果是则代表本层已经结束。我们再次判断是否当前队列为空，如果不为空继续入队一个 null，否则说明遍历已经完成，我们什么都不不用做
+1. Visit the root node, put it in a FIFO queue, put in the queue a special flag (we are using `null` here).
 
-4. 如果不为 null，说明这一层还没完，则将其左右子树依次入队列。
+2. Dequeue a node.
 
-相关问题：
+3. If the node equals `null`, it means that all nodes of the current level have been visited. If the queue is empty, we do nothing. Or else we put in another `null`.
 
-- [102.binary-tree-level-order-traversal](../problems/102.binary-tree-level-order-traversal.md)
-- [117. 填充每个节点的下一个右侧节点指针 II](https://leetcode-cn.com/problems/populating-next-right-pointers-in-each-node-ii/)
+4. If the node is not `null`, meaning the traversal of current level has not finished yet, we enqueue its left subtree and right subtree repectively.
 
-## 双色标记法
+related problem[102.binary-tree-level-order-traversal](../problems/102.binary-tree-level-order-traversal.md)
 
-我们知道垃圾回收算法中，有一种算法叫三色标记法。 即：
+## Bi-color marking
 
-- 用白色表示尚未访问
-- 灰色表示尚未完全访问子节点
-- 黑色表示子节点全部访问
+We know that there is a tri-color marking in garbage collection algorithm, which works as described below.
 
-那么我们可以模仿其思想，使用双色标记法来统一三种遍历。
+- The white color represents "not visited".
 
-其核心思想如下：
+- The gray color represents "not all child nodes visited".
 
-- 使用颜色标记节点的状态，新节点为白色，已访问的节点为灰色。
-- 如果遇到的节点为白色，则将其标记为灰色，然后将其右子节点、自身、左子节点依次入栈。
-- 如果遇到的节点为灰色，则将节点的值输出。
+- The black color represents "all child nodes visited".
 
-使用这种方法实现的中序遍历如下：
+Enlightened by tri-color marking, a bi-color marking method can be invented to solve all three traversal problems with one solution.
+
+The core idea is as followed.
+
+- Use a color to mark whether a node has been visited or not. Nodes yet to be visited are marked as white and visited nodes are marked as gray.
+
+- If we are visiting a white node, turn it into gray, and push it's right child node, itself, and it's left child node into the stack respectively.
+
+- If we are visiting a gray node, print it.
+
+Implementing inorder traversal with tri-color marking:
 
 ```python
 class Solution:
@@ -145,17 +146,11 @@ class Solution:
         return res
 ```
 
-可以看出，实现上 WHITE 就表示的是递归中的第一次进入过程，Gray 则表示递归中的从叶子节点返回的过程。 因此这种迭代的写法更接近递归写法的本质。
+Implementation of preorder and postorder traversal algorithms can be easily done by changing the order of pushing the child nodes into the stack.
 
-如要实现前序、后序遍历，只需要调整左右子节点的入栈顺序即可。可以看出使用三色标记法， 其写法类似递归的形式，因此便于记忆和书写，缺点是使用了额外的内存空间。不过这个额外的空间是线性的，影响倒是不大。
+## Morris Traversal
 
-> 虽然递归也是额外的线性时间，但是递归的栈开销还是比一个 0，1 变量开销大的。换句话说就是空间复杂度的常数项是不同的，这在一些情况下的差异还是蛮明显的。
-
-**划重点：双色迭代法是一种可以用迭代模拟递归的写法，其写法和递归非常相似，要比普通迭代简单地多。**
-
-## Morris 遍历
-
-我们可以使用一种叫做 Morris 遍历的方法，既不使用递归也不借助于栈。从而在 $O(1)$ 空间完成这个过程。
+We can also use a method called Morris traversal, which involves no recursion or stack, and the time complexity is O(1).
 
 ```python
 def MorrisTraversal(root):
@@ -195,22 +190,4 @@ def MorrisTraversal(root):
                 curr = curr.left
 ```
 
-参考： [what-is-morris-traversal](https://www.educative.io/edpresso/what-is-morris-traversal)
-
-**划重点：Morris 是一种可以在 $O(1)$ 空间遍历二叉树的算法。\***
-
-## 相关专题
-
-- [几乎刷完了力扣所有的树题，我发现了这些东西。。。](https://lucifer.ren/blog/2020/11/23/tree/)
-
-## 相关题目
-
-- [lowest-common-ancestor-of-a-binary-tree](https://leetcode-cn.com/problems/lowest-common-ancestor-of-a-binary-tree/)
-- [binary-tree-level-order-traversal](https://leetcode-cn.com/problems/binary-tree-level-order-traversal/)
-- [binary-tree-zigzag-level-order-traversal](https://leetcode-cn.com/problems/binary-tree-zigzag-level-order-traversal/)
-- [validate-binary-search-tree](https://leetcode-cn.com/problems/validate-binary-search-tree/)
-- [maximum-depth-of-binary-tree](https://leetcode-cn.com/problems/maximum-depth-of-binary-tree/)
-- [balanced-binary-tree](https://leetcode-cn.com/problems/balanced-binary-tree/)
-- [binary-tree-level-order-traversal-ii](https://leetcode-cn.com/problems/binary-tree-level-order-traversal-ii/)
-- [binary-tree-maximum-path-sum](https://leetcode-cn.com/problems/binary-tree-maximum-path-sum/)
-- [insert-into-a-binary-search-tree](https://leetcode-cn.com/problems/insert-into-a-binary-search-tree/)
+Reference: [what-is-morris-traversal](https://www.educative.io/edpresso/what-is-morris-traversal)

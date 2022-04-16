@@ -1,49 +1,51 @@
-# 基础算法
+# Basic Algorithms
 
-## 时间复杂度分析
+## Analysis of Time Complexity
 
-## 算法思想
+## Algorithm Thoughts
 
-### 贪心算法
+### Greedy Algorithms
 
-### 分治
+### Divide-and-Conquer
 
-### 动态规划
+### Dynamic Programming
 
-### 回溯法
+### Backtracking
 
-### 枚举法
+### Enumeration
 
-## 元算法
+## Meta Algorithm
 
-### 排序算法
-排序算法是一种元算法，直接考的很少，但是思想还是有用的。
+### Sorting Algorithms
+
+Sorting algorithms are meta algorithm. Although they are not tested quit often, the core ideas are very useful.
+
 #### O(n^2)
 
-- 插入排序
-- 选择排序
-- 希尔排序
-- 冒泡排序
+- Insertion Sort
+- Selection Sort
+- Shell's Sort (aka Diminishing Increment Sort)
+- Bubble Sort
 
 #### O(nlogn)
 
-- 快排
-- 归并排序
-- 堆排序
+- Quick Sort
+- Merge Sort
+- Heap Sort
 
 #### O(n)
 
-- 桶排序
-- 计数排序
-- 基数排序
+- Bucket Sort
+- Counting Sort
+- Radix Sort
 
-### 查找算法
+### Searching Algorithm
 
-- 线性查找
-- 树查找
-- 散列表查找
+- BFPRT Algorithm
+- Search Trees
+- Search by Hashing
 
-## 字符串问题
+## Algorithms for String
 
 - 朴素
 - KMP
@@ -51,9 +53,9 @@
 - BM
 - trie
 
-## 其他
+## Other
 
-- 数论
-- 概率论
-- 并查集
-- 矩阵运算
+- Number Theory
+- Probability Theory
+- Union-find Algorithm
+- Matrix Algorithms

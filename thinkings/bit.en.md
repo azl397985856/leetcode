@@ -1,4 +1,4 @@
-# Bit operation
+# Bit Operation
 
 Here I have summarized a few bit operation questions to share with you, namely 136 and 137, 260 and 645, which add up to four questions in total. All four questions are bit operation routines, if you want to practice bit operation, don't miss it~~
 
@@ -37,8 +37,7 @@ return single_number
 
 **_Complexity analysis_**
 
--Time complexity:$O(N)$, where N is the length of the array.
--Spatial complexity:$O(1)$
+-Time complexity:$O(N)$, where N is the length of the array. -Spatial complexity:$O(1)$
 
 ## 137. The number 2 that appears only once
 
@@ -88,8 +87,7 @@ return res;
 
 **_Complexity analysis_**
 
--Time complexity:$O(N)$, where N is the length of the array.
--Spatial complexity:$O(1)$
+-Time complexity:$O(N)$, where N is the length of the array. -Spatial complexity:$O(1)$
 
 ## 645. Collection of errors
 
@@ -135,8 +133,7 @@ return [b, a]
 
 **_Complexity analysis_**
 
--Time complexity:$O(N)$
--Spatial complexity:$O(1)$
+-Time complexity:$O(N)$ -Spatial complexity:$O(1)$
 
 ## 260. The number 3 that appears only once
 
@@ -144,8 +141,7 @@ The title is to the effect that except for two numbers that appear once, they al
 
 We perform an XOR operation, and the result we get is the XOR result of the two different numbers that only appear once.
 
-We just talked about that there is a "any number and its own XOR is 0" in the law of Xor. Therefore, our idea is whether we can divide these two different numbers into two groups A and B.
-Grouping needs to meet two conditions.
+We just talked about that there is a "any number and its own XOR is 0" in the law of Xor. Therefore, our idea is whether we can divide these two different numbers into two groups A and B. Grouping needs to meet two conditions.
 
 1. Two unique numbers are divided into different groups
 
@@ -157,9 +153,7 @@ The key point of the question is how do we group?
 
 Due to the nature of XOR, if the same bit is the same, it is 0, and if it is different, it is 1. The result of our XOR of all numbers must not be 0, which means that at least one digit is 1.
 
-Let's take any one, and the basis for grouping will come, that is, the one you take is divided into 1 group by 0, and the one that is 1 is divided into a group.
-This will definitely guarantee`2. The same numbers are divided into the same groups`, will different numbers be divided into different groups? Obviously, of course, we can, so we choose 1, which is
-Say that'two unique numbers` must be different in that one, so the two unique elements will definitely be divided into different groups.
+Let's take any one, and the basis for grouping will come, that is, the one you take is divided into 1 group by 0, and the one that is 1 is divided into a group. This will definitely guarantee`2. The same numbers are divided into the same groups`, will different numbers be divided into different groups? Obviously, of course, we can, so we choose 1, which is Say that'two unique numbers` must be different in that one, so the two unique elements will definitely be divided into different groups.
 
 ```python
 class Solution:
@@ -185,8 +179,7 @@ return [a, b]
 
 **_Complexity analysis_**
 
--Time complexity:$O(N)$, where N is the length of the array.
--Spatial complexity:$O(1)$
+-Time complexity:$O(N)$, where N is the length of the array. -Spatial complexity:$O(1)$
 
 ## Related topics
 

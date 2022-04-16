@@ -1,4 +1,4 @@
-# Balanced Binary Tree Topic
+# Balanced Binary Tree
 
 There are still some topics related to balancing binary trees, and they are all very classic. It is recommended that everyone practice. Today, I have selected 4 questions for everyone. If you thoroughly understand these questions, you should not be out of ideas when you encounter other balanced binary tree questions. After you understand my thoughts, it is recommended to find a few more topics to practice your hands and consolidate your learning results.
 
@@ -86,8 +86,7 @@ return self. isBalanced(root. left) and self. isBalanced(root. right)
 
 **Complexity analysis**
 
-- Time complexity: for isBalanced to say, since each node has at most be accessed once, this part of the time complexity is $O(N)$, while the dfs function each time it is call the number of not more than $log N$, so the total time complexity is $O(NlogN)$, where $N$ is a tree of nodes total.
-  -Spatial complexity: Due to the use of recursion, the bottleneck of spatial complexity here is in the stack space, so the spatial complexity is $O(h)$, where $H$ is the height of the tree.
+- Time complexity: for isBalanced to say, since each node has at most be accessed once, this part of the time complexity is $O(N)$, while the dfs function each time it is call the number of not more than $log N$, so the total time complexity is $O(NlogN)$, where $N$ is a tree of nodes total. -Spatial complexity: Due to the use of recursion, the bottleneck of spatial complexity here is in the stack space, so the spatial complexity is $O(h)$, where $H$ is the height of the tree.
 
 ## 108. Convert an ordered array to a binary search tree (simple)
 
@@ -148,8 +147,7 @@ return root
 
 **Complexity analysis**
 
--Time complexity: Since each node is accessed at most once, the total time complexity is $O(N)$, where $N$ is the length of the array.
--Spatial complexity: Due to the use of recursion, the bottleneck of spatial complexity here is in the stack space, so the spatial complexity is $O(h)$, where $H$ is the height of the tree. At the same time, because it is a balanced binary tree, $h$ is 就是 log N$.
+-Time complexity: Since each node is accessed at most once, the total time complexity is $O(N)$, where $N$ is the length of the array. -Spatial complexity: Due to the use of recursion, the bottleneck of spatial complexity here is in the stack space, so the spatial complexity is $O(h)$, where $H$ is the height of the tree. At the same time, because it is a balanced binary tree, $h$ is 就是 log N$.
 
 ## 109. Ordered linked list conversion binary search tree (medium)
 
@@ -184,8 +182,7 @@ The same idea as 108. The difference is the different data structures, so we nee
 
 Let's take a look at the linked list again：
 
-![](https://tva1.sinaimg.cn/large/007S8ZIlly1ghluhpjgtqj31q30u0mzv.jpg)
-(The case of the linked list)
+![](https://tva1.sinaimg.cn/large/007S8ZIlly1ghluhpjgtqj31q30u0mzv.jpg) (The case of the linked list)
 
 To find the midpoint, you only need to use the classic speed pointer. At the same time, in order to prevent the ring from appearing, we need to cut off the next pointer to mid, so we need to record a node before the midpoint. This only needs to be recorded with a variable pre.
 
@@ -296,8 +293,7 @@ return root;
 
 Let n be the length of the linked list.
 
-- Time complexity: the recursion tree of depth $logn$, each layer of the basic operation of the number of $n$, so the total time complexity is$O(nlogn)$
-  -Spatial complexity: The spatial complexity is$O(logn)$
+- Time complexity: the recursion tree of depth $logn$, each layer of the basic operation of the number of $n$, so the total time complexity is$O(nlogn)$ -Spatial complexity: The spatial complexity is$O(logn)$
 
 Some students are not very good at analyzing the time complexity and space complexity of recursion. We will introduce it to you again here.
 
@@ -309,8 +305,7 @@ The time complexity is a little bit more difficult. Before, Sifa told everyone i
 
 However, we found that the basic operands of each layer of the recursive tree are fixed, and the number of fixed operations has been calculated for everyone on the graph. Therefore, the total spatial complexity can actually be calculated by the \*\* recursion depth\* The basic operands of each layer, which is $nlogn$. Similar techniques can be used in the complexity analysis of merge sorting.
 
-In addition, everyone can directly derive it from the formula. For this question, set the basic operand T(n), then there is T(n)= T(n/2)\*2+ n/2, and it is deduced that T(n) is probably nlogn. This should be high school knowledge.
-The specific derivation process is as follows：
+In addition, everyone can directly derive it from the formula. For this question, set the basic operand T(n), then there is T(n)= T(n/2)\*2+ n/2, and it is deduced that T(n) is probably nlogn. This should be high school knowledge. The specific derivation process is as follows：
 
 $$
 
