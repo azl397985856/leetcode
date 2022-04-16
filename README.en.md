@@ -96,12 +96,9 @@ The data structures mainly include:
 
 > Here only lists some **representative problems** but not all.
 
-#### Easy (Translation in Progress)
+#### Easy 
 
-- [0001.TwoSum](./problems/1.two-sum.en.md)🆕
-- [0053.maximum-sum-subarray](./problems/53.maximum-sum-subarray-en.md)
-- [0198.house-robber](./problems/198.house-robber.en.md)🆕
-- [0501.find-mode-in-binary-search-tree](./problems/501.Find-Mode-in-Binary-Search-Tree-en.md)🆕
+- [Easy Collection](https://github.com/azl397985856/leetcode/blob/master/collections/easy.en.md)
 
 #### Medium (Translation in Progress)
 
