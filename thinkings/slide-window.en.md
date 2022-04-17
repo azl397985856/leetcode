@@ -1,57 +1,72 @@
-# Sliding Window Technique
+# 滑动窗口（Sliding Window）
 
-I first encountered the term "sliding window" when learning about the sliding window protocols, which is used in Transmission Control Protocol (TCP) for packet-based data transimission. It is used to improved transmission efficiency in order to avoid congestions. The sender and the receiver each has a window size, w1 and w2, respectively. The window size may vary based on the network traffic flow. However, in a simpler implementation, the sizes are fixed, and they must be greater than 0 to perform any task.
+笔者最早接触滑动窗口是`滑动窗口协议`，滑动窗口协议（Sliding Window Protocol），属于 TCP 协议的一种应用，用于网络数据传输时的流量控制，以避免拥塞的发生。 发送方和接收方分别有一个窗口大小 w1 和 w2。窗口大小可能会根据网络流量的变化而有所不同，但是在更简单的实现中它们是固定的。窗口大小必须大于零才能进行任何操作。
 
-The sliding window technique in algorithms is very similar, but it applies to more scenarios. Now, let's go over this technique.
+我们算法中的滑动窗口也是类似，只不过包括的情况更加广泛。实际上上面的滑动窗口在某一个时刻就是固定窗口大小的滑动窗口，随着网络流量等因素改变窗口大小也会随着改变。接下来我们讲下算法中的滑动窗口。
 
-## Introduction
+## 介绍
 
-Sliding window technique, also known as two pointers technique, can help reduce time complexity in problems that ask for "consecutive" or "contiguous" items. For example, [209. Minimum Size Subarray Sum](https://leetcode-cn.com/problems/minimum-size-subarray-sum/solution/209-chang-du-zui-xiao-de-zi-shu-zu-hua-dong-chua-2/). For more related problems, go to the `List of Problems` below.
+滑动窗口是一种解决问题的思路和方法，通常用来解决一些连续问题。 比如 LeetCode 的 [209. 长度最小的子数组](https://leetcode-cn.com/problems/minimum-size-subarray-sum/solution/209-chang-du-zui-xiao-de-zi-shu-zu-hua-dong-chua-2/)。更多滑动窗口题目见下方`题目列表`。
 
-## Common Types
+## 常见套路
 
-This technique is mainly for solving problems ask about "consecutive substring" or "contiguous subarray". It would be helpful if you can relate these terms with this technique in your mind. Whether the technique solve the exact problem or not, it would come in handy.
+滑动窗口主要用来处理连续问题。比如题目求解“连续子串 xxxx”，“连续子数组 xxxx”，就应该可以想到滑动窗口。能不能解决另说，但是这种敏感性还是要有的。
 
-There are mainly three types of application:
+从类型上说主要有：
 
-- Fixed window size
-- Variable window size and looking for the maximum window size that meet the requirement
-- Variable window size and looking for the minimum window size that meet the requirement (e.g. Problem#209 mentioned above)
+- 固定窗口大小
+- 窗口大小不固定，求解最大的满足条件的窗口
+- 窗口大小不固定，求解最小的满足条件的窗口（上面的 209 题就属于这种）
 
-The last two are catogorized as "variable window". Of course, they are all of the same essentially. It's all about the implementation details.
+后面两种我们统称为`可变窗口`。当然不管是哪种类型基本的思路都是一样的，不一样的仅仅是代码细节。
 
-### Fixed Window Size
+### 固定窗口大小
 
-For fixed window size problem, we only need to keep track of the left pointer l and the right pointer r, which indicate the boundaries of a fixed window, and make sure that:
+对于固定窗口，我们只需要固定初始化左右指针 l 和 r，分别表示的窗口的左右顶点，并且保证：
 
-1. l is initialized to be 0
-2. r is initialied such that the window's size = r - l + 1
-3. Always move l and r simultaneously
-4. Decide if the consecutive elements contained within the window satisfy the required conditions.
-   - 4.1 If they satisfy, based on whether we need an optimal solution or not, we either return the solution or keep updating until we find the optimal one.
-   - 4.2 Otherwise, we continue to find an appropriate window
+1. l 初始化为 0
+2. 初始化 r，使得 r - l + 1 等于窗口大小
+3. 同时移动 l 和 r
+4. 判断窗口内的连续元素是否满足题目限定的条件
+   - 4.1 如果满足，再判断是否需要更新最优解，如果需要则更新最优解
+   - 4.2 如果不满足，则继续。
 
-![](https://tva1.sinaimg.cn/large/007S8ZIlly1ghluhfr2c3j308z0d5aaa.jpg)
+![](https://tva1.sinaimg.cn/large/007S8ZIlly1ghlugkc80jj308z0d5aaa.jpg)
 
-### Variable Window Size
+### 可变窗口大小
 
-For variable window, we initialize the left and right pointers the same way. Then we need to make sure that:
+对于可变窗口，我们同样固定初始化左右指针 l 和 r，分别表示的窗口的左右顶点。后面有所不同，我们需要保证：
 
-1. Both l and r are initialized to 0
-2. Move r to the right by one step
-3. Decide if the consecutive elements contained within the window satisfy the required conditions
-    - 3.1 If they satisfy
-        - 3.1.1 and we need an optimal solution, we try moving the pointer l to minimize our window's size and repeat step 3.1
-        - 3.1.2 else we return the current solution
-   - 3.2 If they don't satisfy, we continue to find an appropriate window
+1. l 和 r 都初始化为 0
+2. r 指针移动一步
+3. 判断窗口内的连续元素是否满足题目限定的条件
+   - 3.1 如果满足，再判断是否需要更新最优解，如果需要则更新最优解。并尝试通过移动 l 指针缩小窗口大小。循环执行 3.1
+   - 3.2 如果不满足，则继续。
 
-If we view it another way, it's simply moving the pointer r to find an appropriate window and we only move the pointer l once we find an appropriate window to minimize the window and find an optimal solution.
+形象地来看的话，就是 r 指针不停向右移动，l 指针仅仅在窗口满足条件之后才会移动，起到窗口收缩的效果。
 
-![](https://tva1.sinaimg.cn/large/007S8ZIlly1ghluhlt7wwj30d90d50t5.jpg)
+![](https://tva1.sinaimg.cn/large/007S8ZIlly1ghlugl94y8j30d90d50t5.jpg)
 
-## Code Template
+## 模板代码
 
-The following code snippet is a solution for problem #209 written in Python.
+### 伪代码
+
+```
+初始化慢指针 = 0
+初始化 ans
+
+for 快指针 in 可迭代集合
+   更新窗口内信息
+   while 窗口内不符合题意
+      扩展或者收缩窗口
+      慢指针移动
+   更新答案
+返回 ans
+```
+
+### 代码
+
+以下是 209 题目的代码，使用 Python 编写，大家意会即可。
 
 ```python
 class Solution:
@@ -67,9 +82,9 @@ class Solution:
         return  0 if ans == len(nums) + 1 else ans
 ```
 
-## List of problems (Not Translated Yet)
+## 题目列表（有题解）
 
-Some problems here are intuitive that you know the sliding window technique would be useful while others need a second thought to realize that.
+以下题目有的信息比较直接，有的题目信息比较隐蔽，需要自己发掘
 
 - [【Python，JavaScript】滑动窗口（3. 无重复字符的最长子串）](https://leetcode-cn.com/problems/longest-substring-without-repeating-characters/solution/pythonjavascript-hua-dong-chuang-kou-3-wu-zhong-fu/)
 - [76. 最小覆盖子串](https://leetcode-cn.com/problems/minimum-window-substring/solution/python-hua-dong-chuang-kou-76-zui-xiao-fu-gai-zi-c/)
@@ -78,10 +93,12 @@ Some problems here are intuitive that you know the sliding window technique woul
 - [【904. 水果成篮】（Python3）](https://leetcode-cn.com/problems/fruit-into-baskets/solution/904-shui-guo-cheng-lan-python3-by-fe-lucifer/)
 - [【930. 和相同的二元子数组】（Java，Python）](https://leetcode-cn.com/problems/binary-subarrays-with-sum/solution/930-he-xiang-tong-de-er-yuan-zi-shu-zu-javapython-/)
 - [【992. K 个不同整数的子数组】滑动窗口（Python）](https://leetcode-cn.com/problems/subarrays-with-k-different-integers/solution/992-k-ge-bu-tong-zheng-shu-de-zi-shu-zu-hua-dong-c/)
+- [978. 最长湍流子数组](../problems/978.longest-turbulent-subarray.md)
 - [【1004. 最大连续 1 的个数 III】滑动窗口（Python3）](https://leetcode-cn.com/problems/max-consecutive-ones-iii/solution/1004-zui-da-lian-xu-1de-ge-shu-iii-hua-dong-chuang/)
 - [【1234. 替换子串得到平衡字符串】[Java/C++/Python] Sliding Window](https://leetcode.com/problems/replace-the-substring-for-balanced-string/discuss/408978/javacpython-sliding-window/367697)
 - [【1248. 统计「优美子数组」】滑动窗口（Python）](https://leetcode-cn.com/problems/count-number-of-nice-subarrays/solution/1248-tong-ji-you-mei-zi-shu-zu-hua-dong-chuang-kou/)
+- [1658. 将 x 减到 0 的最小操作数](../problems/1658.minimum-operations-to-reduce-x-to-zero.md)
 
-## Further Readings
+## 扩展阅读
 
-- [LeetCode Sliding Window Series Discussion](https://leetcode.com/problems/binary-subarrays-with-sum/discuss/186683/)（English）
+- [LeetCode Sliding Window Series Discussion](https://leetcode.com/problems/binary-subarrays-with-sum/discuss/186683/)
