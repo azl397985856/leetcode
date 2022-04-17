@@ -1,0 +1,28 @@
+name: Continuous Integration
+
+on:
+  pull_request:
+    branches: [master]
+
+jobs:
+  markdown-lint:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - uses: actions/setup-node@v2
+        with:
+          node-version: "16"
+      - name: Install packages
+        run: sudo gem install mdl
+      - name: Get file changes
+        id: get_file_changes
+        uses: trilom/file-changes-action@v1.2.3
+        with:
+          output: " "
+      - name: Echo file changes
+        run: |
+          echo Changed files: ${{ steps.get_file_changes.outputs.files }}
+      - name: Lint markdown files
+        run: mdl ${{ steps.get_file_changes.outputs.files}}
+      - run: npm install
+      - run: node .github/check-format.js

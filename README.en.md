@@ -1,11 +1,6 @@
 # LeetCode
 
-[![Travis](https://img.shields.io/badge/language-C++-green.svg)]()
-[![Travis](https://img.shields.io/badge/language-JavaScript-yellow.svg)]()
-[![Travis](https://img.shields.io/badge/language-Python-red.svg)]()
-[![Travis](https://img.shields.io/badge/language-Java-blue.svg)]()
-![Total visitor](https://visitor-count-badge.herokuapp.com/total.svg?repo_id=azl397985856.leetcode.en)
-![Visitors in today](https://visitor-count-badge.herokuapp.com/today.svg?repo_id=azl397985856.leetcode.en)
+[![Travis](https://img.shields.io/badge/language-C++-green.svg)]() [![Travis](https://img.shields.io/badge/language-JavaScript-yellow.svg)]() [![Travis](https://img.shields.io/badge/language-Python-red.svg)]() [![Travis](https://img.shields.io/badge/language-Java-blue.svg)]() ![Total visitor](https://visitor-count-badge.herokuapp.com/total.svg?repo_id=azl397985856.leetcode.en) ![Visitors in today](https://visitor-count-badge.herokuapp.com/today.svg?repo_id=azl397985856.leetcode.en)
 
 > since 2019-09-03 19:40
 
@@ -15,8 +10,7 @@
 
 ![leetcode.jpeg](https://tva1.sinaimg.cn/large/007S8ZIlly1ghltwf4xivj30dw0780sm.jpg)
 
-This essay records the course of and my emotion to this project from initialization to 10,000 stars.
-[Milestone for 10,000+ stars](./thanksGiving.md)
+This essay records the course of and my emotion to this project from initialization to 10,000 stars. [Milestone for 10,000+ stars](./thanksGiving.md)
 
 If you are interested in this project, **do not mean your star**. This project will be **supported for a long enough time** by the community. Thanks for every audience and contributor.
 
@@ -96,12 +90,9 @@ The data structures mainly include:
 
 > Here only lists some **representative problems** but not all.
 
-#### Easy (Translation in Progress)
+#### Easy
 
-- [0001.TwoSum](./problems/1.two-sum.en.md)🆕
-- [0053.maximum-sum-subarray](./problems/53.maximum-sum-subarray-en.md)
-- [0198.house-robber](./problems/198.house-robber.en.md)🆕
-- [0501.find-mode-in-binary-search-tree](./problems/501.Find-Mode-in-Binary-Search-Tree-en.md)🆕
+- [Easy Collection](https://github.com/azl397985856/leetcode/blob/master/collections/easy.en.md)
 
 #### Medium (Translation in Progress)
 
@@ -128,15 +119,31 @@ The data structures mainly include:
 
 ### Summary of Data Structures and Algorithm
 
-- [Data Structure](./thinkings/basic-data-structure-en.md)
-- [Basic Algorithm](./thinkings/basic-algorithm-en.md)
+- [Basic data structure (overview)](./thinkings/basic-data-structure.en.md)
+- [I have almost finished brushing all the linked topics of Lixu, and I found these things. 。 。](./thinkings/linked-list.en.md)
+- [I have almost finished brushing all the tree questions of Lixu, and I found these things. 。 。](./thinkings/tree.en.md)
+- [堆专题（上）](./thinkings/heap.en.md) (WIP)
+- [I have almost finished brushing all the piles of questions, and I found these things. 。 。 (Second bullet)](./thinkings/heap-2.en.md)
+- [I have almost finished brushing all the two-point questions of Lixiu, and I found these things. 。 。 (Part 1)](./thinkings/binary-search-1.en.md)
+- [I have almost finished brushing all the two-point questions of Lixiu, and I found these things. 。 。 (Part 2)](./thinkings/binary-search-2.en.md)
+
+<!-- - [基础算法](./thinkings/basic-algorithm.md) -->
+
+- [Dynamic Programming](./thinkings/dynamic-programming.en.md)
+- [Search Problems](./thinkings/search.en.md)
 - [Binary Tree Traversal](./thinkings/binary-tree-traversal.en.md)
-- [Dynamic Programming](./thinkings/dynamic-programming-en.md)
-- [Huffman Encode and Run Length Encode](./thinkings/run-length-encode-and-huffman-encode-en.md)
-- [Bloom Filter](./thinkings/bloom-filter-en.md)
-- [String Problems](./thinkings/string-problems-en.md)
-- [Sliding Window Technique](./thinkings/slide-window.en.md)
-- [Trie](./thinkings/trie.en.md)
+- [Backtracking](./thinkings/backtrack.en.md)
+- [Run code and Huffman code](./thinkings/run-length-encode-and-huffman-encode.en.md)
+- [Bloom filter](./thinkings/bloom-filter.en.md)🖊
+- [Trie](./thinkings/trie.en.md)🖊
+- [滑动窗口（思路 + 模板）](./thinkings/slide-window.en.md) (WIP)
+- [Bit Operation](./thinkings/bit.en.md)
+- [Kojima Question](./thinkings/island.en.md)🖊
+- [GCD Problems](./thinkings/GCD.en.md)
+- [Union Find (Disjoint Set) Problem](./thinkings/union-find.en.md)
+- [Balanced Binary Tree](./thinkings/balanced-tree.en.md)
+- [Reservoir Sampling](./thinkings/reservoid-sampling.en.md)
+- [Monotonic stack](./thinkings/monotone-stack.en.md)
 
 ### Anki Flashcards
 
