@@ -52,6 +52,8 @@
 
 最后送给大家一句话： **坚持下去，会有突然间成长的一天**。
 
+[点此参与](https://github.com/azl397985856/leetcode/discussions/532)
+
 ![](https://tva1.sinaimg.cn/large/008i3skNly1gq0mm4lscqj313h0r0diy.jpg)
 
 - 🔥🔥🔥🔥 [活动首页](https://leetcode-solution.cn/91) 🔥🔥🔥🔥
