@@ -536,7 +536,8 @@ leetcode 题解，记录自己的 leetcode 解题之路。
 - [2030. 含特定字母的最小子序列](./problems/2030.smallest-k-length-subsequence-with-occurrences-of-a-letter.md)
 - [2102. 序列顺序查询](./problems/2102.sequentially-ordinal-rank-tracker.md)
 - [2209. 用地毯覆盖后的最少白色砖块](./problems/2209.minimum-white-tiles-after-covering-with-carpets.md) 👍
-- [2281.sum-of-total-strength-of-wizards](./problems/2281.sum-of-total-strength-of-wizards.md)
+- [2281. 巫师的总力量和](./problems/2281.sum-of-total-strength-of-wizards.md)
+- [2306. 公司命名](./problems/2306.naming-a-company.md) 枚举优化好题
 - [5999. 统计数组中好三元组数目](./problems/5999.count-good-triplets-in-an-array.md) 👍
 
 ## :trident: &nbsp;anki 卡片
