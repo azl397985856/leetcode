@@ -353,6 +353,7 @@
   - [2209. 用地毯覆盖后的最少白色砖块](./problems/2209.minimum-white-tiles-after-covering-with-carpets.md)
   - [2281.sum-of-total-strength-of-wizards](./problems/2281.sum-of-total-strength-of-wizards.md)
   - [2306. 公司命名](./problems/2306.naming-a-company.md) 枚举优化好题
+  - [5254. 卖木头块](./problems/5254.selling-pieces-of-wood.md) 动态规划经典题
   - [5999. 统计数组中好三元组数目](./problems/5999.count-good-triplets-in-an-array.md) 👍
 
 - [后序](epilogue.md)
