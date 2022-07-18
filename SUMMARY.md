@@ -174,6 +174,7 @@
   - [0279. 完全平方数](./problems/279.perfect-squares.md)
   - [0309. 最佳买卖股票时机含冷冻期](./problems/309.best-time-to-buy-and-sell-stock-with-cooldown.md) 👍
   - [0322. 零钱兑换](./problems/322.coin-change.md)
+  - [0324. 摆动排序 II](./problems/324.wiggle-sort-ii.md)
   - [0328. 奇偶链表](./problems/328.odd-even-linked-list.md)
   - [0331. 验证二叉树的前序序列化](./problems/331.verify-preorder-serialization-of-a-binary-tree.md) 👍
   - [0334. 递增的三元子序列](./problems/334.increasing-triplet-subsequence.md) 👍
@@ -204,6 +205,7 @@
   - [0611. 有效三角形的个数](./problems/611.valid-triangle-number.md) 👍
   - [0673. 最长递增子序列的个数](./problems/673.number-of-longest-increasing-subsequence.md)
   - [0686. 重复叠加字符串匹配](./problems/686.repeated-string-match.md)
+  - [0710. 黑名单中的随机数](./problems/710.random-pick-with-blacklist.md)
   - [0714. 买卖股票的最佳时机含手续费](./problems/714.best-time-to-buy-and-sell-stock-with-transaction-fee.md) 👍
   - [0718. 最长重复子数组](./problems/718.maximum-length-of-repeated-subarray.md)
   - [0735. 行星碰撞](./problems/735.asteroid-collision.md)
