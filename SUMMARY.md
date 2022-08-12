@@ -261,6 +261,7 @@
   - [1658. 将 x 减到 0 的最小操作数](./problems/1658.minimum-operations-to-reduce-x-to-zero.md)
   - [1697. 检查边长度限制的路径是否存在](./problems/1697.checking-existence-of-edge-length-limited-paths.md)
   - [1737. 满足三条件之一需改变的最少字符数](./problems/1737.change-minimum-characters-to-satisfy-one-of-three-conditions.md) 👍
+  - [1770. 执行乘法运算的最大分数](./problems/1770.maximum-score-from-performing-multiplication-operations.md)👍 91
   - [1834. 单线程 CPU](./problems/1834.single-threaded-cpu.md)
   - [1899. 合并若干三元组以形成目标三元组](./problems/1899.merge-triplets-to-form-target-triplet.md) 👍
   - [1904. 你完成的完整对局数](./problems/1904.the-number-of-full-rounds-you-have-played.md)
