@@ -60,6 +60,18 @@
 - [91 第三期讲义 - 二分专题（上）](./thinkings/binary-search-1.md)
 - [91 第三期讲义 - 二分专题（下）](./thinkings/binary-search-2.md)
 
+## 九章算法班
+
+![](https://tva1.sinaimg.cn/large/e6c9d24ely1h5bw2q7urhj20m803ct8z.jpg)
+
+九章算法，由北大、清华校友于美国硅谷创办，已帮助数十万 IT 程序员找到高薪 offer! 提供 1 对 1 求职指导、算法指导、前后端项目、简历代笔等服务。
+
+- 推荐刷题网站：[www.lintcode.com](https://www.lintcode.com/?utm_source=tf-github-lucifer2022)， 戳此免费领取 7 天[LintCode 超级 Vip](https://www.lintcode.com/vip/activity/zWIMOY)
+
+- 推荐北大 FB 双料大神的[《九章算法班》](https://www.jiuzhang.com/course/71/?utm_source=tf-github-lucifer2022)，有人靠他连拿 3 个大厂 offer
+
+![](https://tva1.sinaimg.cn/large/e6c9d24ely1h5bw3rtr9oj20m807sdgp.jpg)
+
 ## :octocat: 仓库介绍
 
 leetcode 题解，记录自己的 leetcode 解题之路。
