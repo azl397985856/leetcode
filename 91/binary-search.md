@@ -625,7 +625,6 @@ public class BinarySearch {
 }
 ```
 
-
 其他语言暂时空缺，欢迎
 [PR](https://github.com/azl397985856/leetcode-cheat/issues/4)
 
