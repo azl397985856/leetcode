@@ -606,6 +606,23 @@ def bisect_right(A, x):
         else: r = mid - 1
     return l # 或者返回 r + 1
 ```
+##### Java
+
+```java
+import java.util.*;
+public class BinarySearch {
+    public int getPos(int[] A, int val) {
+        int low=0,high=A.lenght-1;
+        while (low <= high){
+            int mid = (low + high)/2;
+            if (A[mid] <= val){
+                low = mid + 1;
+            }else high = mid - 1;
+        }
+        return low;
+    }
+}
+```
 
 其他语言暂时空缺，欢迎
 [PR](https://github.com/azl397985856/leetcode-cheat/issues/4)
