@@ -562,6 +562,25 @@ public class BinarySearch {
 }
 ```
 
+##### C++
+
+```cpp
+public:
+     int binarySearch(int* arr, int arrLen,int a) {
+        int left = 0;
+        int right = arrLen - 1;
+        while(left<=right)
+        {
+            int mid = (left+right)/2;
+            if(arr[mid]>=a)
+                right = mid - 1;
+            else
+                left = mid + 1;
+        }  
+        return left;
+    }
+```
+
 其他语言暂时空缺，欢迎
 [PR](https://github.com/azl397985856/leetcode-cheat/issues/4)
 
