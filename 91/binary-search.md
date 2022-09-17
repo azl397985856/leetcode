@@ -617,9 +617,11 @@ public class BinarySearch {
         int low=0,high=A.lenght-1;
         while (low <= high){
             int mid = (low + high)/2;
-            if (A[mid] <= val){
+            if (A[mid] <= val) {
                 low = mid + 1;
-            }else high = mid - 1;
+            } else {
+	    	high = mid - 1;
+	    } 
         }
         return low;
     }
