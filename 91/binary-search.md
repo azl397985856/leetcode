@@ -583,6 +583,27 @@ public:
     }
 ```
 
+##### JavaScript
+
+```js
+function binarySearch(nums, target) {
+  let left = 0;
+  let right = nums.length - 1;
+  while (left <= right) {
+    const mid = Math.floor(left + (right - left) / 2);
+    if (nums[mid] >= target) {
+    	// 搜索区间变为 [left, mid-1]
+    	right = mid - 1;
+    }
+    else {
+    	// 搜索区间变为 [mid+1, right]
+    	left = mid + 1;
+    }
+  }
+  return left;
+}
+```
+
 其他语言暂时空缺，欢迎
 [PR](https://github.com/azl397985856/leetcode-cheat/issues/4)
 
@@ -644,6 +665,48 @@ public class BinarySearch {
         }
         return low;
     }
+}
+```
+
+##### C++
+
+```cpp
+public:
+     int binarySearch(int* arr, int arrLen,int a) {
+        int left = 0;
+        int right = arrLen - 1;
+        while(left<=right)
+        {
+            int mid = (left+right)/2;
+            if(arr[mid]<=a)
+	    	// 搜索区间变为 [mid+1, right]
+                left = mid + 1;
+            else
+	    	// 搜索区间变为 [left, mid-1]
+                right = mid - 1;
+        }  
+        return left;
+    }
+```
+
+##### JavaScript
+
+```js
+function binarySearch(nums, target) {
+  let left = 0;
+  let right = nums.length - 1;
+  while (left <= right) {
+    const mid = Math.floor(left + (right - left) / 2);
+    if (nums[mid] <= target) {
+    	// 搜索区间变为 [mid+1, right]
+    	left = mid + 1;
+    }
+    else {
+    	// 搜索区间变为 [left, mid-1]
+    	right = mid - 1;
+    }
+  }
+  return left;
 }
 ```
 
