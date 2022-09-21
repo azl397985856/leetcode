@@ -157,7 +157,7 @@ class Solution:
 
 ![](https://tva1.sinaimg.cn/large/0081Kckwly1glgcy6vcb5j30qb0bjabb.jpg)
 
-**剪枝算法回溯的一大考点，大家一定套掌握。**
+**剪枝算法回溯的一大考点，大家一定要掌握。**
 
 ## 笛卡尔积
 
