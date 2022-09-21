@@ -289,52 +289,70 @@ def combine_closest(c1, c2):
 Python3 Code:
 
 ```py
-from sortedcontainers import SortedList
-class Solution:
-    def minAbsDifference(self, nums: List[int], goal: int) -> int:
-        
-        def subsum(seq):
-            dp=[0]*(1<<len(seq))
+	@@ -289,35 +289,52 @@ def combine_closest(c1, c2):
 
-            for i in range(len(seq)):
-                for j in range(1<<i):
-                    dp[(1<<i)+j]=dp[j]+seq[i]
-            
+Python3 Code:
+
+
+
+```py
+class Solution:
+
+    def minAbsDifference(self, nums: List[int], goal: int) -> int:
+
+        def combine_sum(A):
+
+            n = len(A)
+
+            dp = [0] * (1 << n)
+
+            for i in range(n):
+
+                for j in range(1 << i):
+
+                    dp[(1 << i) + j] = dp[j] + A[i]
+
+
+
             return dp
 
-        l_seq=subsum(nums[:len(nums)//2])
-        r_seq=subsum(nums[len(nums)//2:])
-
-        l_seq.sort()
-        r_seq.sort()
-
-        
-        def check_half(seq):
-            idx=bisect.bisect_left(seq,goal)
-            if seq[idx%len(seq)]==goal:
-                return 0
-            else:
-                return min(
-                    abs(goal-seq[idx%len(seq)]),
-                    abs(goal-seq[(idx-1)%len(seq)])
-                    )
 
 
-        ret=min(check_half(l_seq),check_half(r_seq))
+        def combine_closest(c1, c2):
 
-        i,j=0,len(r_seq)-1
-        while i<len(l_seq) and j>=0:
-            tmp=l_seq[i]+r_seq[j]
-            if tmp>goal:
-                j-=1
-            elif tmp<goal:
-                i+=1
-            else:
-                return 0
+            c1.sort()
 
-            ret=min(ret,abs(goal-tmp))
+            c2.sort()
 
-        return ret
+            ans = float("inf")
+
+            i, j = 0, len(c2) - 1
+
+            while i < len(c1) and j >= 0:
+
+                _sum = c1[i] + c2[j]
+
+                ans = min(ans, abs(_sum - goal))
+
+                if _sum > goal:
+
+                    j -= 1
+
+                elif _sum < goal:
+
+                    i += 1
+
+                else:
+
+                    return 0
+
+            return ans
+
+
+
+        n = len(nums)
+
+        return combine_closest(combine_sum(nums[: n // 2]), combine_sum(nums[n // 2 :]))
 ```
 
 **复杂度分析**
