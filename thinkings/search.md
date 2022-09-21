@@ -289,14 +289,6 @@ def combine_closest(c1, c2):
 Python3 Code:
 
 ```py
-	@@ -289,35 +289,52 @@ def combine_closest(c1, c2):
-
-Python3 Code:
-
-
-
-
-```py
 class Solution:
     def minAbsDifference(self, nums: List[int], goal: int) -> int:
         def combine_sum(A):
