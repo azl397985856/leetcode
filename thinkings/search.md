@@ -295,64 +295,37 @@ Python3 Code:
 
 
 
+
 ```py
 class Solution:
-
     def minAbsDifference(self, nums: List[int], goal: int) -> int:
-
         def combine_sum(A):
-
             n = len(A)
-
             dp = [0] * (1 << n)
-
             for i in range(n):
-
                 for j in range(1 << i):
-
                     dp[(1 << i) + j] = dp[j] + A[i]
-
-
-
             return dp
 
-
-
         def combine_closest(c1, c2):
-
             c1.sort()
-
             c2.sort()
-
             ans = float("inf")
-
             i, j = 0, len(c2) - 1
-
             while i < len(c1) and j >= 0:
-
                 _sum = c1[i] + c2[j]
-
                 ans = min(ans, abs(_sum - goal))
-
                 if _sum > goal:
-
                     j -= 1
-
                 elif _sum < goal:
-
                     i += 1
-
                 else:
-
                     return 0
-
             return ans
 
-
-
         n = len(nums)
-
         return combine_closest(combine_sum(nums[: n // 2]), combine_sum(nums[n // 2 :]))
+
 ```
 
 **复杂度分析**
