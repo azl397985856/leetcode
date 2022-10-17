@@ -72,6 +72,10 @@
 - [91 第三期讲义 - 二分专题（上）](./thinkings/binary-search-1.md)
 - [91 第三期讲义 - 二分专题（下）](./thinkings/binary-search-2.md)
 
+## 1V1 辅导
+
+如果大家觉得上面的集体活动效率比较低，我目前也接受 1v1 算法辅导，价格根据你的算法基础以及想要学习的内容而定感兴趣的可以加我微信，备注“算法辅导”，微信号 DevelopeEngineer。
+
 ## :octocat: 仓库介绍
 
 leetcode 题解，记录自己的 leetcode 解题之路。
