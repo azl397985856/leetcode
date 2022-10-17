@@ -544,6 +544,66 @@ def bisect_left(A, x):
     return l
 ```
 
+##### Java
+
+```java
+import java.util.*;
+public class BinarySearch {
+    public int getPos(int[] A, int val) {
+        int low=0,high=A.lenght-1;
+        while (low <= high){
+            int mid = (low + high)/2;
+            if (A[mid] >= val) {
+                high = mid-1;
+            } else {
+	    	low = mid+1;
+	    } 
+        }
+        return low;
+    }
+}
+```
+
+##### C++
+
+```cpp
+public:
+     int binarySearch(int* arr, int arrLen,int a) {
+        int left = 0;
+        int right = arrLen - 1;
+        while(left<=right)
+        {
+            int mid = (left+right)/2;
+            if(arr[mid]>=a)
+                right = mid - 1;
+            else
+                left = mid + 1;
+        }  
+        return left;
+    }
+```
+
+##### JavaScript
+
+```js
+function binarySearch(nums, target) {
+  let left = 0;
+  let right = nums.length - 1;
+  while (left <= right) {
+    const mid = Math.floor(left + (right - left) / 2);
+    if (nums[mid] >= target) {
+    	// 搜索区间变为 [left, mid-1]
+    	right = mid - 1;
+    }
+    else {
+    	// 搜索区间变为 [mid+1, right]
+    	left = mid + 1;
+    }
+  }
+  return left;
+}
+```
+
 其他语言暂时空缺，欢迎
 [PR](https://github.com/azl397985856/leetcode-cheat/issues/4)
 
@@ -587,6 +647,67 @@ def bisect_right(A, x):
         if A[mid] <= x: l = mid + 1
         else: r = mid - 1
     return l # 或者返回 r + 1
+```
+##### Java
+
+```java
+import java.util.*;
+public class BinarySearch {
+    public int getPos(int[] A, int val) {
+        int low=0,high=A.lenght-1;
+        while (low <= high){
+            int mid = (low + high)/2;
+            if (A[mid] <= val) {
+                low = mid + 1;
+            } else {
+	    	high = mid - 1;
+	    } 
+        }
+        return low;
+    }
+}
+```
+
+##### C++
+
+```cpp
+public:
+     int binarySearch(int* arr, int arrLen,int a) {
+        int left = 0;
+        int right = arrLen - 1;
+        while(left<=right)
+        {
+            int mid = (left+right)/2;
+            if(arr[mid]<=a)
+	    	// 搜索区间变为 [mid+1, right]
+                left = mid + 1;
+            else
+	    	// 搜索区间变为 [left, mid-1]
+                right = mid - 1;
+        }  
+        return left;
+    }
+```
+
+##### JavaScript
+
+```js
+function binarySearch(nums, target) {
+  let left = 0;
+  let right = nums.length - 1;
+  while (left <= right) {
+    const mid = Math.floor(left + (right - left) / 2);
+    if (nums[mid] <= target) {
+    	// 搜索区间变为 [mid+1, right]
+    	left = mid + 1;
+    }
+    else {
+    	// 搜索区间变为 [left, mid-1]
+    	right = mid - 1;
+    }
+  }
+  return left;
+}
 ```
 
 其他语言暂时空缺，欢迎
