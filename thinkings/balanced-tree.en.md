@@ -176,13 +176,13 @@ One possible answer is：[0, -3, 9, -10, null, 5], it can represent the followin
 
 The same idea as 108. The difference is the different data structures, so we need to pay attention to the operational differences between linked lists and arrays.
 
-![](https://tva1.sinaimg.cn/large/007S8ZIlly1ghluhp582uj31ii0pgjsw.jpg)
+![](https://p.ipic.vip/24tsus.jpg)
 
 (The case of arrays)
 
 Let's take a look at the linked list again：
 
-![](https://tva1.sinaimg.cn/large/007S8ZIlly1ghluhpjgtqj31q30u0mzv.jpg) (The case of the linked list)
+![](https://p.ipic.vip/7eia6x.jpg) (The case of the linked list)
 
 To find the midpoint, you only need to use the classic speed pointer. At the same time, in order to prevent the ring from appearing, we need to cut off the next pointer to mid, so we need to record a node before the midpoint. This only needs to be recorded with a variable pre.
 
@@ -297,7 +297,7 @@ Let n be the length of the linked list.
 
 Some students are not very good at analyzing the time complexity and space complexity of recursion. We will introduce it to you again here.
 
-![](https://tva1.sinaimg.cn/large/008i3skNly1gqmduc0j3dj314d0jk7ju.jpg)
+![](https://p.ipic.vip/w5qjq6.jpg)
 
 First we try to draw the following recursive tree. Due to the recursive depth of the tree is $logn$ thus the space complexity is $logn$ \* recursive function inside the space complexity, due to the recursive function within the space complexity is $O(1)$, so the total space complexity is $O(logn)$。
 
@@ -335,7 +335,7 @@ example：
 
 ```
 
-![](https://tva1.sinaimg.cn/large/007S8ZIlly1ghluhpzr87j306j07r0sm.jpg)
+![](https://p.ipic.vip/93npuo.jpg)
 
 ```
 

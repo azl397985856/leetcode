@@ -1,6 +1,6 @@
 # I have almost finished brushing all the linked topics of Lixu, and I found these things. 。 。
 
-![](https://tva1.sinaimg.cn/large/0081Kckwly1gki5nbjcgqj31be0u0q5w.jpg)
+![](https://p.ipic.vip/y32bsg.jpg)
 
 Let's start with the outline of this article. This is a brain map drawn by me with mindmap. After that, I will continue to improve it and gradually improve other topics.
 
@@ -10,7 +10,7 @@ Hello everyone, this is lucifer. The topic that I bring to you today is "Linked 
 
 [Linked List Tag] (https://leetcode-cn.com/tag/linked-list /"Linked list tag") There are a total of ** 54 questions** in leetcode. In order to prepare for this topic, I spent a few days brushing almost all the linked list topics of leetcode.
 
-![](https://tva1.sinaimg.cn/large/0081Kckwly1gki5vhm12jj310y0raadh.jpg)
+![](https://p.ipic.vip/fdv0l4.jpg)
 
 It can be seen that except for the six locked ones, I have brushed all the others. In fact, these six locked ones are not difficult, and they are even similar to the other 48 questions.
 
@@ -22,13 +22,13 @@ By focusing on these questions, I found some interesting information, and I will
 
 Various data structures, whether they are linear data structures such as queues and stacks, or non-linear data structures such as trees and graphs, are fundamentally arrays and linked lists. Whether you are using an array or a linked list, you are using computer memory. Physical memory is composed of memory units of the same size, as shown in the figure.：
 
-![](https://tva1.sinaimg.cn/large/007S8ZIlly1gfqt71jt4cj30kg0b4wfl.jpg)
+![](https://p.ipic.vip/4toqem.jpg)
 
 (Figure 1. Physical memory)
 
 Although arrays and linked lists use physical memory, they are very different in their physical use, as shown in the figure.：
 
-![](https://tva1.sinaimg.cn/large/007S8ZIlly1gfqtbpbwmrj31gu0qmtej.jpg)
+![](https://p.ipic.vip/8e68pn.jpg)
 
 (Figure 2. Physical storage diagram of arrays and linked lists)
 
@@ -49,7 +49,7 @@ A linked list is a kind of non-continuous, non-sequential storage structure on a
 
 From the physical structure diagram above, it can be seen that an array is a contiguous space, and each item of the array is closely connected, so it is troublesome to perform insert and delete operations. The logarithm of Group Head of insertion and deletion time complexity is$O(N)$, while the average complexity is$O(N)$, only the tail of the Insert and delete is$O(1)$。 Simply put” "arrays are particularly friendly to queries, but unfriendly to deletions and additions“" In order to solve this problem, there is a data structure like a linked list. Linked lists are suitable for scenarios where data needs to be in a certain order, but frequent additions, deletions and deletions are required. For details, please refer to the "Basic Operations of Linked Lists" subsection later.
 
-![](https://tva1.sinaimg.cn/large/007S8ZIlly1gfigmeqc3xj316o094jt6.jpg)
+![](https://p.ipic.vip/kqyqnr.jpg)
 
 (Figure 3. A typical logical representation of a linked list)
 
@@ -220,7 +220,7 @@ Some friends do linked list questions, first replace the linked list with an arr
 
 This question is really not difficult. It is not difficult to say that there is evidence. Taking the LeetCode platform as an example, there are only two difficult topics.
 
-![](https://tva1.sinaimg.cn/large/0081Kckwly1gkhptfjewrj310c0fajt1.jpg)
+![](https://p.ipic.vip/5h1s19.jpg)
 
 Among them, Question 23 basically has no linked list operation. A conventional "merge and sort" can be done, and merging two ordered linked lists is a simple question. If you know how to merge and sort arrays and merge two ordered linked lists, you should easily win this question.
 
@@ -280,11 +280,11 @@ First of all, all we have to do is draw pictures. I have talked about this in th
 
 As shown in the figure below, is the part of the linked list that we need to reverse：
 
-![](https://tva1.sinaimg.cn/large/0081Kckwly1gkhy98pp5fj31d40am3zx.jpg)
+![](https://p.ipic.vip/zjpjco.jpg)
 
 And we expect it to look like this after reversal：
 
-![](https://tva1.sinaimg.cn/large/0081Kckwly1gkhs3rsde4j31cc09o75p.jpg)
+![](https://p.ipic.vip/8trs7c.jpg)
 
 It is not difficult to see that ** Can finally return to tail**.
 
@@ -292,7 +292,7 @@ Due to the recursiveness of the linked list, in fact, we only need to reverse th
 
 > Linked lists are a kind of recursive data structure, so using the idea of recursion to consider it often does more with half the effort. Thinking about linked lists recursively will be expanded in the "Three Notes" section later.
 
-![](https://tva1.sinaimg.cn/large/0081Kckwly1gkhs8pccboj30ku09u0td.jpg)
+![](https://p.ipic.vip/ev3ox7.jpg)
 
 For the two nodes, we only need to modify the pointer once, which seems not difficult.
 
@@ -300,7 +300,7 @@ For the two nodes, we only need to modify the pointer once, which seems not diff
 cur. next = pre
 ```
 
-![](https://tva1.sinaimg.cn/large/0081Kckwly1gkhsaoodvrj30yu0h8761.jpg)
+![](https://p.ipic.vip/g8cwne.jpg)
 
 It is this operation that not only abruptly has a ring, but also makes you cycle endlessly. They also let them part ways that shouldn't be cut off.
 
@@ -313,11 +313,11 @@ cur. next = pre
 cur = next
 ```
 
-![](https://tva1.sinaimg.cn/large/0081Kckwly1gkhsft0cyuj30wa0s80ux.jpg)
+![](https://p.ipic.vip/ejtmfc.jpg)
 
 What about the ring? In fact, the ring does not need to be solved. Because if we traverse from front to back, then in fact, the previous linked list has been reversed, so my picture above is wrong. The correct picture should be：
 
-![](https://tva1.sinaimg.cn/large/0081Kckwly1gkhsi5tiorj311y0gcwg1.jpg)
+![](https://p.ipic.vip/uuyodd.jpg)
 
 So far, we can write the following code：
 
@@ -462,7 +462,7 @@ The figure below is the picture we should draw when traversing the preface. Just
 1. The previous one has been processed
 2. The rest hasn't been processed yet
 
-![](https://tva1.sinaimg.cn/large/0081Kckwly1gkhvdo54mpj31ly0ikjvp.jpg)
+![](https://p.ipic.vip/o6vkeo.jpg)
 
 Accordingly, it is not difficult for us to write the following recursive code. The code comments are very detailed. Just look at the comments.
 
@@ -480,7 +480,7 @@ dfs(head, None)
 
 What if it is a back-order traversal? The old rule, adhering to one of our principles, **Draw a picture first**.
 
-![](https://tva1.sinaimg.cn/large/0081Kckwly1gkhvf05u10j31n20ikdk6.jpg)
+![](https://p.ipic.vip/w9qk6z.jpg)
 
 It is not difficult to see that we can pass head. Next gets the next element, and then points the next of the next element to itself to complete the reversal.
 
@@ -490,4 +490,4 @@ It is expressed in code:
 head. next. next = head
 ```
 
-![](https://tva1.sinaimg.cn/large/0081Kckwly1gkhvhje71pj31ji0k2gq0.jpg)
+![](https://p.ipic.vip/6ttbmh.jpg)

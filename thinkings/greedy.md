@@ -46,11 +46,11 @@ LeetCode 上对于贪婪策略有 73 道题目。我们将其分成几个类型�
 
 如下图，开始的位置是 2，可跳的范围是橙色节点的。由于 3 可以跳的更远，足以覆盖 2 的情况，因此应该跳到 3 的位置。
 
-![](https://tva1.sinaimg.cn/large/007S8ZIlly1ghluifqw9sj309i03xq2t.jpg)
+![](https://p.ipic.vip/qsqtgu.jpg)
 
 当我们跳到 3 的位置后。 如下图，能跳的范围是橙色的 1，1，4。由于 4 可以跳的更远，因此跳到 4 的位置。
 
-![](https://tva1.sinaimg.cn/large/007S8ZIlly1ghluimff8dj30c1039wed.jpg)
+![](https://p.ipic.vip/l6ey7y.jpg)
 
 写代码的话，我们可以使用 end 表示当前能跳的边界，对应第一个图的橙色 1，第二个图的橙色 4。并且遍历数组的时候，到了边界，就重新更新边界。
 
@@ -194,7 +194,7 @@ class Solution:
 示例 1：
 ```
 
-![](https://tva1.sinaimg.cn/large/007S8ZIlly1ghluiubf2gj30bm05xmx4.jpg)
+![](https://p.ipic.vip/ydxkrm.jpg)
 
 ```
 输入：n = 5, ranges = [3,4,1,1,0,0]
@@ -285,12 +285,12 @@ class Solution:
 
 我整理的 1000 多页的电子书已经开发下载了，大家可以去我的公众号《力扣加加》后台回复电子书获取。
 
-![](https://cdn.jsdelivr.net/gh/azl397985856/cdn/2020-10-17/1602928846461-image.png)
+![](https://p.ipic.vip/v7h0rf.png)
 
-![](https://cdn.jsdelivr.net/gh/azl397985856/cdn/2020-10-17/1602928862442-image.png)
+![](https://p.ipic.vip/kx37gp.png)
 
 大家对此有何看法，欢迎给我留言，我有时间都会一一查看回答。更多算法套路可以访问我的 LeetCode 题解仓库：https://github.com/azl397985856/leetcode 。 目前已经 37K star 啦。
 
 大家也可以关注我的公众号《力扣加加》带你啃下算法这块硬骨头。
 
-![](https://tva1.sinaimg.cn/large/007S8ZIlly1gfcuzagjalj30p00dwabs.jpg)
+![](https://p.ipic.vip/wu7dm6.jpg)

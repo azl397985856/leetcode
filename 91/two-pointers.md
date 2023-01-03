@@ -16,7 +16,7 @@ for(int i = 0;i < nums.size(); i++) {
 }
 ```
 
-![](https://tva1.sinaimg.cn/large/007S8ZIlly1gf5w79tciyj30aa0hl77b.jpg)
+![](https://p.ipic.vip/s306f5.jpg)
 
 （图 1）
 
@@ -35,7 +35,7 @@ while (l < r) {
 return l
 ```
 
-![](https://tva1.sinaimg.cn/large/007S8ZIlly1gf5yfe9da7j307504ut8r.jpg)
+![](https://p.ipic.vip/duhwzn.jpg)
 
 （图 2）
 

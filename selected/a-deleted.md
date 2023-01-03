@@ -52,7 +52,7 @@ num 不会包含任何前导零。
 
 以题目中的 `num = 1432219， k = 3` 为例，我们需要返回一个长度为 4 的字符串，问题在于： 我们怎么才能求出这四个位置依次是什么呢？
 
-![](https://tva1.sinaimg.cn/large/007S8ZIlly1gfr0o3bz8aj30ya0he75v.jpg)
+![](https://p.ipic.vip/stdrvp.jpg)
 
 （图 1）
 
@@ -76,19 +76,19 @@ num 不会包含任何前导零。
 
 以题目中的 `num = 1432219， k = 3` 为例的图解过程如下：
 
-![](https://tva1.sinaimg.cn/large/007S8ZIlly1gfr3me4mltj30u00xjgp5.jpg)
+![](https://p.ipic.vip/8jxf63.jpg)
 
 （图 2）
 
 由于没有左侧相邻元素，因此**没办法丢弃**。
 
-![](https://tva1.sinaimg.cn/large/007S8ZIlly1gfr3p4idahj30sk116dj7.jpg)
+![](https://p.ipic.vip/zi6ehp.jpg)
 
 （图 3）
 
 由于 4 比左侧相邻的 1 大。如果选择丢弃左侧的 1，那么会使得剩下的数字更大（开头的数从 1 变成了 4）。因此我们仍然选择**不丢弃**。
 
-![](https://tva1.sinaimg.cn/large/007S8ZIlly1gfr3rtp1b1j30tk12etcr.jpg)
+![](https://p.ipic.vip/pfq2jw.jpg)
 
 （图 4）
 
@@ -107,7 +107,7 @@ num 不会包含任何前导零。
 
 上面的思路可行，但是稍显复杂。
 
-![](https://tva1.sinaimg.cn/large/007S8ZIlly1gfk7m9z3elj30zk0i01kx.jpg)
+![](https://p.ipic.vip/oeib5j.jpg)
 （图 5）
 
 我们需要把思路逆转过来。刚才我的关注点一直是**丢弃**，题目要求我们丢弃 k 个。反过来说，不就是让我们保留 $n - k$ 个元素么？其中 n 为数字长度。 那么我们只需要按照上面的方法遍历完成之后，再截取前**n - k**个元素即可。
@@ -290,7 +290,7 @@ k = 3
 
 实际上这个过程有点类似`归并排序`中的**治**，而上面我们分别计算 num1 和 num2 的最大数的过程类似`归并排序`中的**分**。
 
-![](https://tva1.sinaimg.cn/large/007S8ZIlly1gfruuvyrn5j31mk0i8414.jpg)
+![](https://p.ipic.vip/5sx28e.jpg)
 （图 6）
 
 代码：
@@ -324,7 +324,7 @@ A < B # False
 
 以合并 [6] 和 [9,5,8,3] 为例，图解过程如下：
 
-![](https://tva1.sinaimg.cn/large/007S8ZIlly1gfruxjfwlhj31cu0u07c0.jpg)
+![](https://p.ipic.vip/1tuzsh.jpg)
 （图 7）
 
 具体算法：
@@ -381,4 +381,4 @@ class Solution:
 
 大家也可以关注我的公众号《力扣加加》获取更多更新鲜的 LeetCode 题解
 
-![](https://tva1.sinaimg.cn/large/007S8ZIlly1gfcuzagjalj30p00dwabs.jpg)
+![](https://p.ipic.vip/a6klat.jpg)

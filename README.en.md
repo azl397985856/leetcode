@@ -1,6 +1,6 @@
 # LeetCode
 
-[![Travis](https://img.shields.io/badge/language-C++-green.svg)]() [![Travis](https://img.shields.io/badge/language-JavaScript-yellow.svg)]() [![Travis](https://img.shields.io/badge/language-Python-red.svg)]() [![Travis](https://img.shields.io/badge/language-Java-blue.svg)]() ![Total visitor](https://visitor-count-badge.herokuapp.com/total.svg?repo_id=azl397985856.leetcode.en) ![Visitors in today](https://visitor-count-badge.herokuapp.com/today.svg?repo_id=azl397985856.leetcode.en)
+[![Travis](https://p.ipic.vip/hnzzr3.jpg)]() [![Travis](https://p.ipic.vip/3zihse.jpg)]() [![Travis](https://p.ipic.vip/hh8zzk.jpg)]() [![Travis](https://p.ipic.vip/gd28pb.jpg)]() ![Total visitor](https://visitor-count-badge.herokuapp.com/total.svg?repo_id=azl397985856.leetcode.en) ![Visitors in today](https://visitor-count-badge.herokuapp.com/today.svg?repo_id=azl397985856.leetcode.en)
 
 > since 2019-09-03 19:40
 
@@ -8,7 +8,7 @@
 
 ---
 
-![leetcode.jpeg](https://tva1.sinaimg.cn/large/007S8ZIlly1ghltwf4xivj30dw0780sm.jpg)
+![leetcode.jpeg](https://p.ipic.vip/u6nhhh.jpg)
 
 This essay records the course of and my emotion to this project from initialization to 10,000 stars. [Milestone for 10,000+ stars](./thanksGiving.md)
 
@@ -16,7 +16,7 @@ If you are interested in this project, **do not mean your star**. This project w
 
 ## Introduction
 
-![leetcode.jpeg](https://tva1.sinaimg.cn/large/007S8ZIlly1ghltwf4xivj30dw0780sm.jpg)
+![leetcode.jpeg](https://p.ipic.vip/u6nhhh.jpg)
 
 LeetCode Solutions: A Journey of Problem Solving.
 
@@ -49,7 +49,7 @@ If you want to do some contributions or collaborations, just feel free to contac
 - Here will be the place to update Anki Flashcards in the future as well.
 - Here is a mind mapping graph showing the summary of categorizations of problems that are questioned frequently in interviews. We could analyze according to the information in the graph.
 
-![leetcode-zhihu](https://tva1.sinaimg.cn/large/007S8ZIlly1ghltwgi53bj30k00jx0te.jpg)
+![leetcode-zhihu](https://p.ipic.vip/58vm3a.jpg)
 
 (Picture credited by [LeetCode-cn](https://www.zhihu.com/question/24964987/answer/586425979).)
 
@@ -74,15 +74,15 @@ The data structures mainly include:
 
 [0547.friend-circles](./problems/547.friend-circles-en.md) :
 
-![friend circle BFS](https://tva1.sinaimg.cn/large/007S8ZIlly1ghltwh1getj30u0140tdc.jpg)
+![friend circle BFS](https://p.ipic.vip/5gg5y0.jpg)
 
 [backtrack problems](./problems/90.subsets-ii-en.md):
 
-![backtrack](https://tva1.sinaimg.cn/large/007S8ZIlly1ghltwhwowgj30n20nptas.jpg)
+![backtrack](https://p.ipic.vip/w5g03x.jpg)
 
 [0454.4-sum-ii](./problems/454.4-sum-ii.en.md) :
 
-![454.4-sum-ii](https://tva1.sinaimg.cn/large/007S8ZIlly1ghltwivf65j30le0deab3.jpg)
+![454.4-sum-ii](https://p.ipic.vip/vaniw4.jpg)
 
 ## Portals
 
@@ -177,11 +177,11 @@ We're still on the early stage, so feedback from community is very welcome. For 
 
 ### QQ (For China Region)
 
-![qq-group-chat](https://tva1.sinaimg.cn/large/007S8ZIlly1ghltwje9plj3060060wel.jpg)
+![qq-group-chat](https://p.ipic.vip/k88y70.jpg)
 
 ### WeChat (For China Region)
 
-![wechat-group-chat](https://tva1.sinaimg.cn/large/007S8ZIlly1ghltwjrk6ij30e80e875j.jpg)
+![wechat-group-chat](https://p.ipic.vip/d621ys.jpg)
 
 (Add this bot and reply "leetcode" to join the group.)
 

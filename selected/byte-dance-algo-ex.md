@@ -10,7 +10,7 @@
 
 另一个问答是红包题目，这里不多说了。我们重点看一下剩下两个算法编程题。
 
-![](https://tva1.sinaimg.cn/large/007S8ZIlly1gigxwqs84rj312d0u0the.jpg)
+![](https://p.ipic.vip/23f5lt.jpg)
 
 > 两个问答题由于不能在线判题，我没有做，只做了剩下两个编程题。
 
@@ -170,19 +170,19 @@ for i in range(t):
 
 > lucifer 小提示： 左侧的数字表示此时窗口大小，黄色格子表示修补的墙，黑色方框表示的是窗口。
 
-![](https://tva1.sinaimg.cn/large/007S8ZIlly1gih11ey3hhj30ks05o0sx.jpg)
+![](https://p.ipic.vip/p5x8po.jpg)
 
 这里我形象地将 0 看成是洞，1 看成是墙， 我们的目标就是补洞，使得连续的墙最长。
 
-![](https://tva1.sinaimg.cn/large/007S8ZIlly1gih12xgf04j30ik054dfx.jpg)
+![](https://p.ipic.vip/u8ipyt.jpg)
 
 每次碰到一个洞，我们都去不加选择地修补。由于 m 等于 1， 也就是说我们最多补一个洞。因此需要在修补超过一个洞的时候，我们需要调整窗口范围，使得窗口内最多修补一个墙。由于窗口表示的就是连续的墙（已有的或者修补的），因此最终我们返回窗口的最大值即可。
 
-![](https://tva1.sinaimg.cn/large/007S8ZIlly1gih1588r5kj30xe0dm770.jpg)
+![](https://p.ipic.vip/b87j8h.jpg)
 
 > 由于下面的图窗口内有两个洞，这和”最多补一个洞“冲突， 我们需要收缩窗口使得满足“最多补一个洞”的先决条件。
 
-![](https://tva1.sinaimg.cn/large/007S8ZIlly1gih1ac1v5ij30o60ba76r.jpg)
+![](https://p.ipic.vip/tkbcld.jpg)
 
 因此最大的窗口就是 max(2, 3, 4, ...) = 4。
 
@@ -266,4 +266,4 @@ print(max(ans, j - i + 1))
 
 关注公众号力扣加加，努力用清晰直白的语言还原解题思路，并且有大量图解，手把手教你识别套路，高效刷题。
 
-![](https://tva1.sinaimg.cn/large/007S8ZIlly1gfcuzagjalj30p00dwabs.jpg)
+![](https://p.ipic.vip/6ft83c.jpg)

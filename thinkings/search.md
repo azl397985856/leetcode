@@ -62,11 +62,11 @@
 
 （下图描述的是对一个长度为 3 的数组进行决策的部分过程，树节点中的数字表示索引。即确定第一个数有三个选择，确定第二个数会根据上次的选择变为剩下的两个选择）
 
-![](https://tva1.sinaimg.cn/large/008i3skNly1gqwu244duoj30n40iaabd.jpg)
+![](https://p.ipic.vip/us3d79.jpg)
 
 决策过程动图演示：
 
-![搜索-决策树.svg](https://pic.stackoverflow.wiki/uploadImages/115/238/39/106/2021/05/27/18/33/b97ee92b-a516-48e1-83d9-b29c1eaf2eff.svg)
+![搜索-决策树.svg](https://p.ipic.vip/1ftp32.jpg)
 
 **一些搜索算法就是基于这个朴素的思想，本质就是模拟这个决策树**。这里面其实也有很多有趣的细节，后面我们会对其进行更加详细的讲解。而现在大家只需要对**解空间是什么以及如何对解空间进行遍历有一点概念就行了。** 后面我会继续对这个概念进行加深。
 
@@ -500,13 +500,13 @@ class Solution:
 
 以上就是双向搜索的大体思路。用图来表示就是这样的：
 
-![](https://tva1.sinaimg.cn/large/008i3skNly1gr1qya05soj30kp0n8q4u.jpg)
+![](https://p.ipic.vip/epi1dl.jpg)
 
 如上图，我们从起点和终点（A 和 Z）分别开始搜索，如果起点的扩展状态和终点的扩展状态重叠（本质上就是队列中的元素重叠了），那么我们就知道了一个从节点到终点的最短路径。
 
 动图演示：
 
-![双向搜索.svg](https://pic.stackoverflow.wiki/uploadImages/115/238/39/106/2021/05/31/17/41/ab3959a8-ebc2-4772-9f04-390f5cac675b.svg)
+![双向搜索.svg](https://p.ipic.vip/1j44k8.jpg)
 
 看到这里有必要暂停一下插几句话。
 
@@ -518,13 +518,13 @@ class Solution:
 
 - 为什么双向搜索更快了？通过上面的图我们发现通常刚开始的时候边比较少，队列中的数据也比较少。而随着搜索的进行，**搜索树越来越大， 队列中的节点随之增多**。和上面双向搜索类似，这种增长速度很多情况下是指数级别的，而双向搜索**可以将指数的常系数移动到多项式系数**。如果不使用双向搜索那么搜索树大概是这样的：
 
-![](https://tva1.sinaimg.cn/large/008i3skNly1gr1r2x6ijij30hz0nvmyz.jpg)
+![](https://p.ipic.vip/hm471g.jpg)
 
 可以看出搜索树大了很多，以至于很多点我都画不下，只好用 ”。。。“ 来表示。
 
 - 什么情况下更快？相比于单向搜索，双向搜索通常更快。当然也有例外，举个极端的例子，假如从起点到终点只有一条路径，那么无论使用单向搜索还是双向搜索结果都是一样。
 
-![](https://tva1.sinaimg.cn/large/008i3skNly1gr1qrck4fqj30g808edgf.jpg)
+![](https://p.ipic.vip/k5nm5q.jpg)
 
 如图使用单向搜索还是双向搜索都是一样的。
 
@@ -547,7 +547,7 @@ class Solution:
 - 构建邻接矩阵
 - 每次都尝试从 q1 和 q2 中的较小的进行扩展。这样可以达到剪枝的效果。
 
-![](https://tva1.sinaimg.cn/large/008i3skNly1gr1q5h0haxj30ig08ygmg.jpg)
+![](https://p.ipic.vip/zu7r4y.jpg)
 
 - 如果 q1 和 q2 交汇了，则将两者的路径拼接起来即可。
 
@@ -618,13 +618,13 @@ Python3 Code:
 
 如下图：
 
-![](https://tva1.sinaimg.cn/large/008i3skNly1gr1pyirzhvj30jo096t9o.jpg)
+![](https://p.ipic.vip/sbozez.jpg)
 
 上面的队列是普通的队列。 而下面的双端队列，可以看出我们在队头插队了一个 B。
 
 动图演示：
 
-![双端队列.svg](https://pic.stackoverflow.wiki/uploadImages/115/238/39/106/2021/05/31/17/07/5d905ba0-c4c4-4bb4-91e9-d2ccb79d435b.svg)
+![双端队列.svg](https://p.ipic.vip/nj812l.jpg)
 
 > 思考：如果图对应的权值不是 0 和 1，而是任意正整数呢？
 
@@ -642,23 +642,23 @@ BFS 和 DFS 分别处理什么样的问题？两者究竟有什么样的区别�
 
 如下图，我们遍历到 A，有三个选择。此时我们可以任意选择一条，比如选择了 B，程序会继续往下进行选择分支 2，3 。。。
 
-![](https://tva1.sinaimg.cn/large/008i3skNly1gqrjwjmdegj30yy0u0n29.jpg)
+![](https://p.ipic.vip/pv1i95.jpg)
 
 如下动图演示了一个典型的 DFS 流程。后面的章节，我们会给大家带来更复杂的图上 DFS。
 
-![binary-tree-traversal-dfs](https://tva1.sinaimg.cn/large/007S8ZIlly1ghlui7vcmwg30dw0dw3yl.gif)
+![binary-tree-traversal-dfs](https://p.ipic.vip/p7rnza.gif)
 
 - BFS 在分叉点会选择搜索的路径各尝试一次。使用队列来存储待处理的元素时，队列中**最多**只会有两层的元素，且满足单调性，即相同层的元素在一起。**基于这个特点有很多有趣的优化。**
 
 如下图，广度优先遍历会将搜索的选择全部选择一遍会才会进入到下一层。和上面一样，我给大家标注了程序执行的一种可能的顺序。
 
-![](https://tva1.sinaimg.cn/large/008i3skNly1gqrjziifatj31er0u0dqj.jpg)
+![](https://p.ipic.vip/u8m52f.jpg)
 
 可以发现，和我上面说的一样。右侧的队列始终最多有两层的节点，并且相同层的总在一起，换句话说队列的元素在层上**满足单调性**。
 
 如下动图演示了一个典型的 BFS 流程。后面的章节，我们会给大家带来更复杂的图上 BFS。
 
-![binary-tree-traversal-bfs](https://tva1.sinaimg.cn/large/007S8ZIlly1ghluic79lag30dw0dw3yl.gif)
+![binary-tree-traversal-bfs](https://p.ipic.vip/oynlqu.gif)
 
 ## 总结
 

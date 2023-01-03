@@ -4,7 +4,7 @@
 
 这套题一共 11 道题， 三道编程题， 八道问答题。本次给大家带来的就是这三道编程题。更多精彩内容，请期待我的搞定算法面试专栏。
 
-![](https://tva1.sinaimg.cn/large/007S8ZIlly1gip1ab1tb9j311b0u0jzi.jpg)
+![](https://p.ipic.vip/5cu79p.jpg)
 
 其中有一道题《异或》我没有通过所有的测试用例， 小伙伴可以找找茬，第一个找到并在公众号力扣加加留言的小伙伴奖励现金红包 10 元。
 
@@ -77,7 +77,7 @@ c-b<=10
 
 实际上，这道题就是一个决策树， 我画个决策树出来你就明白了。
 
-![](https://tva1.sinaimg.cn/large/007S8ZIlly1gip1se8id8j31p60u0n6z.jpg)
+![](https://p.ipic.vip/o9lenf.jpg)
 
 > 图中红色边框表示自身可以组成套题的一部分， 我也用文字进行了说明。#2 代表第二题， #3 代表第三题。
 
@@ -85,7 +85,7 @@ c-b<=10
 
 需要特别注意的是，由于需要凑整， 因此你需要使得题目的总数是 3 的倍数向上取整。
 
-![](https://tva1.sinaimg.cn/large/007S8ZIlly1gip1x5c97lj30cs0eoq3c.jpg)
+![](https://p.ipic.vip/4ifglo.jpg)
 
 ### 代码
 
@@ -189,7 +189,7 @@ print(cnt + 3 - cur)
 1234
 ```
 
-![](https://tva1.sinaimg.cn/large/007S8ZIlly1gip1zqrphpj30ae0cswex.jpg)
+![](https://p.ipic.vip/p7s7t1.jpg)
 
 先比较第一位，1 比较 0 大， 因此 1234 最大。再比较第二位， 4 比 1 大， 因此 456 大于 123，后面位不需要比较了。这其实就是剪枝的思想。
 
@@ -263,7 +263,7 @@ a 和 b 有共同的前缀 111，c 和 a 异或过了，当再次和 b 异或的
 
 树的每一个节点存储的是：**n 个数中，从根节点到当前节点形成的前缀有多少个是一样的**，即多少个数的前缀是一样的。这样可以剪枝，提前退出的时候，就直接取出来用了。比如异或的结果是 1， m 当前二进制位是 0 ，那么这个前缀有 10 个，我都不需要比较了， 计数器直接 + 10 。
 
-![](https://tva1.sinaimg.cn/large/007S8ZIlly1gip21tqf5gj31vl0u0n61.jpg)
+![](https://p.ipic.vip/qgou7j.jpg)
 
 > 我用 17 直接复杂度过高，目前仅仅通过了 70 % - 80 % 测试用例， 希望大家可以帮我找找毛病，我猜测是语言的锅。
 
@@ -380,7 +380,7 @@ print(sorted(nums)[m - 1])
 
 接下来，我带你继续分析。
 
-![](https://tva1.sinaimg.cn/large/007S8ZIlly1gipczpnhjij32440u0h2w.jpg)
+![](https://p.ipic.vip/q0qb8q.jpg)
 
 如图， 红色表示根节点。节点表示一个十进制数， **树的路径存储真正的数字**，比如图上的 100，109 等。 这不就是上面讲的前缀树么？
 
@@ -467,11 +467,11 @@ class Solution:
 
 它的孩子节点个数是 `20 - 10 = 10` 。 也就是它的**右边的兄弟节点的第一个子节点** 减去 它的**第一个子节点**。
 
-![](https://tva1.sinaimg.cn/large/007S8ZIlly1gipel153igj31u40r8qd0.jpg)
+![](https://p.ipic.vip/7sfmam.jpg)
 
 由于是完全十叉树，而不是满十叉树 。因此你需要考虑边界情况，比如题目的 n 是 15。 那么 1 的子节点个数就不是 20 - 10 = 10 了， 而是 15 - 10 + 1 = 16。
 
-![](https://tva1.sinaimg.cn/large/007S8ZIlly1gipemlbs0cj31ty0mm79i.jpg)
+![](https://p.ipic.vip/6qkn83.jpg)
 
 其他也是类似的过程， 我们只要：
 
@@ -527,4 +527,4 @@ print(findKthNumber(n, m))
 
 关注公众号力扣加加，努力用清晰直白的语言还原解题思路，并且有大量图解，手把手教你识别套路，高效刷题。
 
-![](https://tva1.sinaimg.cn/large/007S8ZIlly1gfcuzagjalj30p00dwabs.jpg)
+![](https://p.ipic.vip/5pin2k.jpg)

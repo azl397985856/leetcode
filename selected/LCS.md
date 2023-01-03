@@ -185,7 +185,7 @@ https://leetcode-cn.com/problems/uncrossed-lines/description/
 
 示例 1：
 
-![](https://tva1.sinaimg.cn/large/007S8ZIlly1ggbkku13xuj315x0u0abp.jpg)
+![](https://p.ipic.vip/dumeqf.jpg)
 
 输入：A = [1,4,2], B = [1,2,4]
 输出：2
@@ -257,4 +257,4 @@ class Solution:
 
 更多题解可以访问我的 LeetCode 题解仓库：https://github.com/azl397985856/leetcode 。 目前已经 37K star 啦。
 
-![](https://tva1.sinaimg.cn/large/007S8ZIlly1gfcuzagjalj30p00dwabs.jpg)
+![](https://p.ipic.vip/epq5vl.jpg)

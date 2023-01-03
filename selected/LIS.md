@@ -38,7 +38,7 @@ https://leetcode-cn.com/problems/longest-increasing-subsequence
 
 题目的意思是让我们从给定数组中挑选若干数字，这些数字满足： `如果 i < j 则 nums[i] < nums[j]`。问：一次可以挑选最多满足条件的数字是多少个。
 
-![](https://tva1.sinaimg.cn/large/007S8ZIlly1gfyyu7187bj31ku0igq6f.jpg)
+![](https://p.ipic.vip/7tda84.jpg)
 
 这种子序列求极值的题目，应该要考虑到贪心或者动态规划。这道题贪心是不可以的，我们考虑动态规划。
 
@@ -51,21 +51,21 @@ https://leetcode-cn.com/problems/longest-increasing-subsequence
 
 第一种定义方式虽然需要比较不同的 dp[i] 从而获得结果，但是我们可以在循环的时候顺便得出，对复杂度不会有影响，只是代码多了一点而已。因此我们**选择第一种建模方式**。
 
-![](https://tva1.sinaimg.cn/large/007S8ZIlly1gfyyz18gu6j31t40dy77l.jpg)
+![](https://p.ipic.vip/itmnki.jpg)
 
 由于 dp[j] 中一定会包括 j，且以 j 结尾， 那么 nums[j] 一定是其所形成的序列中最大的元素，那么如果位于其后（意味着 i > j）的 nums[i] > nums[j]，那么 nums[i] 一定能够融入 dp[j] 从而形成更大的序列，这个序列的长度是 dp[j] + 1。因此状态转移方程就有了：`dp[i] = dp[j] + 1 (其中 i > j, nums[i] > nums[j])`
 
 以 `[10, 9, 2, 5, 3, 7, 101, 18]` 为例，当我们计算到 dp[5]的时候，我们需要往回和 0，1，2，3，4 进行比较。
 
-![](https://tva1.sinaimg.cn/large/007S8ZIlly1gfzzp18iyej311i0o8dk8.jpg)
+![](https://p.ipic.vip/iro5el.jpg)
 
 具体的比较内容是：
 
-![](https://tva1.sinaimg.cn/large/007S8ZIlly1gfzzqeaen1j30um0fwwhd.jpg)
+![](https://p.ipic.vip/802b59.jpg)
 
 最后从三个中选一个最大的 + 1 赋给 dp[5]即可。
 
-![](https://tva1.sinaimg.cn/large/007S8ZIlly1gfzzt54n5wj30ys05g74x.jpg)
+![](https://p.ipic.vip/kcy9j7.jpg)
 
 **记住这个状态转移方程，后面我们还会频繁用到。**
 
@@ -138,7 +138,7 @@ https://leetcode-cn.com/problems/non-overlapping-intervals/
 
 如果对区间按照起点或者终点进行排序，那么就转化为上面的最长递增子序列问题了。和上面问题不同的是，由于是一个区间。因此实际上，我们是需要拿**后面的开始时间**和**前面的结束时间**进行比较。
 
-![](https://tva1.sinaimg.cn/large/007S8ZIlly1gfyzp8n59cj31000a2jse.jpg)
+![](https://p.ipic.vip/a6eh13.jpg)
 
 而由于：
 
@@ -296,7 +296,7 @@ class Solution:
 
 大家想看效率高的，其实也不难。 LIS 也可以用 **贪心 + 二分** 达到不错的效率。代码如下：
 
-![](https://tva1.sinaimg.cn/large/0081Kckwly1gl6ajh887vj31zc0gmae6.jpg)
+![](https://p.ipic.vip/zt3tzj.jpg)
 
 代码文字版如下：
 
@@ -492,4 +492,4 @@ class Solution:
 
 更多题解可以访问我的 LeetCode 题解仓库：https://github.com/azl397985856/leetcode 。 目前已经 38K star 啦。
 
-![](https://tva1.sinaimg.cn/large/007S8ZIlly1gfcuzagjalj30p00dwabs.jpg)
+![](https://p.ipic.vip/ninoev.jpg)

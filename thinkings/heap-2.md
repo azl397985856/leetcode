@@ -4,11 +4,11 @@
 
 上次在我的公众号给大家做了一个小调查《投出你想要的题解编程语言吧~》。以下是调查的结果：
 
-![投票结果](https://tva1.sinaimg.cn/large/008eGmZEly1gmtc6l6sfij30p20gqjsu.jpg)
+![投票结果](https://p.ipic.vip/vu8rjd.jpg)
 
 而关于其他，则大多数是 Go 语言。
 
-![投其他的人都写了什么？](https://tva1.sinaimg.cn/large/008eGmZEly1gmtc7yeqxyj317y0me0wd.jpg)
+![投其他的人都写了什么？](https://p.ipic.vip/zwzwd1.jpg)
 
 由于 Java 和 Python 所占比例已经超过了 60%，这次我尝试一下 Java 和 Python 双语言来写，感谢 @CaptainZ 提供的 Java 代码。同时为了**不让文章又臭又长，我将 Java 本文所有代码（Java 和 Python）都放到了力扣加加官网上**，网站地址：https://leetcode-solution.cn/solution-code
 
@@ -16,7 +16,7 @@
 
 ## 正文
 
-![](https://tva1.sinaimg.cn/large/0081Kckwly1glegve2v47j319g0u041x.jpg)
+![](https://p.ipic.vip/n746a5.jpg)
 
 大家好，我是 lucifer。今天给大家带来的是《堆》专题。先上下本文的提纲，这个是我用 mindmap 画的一个脑图，之后我会继续完善，将其他专题逐步完善起来。
 
@@ -60,7 +60,7 @@ heapq.heappop() # 弹出 (4,5,6)
 
 用图来表示堆结构就是下面这样：
 
-![使用元组的小顶堆](https://tva1.sinaimg.cn/large/0081Kckwly1gmbn0faqqaj30jy0lkq4n.jpg)
+![使用元组的小顶堆](https://p.ipic.vip/jua2n1.jpg)
 
 简单解释一下上面代码的执行结果。
 
@@ -100,7 +100,7 @@ for a in A:
 
 用图来表示就是下面这样：
 
-![小顶堆模拟大顶堆](https://tva1.sinaimg.cn/large/0081Kckwly1gmbn35fzhyj30k20mk75z.jpg)
+![小顶堆模拟大顶堆](https://p.ipic.vip/i2a4l1.jpg)
 
 铺垫就到这里，接下来进入正题。
 
@@ -114,7 +114,7 @@ for a in A:
 
 然而，我们也可不先全部入堆，而是建立**大顶堆**（注意不是上面的小顶堆），并维持堆的大小为 k 个。如果新的数入堆之后堆的大小大于 k，则需要将堆顶的数和新的数进行比较，**并将较大的移除**。这样可以保证**堆中的数是全体数字中最小的 k 个**，而这最小的 k 个中最大的（即堆顶）不就是第 k 小的么？这也就是选择建立大顶堆，而不是小顶堆的原因。
 
-![固定大顶堆求第 5 小的数](https://tva1.sinaimg.cn/large/0081Kckwly1gmbgz93840j30zk0u0jv7.jpg)
+![固定大顶堆求第 5 小的数](https://p.ipic.vip/4llpwb.jpg)
 
 简单一句话总结就是**固定一个大小为 k 的大顶堆可以快速求第 k 小的数，反之固定一个大小为 k 的小顶堆可以快速求第 k 大的数**。比如力扣 2020-02-24 的周赛第三题[5663. 找出第 K 大的异或坐标值](https://leetcode-cn.com/problems/find-kth-largest-xor-coordinate-value/ "5663. 找出第 K 大的异或坐标值")就可以用固定小顶堆技巧来实现（这道题让你求第 k 大的数）。
 
@@ -358,7 +358,7 @@ mat[i] 是一个非递减数组
 
 其实这道题就是给你 m 个长度均相同的一维数组，让我们从这 m 个数组中分别选出一个数，即一共选取 m 个数，求这 m 个数的和是**所有选取可能性**中和第 k 小的。
 
-![](https://tva1.sinaimg.cn/large/0081Kckwly1gmanik03omj31p40u0q8q.jpg)
+![](https://p.ipic.vip/38ox6w.jpg)
 
 一个朴素的想法是使用多指针来解。对于这道题来说就是使用 m 个指针，分别指向 m 个一维数组，指针的位置表示当前选取的是该一维数组中第几个。
 
@@ -750,7 +750,7 @@ n == nums.length
 
 用图来表示就是下面这样的：
 
-![一维数组转二维数组](https://tva1.sinaimg.cn/large/0081Kckwly1gmbn4sty3aj30p0184mzv.jpg)
+![一维数组转二维数组](https://p.ipic.vip/9pcj1q.jpg)
 
 这不就相当于: 从 [[1,2], [1,2], [3,6], [1,2,4]] 这样的一个二维数组中的每一行分别选取一个数，并使得其差最小么？这难道不是和上面的题目一模一样么？
 
@@ -798,7 +798,7 @@ class Solution:
 
 ### 技巧三 - 事后小诸葛
 
-![](https://tva1.sinaimg.cn/large/008eGmZEly1gmf8regfq7j30fd0c7myc.jpg)
+![](https://p.ipic.vip/aqqg1v.jpg)
 
 这个技巧指的是：当从左到右遍历的时候，我们是不知道右边是什么的，需要等到你到了右边之后才知道。
 
@@ -883,7 +883,7 @@ for i, fuel in stations:
 
 那这个算法是如何体现**事后小诸葛**的呢？你可以把自己代入到题目中进行模拟。 把自己想象成正在开车，你的目标就是题目中的要求：**最少加油次数**。当你开到一个站的时候，你是不知道你的油量够不够支撑到下个站的，并且就算撑不到下个站，其实也许在上个站加油会更好。所以**现实中**你无论如何都**无法知道在当前站，我是应该加油还是不加油的**，因为信息太少了。
 
-![](https://tva1.sinaimg.cn/large/008eGmZEly1gmf8sheozpj308s07i3z3.jpg)
+![](https://p.ipic.vip/tygyyh.jpg)
 
 那我会怎么做呢？如果是我在开车的话，我只能每次都加油，这样都无法到达目的地，那肯定就无法到达目的地了。但如果这样可以到达目的地，我就可以说**如果我们在那个站加油，这个站选择不加就可以最少加油次数到达目的地了**。你怎么不早说呢？ 这不就是事后诸葛亮么？
 
@@ -994,7 +994,7 @@ ans.length == rains.length
 
 “今天天气很好，我开了天眼，明天湖泊 2 会被洪水淹没，我们今天就先抽干它，否则就洪水泛滥了。”。
 
-![](https://tva1.sinaimg.cn/large/008eGmZEly1gmf8tc1ct1j30m70ec41e.jpg)
+![](https://p.ipic.vip/ztgz23.jpg)
 
 和上面的题目一样，我们也可以不先遍历 rain 数组，再模拟每天的变化，而是直接模拟，即使当前是晴天我们也不抽干任何湖泊。接着在模拟的过程**记录晴天的情况**，等到洪水发生的时候，我们再考虑前面**哪一个晴天**应该抽干哪个湖泊。因此这个事后诸葛亮体现在**我们是等到洪水泛滥了才去想应该在之前的某天采取什么手段**。
 
@@ -1076,7 +1076,7 @@ class Solution:
 如果以最佳方式使用给定的梯子和砖块，返回你可以到达的最远建筑物的下标（下标 从 0 开始 ）。
 ```
 
-![](https://tva1.sinaimg.cn/large/008eGmZEly1gmf8ug1b7mg30fm0fldtn.gif)
+![](https://p.ipic.vip/r12e0t.gif)
 
 ```
 
@@ -1327,7 +1327,7 @@ src = 0, dst = 2, k = 1
 城市航班图如下
 ```
 
-![](https://tva1.sinaimg.cn/large/008eGmZEly1gmjkdt3eeaj30do0a0aag.jpg)
+![](https://p.ipic.vip/li3v94.jpg)
 
 ```
 
@@ -1343,7 +1343,7 @@ src = 0, dst = 2, k = 0
 城市航班图如下
 ```
 
-![](https://tva1.sinaimg.cn/large/008eGmZEly1gmjke11y8yj30do0a0aag.jpg)
+![](https://p.ipic.vip/6nsi3i.jpg)
 
 ```
 
@@ -1470,4 +1470,4 @@ def heap_sort(h):
 
 大家对此有何看法，欢迎给我留言，我有时间都会一一查看回答。更多算法套路可以访问我的 LeetCode 题解仓库：https://github.com/azl397985856/leetcode 。目前已经 39K star 啦。大家也可以关注我的公众号《力扣加加》带你啃下算法这块硬骨头。
 
-![二维码](https://tva1.sinaimg.cn/large/007S8ZIlly1gfcuzagjalj30p00dwabs.jpg)
+![二维码](https://p.ipic.vip/nj3yjo.jpg)

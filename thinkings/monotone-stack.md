@@ -4,7 +4,7 @@
 
 ## 栈是什么？
 
-![](https://tva1.sinaimg.cn/large/007S8ZIlly1gfbikq9ipmj30cd0a73yp.jpg)
+![](https://p.ipic.vip/3ad96r.jpg)
 
 栈是一种受限的数据结构， 体现在只允许新的内容从一个方向插入或删除，这个方向我们叫栈顶，而从其他位置获取内容是不被允许的
 
@@ -28,7 +28,7 @@
 1. 进栈 - O(1)
 2. 出栈 - O(1)
 
-![](https://tva1.sinaimg.cn/large/007S8ZIlly1gfbil9jqqej30sd0fhdgz.jpg)
+![](https://p.ipic.vip/x9l30w.jpg)
 
 ### 应用
 

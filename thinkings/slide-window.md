@@ -31,7 +31,7 @@
    - 4.1 如果满足，再判断是否需要更新最优解，如果需要则更新最优解
    - 4.2 如果不满足，则继续。
 
-![](https://tva1.sinaimg.cn/large/007S8ZIlly1ghlugkc80jj308z0d5aaa.jpg)
+![](https://p.ipic.vip/aw5lz6.jpg)
 
 ### 可变窗口大小
 
@@ -45,7 +45,7 @@
 
 形象地来看的话，就是 r 指针不停向右移动，l 指针仅仅在窗口满足条件之后才会移动，起到窗口收缩的效果。
 
-![](https://tva1.sinaimg.cn/large/007S8ZIlly1ghlugl94y8j30d90d50t5.jpg)
+![](https://p.ipic.vip/q5hcro.jpg)
 
 ## 模板代码
 

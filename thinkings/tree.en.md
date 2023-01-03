@@ -1,6 +1,6 @@
 # I have almost finished brushing all the tree questions of Lixu, and I found these things. 。 。
 
-![](https://tva1.sinaimg.cn/large/0081Kckwly1gkybjfbpubj30uo0u0gqz.jpg)
+![](https://p.ipic.vip/cwv5zz.jpg)
 
 Let's start with the outline of this article. This is a brain map drawn by me with mindmap. After that, I will continue to improve it and gradually improve other topics.
 
@@ -14,11 +14,11 @@ This series contains the following topics：
 
 First light up the protagonist of this article-tree (my makeup technique is okay ^\_^)：
 
-![](https://tva1.sinaimg.cn/large/0081Kckwly1gkyz162e1ij30lu0ssdhm.jpg)
+![](https://p.ipic.vip/5lkkd6.jpg)
 
 [Tree Tag] (https://leetcode-cn.com/tag/tree /"Tree tag") There are a total of 175 questions in leetcode. In order to prepare for this topic, I spent a few days brushing almost all the tree topics of leetcode.
 
-![](https://tva1.sinaimg.cn/large/0081Kckwly1gkpkbu92m2j30u00vg0xu.jpg)
+![](https://p.ipic.vip/bdo0jv.jpg)
 
 Except for 35 locked ones, 1 question that cannot be done (1628 questions, I don't know why I can't do it), and 4 questions that are labeled with trees but are pictures. I have brushed all the others. By focusing on these questions, I found some interesting information, and I will share it with you today.
 
@@ -36,11 +36,11 @@ Finally, it should be emphasized that this article is only a common routine to h
 
 When it comes to trees, everyone is more familiar with the trees in reality, and the trees in reality are like this：
 
-![](https://tva1.sinaimg.cn/large/0081Kckwly1gkydk0w4uoj31750u0amg.jpg)
+![](https://p.ipic.vip/4vw7kq.jpg)
 
 The tree in the computer is actually the reflection of the tree in reality.
 
-![](https://tva1.sinaimg.cn/large/0081Kckwly1gkydoh5we8j31bl0u0kjn.jpg)
+![](https://p.ipic.vip/w7a1lt.jpg)
 
 The data structure of a computer is an abstraction of the relationship between objects in the real world. For example, the family tree of the family, the organizational relationship of the personnel in the company structure, the folder structure in the computer, the dom structure of the html rendering, etc., These hierarchical structures are called trees in the computer field.
 
@@ -62,13 +62,13 @@ Obviously, its input parameters and return values are not trees, but they do not
 
 Continue to go back to the above code, according to the above code, you can draw the following recursive tree.
 
-![](https://tva1.sinaimg.cn/large/0081Kckwly1gkqv37r0x4j30f90iot9s.jpg)
+![](https://p.ipic.vip/ikc4cu.jpg)
 
 Where the edges of the tree represent the return value, and the tree nodes represent the values that need to be calculated, namely fn(n).
 
 Taking the calculation of 5's fibbonacci as an example, the process is probably like this (animated demonstration)：
 
-![](https://tva1.sinaimg.cn/large/0081Kckwly1gkqvazbxs8g30gi0my4qp.gif)
+![](https://p.ipic.vip/y5iown.gif)
 
 **This is actually the subsequent traversal of a tree. **, do you think the tree (logical tree) is very important? We will talk about the post-sequence traversal later, now everyone knows that this is the case.
 
@@ -86,7 +86,7 @@ A generalized tree is really useful, but its scope is too large. The topic of tr
 
 A tree is a non-linear data structure. The basic unit of tree structure is the node. The link between nodes is called a branch. Nodes and branches form a tree, and the beginning of the structure is called the root, or root node. Nodes other than the root node are called child nodes. Nodes that are not linked to other child nodes are called leaf nodes (leaf). The figure below is a typical tree structure：
 
-![](https://tva1.sinaimg.cn/large/007S8ZIlly1gfjv3xmkknj30jb0cymxw.jpg)
+![](https://p.ipic.vip/abgn4d.jpg)
 
 Each node can be represented by the following data structure：
 
@@ -195,7 +195,7 @@ It can be seen that in the implementation, White represents the first entry proc
 
 If you want to implement preorder and postorder traversal, you only need to adjust the stacking order of the left and right child nodes, and there is no need to make any changes to the other parts.
 
-![](https://tva1.sinaimg.cn/large/0081Kckwly1gkq01o7423j31gg0u0dwg.jpg) (You only need to adjust the position of these three sentences to traverse the front, middle and back sequence)
+![](https://p.ipic.vip/o9d4m4.jpg) (You only need to adjust the position of these three sentences to traverse the front, middle and back sequence)
 
 > Note: The preface and preface of this schematic diagram are reversed
 
@@ -225,7 +225,7 @@ While BFS is suitable for seeking the shortest distance, this is not the same as
 
 Hierarchical traversal is to traverse the tree layer by layer and access it in the hierarchical order of the tree.
 
-![](https://tva1.sinaimg.cn/large/0081Kckwly1gkye7nyrjaj30yw0ec762.jpg) (Hierarchical traversal diagram)
+![](https://p.ipic.vip/7n2sg5.jpg) (Hierarchical traversal diagram)
 
 \*\*The core of BFS is that it can be terminated early when the shortest time is required. This is its core value. Hierarchical traversal is a byproduct of BFS that does not require early termination. This early termination is different from the early termination of DFS pruning, but the early termination of finding the nearest target. For example, if I want to find the nearest target node, BFS can return directly after finding the target node. And DFS has to exhaustively list all possibilities to find the nearest one, which is the core value of BFS. In fact, we can also use DFS to achieve the effect of hierarchical traversal. With the help of recursion, the code will be even simpler.
 
@@ -243,7 +243,7 @@ As of now (2020-02-21), there are 129 questions in the LeetCode for depth-first 
 
 DFS illustration：
 
-![binary-tree-traversal-dfs](https://tva1.sinaimg.cn/large/007S8ZIlly1ghlui7vcmwg30dw0dw3yl.gif)
+![binary-tree-traversal-dfs](https://p.ipic.vip/7zo12v.gif)
 
 (Picture from https://github.com/trekhleb/javascript-algorithms/tree/master/src/algorithms/tree/depth-first-search )
 

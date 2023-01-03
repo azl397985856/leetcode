@@ -34,7 +34,7 @@ If you were asked to find the total number of consecutive subarrays of an array,
 
 One idea is that the total number of consecutive subarrays is equal to: ** The number of subarrays ending with index 0 + the number of subarrays ending with index 1 +. . . + The number of subarrays ending with index n-1**, which is undoubtedly complete.
 
-![](https://tva1.sinaimg.cn/large/007S8ZIlly1gj6m27kgbsj306u06gt8u.jpg)
+![](https://p.ipic.vip/gp8wlg.jpg)
 
 At the same time, ** Use the prefix and idea of the subject 0 to sum while traversing. **
 
@@ -133,7 +133,7 @@ What if I ask you to find that the maximum value of the subarray is exactly the 
 
 In fact, betweenK can directly use atMostK, that is, atMostK(k1, nums)-atMostK(k2-1, nums), where k1> k2. The premise is that the values are discrete, for example, the questions I asked above are all integers. Therefore, I can directly subtract 1, because **1 is the smallest interval between two integers**.
 
-![](https://tva1.sinaimg.cn/large/007S8ZIlly1gj8m692laxj30pz0grte9.jpg)
+![](https://p.ipic.vip/v5t94x.jpg)
 
 As above, `an area less than or equal to 10` minus`an area less than 5` means`an area greater than or equal to 5 and less than or equal to 10'.
 

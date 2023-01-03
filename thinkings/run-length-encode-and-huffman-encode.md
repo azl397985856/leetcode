@@ -12,7 +12,7 @@ Huffman 编码的过程包含两个主要部分：
 
 上面提到了他的基本原理就是`用短的编码表示出现频率高的字符，用长的编码来表示出现频率低的字符`，因此首先要做的就是统计字符的出现频率，然后根据统计的频率来构建 Huffman 树（又叫最优二叉树）。
 
-![Huffman-tree](../assets/thinkings/huffman-tree.webp)
+![Huffman-tree](https://p.ipic.vip/v13yj7.jpg)
 
 如图，**huffman 树以一颗二叉树**。 其中节点的左子节点路径用 0 表示，右子节点用 1 表示，节点的值表示的是其权重，权重越大深度越小。深度表示的其实就是编码的长度。通常我们使用字符出现的频率作为权重。真正执行编码的时候，类似字典树，节点不用来编码，节点的路径用来编码.
 
@@ -37,7 +37,7 @@ Huffman 编码的过程包含两个主要部分：
 
 结果是这样的：
 
-![huffman-example](https://tva1.sinaimg.cn/large/007S8ZIlly1ghluhusda8j30re0hmabe.jpg)
+![huffman-example](https://p.ipic.vip/bn2vws.jpg)
 
 | character | frequency | encoding |
 | :-------: | :-------: | :------: |

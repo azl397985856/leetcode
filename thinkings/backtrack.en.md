@@ -10,21 +10,21 @@ The backtracking method can be abstract as a tree structure, and it is a tree of
 
 Take a subset of the array [1,2,3] as an example：
 
-![](https://tva1.sinaimg.cn/large/0081Kckwly1gkau6ustfdj30v80igtag.jpg)
+![](https://p.ipic.vip/g9vawf.jpg)
 
 > The for loop is used to enumerate the division points. In fact, the interval dp division interval is a similar approach.
 
 As shown in the figure above, we will perform the operation of adding to the result set at each node.
 
-![](https://tva1.sinaimg.cn/large/0081Kckwly1gkau9jceowj30uj0jrdhv.jpg)
+![](https://p.ipic.vip/1flyhe.jpg)
 
 For the gray nodes above, adding the result set is [1].
 
-![](https://tva1.sinaimg.cn/large/0081Kckwly1gkauahh57bj30tj0j0wgg.jpg)
+![](https://p.ipic.vip/mj1skc.jpg)
 
 The result set of this addition is [1,2].
 
-![](https://tva1.sinaimg.cn/large/0081Kckwly1gkaub4scgij30uu0io40h.jpg)
+![](https://p.ipic.vip/y9t2mb.jpg)
 
 The result set of this addition is [2,3], and so on. There are six subsets in total, namely [1], [1,2], [1,2,3], [2], [2,3] And [3].
 
@@ -155,7 +155,7 @@ return backtrack(0, [])
 
 The pruning process is graphically represented like this：
 
-![](https://tva1.sinaimg.cn/large/0081Kckwly1glgcy6vcb5j30qb0bjabb.jpg)
+![](https://p.ipic.vip/bjh1zs.jpg)
 
 **Pruning algorithm is a major test point for backtracking, everyone must be able to master it. **
 

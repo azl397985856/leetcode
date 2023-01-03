@@ -4,7 +4,7 @@
 
 相信大家都玩过下面的迷宫游戏。你的目标是从地图的某一个角落移动到地图的出口。规则很简单，仅仅你不能穿过墙。
 
-![](https://tva1.sinaimg.cn/large/008eGmZEly1goxczig610j30as0ar48s.jpg)
+![](https://p.ipic.vip/dg1jyf.jpg)
 
 实际上，这道题并不能够使用并查集来解决。 不过如果我将规则变成，“是否存在一条从入口到出口的路径”，那么这就是一个简单的联通问题，这样就可以借助本节要讲的并查集来完成。
 
@@ -26,7 +26,7 @@
 
 我们如何判断某两个师长是否归同一个司令管呢（连通性）？
 
-![](https://tva1.sinaimg.cn/large/007S8ZIlly1ghlufxh5lhj30gs0bzwet.jpg)
+![](https://p.ipic.vip/nvj6x2.jpg)
 
 很简单，我们顺着师长，往上找，找到司令。 如果两个师长找到的是同一个司令，那么两个人就归同一个司令管。（假设这两人级别比司令低）
 
@@ -42,11 +42,11 @@
 
 如图有两个司令：
 
-![](https://tva1.sinaimg.cn/large/007S8ZIlly1ghlufys950j30wp0el0th.jpg)
+![](https://p.ipic.vip/7b6a0l.jpg)
 
 我们将其合并为一个联通域，最简单的方式就是直接将其中一个司令指向另外一个即可：
 
-![](https://tva1.sinaimg.cn/large/007S8ZIlly1ghlug0ni3jj30ym0cojsb.jpg)
+![](https://p.ipic.vip/m1mgqv.jpg)
 
 以上就是三个核心 API `find`，`connnected` 和 `union`， 的形象化解释，下面我们来看下代码实现。
 
@@ -60,7 +60,7 @@
 
 首先我们初始化每一个点都是一个连通域，类似下图：
 
-![](https://tva1.sinaimg.cn/large/008eGmZEly1gmm4f8vpp3j30p9024jra.jpg)
+![](https://p.ipic.vip/knr558.jpg)
 
 为了更加精确的定义这些方法，需要定义如何表示集合。一种常用的策略是为每个集合选定一个固定的元素，称为代表，以表示整个集合。接着，Find(x) 返回 x 所属集合的代表，而 Union 使用两个集合的代表作为参数进行合并。初始时，每个人的代表都是自己本身。
 
@@ -113,11 +113,11 @@ def find(self, x):
 
 > 注意是趋近 O(1)，准确来说是阿克曼函数的某个反函数。
 
-![](https://tva1.sinaimg.cn/large/008eGmZEly1gmm4i1vrclg30ni05wtj9.gif)
+![](https://p.ipic.vip/xknazz.gif)
 
 极限情况下，每一个路径都会被压缩，这种情况下**继续**查找的时间复杂度就是 $O(1)$。
 
-![](https://tva1.sinaimg.cn/large/008eGmZEly1gmm4zjf5evj30u00aigml.jpg)
+![](https://p.ipic.vip/bl6gt4.jpg)
 
 ### connected
 
@@ -134,7 +134,7 @@ def connected(self, p, q):
 
 对于如下的一个图：
 
-![](https://tva1.sinaimg.cn/large/008eGmZEly1gmm4avz4iej30lv04rmx9.jpg)
+![](https://p.ipic.vip/grnq9g.jpg)
 
 如果我们将 0 和 7 进行一次合并。即 `union(0, 7)` ，则会发生如下过程。
 
@@ -142,7 +142,7 @@ def connected(self, p, q):
 - 找到 7 的根节点 6
 - 将 6 指向 3。（为了使得合并之后的树尽可能平衡，一般选择将小树挂载到大树上面，下面的代码模板会体现这一点。3 的秩比 6 的秩大，这样更利于树的平衡，避免出现极端的情况）
 
-![](https://tva1.sinaimg.cn/large/008eGmZEly1gmm4btv06yg30ni05wwze.gif)
+![](https://p.ipic.vip/64k05c.gif)
 
 上面讲的小树挂大树就是所谓的**按秩合并**。
 

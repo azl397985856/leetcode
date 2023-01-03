@@ -157,7 +157,7 @@ Output: 2
 Explanation: The 2x2 grid is as follows：
 ```
 
-![](https://tva1.sinaimg.cn/large/0081Kckwly1gm5tfleu8lj302a02aa9y.jpg)
+![](https://p.ipic.vip/7iwzmr.jpg)
 
 ```
 
@@ -172,7 +172,7 @@ Output: 1
 Explanation: The 2x2 grid is as follows：
 ```
 
-![](https://tva1.sinaimg.cn/large/0081Kckwly1gm5tg0a44lj302b02a3ye.jpg)
+![](https://p.ipic.vip/p7frnm.jpg)
 
 ```
 
@@ -189,7 +189,7 @@ The 2x2 grid is as follows：
 
 ```
 
-![](https://tva1.sinaimg.cn/large/0081Kckwly1gm5tg5hn8vj302b02at8m.jpg)
+![](https://p.ipic.vip/d2n90a.jpg)
 
 ```
 
@@ -205,7 +205,7 @@ Explanation: (Recall that because the \ character is escaped, "/\\" means /\, an
 The 2x2 grid is as follows：
 ```
 
-![](https://tva1.sinaimg.cn/large/0081Kckwly1gm5tgi6g9ij3029029jra.jpg)
+![](https://p.ipic.vip/vxa1bh.jpg)
 
 ```
 
@@ -220,7 +220,7 @@ Output: 3
 Explanation: The 2x2 grid is as follows：
 ```
 
-![](https://tva1.sinaimg.cn/large/0081Kckwly1gm5tgn4yysj302a02at8m.jpg)
+![](https://p.ipic.vip/06aw2l.jpg)
 
 ```
 prompt：
@@ -267,4 +267,4 @@ The above is the entire content of this article. If you have any comments on thi
 
 You can also pay attention to my public account "Force Buckle Plus" to take you to chew off the hard bone of the algorithm.
 
-![](https://tva1.sinaimg.cn/large/007S8ZIlly1gfcuzagjalj30p00dwabs.jpg)
+![](https://p.ipic.vip/l0dmxf.jpg)

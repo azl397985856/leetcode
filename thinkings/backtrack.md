@@ -10,21 +10,21 @@
 
 以求数组 [1,2,3] 的子集为例：
 
-![](https://tva1.sinaimg.cn/large/0081Kckwly1gkau6ustfdj30v80igtag.jpg)
+![](https://p.ipic.vip/94t4uj.jpg)
 
 > for 循环用来枚举分割点，其实区间 dp 分割区间就是类似的做法
 
 以上图来说， 我们会在每一个节点进行加入到结果集这一次操作。
 
-![](https://tva1.sinaimg.cn/large/0081Kckwly1gkau9jceowj30uj0jrdhv.jpg)
+![](https://p.ipic.vip/cfk0ru.jpg)
 
 对于上面的灰色节点， 加入结果集就是 [1]。
 
-![](https://tva1.sinaimg.cn/large/0081Kckwly1gkauahh57bj30tj0j0wgg.jpg)
+![](https://p.ipic.vip/uuy9r7.jpg)
 
 这个加入结果集就是 [1,2]。
 
-![](https://tva1.sinaimg.cn/large/0081Kckwly1gkaub4scgij30uu0io40h.jpg)
+![](https://p.ipic.vip/ze3qul.jpg)
 
 这个加入结果集就是 [2,3]，以此类推。一共有六个子集，分别是 [1], [1,2], [1,2,3], [2], [2,3] 和 [3]。
 
@@ -155,7 +155,7 @@ class Solution:
 
 剪枝过程用图表示就是这样的：
 
-![](https://tva1.sinaimg.cn/large/0081Kckwly1glgcy6vcb5j30qb0bjabb.jpg)
+![](https://p.ipic.vip/bc5dgl.jpg)
 
 **剪枝算法回溯的一大考点，大家一定要掌握。**
 

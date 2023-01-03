@@ -74,7 +74,7 @@ class Solution:
 
 这里我直接用的别人画好的图进行说明。
 
-![](https://tva1.sinaimg.cn/large/008i3skNly1graynsnv0aj31og0u0n3h.jpg)
+![](https://p.ipic.vip/cn3s63.jpg)
 
 - 图中的 ps 就是我说的 a1
 - 图中的 $(n - j) * (ai - 1)$ 就是我的 a2

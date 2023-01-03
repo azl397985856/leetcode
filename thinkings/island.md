@@ -158,7 +158,7 @@ class Solution:
 解释：2x2 网格如下：
 ```
 
-![](https://tva1.sinaimg.cn/large/0081Kckwly1gm5tfleu8lj302a02aa9y.jpg)
+![](https://p.ipic.vip/ie8a2v.jpg)
 
 ```
 
@@ -173,7 +173,7 @@ class Solution:
 解释：2x2 网格如下：
 ```
 
-![](https://tva1.sinaimg.cn/large/0081Kckwly1gm5tg0a44lj302b02a3ye.jpg)
+![](https://p.ipic.vip/cm4wgd.jpg)
 
 ```
 
@@ -190,7 +190,7 @@ class Solution:
 
 ```
 
-![](https://tva1.sinaimg.cn/large/0081Kckwly1gm5tg5hn8vj302b02at8m.jpg)
+![](https://p.ipic.vip/wb8ru7.jpg)
 
 ```
 
@@ -206,7 +206,7 @@ class Solution:
 2x2 网格如下：
 ```
 
-![](https://tva1.sinaimg.cn/large/0081Kckwly1gm5tgi6g9ij3029029jra.jpg)
+![](https://p.ipic.vip/dpuon4.jpg)
 
 ```
 
@@ -221,7 +221,7 @@ class Solution:
 解释：2x2 网格如下：
 ```
 
-![](https://tva1.sinaimg.cn/large/0081Kckwly1gm5tgn4yysj302a02at8m.jpg)
+![](https://p.ipic.vip/i7hmlc.jpg)
 
 
 ```
@@ -269,4 +269,4 @@ class Solution:
 
 大家也可以关注我的公众号《力扣加加》带你啃下算法这块硬骨头。
 
-![](https://tva1.sinaimg.cn/large/007S8ZIlly1gfcuzagjalj30p00dwabs.jpg)
+![](https://p.ipic.vip/hnxxzn.jpg)

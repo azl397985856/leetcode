@@ -65,19 +65,19 @@ def GCD(a: int, b: int) -> int:
 
 实际上这正是一个最大公约数的应用场景，我们的目标就是求解 1680 和 640 的最大公约数。
 
-![](https://tva1.sinaimg.cn/large/007S8ZIlly1ghluj0ysrjj30f104zmxs.jpg)
+![](https://p.ipic.vip/qblo0s.jpg)
 
 将 1680 米 \* 640 米 的土地分割，相当于对将 400 米 \* 640 米 的土地进行分割。 为什么呢？ 假如 400 米 \* 640 米分割的正方形边长为 x，那么有 640 % x == 0，那么肯定也满足剩下的两块 640 米 \* 640 米的。
 
-![](https://tva1.sinaimg.cn/large/007S8ZIlly1ghluj6lpjej30g805aaap.jpg)
+![](https://p.ipic.vip/vglto7.jpg)
 
 我们不断进行上面的分割：
 
-![](https://tva1.sinaimg.cn/large/007S8ZIlly1ghlujd4rhbj307x08v74i.jpg)
+![](https://p.ipic.vip/noxwrq.jpg)
 
 直到边长为 80，没有必要进行下去了。
 
-![](https://tva1.sinaimg.cn/large/007S8ZIlly1ghlujgvkvbj30aa04umx2.jpg)
+![](https://p.ipic.vip/nfbmso.jpg)
 
 ## 实例解析
 

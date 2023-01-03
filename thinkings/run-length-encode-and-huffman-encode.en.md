@@ -37,7 +37,7 @@ For example, the result of our frequency statistics for a string is as followsï¼
 
 The result is like thisï¼š
 
-![huffman-example](https://tva1.sinaimg.cn/large/007S8ZIlly1ghluhusda8j30re0hmabe.jpg)
+![huffman-example](https://p.ipic.vip/1wqdu2.jpg)
 
 | character | frequency | encoding |
 | :-------: | :-------: | :------: |

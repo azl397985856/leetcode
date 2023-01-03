@@ -2,7 +2,7 @@
 
 ## 前言
 
-![](https://tva1.sinaimg.cn/large/008eGmZEly1godspy7ue3j31c00pytb0.jpg)
+![](https://p.ipic.vip/zlxbvk.jpg)
 
 大家好，我是 lucifer。今天给大家带来的是《二分》专题。先上下本文的提纲，这个是我用 mindmap 画的一个脑图，之后我会继续完善，将其他专题逐步完善起来。
 
@@ -21,7 +21,7 @@
 
 本文内容已经同步到我的刷题插件的 RoadMap 中，结合刷题插件食用味道更佳哦~ 插件的获取方式可以在我的公众号力扣加加中回复插件查看。
 
-![刷题插件](https://tva1.sinaimg.cn/large/008eGmZEly1godsvaj344j30rw0qo433.jpg)
+![刷题插件](https://p.ipic.vip/uw95ox.jpg)
 
 > 如果觉得文章有用，请点赞留言转发一下，让我有动力继续做下去。
 

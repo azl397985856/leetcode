@@ -1,6 +1,6 @@
 # 堆专题
 
-![](https://tva1.sinaimg.cn/large/0081Kckwly1glegve2v47j319g0u041x.jpg)
+![](https://p.ipic.vip/f2erxy.jpg)
 
 大家好，我是 lucifer。今天给大家带来的是《堆》专题。先上下本文的提纲，这个是我用 mindmap 画的一个脑图，之后我会继续完善，将其他专题逐步完善起来。
 
@@ -18,7 +18,7 @@
 
 [堆标签](https://leetcode-cn.com/tag/tree/ "堆标签")在 leetcode 一共有 **42 道题**。 为了准备这个专题，我将 leetcode 几乎所有的堆题目都刷了一遍。
 
-![](https://tva1.sinaimg.cn/large/0081Kckwly1gldit71vq1j314a0kajtk.jpg)
+![](https://p.ipic.vip/culzde.jpg)
 
 可以看出，除了 3 个上锁的，其他我都刷了一遍。通过集中刷这些题，我发现了一些有趣的信息，今天就分享给大家。
 
@@ -64,7 +64,7 @@
 
 如果不同的客户使用不同的窗口。那么我们可以设计三个队列，分别存放正在排队的三种人。这种设计满足了题目要求，也足够简单。
 
-![](https://tva1.sinaimg.cn/large/0081Kckwly1glld41811yj30x20h4jsp.jpg)
+![](https://p.ipic.vip/oratcr.jpg)
 
 如果我们**只有一个窗口**，所有的病人需要使用同一个队列，并且同样的客户类型按照上面讲的**先到先服务原则**，但是不同客户类型之间可能会插队。
 
@@ -78,7 +78,7 @@
 
 因此我们就可以继续使用刚才的三个队列的方式，只不过队列存储的不是真实时间，而是虚拟时间。每次开始叫号的时候，我们使用虚拟时间比较，虚拟时间较小的先服务即可。
 
-![](https://tva1.sinaimg.cn/large/0081Kckwly1glldcdznpsj313w0k60w2.jpg)
+![](https://p.ipic.vip/cn3q3l.jpg)
 
 > 不难看出，队列内部的时间都是有序。
 
@@ -95,10 +95,10 @@
 
 如下图是插入一个 1:30 开始排队的普通客户的情况。
 
-![](https://tva1.sinaimg.cn/large/0081Kckwly1glldpnev60j311r0u0wis.jpg)
+![](https://p.ipic.vip/mv5jgi.jpg)
 （查找插入位置）
 
-![](https://tva1.sinaimg.cn/large/0081Kckwly1glldqz1z6bj31220l8adl.jpg)
+![](https://p.ipic.vip/v79j9v.jpg)
 （将其插入）
 
 如果队列使用数组实现， 上面插队过程的时间复杂度为 $O(N)$，其中 $N$ 为被插队的队伍长度。如果队伍很长，那么调整的次数明显增加。
@@ -107,11 +107,11 @@
 
 上面说了链表的实现核心在于查找也需要 $O(N)$，我们可以优化这个过程吗？实际上这就是优先级队列的链表实现，由于是有序的，我们可以用跳表加速查找，时间复杂度可以优化到 $O(logN)$。
 
-![](https://tva1.sinaimg.cn/large/0081Kckwly1glle4lyjv9j30ui0bm0tz.jpg)
+![](https://p.ipic.vip/3gbp35.jpg)
 
 其实算法界有很多类似的问题。比如建立数据库索引的算法，如果给某一个有序的列添加索引，不能每次插入一条数据都去调整所有的数据吧（上面的数组实现）？因此我们可以用平衡树来实现，这样每次插入可以最多调整 $(O(logN))$。优先队列的另外一种实现 - 二叉堆就是这个思想，时间复杂度也可以优化到 $O(logN)$
 
-![](https://tva1.sinaimg.cn/large/0081Kckwly1glle5g74zaj30i60gwwfb.jpg)
+![](https://p.ipic.vip/n18igs.jpg)
 
 本文只讲解常见的二叉堆实现，对于跳表和红黑树不再这里讲。 关于优先队列的二叉堆实现，我们会在后面给大家详细介绍。这里大家只有明白优先队列解决的问题是什么就可以了。
 
@@ -500,13 +500,13 @@ class Solution {
 
 我们知道，不借助额外空间的情况下，在链表中查找一个值，需要按照顺序一个个查找，时间复杂度为 $O(N)$，其中 N 为链表长度。
 
-![](https://tva1.sinaimg.cn/large/007S8ZIlly1gg6ynn9eknj31ts05wgn5.jpg)
+![](https://p.ipic.vip/p1gvu8.jpg)
 
 （单链表）
 
 当链表长度很大的时候， 这种时间是很难接受的。 一种常见的的优化方式是**建立哈希表，将所有节点都放到哈希表中，以空间换时间的方式减少时间复杂度**，这种做法时间复杂度为 $O(1)$，但是空间复杂度为 $O(N)$。
 
-![](https://tva1.sinaimg.cn/large/007S8ZIlly1gg6ysd1g34j317o0lun0d.jpg)
+![](https://p.ipic.vip/6jqk71.jpg)
 
 （单链表 + 哈希表）
 
@@ -518,7 +518,7 @@ class Solution {
 
 > 注意这个算法要求链表是有序的。
 
-![](https://tva1.sinaimg.cn/large/007S8ZIlly1gg6yzbgxdcj32340kun2t.jpg)
+![](https://p.ipic.vip/6h9dm0.jpg)
 
 （建立一级索引）
 
@@ -529,7 +529,7 @@ class Solution {
 
 这个例子看不出性能提升。但是如果元素继续增大， 继续增加索引的层数，建立二级，三级。。。索引，使得链表能够实现二分查找，从而获得更好的效率。但是相应地，我们需要付出额外空间的代价。
 
-![](https://tva1.sinaimg.cn/large/007S8ZIlly1gg6z4oovv2j31u90u0n50.jpg)
+![](https://p.ipic.vip/4x8k76.jpg)
 
 （增加索引层数）
 
@@ -572,7 +572,7 @@ h.heappop() # 3
 
 本质上来说，二叉堆就是一颗特殊的完全二叉树。它的特殊性只体现在一点，那就是**父节点的权值不大于儿子的权值（小顶堆）**。
 
-![](https://tva1.sinaimg.cn/large/0081Kckwly1gm15lpppkej30ka0kajsm.jpg)
+![](https://p.ipic.vip/6t6jtn.jpg)
 （一个小顶堆）
 
 上面这句话需要大家记住，一切的一切都源于上面这句话。
@@ -587,24 +587,24 @@ h.heappop() # 3
 
 如果仅仅是删除，那么一个堆就会变成两个堆了，问题变复杂了。
 
-![](https://tva1.sinaimg.cn/large/0081Kckwly1gm15mal0rzj30j40dct9g.jpg)
+![](https://p.ipic.vip/gx25ru.jpg)
 （上图出堆之后会生成两个新的堆）
 
 一个常见的操作是，把根结点和最后一个结点交换。但是新的根结点可能不满足 **父节点的权值不大于儿子的权值（小顶堆）**。
 
 如下图，我们将根节点的 2 和尾部的数字进行交换后，这个时候是不满足堆性质的。
 
-![](https://tva1.sinaimg.cn/large/0081Kckwly1gm15r11v3yj30k60hg75g.jpg)
+![](https://p.ipic.vip/j1l594.jpg)
 
 这个时候，其实只需要将新的根节点下沉到正确位置即可。这里的**正确位置**，指的还是那句话**父节点的权值不大于儿子的权值（小顶堆）**。如果不满足这一点，我们就继续下沉，直到满足。
 
 我们知道根节点往下下沉的过程，其实有两个方向可供选择，是下沉到左子节点？还是下沉到右子节点？以小顶堆来说，答案应该是下沉到较小的子节点处，否则会错失正确答案。以上面的堆为例，如果下沉到右子节点 4，那么就无法得到正确的堆顶 3。因此我们需要下沉到左子节点。
 
-![](https://tva1.sinaimg.cn/large/0081Kckwly1gm15sz0fj6j30i80kaac3.jpg)
+![](https://p.ipic.vip/82emug.jpg)
 
 下沉到如图位置，还是不满足 **父节点的权值不大于儿子的权值（小顶堆）**，于是我们继续执行同样的操作。
 
-![](https://tva1.sinaimg.cn/large/0081Kckwly1gm15uqs8c9j30ke0g4q4x.jpg)
+![](https://p.ipic.vip/fedp74.jpg)
 
 有的同学可能有疑问。弹出根节点前堆满足堆的性质，但是弹出之后经过你上面讲的下沉操作，一定还满足么？
 
@@ -623,7 +623,7 @@ h.heappop() # 3
 
 > 之所以这么做的其中一个原因是时间复杂度更低，因为我们是用数组进行模拟的，而在数组尾部添加元素的时间复杂度为 $O(1)$。
 
-![](https://tva1.sinaimg.cn/large/0081Kckwly1gm18fd0uytj30mo0j6tab.jpg)
+![](https://p.ipic.vip/ricpp2.jpg)
 
 这次我们发现，不满足堆的节点目前是刚刚被插入节点的尾部节点，因此不能进行下沉操作了。这一次我们需要执行**上浮操作**。
 
@@ -631,10 +631,10 @@ h.heappop() # 3
 
 和上面基本类似，如果不满足堆的性质，我们将其和父节点交换（上浮），继续这个过程，直到满足堆的性质。
 
-![](https://tva1.sinaimg.cn/large/0081Kckwly1gm18h61qyvj30ss0g840w.jpg)
+![](https://p.ipic.vip/5vwwp2.jpg)
 (第一次上浮，仍然不满足堆特性，继续上浮)
 
-![](https://tva1.sinaimg.cn/large/0081Kckwly1gm18iyp68qj30ne0hi400.jpg)
+![](https://p.ipic.vip/xig47g.jpg)
 （满足了堆特性，上浮过程完毕）
 
 经过这样的操作，其还是一个满足堆性质的堆。证明过程和上面类似，不再赘述。
@@ -652,12 +652,12 @@ h.heappop() # 3
 
 如图所示是一个完全二叉树和树的数组表示法。
 
-![](https://tva1.sinaimg.cn/large/0081Kckwly1gm1833aeutj30dt0f3q3v.jpg)
+![](https://p.ipic.vip/8cjv19.jpg)
 （注意数组索引的对应关系）
 
 形象点来看，我们可以可以画出如下的对应关系图：
 
-![](https://tva1.sinaimg.cn/large/0081Kckwly1gm185zwz93j30fu0nj0ud.jpg)
+![](https://p.ipic.vip/30h4kq.jpg)
 
 这样一来，是不是和上面的树差不多一致了？有没有容易理解一点呢？
 
@@ -831,4 +831,4 @@ public class Heap {
 
 大家对此有何看法，欢迎给我留言，我有时间都会一一查看回答。更多算法套路可以访问我的 LeetCode 题解仓库：https://github.com/azl397985856/leetcode 。目前已经 37K star 啦。大家也可以关注我的公众号《力扣加加》带你啃下算法这块硬骨头。
 
-![二维码](https://tva1.sinaimg.cn/large/007S8ZIlly1gfcuzagjalj30p00dwabs.jpg)
+![二维码](https://p.ipic.vip/kdi9ji.jpg)

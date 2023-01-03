@@ -50,7 +50,7 @@ matrix.length == matrix[0].length <= 200
 
 如下图，红色部分就是答案。只需要保证边全部是 0 就好了，所以里面有一个 1 无所谓的。
 
-![](https://tva1.sinaimg.cn/large/0081Kckwly1glolibd04ij30z90u0n10.jpg)
+![](https://p.ipic.vip/8ty63s.jpg)
 
 我们不妨从局部入手，看能不能打开思路。
 
@@ -60,11 +60,11 @@ matrix.length == matrix[0].length <= 200
 
 在上面的例子中，不难看出其最大黑方阵不会超过 min(4, 5)。
 
-![](https://tva1.sinaimg.cn/large/0081Kckwly1glolvo257pj30yr0u0780.jpg)
+![](https://p.ipic.vip/fq45s1.jpg)
 
 那答案直接就是 4 么？ 对于这种情况是的， 但是也存在其他情况。比如：
 
-![](https://tva1.sinaimg.cn/large/0081Kckwly1glolynuddvj30u00umtcx.jpg)
+![](https://p.ipic.vip/vns704.jpg)
 
 因此解空间上界虽然是 4，但是下界仍然可能为 1。
 
@@ -97,7 +97,7 @@ matrix.length == matrix[0].length <= 200
 
 看一下图或许好理解一点。
 
-![](https://tva1.sinaimg.cn/large/0081Kckwly1glon25oegxj310f0u042g.jpg)
+![](https://p.ipic.vip/anlw6c.jpg)
 
 如上图就是尝试 2 是否可行，如果可行，我们继续**得寸进尺**，直到不可行或者到上界。
 
@@ -112,7 +112,7 @@ matrix.length == matrix[0].length <= 200
 
 比如上面提到的向上向左探测的过程，如果上面和左面格子的扩展结果已经计算出来了，那么直接用就行了，这部分延伸的复杂度可以降低到 $O(1)$。因此不难看出， 当前格子的计算依赖于左侧和上方格子，因此使用**从左到右从上到下扫描矩阵** 是正确的选择，因为我们需要在遍历当当前格子的时候**左侧和上方格子的结果已经被计算出来了**。
 
-![](https://tva1.sinaimg.cn/large/0081Kckwly1gloo8fqjxwj318w0u07dd.jpg)
+![](https://p.ipic.vip/lakbpv.jpg)
 
 1. (4,5) 找到上方相邻的格子，如果是 1 直接返回。
 2. 如果上方格子值是 0 ，去 memo 中查询。

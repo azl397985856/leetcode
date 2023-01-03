@@ -1,8 +1,8 @@
 # LeetCode
 
-[![Travis](https://img.shields.io/badge/language-C++-green.svg)]() [![Travis](https://img.shields.io/badge/language-Python-red.svg)]() [![Travis](https://img.shields.io/badge/language-Java-blue.svg)]() [![Travis](https://img.shields.io/badge/language-Go-red.svg)]() [![Travis](https://img.shields.io/badge/language-Php-pink.svg)]() [![Travis](https://img.shields.io/badge/language-JavaScript-yellow.svg)]()
+[![Travis](https://p.ipic.vip/k4pv1r.jpg)]() [![Travis](https://p.ipic.vip/32nfgh.jpg)]() [![Travis](https://p.ipic.vip/4a36ao.jpg)]() [![Travis](https://p.ipic.vip/fd1f82.jpg)]() [![Travis](https://p.ipic.vip/mhz5uy.jpg)]() [![Travis](https://p.ipic.vip/gp1hvz.jpg)]()
 
-[![](https://img.shields.io/badge/WeChat-微信群-brightgreen)](#哪里能找到我) [![](https://img.shields.io/badge/公众号-力扣加加-blueviolet)](#哪里能找到我) [![](https://img.shields.io/badge/Juejin-掘金-blue)](https://juejin.im/user/58af98305c497d0067780b3b) [![](https://img.shields.io/badge/Zhihu-知乎-blue)](https://www.zhihu.com/people/lu-xiao-13-70) [![](https://img.shields.io/badge/bilili-哔哩哔哩-ff69b4)](https://space.bilibili.com/519510412/)
+[![](https://img.shields.io/badge/WeChat-微信群-brightgreen)](#哪里能找到我) [![](https://img.shields.io/badge/公众号-力扣加加-blueviolet)](#哪里能找到我) [![](https://img.shields.io/badge/Juejin-掘金-blue)](https://p.ipic.vip/pj4t8y.jpg) [![](https://img.shields.io/badge/Zhihu-知乎-blue)](https://p.ipic.vip/n9co7k.jpg) [![](https://img.shields.io/badge/bilili-哔哩哔哩-ff69b4)](https://p.ipic.vip/m7g3to.jpg)
 
 简体中文 | [English](./README.en.md)
 
@@ -14,7 +14,7 @@
 
 我的新书《算法通关之路》出版了。
 
-![](https://tva1.sinaimg.cn/large/008i3skNly1gu39d1zb7qj622g0u013a02.jpg)
+![](https://p.ipic.vip/zo8cz5.jpg)
 
 - [实体版购书链接 1](https://union-click.jd.com/jdc?e=618|pc|&p=JF8BAOAJK1olXgEGUV9cAE4VCl8IGloXWgYCV1tcAE8TBl9MRANLAjZbERscSkAJHTdNTwcKBlMdBgABFksWAm0PG1sWWAcKUFpYFxJSXzI4GAhrA0IDUiM-FjFxQQtKWFx2AlkYElJROEonA24JG1MQWgMEUW5tCEwnQgEIGlkdXAQHUW5cOEsQBmkNElwWXgYGUFxtD0seMzRddVwVWFVWB10PXxtDVDo4K2sWbQECXRMcWgYnM284GGtXMwUKAw5VDEpDA2oBGl4SXwELUF5fCkkQVDtdH1JGX1EAZFxcCU8eMw)
 
@@ -28,7 +28,7 @@
 
 [在线阅读地址](https://leetcode-solution-leetcode-pp.gitbook.io/leetcode-solution/)
 
-![](https://tva1.sinaimg.cn/large/0081Kckwly1gm3r7y4dt8j30zx0u0hdt.jpg)
+![](https://p.ipic.vip/x1u80k.jpg)
 
 **限时免费下载！后期随时可能收费**
 
@@ -46,7 +46,7 @@
 
 ## 九章算法班
 
-![](https://tva1.sinaimg.cn/large/e6c9d24ely1h5bw2q7urhj20m803ct8z.jpg)
+![](https://p.ipic.vip/iyzbvl.jpg)
 
 九章算法，由北大、清华校友于美国硅谷创办，已帮助数十万 IT 程序员找到高薪 offer! 提供 1 对 1 求职指导、算法指导、前后端项目、简历代笔等服务。
 
@@ -54,7 +54,7 @@
 
 - 推荐北大 FB 双料大神的[《九章算法班》](https://www.jiuzhang.com/course/71/?utm_source=tf-github-lucifer2022)，有人靠他连拿 3 个大厂 offer
 
-![](https://tva1.sinaimg.cn/large/e6c9d24ely1h5bw3rtr9oj20m807sdgp.jpg)
+![](https://p.ipic.vip/8a4bul.jpg)
 
 ## :calendar:《91 天学算法》限时活动
 
@@ -66,7 +66,7 @@
 
 [点此参与](https://github.com/azl397985856/leetcode/discussions/532)
 
-![](https://tva1.sinaimg.cn/large/008i3skNly1gq0mm4lscqj313h0r0diy.jpg)
+![](https://p.ipic.vip/ltkyaq.jpg)
 
 - 🔥🔥🔥🔥 [活动首页](https://leetcode-solution.cn/91) 🔥🔥🔥🔥
 - [91 第三期讲义 - 二分专题（上）](./thinkings/binary-search-1.md)
@@ -96,7 +96,7 @@ leetcode 题解，记录自己的 leetcode 解题之路。
 
 - 这里有一张互联网公司面试中经常考察的问题类型总结的思维导图，我们可以结合图片中的信息分析一下。
 
-![leetcode-zhihu](https://tva1.sinaimg.cn/large/007S8ZIlly1ghluennxvrj30k00jx0te.jpg)
+![leetcode-zhihu](https://p.ipic.vip/a20o3x.jpg)
 
 （图片来自 leetcode)
 
@@ -570,7 +570,7 @@ anki - 文件 - 导入 - 下拉格式选择“打包的 anki 集合”，然后�
 
 大家也可以加我微信好友进行交流！
 
-![](https://tva1.sinaimg.cn/large/008i3skNly1gx11szd02ej30e80e8dg3.jpg)
+![](https://p.ipic.vip/wciz1n.jpg)
 
 ## :chart_with_upwards_trend: 大事件
 
@@ -581,7 +581,7 @@ anki - 文件 - 导入 - 下拉格式选择“打包的 anki 集合”，然后�
 - 2020-04-12: [项目突破三万 Star](./thanksGiving3.md)。
 - 2020-04-14: 官网`力扣加加`上线啦 💐💐💐💐💐，有专题讲解，每日一题，下载区和视频题解，后续会增加更多内容，还不赶紧收藏起来？地址：<http://leetcode-solution.cn/>
 
-![](https://tva1.sinaimg.cn/large/007S8ZIlly1ghluemaoj3j30z90dtmy5.jpg)
+![](https://p.ipic.vip/98p19b.jpg)
 
 - 2021-02-23: star 破四万
 

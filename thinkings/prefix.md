@@ -34,7 +34,7 @@
 
 一种思路是总的连续子数组个数等于：**以索引为 0 结尾的子数组个数 + 以索引为 1 结尾的子数组个数 + ... + 以索引为 n - 1 结尾的子数组个数**，这无疑是完备的。
 
-![](https://tva1.sinaimg.cn/large/007S8ZIlly1gj6m27kgbsj306u06gt8u.jpg)
+![](https://p.ipic.vip/p00ihn.jpg)
 
 同时**利用母题 0 的前缀和思路， 边遍历边求和。**
 
@@ -133,7 +133,7 @@ function countSubArray(k, nums) {
 
 实际上是 betweenK 可以直接利用 atMostK，即 atMostK(k1, nums) - atMostK(k2 - 1, nums)，其中 k1 > k2。前提是值是离散的， 比如上面我出的题都是整数。 因此我可以直接 减 1，因为 **1 是两个整数最小的间隔**。
 
-![](https://tva1.sinaimg.cn/large/007S8ZIlly1gj8m692laxj30pz0grte9.jpg)
+![](https://p.ipic.vip/9angl4.jpg)
 
 如上，`小于等于 10 的区域`减去 `小于 5 的区域`就是 `大于等于 5 且小于等于 10 的区域`。
 
@@ -571,11 +571,11 @@ class Solution:
 
 **注意到里层的 while 循环是连续的数组全部加上一个数字，不难想到可以利用母题 0 的前缀和思路优化。**
 
-![](https://tva1.sinaimg.cn/large/007S8ZIlly1gj8k7w0bqyj30qh07540b.jpg)
+![](https://p.ipic.vip/0xpuf6.jpg)
 
 一种思路就是在 i 的位置 + k， 然后利用前缀和的技巧给 i 到 n 的元素都加上 k。但是题目需要加的是一个区间， j + 1 及其之后的元素会被多加一个 k。一个简单的技巧就是给 j + 1 的元素减去 k，这样正负就可以抵消。
 
-![](https://tva1.sinaimg.cn/large/007S8ZIlly1gj8k997nmbj30q9074dhm.jpg)
+![](https://p.ipic.vip/u5ogtv.jpg)
 
 ### 代码（Python）
 
