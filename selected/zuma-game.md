@@ -68,13 +68,13 @@ https://leetcode-cn.com/problems/zuma-game/
 
 因此我们只需要两个指针记录连续相同颜色球的位置，如果可以消除，消除即可。
 
-![](https://tva1.sinaimg.cn/large/007S8ZIlly1gjfehgw7lnj31880fydkr.jpg)
+![](https://p.ipic.vip/ny6vfo.jpg)
 
 如图，我们记录了连续红球的位置， 如果手上有红球， 则可以尝试将其清除，这一次决策就是回溯树（决策树）的一个分支。之后我们会撤回到这个决策分支， 尝试其他可行的决策分支。
 
 以 board = RRBBRR ， hand 为 RRBB 为例，其决策树为：
 
-![](https://tva1.sinaimg.cn/large/007S8ZIlly1gjfg7kykx3j30u00wc46o.jpg)
+![](https://p.ipic.vip/8g512f.jpg)
 
 其中虚线表示无需手动干预，系统自动消除。叶子节点末尾的黄色表示全部消除需要的手球个数。路径上的文字后面的数字表示此次消除需要的手球个数
 
@@ -95,7 +95,7 @@ while i < len(board):
     i = j
 ```
 
-![](https://tva1.sinaimg.cn/large/007S8ZIlly1gjfegz0iwvj316e0my43t.jpg)
+![](https://p.ipic.vip/iwk7wa.jpg)
 
 具体算法：
 
@@ -152,4 +152,4 @@ class Solution:
 大家对此有何看法，欢迎给我留言，我有时间都会一一查看回答。更多算法套路可以访问我的 LeetCode 题解仓库：https://github.com/azl397985856/leetcode 。 目前已经 36K star 啦。
 大家也可以关注我的公众号《力扣加加》带你啃下算法这块硬骨头。
 
-![](https://tva1.sinaimg.cn/large/007S8ZIlly1gfcuzagjalj30p00dwabs.jpg)
+![](https://p.ipic.vip/52jfo7.jpg)

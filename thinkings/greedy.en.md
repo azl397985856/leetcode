@@ -46,11 +46,11 @@ Here we use the greedy strategy to solve it. That is, every time you choose a po
 
 As shown in the figure below, the starting position is 2, and the range that can be jumped is the orange node. Since 3 can jump farther, enough to cover the situation of 2, it should jump to the position of 3.
 
-![](https://tva1.sinaimg.cn/large/007S8ZIlly1ghluifqw9sj309i03xq2t.jpg)
+![](https://p.ipic.vip/pgh1f7.jpg)
 
 When we jump to the position of 3. As shown in the figure below, the range that can be jumped is 1, 1, and 4 in orange. Since 4 can jump farther, it jumps to the position of 4.
 
-![](https://tva1.sinaimg.cn/large/007S8ZIlly1ghluimff8dj30c1039wed.jpg)
+![](https://p.ipic.vip/ccdr3u.jpg)
 
 If you write code, we can use end to represent the current boundary that can be jumped, corresponding to orange 1 in the first picture and orange 4 in the second picture. And when traversing the array, when the boundary is reached, the boundary is updated again.
 
@@ -194,7 +194,7 @@ Please return the minimum number of taps that can irrigate the entire garden. If
 Example 1：
 ```
 
-![](https://tva1.sinaimg.cn/large/007S8ZIlly1ghluiubf2gj30bm05xmx4.jpg)
+![](https://p.ipic.vip/w0ltjw.jpg)
 
 ```
 Input: n = 5, ranges = [3,4,1,1,0,0]
@@ -285,12 +285,12 @@ For extreme-value problems, we can consider using dynamic programming and greedy
 
 The more than 1,000 pages of e-books I organized have been developed and downloaded. You can go to the background of my public account "Force Buckle Plus" to reply to the e-books to get them.
 
-![](https://cdn.jsdelivr.net/gh/azl397985856/cdn/2020-10-17/1602928846461-image.png)
+![](https://p.ipic.vip/ywp3od.png)
 
-![](https://cdn.jsdelivr.net/gh/azl397985856/cdn/2020-10-17/1602928862442-image.png)
+![](https://p.ipic.vip/vngp5k.png)
 
 If you have any comments on this, please leave me a message. I will check the answers one by one when I have time. For more algorithm routines, you can visit my LeetCode problem solving warehouse:https://github.com/azl397985856/leetcode . There are already 37K stars.
 
 You can also pay attention to my public account "Force Buckle Plus" to take you to chew off the hard bone of the algorithm.
 
-![](https://tva1.sinaimg.cn/large/007S8ZIlly1gfcuzagjalj30p00dwabs.jpg)
+![](https://p.ipic.vip/yp4ttk.jpg)

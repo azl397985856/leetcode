@@ -4,7 +4,7 @@
 
 I believe everyone has played the following maze game. Your goal is to move from a certain corner of the map to the exit of the map. The rules are simple, as long as you can't pass through the wall.
 
-![](https://tva1.sinaimg.cn/large/008eGmZEly1goxczig610j30as0ar48s.jpg)
+![](https://p.ipic.vip/r4ihyb.jpg)
 
 In fact, this problem cannot be solved by using parallel collections. However, if I change the rule to, “Is there a path from the entrance to the exit”, then this is a simple unicom question, so that it can be done with the help of the parallel check set to be discussed in this section.
 
@@ -26,7 +26,7 @@ For example, there are two commanders. There are a number of commanders under th
 
 How do we judge whether two division commanders belong to the same commander (connectivity)?
 
-![](https://tva1.sinaimg.cn/large/007S8ZIlly1ghlufxh5lhj30gs0bzwet.jpg)
+![](https://p.ipic.vip/p4t2ub.jpg)
 
 Very simple, we followed the division commander, looked up, and found the commander. If the two division commanders find the same commander, then the two people will be in charge of the same commander. (Assuming that these two are lower in rank than the commander)
 
@@ -42,11 +42,11 @@ This operation of constantly looking up is generally called find. Using ta, we c
 
 As shown in the picture, there are two commanders：
 
-![](https://tva1.sinaimg.cn/large/007S8ZIlly1ghlufys950j30wp0el0th.jpg)
+![](https://p.ipic.vip/5hao10.jpg)
 
 We merge it into a unicom domain, and the easiest way is to directly point one of the domains to the other.：
 
-![](https://tva1.sinaimg.cn/large/007S8ZIlly1ghlug0ni3jj30ym0cojsb.jpg)
+![](https://p.ipic.vip/usvfn4.jpg)
 
 The above is a visual explanation of the three core APIs "find", "connected" and "union". Let's take a look at the code implementation.
 
@@ -60,7 +60,7 @@ The union-find Algorithm defines two operations for this data structure：
 
 First, we initialize that each point is a connected domain, similar to the figure below：
 
-![](https://tva1.sinaimg.cn/large/008eGmZEly1gmm4f8vpp3j30p9024jra.jpg)
+![](https://p.ipic.vip/vbnydv.jpg)
 
 In order to define these methods more accurately, it is necessary to define how to represent a collection. A common strategy is to select a fixed element for each collection, called a representative, to represent the entire collection. Next, Find(x) returns the representative of the collection to which x belongs, and Union uses the representative of the two collections as a parameter to merge. At the beginning, everyone's representative was himself.
 
@@ -113,11 +113,11 @@ What's the use of this? We know that every time we find, we will continue to sea
 
 > Note that it is approaching O(1), to be precise, it is an inverse function of Ackerman's function.
 
-![](https://tva1.sinaimg.cn/large/008eGmZEly1gmm4i1vrclg30ni05wtj9.gif)
+![](https://p.ipic.vip/gvnmod.gif)
 
 In the extreme case, every path will be compressed. In this case, the time complexity of continuing to find is $O(1)$.
 
-![](https://tva1.sinaimg.cn/large/008eGmZEly1gmm4zjf5evj30u00aigml.jpg)
+![](https://p.ipic.vip/0y7hub.jpg)
 
 ### connected
 
@@ -134,13 +134,13 @@ Hang one of the nodes to the ancestor of the other node, so that the ancestors o
 
 For the following figure：
 
-![](https://tva1.sinaimg.cn/large/008eGmZEly1gmm4avz4iej30lv04rmx9.jpg)
+![](https://p.ipic.vip/8u6mqx.jpg)
 
 If we merge 0 and 7 once. That is, `union(0, 7)`, the following process will occur.
 
 -Find the root node of 0 3 -Found the root node of 7 6 -Point 6 to 3. (In order to make the merged tree as balanced as possible, generally choose to mount a small tree on top of a large tree. The following code template will reflect this. The rank of 3 is larger than that of 6, which is more conducive to the balance of the tree and avoids extreme situations)
 
-![](https://tva1.sinaimg.cn/large/008eGmZEly1gmm4btv06yg30ni05wwze.gif)
+![](https://p.ipic.vip/p8ng7e.gif)
 
 The small trees and big trees mentioned above are the so-called ** merged by rank**.
 

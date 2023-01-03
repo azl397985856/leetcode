@@ -22,7 +22,7 @@ Next, we will use a few interesting examples to deepen everyone's understanding 
 
 The essence of Hooks is an array, pseudo-code：
 
-![basic-data-structure-hooks.png](https://tva1.sinaimg.cn/large/007S8ZIlly1ghlugmr673j30m80bsq3j.jpg)
+![basic-data-structure-hooks.png](https://p.ipic.vip/8o17i8.jpg)
 
 So why do hooks use arrays? We can explain from another perspective, what would happen if we didn't use arrays?
 
@@ -84,7 +84,7 @@ There are two basic queue operations：
 
 Schematic diagram of FIFO (first in, first out) for elements in the queue：
 
-![](https://tva1.sinaimg.cn/large/0081Kckwly1gk7h2kgnjfj30b907dt8x.jpg)
+![](https://p.ipic.vip/tm0tnz.jpg)
 
 (Picture from https://github.com/trekhleb/javascript-algorithms/blob/master/src/data-structures/queue/README.zh-CN.md )
 
@@ -98,7 +98,7 @@ The protocol stipulates that for the same tcp connection, all http 1.0 requests 
 
 It's as if we are waiting for the traffic light. Even if the green light is on next to you, your lane is a red light, you still can't go, you still have to wait.
 
-![basic-data-structure-queue-1](https://tva1.sinaimg.cn/large/007S8ZIlly1ghlugoaepnj30gf0e2dgm.jpg)
+![basic-data-structure-queue-1](https://p.ipic.vip/8sk4c8.jpg)
 
 `HTTP/1.0' and `HTTP/1.1`:
 
@@ -110,7 +110,7 @@ However, `http 1.1 stipulates that the transmission of server-side responses mus
 
 If it is represented by a diagram, the process is probably：
 
-![basic-data-structure-queue-2](https://tva1.sinaimg.cn/large/007S8ZIlly1ghlugpil19j31210d83zr.jpg)
+![basic-data-structure-queue-2](https://p.ipic.vip/3locxt.jpg)
 
 `HTTP/2' and `HTTP/1.1`:
 
@@ -141,7 +141,7 @@ In addition, there should be a peek operation to access the current top (end) el
 
 Schematic diagram of the push and pop operations of the stack：
 
-![basic-data-structure-stack](https://tva1.sinaimg.cn/large/007S8ZIlly1ghlugqxx3sj30lh0f074v.jpg)
+![basic-data-structure-stack](https://p.ipic.vip/f61f0j.jpg)
 
 (Picture from https://github.com/trekhleb/javascript-algorithms/blob/master/src/data-structures/stack/README.zh-CN.md )
 
@@ -168,7 +168,7 @@ foo();
 
 When it is actually executed, it looks like this internally：
 
-![basic-data-structure-call-stack](https://tva1.sinaimg.cn/large/007S8ZIlly1ghlugru58jj30v70hi0u8.jpg)
+![basic-data-structure-call-stack](https://p.ipic.vip/7u0yjf.jpg)
 
 > The picture I drew does not show other parts of the execution context (this, scope, etc.). This part is the key to closure, and I am not talking about closure here, but to explain the stack.
 
@@ -182,7 +182,7 @@ Legal stack shuffling operation is also a classic topic. In fact, there is a one
 
 Linked lists are one of the most basic data structures, and proficiency in the structure and common operations of linked lists is the foundation of the foundation.
 
-![](https://tva1.sinaimg.cn/large/0081Kckwly1gk7h36dljuj30bc0153yj.jpg)
+![](https://p.ipic.vip/okxhbu.jpg)
 
 (Picture from: https://github.com/trekhleb/javascript-algorithms/tree/master/src/algorithms/linked-list/traversal )
 
@@ -192,7 +192,7 @@ Many people say that fiber is implemented based on linked lists, but why should 
 
 The purpose of fiber's appearance is actually to solve the problem that react cannot stop when it is executed, and it needs to be executed in one go.
 
-![fiber-intro](https://tva1.sinaimg.cn/large/007S8ZIlly1ghlugunkhdj30rc0c0wez.jpg)
+![fiber-intro](https://p.ipic.vip/a6w031.jpg)
 
 > The picture is shared by Lin Clark at ReactConf 2017
 
@@ -271,7 +271,7 @@ The important nature of the tree：
 
 The actual tree used may be more complicated. For example, a quadtree or octree may be used for collision detection in games. And the k-dimensional tree structure`k-d tree` and so on.
 
-![](https://tva1.sinaimg.cn/large/007S8ZIlly1ghlugv8xw6j306y06mdft.jpg)
+![](https://p.ipic.vip/2kuyc2.jpg)
 (Picture from https://zh.wikipedia.org/wiki/K-d%E6%A0%91 )
 
 ### Binary tree
@@ -283,7 +283,7 @@ The principle behind it is the "eldest son + brother" method. In Teacher Deng's 
 
 A typical binary tree：
 
-![](https://tva1.sinaimg.cn/large/0081Kckwly1gk7h4obmnkj30rs0muq4k.jpg)
+![](https://p.ipic.vip/w7p5ok.jpg)
 
 (Picture from https://github.com/trekhleb/javascript-algorithms/blob/master/src/data-structures/tree/README.zh-CN.md )
 
@@ -315,11 +315,11 @@ Characteristics of binary stacks：
 -In a min heap, if P is a parent node of C, then the key (or value) of P should be less than or equal to the corresponding value of C.
 Because of this, the top element of the heap must be the smallest. We will use this feature to find the minimum value or the kth smallest value.
 
-![min-heap](https://tva1.sinaimg.cn/large/007S8ZIlly1ghlugz10gfj30ca07yjro.jpg)
+![min-heap](https://p.ipic.vip/shen88.jpg)
 
 -In a max heap, the key (or value) of P is greater than or equal to the corresponding value of C.
 
-![max-heap](https://tva1.sinaimg.cn/large/0081Kckwly1gk7h43x3o8j30dx0ab74q.jpg)
+![max-heap](https://p.ipic.vip/0voxz1.jpg)
 
 It should be noted that there are not only heaps of priority queues, but also more complex ones, but generally speaking, we will make the two equivalent.
 

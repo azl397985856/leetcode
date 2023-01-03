@@ -34,30 +34,30 @@
 ### 思路
 
 我们以题目给出的测试用例来讲解：
-![](https://pic.leetcode-cn.com/584db66158d2b497b9fdd69b5dc10c3a76db6e2c0f6cff68789cfb79807b0756.jpg)
+![](https://p.ipic.vip/1ir43q.jpg)
 
 前序遍历是`根左右`，因此 preorder 第一个元素一定整个树的根。由于题目说明了没有重复元素，因此我们可以通过 val 去 inorder 找到根在 inorder 中的索引 i。
 而由于中序遍历是`左根右`，我们容易找到 i 左边的都是左子树，i 右边都是右子树。
 
 我使用红色表示根，蓝色表示左子树，绿色表示右子树。
 
-![](https://pic.leetcode-cn.com/faea3d9a78c1fa623457b28c8d20e09a47bb0911d78ff53f42fab0e463a7755d.jpg)
+![](https://p.ipic.vip/47ywwa.jpg)
 
 根据此时的信息，我们能构造的树是这样的：
 
-![](https://pic.leetcode-cn.com/261696c859c562ca31dface08d3020bcd20362ab2205d614473cca02b1635eb0.jpg)
+![](https://p.ipic.vip/hbznvj.jpg)
 
 我们 preorder 继续向后移动一位，这个时候我们得到了第二个根节点”9“，实际上就是左子树的根节点。
 
-![](https://pic.leetcode-cn.com/eb8311e01ed86007b23460d6c933b53ad14bec2d63a0dc01f625754368f22376.jpg)
+![](https://p.ipic.vip/k7hkj4.jpg)
 
 我们 preorder 继续向后移动一位，这个时候我们得到了第二个根节点”20“，实际上就是右子树的根节点。其中右子树由于个数大于 1，我们无法确定，我们继续执行上述逻辑。
 
-![](https://pic.leetcode-cn.com/d90dc9bae9d819da997eb67d445524c8ef39ce2a4a8defb16b5a3b6b2a0fc783.jpg)
+![](https://p.ipic.vip/8zc2e6.jpg)
 
 根据此时的信息，我们能构造的树是这样的：
 
-![](https://pic.leetcode-cn.com/f8553f668bed9f897f393a24d78e4469c4b5503c4ba8c59e90dca1b19acf4de5.jpg)
+![](https://p.ipic.vip/qvjh0a.jpg)
 
 我们不断执行上述逻辑即可。简单起见，递归的时候每次我都开辟了新的数组，这个其实是没有必要的，我们可以通过四个变量来记录 inorder 和 preorder 的起始位置即可。
 
@@ -117,26 +117,26 @@ class Solution:
 ### 思路
 
 我们以题目给出的测试用例来讲解：
-![](https://pic.leetcode-cn.com/fb9d700a67d70b5e68461fa1f0438d9c5c676557a776eda4cd1b196c41ce65a1.jpg)
+![](https://p.ipic.vip/r78dsl.jpg)
 
 后序遍历是`左右根`，因此 postorder 最后一个元素一定整个树的根。由于题目说明了没有重复元素，因此我们可以通过 val 去 inorder 找到根在 inorder 中的索引 i。
 而由于中序遍历是`左根右`，我们容易找到 i 左边的都是左子树，i 右边都是右子树。
 
 我使用红色表示根，蓝色表示左子树，绿色表示右子树。
 
-![](https://pic.leetcode-cn.com/10176eec270c90d8e0bd4640a628e9320b7d5c30f3c62ffdb1fd2800d87c6f7b.jpg)
+![](https://p.ipic.vip/35n3lv.jpg)
 
 根据此时的信息，我们能构造的树是这样的：
 
-![](https://pic.leetcode-cn.com/261696c859c562ca31dface08d3020bcd20362ab2205d614473cca02b1635eb0.jpg)
+![](https://p.ipic.vip/hbznvj.jpg)
 
 其中右子树由于个数大于 1，我们无法确定，我们继续执行上述逻辑。我们 postorder 继续向前移动一位，这个时候我们得到了第二个根节点”20“，实际上就是右子树的根节点。
 
-![](https://pic.leetcode-cn.com/e6cac2b6a956c09d977c4cfd7883268644b42bdd0531a509d24b4aafebc147c4.jpg)
+![](https://p.ipic.vip/kyjr7z.jpg)
 
 根据此时的信息，我们能构造的树是这样的：
 
-![](https://pic.leetcode-cn.com/f8553f668bed9f897f393a24d78e4469c4b5503c4ba8c59e90dca1b19acf4de5.jpg)
+![](https://p.ipic.vip/qvjh0a.jpg)
 
 我们不断执行上述逻辑即可。简单起见，递归的时候每次我都开辟了新的数组，这个其实是没有必要的，我们可以通过四个变量来记录 inorder 和 postorder 的起始位置即可。
 
@@ -195,7 +195,7 @@ pre[] 和 post[] 都是 1, 2, ..., pre.length 的排列
 ### 思路
 
 我们以题目给出的测试用例来讲解：
-![](https://pic.leetcode-cn.com/584db66158d2b497b9fdd69b5dc10c3a76db6e2c0f6cff68789cfb79807b0756.jpg)
+![](https://p.ipic.vip/1ir43q.jpg)
 
 前序遍历是`根左右`，因此 preorder 第一个元素一定整个树的根，preorder 第二个元素（如果存在的话）一定是左子树。由于题目说明了没有重复元素，因此我们可以通过 val 去 postorder 找到 pre[1]在 postorder 中的索引 i。
 而由于后序遍历是`左右根`，因此我们容易得出。 postorder 中的 0 到 i(包含)是左子树，preorder 的 1 到 i+1（包含）也是左子树。
@@ -256,4 +256,4 @@ node.right = self.constructFromPrePost(pre[i + 2:], post[i + 1:-1])
 
 大家也可以关注我的公众号《力扣加加》获取更多更新鲜的 LeetCode 题解
 
-![](https://tva1.sinaimg.cn/large/007S8ZIlly1gfcuzagjalj30p00dwabs.jpg)
+![](https://p.ipic.vip/vzbaxz.jpg)

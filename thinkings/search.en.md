@@ -57,7 +57,7 @@ Based on this, you can draw the following decision tree.
 
 (The figure below describes part of the process of making decisions on an array of length 3. The numbers in the tree nodes represent the index. That is, it is determined that there are three choices for the first number, and it is determined that the second number will become the remaining two choices based on the last choice)
 
-![](https://tva1.sinaimg.cn/large/008i3skNly1gqwu244duoj30n40iaabd.jpg)
+![](https://p.ipic.vip/xk7cqr.jpg)
 
 Animated demonstration of the decision-making process：
 

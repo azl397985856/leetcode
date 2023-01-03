@@ -69,7 +69,7 @@ https://leetcode-cn.com/problems/meChtZ/
 
 那么如何模拟呢？这里的模拟思路其实和回溯是一样的。我们可以使用递归控制一个变量，递归函数内部控制另外一个变量。
 
-![](https://tva1.sinaimg.cn/large/008eGmZEly1gn7w8lgdi2j30v80iggmi.jpg)
+![](https://p.ipic.vip/7tk8cm.jpg)
 
 具体来说，我们可以用递归控制当前位置这一变量，递归函数内部循环遍历 jumps。自然语言表达就是**对于每一个位置 pos，我们都可以选择我先走一步（之后怎么走不管）到终点或者先乘坐一个公交车（之后怎么走不管）到终点**。
 
@@ -145,4 +145,4 @@ class Solution:
 
 关注公众号力扣加加，努力用清晰直白的语言还原解题思路，并且有大量图解，手把手教你识别套路，高效刷题。
 
-![](https://tva1.sinaimg.cn/large/007S8ZIlly1gfcuzagjalj30p00dwabs.jpg)
+![](https://p.ipic.vip/5yfrpj.jpg)

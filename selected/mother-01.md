@@ -2,7 +2,7 @@
 
 记得我初中的时候，学校发的一个小册子的名字就是母题啥的。
 
-![](https://tva1.sinaimg.cn/large/007S8ZIlly1ghbhlyhaadj308c08c3yv.jpg)
+![](https://p.ipic.vip/blev8y.jpg)
 
 大概意思是市面上的题（尤其是中考题）都是这些母题生的，都是它们的儿子。
 
@@ -386,7 +386,7 @@ mergeKLists 执行了 logk 次，每次都执行一次 mergeTwoLists，mergeTwoL
 
 最后送大家一张全家福：
 
-![](https://tva1.sinaimg.cn/large/007S8ZIlly1ghbq8s05y0j31620u0gs0.jpg)
+![](https://p.ipic.vip/lhef50.jpg)
 
 ## 子题
 
@@ -406,4 +406,4 @@ mergeKLists 执行了 logk 次，每次都执行一次 mergeTwoLists，mergeTwoL
 大家对此有何看法，欢迎给我留言，我有时间都会一一查看回答。更多算法套路可以访问我的 LeetCode 题解仓库：https://github.com/azl397985856/leetcode 。 目前已经 37K star 啦。
 大家也可以关注我的公众号《力扣加加》带你啃下算法这块硬骨头。
 
-![](https://tva1.sinaimg.cn/large/007S8ZIlly1gfcuzagjalj30p00dwabs.jpg)
+![](https://p.ipic.vip/cn09i2.jpg)

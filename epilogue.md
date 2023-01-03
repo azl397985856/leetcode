@@ -8,6 +8,6 @@
 
 关注公众号《力扣加加》带你啃下算法这块硬骨头。
 
-![](https://tva1.sinaimg.cn/large/007S8ZIlly1gfcuzagjalj30p00dwabs.jpg)
+![](https://p.ipic.vip/iiew7e.jpg)
 
 lucifer 的博客地址：https://lucifer.ren/blog/

@@ -22,7 +22,7 @@
 
 Hooks 的本质就是一个数组， 伪代码：
 
-![basic-data-structure-hooks.png](https://tva1.sinaimg.cn/large/007S8ZIlly1ghlugmr673j30m80bsq3j.jpg)
+![basic-data-structure-hooks.png](https://p.ipic.vip/u9pfsv.jpg)
 
 那么为什么 hooks 要用数组？ 我们可以换个角度来解释，如果不用数组会怎么样？
 
@@ -84,7 +84,7 @@ function Form() {
 
 队列中元素先进先出 FIFO (first in, first out) 的示意：
 
-![](https://tva1.sinaimg.cn/large/0081Kckwly1gk7h2kgnjfj30b907dt8x.jpg)
+![](https://p.ipic.vip/vd0xqq.jpg)
 
 （图片来自 https://github.com/trekhleb/javascript-algorithms/blob/master/src/data-structures/queue/README.zh-CN.md)
 
@@ -98,7 +98,7 @@ function Form() {
 
 这就好像我们在等红绿灯，即使旁边绿灯亮了，你的这个车道是红灯，你还是不能走，还是要等着。
 
-![basic-data-structure-queue-1](https://tva1.sinaimg.cn/large/007S8ZIlly1ghlugoaepnj30gf0e2dgm.jpg)
+![basic-data-structure-queue-1](https://p.ipic.vip/nflzy7.jpg)
 
 `HTTP/1.0` 和 `HTTP/1.1`:
 
@@ -110,7 +110,7 @@ function Form() {
 
 如果用图来表示的话，过程大概是：
 
-![basic-data-structure-queue-2](https://tva1.sinaimg.cn/large/007S8ZIlly1ghlugpil19j31210d83zr.jpg)
+![basic-data-structure-queue-2](https://p.ipic.vip/6epvep.jpg)
 
 `HTTP/2` 和 `HTTP/1.1`:
 
@@ -141,7 +141,7 @@ function Form() {
 
 栈的 push 和 pop 操作的示意：
 
-![basic-data-structure-stack](https://tva1.sinaimg.cn/large/007S8ZIlly1ghlugqxx3sj30lh0f074v.jpg)
+![basic-data-structure-stack](https://p.ipic.vip/kzge8i.jpg)
 
 （图片来自 https://github.com/trekhleb/javascript-algorithms/blob/master/src/data-structures/stack/README.zh-CN.md)
 
@@ -168,7 +168,7 @@ foo();
 
 真正执行的时候，内部大概是这样的：
 
-![basic-data-structure-call-stack](https://tva1.sinaimg.cn/large/007S8ZIlly1ghlugru58jj30v70hi0u8.jpg)
+![basic-data-structure-call-stack](https://p.ipic.vip/j4s1dt.jpg)
 
 > 我画的图没有画出执行上下文中其他部分（this 和 scope 等）， 这部分是闭包的关键，而我这里不是讲闭包的，是为了讲解栈的。
 
@@ -182,7 +182,7 @@ foo();
 
 链表是一种最基本数据结构，熟练掌握链表的结构和常见操作是基础中的基础。
 
-![](https://tva1.sinaimg.cn/large/0081Kckwly1gk7h36dljuj30bc0153yj.jpg)
+![](https://p.ipic.vip/w0t5od.jpg)
 
 （图片来自： https://github.com/trekhleb/javascript-algorithms/tree/master/src/algorithms/linked-list/traversal)
 
@@ -192,7 +192,7 @@ foo();
 
 fiber 出现的目的其实是为了解决 react 在执行的时候是无法停下来的，需要一口气执行完的问题的。
 
-![fiber-intro](https://tva1.sinaimg.cn/large/007S8ZIlly1ghlugunkhdj30rc0c0wez.jpg)
+![fiber-intro](https://p.ipic.vip/aop2rm.jpg)
 
 > 图片来自 Lin Clark 在 ReactConf 2017 分享
 
@@ -271,7 +271,7 @@ return, children, sibling 也都是一个 fiber，因此 fiber 看起来就是�
 
 实际使用的树有可能会更复杂，比如使用在游戏中的碰撞检测可能会用到四叉树或者八叉树。以及 k 维的树结构 `k-d 树`等。
 
-![](https://tva1.sinaimg.cn/large/007S8ZIlly1ghlugv8xw6j306y06mdft.jpg)
+![](https://p.ipic.vip/obdpvz.jpg)
 （图片来自 https://zh.wikipedia.org/wiki/K-d%E6%A0%91）
 
 ### 二叉树
@@ -283,7 +283,7 @@ return, children, sibling 也都是一个 fiber，因此 fiber 看起来就是�
 
 一个典型的二叉树：
 
-![](https://tva1.sinaimg.cn/large/0081Kckwly1gk7h4obmnkj30rs0muq4k.jpg)
+![](https://p.ipic.vip/uclaew.jpg)
 
 （图片来自 https://github.com/trekhleb/javascript-algorithms/blob/master/src/data-structures/tree/README.zh-CN.md)
 
@@ -315,11 +315,11 @@ return, children, sibling 也都是一个 fiber，因此 fiber 看起来就是�
 - 在一个 最小堆 (min heap) 中，如果 P 是 C 的一个父级节点，那么 P 的 key（或 value) 应小于或等于 C 的对应值。
   正因为此，堆顶元素一定是最小的，我们会利用这个特点求最小值或者第 k 小的值。
 
-![min-heap](https://tva1.sinaimg.cn/large/007S8ZIlly1ghlugz10gfj30ca07yjro.jpg)
+![min-heap](https://p.ipic.vip/vm13lg.jpg)
 
 - 在一个 最大堆 (max heap) 中，P 的 key（或 value) 大于或等于 C 的对应值。
 
-![max-heap](https://tva1.sinaimg.cn/large/0081Kckwly1gk7h43x3o8j30dx0ab74q.jpg)
+![max-heap](https://p.ipic.vip/d771jf.jpg)
 
 需要注意的是优先队列不仅有堆一种，还有更复杂的，但是通常来说，我们会把两者做等价。
 
@@ -342,7 +342,7 @@ return, children, sibling 也都是一个 fiber，因此 fiber 看起来就是�
 
 二叉查找树，**之所以叫查找树就是因为其非常适合查找**。举个例子，如下一颗二叉查找树，我们想找节点值小于且最接近 58 的节点，搜索的流程如图所示：
 
-![bst](https://tva1.sinaimg.cn/large/007S8ZIlly1ghluh33ttoj30rs0mudhi.jpg)
+![bst](https://p.ipic.vip/7upfbi.jpg)
 
 （图片来自 https://www.geeksforgeeks.org/floor-in-binary-search-tree-bst/）
 
@@ -385,7 +385,7 @@ return, children, sibling 也都是一个 fiber，因此 fiber 看起来就是�
 
 又称 Trie 树，是一种树形结构。典型应用是用于统计，排序和保存大量的字符串（但不仅限于字符串），所以经常被搜索引擎系统用于文本词频统计。它的优点是：利用字符串的公共前缀来减少查询时间，最大限度地减少无谓的字符串比较，查询效率比哈希树高。
 
-![](https://tva1.sinaimg.cn/large/007S8ZIlly1ghluh7b5gmj30al06q74c.jpg)
+![](https://p.ipic.vip/xwqu33.jpg)
 
 （图来自 https://baike.baidu.com/item/%E5%AD%97%E5%85%B8%E6%A0%91/9825209?fr=aladdin)
 它有 3 个基本性质：

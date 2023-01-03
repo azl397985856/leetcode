@@ -12,7 +12,7 @@
 
 这样的数据结构来描述一颗树：
 
-![](https://tva1.sinaimg.cn/large/007S8ZIlly1gh2dqqnyzwj30ba0baglw.jpg)
+![](https://p.ipic.vip/y0u9fo.jpg)
 
 ([1,2,3,null,null,4,5] 对应的二叉树)
 
@@ -92,7 +92,7 @@ class Solution:
 
 > 选择这种记法，而不是 DFS 的记法的原因是看起来比较直观
 
-![](https://tva1.sinaimg.cn/large/007S8ZIlly1gh2h5bhjryj30b40am74k.jpg)
+![](https://p.ipic.vip/qse3bj.jpg)
 
 序列化的代码非常简单， 我们只需要在普通的遍历基础上，增加对空节点的输出即可（普通的遍历是不处理空节点的）。
 
@@ -142,7 +142,7 @@ public class Codec {
 
 我们先看一个短视频：
 
-![](https://tva1.sinaimg.cn/large/007S8ZIlly1gh2z5y87n0g30bo05vx6u.gif)
+![](https://p.ipic.vip/qbfc18.gif)
 
 （动画来自力扣）
 
@@ -232,11 +232,11 @@ class Codec:
 
 如图有这样一棵树：
 
-![](https://tva1.sinaimg.cn/large/007S8ZIlly1gh2x3gj9n0j30j00gewfx.jpg)
+![](https://p.ipic.vip/7h5ws2.jpg)
 
 那么其层次遍历为 [1,2,3,#,#, 4, 5]。我们根据此层次遍历的结果来看下如何还原二叉树，如下是我画的一个示意图：
 
-![](https://tva1.sinaimg.cn/large/007S8ZIlly1gh2x55lh7qj31780t0gq8.jpg)
+![](https://p.ipic.vip/w01rtf.jpg)
 
 容易看出：
 
@@ -294,7 +294,7 @@ Python 代码：
 
 我们从马后炮的角度来说，实际上对于序列化来说，BFS 和 DFS 都比较常规。对于反序列化，大家可以像我这样举个例子，画一个图。可以先在纸上，电脑上，如果你熟悉了之后，也可以画在脑子里。
 
-![](https://tva1.sinaimg.cn/large/007S8ZIlly1gh30bapydej30rq0tcad5.jpg)
+![](https://p.ipic.vip/wjtyzs.jpg)
 
 （Like This）
 

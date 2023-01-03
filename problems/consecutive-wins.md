@@ -54,7 +54,7 @@ Here are the ways in which we can win 2 or fewer times consecutively:
 
 用图来表示就是如下的样子：
 
-![图采用力扣加加刷题插件制作](https://tva1.sinaimg.cn/large/008eGmZEly1gotv04k40uj30jg0glmzp.jpg)
+![图采用力扣加加刷题插件制作](https://p.ipic.vip/kwdjfk.jpg)
 
 不是一般性，我们可以得出如下的转移方程：
 

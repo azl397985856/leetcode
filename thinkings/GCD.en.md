@@ -65,19 +65,19 @@ If we have a piece of land of 1680 meters \*640 meters, we want to talk about la
 
 In fact, this is an application scenario for the greatest common divisor. Our goal is to solve the greatest common divisor of 1680 and 640.
 
-![](https://tva1.sinaimg.cn/large/007S8ZIlly1ghluj0ysrjj30f104zmxs.jpg)
+![](https://p.ipic.vip/6ylclm.jpg)
 
 Dividing 1680 meters\*640 meters of land is equivalent to dividing 400 meters\*640 meters of land. Why? If the side length of a square divided by 400 meters\*640 meters is x, then there is 640% x==0, then it will definitely satisfy the remaining two pieces of 640 meters\*640 meters.
 
-![](https://tva1.sinaimg.cn/large/007S8ZIlly1ghluj6lpjej30g805aaap.jpg)
+![](https://p.ipic.vip/k1j1uf.jpg)
 
 We continue to divide the above：
 
-![](https://tva1.sinaimg.cn/large/007S8ZIlly1ghlujd4rhbj307x08v74i.jpg)
+![](https://p.ipic.vip/djdnpp.jpg)
 
 Until the side length is 80, there is no need to proceed.
 
-![](https://tva1.sinaimg.cn/large/007S8ZIlly1ghlujgvkvbj30aa04umx2.jpg)
+![](https://p.ipic.vip/hveyzl.jpg)
 
 ## Instance analysis
 

@@ -31,7 +31,7 @@ For fixed window size problem, we only need to keep track of the left pointer l 
    - 4.1 If they satisfy, based on whether we need an optimal solution or not, we either return the solution or keep updating until we find the optimal one.
    - 4.2 Otherwise, we continue to find an appropriate window
 
-![](https://tva1.sinaimg.cn/large/007S8ZIlly1ghluhfr2c3j308z0d5aaa.jpg)
+![](https://p.ipic.vip/41ke5d.jpg)
 
 ### Variable Window Size
 
@@ -47,7 +47,7 @@ For variable window, we initialize the left and right pointers the same way. The
 
 If we view it another way, it's simply moving the pointer r to find an appropriate window and we only move the pointer l once we find an appropriate window to minimize the window and find an optimal solution.
 
-![](https://tva1.sinaimg.cn/large/007S8ZIlly1ghluhlt7wwj30d90d50t5.jpg)
+![](https://p.ipic.vip/z8ram4.jpg)
 
 ## Code Template
 

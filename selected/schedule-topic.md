@@ -55,7 +55,7 @@ MyCalendar.book(20, 30); // returns true
 
 对于两个 calendar，我们的判断逻辑都是一样的。假设连个 calendar 分别是`[s1, e1]`和`[s2, e2]`。那么如果`s1 >= e2 or s2 <= e1`, 则两个课程没有交叉，可以预定，否则不可以。如图，1，2，3 可以预定，剩下的不可以。
 
-![image.png](http://ww1.sinaimg.cn/large/e9f490c8ly1gbj1o8hvivj20w20ra76f.jpg)
+![image.png](https://p.ipic.vip/f1rf2b.jpg)
 
 代码是这样的：
 
@@ -159,11 +159,11 @@ class MyCalendar:
 
 和上面思路类似，只不过我们每次都对 calendars 进行排序，那么我们可以通过二分查找日程安排的情况来检查新日常安排是否可以预订。如果每次插入之前都进行一次排序，那么时间复杂度会很高。如图，我们的[s1,e1], [s2,e2], [s3,e3] 是按照时间顺序排好的日程安排。我们现在要插入[s,e],我们使用二分查找，找到要插入的位置，然后和插入位置的课程进行一次比对即可，这部分的时间复杂度是 $O(logN)$。
 
-![image.png](http://ww1.sinaimg.cn/large/e9f490c8ly1gbj28k6v4gj21100c2754.jpg)
+![image.png](https://p.ipic.vip/u4fegk.jpg)
 
 我们考虑使用平衡二叉树来维护这种动态的变化，在最差的情况时间复杂度会退化到上述的$O(N^2)$，平均情况是$O(NlogN)$，其中 N 是已预订的日常安排数。
 
-![image.png](http://ww1.sinaimg.cn/large/e9f490c8ly1gbj2dirnf0j20xs0fe75j.jpg)
+![image.png](https://p.ipic.vip/jis4ob.jpg)
 
 ### 代码
 
@@ -468,11 +468,11 @@ class MyCalendarThree(object):
 
 比如预定[1,3]和[5,7]，我们产生一个预定即可：
 
-![image.png](http://ww1.sinaimg.cn/large/e9f490c8ly1gbj50c37suj212q0bcq3t.jpg)
+![image.png](https://p.ipic.vip/ctg91m.jpg)
 
 再比如预定[1,5]和[3,7]，我们需要两个预定：
 
-![image.png](http://ww1.sinaimg.cn/large/e9f490c8ly1gbj45oq6fhj213e0ca0tm.jpg)
+![image.png](https://p.ipic.vip/ouazzy.jpg)
 
 我们可以使用红黑树来简化时间复杂度，如果你使用的是 Java，可以直接使用现成的数据结构 TreeMap。我这里偷懒，每次都排序，时间复杂度会很高，但是可以 AC。
 

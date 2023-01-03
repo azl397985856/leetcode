@@ -4,11 +4,11 @@
 
 Last time I did a small survey for everyone on my public account, "Vote for the programming language you want to solve~". The following are the results of the survey：
 
-![Voting results](https://tva1.sinaimg.cn/large/008eGmZEly1gmtc6l6sfij30p20gqjsu.jpg)
+![Voting results](https://p.ipic.vip/0ambnc.jpg)
 
 Regarding others, most of them are in the Go language.
 
-![What did the other people who voted for write?](https://tva1.sinaimg.cn/large/008eGmZEly1gmtc7yeqxyj317y0me0wd.jpg)
+![What did the other people who voted for write?](https://p.ipic.vip/deg4hc.jpg)
 
 Since the proportion of Java and Python has exceeded 60%, this time I will try to write in both Java and Python. Thank you @ CaptainZ for providing the Java code. At the same time, in order to prevent the article from being stinky and long, I put all the code (Java and Python) of this article in Java on the official website of Likujiajia\*\*, website address:https://leetcode-solution.cn/solution-code
 
@@ -16,7 +16,7 @@ Since the proportion of Java and Python has exceeded 60%, this time I will try t
 
 ## Body
 
-![](https://tva1.sinaimg.cn/large/0081Kckwly1glegve2v47j319g0u041x.jpg)
+![](https://p.ipic.vip/j81nlc.jpg)
 
 Hello everyone, this is lucifer. What I bring to you today is the topic of "Heap". Let's start with the outline of this article. This is a brain map drawn by me with mindmap. After that, I will continue to improve it and gradually improve other topics.
 
@@ -356,7 +356,7 @@ mat[i] is a non-decreasing array
 
 In fact, this question is to give you m one-dimensional arrays of the same length. Let us select a number from these m arrays, that is, select a total of m numbers, and find that the sum of these m numbers is The kth smallest among all selection possibilities.
 
-![](https://tva1.sinaimg.cn/large/0081Kckwly1gmanik03omj31p40u0q8q.jpg)
+![](https://p.ipic.vip/pypsm9.jpg)
 
 A simple idea is to use multiple pointers to solve. For this question, it is to use m pointers to point to m one-dimensional arrays. The position of the pointers indicates that the first few in the one-dimensional array are currently selected.
 

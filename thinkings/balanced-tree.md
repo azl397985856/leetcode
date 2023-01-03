@@ -178,13 +178,13 @@ class Solution:
 
 和 108 思路一样。 不同的是数据结构的不同，因此我们需要关注的是链表和数组的操作差异。
 
-![](https://tva1.sinaimg.cn/large/007S8ZIlly1ghluhp582uj31ii0pgjsw.jpg)
+![](https://p.ipic.vip/e7yblm.jpg)
 
 （数组的情况）
 
 我们再来看下链表：
 
-![](https://tva1.sinaimg.cn/large/007S8ZIlly1ghluhpjgtqj31q30u0mzv.jpg)
+![](https://p.ipic.vip/gkndvh.jpg)
 （链表的情况）
 
 找到中点，只需要使用经典的快慢指针即可。同时为了防止环的出现， 我们需要斩断指向 mid 的 next 指针，因此需要记录一下中点前的一个节点，这只需要用一个变量 pre 记录即可。
@@ -301,7 +301,7 @@ public:
 
 有的同学不太会分析递归的时间复杂度和空间复杂度，我们在这里给大家再次介绍一下。
 
-![](https://tva1.sinaimg.cn/large/008i3skNly1gqmduc0j3dj314d0jk7ju.jpg)
+![](https://p.ipic.vip/s8ejbw.jpg)
 
 首先我们尝试画出如下的递归树。由于递归树的深度为 $logn$ 因此空间复杂度就是 $logn$ \* 递归函数内部的空间复杂度，由于递归函数内空间复杂度为 $O(1)$，因此总的空间复杂度为 $O(logn)$。
 
@@ -340,7 +340,7 @@ $$
 
 ```
 
-![](https://tva1.sinaimg.cn/large/007S8ZIlly1ghluhpzr87j306j07r0sm.jpg)
+![](https://p.ipic.vip/6s67fh.jpg)
 
 ```
 

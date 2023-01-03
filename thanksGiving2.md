@@ -1,17 +1,17 @@
 假期这几天我买了《逆转裁判 123》合集，面对着这香喷喷的冷饭吃了半天。从 GBA 玩到 NDS，从 NDS 玩到 3DS, 现在 NS 虽然没有出新作有点遗憾。不过有了高清重制，也当是个回忆和收藏了 🎉🎉
 
 目前打通了第一第二关，剩下的过一段时间再玩好啦 😁
-![](https://tva1.sinaimg.cn/large/007S8ZIlly1ghluewwy6cj30u01pp0vq.jpg)
+![](https://p.ipic.vip/m1eixt.jpg)
 
 回到正题，就在今天，我的《leetcode 题解》项目成功突破 2w star， 并且现在 Github 搜索关键字"LeetCode"我的项目已经排名第一啦，这是继 1W star 之后的第二个巨大突破，非常感谢大家一路以来的支持和陪伴。
 
-![](https://tva1.sinaimg.cn/large/007S8ZIlly1ghlueyaj9xj310m0fm76u.jpg)
+![](https://p.ipic.vip/c2pxwa.jpg)
 
 最近在写一本关于 LeetCode 题解的书，有很多人表示想买，这无形之中给了我很大的压力，名字还没定，暂时给它取一个代号《攻克 LeetCode》。
 
 ## 新书《攻克 LeetCode》
 
-![](https://tva1.sinaimg.cn/large/007S8ZIlly1ghluez7qjqj305i04bt8j.jpg)
+![](https://p.ipic.vip/4eraft.jpg)
 
 这里是[《攻克 LeetCode》的草稿目录](https://lucifer.ren/blog/2019/10/03/draft/)，目前有 20 章的内容，本书要讲的内容就是 LeetCode 上反复出现的算法，经过我进一步提炼，抽取数百道题目在这里进行讲解，帮助大家理清整体思绪，从而高效率地刷题，做到事半功倍。我这里总结了 7 个常见的数据结构和 7 个常见的算法以及 5 个常见的算法思想。
 
@@ -27,11 +27,11 @@
 
 ## 2W star 截图
 
-![](https://tva1.sinaimg.cn/large/007S8ZIlly1ghluf0b2ogj30rm0ld42o.jpg)
+![](https://p.ipic.vip/pfkp2n.jpg)
 
 ## Star 曲线
 
-![](https://tva1.sinaimg.cn/large/007S8ZIlly1ghluf5fqdqj30p00f1jry.jpg)
+![](https://p.ipic.vip/k8ymwt.jpg)
 
 (star 增长曲线图)
 
@@ -41,29 +41,29 @@
 
 上回提到知乎上的“量子位”在帮我做宣传，引入了不小的流量。 我就想为什么不自己去拉流量呢？我自己以作者的角度去回答一些问题岂不是更好，更受欢迎么？于是我就开始在知乎上回答问题，很开心其中一个还获得了专业认可。
 
-![](https://tva1.sinaimg.cn/large/007S8ZIlly1ghluf67odgj30jw0gl419.jpg)
+![](https://p.ipic.vip/306jlu.jpg)
 
 事实上并没有我想的那么好，我回答了两个 LeetCode 话题的内容，虽然也有几百的点赞和感谢，但是这离我的目标还差很远。
 
-![](https://tva1.sinaimg.cn/large/007S8ZIlly1ghluf78bfsj309q0b1mxu.jpg)
+![](https://p.ipic.vip/qql53i.jpg)
 
-![](https://tva1.sinaimg.cn/large/007S8ZIlly1ghlufgjowdj30jk0h4tbr.jpg)
+![](https://p.ipic.vip/l9j3ml.jpg)
 
 但是转念一想，我知乎刚起步，也没什么粉丝，并且写答案的时间也就一个月左右，这样想就好多了。 我相信将来会有更多的人看到我的答案，然后加入进来。
 
-![](https://tva1.sinaimg.cn/large/007S8ZIlly1ghlufh06drj308907wjrh.jpg)
+![](https://p.ipic.vip/zlvpiu.jpg)
 
-![](https://tva1.sinaimg.cn/large/007S8ZIlly1ghlufi2992j30to0pwwf3.jpg)
+![](https://p.ipic.vip/4tnu1d.jpg)
 
 ## 建立自己的博客
 
 现在我发表的文章都是在各大平台。这有一个很大的问题就是各个平台很难满足你的需求，比如按照标签，按照日期进行归档。 甚至很多平台的阅读体验很差，比如没有导航功能，广告太多等。因此我觉得自己搭建一个博客还是很有必要的，这个渠道也为我吸引了少部分的流量，目前添加的主要内容大概有：
 
-![](https://tva1.sinaimg.cn/large/007S8ZIlly1ghlufj0k9cj308m07aq37.jpg)
+![](https://p.ipic.vip/6fbi4i.jpg)
 
-![](https://tva1.sinaimg.cn/large/007S8ZIlly1ghlufjy45rj30800hct92.jpg)
+![](https://p.ipic.vip/7dgeym.jpg)
 
-![](https://tva1.sinaimg.cn/large/007S8ZIlly1ghlufkukm5j307z08zjrh.jpg)
+![](https://p.ipic.vip/fonj3b.jpg)
 
 总体上来说效果还是不错的，之后的文章会在博客首发，各个平台也会陆续更新，感兴趣的可以来个 RSS 订阅，订阅方式已经在[《每日一荐 - 九月刊》](https://lucifer.ren/blog/2019/09/30/daily-featured-2019-09/)里面介绍了。
 
@@ -71,23 +71,23 @@
 
 GithubDaily 转载了量子位的文章也为我的仓库涨了至少几百的 star，非常感谢。GithubDaily 是一个拥有 3W 多读者的公众号，大家有兴趣的可以关注一波。
 
-![](https://tva1.sinaimg.cn/large/007S8ZIlly1ghlufp2p2rj30kl0eqwf6.jpg)
+![](https://p.ipic.vip/0bi9gh.jpg)
 
-![](https://tva1.sinaimg.cn/large/007S8ZIlly1ghlufsdrjhj30j90arjrt.jpg)
+![](https://p.ipic.vip/69zz2i.jpg)
 
 ## 其他自媒体的推荐
 
 一些其他自媒体也会帮忙推广我的项目
 
-![](https://tva1.sinaimg.cn/large/007S8ZIlly1ghluftnigvj30u00y1dhz.jpg)
+![](https://p.ipic.vip/h4t9j2.jpg)
 
 ## 口耳相传
 
 我后来才知道竟然有海外华侨和一些华人社区都能看到我了。
 
-![](https://tva1.sinaimg.cn/large/007S8ZIlly1ghlufu7k1pj30ky0mm3z4.jpg)
+![](https://p.ipic.vip/3pv8ff.jpg)
 
-![](https://tva1.sinaimg.cn/large/007S8ZIlly1ghlufv86v4j30ss1bmmzb.jpg)
+![](https://p.ipic.vip/et0qr0.jpg)
 （一亩三分地是一个集中讨论美国加拿大留学的论坛）
 
 另外通过朋友之间口耳相传的介绍也变得越来越多。

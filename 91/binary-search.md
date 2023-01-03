@@ -779,9 +779,9 @@ target 在右侧有序部分，我们就可以舍弃左边部分了(通过 start
 
 我们以([6,7,8,1,2,3,4,5], 4)为例讲解一下：
 
-![](https://tva1.sinaimg.cn/large/007S8ZIlly1gh9ahf86uyj30if0b0t9w.jpg)
+![](https://p.ipic.vip/e1eqm5.jpg)
 
-![](https://tva1.sinaimg.cn/large/007S8ZIlly1gh9ahoznqjj30gx0i2wgb.jpg)
+![](https://p.ipic.vip/gmsqw5.jpg)
 
 接下来，我们考虑重复元素的问题。如果存在重复数字，就可能会发生 nums[mid] ==
 nums[start] 了，比如 30333 。这个时候可以选择舍弃 start，也就是 start 右移一位。
@@ -1059,7 +1059,7 @@ class Solution:
 
 2. 如果中间元素 > 数组第一个元素，我们需要在 mid 右边搜索。
 
-![](https://tva1.sinaimg.cn/large/007S8ZIlly1gh99umkpjcj30q20c8aak.jpg)
+![](https://p.ipic.vip/e5lrsi.jpg)
 
 - 如果中间元素 <= 数组第一个元素，我们需要在 mid 左边搜索。
 
@@ -1071,7 +1071,7 @@ class Solution:
 
 - nums[mid - 1] > nums[mid]，因此 mid 是最小值。
 
-![](https://tva1.sinaimg.cn/large/007S8ZIlly1gh99yah60sj30mq0aidg8.jpg)
+![](https://p.ipic.vip/c524lk.jpg)
 
 ###### 代码（Python）
 
@@ -1129,7 +1129,7 @@ class Solution:
 最简单的，如果这个二叉树是一个二叉搜索树（BST）。 那么实际上，在一个二叉搜索树种
 进行搜索的过程就是二分法。
 
-![](https://tva1.sinaimg.cn/large/007S8ZIlly1ghlvp2whsdj30zk0tngoh.jpg)
+![](https://p.ipic.vip/bd2rnk.jpg)
 
 如上图，我们需要在这样一个二叉搜索树中搜索 7。那么我们的搜索路径则会是 8 -> 3 ->
 6 -> 7，这也是一种二分法。只不过相比于普通的**有序序列查找给定值**二分， 其时间
@@ -1138,13 +1138,13 @@ class Solution:
 上面讲了二叉搜索树，我们再来看一种同样特殊的树 - 完全二叉树。 如果我们给一颗完全
 二叉树的所有节点进行编号（二进制），依次为 01,10,11, ...。
 
-![](https://tva1.sinaimg.cn/large/007S8ZIlly1ghlwv88wl2j30g508ht9m.jpg)
+![](https://p.ipic.vip/exnxz6.jpg)
 
 那么实际上，最后一行的编号就是从根节点到该节点的路径。 其中 0 表示向左， 1 表示
 向右。(第一位数字不用)。 我们以最后一行的 101 为例，我们需要执行一次左，然后一次
 右。
 
-![](https://tva1.sinaimg.cn/large/007S8ZIlly1ghlwu1qyklj30ex081758.jpg)
+![](https://p.ipic.vip/z5fob9.jpg)
 
 其实原理也不难，如果你用数组表示过完全二叉树，那么就很容易理解。 我们可以发现，左节点的编号都是父节点的二倍，并且右节点都是父节点的二倍 + 1。从二进制的角度来看就是：**父节点的编号左移一位就是左节点的编号，左移一位 + 1 就是右节点的编号**。 因此反过来， 知道了子节点的最后一位，我们就能知道它是父节点的左节点还是右节点啦。
 

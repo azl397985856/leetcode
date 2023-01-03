@@ -39,7 +39,7 @@
 
 也就是说布隆过滤器回答了：**可能存在** 和 **一定不存在** 的问题。
 
-![bloom-filter-url](https://tva1.sinaimg.cn/large/007S8ZIlly1ghluhc0933j31dw0j2wgz.jpg)
+![bloom-filter-url](https://p.ipic.vip/1aeqlp.jpg)
 
 从上图可以看出， 布隆过滤器本质上是由**一个很长的二进制向量**和**多个哈希函数**组成。
 

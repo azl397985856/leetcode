@@ -18,7 +18,7 @@
 
 我们可以将 words 存储到一个树上，这棵树叫做前缀树。 一个前缀树大概是这个样子：
 
-![](https://tva1.sinaimg.cn/large/007S8ZIlly1ghlug87vyfj30mz0gq406.jpg)
+![](https://p.ipic.vip/l22fyo.jpg)
 
 如图每一个节点存储一个字符，然后外加一个控制信息表示是否是单词结尾，实际使用过程可能会有细微差别，不过变化不大。
 
@@ -67,11 +67,11 @@ f(count = 1, preCount=1)
 
 构建 Trie 的核心就是插入。而插入指的就是将单词（words）全部依次插入到前缀树中。假定给出几个单词 words [she,he,her,good,god]构造出一个 Trie 如下图：
 
-![](https://tva1.sinaimg.cn/large/008i3skNly1gsf3s7q1blj30gb0abjs0.jpg)
+![](https://p.ipic.vip/znbzcd.jpg)
 
 也就是说从根结点出发到某一粉色节点所经过的字符组成的单词，在单词列表中出现过，当然我们也可以给树的每个节点加个 count 属性，代表根结点到该节点所构成的字符串前缀出现的次数
 
-![](https://tva1.sinaimg.cn/large/008i3skNly1gsf3shfx9nj30g709nq3k.jpg)
+![](https://p.ipic.vip/qelwml.jpg)
 
 可以看出树的构造非常简单：**插入新单词的时候就从根结点出发一个字符一个字符插入，有对应的字符节点就更新对应的属性，没有就创建一个！**
 

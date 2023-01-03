@@ -34,7 +34,7 @@ How many edges point to node A, then the degree of entry of node A is what. Simi
 
 Still take the figure above as an example. The entry and exit degrees of all nodes in this figure are 1.
 
-![](https://tva1.sinaimg.cn/large/008i3skNly1guani9qrnbj61800u0jsj02.jpg)
+![](https://p.ipic.vip/zgyf24.jpg)
 
 ### Path & Ring [Path: Path]
 
@@ -43,7 +43,7 @@ Still take the figure above as an example. The entry and exit degrees of all nod
 
 I can transform the figure above into a loop-free diagram with a little modification. At this time, there is no loop.
 
-![](https://tva1.sinaimg.cn/large/008i3skNly1guanjtoizlj61d90u0dh702.jpg)
+![](https://p.ipic.vip/r7h4zu.jpg)
 
 ### Connectedness Diagram & Strong Connectedness Diagram
 
@@ -73,7 +73,7 @@ Use an n\*n matrix to describe the graph graph, which is a two-dimensional matri
 
 Generally speaking, for all graphs, I use graph[i][j]=1 to indicate that there is an edge between vertex i and vertex j, and the direction of the edge is from i to J. Use graph[i][j]= 0 to indicate that there is no edge between vertex i and vertex J. For this graph, we can store other numbers, which represent weights.
 
-![](https://tva1.sinaimg.cn/large/008i3skNly1guantlobk3j60eo0d20t702.jpg)
+![](https://p.ipic.vip/0f39q4.jpg)
 
 It can be seen that the picture above is diagonally symmetrical, so we only need to look at half of it, which causes half of the space to be wasted.
 
@@ -141,14 +141,14 @@ For each point, a linked list is stored, which is used to point to all points di
 
 For example, in an undirected graph：
 
-![graph-1](https://tva1.sinaimg.cn/large/007S8ZIlly1ghluh8tbb5j30k00akq48.jpg)
+![graph-1](https://p.ipic.vip/41khvw.jpg)
 (Picture from https://zhuanlan.zhihu.com/p/25498681 )
 
 It can be seen that in an undirected graph, the adjacency matrix is symmetrical about the diagonal, and the adjacency list always has two symmetrical edges.
 
 And in a directed graph：
 
-![graph-2](https://tva1.sinaimg.cn/large/007S8ZIlly1ghluhb46urj30k00aq0ux.jpg)
+![graph-2](https://p.ipic.vip/rfxn5j.jpg)
 
 (Picture from https://zhuanlan.zhihu.com/p/25498681 )
 
@@ -170,7 +170,7 @@ Here, take a directed graph as an example, and a directed graph is similar. I wi
 
 The depth-first method of traversing the graph is to start from a certain vertex v in the graph and continue to visit the neighbors, and the neighbors of the neighbors until the access is complete.
 
-![](https://tva1.sinaimg.cn/large/0081Kckwly1gjy6kp2117j30b507mq31.jpg)
+![](https://p.ipic.vip/odnpw3.jpg)
 
 As shown in the figure above, IF we use DFS and start from node A, **A possible** access order is: **A->C-> B-> D-> F->G->E**, Of course, it may also be **A->D->C->B->F->G->E**, etc., Depending on your code, but THEY are all depth-first.
 
@@ -178,7 +178,7 @@ As shown in the figure above, IF we use DFS and start from node A, **A possible*
 
 Breadth-first search can be vividly described as "shallow and endless". It also requires a queue to maintain the order of the traversed apex so that the adjacent apex of these apex can be accessed in the order of dequeue.
 
-![](https://tva1.sinaimg.cn/large/0081Kckwly1gjy7ds6u2lj30ea0a4dhf.jpg)
+![](https://p.ipic.vip/r0h2f4.jpg)
 
 As shown in the figure above, IF we use BFS and start from node A, ** A possible** access order is: ** A->B-> C-> F-> E->G-> D**, Of course, it may also be **A->B->F->E->C->G->D**, etc., Depending on your code, but they are all breadth-first.
 

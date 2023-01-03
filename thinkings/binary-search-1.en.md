@@ -2,7 +2,7 @@
 
 ## Foreword
 
-![](https://tva1.sinaimg.cn/large/008eGmZEly1godspy7ue3j31c00pytb0.jpg)
+![](https://p.ipic.vip/6zfu8a.jpg)
 
 Hello everyone, this is lucifer. What I bring to you today is the topic of "Two Points". Let's start with the outline of this article. This is a brain map drawn by me with mindmap. After that, I will continue to improve it and gradually improve other topics.
 

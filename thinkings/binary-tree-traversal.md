@@ -14,7 +14,7 @@ DFS 都可以使用栈来简化操作，并且其实树本身是一种递归的�
 
 DFS 图解：
 
-![binary-tree-traversal-dfs](https://tva1.sinaimg.cn/large/007S8ZIlly1ghlui7vcmwg30dw0dw3yl.gif)
+![binary-tree-traversal-dfs](https://p.ipic.vip/phae05.gif)
 
 (图片来自 https://github.com/trekhleb/javascript-algorithms/tree/master/src/algorithms/tree/depth-first-search)
 
@@ -44,7 +44,7 @@ BFS 的关键点在于如何记录每一层次是否遍历完成， 我们可以
 
 整个过程大概是这样：
 
-![binary-tree-traversal-preorder](https://tva1.sinaimg.cn/large/007S8ZIlly1ghlui8rph4j30n30azaar.jpg)
+![binary-tree-traversal-preorder](https://p.ipic.vip/ei0wj1.jpg)
 
 这种思路有一个好处就是可以`统一三种遍历的思路`. 这个很重要，如果不了解的朋友，希望能够记住这一点。
 
@@ -90,7 +90,7 @@ BFS 的关键点在于如何记录每一层次是否遍历完成， 我们可以
 
 层次遍历的关键点在于如何记录每一层次是否遍历完成， 我们可以用一个标识位来表式当前层的结束。
 
-![binary-tree-traversal-bfs](https://tva1.sinaimg.cn/large/007S8ZIlly1ghluic79lag30dw0dw3yl.gif)
+![binary-tree-traversal-bfs](https://p.ipic.vip/9z2nxw.gif)
 
 (图片来自 https://github.com/trekhleb/javascript-algorithms/tree/master/src/algorithms/tree/breadth-first-search)
 

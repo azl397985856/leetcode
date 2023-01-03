@@ -10,7 +10,7 @@
 > 。vscode 插件地址
 > ：https://marketplace.visualstudio.com/items?itemName=awehook.vscode-blink-mind
 
-![](https://tva1.sinaimg.cn/large/008eGmZEly1godspy7ue3j31c00pytb0.jpg)
+![](https://p.ipic.vip/f9hf3p.jpg)
 
 本系列包含以下专题：
 
@@ -88,7 +88,7 @@ target。如果存在， 则返回其在 nums 中的索引。如果不存在，�
 - mid —— 左右指针的中点，用来确定我们应该向左查找还是向右查找的索引（其实就是收
   缩解空间）
 
-![术语图示](https://tva1.sinaimg.cn/large/008eGmZEly1gosrap0p6nj30fe0940t9.jpg)
+![术语图示](https://p.ipic.vip/5mz2pf.jpg)
 
 值得注意的是，除了 target 是固定不变的，其他都是动态变化的。其中 l 和 r 指的是解
 空间的上下界，mid 是上下界的中间值， index 是遍历指针，用于控制遍历过程。
@@ -115,13 +115,13 @@ target 为 4·。
 - 7 > 4 ，由于 7 右边的数字都大于 7 ，因此不可能是答案。我们将范围缩写到了 7 的
   左侧。
 
-![调整解空间](https://tva1.sinaimg.cn/large/008eGmZEly1gosrelnzhuj30c905bweq.jpg)
+![调整解空间](https://p.ipic.vip/lopd47.jpg)
 
 - 解空间变成了 [1,3,4,6]，此时中间元素为 3。
 - 3 < 4，由于 3 左边的数字都小于 3 ，因此不可能是答案。我们将范围缩写到了 3 的右
   侧。
 
-![再次调整解空间](https://tva1.sinaimg.cn/large/008eGmZEly1gosrg6phvzj305b033glk.jpg)
+![再次调整解空间](https://p.ipic.vip/8n5f38.jpg)
 
 - 解空间变成了 [4,6]，此时中间元素为 4，正好是我们要找的，返回其索引 2 即可。
 
@@ -482,7 +482,7 @@ Piles 中最大的数（也就是解空间的最大值）。
 
 综上，我们可以使用最左二分，即不断收缩右边界。
 
-![](https://tva1.sinaimg.cn/large/007S8ZIlly1ghlu4rmzwcj30q00lv40j.jpg)
+![](https://p.ipic.vip/f95aa2.jpg)
 
 > 香蕉堆的香蕉个数上限是 10^9， 珂珂这也太能吃了吧？
 
@@ -880,7 +880,7 @@ for a in A:
 
 上面代码的 d 就是有序序列。
 
-![”插入排序“图示](https://tva1.sinaimg.cn/large/008eGmZEly1gog0u4kxoxj30ks0ygwiz.jpg)
+![”插入排序“图示](https://p.ipic.vip/z4z3i4.jpg)
 
 理论知识到此为止，接下来通过一个例子来说明。
 
@@ -1018,7 +1018,7 @@ https://leetcode-cn.com/problems/reverse-pairs/
 的**，这样我们就可以用二分了。和上面题目一样，使用平衡二叉树代替数组可使得插入的
 时间复杂度降低到 $O(logn)$。
 
-![平衡二叉树](https://tva1.sinaimg.cn/large/008eGmZEly1goss2vq59dj30c407rgm0.jpg)
+![平衡二叉树](https://p.ipic.vip/kh1ub9.jpg)
 
 ##### 关键点
 

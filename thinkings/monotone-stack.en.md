@@ -4,7 +4,7 @@ As the name suggests, a monotonic stack is a kind of stack. Therefore, to learn 
 
 ## What is a stack?
 
-![](https://tva1.sinaimg.cn/large/007S8ZIlly1gfbikq9ipmj30cd0a73yp.jpg)
+![](https://p.ipic.vip/nkmnv8.jpg)
 
 The stack is a restricted data structure, which is reflected in the fact that only new content is allowed to be inserted or deleted from one direction. This direction is called the top of the stack, and obtaining content from other locations is not allowed.
 
@@ -28,7 +28,7 @@ Since the stack only operates at the end, if we use arrays for simulation, the t
 1. In-stack-O (1)
 2. Out of the stack-O (1)
 
-![](https://tva1.sinaimg.cn/large/007S8ZIlly1gfbil9jqqej30sd0fhdgz.jpg)
+![](https://p.ipic.vip/35ede1.jpg)
 
 ### Application
 

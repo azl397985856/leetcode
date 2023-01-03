@@ -11,7 +11,7 @@
 
 每个阶段抽象为状态（用圆圈来表示），状态之间可能会发生转化（用箭头表示）。可以画出类似如下的图：
 
-![状态转移图解](https://tva1.sinaimg.cn/large/008eGmZEly1gpoaanln73j31ak0p0dpd.jpg)
+![状态转移图解](https://p.ipic.vip/ohuutq.jpg)
 
 那我们应该做出如何的**决策序列**才能使得结果最优？换句话说就是每一个状态应该如何选择到下一个具体状态，并最终到达目标状态。这就是动态规划研究的问题。
 
@@ -115,7 +115,7 @@ def f(x):
 
 解决动态规划问题可以看成是填充函数这个黑盒，使得定义域中的数并正确地映射到值域。
 
-![数学函数vs动态规划](https://tva1.sinaimg.cn/large/008eGmZEly1gplrxy60mpj30pt0daacn.jpg)
+![数学函数vs动态规划](https://p.ipic.vip/x645hl.jpg)
 
 递归并不是算法，它是和迭代对应的一种编程方法。只不过，我们通常借助递归去分解问题而已。比如我们定义一个递归函数 f(n)，用 f(n) 来描述问题。就和使用普通动态规划 f[n] 描述问题是一样的，这里的 f 是 dp 数组。
 
@@ -141,7 +141,7 @@ function climbStairs(n) {
 
 我们用一个递归树来直观感受以下（每一个圆圈表示一个子问题）：
 
-![重叠子问题](https://tva1.sinaimg.cn/large/007S8ZIlly1ghluhw6pf2j30mz0b2dgk.jpg)
+![重叠子问题](https://p.ipic.vip/xoh2he.jpg)
 
 红色表示重复的计算。即 Fib(N-2) 和 Fib(N-3) 都被计算了两次，实际上计算一次就够了。比如第一次计算出了 Fib(N-2) 的值，那么下次再次需要计算 Fib(N-2)的时候，可以直接将上次计算的结果返回。之所以可以这么做的原因正是前文提到的**我们的递归函数是数学中的函数，也就是说参数一定，那么返回值也一定不会变**，因此下次如果碰到相同的参数，我们就可以**将上次计算过的值直接返回，而不必重新计算**。这样节省的时间就等价于重叠子问题的个数。
 
@@ -165,7 +165,7 @@ climbStairs(10)
 
 这里我使用了一个名为 **memo 的哈希表来存储递归函数的返回值，其中 key 为参数，value 为递归函数的返回值。**
 
-![哈希表示意图](https://tva1.sinaimg.cn/large/008eGmZEly1gpmof67uptj307w0fe3zk.jpg)
+![哈希表示意图](https://p.ipic.vip/zzqj2d.jpg)
 
 > key 的形式为 (x, y)，表示的是一个元祖。通常动态规划的参数有多个，我们就可以使用元祖的方式来记忆化。或者也可采取多维数组的形式。对于上图来说，就可使用二维数组来表示。
 
@@ -254,7 +254,7 @@ climbStairs(10)
 
 关于状态定义，真的非常重要，以至于我将其列为动态规划的核心。因此我觉得有必要举几个例子来进行说明。我直接从力扣的[动态规划专题](https://leetcode-cn.com/tag/dynamic-programming/problemset/ "动态规划专题")中抽取前两道给大家讲讲。
 
-![力扣动态规划专题](https://tva1.sinaimg.cn/large/008eGmZEly1gpmtitey5hj315k0lsjxk.jpg)
+![力扣动态规划专题](https://p.ipic.vip/ak58fr.jpg)
 
 第一道题：《5. 最长回文子串》难度中等
 
@@ -381,7 +381,7 @@ p 可能为空，且只包含从 a-z 的小写字母，以及字符 . 和 
 
 这道题我定义状态为 f(i, j) 表示机器人到达点 (i,j) 的总的路径数。那么状态总数就是 i 和 j 的取值的笛卡尔积，也就是 m \* n 。
 
-![二维爬楼梯](https://tva1.sinaimg.cn/large/008eGmZEly1gpn6m7knnij30u00v1di1.jpg)
+![二维爬楼梯](https://p.ipic.vip/p8qlli.jpg)
 
 总的来说，动态规划的空间和时间复杂度**打底就是状态的个数**，而状态的个数通常是参数的笛卡尔积，这是由动态规划的无后向性决定的。
 
@@ -435,7 +435,7 @@ dp[n] = dp[n - 1] + dp[n - 2] 就是【状态转移方程】
 
 如下图所示：
 
-![状态转移图解](https://tva1.sinaimg.cn/large/008eGmZEly1gpoaanln73j31ak0p0dpd.jpg)
+![状态转移图解](https://p.ipic.vip/ohuutq.jpg)
 
 理论差不多先这样，接下来来几个实战消化一下。
 
@@ -493,7 +493,7 @@ $$
 
 是不是觉得状态转移方程写起来麻烦？这里我给大家介绍一个小技巧，那就是使用 latex，latex 语法可以方便地写出这样的公式。另外西法还贴心地写了**一键生成动态规划转移方程公式**的功能，帮助大家以最快速度生成公诉处。 插件地址：https://leetcode-pp.github.io/leetcode-cheat/?tab=solution-template
 
-![插件用法](https://tva1.sinaimg.cn/large/008eGmZEly1gpoaw5c5l0j314a0dq0ui.jpg)
+![插件用法](https://p.ipic.vip/73qkz7.jpg)
 
 状态转移方程实在是没有什么灵丹妙药，不同的题目有不同的解法。状态转移方程同时也是解决动态规划问题中最最困难和关键的点，大家一定要多多练习，提高题感。接下来，我们来看下不那么困难，但是新手疑问比较多的问题 - **如何枚举状态**。
 
@@ -510,7 +510,7 @@ for i in range(1, n + 1):
   pass
 ```
 
-![一维状态](https://tva1.sinaimg.cn/large/008eGmZEly1gpn6bxt7erj31n00u0jtx.jpg)
+![一维状态](https://p.ipic.vip/2mf74c.jpg)
 
 - 如果是两维状态，那么我们使用两层循环可以搞定。
 
@@ -520,7 +520,7 @@ for i in range(1, m + 1):
     pass
 ```
 
-![二维状态](https://tva1.sinaimg.cn/large/008eGmZEly1gpn6ceroi3j31970u0dit.jpg)
+![二维状态](https://p.ipic.vip/87lgok.jpg)
 
 - 。。。
 
@@ -621,7 +621,7 @@ function dp(n) {
 
 动态规划的查表过程如果画成图，就是这样的：
 
-![动态规划查表](https://tva1.sinaimg.cn/large/007S8ZIlly1ghluhxylbhj30n40cbaaq.jpg)
+![动态规划查表](https://p.ipic.vip/62j2sx.jpg)
 
 > 虚线代表的是查表过程
 
@@ -827,7 +827,7 @@ class Solution:
 
 以 coins = [1,2,3], amount = 6 来说，我们可以画出如下的递归树。
 
-![](https://tva1.sinaimg.cn/large/008eGmZEly1goil47ztakj31jk0nm791.jpg)
+![](https://p.ipic.vip/t1ow73.jpg)
 
 （图片来自https://leetcode.com/problems/coin-change/solution/）
 

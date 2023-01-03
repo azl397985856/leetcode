@@ -18,7 +18,7 @@ Stack can be used to simplify the process of DFS traversal. Besides, since tree 
 
 Graph for DFS：
 
-![binary-tree-traversal-dfs](https://tva1.sinaimg.cn/large/007S8ZIlly1ghluhzhynsg30dw0dw3yl.gif)
+![binary-tree-traversal-dfs](https://p.ipic.vip/sbj4as.gif)
 
 (from https://github.com/trekhleb/javascript-algorithms/tree/master/src/algorithms/tree/depth-first-search)
 
@@ -46,7 +46,7 @@ If you look at the bigger picture, you'll find that the process of traversal is 
 
 The traversal will look something like this.
 
-![binary-tree-traversal-preorder](https://tva1.sinaimg.cn/large/007S8ZIlly1ghlui0d6ewj30n30azaar.jpg)
+![binary-tree-traversal-preorder](https://p.ipic.vip/ma5fog.jpg)
 
 This way of problem solving is a bit similar to `backtrack`, on which I have written a post. You can benefit a lot from it because it can be used to `solve all three DFS traversal problems` mentioned aboved. If you don't know this yet, make a memo on it.
 
@@ -90,7 +90,7 @@ As for `2) both its left and right subtrees have been traversed`, we only need a
 
 The key point of level order traversal is how do we know whether the traversal of each level is done. The answer is that we use a variable as a flag representing the end of the traversal of the current level.
 
-![binary-tree-traversal-bfs](https://tva1.sinaimg.cn/large/007S8ZIlly1ghlui1tpoug30dw0dw3yl.gif)
+![binary-tree-traversal-bfs](https://p.ipic.vip/epbeoj.gif)
 
 (from https://github.com/trekhleb/javascript-algorithms/tree/master/src/algorithms/tree/breadth-first-search)
 

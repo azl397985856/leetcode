@@ -4,7 +4,7 @@
 
  如下就是一种逻辑上的图结构：
 
-![逻辑上的图结构](https://tva1.sinaimg.cn/large/008i3skNly1guanati4zlj61800u075p02.jpg)
+![逻辑上的图结构](https://p.ipic.vip/7jm3eo.jpg)
 
 图是一种最复杂的数据结构，前面讲的数据结构都可以看成是图的特例。那为什么不都用图就好了，还要分那么多种数据结构呢？
 
@@ -34,7 +34,7 @@
 
 仍然以上面的图为例，这幅图的所有节点的入度和出度都为 1。
 
-![](https://tva1.sinaimg.cn/large/008i3skNly1guani9qrnbj61800u0jsj02.jpg)
+![](https://p.ipic.vip/r4js08.jpg)
 
 ### 路径 & 环〔路径：Path〕
 
@@ -43,7 +43,7 @@
 
 我可以将上面的图稍加改造就变成了无环图，此时没有任何一个环路。
 
-![](https://tva1.sinaimg.cn/large/008i3skNly1guanjtoizlj61d90u0dh702.jpg)
+![](https://p.ipic.vip/6suzbw.jpg)
 
 ### 连通图 & 强连通图
 
@@ -73,7 +73,7 @@
 
 一般而言，对于无权图我都用 graph[i][j] = 1 来表示 顶点 i 和顶点 j 之间有一条边，并且边的指向是从 i 到 j。用 graph[i][j] = 0 来表示 顶点 i 和顶点 j 之间不存在一条边。 对于有权图来说，我们可以存储其他数字，表示的是权重。
 
-![](https://tva1.sinaimg.cn/large/008i3skNly1guantlobk3j60eo0d20t702.jpg)
+![](https://p.ipic.vip/g6qhtl.jpg)
 
 可以看出上图是对角线对称的，这样我们只需看一半就好了，这就造成了一半的空间浪费。
 
@@ -141,14 +141,14 @@ for fr, to, w in times:
 
 例如在无向无权图中：
 
-![graph-1](https://tva1.sinaimg.cn/large/007S8ZIlly1ghluh8tbb5j30k00akq48.jpg)
+![graph-1](https://p.ipic.vip/i1t6uf.jpg)
 （图片来自 https://zhuanlan.zhihu.com/p/25498681）
 
 可以看出在无向图中，邻接矩阵关于对角线对称，而邻接链表总有两条对称的边。
 
 而在有向无权图中：
 
-![graph-2](https://tva1.sinaimg.cn/large/007S8ZIlly1ghluhb46urj30k00aq0ux.jpg)
+![graph-2](https://p.ipic.vip/g1v1ts.jpg)
 
 （图片来自 https://zhuanlan.zhihu.com/p/25498681）
 
@@ -170,7 +170,7 @@ for fr, to, w in times:
 
 深度优先遍历图的方法是，从图中某顶点 v 出发， 不断访问邻居， 邻居的邻居直到访问完毕。
 
-![](https://tva1.sinaimg.cn/large/0081Kckwly1gjy6kp2117j30b507mq31.jpg)
+![](https://p.ipic.vip/fqq7k0.jpg)
 
 如上图， 如果我们使用 DFS，并且从 A 节点开始的话， **一个可能的**的访问顺序是： **A -> C -> B -> D -> F -> G -> E**，当然也可能是 **A -> D -> C -> B -> F -> G -> E** 等，具体取决于你的代码，但他们都是深度优先的。
 
@@ -178,7 +178,7 @@ for fr, to, w in times:
 
 广度优先搜索，可以被形象地描述为 "浅尝辄止"，它也需要一个队列以保持遍历过的顶点顺序，以便按出队的顺序再去访问这些顶点的邻接顶点。
 
-![](https://tva1.sinaimg.cn/large/0081Kckwly1gjy7ds6u2lj30ea0a4dhf.jpg)
+![](https://p.ipic.vip/eq4g1r.jpg)
 
 如上图， 如果我们使用 BFS，并且从 A 节点开始的话， **一个可能的**的访问顺序是： **A -> B -> C -> F -> E -> G -> D**，当然也可能是 **A -> B -> F -> E -> C -> G -> D** 等，具体取决于你的代码，但他们都是广度优先的。
 
@@ -429,7 +429,7 @@ Floyd-Warshall 可以**解决任意两个点距离**，即多源最短路径，�
 
 算法也不难理解，简单来说就是： **i 到 j 的最短路径 = i 到 k 的最短路径 + k 到 j 的最短路径**的最小值。如下图：
 
-![](https://tva1.sinaimg.cn/large/0081Kckwly1gk3qh59semj30ec05ptab.jpg)
+![](https://p.ipic.vip/592ov2.jpg)
 
 u 到 v 的最短距离是 u 到 x 的最短距离 + x 到 v 的最短距离。上图 x 是 u 到 v 的必经之路，如果不是的话，我们需要多个中间节点的值，并取最小的。
 
@@ -645,7 +645,7 @@ var Floyd-Warshall = function(graph, n){
 
 举个例子。对于如下的一个图，存在一个 B -> C -> D -> B，这样 B 到 C 和 D 的距离理论上可以无限小。我们需要检测到这一种情况，并退出。
 
-![](https://tva1.sinaimg.cn/large/008i3skNly1grc449csg0j30h705a3yt.jpg)
+![](https://p.ipic.vip/4909ju.jpg)
 
 此算法时间复杂度：$O(V*E)$， 空间复杂度：$O(V)$。
 
@@ -757,13 +757,13 @@ topologicalSort(graph)
 
 首先生成树是原图的一个子图，它本质是一棵树，这也是为什么叫做生成树，而不是生成图的原因。其次生成树应该包括图中所有的顶点。 如下图由于没有包含所有顶点，换句话说所有顶点没有在同一个联通域，因此不是一个生成树。
 
-![](https://tva1.sinaimg.cn/large/008i3skNly1gw90jdhugxj30jg0c6mxj.jpg)
+![](https://p.ipic.vip/9qlhgv.jpg)
 
 > 黄色顶点没有包括在内
 
 你可以将生成树看成是根节点不确定的多叉树，由于是一棵树，那么一定不包含环。如下图就不是生成树。
 
-![](https://tva1.sinaimg.cn/large/008i3skNly1gw90i7uk9aj30pw0cmq3l.jpg)
+![](https://p.ipic.vip/js111h.jpg)
 
 因此不难得出，最小生成树的边的个数是 n - 1，其中 n 为顶点个数。
 
@@ -773,7 +773,7 @@ topologicalSort(graph)
 
 最小生成树在实际生活中有很强的价值。比如我要修建一个地铁，并覆盖 n 个站，这 n 个站要互相都可以到达（同一个联通域），如果建造才能使得花费最小？由于每个站之间的路线不同，因此造价也不一样，因此这就是一个最小生成树的实际使用场景，类似的例子还有很多。
 
-![](https://tva1.sinaimg.cn/large/008eGmZEly1gmst4yvz7sj308c06qjrl.jpg)
+![](https://p.ipic.vip/bedy0j.jpg)
 
 （图来自维基百科）
 
@@ -917,7 +917,7 @@ A 星寻路解决的问题是在一个二维的表格中找出任意两点的最
 
 这里有一个重要的概念是**估价算法**，一般我们使用 **曼哈顿距离**来进行估价，即 `H(n) = D * (abs ( n.x – goal.x ) + abs ( n.y – goal.y ) )`。
 
-![](https://tva1.sinaimg.cn/large/0081Kckwly1gjy9j7k3jdg305u05umy9.gif)
+![](https://p.ipic.vip/wlg8gk.gif)
 
 （图来自维基百科 https://zh.wikipedia.org/wiki/A*%E6%90%9C%E5%B0%8B%E6%BC%94%E7%AE%97%E6%B3%95 ）
 

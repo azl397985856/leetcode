@@ -6,7 +6,7 @@ Hello everyone, this is lucifer. What I bring to you today is the topic of "Two 
 
 > You can also use vscode blink-mind to open the source file to view. There are some notes in it that you can click to view. The source file can be obtained by replying to the brain map on my official account "Force Buckle Plus", and the brain map will continue to be updated with more content in the future. vscode plug-in address:https://marketplace.visualstudio.com/items?itemName=awehook.vscode-blink-mind
 
-![](https://tva1.sinaimg.cn/large/008eGmZEly1godspy7ue3j31c00pytb0.jpg)
+![](https://p.ipic.vip/7b946x.jpg)
 
 This series contains the following topics：
 
@@ -70,7 +70,7 @@ Terms used in binary search：
 -l and r-left and right pointers
 -mid--the midpoint of the left and right pointers, which is used to determine the index we should look to the left or the right (in fact, it is to shrink the solution space)
 
-![Term illustration](https://tva1.sinaimg.cn/large/008eGmZEly1gosrap0p6nj30fe0940t9.jpg)
+![Term illustration](https://p.ipic.vip/6zhzd0.jpg)
 
 It is worth noting that, except that the target is fixed, everything else changes dynamically. Where l and r refer to the upper and lower boundaries of the solution space, mid is the intermediate value of the upper and lower boundaries, and index is the traversal pointer, which is used to control the traversal process.
 
@@ -413,7 +413,7 @@ The key to the two-way solution is：
 
 In summary, we can use the leftmost boundary, that is, the right boundary is constantly shrinking.
 
-![](https://tva1.sinaimg.cn/large/007S8ZIlly1ghlu4rmzwcj30q00lv40j.jpg)
+![](https://p.ipic.vip/77n5hj.jpg)
 
 > The upper limit of the number of bananas in the banana pile is 10^9. Keke is too edible, right?
 

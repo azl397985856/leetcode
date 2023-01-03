@@ -38,7 +38,7 @@ The Bloom filter is actually `bit + multiple hash functions`. The k-time hash (i
 
 In other words, the Bloom filter answered: ** There may be ** and **There must be no ** questions.
 
-![bloom-filter-url](https://tva1.sinaimg.cn/large/007S8ZIlly1ghluhc0933j31dw0j2wgz.jpg)
+![bloom-filter-url](https://p.ipic.vip/m7bvee.jpg)
 
 As can be seen from the figure above, the Bloom filter is essentially composed of ** a long binary vector** and ** multiple hash functions**.
 

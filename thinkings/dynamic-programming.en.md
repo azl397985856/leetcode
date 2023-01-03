@@ -163,7 +163,7 @@ climbStairs(10)
 
 Here I use a hash table named ** memo to store the return value of the recursive function, where key is the parameter and value is the return value of the recursive function. **
 
-![Hash indicates intent](https://tva1.sinaimg.cn/large/008eGmZEly1gpmof67uptj307w0fe3zk.jpg)
+![Hash indicates intent](https://p.ipic.vip/h4suhr.jpg)
 
 > The form of key is (x, y), which represents an ancestor. Usually there are multiple parameters for dynamic programming, so we can use the ancestor method to memorize them. Or it can take the form of a multidimensional array. For the figure above, a two-dimensional array can be used to represent it.
 

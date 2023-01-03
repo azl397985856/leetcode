@@ -51,15 +51,15 @@ https://leetcode-cn.com/problems/binode-lcci/
 
 其中绿色是我们要增加的连线，而黑色是是原本的连线。
 
-![](https://tva1.sinaimg.cn/large/007S8ZIlly1gj0zk657mmj30qq0doabd.jpg)
+![](https://p.ipic.vip/91t658.gif)
 
 我们再来看一个复杂一点的：
 
-![](https://tva1.sinaimg.cn/large/007S8ZIlly1gj0zl95r69j31040m6tbc.jpg)
+![](https://p.ipic.vip/v4jgm0.jpg)
 
 实际上，不管多么复杂。 我们只需要进行一次**中序遍历**，同时记录前驱节点。然后修改前驱节点和当前节点的指针即可，整个过程就好像是链表反转。
 
-![](https://tva1.sinaimg.cn/large/007S8ZIlly1gjufqa8pk7j30dm07cwev.jpg)
+![](https://p.ipic.vip/rizxay.jpg)
 
 核心代码（假设 pre 我们已经正确计算出了）：
 
@@ -137,4 +137,4 @@ class Solution:
 大家对此有何看法，欢迎给我留言，我有时间都会一一查看回答。更多算法套路可以访问我的 LeetCode 题解仓库：https://github.com/azl397985856/leetcode 。 目前已经 37K star 啦。
 大家也可以关注我的公众号《力扣加加》带你啃下算法这块硬骨头。
 
-![](https://tva1.sinaimg.cn/large/007S8ZIlly1gfcuzagjalj30p00dwabs.jpg)
+![](https://p.ipic.vip/7nkycx.jpg)

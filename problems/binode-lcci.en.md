@@ -50,15 +50,15 @@ If you understand the above content, then let's get to the point.
 
 Among them, green is the connection we want to add, and black is the original connection.
 
-![](https://tva1.sinaimg.cn/large/007S8ZIlly1gj0zk657mmj30qq0doabd.jpg)
+![](https://p.ipic.vip/y2qhfk.jpg)
 
 Let's look at a more complicated one：
 
-![](https://tva1.sinaimg.cn/large/007S8ZIlly1gj0zl95r69j31040m6tbc.jpg)
+![](https://p.ipic.vip/w0oy7x.jpg)
 
 In fact, no matter how complicated it is. We only need to perform a mid-sequence traversal once, and record the precursor nodes at the same time. Then you can modify the pointers of the precursor node and the current node. The whole process is as if the linked list is reversed.
 
-![](https://tva1.sinaimg.cn/large/007S8ZIlly1gjufqa8pk7j30dm07cwev.jpg)
+![](https://p.ipic.vip/prjau5.jpg)
 
 Core code (assuming we have calculated the pre correctly)：
 
@@ -136,4 +136,4 @@ return self. ans
 If you have any comments on this, please leave me a message. I will check the answers one by one when I have time. For more algorithm routines, you can visit my LeetCode problem solving warehouse:https://github.com/azl397985856/leetcode . There are already 37K stars.
 You can also pay attention to my public account "Force Buckle Plus" to take you to chew off the hard bone of the algorithm.
 
-![](https://tva1.sinaimg.cn/large/007S8ZIlly1gfcuzagjalj30p00dwabs.jpg)
+![](https://p.ipic.vip/70qh9q.jpg)
