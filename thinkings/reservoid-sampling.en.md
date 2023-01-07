@@ -46,9 +46,9 @@ In short, no matter which number it is, the probability of being selected is $\f
 
 ## Related topics
 
-- [382. Random nodes in the linked list] (https://leetcode-cn.com/problems/linked-list-random-node /"382. "Random nodes")
+- [382. Random nodes in the linked list](https://leetcode-cn.com/problems/linked-list-random-node /"382. "Random nodes")
 - [398. Random Number Index)(https://leetcode-cn.com/problems/random-pick-index /"398. Random number index")
-- [497. Random points in non-overlapping rectangles] (https://leetcode-cn.com/problems/random-point-in-non-overlapping-rectangles /"497. Random points in non-overlapping rectangles")
+- [497. Random points in non-overlapping rectangles](https://leetcode-cn.com/problems/random-point-in-non-overlapping-rectangles /"497. Random points in non-overlapping rectangles")
 
 ## Summary
 

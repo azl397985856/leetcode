@@ -2,11 +2,11 @@
 
 It took me a few days to select five topics with the same idea from the link to help you solve the problem. If you think the article is useful to you, remember to like and share, so that I can see your approval and have the motivation to continue doing it.
 
-- [467. Surround the unique sub-string in the string] (https://leetcode-cn.com/problems/unique-substrings-in-wraparound-string /"467. Surround the unique sub-string in the string") (medium)
-- [795. Number of interval subarrays] (https://leetcode-cn.com/problems/number-of-subarrays-with-bounded-maximum /"795. Number of interval subarrays") (medium)
-- [904. Fruit basket] (https://leetcode-cn.com/problems/fruit-into-baskets / "904. Fruit basket") (medium)
+- [467. Surround the unique sub-string in the string](https://leetcode-cn.com/problems/unique-substrings-in-wraparound-string /"467. Surround the unique sub-string in the string") (medium)
+- [795. Number of interval subarrays](https://leetcode-cn.com/problems/number-of-subarrays-with-bounded-maximum /"795. Number of interval subarrays") (medium)
+- [904. Fruit basket](https://leetcode-cn.com/problems/fruit-into-baskets / "904. Fruit basket") (medium)
 - [992. Subarrays of K different integers](https://leetcode-cn.com/problems/subarrays-with-k-different-integers /"992. Subarrays of K different integers") (difficult)
-- [1109. Flight booking statistics] (https://leetcode-cn.com/problems/corporate-flight-bookings /"1109. Flight Booking Statistics") (medium)
+- [1109. Flight booking statistics](https://leetcode-cn.com/problems/corporate-flight-bookings /"1109. Flight Booking Statistics") (medium)
 
 The first four questions are all subtypes of sliding windows. We know that sliding windows are suitable for use when the topic requirements are continuous, and [prefix and](https://oi-wiki.org/basic/prefix-sum / "Prefix and") the same is true. In the continuous problem, the two are of great significance for optimizing the time complexity. Therefore, if you can solve a problem with violence, and the problem happens to have continuous restrictions, then techniques such as sliding windows and prefixing sums should be thought of.
 
@@ -26,7 +26,7 @@ This problem can be solved using the prefix sum. Prefix sum is an important kind
 
 For [1,2,3,4,5,6], the prefix sum can be pre=[1,3,6,10,15,21]. We can use the formula pre[𝑖]=pre[𝑖-1]+nums[num] to get the value of each prefix sum, and then calculate and solve the problem accordingly through the prefix sum. In fact, the concept of prefix sum is very simple, but the difficulty is how to use prefix sum in the problem and how to use the relationship between prefix and sum to solve the problem.
 
-Title recommendation: [1480. Dynamic sum of one-dimensional arrays] (https://leetcode-cn.com/problems/running-sum-of-1d-array /)
+Title recommendation: [1480. Dynamic sum of one-dimensional arrays](https://leetcode-cn.com/problems/running-sum-of-1d-array /)
 
 ### 母题 1
 
@@ -42,20 +42,19 @@ Reference code (JS)：
 
 ```js
 function countSubArray(nums) {
-	let ans = 0;
-	let pre = 0;
-	for (_ in nums) {
-		pre += 1;
-		ans += pre;
-	}
-	return ans;
+  let ans = 0;
+  let pre = 0;
+  for (_ in nums) {
+    pre += 1;
+    ans += pre;
+  }
+  return ans;
 }
 ```
 
 **Complexity analysis**
 
--Time complexity:$O(N)$, where N is the length of the array.
--Spatial complexity:$O(1)$
+-Time complexity:$O(N)$, where N is the length of the array. -Spatial complexity:$O(1)$
 
 And since the number of subarrays ending in index i is i +1, this question can directly use the arithmetic sequence summation formula`(1 +n) * n / 2`, where n is the length of the array.
 
@@ -69,25 +68,24 @@ Reference code (JS)：
 
 ```js
 function countSubArray(nums) {
-	let ans = 1;
-	let pre = 1;
-	for (let i = 1; i < nums.length; i++) {
-		if (nums[i] - nums[i - 1] == 1) {
-			pre += 1;
-		} else {
-			pre = 0;
-		}
+  let ans = 1;
+  let pre = 1;
+  for (let i = 1; i < nums.length; i++) {
+    if (nums[i] - nums[i - 1] == 1) {
+      pre += 1;
+    } else {
+      pre = 0;
+    }
 
-		ans += pre;
-	}
-	return ans;
+    ans += pre;
+  }
+  return ans;
 }
 ```
 
 **Complexity analysis**
 
--Time complexity:$O(N)$, where N is the length of the array.
--Spatial complexity:$O(1)$
+-Time complexity:$O(N)$, where N is the length of the array. -Spatial complexity:$O(1)$
 
 What if the difference between my values is greater than 1? In fact, just change the symbol. Isn't this just to find the number of ascending sub-sequences? I won't continue to repeat them here, you can try it yourself.
 
@@ -101,25 +99,24 @@ Reference code (JS):
 
 ```js
 function countSubArray(k, nums) {
-	let ans = 0;
-	let pre = 0;
-	for (let i = 0; i < nums.length; i++) {
-		if (nums[i] <= k) {
-			pre += 1;
-		} else {
-			pre = 0;
-		}
+  let ans = 0;
+  let pre = 0;
+  for (let i = 0; i < nums.length; i++) {
+    if (nums[i] <= k) {
+      pre += 1;
+    } else {
+      pre = 0;
+    }
 
-		ans += pre;
-	}
-	return ans;
+    ans += pre;
+  }
+  return ans;
 }
 ```
 
 **Complexity analysis**
 
--Time complexity:$O(N)$, where N is the length of the array.
--Spatial complexity:$O(1)$
+-Time complexity:$O(N)$, where N is the length of the array. -Spatial complexity:$O(1)$
 
 ### 母题 4
 
@@ -233,9 +230,7 @@ b: 1
 
 The meaning is：
 
--The maximum length of a sub-string ending in b is 1, which is B.
--The maximum length of a sub-string ending in c is 3, which is abc.
--The maximum length of a sub-string ending in d is 4, which is abcd.
+-The maximum length of a sub-string ending in b is 1, which is B. -The maximum length of a sub-string ending in c is 3, which is abc. -The maximum length of a sub-string ending in d is 4, which is abcd.
 
 As for c, there is no need to save it. We can figure it out by way of theme 2.
 
@@ -245,8 +240,7 @@ Specific algorithm：
 
 > Keywords are: longest
 
--Use a variable w to record the length of consecutive sub-strings, and the traversal process updates len_mapper according to the value of w
--Returns the sum of all values in len_mapper.
+-Use a variable w to record the length of consecutive sub-strings, and the traversal process updates len_mapper according to the value of w -Returns the sum of all values in len_mapper.
 
 For example: abc, len_mapper at this time is:
 
@@ -271,7 +265,7 @@ z: 1
 }
 ```
 
-This achieves the purpose of deleveraging. This algorithm is not heavy or leaky, because the longest continuous sub-string must contain a continuous sub-string shorter than it. This idea is the same as [1297. Maximum number of occurrences of a sub-string] (https://github.com/azl397985856/leetcode/issues/266 "1297. The maximum number of occurrences of a strand") The method of pruning is different and the same.
+This achieves the purpose of deleveraging. This algorithm is not heavy or leaky, because the longest continuous sub-string must contain a continuous sub-string shorter than it. This idea is the same as [1297. Maximum number of occurrences of a sub-string](https://github.com/azl397985856/leetcode/issues/266 "1297. The maximum number of occurrences of a strand") The method of pruning is different and the same.
 
 ### Code (Python)
 
@@ -292,8 +286,7 @@ return sum(len_mapper. values())
 
 **Complexity analysis**
 
--Time complexity:$O(N)$, where $N$ is the length of the string P.
--Spatial complexity: Since up to 26 letters are stored, the space is actually constant, so the spatial complexity is $O(1)$.
+-Time complexity:$O(N)$, where $N$ is the length of the string P. -Spatial complexity: Since up to 26 letters are stored, the space is actually constant, so the spatial complexity is $O(1)$.
 
 ## 795. Number of interval subarrays (medium)
 
@@ -351,8 +344,7 @@ return notGreater(R) - notGreater(L - 1)
 
 **_Complexity analysis_**
 
--Time complexity:$O(N)$, where $N$ is the length of the array.
--Spatial complexity:$O(1)$.
+-Time complexity:$O(N)$, where $N$ is the length of the array. -Spatial complexity:$O(1)$.
 
 ## 904. Fruit basket (medium)
 
@@ -439,8 +431,7 @@ return atMostK(2, tree)
 
 **Complexity analysis**
 
--Time complexity:$O(N)$, where $N$ is the length of the array.
--Spatial complexity:$O(k)$.
+-Time complexity:$O(N)$, where $N$ is the length of the array. -Spatial complexity:$O(k)$.
 
 ## 992. Subarrays of K different integers (difficult)
 
@@ -512,8 +503,7 @@ return res
 
 **Complexity analysis**
 
--Time complexity:$O(N)$, where $N$ is the length of the array.
--Spatial complexity:$O(k)$.
+-Time complexity:$O(N)$, where $N$ is the length of the array. -Spatial complexity:$O(k)$.
 
 ## 1109. Flight booking statistics (medium)
 

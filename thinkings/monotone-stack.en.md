@@ -32,16 +32,13 @@ Since the stack only operates at the end, if we use arrays for simulation, the t
 
 ### Application
 
--Function call stack
--Browser forward and backward
--Matching brackets
--The monotonic stack is used to find the next larger (smaller) element
+-Function call stack -Browser forward and backward -Matching brackets -The monotonic stack is used to find the next larger (smaller) element
 
 ### Topic recommendation
 
 - [394. String decoding](https://leetcode-cn.com/problems/decode-string /)
 - [946. Verify stack sequence](https://leetcode-cn.com/problems/validate-stack-sequences /)
-- [1381. Design a stack that supports incremental operations] (https://leetcode-cn.com/problems/design-a-stack-with-increment-operation /)
+- [1381. Design a stack that supports incremental operations](https://leetcode-cn.com/problems/design-a-stack-with-increment-operation /)
 
 ## What is the monotonic stack?
 
@@ -90,8 +87,7 @@ If ans is used to denote the first position after arr[i] that is less than itsel
 
 Step 8, we are starting to pop again. At this time, 9 pops up, so the first index less than 9 after 9 is 6.
 
-The process of this algorithm is summed up in one sentence, **If the monotonicity can still be maintained after pressing the stack, then directly press. Otherwise, the elements of the stack will pop up first, and the monotonicity will be maintained until they are pressed in. **
-The principle of this algorithm is summed up in one sentence, **The elements that are popped up are all larger than the current element, and since the stack is monotonically increasing, the nearest one that is smaller than itself after it is the current element.**
+The process of this algorithm is summed up in one sentence, **If the monotonicity can still be maintained after pressing the stack, then directly press. Otherwise, the elements of the stack will pop up first, and the monotonicity will be maintained until they are pressed in. ** The principle of this algorithm is summed up in one sentence, **The elements that are popped up are all larger than the current element, and since the stack is monotonically increasing, the nearest one that is smaller than itself after it is the current element.**
 
 Let's recommend a few questions for everyone. While the knowledge is still in your mind, hurry up and brush it up~
 
@@ -116,8 +112,7 @@ return ans
 
 **Complexity analysis**
 
--Time complexity: Since the elements of arr will only enter the stack and exit the stack once at most, the time complexity is still $O(N)$, where N is the length of the array.
--Spatial complexity: Since the stack is used, and the maximum length of the stack is consistent with the length of arr, the spatial complexity is $O(N)$, where N is the length of the array.
+-Time complexity: Since the elements of arr will only enter the stack and exit the stack once at most, the time complexity is still $O(N)$, where N is the length of the array. -Spatial complexity: Since the stack is used, and the maximum length of the stack is consistent with the length of arr, the spatial complexity is $O(N)$, where N is the length of the array.
 
 ### Code
 
@@ -142,17 +137,17 @@ JS:
 
 ```js
 var monostoneStack = function (T) {
-	let stack = [];
-	let result = [];
-	for (let i = 0; i < T.length; i++) {
-		result[i] = 0;
-		while (stack.length > 0 && T[stack[stack.length - 1]] < T[i]) {
-			let peek = stack.pop();
-			result[peek] = i - peek;
-		}
-		stack.push(i);
-	}
-	return result;
+  let stack = [];
+  let result = [];
+  for (let i = 0; i < T.length; i++) {
+    result[i] = 0;
+    while (stack.length > 0 && T[stack[stack.length - 1]] < T[i]) {
+      let peek = stack.pop();
+      result[peek] = i - peek;
+    }
+    stack.push(i);
+  }
+  return result;
 };
 ```
 
@@ -160,9 +155,9 @@ var monostoneStack = function (T) {
 
 The following questions will help you understand the monotonic stack and let you understand when you can use the monotonic stack for algorithm optimization.
 
-- [42. Pick up the rain] (https://github.com/azl397985856/leetcode/blob/master/problems/42.trapping-rain-water.md "42. Pick up the rain")
-- [84. The largest rectangle in the histogram] (https://github.com/azl397985856/leetcode/blob/master/problems/84.largest-rectangle-in-histogram.md "84. The largest rectangle in the histogram")
-- [739.Daily temperature] (https://github.com/azl397985856/leetcode/blob/master/daily/2019-06-06.md "739. Daily temperature")
+- [42. Pick up the rain](https://github.com/azl397985856/leetcode/blob/master/problems/42.trapping-rain-water.md "42. Pick up the rain")
+- [84. The largest rectangle in the histogram](https://github.com/azl397985856/leetcode/blob/master/problems/84.largest-rectangle-in-histogram.md "84. The largest rectangle in the histogram")
+- [739.Daily temperature](https://github.com/azl397985856/leetcode/blob/master/daily/2019-06-06.md "739. Daily temperature")
 
 - 316. Remove duplicate letters
 - 402. Remove K digits

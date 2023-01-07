@@ -4,7 +4,7 @@ Graph Theory is a branch of mathematics. It takes pictures as the research objec
 
 The following is a logical diagram structure：
 
-! [Logical diagram structure] (https://tva1.sinaimg.cn/large/008i3skNly1guanati4zlj61800u075p02.jpg )
+![Logical diagram structure](https://p.ipic.vip/ygw8ii.jpg)
 
 Graphs are one of the most complex data structures. The data structures mentioned earlier can be regarded as special cases of graphs. Then why don't you just use diagrams for all of them, and divide them into so many data structures?
 
@@ -34,16 +34,15 @@ How many edges point to node A, then the degree of entry of node A is what. Simi
 
 Still take the figure above as an example. The entry and exit degrees of all nodes in this figure are 1.
 
-![](https://p.ipic.vip/zgyf24.jpg)
+![](https://p.ipic.vip/w21lsl.jpg)
 
 ### Path & Ring [Path: Path]
 
--Cyclic Graph [Cyclic Graph] The graph above is a cyclic graph, because we trigger from a certain point in the graph and we can go back to the starting point. This is the same as the ring in reality.
--Acircular Graph〔Acyclic Graph〕
+-Cyclic Graph [Cyclic Graph] The graph above is a cyclic graph, because we trigger from a certain point in the graph and we can go back to the starting point. This is the same as the ring in reality. -Acircular Graph〔Acyclic Graph〕
 
 I can transform the figure above into a loop-free diagram with a little modification. At this time, there is no loop.
 
-![](https://p.ipic.vip/r7h4zu.jpg)
+![](https://p.ipic.vip/b0gk9e.jpg)
 
 ### Connectedness Diagram & Strong Connectedness Diagram
 
@@ -73,7 +72,7 @@ Use an n\*n matrix to describe the graph graph, which is a two-dimensional matri
 
 Generally speaking, for all graphs, I use graph[i][j]=1 to indicate that there is an edge between vertex i and vertex j, and the direction of the edge is from i to J. Use graph[i][j]= 0 to indicate that there is no edge between vertex i and vertex J. For this graph, we can store other numbers, which represent weights.
 
-![](https://p.ipic.vip/0f39q4.jpg)
+![](https://p.ipic.vip/0fmltq.jpg)
 
 It can be seen that the picture above is diagonally symmetrical, so we only need to look at half of it, which causes half of the space to be wasted.
 
@@ -141,14 +140,13 @@ For each point, a linked list is stored, which is used to point to all points di
 
 For example, in an undirected graph：
 
-![graph-1](https://p.ipic.vip/41khvw.jpg)
-(Picture from https://zhuanlan.zhihu.com/p/25498681 )
+![graph-1](https://p.ipic.vip/j7nlpi.jpg) (Picture from https://zhuanlan.zhihu.com/p/25498681 )
 
 It can be seen that in an undirected graph, the adjacency matrix is symmetrical about the diagonal, and the adjacency list always has two symmetrical edges.
 
 And in a directed graph：
 
-![graph-2](https://p.ipic.vip/rfxn5j.jpg)
+![graph-2](https://p.ipic.vip/o6jq46.jpg)
 
 (Picture from https://zhuanlan.zhihu.com/p/25498681 )
 
@@ -170,7 +168,7 @@ Here, take a directed graph as an example, and a directed graph is similar. I wi
 
 The depth-first method of traversing the graph is to start from a certain vertex v in the graph and continue to visit the neighbors, and the neighbors of the neighbors until the access is complete.
 
-![](https://p.ipic.vip/odnpw3.jpg)
+![](https://p.ipic.vip/oso066.jpg)
 
 As shown in the figure above, IF we use DFS and start from node A, **A possible** access order is: **A->C-> B-> D-> F->G->E**, Of course, it may also be **A->D->C->B->F->G->E**, etc., Depending on your code, but THEY are all depth-first.
 
@@ -178,7 +176,7 @@ As shown in the figure above, IF we use DFS and start from node A, **A possible*
 
 Breadth-first search can be vividly described as "shallow and endless". It also requires a queue to maintain the order of the traversed apex so that the adjacent apex of these apex can be accessed in the order of dequeue.
 
-![](https://p.ipic.vip/r0h2f4.jpg)
+![](https://p.ipic.vip/54jwlt.jpg)
 
 As shown in the figure above, IF we use BFS and start from node A, ** A possible** access order is: ** A->B-> C-> F-> E->G-> D**, Of course, it may also be **A->B->F->E->C->G->D**, etc., Depending on your code, but they are all breadth-first.
 
@@ -191,17 +189,13 @@ The algorithm of the title of the figure is more suitable for a set of templates
 Here are several common board questions. The main ones are：
 
 - Dijkstra
-- Floyd-Warshall
-  -Minimum spanning tree (Kruskal & Prim) This subsection has been deleted at present. I feel that what I wrote is not detailed enough. After the supplement is completed, it will be opened again.
-  -A star pathfinding algorithm
-  -Two-dimensional diagram (dyeing method) [Bipartitie]
-  -Topological Sort〔 Topological Sort〕
+- Floyd-Warshall -Minimum spanning tree (Kruskal & Prim) This subsection has been deleted at present. I feel that what I wrote is not detailed enough. After the supplement is completed, it will be opened again. -A star pathfinding algorithm -Two-dimensional diagram (dyeing method) [Bipartitie] -Topological Sort〔 Topological Sort〕
 
 The templates for common algorithms are listed below.
 
 > All the templates below are based on adjacency matrix modeling.
 
-It is strongly recommended that you learn the following classic algorithm after you have finished the search for special articles. You can test a few ordinary search questions, and if you can make them, you can learn more. Recommended topic: [Maximize the value of the path in a picture] (https://leetcode-cn.com/problems/maximum-path-quality-of-a-graph / "Maximize the value of the path in a picture")
+It is strongly recommended that you learn the following classic algorithm after you have finished the search for special articles. You can test a few ordinary search questions, and if you can make them, you can learn more. Recommended topic: [Maximize the value of the path in a picture](https://leetcode-cn.com/problems/maximum-path-quality-of-a-graph / "Maximize the value of the path in a picture")
 
 ### Shortest distance, shortest path
 

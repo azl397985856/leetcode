@@ -11,7 +11,7 @@ The task to be solved by dynamic programming is usually to accomplish a specific
 
 Each stage is abstract as a state (represented by a circle), and transitions may occur between states (represented by arrows). You can draw a picture similar to the following：
 
-! [State transition diagram] (https://tva1.sinaimg.cn/large/008eGmZEly1gpoaanln73j31ak0p0dpd.jpg )
+![State transition diagram](https://p.ipic.vip/9bx82f.jpg)
 
 Then what kind of decision sequence should we make to make the result optimal? In other words, it is how each state should be selected to the next specific state and finally reach the target state. This is the problem of dynamic programming research.
 
@@ -113,7 +113,7 @@ Every dynamic programming problem can actually be abstract as a mathematical fun
 
 Solving the dynamic programming problem can be seen as filling the black box of functions so that the numbers in the defined domain are correctly mapped to the value range.
 
-![Mathematical functions vs Dynamic programming] (https://tva1.sinaimg.cn/large/008eGmZEly1gplrxy60mpj30pt0daacn.jpg )
+![Mathematical functions vs Dynamic programming](https://p.ipic.vip/ga40ge.jpg)
 
 Recursion is not an algorithm, it is a programming method corresponding to iteration. It's just that we usually use recursion to decompose problems. For example, we define a recursive function f(n) and use f(n) to describe the problem. It is the same as using ordinary dynamic programming f[n] to describe the problem. Here f is a dp array.
 
@@ -139,7 +139,7 @@ function climbStairs(n) {
 
 We use a recursive tree to intuitively feel the following (each circle represents a sub-problem)：
 
-![Overlapping sub-issues] (https://tva1.sinaimg.cn/large/007S8ZIlly1ghluhw6pf2j30mz0b2dgk.jpg )
+![Overlapping sub-issues](https://p.ipic.vip/5ipuui.jpg)
 
 Red indicates repeated calculations. That is, both Fib(N-2) and Fib(N-3) have been calculated twice, in fact, one calculation is enough. For example, if the value of Fib(N-2) is calculated for the first time, then the next time you need to calculate Fib(N-2) again, you can directly return the result of the last calculation. The reason why this can be done is precisely as mentioned earlier. Our recursive function is a function in mathematics, that is to say, if the parameter is certain, then the return value must not change. Therefore, if we encounter the same parameter next time, we can return the value calculated last time directly without having to recalculate. The time saved in this way is equivalent to the number of overlapping sub-problems.
 
@@ -163,7 +163,7 @@ climbStairs(10)
 
 Here I use a hash table named ** memo to store the return value of the recursive function, where key is the parameter and value is the return value of the recursive function. **
 
-![Hash indicates intent](https://p.ipic.vip/h4suhr.jpg)
+![Hash indicates intent](https://p.ipic.vip/gdpa5k.jpg)
 
 > The form of key is (x, y), which represents an ancestor. Usually there are multiple parameters for dynamic programming, so we can use the ancestor method to memorize them. Or it can take the form of a multidimensional array. For the figure above, a two-dimensional array can be used to represent it.
 
@@ -247,9 +247,9 @@ To be honest, I can only practice more and summarize the routines during the pra
 
 **Two examples**
 
-Regarding the definition of state, it is so important that I list it as the core of dynamic programming. Therefore, I think it is necessary to give a few examples to illustrate. I am directly from Li Buckle's [dynamic programming topic] (https://leetcode-cn.com/tag/dynamic-programming/problemset / "dynamic programming Topics") The first two questions are selected to tell you about them.
+Regarding the definition of state, it is so important that I list it as the core of dynamic programming. Therefore, I think it is necessary to give a few examples to illustrate. I am directly from Li Buckle's [dynamic programming topic](https://leetcode-cn.com/tag/dynamic-programming/problemset / "dynamic programming Topics") The first two questions are selected to tell you about them.
 
-! [Topic of dynamic programming of Force Buckle] (https://tva1.sinaimg.cn/large/008eGmZEly1gpmtitey5hj315k0lsjxk.jpg )
+![Topic of dynamic programming of Force Buckle](https://p.ipic.vip/r7b7xv.jpg)
 
 The first question: "5. The Longest Palindrome Strand" Medium difficulty
 
@@ -374,7 +374,7 @@ This question is very similar to the stair climbing above, but it has changed fr
 
 In this question, I define the state as f(i,j), which represents the total number of paths for the robot to reach the point (i,j). Then the total number of states is the Cartesian product of the values of i and j, which is m\*N.
 
-![Two-dimensional stair climbing] (https://tva1.sinaimg.cn/large/008eGmZEly1gpn6m7knnij30u00v1di1.jpg )
+![Two-dimensional stair climbing](https://p.ipic.vip/yz1l42.jpg)
 
 In general, the spatial and time complexity of dynamic programming is based on the number of states, and the number of states is usually the Cartesian product of parameters, which is determined by the non-backward nature of dynamic programming.
 

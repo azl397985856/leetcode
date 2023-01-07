@@ -34,7 +34,7 @@
 
 可以去我的公众号《力扣加加》后台回复电子书获取！
 
-<img src="https://tva1.sinaimg.cn/large/007S8ZIlly1gfcuzagjalj30p00dwabs.jpg" width="100%">
+<img src="https://p.ipic.vip/n8gbxo.jpg" width="100%">
 
 > epub 还是有动图的
 

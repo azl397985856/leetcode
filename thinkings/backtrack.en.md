@@ -1,6 +1,6 @@
 # Backtracking
 
-Backtracking is a technique in DFS. The backtracking method adopts [trial and error] (https://zh.wikipedia.org/wiki/%E8%AF%95%E9%94%99 ) The thought, it tries to solve a problem step by step. In the process of step-by-step problem solving, when it finds that the existing step-by-step answers cannot be effectively answered correctly by trying, it will cancel the previous step or even the calculation of the previous few steps, and then try again to find the answer to the question through other possible step-by-step answers.
+Backtracking is a technique in DFS. The backtracking method adopts [trial and error](https://zh.wikipedia.org/wiki/%E8%AF%95%E9%94%99) The thought, it tries to solve a problem step by step. In the process of step-by-step problem solving, when it finds that the existing step-by-step answers cannot be effectively answered correctly by trying, it will cancel the previous step or even the calculation of the previous few steps, and then try again to find the answer to the question through other possible step-by-step answers.
 
 In layman's terms, backtracking is an algorithm that turns back if you can't get there.
 
@@ -67,7 +67,7 @@ Another test point for backtracking questions is pruning. By pruning properly, t
 
 The skills of pruning in each question are different, but a simple principle is to avoid recursion that cannot be the answer at all.
 
-For example: [842. Split the array into a Fibonacci sequence] (https://leetcode-cn.com/problems/split-array-into-fibonacci-sequence /)
+For example: [842. Split the array into a Fibonacci sequence](https://leetcode-cn.com/problems/split-array-into-fibonacci-sequence /)
 
 Title description：
 
@@ -167,7 +167,7 @@ Reference title：
 
 - [140. Word Split II](https://github.com/azl397985856/leetcode/blob/master/problems/140.word-break-ii.md)
 - [401. Binary watch](../problems/401.binary-watch.md)
-- [816. Fuzzy coordinates] (https://github.com/azl397985856/leetcode/blob/master/problems/816.ambiguous-coordinates.md )
+- [816. Fuzzy coordinates](https://github.com/azl397985856/leetcode/blob/master/problems/816.ambiguous-coordinates.md)
 
 This kind of problem is different from subsets and permutations. The combination is regular. We can use the Cartesian product formula to combine two or more subsets.
 

@@ -16,7 +16,7 @@ First light up the protagonist of this article-tree (my makeup technique is okay
 
 ![](https://p.ipic.vip/5lkkd6.jpg)
 
-[Tree Tag] (https://leetcode-cn.com/tag/tree /"Tree tag") There are a total of 175 questions in leetcode. In order to prepare for this topic, I spent a few days brushing almost all the tree topics of leetcode.
+[Tree Tag](https://leetcode-cn.com/tag/tree /"Tree tag") There are a total of 175 questions in leetcode. In order to prepare for this topic, I spent a few days brushing almost all the tree topics of leetcode.
 
 ![](https://p.ipic.vip/bdo0jv.jpg)
 
@@ -24,7 +24,7 @@ Except for 35 locked ones, 1 question that cannot be done (1628 questions, I don
 
 ## Edible Guide
 
-Hello everyone, this is lucifer. What I bring to you today is the topic "Tree". In addition, in order to keep the focus and practicality of the chapters, some content is omitted, such as Huffman trees, prefix trees, balanced binary trees (red and black trees, etc.), and binary piles. These contents are relatively not that practical. If you are also interested in these contents, you can pay attention to my warehouse [leetcode algorithm problem solving] (https://github.com/azl397985856/leetcode "leetcode algorithm problem solving"), if you have any content you want to see, you can also leave a message to tell me~
+Hello everyone, this is lucifer. What I bring to you today is the topic "Tree". In addition, in order to keep the focus and practicality of the chapters, some content is omitted, such as Huffman trees, prefix trees, balanced binary trees (red and black trees, etc.), and binary piles. These contents are relatively not that practical. If you are also interested in these contents, you can pay attention to my warehouse [leetcode algorithm problem solving](https://github.com/azl397985856/leetcode "leetcode algorithm problem solving"), if you have any content you want to see, you can also leave a message to tell me~
 
 In addition, it is important to inform everyone in advance that many of the contents of this article depend on recursion. Regarding the recursion exercise, I recommend that you draw the recursion process on paper and manually substitute it several times. After the brain is familiar with recursion, it doesn't have to work so hard. Students who are really too lazy to draw pictures can also find a visual recursion website, such as https://recursion.now.sh /. After you have a certain understanding of recursion, take a closer look at the various traversal methods of the tree, then finish reading this article, and finally do the topic at the end of the article. It's not a big problem to fix recursion.
 
@@ -72,7 +72,7 @@ Taking the calculation of 5's fibbonacci as an example, the process is probably 
 
 **This is actually the subsequent traversal of a tree. **, do you think the tree (logical tree) is very important? We will talk about the post-sequence traversal later, now everyone knows that this is the case.
 
-You can also go to [this website] (https://recursion.now.sh / "Recursive Visualization Website") View the single-step execution effect of the above algorithm. Of course, there are more animated demonstrations of algorithms on this website.
+You can also go to [this website](https://recursion.now.sh / "Recursive Visualization Website") View the single-step execution effect of the above algorithm. Of course, there are more animated demonstrations of algorithms on this website.
 
 > The arrow directions in the figure above are for your convenience. In fact, the direction of the arrow becomes downward, which is the real tree structure.
 
@@ -205,7 +205,7 @@ Some students may say that every node here will enter and exit the stack twice, 
 
 > Morris traversal is an algorithm that can complete the traversal of a tree with a constant spatial complexity.
 
-I think that in most cases, people don't need to pay too much attention to such small differences. In addition, if this traversal method is fully mastered, it is not difficult to write an iteration into the stack based on the idea of recursion. It's nothing more than entering the stack when the function is called, and exiting the stack when the function returns. For more information about binary tree traversal, you can also visit the topic I wrote earlier ["Binary tree Traversal"] (https://github.com/azl397985856/leetcode/blob/master/thinkings/binary-tree-traversal.md "Traversal of binary trees").
+I think that in most cases, people don't need to pay too much attention to such small differences. In addition, if this traversal method is fully mastered, it is not difficult to write an iteration into the stack based on the idea of recursion. It's nothing more than entering the stack when the function is called, and exiting the stack when the function returns. For more information about binary tree traversal, you can also visit the topic I wrote earlier ["Binary tree Traversal"](https://github.com/azl397985856/leetcode/blob/master/thinkings/binary-tree-traversal.md "Traversal of binary trees").
 
 ### Summary
 
@@ -278,7 +278,7 @@ dfs(j)
 }
 ```
 
-The visited above is to prevent endless loops caused by the presence of rings. And we know that trees do not have rings, so most of the topics of the tree do not need to be visited, unless you modify the structure of the tree, for example, the left pointer of the left subtree points to itself, and there will be a ring at this time. Another example is [138. Copy the linked list with random pointers] (https://leetcode-cn.com/problems/copy-list-with-random-pointer /) This question needs to record the nodes that have been copied. There are very few questions for trees that need to record visited information.
+The visited above is to prevent endless loops caused by the presence of rings. And we know that trees do not have rings, so most of the topics of the tree do not need to be visited, unless you modify the structure of the tree, for example, the left pointer of the left subtree points to itself, and there will be a ring at this time. Another example is [138. Copy the linked list with random pointers](https://leetcode-cn.com/problems/copy-list-with-random-pointer /) This question needs to record the nodes that have been copied. There are very few questions for trees that need to record visited information.
 
 Therefore, the DFS of a tree is more：
 

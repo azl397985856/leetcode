@@ -11,8 +11,8 @@ There are 73 questions on greedy strategies on LeetCode. We will divide it into 
 We have selected three questions to explain. In addition to using the greedy method, you can also try dynamic planning to solve these three questions.
 
 - [45. Jumping Game II](https://leetcode-cn.com/problems/jump-game-ii /), difficult
-- [1024. Video stitching] (https://leetcode-cn.com/problems/video-stitching /), medium
-- [1326. Minimum number of taps for irrigating the garden] (https://leetcode-cn.com/problems/minimum-number-of-taps-to-open-to-water-a-garden /), difficult
+- [1024. Video stitching](https://leetcode-cn.com/problems/video-stitching /), medium
+- [1326. Minimum number of taps for irrigating the garden](https://leetcode-cn.com/problems/minimum-number-of-taps-to-open-to-water-a-garden /), difficult
 
 A major feature of the coverage problem, we can abstract it as `a large interval I on a given number axis and n small cells i[0], i[1],. . . , i[n-1], ask how many cells to choose at least, so that the union of these cells can cover the entire large area. `
 
@@ -187,7 +187,7 @@ There is a one-dimensional garden on the x-axis. The length of the garden is n, 
 
 There are a total of n +1 taps in the garden, which are located at [0, 1,. . . , n].
 
-Give you an integer n and an array of integer ranges of length n +1, where ranges[i] (the index starts from 0) means: if you turn on the faucet at point i, the area that can be irrigated is [i-ranges[i], i + ranges[i]].
+Give you an integer n and an array of integer ranges of length n +1, where ranges[i](the index starts from 0) means: if you turn on the faucet at point i, the area that can be irrigated is [i-ranges[i], i + ranges[i]].
 
 Please return the minimum number of taps that can irrigate the entire garden. If there is always a place in the garden that cannot be irrigated, please return to -1.
 
@@ -240,9 +240,7 @@ I won't explain much here. Let's take a look at the specific algorithms, and let
 
 algorithm：
 
--Use further[i] to record the rightmost land that can be covered by each tap I. There are a total of n +1 taps, and we traverse n + 1 times.
--Calculate and update the left and right boundaries of the faucet every time [i-ranges[i], i+ ranges[i]] The furthest of the faucet within the range of [i-ranges[i], i+ ranges[i]]
--Finally, start from land 0 and traverse all the way to land n, recording the number of taps, similar to a jumping game.
+-Use further[i] to record the rightmost land that can be covered by each tap I. There are a total of n +1 taps, and we traverse n + 1 times. -Calculate and update the left and right boundaries of the faucet every time [i-ranges[i], i+ ranges[i]] The furthest of the faucet within the range of [i-ranges[i], i+ ranges[i]] -Finally, start from land 0 and traverse all the way to land n, recording the number of taps, similar to a jumping game.
 
 Is it almost exactly the same as the question above?
 
