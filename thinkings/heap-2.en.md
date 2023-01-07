@@ -4,11 +4,11 @@
 
 Last time I did a small survey for everyone on my public account, "Vote for the programming language you want to solve~". The following are the results of the survey：
 
-![Voting results](https://p.ipic.vip/0ambnc.jpg)
+![Voting results](https://p.ipic.vip/j4yrg2.jpg)
 
 Regarding others, most of them are in the Go language.
 
-![What did the other people who voted for write?](https://p.ipic.vip/deg4hc.jpg)
+![What did the other people who voted for write?](https://p.ipic.vip/fe8utj.jpg)
 
 Since the proportion of Java and Python has exceeded 60%, this time I will try to write in both Java and Python. Thank you @ CaptainZ for providing the Java code. At the same time, in order to prevent the article from being stinky and long, I put all the code (Java and Python) of this article in Java on the official website of Likujiajia\*\*, website address:https://leetcode-solution.cn/solution-code
 
@@ -16,7 +16,7 @@ Since the proportion of Java and Python has exceeded 60%, this time I will try t
 
 ## Body
 
-![](https://p.ipic.vip/j81nlc.jpg)
+![](https://p.ipic.vip/4r5oeh.jpg)
 
 Hello everyone, this is lucifer. What I bring to you today is the topic of "Heap". Let's start with the outline of this article. This is a brain map drawn by me with mindmap. After that, I will continue to improve it and gradually improve other topics.
 
@@ -58,7 +58,7 @@ heapq. heappop() #Pop up(4,5,6)
 
 Using a diagram to represent the heap structure is as follows：
 
-! [Use a small top heap of tuples] (https://tva1.sinaimg.cn/large/0081Kckwly1gmbn0faqqaj30jy0lkq4n.jpg )
+![Use a small top heap of tuples](https://p.ipic.vip/wioiow.jpg)
 
 Briefly explain the execution result of the above code.
 
@@ -98,7 +98,7 @@ heapq. heappush(h, -a)
 
 It is shown in the figure as follows：
 
-! [Small top pile simulates big top pile] (https://tva1.sinaimg.cn/large/0081Kckwly1gmbn35fzhyj30k20mk75z.jpg )
+![Small top pile simulates big top pile](https://p.ipic.vip/226haf.jpg)
 
 That's it for laying the groundwork, and then we will get to the point.
 
@@ -112,9 +112,9 @@ A typical application of a fixed heap is to find the k-th smallest number. In fa
 
 However, we don't need to put them all into the heap first, but build a large top heap (note that it is not the small top heap above), and maintain the size of the heap at k. If the size of the heap is greater than k after the new number is added to the heap, you need to compare the number at the top of the heap with the new number, and remove the larger number. This guarantees that the number in the heap is the smallest k of all numbers, and the largest of the smallest k (that is, the top of the heap) is not the kth smallest? This is the reason for choosing to build a large top stack instead of a small top stack.
 
-! [Fix the 5th smallest number on the big top stack] (https://tva1.sinaimg.cn/large/0081Kckwly1gmbgz93840j30zk0u0jv7.jpg )
+![Fix the 5th smallest number on the big top stack](https://p.ipic.vip/okcn10.jpg)
 
-The summary in a simple sentence is that \*\* Fixing a large top heap of size k can quickly find the k-th smallest number, on the contrary, fixing a small top heap of size k can quickly find the k-th largest number. For example, the third question of the weekly competition on 2020-02-24 [5663. Find the kth largest XOR coordinate value] (https://leetcode-cn.com/problems/find-kth-largest-xor-coordinate-value /"5663. Find out the kth largest XOR coordinate value") You can use the fixed small top heap technique to achieve it (this question allows you to find the kth largest number).
+The summary in a simple sentence is that \*\* Fixing a large top heap of size k can quickly find the k-th smallest number, on the contrary, fixing a small top heap of size k can quickly find the k-th largest number. For example, the third question of the weekly competition on 2020-02-24 [5663. Find the kth largest XOR coordinate value](https://leetcode-cn.com/problems/find-kth-largest-xor-coordinate-value /"5663. Find out the kth largest XOR coordinate value") You can use the fixed small top heap technique to achieve it (this question allows you to find the kth largest number).
 
 So maybe your feelings are not strong. Next, I will give you two examples to help you deepen your impression.
 
@@ -152,20 +152,17 @@ If 99% of the integers in the data stream are in the range of 0 to 100, how woul
 
 This question can actually be seen as a special case of finding the k-th smallest number.
 
--If the length of the list is odd, then k is (n + 1) / 2, and the median is the kth number. For example, n is 5 and k is (5 + 1)/ 2 = 3。
--If the length of the list is even, then k is (n +1) / 2 and (n +1) / 2 + 1, and the median is the average of these two numbers. For example, n is 6, and k is (6 +1)/2 = 3 and (6 + 1) / 2 + 1 = 4。
+-If the length of the list is odd, then k is (n + 1) / 2, and the median is the kth number. For example, n is 5 and k is (5 + 1)/ 2 = 3。 -If the length of the list is even, then k is (n +1) / 2 and (n +1) / 2 + 1, and the median is the average of these two numbers. For example, n is 6, and k is (6 +1)/2 = 3 and (6 + 1) / 2 + 1 = 4。
 
 Thus we can maintain two fixed heap, fixed stack size is $(n + 1) \div 2$ and $n - (n + 1)\div2$, that is, both the size of the heap**up**a difference of 1, and more specifically that $ 0 <= (n + 1) \div 2 - (n - (n + 1) \div 2) <= 1$。
 
 Based on the knowledge mentioned above, we can：
 
--Build a large top heap and store the smallest number of $(n +1) \div 2$, so that the number at the top of the heap is the smallest number of $(n +1) \div 2$, which is the median in odd cases.
--Build a small top heap and store the largest number of n- $(n +1) \div 2$, so that the number at the top of the heap is the largest number of n- $(n +1) \div 2$, combined with the large top heap above, the median of even cases can be obtained.
+-Build a large top heap and store the smallest number of $(n +1) \div 2$, so that the number at the top of the heap is the smallest number of $(n +1) \div 2$, which is the median in odd cases. -Build a small top heap and store the largest number of n- $(n +1) \div 2$, so that the number at the top of the heap is the largest number of n- $(n +1) \div 2$, combined with the large top heap above, the median of even cases can be obtained.
 
 With such knowledge, all that remains is how to maintain the size of the two heaps.
 
--If the number of large top piles is smaller than that of small top piles, then transfer the smallest of the small top piles to the large top piles. And since the small top stack maintains the largest number of k, and the large top stack maintains the smallest number of k, the top of the small top stack must be greater than or equal to the top of the large top stack, and the two top stacks are the median of **\***.
--If the number of large top piles is 2 more than the number of small top piles, then the largest of the large top piles will be transferred to the small top piles. The reason is the same as above.
+-If the number of large top piles is smaller than that of small top piles, then transfer the smallest of the small top piles to the large top piles. And since the small top stack maintains the largest number of k, and the large top stack maintains the smallest number of k, the top of the small top stack must be greater than or equal to the top of the large top stack, and the two top stacks are the median of **\***. -If the number of large top piles is 2 more than the number of small top piles, then the largest of the large top piles will be transferred to the small top piles. The reason is the same as above.
 
 At this point, you may have understood why two heaps are built separately, and you need a large top heaps and a small top heaps. The reason for this is as described above.
 
@@ -301,8 +298,7 @@ This technique was actually mentioned earlier when talking about super ugly numb
 
 In fact, this technique may be more appropriate to be called multi-pointer optimization, but the name is too simple and easy to confuse with double pointers, so I gave ta a chic name-Multi-channel merge.
 
--Multiple routes are reflected in: there are multiple candidate routes. In the code, we can use multiple pointers to represent it.
--The merger is reflected in: the result may be the longest or shortest of multiple candidate routes, or it may be the kth, etc. Therefore, we need to compare the results of multiple routes, and discard or select one or more routes according to the topic description.
+-Multiple routes are reflected in: there are multiple candidate routes. In the code, we can use multiple pointers to represent it. -The merger is reflected in: the result may be the longest or shortest of multiple candidate routes, or it may be the kth, etc. Therefore, we need to compare the results of multiple routes, and discard or select one or more routes according to the topic description.
 
 This description is more abstract. Next, let's deepen everyone's understanding through a few examples.
 
@@ -356,16 +352,13 @@ mat[i] is a non-decreasing array
 
 In fact, this question is to give you m one-dimensional arrays of the same length. Let us select a number from these m arrays, that is, select a total of m numbers, and find that the sum of these m numbers is The kth smallest among all selection possibilities.
 
-![](https://p.ipic.vip/pypsm9.jpg)
+![](https://p.ipic.vip/xi03t7.jpg)
 
 A simple idea is to use multiple pointers to solve. For this question, it is to use m pointers to point to m one-dimensional arrays. The position of the pointers indicates that the first few in the one-dimensional array are currently selected.
 
 Take the'mat in the title = [[1,3,11],[2,4,6]], Take k = 5` as an example.
 
--First initialize two pointers p1 and p2, which point to the beginning of two one-dimensional arrays. The code indicates that they are all initialized to 0.
--At this time, the sum of the numbers pointed to by the two pointers is 1 + 2 = 3, which is the first smallest sum.
--Next, we move one of the pointers. At this time, we can move p1 or p2.
--Then the second smallest value must be the smaller value of the two cases of moving p1 and moving p2. And here moving p1 and p2 will actually get 5, which means that the sum of the second and third small ones is 5.
+-First initialize two pointers p1 and p2, which point to the beginning of two one-dimensional arrays. The code indicates that they are all initialized to 0. -At this time, the sum of the numbers pointed to by the two pointers is 1 + 2 = 3, which is the first smallest sum. -Next, we move one of the pointers. At this time, we can move p1 or p2. -Then the second smallest value must be the smaller value of the two cases of moving p1 and moving p2. And here moving p1 and p2 will actually get 5, which means that the sum of the second and third small ones is 5.
 
 It has been forked here, and two situations have occurred (pay attention to the bold position, the bold indicates the position of the pointer)：
 

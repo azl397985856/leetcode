@@ -4,9 +4,9 @@ There is a special study on the greatest common divisor. Although in LeetCode, t
 
 For example：
 
-- [914. Card grouping] (https://leetcode-cn.com/problems/x-of-a-kind-in-a-deck-of-cards/solution/python3-zui-da-gong-yue-shu-914-qia-pai-fen-zu-by -/ "914. Card grouping")
+- [914. Card grouping](https://leetcode-cn.com/problems/x-of-a-kind-in-a-deck-of-cards/solution/python3-zui-da-gong-yue-shu-914-qia-pai-fen-zu-by -/ "914. Card grouping")
 - [365. Kettle problem) (https://leetcode-cn.com/problems/water-and-jug-problem/solution/bfszui-da-gong-yue-shu-by-fe-lucifer /"365. Kettle problem")
-- [1071. The greatest common factor of a string] (https://leetcode-cn.com/problems/greatest-common-divisor-of-strings/solution/1071-zi-fu-chuan-de-zui-da-gong-yin-zi-zui-da-gong / "1071. The greatest common factor of the string")
+- [1071. The greatest common factor of a string](https://leetcode-cn.com/problems/greatest-common-divisor-of-strings/solution/1071-zi-fu-chuan-de-zui-da-gong-yin-zi-zui-da-gong / "1071. The greatest common factor of the string")
 
 Therefore, how to solve the greatest common divisor is important.
 
@@ -25,8 +25,7 @@ smaller -= 1
 
 **Complexity analysis**
 
--Time complexity: The best case scenario is to execute a loop body, and the worst case scenario is to loop to a smaller of 1, so the total time complexity is $O(N)$, where N is the smaller number in a and B.
--Spatial complexity:$O(1)$.
+-Time complexity: The best case scenario is to execute a loop body, and the worst case scenario is to loop to a smaller of 1, so the total time complexity is $O(N)$, where N is the smaller number in a and B. -Spatial complexity:$O(1)$.
 
 ### Tossing and dividing
 
@@ -39,8 +38,7 @@ return a if b == 0 else GCD(b, a % b)
 
 **Complexity analysis**
 
--Time complexity:$O(log(max(a,b)))$
--Spatial complexity: Spatial complexity depends on the depth of recursion, so the spatial complexity is $O(log(max(a, b)))$
+-Time complexity:$O(log(max(a,b)))$ -Spatial complexity: Spatial complexity depends on the depth of recursion, so the spatial complexity is $O(log(max(a, b)))$
 
 ### More phase derogation technique
 
@@ -99,7 +97,7 @@ Note: We agree that the first of the ordered sequence will always be 1.
 
 ### Idea
 
-You can go through [this website] (https://binarysearch.com/problems/Divisible-Numbers "binary search") Online verification.
+You can go through [this website](https://binarysearch.com/problems/Divisible-Numbers "binary search") Online verification.
 
 A simple idea is to use a heap to do it. The only thing to pay attention to is the deletions. We can use a hash table to record the numbers that have appeared in order to achieve the purpose of deletions.
 
@@ -138,9 +136,7 @@ In order to solve this problem, we can use the knowledge of set theory.
 
 Gather a little bit of knowledge：
 
--If the set of values in the ordered sequence that are less than or equal to x can be divisible by x and are multiples of A is SA, the size of the set is A
--If the set of values in the ordered sequence that are less than or equal to x can be divisible by x and are multiples of B is SB, the size of the set is B
--If the set of values in an ordered sequence that are less than or equal to x that can be divisible by x and are multiples of C is SC, the size of the set is C
+-If the set of values in the ordered sequence that are less than or equal to x can be divisible by x and are multiples of A is SA, the size of the set is A -If the set of values in the ordered sequence that are less than or equal to x can be divisible by x and are multiples of B is SB, the size of the set is B -If the set of values in an ordered sequence that are less than or equal to x that can be divisible by x and are multiples of C is SC, the size of the set is C
 
 Then the final answer is the number of numbers in the large set (which needs to be duplicated) composed of SA, SB, and SC, that is,：
 
@@ -160,7 +156,7 @@ return x * y // gcd(x, y)
 
 ```
 
-The next step is the two-part routine. If you can't understand the two-part part, please take a look at my [two-part topic] (https://github.com/azl397985856/leetcode/blob/master/91/binary-search.md "Two-part special").
+The next step is the two-part routine. If you can't understand the two-part part, please take a look at my [two-part topic](https://github.com/azl397985856/leetcode/blob/master/91/binary-search.md "Two-part special").
 
 ### Code (Python3)
 
@@ -191,11 +187,10 @@ return l
 
 **Complexity analysis**
 
--Time complexity:$logn$.
--Spatial complexity: The depth of the recursive tree of gcd and lcm is basically negligible.
+-Time complexity:$logn$. -Spatial complexity: The depth of the recursive tree of gcd and lcm is basically negligible.
 
 ## Summary
 
-Through this article, we not only understand the concept of the greatest common divisor and the method of finding it. It also visually perceives the **principle** of the calculation of the greatest common divisor. The greatest common divisor and the least common multiple are two similar concepts. There are not many questions about the greatest common divisor and the least common multiple in Li Buckle. You can find these questions through the Mathematics tab. For more information about mathematics knowledge in algorithms, you can refer to this article [Summary of mathematics test points necessary for brushing algorithm questions] (https://mp.weixin.qq.com/s?__biz=MzI4MzUxNjI3OA==&mid=2247485590&idx=1&sn=e3f13aa02fed4d4132146e193eb17cdb&chksm=eb88c48fdcff4d99b44d537459396589b8987f89a8c21085a945ca8d5e2b0b140c13aef81d91&token=1223087516&lang=zh_CN#rd "Summary of math test points necessary for brushing algorithm questions")
+Through this article, we not only understand the concept of the greatest common divisor and the method of finding it. It also visually perceives the **principle** of the calculation of the greatest common divisor. The greatest common divisor and the least common multiple are two similar concepts. There are not many questions about the greatest common divisor and the least common multiple in Li Buckle. You can find these questions through the Mathematics tab. For more information about mathematics knowledge in algorithms, you can refer to this article [Summary of mathematics test points necessary for brushing algorithm questions](https://mp.weixin.qq.com/s?__biz=MzI4MzUxNjI3OA==&mid=2247485590&idx=1&sn=e3f13aa02fed4d4132146e193eb17cdb&chksm=eb88c48fdcff4d99b44d537459396589b8987f89a8c21085a945ca8d5e2b0b140c13aef81d91&token=1223087516&lang=zh_CN#rd "Summary of math test points necessary for brushing algorithm questions")
 
 > The second part of this article will also be released soon.

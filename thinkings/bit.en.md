@@ -183,10 +183,10 @@ return [a, b]
 
 ## Related topics
 
-- [190. Reverse binary bits] (https://leetcode-cn.com/problems/reverse-bits /) (simple)
+- [190. Reverse binary bits](https://leetcode-cn.com/problems/reverse-bits /) (simple)
 - [191. The number of digits 1](https://leetcode-cn.com/problems/number-of-1-bits /) (simple)
 - [338. Bit count](https://leetcode-cn.com/problems/counting-bits /) (medium)
-- [1072. Flip by column to get the maximum value and other rows] (https://leetcode-cn.com/problems/flip-columns-for-maximum-number-of-equal-rows /) (medium)
+- [1072. Flip by column to get the maximum value and other rows](https://leetcode-cn.com/problems/flip-columns-for-maximum-number-of-equal-rows /) (medium)
 
 For more questions, please visit my LeetCode questions warehouse:https://github.com/azl397985856/leetcode . There are already 38K stars.
 

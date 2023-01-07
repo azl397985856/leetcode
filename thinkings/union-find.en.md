@@ -303,10 +303,10 @@ There are many topics about parallel collection. The official data is 30 questio
 I have summarized a few questions here and checked the topics：
 
 - [547. Circle of friends](../problems/547.friend-circles.md)
-- [721. Account consolidation] (https://leetcode-cn.com/problems/accounts-merge/solution/mo-ban-ti-bing-cha-ji-python3-by-fe-lucifer-3 /)
-- [990. Satisfiability of equation equation] (https://github.com/azl397985856/leetcode/issues/304 )
+- [721. Account consolidation](https://leetcode-cn.com/problems/accounts-merge/solution/mo-ban-ti-bing-cha-ji-python3-by-fe-lucifer-3 /)
+- [990. Satisfiability of equation equation](https://github.com/azl397985856/leetcode/issues/304)
 - [1202. Exchange elements in a string](https://leetcode-cn.com/problems/smallest-string-with-swaps /)
-- [1697. Check whether the path with the edge length limit exists] (https://leetcode-cn.com/problems/checking-existence-of-edge-length-limited-paths /)
+- [1697. Check whether the path with the edge length limit exists](https://leetcode-cn.com/problems/checking-existence-of-edge-length-limited-paths /)
 
 The first four questions of the above questions are all about the connectivity of the weighted graph, and the fifth question is about the connectivity of the weighted graph. Everyone must know both types. The keywords of the above topics are **Connectivity**, and the codes are all sets of templates. After reading the content here, it is recommended to practice with the above topics and test the learning results.
 

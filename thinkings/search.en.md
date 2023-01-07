@@ -61,7 +61,7 @@ Based on this, you can draw the following decision tree.
 
 Animated demonstration of the decision-making process：
 
-! [Search-decision tree. svg](https://pic. stackoverflow. wiki/uploadImages/115/238/39/106/2021/05/27/18/33/b97ee92b-a516-48e1-83d9-b29c1eaf2eff. svg)
+![Search-decision tree. svg](https://pic. stackoverflow. wiki/uploadImages/115/238/39/106/2021/05/27/18/33/b97ee92b-a516-48e1-83d9-b29c1eaf2eff. svg)
 
 **Some search algorithms are based on this simple idea, and the essence is to simulate this decision tree. There are actually many interesting details in it, which we will explain in more detail later. And now everyone only needs to have a little idea of what the solution space is and how to traverse the solution space. ** I will continue to deepen this concept later.
 
@@ -128,7 +128,7 @@ For example, the depth of the calculation tree to be discussed below. Since the 
 
 For example, we will talk about calculating the number of child nodes of the tree below. Since the recursive formula for the child nodes of the tree is: $f(x)= sum_{i=0}^{n}{f(a_i)}$ where x is a node in the tree, and$a_i$ is the child node of the node in the tree. The base case does not have any child nodes (that is, leaf nodes), at this time $f(x) = 1$. Therefore, we can use the back-order traversal to complete the statistics of the number of child nodes from the bottom up.
 
-Regarding the traversal method used for the analysis of recursive relationships, I described this in detail in the sub-topic "Simulation, Enumeration and Recursion" in the basic article of "91 Days Learning Algorithm". 91 Students can view it directly. Regarding the various traversal methods of trees, I am in [Tree topic] (https://leetcode-solution.cn/solutionDetail?url=https%3A%2F%2Fapi.github.com%2Frepos%2Fazl397985856%2Fleetcode%2Fcontents%2Fthinkings%2Ftree.md&type=1 ) is introduced in detail.
+Regarding the traversal method used for the analysis of recursive relationships, I described this in detail in the sub-topic "Simulation, Enumeration and Recursion" in the basic article of "91 Days Learning Algorithm". 91 Students can view it directly. Regarding the various traversal methods of trees, I am in [Tree topic](https://leetcode-solution.cn/solutionDetail?url=https%3A%2F%2Fapi.github.com%2Frepos%2Fazl397985856%2Fleetcode%2Fcontents%2Fthinkings%2Ftree.md&type=1) is introduced in detail.
 
 ##### Iterative deepening
 
@@ -215,7 +215,7 @@ Back to the topic. We can use a binary bit to represent a subset of the original
 
 > Here 40% off is 20.
 
-> If you are not familiar with state compression, you can take a look at my article [What is state compression DP? This question will get you started] (https://mp.weixin.qq.com/s?__biz=MzI4MzUxNjI3OA==&mid=2247486874&idx=1&sn=0f27ddd51ad5b92ef0ddcc4fb19a3f5e&chksm=eb88c183dcff4895209c4dc4d005e3bb143cc852805594b407dbf3f4718c60261f09c2849f70&token=1227596150&lang=zh_CN#rd )
+> If you are not familiar with state compression, you can take a look at my article [What is state compression DP? This question will get you started](https://mp.weixin.qq.com/s?__biz=MzI4MzUxNjI3OA==&mid=2247486874&idx=1&sn=0f27ddd51ad5b92ef0ddcc4fb19a3f5e&chksm=eb88c183dcff4895209c4dc4d005e3bb143cc852805594b407dbf3f4718c60261f09c2849f70&token=1227596150&lang=zh_CN#rd)
 
 Next, we use dynamic programming to find the sum of all subsets.
 
@@ -322,9 +322,9 @@ Let n be the length of the array and m be $\frac{n}{2}$.
 
 Related topics recommended：
 
-- [16. The sum of the three closest numbers] (https://leetcode-cn.com/problems/3sum-closest /)
-- [1049. The weight of the last stone II] (https://leetcode-cn.com/problems/last-stone-weight-ii /)
-- [1774. The cost of dessert closest to the target price] (https://leetcode-cn.com/problems/closest-dessert-cost /)
+- [16. The sum of the three closest numbers](https://leetcode-cn.com/problems/3sum-closest /)
+- [1049. The weight of the last stone II](https://leetcode-cn.com/problems/last-stone-weight-ii /)
+- [1774. The cost of dessert closest to the target price](https://leetcode-cn.com/problems/closest-dessert-cost /)
 
 What does this question have to do with two-way search?
 

@@ -2,7 +2,7 @@
 
 ## Foreword
 
-![](https://p.ipic.vip/6zfu8a.jpg)
+![](https://p.ipic.vip/6roqnw.jpg)
 
 Hello everyone, this is lucifer. What I bring to you today is the topic of "Two Points". Let's start with the outline of this article. This is a brain map drawn by me with mindmap. After that, I will continue to improve it and gradually improve other topics.
 
@@ -10,9 +10,7 @@ Hello everyone, this is lucifer. What I bring to you today is the topic of "Two 
 
 This series contains the following topics：
 
--[I have almost finished swiping all the linked topics of Lixu, and I found these things. 。 。 ](https://lucifer. ren/blog/2020/11/08/linked-list/) -[After almost brushing all the tree questions of Li Buckle, I found these things. 。 。 ](https://lucifer. ren/blog/2020/11/23/tree/)
--[After almost brushing all the piles of questions, I found these things. 。 。 (Part 1))(https://lucifer . ren/blog/2020/12/26/heap/)
--[After almost brushing all the piles of questions, I found these things. 。 。 (Part 2))(https://lucifer . ren/blog/2021/01/19/heap-2/)
+-[I have almost finished swiping all the linked topics of Lixu, and I found these things. 。 。 ](https://lucifer. ren/blog/2020/11/08/linked-list/) -[After almost brushing all the tree questions of Li Buckle, I found these things. 。 。 ](https://lucifer. ren/blog/2020/11/23/tree/) -[After almost brushing all the piles of questions, I found these things. 。 。 (Part 1))(https://lucifer . ren/blog/2020/12/26/heap/) -[After almost brushing all the piles of questions, I found these things. 。 。 (Part 2))(https://lucifer . ren/blog/2021/01/19/heap-2/)
 
 <! -- more -->
 
@@ -20,7 +18,7 @@ This topic is expected to be divided into two parts. The first part mainly talks
 
 The content of this article has been synchronized to the RoadMap of my question-brushing plug-in. Combined with the question-brushing plug-in, it tastes better to eat~ The way to obtain the plug-in can be viewed by replying to the plug-in on my public account.
 
-![Swipe question plug-in] (https://tva1.sinaimg.cn/large/008eGmZEly1godsvaj344j30rw0qo433.jpg )
+![Swipe question plug-in](https://p.ipic.vip/d62pjf.jpg)
 
 > If you find the article useful, please like and leave a message to forward it, so that I can continue to do it.
 
@@ -30,13 +28,13 @@ In order to prepare for this topic, I not only finished all the binary questions
 
 Binary search is also known as the `half-fold search algorithm`. In a narrow sense, binary search is a search algorithm for finding a specific element in an ordered array. This is also a saying that most people know. In fact, the broad binary search is to reduce the scale of the problem to half of the original one. Similarly, the three-point method is to reduce the scale of the problem to 1/3 of the original.
 
-The content that this article brings to you is `binary search in a narrow sense". If you want to understand other binary search in a broad sense, you can check out a blog post I wrote earlier [looking at the binary method from the problem of mouse drug testing] (https://lucifer . ren/blog/2019/12/11/ laoshushidu/ "The binary method from the perspective of drug testing in mice")
+The content that this article brings to you is `binary search in a narrow sense". If you want to understand other binary search in a broad sense, you can check out a blog post I wrote earlier [looking at the binary method from the problem of mouse drug testing](https://lucifer . ren/blog/2019/12/11/ laoshushidu/ "The binary method from the perspective of drug testing in mice")
 
 > Although the basic idea of binary search is relatively simple, the details can be overwhelming. . . —Gartner
 
 When Jon Bentley assigned binary search questions to students in professional programming classes, 90% of the students were still unable to give correct answers after spending several hours, mainly because these erroneous programs could not run when facing boundary values, or returned incorrect results. A study conducted in 1988 showed that only 5 out of 20 textbooks correctly implemented binary search. Not only that, Bentley's own binary search algorithm in the book "Programming Zhuji" published in 1986 has the problem of integer overflow, which has not been discovered for more than 20 years. The same overflow problem in the binary search algorithm implemented by the Java language library has existed for more than nine years before it was fixed.
 
-It can be seen that binary search is not simple. This article will try to take you closer to ta, understand the underlying logic of ta, and provide templates to help you write bug-free binary search codes. After reading the lecture notes, it is recommended that you combine [LeetCode Book two-way search] (https://leetcode-cn.com/leetbook/read/binary-search "LeetCode Book Binary Search") Practice it.
+It can be seen that binary search is not simple. This article will try to take you closer to ta, understand the underlying logic of ta, and provide templates to help you write bug-free binary search codes. After reading the lecture notes, it is recommended that you combine [LeetCode Book two-way search](https://leetcode-cn.com/leetbook/read/binary-search "LeetCode Book Binary Search") Practice it.
 
 ## Basic Concept
 
@@ -54,7 +52,7 @@ Obviously, the solution space is the interval [-1, n-1], where n is the length o
 
 It should be noted that the solution space of the above topic can only be an integer between the intervals [-1, n-1]. And decimals such as 1.2 cannot exist. This is actually the case for most people. However, there are also a small number of problems whose solution space includes decimals. If the solution space includes decimals, it may involve accuracy issues, which everyone needs to pay attention to.
 
-For example, if you ask for the square root of a number x, the answer error is considered correct to the power of $10^-6$. It is easy to know here that the size of the solution space can be defined as [1,x] (of course, it can be defined more precisely, we will discuss this issue later), where the solution space should include all real numbers in the interval, not just integers. At this time, the problem-solving ideas and code have not changed much, the only thing that needs to be changed is：
+For example, if you ask for the square root of a number x, the answer error is considered correct to the power of $10^-6$. It is easy to know here that the size of the solution space can be defined as [1,x](of course, it can be defined more precisely, we will discuss this issue later), where the solution space should include all real numbers in the interval, not just integers. At this time, the problem-solving ideas and code have not changed much, the only thing that needs to be changed is：
 
 1. Update the step size of the answer. For example, the previous update was `l=mid+1`, but now **may**will not work, so this **may**will miss the correct solution, for example, the correct solution happens to be a certain decimal within the interval [mid, mid+1].
 2. Errors need to be considered when judging conditions. Due to the problem of accuracy, the end condition of the judgment may have to become ** The error with the answer is within a certain range**.
@@ -73,8 +71,7 @@ I am talking about sequences here, not arrays, linked lists, etc. In other words
 
 Although the binary method does not mean that the sequence needs to be ordered, most binary topics have the distinctive feature of being ordered. It's just：
 
--Some topics directly limit the order. This kind of topic is usually not difficult, and it is easy to think of using two points.
--Some require you to construct an ordered sequence by yourself. This type of topic is usually not difficult, and requires everyone to have a certain ability to observe.
+-Some topics directly limit the order. This kind of topic is usually not difficult, and it is easy to think of using two points. -Some require you to construct an ordered sequence by yourself. This type of topic is usually not difficult, and requires everyone to have a certain ability to observe.
 
 For example, [Triple Inversion](https://binarysearch.com/problems/Triple-Inversion "Triple Inversion"). The title description is as follows：
 
@@ -111,9 +108,9 @@ It doesn't matter if you don't understand the code for the time being. Let's lea
 
 ### Extreme value
 
-Similar to me in [Heap topic] (https://lucifer . ren/blog/2020/12/26/ heap/ "heap topic") The extreme value mentioned. It's just that the extremes here are **static**, not dynamic. The extreme value here usually refers to the k-th largest (or k-th smallest) number. \*\*
+Similar to me in [Heap topic](https://lucifer . ren/blog/2020/12/26/ heap/ "heap topic") The extreme value mentioned. It's just that the extremes here are **static**, not dynamic. The extreme value here usually refers to the k-th largest (or k-th smallest) number. \*\*
 
-A very important use of heaps is to find the k-th largest number, and the binary method can also find the k-th largest number, but the ideas of the two are completely different. I have explained in detail the idea of using heaps to find the kth largest heap in the heaps topic mentioned earlier. What about the two points? Here we use an example to feel it: This question is [Kth Pair Distance] (https://binarysearch.com/problems/Kth-Pair-Distance "Kth Pair Distance"), the title description is as follows：
+A very important use of heaps is to find the k-th largest number, and the binary method can also find the k-th largest number, but the ideas of the two are completely different. I have explained in detail the idea of using heaps to find the kth largest heap in the heaps topic mentioned earlier. What about the two points? Here we use an example to feel it: This question is [Kth Pair Distance](https://binarysearch.com/problems/Kth-Pair-Distance "Kth Pair Distance"), the title description is as follows：
 
 ```
 Given a list of integers nums and an integer k, return the k-th (0-indexed) smallest abs(x - y) for every pair of elements (x, y) in nums. Note that (x, y) and (y, x) are considered the same pair.
@@ -143,9 +140,7 @@ In simple terms, the title is to give an array of nums, which allows you to find
 
 For this question, the solution space is the difference from 0 to the maximum and minimum values in the array nums, which is expressed in intervals as [0, max(nums)-min(nums)]. After we have a clear understanding of the space, we need to divide the solution space. For this question, you can choose the intermediate value mid of the current solution space, and then calculate the absolute value of the difference between any two numbers that are less than or equal to this intermediate value. There are several. We might as well make this number X.
 
--If x is greater than k, then the number greater than or equal to mid in the solution space cannot be the answer, so it can be discarded.
--If x is less than k, then the numbers in the solution space that are less than or equal to mid cannot be the answer, so they can be discarded.
--If x is equal to k, then mid is the answer.
+-If x is greater than k, then the number greater than or equal to mid in the solution space cannot be the answer, so it can be discarded. -If x is less than k, then the numbers in the solution space that are less than or equal to mid cannot be the answer, so they can be discarded. -If x is equal to k, then mid is the answer.
 
 Based on this, we can use two points to solve it. This kind of question type, I summarize it as **Counting two points**. I will focus on the four major application parts later.
 
@@ -182,7 +177,7 @@ Everyone must remember the center of the dichotomy. Others (such as orderly sequ
 
 The concept of space has been clearly understood by everyone earlier. And the halving here is actually the halving of the solution space.
 
-For example, at the beginning, the solution space is [1, n] (n is an integer greater than n). By **Some way**, we are sure that the [1, m] interval** cannot be the answer**. Then the solution space becomes (m, n), and the solution space becomes trivial (directly solvable) after continuing this process.
+For example, at the beginning, the solution space is [1, n](n is an integer greater than n). By **Some way**, we are sure that the [1, m] interval** cannot be the answer**. Then the solution space becomes (m, n), and the solution space becomes trivial (directly solvable) after continuing this process.
 
 > Note that the left side of the interval (m,n] is open, which means that m is impossible to get.
 

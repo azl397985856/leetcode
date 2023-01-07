@@ -65,19 +65,16 @@ dfs(i, j)
 
 ## Related topics
 
-- [200. Number of islands] (https://github.com/azl397985856/leetcode/blob/master/problems/200.number-of-islands.md )
-- [695. The largest area of the island] (https://leetcode-cn.com/problems/max-area-of-island/solution/695-dao-yu-de-zui-da-mian-ji-dfspython3-by-fe-luci /) (Original title of Byte beating)
-- [1162. Map analysis] (https://leetcode-cn.com/problems/as-far-from-land-as-possible/solution/python-tu-jie-chao-jian-dan-de-bfs1162-di-tu-fen-x /)
+- [200. Number of islands](https://github.com/azl397985856/leetcode/blob/master/problems/200.number-of-islands.md)
+- [695. The largest area of the island](https://leetcode-cn.com/problems/max-area-of-island/solution/695-dao-yu-de-zui-da-mian-ji-dfspython3-by-fe-luci /) (Original title of Byte beating)
+- [1162. Map analysis](https://leetcode-cn.com/problems/as-far-from-land-as-possible/solution/python-tu-jie-chao-jian-dan-de-bfs1162-di-tu-fen-x /)
 - 463. The circumference of the island
 
 The above four questions can be done using regular DFS. And the direction of recursion is in four directions: up, down, left and right. What's more interesting is that you can use the method of in-situ modification to reduce the space opened up for visits.
 
 Among them, 463 questions are just when doing DFS, it is necessary to note that the adjacent side lengths may be calculated repeatedly, so they need to be subtracted. My idea here is：
 
--Add 4 when encountering land
--Continue to determine whether it is land on the left and above
--If yes, there will be a double calculation. At this time, the double calculation is 2, so you can subtract 2.
--If not, the calculation will not be repeated, and you can ignore it.
+-Add 4 when encountering land -Continue to determine whether it is land on the left and above -If yes, there will be a double calculation. At this time, the double calculation is 2, so you can subtract 2. -If not, the calculation will not be repeated, and you can ignore it.
 
 Note that the ones on the right and below do not need to be counted, otherwise the calculation will still be repeated.
 
@@ -135,7 +132,7 @@ If you encounter a small island topic next time, or a topic that can be abstract
 
 ## Extension
 
-In fact, many questions have the shadow of small island questions. The core of the so-called small island questions is to seek connectivity areas. If you can transform the problem into a connectivity area, then you can use the ideas in this section to do so. For example, [959. Area divided by slashes] (https://leetcode-cn.com/problems/regions-cut-by-slashes / "959. Divide the area by a slash")
+In fact, many questions have the shadow of small island questions. The core of the so-called small island questions is to seek connectivity areas. If you can transform the problem into a connectivity area, then you can use the ideas in this section to do so. For example, [959. Area divided by slashes](https://leetcode-cn.com/problems/regions-cut-by-slashes / "959. Divide the area by a slash")
 
 Title description：
 

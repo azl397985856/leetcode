@@ -24,8 +24,7 @@ The number of nodes will not exceed 100,000.
 
 ## Pre-knowledge
 
--Binary search tree
--Recursion -[Binary tree traversal] (../thinkings/binary-tree-traversal.md)
+-Binary search tree -Recursion -[Binary tree traversal](../thinkings/binary-tree-traversal.md)
 
 ## Company
 
@@ -100,8 +99,7 @@ dfs(root. right)
 
 ## Key points
 
--Pointer operation
--Processing of return values
+-Pointer operation -Processing of return values
 
 ## Code
 
@@ -124,8 +122,7 @@ return self. ans
 
 **Complexity analysis**
 
--Time complexity:$O(N)$, where N is the total number of nodes in the tree.
--Spatial complexity:$O(h)$, where h is the height of the tree.
+-Time complexity:$O(N)$, where N is the total number of nodes in the tree. -Spatial complexity:$O(h)$, where h is the height of the tree.
 
 ## Related topics
 
@@ -133,7 +130,6 @@ return self. ans
 - [92.reverse-linked-list-ii](./92.reverse-linked-list-ii.md)
 - [25.reverse-nodes-in-k-groups-cn](./25.reverse-nodes-in-k-groups.md)
 
-If you have any comments on this, please leave me a message. I will check the answers one by one when I have time. For more algorithm routines, you can visit my LeetCode problem solving warehouse:https://github.com/azl397985856/leetcode . There are already 37K stars.
-You can also pay attention to my public account "Force Buckle Plus" to take you to chew off the hard bone of the algorithm.
+If you have any comments on this, please leave me a message. I will check the answers one by one when I have time. For more algorithm routines, you can visit my LeetCode problem solving warehouse:https://github.com/azl397985856/leetcode . There are already 37K stars. You can also pay attention to my public account "Force Buckle Plus" to take you to chew off the hard bone of the algorithm.
 
 ![](https://p.ipic.vip/70qh9q.jpg)

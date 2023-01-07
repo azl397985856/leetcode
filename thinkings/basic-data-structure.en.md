@@ -28,23 +28,23 @@ So why do hooks use arrays? We can explain from another perspective, what would 
 
 ```js
 function Form() {
-	// 1. Use the name state variable
-	const [name, setName] = useState("Mary");
+  // 1. Use the name state variable
+  const [name, setName] = useState("Mary");
 
-	// 2. Use an effect for persisting the form
-	useEffect(function persistForm() {
-		localStorage.setItem("formData", name);
-	});
+  // 2. Use an effect for persisting the form
+  useEffect(function persistForm() {
+    localStorage.setItem("formData", name);
+  });
 
-	// 3. Use the surname state variable
-	const [surname, setSurname] = useState("Poppins");
+  // 3. Use the surname state variable
+  const [surname, setSurname] = useState("Poppins");
 
-	// 4. Use an effect for updating the title
-	useEffect(function updateTitle() {
-		document.title = name + " " + surname;
-	});
+  // 4. Use an effect for updating the title
+  useEffect(function updateTitle() {
+    document.title = name + " " + surname;
+  });
 
-	// . . .
+  // . . .
 }
 ```
 
@@ -63,7 +63,7 @@ If you don't use arrays to implement, such as objects, the hooks of Form are
 }
 ```
 
-So the question is how to take key1, key2, key3, and key4? This is a problem. For more research on the nature of React hooks, please check [React hooks: not magic, just arrays] (https://medium.com/@ryardley/react-hooks-not-magic-just-arrays-cd4f1857236e )
+So the question is how to take key1, key2, key3, and key4? This is a problem. For more research on the nature of React hooks, please check [React hooks: not magic, just arrays](https://medium.com/@ryardley/react-hooks-not-magic-just-arrays-cd4f1857236e)
 
 However, there is also a problem with using arrays. That is, React has left the task of `how to ensure the correspondence between the states saved by Hooks inside the component'to the developer to ensure, that is, you must ensure that the order of hooks is strictly consistent. For details, please refer to React's official website in the Hooks Rule section.
 
@@ -79,8 +79,7 @@ In computer science, a queue is a special type of abstract data type or collecti
 
 There are two basic queue operations：
 
--Add an entity to the backend location of the queue, which is called queuing
--Removing an entity from the front end of the queue is called dequeue.
+-Add an entity to the backend location of the queue, which is called queuing -Removing an entity from the front end of the queue is called dequeue.
 
 Schematic diagram of FIFO (first in, first out) for elements in the queue：
 
@@ -122,7 +121,7 @@ The frame transmission method can divide the data of the request and response in
 
 `Multiplexing` is used to replace the original sequence and congestion mechanism. In 'HTTP/1.1`, multiple TCP links are required for multiple simultaneous requests, and a single domain name has a limit of 6-8 TCP link requests (this limit is restricted by the browser, and different browsers may not be the same). In 'HTTP/2`, all communications under the same domain name are completed on a single link, occupying only one TCP link, and requests and responses can be made in parallel on this link without interfering with each other.
 
-> [This website] (https://http2.akamai.com/demo ) You can intuitively feel the performance comparison between 'HTTP/1.1' and`HTTP/2'.
+> [This website](https://http2.akamai.com/demo) You can intuitively feel the performance comparison between 'HTTP/1.1' and`HTTP/2'.
 
 ### Stack
 
@@ -130,8 +129,7 @@ The stack is also a kind of restricted sequence. When it is restricted, it is li
 
 In computer science, a stack is an abstract data type that is used to represent a collection of elements and has two main operations.：
 
--push, add elements to the top (end) of the stack
--pop, remove the element at the top (end) of the stack
+-push, add elements to the top (end) of the stack -pop, remove the element at the top (end) of the stack
 
 The above two operations can be simply summarized as ** last in, first out (LIFO =last in, first out)**.
 
@@ -147,20 +145,19 @@ Schematic diagram of the push and pop operations of the stack：
 
 #### Stack application (non-front-end caution)
 
-Stacks have applications in many places. For example, familiar browsers have many stacks. In fact, the execution stack of the browser is a basic stack structure. From the data structure point of view, it is a stack.
-This also explains that our recursive solution is essentially the same as the loop +stack solution.
+Stacks have applications in many places. For example, familiar browsers have many stacks. In fact, the execution stack of the browser is a basic stack structure. From the data structure point of view, it is a stack. This also explains that our recursive solution is essentially the same as the loop +stack solution.
 
 For example, the following JS code：
 
 ```js
 function bar() {
-	const a = 1;
-	const b = 2;
-	console.log(a, b);
+  const a = 1;
+  const b = 2;
+  console.log(a, b);
 }
 function foo() {
-	const a = 1;
-	bar();
+  const a = 1;
+  bar();
 }
 
 foo();
@@ -208,38 +205,35 @@ React must re-implement the algorithm for traversing the tree, from relying on a
 
 > Andrew said this: If you only rely on the [built-in] call stack, it will continue to work until the stack is empty.
 
-Wouldn't it be great if we could interrupt the call stack at will and manipulate the stack frame manually?
-This is the purpose of React Fiber. `Fiber is a re-implementation of the stack, dedicated to React components`. You can think of a single Fiber as a `virtual stack frame`.
+Wouldn't it be great if we could interrupt the call stack at will and manipulate the stack frame manually? This is the purpose of React Fiber. `Fiber is a re-implementation of the stack, dedicated to React components`. You can think of a single Fiber as a `virtual stack frame`.
 
 react fiber is probably like this：
 
 ```js
 let fiber = {
-	tag: HOST_COMPONENT,
-	type: "div",
-	return: parentFiber,
-	children: childFiber,
-	sibling: childFiber,
-	alternate: currentFiber,
-	stateNode: document.createElement("div"),
-	props: { children: [], className: "foo" },
-	partialState: null,
-	effectTag: PLACEMENT,
-	effects: [],
+  tag: HOST_COMPONENT,
+  type: "div",
+  return: parentFiber,
+  children: childFiber,
+  sibling: childFiber,
+  alternate: currentFiber,
+  stateNode: document.createElement("div"),
+  props: { children: [], className: "foo" },
+  partialState: null,
+  effectTag: PLACEMENT,
+  effects: [],
 };
 ```
 
-It can be seen from this that fiber is essentially an object. Use the parent, child, and sibling attributes to build a fiber tree to represent the structure tree of the component.，
-Return, children, sibling are also all fibers, so fiber looks like a linked list.
+It can be seen from this that fiber is essentially an object. Use the parent, child, and sibling attributes to build a fiber tree to represent the structure tree of the component.， Return, children, sibling are also all fibers, so fiber looks like a linked list.
 
-> Attentive friends may have discovered that alternate is also a fiber, so what is it used for?
-> Its principle is actually a bit like git, which can be used to perform operations such as git revert, git commit, etc. This part is very interesting. I will explain it in my "Developing git from Scratch".
+> Attentive friends may have discovered that alternate is also a fiber, so what is it used for? Its principle is actually a bit like git, which can be used to perform operations such as git revert, git commit, etc. This part is very interesting. I will explain it in my "Developing git from Scratch".
 
-Friends who want to know more can read [this article] (https://github.com/dawn-plex/translate/blob/master/articles/the-how-and-why-on-reacts-usage-of-linked-list-in-fiber-to-walk-the-components-tree.md )
+Friends who want to know more can read [this article](https://github.com/dawn-plex/translate/blob/master/articles/the-how-and-why-on-reacts-usage-of-linked-list-in-fiber-to-walk-the-components-tree.md)
 
-If you can go over the wall, you can read [original English] (https://medium.com/react-in-depth/the-how-and-why-on-reacts-usage-of-linked-list-in-fiber-67f1014d0eb7 )
+If you can go over the wall, you can read [original English](https://medium.com/react-in-depth/the-how-and-why-on-reacts-usage-of-linked-list-in-fiber-67f1014d0eb7)
 
-[This article] (https://engineering.hexacta.com/didact-fiber-incremental-reconciliation-b2fe028dcaec ) It is also an excellent early article on fiber architecture
+[This article](https://engineering.hexacta.com/didact-fiber-incremental-reconciliation-b2fe028dcaec) It is also an excellent early article on fiber architecture
 
 I am also currently writing about the fiber architecture part of the "react Series of Tutorials for Developing react from Scratch". If you are interested in the specific implementation, please pay attention.
 
@@ -253,8 +247,7 @@ The application of trees is also very extensive. They can be expressed as tree s
 
 A tree is actually a special kind of `graph', which is a kind of acutely connected graph, a maximal acutely connected graph, and a minimally connected graph.
 
-From another perspective, a tree is a recursive data structure. Moreover, different representation methods of trees, such as the less commonly used "eldest son + brother" method, are for
-Your understanding of the data structure of trees is of great use, and it is not an exaggeration to say that it is a deeper understanding of the nature of trees.
+From another perspective, a tree is a recursive data structure. Moreover, different representation methods of trees, such as the less commonly used "eldest son + brother" method, are for Your understanding of the data structure of trees is of great use, and it is not an exaggeration to say that it is a deeper understanding of the nature of trees.
 
 The basic algorithms of the tree include front, middle and back sequence traversal and hierarchical traversal. Some students are relatively vague about the access order of the three specific manifestations of the front, middle and back. In fact, I was the same at the beginning. I learned a little later. You just need to remember: `The so-called front, middle and back refer to the position of the root node, and the other positions can be arranged according to the first left and then right`. For example, the pre-sequence traversal is `root left and right", the middle sequence is `left root right", and the post-sequence is `left and right root`, isn't it simple?
 
@@ -266,18 +259,15 @@ However, the performance of recursion in computers has always been problematic, 
 
 The important nature of the tree：
 
--If the tree has n nodes, then it has n-1 edges, which shows that the number of nodes and edges of the tree are of the same order.
--There is a `unique` path from any node to the root node, the length of the path is the depth of the node
+-If the tree has n nodes, then it has n-1 edges, which shows that the number of nodes and edges of the tree are of the same order. -There is a `unique` path from any node to the root node, the length of the path is the depth of the node
 
 The actual tree used may be more complicated. For example, a quadtree or octree may be used for collision detection in games. And the k-dimensional tree structure`k-d tree` and so on.
 
-![](https://p.ipic.vip/2kuyc2.jpg)
-(Picture from https://zh.wikipedia.org/wiki/K-d%E6%A0%91 )
+![](https://p.ipic.vip/2kuyc2.jpg) (Picture from https://zh.wikipedia.org/wiki/K-d%E6%A0%91 )
 
 ### Binary tree
 
-A binary tree is a tree with no more than two nodes, and it is a special subset of trees. Interestingly, the restricted tree structure of a binary tree can represent and realize all trees.，
-The principle behind it is the "eldest son + brother" method. In Teacher Deng's words, "A binary tree is a special case of a multi-pronged tree, but when it has roots and is orderly, its descriptive ability is sufficient to cover the latter."
+A binary tree is a tree with no more than two nodes, and it is a special subset of trees. Interestingly, the restricted tree structure of a binary tree can represent and realize all trees.， The principle behind it is the "eldest son + brother" method. In Teacher Deng's words, "A binary tree is a special case of a multi-pronged tree, but when it has roots and is orderly, its descriptive ability is sufficient to cover the latter."
 
 > In fact, while you use the "eldest son + brother" method to represent the tree, you can rotate it at an angle of 45 degrees.
 
@@ -302,7 +292,7 @@ Related concepts：
 
 -True binary tree (the degree of all nodes can only be even, that is, it can only be 0 or 2)
 
-In addition, I also specially opened [traversal of binary trees] (./binary-tree-traversal.md ) Chapters, specific details and algorithms can be viewed there.
+In addition, I also specially opened [traversal of binary trees](./binary-tree-traversal.md) Chapters, specific details and algorithms can be viewed there.
 
 #### Heap
 
@@ -312,8 +302,7 @@ A typical implementation of heaps is binary heaps.
 
 Characteristics of binary stacks：
 
--In a min heap, if P is a parent node of C, then the key (or value) of P should be less than or equal to the corresponding value of C.
-Because of this, the top element of the heap must be the smallest. We will use this feature to find the minimum value or the kth smallest value.
+-In a min heap, if P is a parent node of C, then the key (or value) of P should be less than or equal to the corresponding value of C. Because of this, the top element of the heap must be the smallest. We will use this feature to find the minimum value or the kth smallest value.
 
 ![min-heap](https://p.ipic.vip/shen88.jpg)
 
@@ -333,9 +322,6 @@ Binary Sort Tree (Binary Sort Tree), also known as Binary Search Tree (Binary Se
 
 Binary lookup tree A binary tree with the following properties：
 
--If the left subtree is not empty, the value of all nodes on the left subtree is less than the value of its root node；
--If the right subtree is not empty, the value of all nodes on the right subtree is greater than the value of its root node；
--The left and right subtrees are also binary sorting trees；
--There are no nodes with equal key values.
+-If the left subtree is not empty, the value of all nodes on the left subtree is less than the value of its root node； -If the right subtree is not empty, the value of all nodes on the right subtree is greater than the value of its root node； -The left and right subtrees are also binary sorting trees； -There are no nodes with equal key values.
 
 For a binary lookup tree, the conventional operations are to insert, find, delete, find the parent node, find the maximum value, and find the minimum value.

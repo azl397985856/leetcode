@@ -6,14 +6,11 @@ Hello everyone, this is lucifer. What I bring to you today is the topic of "Two 
 
 > You can also use vscode blink-mind to open the source file to view. There are some notes in it that you can click to view. The source file can be obtained by replying to the brain map on my official account "Force Buckle Plus", and the brain map will continue to be updated with more content in the future. vscode plug-in address:https://marketplace.visualstudio.com/items?itemName=awehook.vscode-blink-mind
 
-![](https://p.ipic.vip/7b946x.jpg)
+![](https://p.ipic.vip/wir7q1.jpg)
 
 This series contains the following topics：
 
--[I have almost finished swiping all the linked topics of Lixu, and I found these things. 。 。 ](https://lucifer. ren/blog/2020/11/08/linked-list/) -[After almost brushing all the tree questions of Li Buckle, I found these things. 。 。 ](https://lucifer. ren/blog/2020/11/23/tree/)
--[After almost brushing all the piles of questions, I found these things. 。 。 (Part 1))(https://lucifer . ren/blog/2020/12/26/heap/)
--[After almost brushing all the piles of questions, I found these things. 。 。 (Part 2))(https://lucifer . ren/blog/2021/01/19/heap-2/)
--[After almost brushing all the two-point questions of Li Buckle, I found these things. 。 。 (Part 1))(https://lucifer . ren/blog/2021/03/08/binary-search-1/)
+-[I have almost finished swiping all the linked topics of Lixu, and I found these things. 。 。 ](https://lucifer. ren/blog/2020/11/08/linked-list/) -[After almost brushing all the tree questions of Li Buckle, I found these things. 。 。 ](https://lucifer. ren/blog/2020/11/23/tree/) -[After almost brushing all the piles of questions, I found these things. 。 。 (Part 1))(https://lucifer . ren/blog/2020/12/26/heap/) -[After almost brushing all the piles of questions, I found these things. 。 。 (Part 2))(https://lucifer . ren/blog/2021/01/19/heap-2/) -[After almost brushing all the two-point questions of Li Buckle, I found these things. 。 。 (Part 1))(https://lucifer . ren/blog/2021/03/08/binary-search-1/)
 
 <! -- more -->
 
@@ -45,11 +42,7 @@ This is the simplest form of binary lookup. Of course, binary search also has ma
 
 Common variants are：
 
--If there are multiple elements that meet the condition, return the index of the leftmost element that meets the condition.
--If there are multiple elements that meet the condition, return the index of the rightmost element that meets the condition.
--The array is not ordered as a whole. For example, ascending order first and then descending order, or descending order first and then ascending order.
--Turn a one-dimensional array into a two-dimensional array.
--. 。 。
+-If there are multiple elements that meet the condition, return the index of the leftmost element that meets the condition. -If there are multiple elements that meet the condition, return the index of the rightmost element that meets the condition. -The array is not ordered as a whole. For example, ascending order first and then descending order, or descending order first and then ascending order. -Turn a one-dimensional array into a two-dimensional array. -. 。 。
 
 Next, we will check it one by one.
 
@@ -65,12 +58,9 @@ For the convenience of describing the problem later, it is necessary to introduc
 
 Terms used in binary search：
 
--target-- the value to be found
--index--current location
--l and r-left and right pointers
--mid--the midpoint of the left and right pointers, which is used to determine the index we should look to the left or the right (in fact, it is to shrink the solution space)
+-target-- the value to be found -index--current location -l and r-left and right pointers -mid--the midpoint of the left and right pointers, which is used to determine the index we should look to the left or the right (in fact, it is to shrink the solution space)
 
-![Term illustration](https://p.ipic.vip/6zhzd0.jpg)
+![Term illustration](https://p.ipic.vip/6qylgw.jpg)
 
 It is worth noting that, except that the target is fixed, everything else changes dynamically. Where l and r refer to the upper and lower boundaries of the solution space, mid is the intermediate value of the upper and lower boundaries, and index is the traversal pointer, which is used to control the traversal process.
 
@@ -82,22 +72,17 @@ In order to better understand the next content, we solve the simplest type -** t
 
 Algorithm description：
 
--Start with the intermediate element of the array. If the intermediate element happens to be the element to be found, the search process ends.；
--If the target element is greater than the intermediate element, then the values in the array that are smaller than the intermediate element can be excluded (since the array is ordered, it is equivalent to excluding all values on the left side of the array), and the solution space can be shrunk to [mid+1, r].
--If the target element is less than the intermediate element, then the values in the array that are greater than the intermediate element can be excluded (since the array is ordered, it is equivalent to excluding all values on the right side of the array), and the solution space can be shrunk to [l, mid-1].
--If the solution space is empty at a certain step, it means that it cannot be found.
+-Start with the intermediate element of the array. If the intermediate element happens to be the element to be found, the search process ends.； -If the target element is greater than the intermediate element, then the values in the array that are smaller than the intermediate element can be excluded (since the array is ordered, it is equivalent to excluding all values on the left side of the array), and the solution space can be shrunk to [mid+1, r]. -If the target element is less than the intermediate element, then the values in the array that are greater than the intermediate element can be excluded (since the array is ordered, it is equivalent to excluding all values on the right side of the array), and the solution space can be shrunk to [l, mid-1]. -If the solution space is empty at a certain step, it means that it cannot be found.
 
 Give a specific example to facilitate everyone to increase their sense of substitution. Suppose nums is`[1,3,4,6,7,8,10,13,14]' and the target is 4·.
 
--The element in the middle of the array at the beginning is 7
--7> 4, since the numbers on the right side of 7 are all greater than 7, it is impossible to be the answer. We have shortened the range to the left side of 7.
+-The element in the middle of the array at the beginning is 7 -7> 4, since the numbers on the right side of 7 are all greater than 7, it is impossible to be the answer. We have shortened the range to the left side of 7.
 
-![Adjust solution space] (https://tva1.sinaimg.cn/large/008eGmZEly1gosrelnzhuj30c905bweq.jpg )
+![Adjust solution space](https://p.ipic.vip/nfci5c.jpg)
 
--The solution space becomes [1,3,4,6], at which time the intermediate element is 3.
--3 < 4, since the numbers on the left of 3 are all less than 3, it is impossible to be the answer. We have shortened the range to the right side of 3.
+-The solution space becomes [1,3,4,6], at which time the intermediate element is 3. -3 < 4, since the numbers on the left of 3 are all less than 3, it is impossible to be the answer. We have shortened the range to the right side of 3.
 
-![Adjust the solution space again] (https://tva1.sinaimg.cn/large/008eGmZEly1gosrg6phvzj305b033glk.jpg )
+![Adjust the solution space again](https://p.ipic.vip/vxm7rh.jpg)
 
 -The solution space becomes [4,6]. At this time, the intermediate element is 4, which is exactly what we are looking for. Just return its index 2.
 
@@ -105,11 +90,7 @@ Give a specific example to facilitate everyone to increase their sense of substi
 
 Since this search algorithm reduces the search scope by half every time it is compared, it is a typical binary search.
 
--Average time complexity: $O(logN)$
--Worst time complexity: $O(logN)$
--Spatial complexity
--Iteration: $O(1)$
--Recursion: $O(logN)$(elimination of tailless calls)
+-Average time complexity: $O(logN)$ -Worst time complexity: $O(logN)$ -Spatial complexity -Iteration: $O(1)$ -Recursion: $O(logN)$(elimination of tailless calls)
 
 > The complexity of the latter is similar, and I will not repeat them.
 
@@ -127,10 +108,7 @@ Don't underestimate such an algorithm. Even if it is such a simple and unpretent
 
 > It's easy to understand for an example. For example, for the interval [4,4], it contains an element 4, so the solution space is not empty and we need to continue searching (imagine that 4 happens to be the target we are looking for. If we don't continue searching, we will miss the correct answer). And when the solution space is [left, right), also for [4,4], the solution space is empty at this time, because there are no numbers· in such an interval.
 
--In the cycle, we constantly calculate the mid and compare nums[mid] with the target value.
--If nums[mid] is equal to the target value, mid is returned in advance (only need to find one that meets the conditions)
--If nums[mid] is less than the target value, it means that the target value is on the right side of mid. At this time, the solution space can be reduced to [mid + 1, right] (mid and the numbers on the left side of mid are excluded by us)
--If nums[mid] is greater than the target value, it means that the target value is on the left side of mid. At this time, the solution space can be reduced to [left, mid-1] (mid and the numbers on the right side of mid are excluded by us)
+-In the cycle, we constantly calculate the mid and compare nums[mid] with the target value. -If nums[mid] is equal to the target value, mid is returned in advance (only need to find one that meets the conditions) -If nums[mid] is less than the target value, it means that the target value is on the right side of mid. At this time, the solution space can be reduced to [mid + 1, right](mid and the numbers on the left side of mid are excluded by us) -If nums[mid] is greater than the target value, it means that the target value is on the left side of mid. At this time, the solution space can be reduced to [left, mid-1](mid and the numbers on the right side of mid are excluded by us)
 
 - If it is not found at the end of the loop, it means that it is not found, and a return of -1 means that it is not found.
 
@@ -180,19 +158,19 @@ return -1
 
 ```js
 function binarySearch(nums, target) {
-	let left = 0;
-	let right = nums.length - 1;
-	while (left <= right) {
-		const mid = Math.floor(left + (right - left) / 2);
-		if (nums[mid] == target) return mid;
-		if (nums[mid] < target)
-			// Solution space becomes [mid+1, right]
-			left = mid + 1;
-		if (nums[mid] > target)
-			//Solution space becomes [left, mid-1]
-			right = mid - 1;
-	}
-	return -1;
+  let left = 0;
+  let right = nums.length - 1;
+  while (left <= right) {
+    const mid = Math.floor(left + (right - left) / 2);
+    if (nums[mid] == target) return mid;
+    if (nums[mid] < target)
+      // Solution space becomes [mid+1, right]
+      left = mid + 1;
+    if (nums[mid] > target)
+      //Solution space becomes [left, mid-1]
+      right = mid - 1;
+  }
+  return -1;
 }
 ```
 
@@ -236,9 +214,7 @@ Specific algorithm：
 
 -Since the solution space we define is [left,right], when left <=right, the solution space is not empty. In other words, our termination search condition is left <=right.
 
--When A[mid]>=x, it means that a spare tire is found. We make r=mid-1 to exclude mid from the solution space, and continue to see if there is a better spare tire.
--When A[mid] < x, it means that mid is not the answer at all. Directly update l = mid+ 1 to exclude mid from the solution space.
--Finally, the l that solves the space is the best spare tire, and the spare tire turns positive.
+-When A[mid]>=x, it means that a spare tire is found. We make r=mid-1 to exclude mid from the solution space, and continue to see if there is a better spare tire. -When A[mid] < x, it means that mid is not the answer at all. Directly update l = mid+ 1 to exclude mid from the solution space. -Finally, the l that solves the space is the best spare tire, and the spare tire turns positive.
 
 #### Code template
 
@@ -269,9 +245,7 @@ Specific algorithm：
 
 -Since the solution space we define is [left,right], when left <=right, the solution space is not empty. In other words, our termination search condition is left <=right.
 
--When A[mid]> x, it means that a spare tire is found. We make r= mid-1 to exclude mid from the solution space, and continue to see if there is a better spare tire.
--When A[mid]<= x, it means that mid is not the answer at all. Directly update l= mid+ 1 to exclude mid from the solution space.
--Finally, the l that solves the space is the best spare tire, and the spare tire turns positive.
+-When A[mid]> x, it means that a spare tire is found. We make r= mid-1 to exclude mid from the solution space, and continue to see if there is a better spare tire. -When A[mid]<= x, it means that mid is not the answer at all. Directly update l= mid+ 1 to exclude mid from the solution space. -Finally, the l that solves the space is the best spare tire, and the spare tire turns positive.
 
 #### Code template
 
@@ -320,8 +294,7 @@ The basic knowledge is almost ready. Next, we start with dry goods skills.
 
 What to talk about next：
 
--Ability detection and counting binary are similar in nature, and they are both generalizations of ordinary binary.
--The essence of prefixing and sorting and inserting sorting and sorting is to build an ordered sequence.
+-Ability detection and counting binary are similar in nature, and they are both generalizations of ordinary binary. -The essence of prefixing and sorting and inserting sorting and sorting is to build an ordered sequence.
 
 Then let's get started.
 
@@ -408,12 +381,11 @@ It has been observed that the solution space that needs to be detected is an ord
 
 The key to the two-way solution is：
 
--Clear solution space. For this question, the solution space is [1, max(piles)].
--How to shrink the solution space. The key point is that **If the speed k cannot finish eating all bananas, then all solutions that are less than or equal to k can be ruled out. **
+-Clear solution space. For this question, the solution space is [1, max(piles)]. -How to shrink the solution space. The key point is that **If the speed k cannot finish eating all bananas, then all solutions that are less than or equal to k can be ruled out. **
 
 In summary, we can use the leftmost boundary, that is, the right boundary is constantly shrinking.
 
-![](https://p.ipic.vip/77n5hj.jpg)
+![](https://p.ipic.vip/d69a7p.jpg)
 
 > The upper limit of the number of bananas in the banana pile is 10^9. Keke is too edible, right?
 

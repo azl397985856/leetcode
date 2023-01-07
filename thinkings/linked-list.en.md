@@ -8,7 +8,7 @@ Let's start with the outline of this article. This is a brain map drawn by me wi
 
 Hello everyone, this is lucifer. The topic that I bring to you today is "Linked List". Many people find this to be a difficult topic. In fact, as long as you master the trick, it is not that difficult. Next, let's talk about it.
 
-[Linked List Tag] (https://leetcode-cn.com/tag/linked-list /"Linked list tag") There are a total of ** 54 questions** in leetcode. In order to prepare for this topic, I spent a few days brushing almost all the linked list topics of leetcode.
+[Linked List Tag](https://leetcode-cn.com/tag/linked-list /"Linked list tag") There are a total of ** 54 questions** in leetcode. In order to prepare for this topic, I spent a few days brushing almost all the linked list topics of leetcode.
 
 ![](https://p.ipic.vip/fdv0l4.jpg)
 
@@ -38,8 +38,8 @@ Arrays are contiguous memory spaces, and usually the size of each unit is fixed,
 
 ```ts
 interface ListNode<T> {
-	data: T;
-	next: ListNode<T>;
+  data: T;
+  next: ListNode<T>;
 }
 ```
 
@@ -152,8 +152,7 @@ Is it very similar?
 
 **It can be seen that the logic of the two is the same, but the subtle operations are different. **For example：
 
--The array is an index ++
--The linked list is cur = cur. next
+-The array is an index ++ -The linked list is cur = cur. next
 
 What if we need to traverse in reverse order?
 
@@ -242,8 +241,7 @@ It doesn't matter if the painting looks good or not, just be able to see it clea
 
 I did the linked list of force buttons all over. An interesting phenomenon was found, that is, there are very single test centers in the United States. Except for design questions, there are no two points in the test center.：
 
--Pointer modification
--Splicing of linked lists
+-Pointer modification -Splicing of linked lists
 
 ### Pointer modification
 
@@ -253,14 +251,14 @@ For arrays, a data structure that supports random access, inversion is easy, as 
 
 ```js
 function reverseArray(arr) {
-	let left = 0;
-	let right = arr.length - 1;
-	while (left < right) {
-		const temp = arr[left];
-		arr[left++] = arr[right];
-		arr[right--] = temp;
-	}
-	return arr;
+  let left = 0;
+  let right = arr.length - 1;
+  while (left < right) {
+    const temp = arr[left];
+    arr[left++] = arr[right];
+    arr[right--] = temp;
+  }
+  return arr;
 }
 ```
 
@@ -375,9 +373,7 @@ Therefore, there are many splicing operations on the linked list. If you know th
 
 The most error-prone place of linked lists is where we should pay attention. 90% of the most common errors in linked lists are concentrated in the following three situations：
 
--A ring appeared, causing an endless loop.
--The boundary cannot be distinguished, resulting in an error in the boundary condition.
--Don't understand what to do recursively
+-A ring appeared, causing an endless loop. -The boundary cannot be distinguished, resulting in an error in the boundary condition. -Don't understand what to do recursively
 
 Next, let's take a look one by one.
 
@@ -385,8 +381,7 @@ Next, let's take a look one by one.
 
 There are two test centers in the ring：
 
--The topic may have a ring, allowing you to judge whether there is a ring and the location of the ring.
--The list of topics has no ring, but the ring has been rounded out by your operation pointer.
+-The topic may have a ring, allowing you to judge whether there is a ring and the location of the ring. -The list of topics has no ring, but the ring has been rounded out by your operation pointer.
 
 Here we will only discuss the second one, and the first one can use the \*\*speed pointer algorithm we mentioned later.
 
@@ -398,8 +393,7 @@ But the list is so long, it is impossible for me to draw it all. In fact, it is 
 
 What many people are wrong is that they do not consider boundaries. One technique for considering boundaries is to look at the topic information.
 
--If the head node of the topic may be removed, then consider using a virtual node, so that the head node becomes an intermediate node, and there is no need to make special judgments for the head node.
--The title asks you to return not the original head node, but the tail node or other intermediate nodes. At this time, pay attention to the pointer changes.
+-If the head node of the topic may be removed, then consider using a virtual node, so that the head node becomes an intermediate node, and there is no need to make special judgments for the head node. -The title asks you to return not the original head node, but the tail node or other intermediate nodes. At this time, pay attention to the pointer changes.
 
 The specific content of the above two parts, we will explain in the virtual head part that we will talk about later. As an old rule, everyone can leave an impression.
 
@@ -407,7 +401,7 @@ The specific content of the above two parts, we will explain in the virtual head
 
 Ok, it's time to fill the pit. As mentioned above, the linked list structure is inherently recursive, so using recursive solutions or recursive thinking will help us solve problems.
 
-In [binary tree traversal] (https://github.com/azl397985856/leetcode/blob/master/thinkings/binary-tree-traversal.md ) In the part, I talked about the three popular traversal methods of binary trees, namely pre-sequence traversal, middle-sequence traversal, and post-sequence traversal.
+In [binary tree traversal](https://github.com/azl397985856/leetcode/blob/master/thinkings/binary-tree-traversal.md) In the part, I talked about the three popular traversal methods of binary trees, namely pre-sequence traversal, middle-sequence traversal, and post-sequence traversal.
 
 The front, middle and back order actually refers to the processing order of the current node relative to the child nodes. If the current node is processed first and then the child nodes are processed, then it is the preamble. If you process the left node first, then the current node, and finally the right node, it is a middle-order traversal. The subsequent traversal is naturally the final processing of the current node.
 

@@ -19,8 +19,7 @@ The concept of DFS comes from graph theory, but there are still some differences
 1. First put the root node in the **stack**.
 2. Take the first node from _stack_ and verify whether it is the target. If the target is found, the search ends and the result is returned. Otherwise, add one of its direct child nodes that have not been tested to the stack.
 3. Repeat Step 2.
-4. If there is no direct child node that has not been detected. Add the previous node to the **stack**.
-   Repeat Step 2.
+4. If there is no direct child node that has not been detected. Add the previous node to the **stack**. Repeat Step 2.
 5. Repeat step 4.
 6. If **stack** is empty, it means that the entire picture has been checked-that is, there are no targets to search for in the picture. End the search and return “Target not found".
 
@@ -48,7 +47,7 @@ dfs(j)
 
 These are a few DFS topics that I recently summarized, and will continue to be updated in the future~
 
-- [200. Number of islands] (https://leetcode-cn.com/problems/number-of-islands/solution/mo-ban-ti-dao-yu-dfspython3-by-fe-lucifer-2 /) Medium
+- [200. Number of islands](https://leetcode-cn.com/problems/number-of-islands/solution/mo-ban-ti-dao-yu-dfspython3-by-fe-lucifer-2 /) Medium
 
-- [695. The largest area of the island] (https://leetcode-cn.com/problems/max-area-of-island/solution/mo-ban-ti-dao-yu-dfspython3-by-fe-lucifer /) Medium
-- [979. Allocate coins in a binary tree] (https://leetcode-cn.com/problems/distribute-coins-in-binary-tree/solution/tu-jie-dfspython3-by-fe-lucifer /) Medium
+- [695. The largest area of the island](https://leetcode-cn.com/problems/max-area-of-island/solution/mo-ban-ti-dao-yu-dfspython3-by-fe-lucifer /) Medium
+- [979. Allocate coins in a binary tree](https://leetcode-cn.com/problems/distribute-coins-in-binary-tree/solution/tu-jie-dfspython3-by-fe-lucifer /) Medium

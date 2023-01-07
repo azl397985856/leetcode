@@ -2,17 +2,15 @@
 
 ## Hu Hucode (哈 Hucode)
 
-The basic idea of Huffman encoding is to use short encoding to represent characters with high frequency of occurrence, and long encoding to represent characters with low frequency of occurrence. This reduces the average length of the encoded string and the expected value of the length, so as to achieve the purpose of compression.
-Therefore, Huffman coding is widely used in the field of lossless compression. It can be seen that Huffman encoding is a variable encoding, not a fixed-length encoding.
+The basic idea of Huffman encoding is to use short encoding to represent characters with high frequency of occurrence, and long encoding to represent characters with low frequency of occurrence. This reduces the average length of the encoded string and the expected value of the length, so as to achieve the purpose of compression. Therefore, Huffman coding is widely used in the field of lossless compression. It can be seen that Huffman encoding is a variable encoding, not a fixed-length encoding.
 
 The Huffman coding process consists of two main parts：
 
--Build a Huffman tree based on input characters
--Traverse the Huffman tree and assign the nodes of the tree to characters
+-Build a Huffman tree based on input characters -Traverse the Huffman tree and assign the nodes of the tree to characters
 
 As mentioned above, his basic principle is to 'use short encodings to represent characters with high frequency of occurrence, and long encodings to represent characters with low frequency of occurrence`. Therefore, the first thing to do is to count the frequency of occurrence of characters, and then build a Huffman tree (also known as an optimal binary tree) based on the statistical frequency.
 
-! [Huffman-tree](. . /assets/thinkings/huffman-tree. webp)
+![Huffman-tree](. . /assets/thinkings/huffman-tree. webp)
 
 As shown in the figure, the **Huffman tree is a binary tree**. Among them, the path of the left child node of the node is represented by 0, and the right child node is represented by 1. The value of the node represents its weight. The greater the weight, the smaller the depth. The depth is actually the length of the code. Usually we use the frequency of occurrence of characters as the weight. When encoding is actually performed, it is similar to a dictionary tree. Nodes are not used for encoding, and the paths of nodes are used for encoding.
 
@@ -24,12 +22,12 @@ For example, the result of our frequency statistics for a string is as follows�
 
 | character | frequency |
 | :-------: | :-------: |
-| a | 5 |
-| b | 9 |
-| c | 12 |
-| d | 13 |
-| e | 16 |
-| f | 45 |
+|     a     |     5     |
+|     b     |     9     |
+|     c     |    12     |
+|     d     |    13     |
+|     e     |    16     |
+|     f     |    45     |
 
 -Construct each element into a node, that is, a tree with only one element. And build a minimum heap that contains all the nodes. The algorithm uses the minimum heap as the priority queue.
 
@@ -41,12 +39,12 @@ The result is like this：
 
 | character | frequency | encoding |
 | :-------: | :-------: | :------: |
-| a | 5 | 1100 |
-| b | 9 | 1101 |
-| c | 12 | 100 |
-| d | 13 | 101 |
-| e | 16 | 111 |
-| f | 45 | 0 |
+|     a     |     5     |   1100   |
+|     b     |     9     |   1101   |
+|     c     |    12     |   100    |
+|     d     |    13     |   101    |
+|     e     |    16     |   111    |
+|     f     |    45     |    0     |
 
 ##run-length encode (run-length encoding)
 
