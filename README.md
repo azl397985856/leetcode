@@ -28,8 +28,6 @@
 
 [在线阅读地址](https://leetcode-solution-leetcode-pp.gitbook.io/leetcode-solution/)
 
-![](https://p.ipic.vip/x1u80k.jpg)
-
 **限时免费下载！后期随时可能收费**
 
 可以去我的公众号《力扣加加》后台回复电子书获取！
@@ -65,8 +63,6 @@
 最后送给大家一句话： **坚持下去，会有突然间成长的一天**。
 
 [点此参与](https://github.com/azl397985856/leetcode/discussions/532)
-
-![](https://p.ipic.vip/ltkyaq.jpg)
 
 - 🔥🔥🔥🔥 [活动首页](https://leetcode-solution.cn/91) 🔥🔥🔥🔥
 - [91 第三期讲义 - 二分专题（上）](./thinkings/binary-search-1.md)
