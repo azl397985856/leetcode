@@ -30,7 +30,7 @@
 
 有些动图，在做成电子书（比如 pdf）的时候自然就变没了，如果需要看动图的， 可以去我的公众号《力扣加加》或者我的 leetcode 题解仓库看。
 
-<img src="https://p.ipic.vip/n8gbxo.jpg" width="100%">
+<img src="https://p.ipic.vip/h9nm77.jpg" width="100%">
 
 > epub 还是有动图的
 
