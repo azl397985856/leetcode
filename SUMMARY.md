@@ -93,6 +93,7 @@
   - [1128. 等价多米诺骨牌对的数量](./problems/1128.number-of-equivalent-domino-pairs.md)
   - [1260. 二维网格迁移](problems/1260.shift-2d-grid.md)
   - [1332. 删除回文子序列](problems/1332.remove-palindromic-subsequences.md)
+  - [2591. 将钱分给最多的儿童](./problems/2591.distribute-money-to-maximum-children.md)
 
 - [第五章 - 高频考题（中等）](collections/medium.md)
 
@@ -269,9 +270,12 @@
   - [1906. 查询差绝对值的最小值](./problems/1906.minimum-absolute-difference-queries.md)
   - [2007. 从双倍数组中还原原数组](./problems/2007.find-original-array-from-doubled-array.md)
   - [2008. 出租车的最大盈利](./problems/2008.maximum-earnings-from-taxi.md)
+  - [2592. 最大化数组的伟大值](./problems/2592.maximize-greatness-of-an-array.md)
+  - [2593. 标记所有元素后数组的分数](./problems/2593.find-score-of-an-array-after-marking-all-elements.md)
   - [5935. 适合打劫银行的日子](./problems/5935.find-good-days-to-rob-the-bank.md)
   - [5936. 引爆最多的炸弹](./problems/5936.detonate-the-maximum-bombs.md)
   - [5965. 相同元素的间隔之和](./problems/5965.intervals-between-identical-elements.md)
+  - [6021. 字符串中最多数目的子字符串](./problems/6201.maximize-number-of-subsequences-in-a-string.md)
 
 - [第六章 - 高频考题（困难）](collections/hard.md)
 
