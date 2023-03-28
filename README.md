@@ -52,7 +52,7 @@
 
 - 推荐北大 FB 双料大神的[《九章算法班》](https://www.jiuzhang.com/course/71/?utm_source=tf-github-lucifer2022)，有人靠他连拿 3 个大厂 offer
 
-![](https://p.ipic.vip/8a4bul.jpg)
+![](https://p.ipic.vip/fu39bf.jpg)
 
 ## :calendar:《91 天学算法》限时活动
 
