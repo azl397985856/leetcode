@@ -404,6 +404,7 @@ leetcode 题解，记录自己的 leetcode 解题之路。
 - [1023. 驼峰式匹配](./problems/1023.camelcase-matching.md)
 - [1031. 两个非重叠子数组的最大和](./problems/1031.maximum-sum-of-two-non-overlapping-subarrays.md)
 - [1043. 分隔数组以得到最大和](./problems/1043.partition-array-for-maximum-sum.md)
+- [1053. 交换一次的先前排列)](./problems/1053.previous-permutation-with-one-swap.md)
 - [1104. 二叉树寻路](./problems/1104.path-in-zigzag-labelled-binary-tree.md)
 - [1129. 颜色交替的最短路径](./problems/1129.shortest-path-with-alternating-colors.md)
 - [1131. 绝对值表达式的最大值](./problems/1131.maximum-of-absolute-value-expression.md)
