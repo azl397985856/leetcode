@@ -48,7 +48,7 @@
 
 九章算法，由北大、清华校友于美国硅谷创办，已帮助数十万 IT 程序员找到高薪 offer! 提供 1 对 1 求职指导、算法指导、前后端项目、简历代笔等服务。
 
-- 推荐刷题网站：[www.lintcode.com](https://www.lintcode.com/?utm_source=tf-github-lucifer2022)， 戳此免费领取 7 天[LintCode 超级 Vip](https://www.lintcode.com/vip/activity/zWIMOY)
+- 推荐[免费ChatGPT网站](https://www.lintcode.com/chat-gpt?utm_source=tf-github-lucifer)，戳此免费使用：[www.lintcode.com/chat-gpt](www.lintcode.com/chat-gpt)
 
 - 推荐北大 FB 双料大神的[《九章算法班》](https://www.jiuzhang.com/course/71/?utm_source=tf-github-lucifer2022)，有人靠他连拿 3 个大厂 offer
 
