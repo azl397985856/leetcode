@@ -274,6 +274,7 @@
   - [2008. 出租车的最大盈利](./problems/2008.maximum-earnings-from-taxi.md)
   - [2592. 最大化数组的伟大值](./problems/2592.maximize-greatness-of-an-array.md)
   - [2593. 标记所有元素后数组的分数](./problems/2593.find-score-of-an-array-after-marking-all-elements.md)
+  - [2817. 限制条件下元素之间的最小绝对差](./problems/2817.minimum-absolute-difference-between-elements-with-constraint.md)
   - [5935. 适合打劫银行的日子](./problems/5935.find-good-days-to-rob-the-bank.md)
   - [5936. 引爆最多的炸弹](./problems/5936.detonate-the-maximum-bombs.md)
   - [5965. 相同元素的间隔之和](./problems/5965.intervals-between-identical-elements.md)
