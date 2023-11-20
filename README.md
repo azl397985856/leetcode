@@ -545,6 +545,7 @@ leetcode 题解，记录自己的 leetcode 解题之路。
 - [2025. 分割数组的最多方案数](./problems/2025.maximum-number-of-ways-to-partition-an-array.md)
 - [2030. 含特定字母的最小子序列](./problems/2030.smallest-k-length-subsequence-with-occurrences-of-a-letter.md)
 - [2102. 序列顺序查询](./problems/2102.sequentially-ordinal-rank-tracker.md)
+- [2141. 同时运行 N 台电脑的最长时间](./problems/2141.maximum-running-time-of-n-computers.md)
 - [2209. 用地毯覆盖后的最少白色砖块](./problems/2209.minimum-white-tiles-after-covering-with-carpets.md) 👍
 - [2281. 巫师的总力量和](./problems/2281.sum-of-total-strength-of-wizards.md)
 - [2306. 公司命名](./problems/2306.naming-a-company.md) 枚举优化好题
