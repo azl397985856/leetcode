@@ -432,6 +432,7 @@ leetcode 题解，记录自己的 leetcode 解题之路。
 - [2593. 标记所有元素后数组的分数](./problems/2593.find-score-of-an-array-after-marking-all-elements.md)
 - [2817. 限制条件下元素之间的最小绝对差](./problems/2817.minimum-absolute-difference-between-elements-with-constraint.md)
 - [2866. 美丽塔 II](./problems/2866.beautiful-towers-ii.md)
+- [2939. 最大异或乘积](./problems/2939.maximum-xor-product.md)
 - [5935. 适合打劫银行的日子](./problems/5935.find-good-days-to-rob-the-bank.md)
 - [5936. 引爆最多的炸弹](./problems/5936.detonate-the-maximum-bombs.md)
 - [5965. 相同元素的间隔之和](./problems/5965.intervals-between-identical-elements.md)
