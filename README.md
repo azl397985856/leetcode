@@ -558,6 +558,7 @@ leetcode 题解，记录自己的 leetcode 解题之路。
 - [2281. 巫师的总力量和](./problems/2281.sum-of-total-strength-of-wizards.md)
 - [2306. 公司命名](./problems/2306.naming-a-company.md) 枚举优化好题
 - [2842. 统计一个字符串的 k 子序列美丽值最大的数目](./problems/2842.count-k-subsequences-of-a-string-with-maximum-beauty.md)
+- [2972. 统计移除递增子数组的数目 II](./problems/2972.count-the-number-of-incremovable-subarrays-ii.md)
 - [3027. 人员站位的方案数 II](./problems/3027.find-the-number-of-ways-to-place-people-ii.md)
 - [3041. 修改数组后最大化数组中的连续元素数目 ](./problems/3041.maximize-consecutive-elements-in-an-array-after-modification.md)
 - [5254. 卖木头块](./problems/5254.selling-pieces-of-wood.md) 动态规划经典题
