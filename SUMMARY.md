@@ -366,14 +366,15 @@
   - [2030. 含特定字母的最小子序列](./problems/2030.smallest-k-length-subsequence-with-occurrences-of-a-letter.md)
   - [2102. 序列顺序查询](./problems/2102.sequentially-ordinal-rank-tracker.md)
   - [2141. 同时运行 N 台电脑的最长时间](./problems/2141.maximum-running-time-of-n-computers.md)
+  - [2179. 统计数组中好三元组数目](./problems/2179.count-good-triplets-in-an-array.md) 👍
   - [2209. 用地毯覆盖后的最少白色砖块](./problems/2209.minimum-white-tiles-after-covering-with-carpets.md)
   - [2281.sum-of-total-strength-of-wizards](./problems/2281.sum-of-total-strength-of-wizards.md)
   - [2306. 公司命名](./problems/2306.naming-a-company.md) 枚举优化好题
+  - [2312. 卖木头块](./problems/2312.selling-pieces-of-wood.md) 动态规划经典题
   - [2842. 统计一个字符串的 k 子序列美丽值最大的数目](./problems/2842.count-k-subsequences-of-a-string-with-maximum-beauty.md)
   - [2972. 统计移除递增子数组的数目 II](./problems/2972.count-the-number-of-incremovable-subarrays-ii.md)
   - [3027. 人员站位的方案数 II](./problems/3027.find-the-number-of-ways-to-place-people-ii.md)
   - [3041. 修改数组后最大化数组中的连续元素数目 ](./problems/3041.maximize-consecutive-elements-in-an-array-after-modification.md)
-  - [5254. 卖木头块](./problems/5254.selling-pieces-of-wood.md) 动态规划经典题
-  - [5999. 统计数组中好三元组数目](./problems/5999.count-good-triplets-in-an-array.md) 👍
+  - [3108. 带权图里旅途的最小代价](./problems/3108.minimum-cost-walk-in-weighted-graph.md)
 
 - [后序](epilogue.md)
