@@ -236,17 +236,22 @@ class MedianFinder:
 
 题目要求我们选择 k 个人，按其工作质量与同组其他工人的工作质量的比例来支付工资，并且工资组中的每名工人至少应当得到他们的最低期望工资。
 
-换句话说，同一组的 k 个人他们的工作质量和工资比是一个固定值才能使支付的工资最少。请先理解这句话，后面的内容都是基于这个前提产生的。
+由于题目要求我们同一组的工作质量与工资比值相同。因此如果 k 个人中最大的 w/q 确定，那么总工资就是确定的。就是 sum_of_q * w/q， 也就是说如果 w/q 确定，那么 sum_of_q 越小，总工资越小。
 
-我们不妨定一个指标**工作效率**，其值等于 q / w。前面说了这 k 个人的 q / w 是相同的才能保证工资最少，并且这个 q / w 一定是这 k 个人最低的（短板），否则一定会有人得不到最低期望工资。
+又因为 sum_of_q 一定的时候， w/q 越小，总工资越小。因此我们可以从小到大枚举 w/q，然后在其中选 k 个 最小的q，使得总工资最小。
+
+因此思路就是：
+
+- 枚举最大的 w/q, 然后用堆存储 k 个 q。当堆中元素大于 k 个时，将最大的 q 移除。
+- 由于移除的时候我们希望移除“最大的”q，因此用大根堆
 
 于是我们可以写出下面的代码：
 
 ```py
 class Solution:
     def mincostToHireWorkers(self, quality: List[int], wage: List[int], K: int) -> float:
-        eff = [(q / w, q, w) for a, b in zip(quality, wage)]
-        eff.sort(key=lambda a: -a[0])
+        eff = [(w/q, q, w) for q, w in zip(quality, wage)]
+        eff.sort(key=lambda a: a[0])
         ans = float('inf')
         for i in range(K-1, len(eff)):
             h = []
@@ -255,7 +260,7 @@ class Solution:
             # 找出工作效率比它高的 k 个人，这 k 个人的工资尽可能低。
             # 由于已经工作效率倒序排了，因此前面的都是比它高的，然后使用堆就可得到 k 个工资最低的。
             for j in range(i):
-                heapq.heappush(h, eff[j][1] / rate)
+                heapq.heappush(h, eff[j][1] * rate)
             while k > 0:
                 total += heapq.heappop(h)
                 k -= 1
@@ -280,18 +285,19 @@ class Solution:
 ```py
 class Solution:
     def mincostToHireWorkers(self, quality: List[int], wage: List[int], K: int) -> float:
-        effs = [(q / w, q) for q, w in zip(quality, wage)]
-        effs.sort(key=lambda a: -a[0])
-        ans = float('inf')
+        # 如果最大的 w/q 确定，那么总工资就是确定的。就是 sum_of_q * w/q， 也就是说 sum_of_q 越小，总工资越小
+        # 枚举最大的 w/q, 然后用堆在其中选 k 个 q 即可。由于移除的时候我们希望移除“最大的”q，因此用大根堆
+        A = [(w/q, q) for w, q in zip(wage, quality)]
+        A.sort()
+        ans = inf
+        sum_of_q = 0
         h = []
-        total = 0
-        for rate, q in effs:
+        for rate, q in A:
             heapq.heappush(h, -q)
-            total += q
-            if len(h) > K:
-                total += heapq.heappop(h)
+            sum_of_q += q
             if len(h) == K:
-                ans = min(ans, total / rate)
+                ans = min(ans, sum_of_q * rate)
+                sum_of_q += heapq.heappop(h)
         return ans
 ```
 
