@@ -375,6 +375,7 @@
   - [2972. 统计移除递增子数组的数目 II](./problems/2972.count-the-number-of-incremovable-subarrays-ii.md)
   - [3027. 人员站位的方案数 II](./problems/3027.find-the-number-of-ways-to-place-people-ii.md)
   - [3041. 修改数组后最大化数组中的连续元素数目 ](./problems/3041.maximize-consecutive-elements-in-an-array-after-modification.md)
+  - [3082. 求出所有子序列的能量和 ](./problems/3082.find-the-sum-of-the-power-of-all-subsequences.md)
   - [3108. 带权图里旅途的最小代价](./problems/3108.minimum-cost-walk-in-weighted-graph.md)
 
 - [后序](epilogue.md)

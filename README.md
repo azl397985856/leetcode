@@ -463,11 +463,14 @@ leetcode 题解，记录自己的 leetcode 解题之路。
 - 状态压缩
 - 剪枝
 
-从逻辑上说， 要么就是非常难想到，要么就是非常难写代码。 这里我总结了几个技巧：
+从逻辑上说， 要么就是非常难想到，要么就是非常难写代码。 由于有时候需要组合多种算法，因此这部分题目的难度是最大的。
+
+这里我总结了几个技巧：
 
 1. 看题目的数据范围， 看能否暴力模拟
 2. 暴力枚举所有可能的算法往上套，比如图的题目。
-3. 总结和记忆解题模板，减少解题压力
+3. 对于代码非常难写的题目，可以总结和记忆解题模板，减少解题压力
+4. 对于组合多种算法的题目，先尝试简化问题，将问题划分成几个小问题，然后再组合起来。
 
 以下是我列举的经典题目（带 91 字样的表示出自 **91 天学算法**活动）：
 
@@ -563,6 +566,7 @@ leetcode 题解，记录自己的 leetcode 解题之路。
 - [2972. 统计移除递增子数组的数目 II](./problems/2972.count-the-number-of-incremovable-subarrays-ii.md)
 - [3027. 人员站位的方案数 II](./problems/3027.find-the-number-of-ways-to-place-people-ii.md)
 - [3041. 修改数组后最大化数组中的连续元素数目 ](./problems/3041.maximize-consecutive-elements-in-an-array-after-modification.md)
+- [3082. 求出所有子序列的能量和 ](./problems/3082.find-the-sum-of-the-power-of-all-subsequences.md)
 - [3108. 带权图里旅途的最小代价](./problems/3108.minimum-cost-walk-in-weighted-graph.md)
 
 ## :trident: &nbsp;anki 卡片
