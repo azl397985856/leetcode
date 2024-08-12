@@ -10,33 +10,19 @@
 
 我们的 slogan 是： **只有熟练掌握基础的数据结构与算法，才能对复杂问题迎刃有余。**
 
+[![Star History Chart](https://api.star-history.com/svg?repos=azl397985856/leetcode&type=Date)](https://star-history.com/#azl397985856/leetcode&Date)
+
 ## 🔥🔥🔥 我的《算法通关之路》出版了 🔥🔥🔥
 
 我的新书《算法通关之路》出版了。
 
-![](https://p.ipic.vip/zo8cz5.jpg)
+<img src="https://p.ipic.vip/zo8cz5.jpg" height="300">
 
 - [实体版购书链接 1](https://union-click.jd.com/jdc?e=618%7Cpc%7C&p=JF8BAN4JK1olXwUFU1xcAUoRA18IGFMXXgQDUG4ZVxNJXF9RXh5UHw0cSgYYXBcIWDoXSQVJQwYBXFxeCkoTHDZNRwYlQ1J3BB0EWEl0QhkIH1xMBXBlDyQ1TkcbM244G1oUXQ4HU1tbDXsnA2g4STXN67Da8e9B3OGY1uefK1olXQEEUFhYCkgSAWwOHmsSXQ8yDwszD0sSUDtbGAlCDVJVAW5tOEgnBG8BD11nHFQWUixtOEsnAF9KdV5AWQcDB1cPDktEAWpfSwhFXwUDUllVDkMVATxbHVwWbQQDVVpUOHs)
 
 - [实体版购书链接 2](https://union-click.jd.com/jdc?e=618|pc|&p=JF8BAM0JK1olXDYCV1ZfC0kWB19MRANLAjZbERscSkAJHTdNTwcKBlMdBgABFksUC20LGVoRQl9HCANtQDt-RAZPBQFwJ0ZEA1hDWh9wdTB2a1cZbQcyVF9cCEMSBGoOHmslXQEyAjBdCUoWAm4NG14WbQcyVFlYDk4eBG8LG1gUXzYFVFdtUx55BG8NSA9GXlRVBAoKXXsnM2w4HFscEEdQGW5tCHsUMy1mE14WDQcCUVxfWk9EBmkOSQsWDwVSVwpcWEoXUG5aElslXwcDUFdt)
 
 - [电子版购书链接](https://union-click.jd.com/jdc?e=&p=JF8BAL0JK1olXDYAVVhfD04UAl9MRANLAjZbERscSkAJHTdNTwcKBlMdBgABFkkWBW0PHlgUQl9HCANtcS0SdTFvWVt1X3BkVV4Kc0JxYRtPe1cZbQcyVF9cCEMSBGoOHmslXQEyHzBcOEonA2gKE1oVWwEKXV5cAXsQA2Y4QA57WgYHBwoOCxlAUztfTmslbQUyZG5dOEgnQQFaSQ5FWQYFB1cODhgSVDpaS1hFDwQLUlwJAU5DAWcJHWsXXAcGXW4)
-
-## :blue_book: 电子书
-
-**注意：这里的电子书并不是《算法通关之路》的电子版，而是本仓库内容的电子版！**
-
-[在线阅读地址](https://leetcode-solution-leetcode-pp.gitbook.io/leetcode-solution/)
-
-**限时免费下载！后期随时可能收费**
-
-可以去我的公众号《力扣加加》后台回复电子书获取！
-
-<img src="https://p.ipic.vip/h9nm77.jpg" width="100%">
-
-> epub 还是有动图的
-
-另外有些内容只在公众号发布，因此大家觉得内容不错的话，可以关注一下。如果再给 ➕ 个星标就更棒啦！
 
 ## 图片加载不出来如何解决？
 
@@ -47,7 +33,7 @@
 
 现在力扣在每日一题基础上还搞了一个 plus 会员挑战，每天刷题可以获得积分，积分可以兑换力扣周边。
 
-![plus 会员挑战](https://p.ipic.vip/ha134p.png)
+<img src="https://p.ipic.vip/ha134p.png" alt="plus 会员挑战" height="200">
 
 如果你要买力扣会员的话，这里有我的专属力扣折扣：https://leetcode.cn/premium/?promoChannel=lucifer (年度会员多送两个月会员，季度会员多送两周会员)
 ## :calendar:《91 天学算法》限时活动
@@ -68,6 +54,7 @@
 
 如果大家觉得上面的集体活动效率比较低，我目前也接受 1v1 算法辅导，价格根据你的算法基础以及想要学习的内容而定感兴趣的可以加我微信，备注“算法辅导”，微信号 DevelopeEngineer。
 
+
 ## :octocat: 仓库介绍
 
 leetcode 题解，记录自己的 leetcode 解题之路。
@@ -83,6 +70,22 @@ leetcode 题解，记录自己的 leetcode 解题之路。
 - 第四部分是每日一题，每日一题是在交流群（包括微信和 qq）里进行的一种活动，大家一起 解一道题，这样讨论问题更加集中，会得到更多的反馈。而且 这些题目可以被记录下来，日后会进行筛选添加到仓库的题解模块。
 
 - 第五部分是计划， 这里会记录将来要加入到以上三个部分内容
+
+## :blue_book: 电子书
+
+**注意：这里的电子书并不是《算法通关之路》的电子版，而是本仓库内容的电子版！**
+
+[在线阅读地址](https://leetcode-solution-leetcode-pp.gitbook.io/leetcode-solution/)
+
+**限时免费下载！后期随时可能收费**
+
+可以去我的公众号《力扣加加》后台回复电子书获取！
+
+<img src="https://p.ipic.vip/h9nm77.jpg" height="200">
+
+> epub 还是有动图的
+
+另外有些内容只在公众号发布，因此大家觉得内容不错的话，可以关注一下。如果再给 ➕ 个星标就更棒啦！
 
 ## :meat_on_bone: 仓库食用指南
 
