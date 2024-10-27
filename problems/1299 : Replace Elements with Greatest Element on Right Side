@@ -1,0 +1,20 @@
+class Solution {
+public:
+    vector<int> replaceElements(vector<int>& arr) { 
+
+       int maxi = -1;
+
+        // Traverse the array from right to left
+        for(int i = arr.size() - 1; i >= 0; i--) {
+           
+            int current = arr[i];
+        
+            // Replace the current element with the greatest element 
+            arr[i] = maxi;
+
+            // Update maxi 
+            maxi = max(maxi, current);
+        }
+        return arr;
+    }
+};
