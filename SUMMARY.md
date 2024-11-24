@@ -377,5 +377,6 @@
   - [3041. 修改数组后最大化数组中的连续元素数目 ](./problems/3041.maximize-consecutive-elements-in-an-array-after-modification.md)
   - [3082. 求出所有子序列的能量和 ](./problems/3082.find-the-sum-of-the-power-of-all-subsequences.md)
   - [3108. 带权图里旅途的最小代价](./problems/3108.minimum-cost-walk-in-weighted-graph.md)
+  - [3347. 执行操作后元素的最高频率 II](./problems/3347.maximum-frequency-of-an-element-after-performing-operations-ii.md)
 
 - [后序](epilogue.md)
