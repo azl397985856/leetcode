@@ -437,17 +437,17 @@ leetcode 题解，记录自己的 leetcode 解题之路。
 - [1906. 查询差绝对值的最小值](./problems/1906.minimum-absolute-difference-queries.md)
 - [2007. 从双倍数组中还原原数组](./problems/2007.find-original-array-from-doubled-array.md)
 - [2008. 出租车的最大盈利](./problems/2008.maximum-earnings-from-taxi.md)
+- [2100. 适合打劫银行的日子](./problems/5935.find-good-days-to-rob-the-bank.md)
+- [2101. 引爆最多的炸弹](./problems/5936.detonate-the-maximum-bombs.md)
+- [2121. 相同元素的间隔之和](./problems/5965.intervals-between-identical-elements.md)
+- [2207. 字符串中最多数目的子字符串](./problems/6201.maximize-number-of-subsequences-in-a-string.md)
 - [2592. 最大化数组的伟大值](./problems/2592.maximize-greatness-of-an-array.md)
 - [2593. 标记所有元素后数组的分数](./problems/2593.find-score-of-an-array-after-marking-all-elements.md)
 - [2817. 限制条件下元素之间的最小绝对差](./problems/2817.minimum-absolute-difference-between-elements-with-constraint.md)
 - [2865. 美丽塔 I](./problems/2865.beautiful-towers-i.md)
 - [2866. 美丽塔 II](./problems/2866.beautiful-towers-ii.md)
 - [2939. 最大异或乘积](./problems/2939.maximum-xor-product.md)
-- [5935. 适合打劫银行的日子](./problems/5935.find-good-days-to-rob-the-bank.md)
-- [5936. 引爆最多的炸弹](./problems/5936.detonate-the-maximum-bombs.md)
-- [5965. 相同元素的间隔之和](./problems/5965.intervals-between-identical-elements.md)
-- [6021. 字符串中最多数目的子字符串](./problems/6201.maximize-number-of-subsequences-in-a-string.md)
-
+- [3377. 使两个整数相等的数位操作](./problems/3377.digit-operations-to-make-two-integers-equal.md)
 ### 困难难度题目合集
 
 困难难度题目从类型上说多是：
@@ -573,6 +573,7 @@ leetcode 题解，记录自己的 leetcode 解题之路。
 - [3108. 带权图里旅途的最小代价](./problems/3108.minimum-cost-walk-in-weighted-graph.md)
 - [3347. 执行操作后元素的最高频率 II](./problems/3347.maximum-frequency-of-an-element-after-performing-operations-ii.md)
 - [3336. 最大公约数相等的子序列数量](./problems/3336.find-the-number-of-subsequences-with-equal-gcd.md)
+
 
 ## :trident: &nbsp;anki 卡片
 
