@@ -573,6 +573,7 @@ leetcode 题解，记录自己的 leetcode 解题之路。
 - [3108. 带权图里旅途的最小代价](./problems/3108.minimum-cost-walk-in-weighted-graph.md)
 - [3347. 执行操作后元素的最高频率 II](./problems/3347.maximum-frequency-of-an-element-after-performing-operations-ii.md)
 - [3336. 最大公约数相等的子序列数量](./problems/3336.find-the-number-of-subsequences-with-equal-gcd.md)
+- [3410. 删除所有值为某个元素后的最大子数组和](./problems/3410.maximize-subarray-sum-after-removing-all-occurrences-of-one-element.md)
 
 
 ## :trident: &nbsp;anki 卡片
