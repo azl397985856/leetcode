@@ -284,6 +284,7 @@
   - [2866. 美丽塔 II](./problems/2866.beautiful-towers-ii.md)
   - [2939. 最大异或乘积](./problems/2939.maximum-xor-product.md)
   - [3377. 使两个整数相等的数位操作](./problems/3377.digit-operations-to-make-two-integers-equal.md)
+  - [3404. 统计特殊子序列的数目](./problems/3404.count-special-subsequences.md)
 
 - [第六章 - 高频考题（困难）](collections/hard.md)
 
