@@ -34,7 +34,7 @@
 
 不过大家不要太有压力。lucifer 给大家带来了一个口诀**一个中心，两种实现，三个技巧，四大应用**，我们不仅讲实现和原理，更讲问题的**背景以及套路和模板**。
 
-> 文章里涉及的模板大家随时都可以从我的[力扣刷题插件 leetcode-cheatsheet](https://chrome.google.com/webstore/detail/leetcode-cheatsheet/fniccleejlofifaakbgppmbbcdfjonle/related?hl=zh-CN&authuser=0 "力扣刷题插件 leetcode-cheatsheet") 中获取。
+> 文章里涉及的模板大家随时都可以从我的[力扣刷题插件 leetcode-cheatsheet](https://chromewebstore.google.com/detail/leetcode-cheatsheet/fniccleejlofifaakbgppmbbcdfjonle/related?hl=zh-CN&authuser=0 "力扣刷题插件 leetcode-cheatsheet") 中获取。
 
 ## 堆的使用场景分析
 
