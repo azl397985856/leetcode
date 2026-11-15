@@ -1,3 +1,12 @@
+## 🚨 作者已转向 Web3 与理财创作
+
+这个仓库是 2020-2021 年的算法题解存档（仍可用作面试复习，issue 也会回复）。如果你想跟着我**从零学 Web3、看懂链上世界**：
+
+- 📖 博客 [lucifer.ren](https://lucifer.ren)：从零实现区块链、MEV 与三明治攻击、预言机、DeFi、钱包安全、Gas 机制——全部系列文章配可运行的 Python 代码
+- 📱 公众号「力扣加加」：已转型 Web3 与理财方向
+
+---
+
 # LeetCode
 
 [![Travis](https://p.ipic.vip/k4pv1r.jpg)]() [![Travis](https://p.ipic.vip/32nfgh.jpg)]() [![Travis](https://p.ipic.vip/4a36ao.jpg)]() [![Travis](https://p.ipic.vip/fd1f82.jpg)]() [![Travis](https://p.ipic.vip/mhz5uy.jpg)]() [![Travis](https://p.ipic.vip/gp1hvz.jpg)]()
